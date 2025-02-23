@@ -1,0 +1,19 @@
+import json
+import csv
+
+def jsonl_to_csv(jsonl_file, csv_file):
+    with open(jsonl_file, 'r') as infile, open(csv_file, 'w', newline='') as outfile:
+        writer = csv.DictWriter(outfile, fieldnames=None)
+        
+        for line in infile:
+            data = json.loads(line)
+            
+            if writer.fieldnames is None:
+                writer.fieldnames = data.keys()
+                writer.writeheader()
+            
+            writer.writerow(data)
+
+# Example usage:
+jsonl_to_csv('/student/mjr175/commentGeneration/ASAP_DATASET/Java_data/Java_data/test.jsonl',
+ '/student/mjr175/commentGeneration/Test_From_Asap/JavaTest.csv')

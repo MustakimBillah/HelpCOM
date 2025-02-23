@@ -1,0 +1,45 @@
+{
+    "_id": {
+      "$oid": "document id of the record in mongo db database"
+    },
+    "repo": "Repository Name",
+    "file": "GitHub url of the JAVA file of the repository",
+    "methods": [
+      {
+        "SchemaDescription": "List of methods in the file"
+      },
+      {
+        "Docstring": "Ground Truth Comment of the method",
+        "Syntax": "Method Body (Code)",
+        "FunctionName": "Name of the method",
+        "ArgsCount": "Number of parameters of the method",
+        "StartLine": "Start line number in the file of the method",
+        "EndLine": "End line number in the file of the method",
+        "helpers": {
+          "Desctiption": "List of helpers associated with the method",
+          "helpers": [
+            {
+              "Syntax": "syntax of how the helper was called from the parent method",
+              "FunctionName": "name of the helper method",
+              "ArgsCount": "Number of parameters of the helper method",
+              "MethodBody": "Code of the helper method",
+              "FileName": "Github url of the file of the helper method"
+            }
+          ]
+        },
+        "isDependent": "true means the method is dependent, false means independent",
+        "commits": "Number of commits related to the method in it's lifetime",
+        "authors": "Number of contributors related to the method in it's lifetime",
+        "diffs": "Number of changes related to the method in it's lifetime",
+        "firstCommit": "dateTime of first commit related to the method",
+        "lastCommit": "dateTime of last commit related to the method",
+        "timeFrame": "time frame between first and last commit in DateTime",
+        "sideGT": "SIDE metric score of the Method",
+        "methodLevelComment": "# cleaned comment from Docstring"
+      }
+    ],
+    "imports": [
+      "list of all the imports in the file"
+    ],
+    "language": "JAVA"
+  }

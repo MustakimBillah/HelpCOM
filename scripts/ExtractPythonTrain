@@ -1,0 +1,22 @@
+import json
+import random
+
+# Open the JSONL file and read its lines
+with open('/student/mjr175/commentGeneration/ASAP_DATASET/Python_data/Python_data/train.jsonl', 'r') as file:
+    lines = file.readlines()
+
+# Initialize a list to store the selected elements
+selected_elements = []
+
+# Randomly select 250 lines from the file
+selected_lines = random.sample(lines, 250)
+
+# Parse each selected line as JSON and append it to the list
+for line in selected_lines:
+    selected_elements.append(json.loads(line))
+
+# write the selected elements to a new JSONL file
+with open('PythonTrain.jsonl', 'w') as file:
+    for element in selected_elements:
+        json.dump(element, file)
+        file.write('\n')

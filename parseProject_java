@@ -1,0 +1,57 @@
+from pymongo import MongoClient
+import sh
+import time
+
+def clone_repo(url, destination):
+    try:
+        # Run the git clone command
+        sh.git.clone(url, destination)
+        print("Repository cloned successfully.")
+    except Exception as e:
+        print("Error occurred while cloning repository: Repository not found or URL is incorrect.",e)
+        
+# client = MongoClient("localhost",27017)
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+Methods = db.repoMethods
+
+# Destination directory where the repository will be cloned
+destination_dir = "/student/mjr175/commentGeneration/JavaProjects/"
+
+# Keep track of already cloned repositories
+cloned_repos = set()
+cnt=0
+# Iterate through documents and clone unique repositories
+# for methods in helperMethods.find():
+#     repo = methods.get('repo')
+#     if repo not in cloned_repos:
+#         cloned_repos.add(repo)
+
+
+# for repo in cloned_repos:
+#         repo_url = "https://github.com/" + repo 
+#         # Construct the repository URL
+#         print(repo_url)
+#         clone_repo(repo_url, destination_dir+repo)
+#         time.sleep(10)
+
+
+
+
+for methods in Methods.find():
+    #print(methods)
+    cnt+=1
+
+print(cnt)
+
+
+
+
+
+
+
+
+
+

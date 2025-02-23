@@ -1,0 +1,5774 @@
+-----------------------------------------------------------------
+-----------------------------------------------------------------
+< 67299dbda23f7e5639814e0e >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 1
+Comment 11: 3
+Comment 12: 5
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814e0f >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e10 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 5
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 3
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e11 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e12 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 2
+Comment 9: 3
+Comment 10: 3
+Comment 11: 4
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e13 >
+Comment 1: 2.5 - The comment is concise but lacks detail about the function's parameters and return value.
+
+Comment 2: 3.5 - The comment provides a good summary of the function's purpose, parameters, and return value, but it's not very readable due to the lack of spacing between sentences and the '@param' and '@return' tags.
+
+Comment 3: 4 - This comment is clear, concise, and accurately describes the function's purpose.
+
+Comment 4: 1 - This comment is not helpful because it doesn't provide any information about the function.
+
+Comment 5: 4.5 - This comment is clear, concise, and accurately describes the function's purpose, parameters, and return value.
+
+Comment 6: 4.5 - This comment is clear, concise, and accurately describes the function's purpose, parameters, and return value.
+
+Comment 7: 4 - This comment is clear and concise, but it doesn't mention the return value.
+
+Comment 8: 4 - This comment is clear and concise, but it doesn't mention the return value.
+
+Comment 9: 4.5 - This comment is clear, concise, and accurately describes the function's purpose, parameters, and return value.
+
+Comment 10: 4 - This comment is clear, concise, and accurately describes the function's purpose, but it doesn't mention the return value.
+
+Comment 11: 4 - This comment is clear and concise, but it doesn't mention the return value.
+
+Comment 12: 3.5 - This comment is clear and accurately describes the function's purpose, parameters, and return value, but it assumes that the reader knows that the function is related to Elasticsearch, which may not be the case.
+
+Comment 13: 4 - This comment is clear, concise, and accurately describes the function's purpose, but it doesn't mention the return value.
+--------
+< 67299dbda23f7e5639814e14 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 4
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e15 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 1
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e16 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4.5
+Comment 9: 4
+Comment 10: 4.5
+Comment 11: 3.5
+Comment 12: 4
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814e17 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814e18 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 3
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e19 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 3
+Comment 11: 3
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e1a >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e1b >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 3
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e1c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e1d >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e1e >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e1f >
+Comment 1: 2.5
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 5
+Comment 11: 4.5
+Comment 12: 4.5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e20 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e21 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e22 >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 4
+Comment 4: 3
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 2
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e23 >
+Comment 1: 1
+Comment 2: 3
+Comment 3: 5
+Comment 4: 2
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 2
+Comment 11: 3
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e24 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e25 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e26 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e27 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e28 >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e29 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 5
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e2a >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e2b >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e2c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e2d >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e2e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e2f >
+Comment 1: 3.5
+Comment 2: 3
+Comment 3: 4
+Comment 4: 4.5
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 5
+Comment 9: 4.5
+Comment 10: 5
+Comment 11: 4.5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e30 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 2
+Comment 11: 3
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e31 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 1
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e32 >
+Comment 1: 1
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e33 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e34 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e35 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e36 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+Comment 4: 2
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e37 >
+Comment 1: 3.5
+Comment 2: 3.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 2.5
+Comment 7: 4.5
+Comment 8: 5
+Comment 9: 4.5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814e38 >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e39 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e3a >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 2
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e3b >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e3c >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e3d >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e3e >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e3f >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 3
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e40 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 3
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e41 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 2
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e42 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e43 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 2
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e44 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e45 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 3
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e46 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 3
+Comment 6: 3
+Comment 7: 3
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e47 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e48 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e49 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e4a >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 5
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 1 (This comment seems to be unrelated to the provided code.)
+--------
+< 67299dbda23f7e5639814e4b >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e4c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e4d >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 3
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e4e >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e4f >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 4
+Comment 8: 2
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e50 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e51 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e52 >
+Comment 1: 1
+Comment 2: 1
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e53 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e54 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 3
+Comment 8: 4
+Comment 9: 3
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e55 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 3
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e56 >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e57 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e58 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e59 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e5a >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 5
+Comment 11: 5
+Comment 12: 3
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e5b >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 5
+Comment 5: 3
+Comment 6: 5
+Comment 7: 3
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e5c >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e5d >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e5e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e5f >
+Comment 1: 2.5
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4.5
+Comment 5: 4.5
+Comment 6: 4.5
+Comment 7: 4.5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3.5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814e60 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e61 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 2
+Comment 12: 4
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814e62 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e63 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e64 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 5
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814e65 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e66 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 3
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e67 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 2
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e68 >
+Comment 1: 1/5
+Comment 2: 2/5
+Comment 3: 4/5
+Comment 4: 1/5
+Comment 5: 5/5
+Comment 6: 3/5
+Comment 7: 5/5
+Comment 8: 5/5
+Comment 9: 5/5
+Comment 10: 3/5
+Comment 11: 3/5
+Comment 12: 5/5
+Comment 13: 4/5
+--------
+< 67299dbda23f7e5639814e69 >
+Comment 1: 2/5
+Comment 2: 2/5
+Comment 3: 3/5
+Comment 4: 1/5
+Comment 5: 4/5
+Comment 6: 4/5
+Comment 7: 5/5
+Comment 8: 5/5
+Comment 9: 4/5
+Comment 10: 2/5
+Comment 11: 4/5
+Comment 12: 4/5
+Comment 13: 3/5
+--------
+< 67299dbda23f7e5639814e6a >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e6b >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e6c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e6d >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e6e >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 2
+Comment 9: 3
+Comment 10: 5
+Comment 11: 2
+Comment 12: 3
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e6f >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e70 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e71 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 2
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e72 >
+Comment 1: 1 (The comment is incomplete and does not provide any useful information about the function.)
+Comment 2: 3 (The comment is accurate but could provide more detail about how the top transaction IDs are determined.)
+Comment 3: 4 (The comment is accurate and provides some detail, but it could be more specific about how the top transaction IDs are determined.)
+Comment 4: 1 (The comment does not provide any information about the function.)
+Comment 5: 4 (The comment is accurate and provides some detail, but it could be more specific about how the top transaction IDs are determined.)
+Comment 6: 3 (The comment is accurate but could provide more detail about how the top transaction IDs are determined.)
+Comment 7: 4 (The comment is accurate and provides some detail, but it could be more specific about how the top transaction IDs are determined.)
+Comment 8: 2 (The comment is misleading because the code does not indicate that the top transaction IDs are determined by frequency.)
+Comment 9: 2 (The comment is misleading because the code does not indicate that the top transaction IDs are determined by transaction counts.)
+Comment 10: 1 (The comment does not provide any information about the function.)
+Comment 11: 5 (The comment is accurate and provides a detailed explanation of the function.)
+Comment 12: 2 (The comment is misleading because the code does not indicate that the top transaction IDs are determined by transaction counts.)
+Comment 13: 2 (The comment is misleading because the code does not indicate that the top transaction IDs are sorted in descending order based on frequency.)
+--------
+< 67299dbda23f7e5639814e73 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 2
+Comment 7: 5
+Comment 8: 5
+Comment 9: 3
+Comment 10: 2
+Comment 11: 4
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e74 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e75 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e76 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 5
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e77 >
+Comment 1: 3.5
+Comment 2: 4.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4.5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3.5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e78 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e79 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 4
+Comment 8: 3
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e7a >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e7b >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 3
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e7c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e7d >
+Comment 1: 3.5
+Comment 2: 2.5
+Comment 3: 4
+Comment 4: 4.5
+Comment 5: 4.5
+Comment 6: 5
+Comment 7: 4.5
+Comment 8: 5
+Comment 9: 4.5
+Comment 10: 3.5
+Comment 11: 4.5
+Comment 12: 4.5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e7e >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 1
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e7f >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e80 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e81 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e82 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 3
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e83 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e84 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e85 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e86 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e87 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 4
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814e88 >
+Comment 1: 3.5
+Comment 2: 4.5
+Comment 3: 4
+Comment 4: 3.5
+Comment 5: 3.5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3 (The comment is not accurate as the code does not show a DELETE request being sent)
+Comment 9: 4
+Comment 10: 3 (The comment is not concise and contains unnecessary information)
+Comment 11: 3.5
+Comment 12: 4 (The comment is accurate but it assumes the tokens are OAuth2 which is not specified in the code)
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814e89 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e8a >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e8b >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 3
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e8c >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e8d >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e8e >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 2
+Comment 10: 2
+Comment 11: 3
+Comment 12: 3
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814e8f >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e90 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 3
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e91 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e92 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e93 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e94 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e95 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e96 >
+Comment 1: 3.5
+Comment 2: 4
+Comment 3: 4.5
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4.5
+Comment 10: 3.5
+Comment 11: 4
+Comment 12: 4.5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814e97 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e98 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814e99 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e9a >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e9b >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e9c >
+Comment 1: 2.5
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4.5
+Comment 7: 3
+Comment 8: 3.5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 3.5
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e9d >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 3
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814e9e >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 2
+Comment 9: 2
+Comment 10: 4
+Comment 11: 3
+Comment 12: 2
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814e9f >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 4
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814ea0 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ea1 >
+Comment 1: 1
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 2
+Comment 11: 5
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ea2 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+Comment 4: 2
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ea3 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ea4 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 2
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ea5 >
+Comment 1: 1/5 - This comment is not related to the code provided. It seems to be a misplaced comment for a different function.
+Comment 2: 3/5 - The comment is concise and related to the code, but it lacks detail about what "new values" and "public compression" are.
+Comment 3: 3/5 - This comment is also concise and related to the code, but it lacks detail about what "new values" are and how they are being merged.
+Comment 4: 1/5 - This comment does not provide any information about the code. It seems to be a placeholder or error message.
+Comment 5: 4/5 - This comment is more detailed and accurately describes the function of the code, but it could be more specific about what "specified compression strategy" refers to.
+Comment 6: 4/5 - This comment is detailed and accurately describes the function of the code, but it could be more concise.
+Comment 7: 3/5 - This comment is concise and related to the code, but it lacks detail about what "public compression method" is.
+Comment 8: 3/5 - This comment is concise and related to the code, but it lacks detail about what "public compression ratio" is.
+Comment 9: 4/5 - This comment is detailed and accurately describes the function of the code, but it could be more specific about what "existing dataset" refers to.
+Comment 10: 3/5 - This comment is concise and related to the code, but it lacks detail about what "existing data set" is.
+Comment 11: 3/5 - This comment is concise and related to the code, but it lacks detail about what "centroids" and "public compression value" are.
+Comment 12: 5/5 - This comment is detailed, concise, and accurately describes the function of the code.
+Comment 13: 5/5 - This comment is detailed, concise, and accurately describes the function of the code.
+--------
+< 67299dbda23f7e5639814ea6 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 3
+Comment 8: 2
+Comment 9: 2
+Comment 10: 2
+Comment 11: 3
+Comment 12: 2
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ea7 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 3
+Comment 8: 3
+Comment 9: 3
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ea8 >
+Comment 1: 1
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 3
+Comment 9: 3
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814ea9 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 3
+Comment 10: 5
+Comment 11: 4
+Comment 12: 3
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eaa >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eab >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eac >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ead >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814eae >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eaf >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 3
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814eb0 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 3
+Comment 8: 5
+Comment 9: 3
+Comment 10: 2
+Comment 11: 5
+Comment 12: 3
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eb1 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eb2 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eb3 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eb4 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 3
+Comment 10: 5
+Comment 11: 5
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eb5 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 3
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eb6 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eb7 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eb8 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814eb9 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814eba >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 2
+Comment 12: 2
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ebb >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ebc >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ebd >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ebe >
+Comment 1: 3.5
+Comment 2: 2.5
+Comment 3: 3.5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4.5
+Comment 12: 4.5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814ebf >
+Comment 1: 2/5 - The comment is vague and does not accurately describe what the function does.
+Comment 2: 2/5 - The comment is somewhat accurate but lacks clarity and detail.
+Comment 3: 4/5 - This comment is clear, concise, and accurately describes the function's behavior.
+Comment 4: 1/5 - This comment is not relevant to the function and does not provide any useful information about it.
+Comment 5: 4/5 - This comment accurately describes the function's behavior in a clear and concise manner.
+Comment 6: 3/5 - The comment is accurate but is a bit verbose and could be simplified.
+Comment 7: 4/5 - This comment is clear, concise, and accurately describes the function's behavior.
+Comment 8: 5/5 - This comment is clear, concise, and accurately describes the function's behavior.
+Comment 9: 4/5 - This comment accurately describes the function's behavior in a clear and concise manner.
+Comment 10: 3/5 - The comment is accurate but lacks detail about the function's return value.
+Comment 11: 5/5 - This comment is clear, concise, and accurately describes the function's behavior.
+Comment 12: 4/5 - This comment accurately describes the function's behavior in a clear and concise manner.
+Comment 13: 2/5 - The comment is vague and does not accurately describe what the function does.
+--------
+< 67299dbda23f7e5639814ec0 >
+Comment 1: 3.5
+Comment 2: 2 (This comment is not clear and has a repetition error)
+Comment 3: 4
+Comment 4: 4.5
+Comment 5: 4.5
+Comment 6: 3.5 (This comment is a bit verbose)
+Comment 7: 4.5
+Comment 8: 5 (This comment is the most informative, mentioning the wildcard character)
+Comment 9: 5 (This comment is also very informative, mentioning the wildcard character)
+Comment 10: 4.5 (This comment is informative but slightly less concise than others)
+Comment 11: 4
+Comment 12: 5 (This comment is informative, mentioning the wildcard character)
+Comment 13: 4 (This comment is informative but slightly less concise than others)
+--------
+< 67299dbda23f7e5639814ec1 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 3
+Comment 4: 3
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 3
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ec2 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 3
+Comment 8: 3
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ec3 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 2
+Comment 8: 2
+Comment 9: 3
+Comment 10: 4
+Comment 11: 2
+Comment 12: 3
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814ec4 >
+Comment 1: 3.5
+Comment 2: 4.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4.5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ec5 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+Comment 4: 2
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 2
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ec6 >
+Comment 1: 3.5
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 3.5
+Comment 7: 4.5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3.5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814ec7 >
+Comment 1: 4
+Comment 2: 2 (The comment is not concise and includes unnecessary information)
+Comment 3: 4
+Comment 4: 1 (The comment does not provide any information about the function)
+Comment 5: 5
+Comment 6: 5 (The comment is detailed and explains the function well)
+Comment 7: 5
+Comment 8: 5
+Comment 9: 3 (The comment assumes the function supports both IPv4 and IPv6 formats, which is not clear from the code)
+Comment 10: 5
+Comment 11: 4
+Comment 12: 3 (Same as comment 9, the comment assumes the function supports both IPv4 and IPv6 formats, which is not clear from the code)
+Comment 13: 3 (The comment is not specific enough, it does not mention that the result is a string)
+--------
+< 67299dbda23f7e5639814ec8 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+Comment 4: 4
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 2
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ec9 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 1
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814eca >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ecb >
+Comment 1: 3.5 - The comment is accurate but lacks the detail that the bound is exclusive.
+Comment 2: 2 - The comment is too vague and does not provide enough information about the function.
+Comment 3: 5 - The comment is accurate, concise, and provides all necessary information.
+Comment 4: 1 - This comment does not provide any information about the function.
+Comment 5: 4.5 - The comment is accurate and concise, but it could be clearer that the bound is exclusive.
+Comment 6: 3 - The comment is somewhat vague and does not specify that the bound is exclusive.
+Comment 7: 4 - The comment is accurate but does not specify that the bound is exclusive.
+Comment 8: 4.5 - The comment is accurate and concise, but it could be clearer that the bound is exclusive.
+Comment 9: 5 - The comment is accurate, concise, and provides all necessary information.
+Comment 10: 4 - The comment is accurate but does not specify that the bound is exclusive.
+Comment 11: 4 - The comment is accurate but does not specify that the bound is exclusive.
+Comment 12: 5 - The comment is accurate, concise, and provides all necessary information.
+Comment 13: 4 - The comment is accurate but does not specify that the bound is exclusive.
+--------
+< 67299dbda23f7e5639814ecc >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 3
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ecd >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 3
+Comment 6: 4
+Comment 7: 3
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 2
+Comment 12: 2
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ece >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 3
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814ecf >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ed0 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 3
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ed1 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ed2 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 2
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 3
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ed3 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 5
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ed4 >
+Comment 1: 2.5 - The comment is too vague and doesn't specify what key it is referring to.
+
+Comment 2: 3.5 - The comment is accurate but it's not concise. It also incorrectly refers to a file instead of a secure configuration.
+
+Comment 3: 4 - The comment is concise and accurate, but it could provide a bit more context.
+
+Comment 4: 1 - This comment is not helpful as it doesn't provide any information about the function of the code.
+
+Comment 5: 4 - The comment is concise and accurate, but it could provide a bit more context.
+
+Comment 6: 4.5 - The comment is detailed and accurate, but it could be a bit more concise.
+
+Comment 7: 4.5 - The comment is accurate and provides good context, but it could be a bit more concise.
+
+Comment 8: 5 - The comment is concise, accurate, and provides good context.
+
+Comment 9: 5 - The comment is concise, accurate, and provides good context.
+
+Comment 10: 3 - The comment is concise but it doesn't provide enough context.
+
+Comment 11: 5 - The comment is concise, accurate, and provides good context.
+
+Comment 12: 5 - The comment is concise, accurate, and provides good context.
+
+Comment 13: 3.5 - The comment is concise and accurate, but it could provide a bit more context.
+--------
+< 67299dbda23f7e5639814ed5 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ed6 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ed7 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 3
+Comment 9: 4
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ed8 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+Comment 4: 4
+Comment 5: 4
+Comment 6: 2
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ed9 >
+Comment 1: 3.5
+Comment 2: 2.5
+Comment 3: 4
+Comment 4: 3.5
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4.5
+Comment 11: 4.5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eda >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 3
+Comment 11: 3
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814edb >
+Comment 1: 3.5
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 2
+Comment 11: 3
+Comment 12: 4.5
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814edc >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 3
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814edd >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 3
+Comment 9: 2
+Comment 10: 2
+Comment 11: 4
+Comment 12: 2
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814ede >
+Comment 1: 3.5
+Comment 2: 1.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3.5
+Comment 11: 4.5
+Comment 12: 4
+Comment 13: 2.5
+--------
+< 67299dbda23f7e5639814edf >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ee0 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ee1 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ee2 >
+Comment 1: 1
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ee3 >
+Comment 1: 3.5 - The comment is accurate but could be more specific about what the method does.
+Comment 2: 3 - The comment is somewhat accurate but doesn't mention the exception thrown when no UserTransaction is available.
+Comment 3: 4 - The comment accurately describes part of the method's functionality, but it doesn't cover the entire method.
+Comment 4: 1 - This comment doesn't provide any information about the method.
+Comment 5: 4.5 - The comment accurately describes the method's functionality, but it doesn't mention the lookup process.
+Comment 6: 4.5 - The comment accurately describes the method's functionality, but it doesn't mention the exception thrown when no UserTransaction is available.
+Comment 7: 4.5 - The comment accurately describes the method's functionality, but it doesn't mention the lookup process.
+Comment 8: 5 - The comment accurately and comprehensively describes the method's functionality.
+Comment 9: 5 - The comment accurately and comprehensively describes the method's functionality.
+Comment 10: 3 - The comment is somewhat accurate but doesn't mention the exception thrown when no UserTransaction is available or the lookup process.
+Comment 11: 3.5 - The comment is accurate but could be more specific about what the method does.
+Comment 12: 4.5 - The comment accurately describes the method's functionality, but it doesn't mention the exception thrown when no UserTransaction is available.
+Comment 13: 3 - The comment is somewhat accurate but doesn't cover the entire method's functionality.
+--------
+< 67299dbda23f7e5639814ee4 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 3
+Comment 9: 2
+Comment 10: 2
+Comment 11: 3
+Comment 12: 2
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ee5 >
+Comment 1: 1
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ee6 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 3
+Comment 9: 3
+Comment 10: 4
+Comment 11: 4
+Comment 12: 3
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ee7 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 2
+Comment 5: 3
+Comment 6: 4
+Comment 7: 5
+Comment 8: 3
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 3
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814ee8 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+Comment 4: 5
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ee9 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 5
+Comment 4: 4
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814eea >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814eeb >
+Comment 1: 3.5
+Comment 2: 4.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 3.5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814eec >
+Comment 1: 2/5 - The comment is too vague and does not mention the translation part of the function.
+
+Comment 2: 2/5 - The comment is not clear and does not mention the scaling part of the function.
+
+Comment 3: 4/5 - The comment is clear and accurately describes the function, but it does not specify that the rotation is in degrees.
+
+Comment 4: 4/5 - The comment is clear and accurately describes the function, but it does not specify that the rotation is in degrees.
+
+Comment 5: 5/5 - The comment is clear, concise, and accurately describes the function including the fact that the rotation is in degrees.
+
+Comment 6: 5/5 - The comment is a bit longer but it provides a detailed and accurate description of the function.
+
+Comment 7: 5/5 - The comment is clear, concise, and accurately describes the function including the fact that the rotation is in degrees.
+
+Comment 8: 5/5 - The comment is clear, concise, and accurately describes the function including the fact that the rotation is in degrees.
+
+Comment 9: 5/5 - The comment is clear, concise, and accurately describes the function including the fact that the rotation is in degrees.
+
+Comment 10: 3/5 - The comment is clear but it does not specify that the rotation is in degrees.
+
+Comment 11: 4/5 - The comment is clear and accurately describes the function, but it does not specify that the rotation is in degrees.
+
+Comment 12: 5/5 - The comment is clear, concise, and accurately describes the function including the fact that the rotation is in degrees.
+
+Comment 13: 4/5 - The comment is clear and accurately describes the function, but it does not specify that the rotation is in degrees.
+--------
+< 67299dbda23f7e5639814eed >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eee >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814eef >
+Comment 1: 2.5 - The comment is incomplete and does not provide a full explanation of the function's purpose.
+
+Comment 2: 2 - The comment is misleading. The function doesn't check for intersection of points, but line segments.
+
+Comment 3: 4 - The comment is accurate and provides a good summary of the function's purpose, but it could be more specific about the parameters.
+
+Comment 4: 1 - This comment does not provide any information about the function.
+
+Comment 5: 4.5 - This comment is accurate and provides a good summary of the function's purpose, but it could be more specific about the parameters.
+
+Comment 6: 4 - The comment is accurate and provides a good summary of the function's purpose, but it could be more specific about the parameters.
+
+Comment 7: 5 - This comment is accurate, specific, and provides a complete summary of the function's purpose.
+
+Comment 8: 5 - This comment is accurate, specific, and provides a complete summary of the function's purpose.
+
+Comment 9: 4.5 - This comment is accurate and provides a good summary of the function's purpose, but it could be more specific about the parameters.
+
+Comment 10: 1 - This comment is empty and provides no information about the function.
+
+Comment 11: 5 - This comment is accurate, specific, and provides a complete summary of the function's purpose.
+
+Comment 12: 4.5 - This comment is accurate and provides a good summary of the function's purpose, but it could be more specific about the parameters.
+
+Comment 13: 3 - This comment is accurate but not very specific. It does not provide enough information about the function's purpose.
+--------
+< 67299dbda23f7e5639814ef0 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 3
+Comment 10: 3
+Comment 11: 2
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ef1 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ef2 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 3
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 4
+Comment 8: 3
+Comment 9: 3
+Comment 10: 2
+Comment 11: 3
+Comment 12: 3
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814ef3 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ef4 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 3
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 2
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ef5 >
+Comment 1: 2.5
+Comment 2: 2.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3.5
+Comment 7: 4
+Comment 8: 4.5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814ef6 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 3
+Comment 8: 3
+Comment 9: 3
+Comment 10: 4
+Comment 11: 3
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ef7 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814ef8 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 3
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814ef9 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814efa >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 3
+Comment 6: 5
+Comment 7: 3
+Comment 8: 5
+Comment 9: 3
+Comment 10: 4
+Comment 11: 3
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814efb >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814efc >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814efd >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814efe >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 3
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814eff >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f00 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 2
+Comment 10: 2
+Comment 11: 2
+Comment 12: 2
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814f01 >
+Comment 1: 3.5
+Comment 2: 4.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4.5
+Comment 7: 4.5
+Comment 8: 3.5
+Comment 9: 3.5
+Comment 10: 5
+Comment 11: 3.5
+Comment 12: 3.5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814f02 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 4.5
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 3.5
+Comment 11: 4.5
+Comment 12: 5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814f03 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f04 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f05 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f06 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f07 >
+Comment 1: 2.5 - The comment is concise but it does not provide enough information about the function's purpose or its parameters.
+
+Comment 2: 4 - This comment is detailed and explains the function's parameters and the exception it might throw. However, it could be more concise.
+
+Comment 3: 4.5 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 4: 1 - This comment does not provide any useful information about the function.
+
+Comment 5: 4.5 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 6: 3.5 - This comment provides a good description of the function's purpose, but it is a bit verbose and does not mention the exception that the function might throw.
+
+Comment 7: 4.5 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 8: 4 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 9: 4.5 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 10: 2 - This comment is detailed but it is too verbose and does not accurately describe the function's purpose.
+
+Comment 11: 4 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 12: 4.5 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+
+Comment 13: 4 - This comment is concise and accurately describes the function's purpose, but it does not mention the exception that the function might throw.
+--------
+< 67299dbda23f7e5639814f08 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 2
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 3
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f09 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f0a >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814f0b >
+Comment 1: 2.5
+Comment 2: 2
+Comment 3: 2.5
+Comment 4: 3.5
+Comment 5: 4
+Comment 6: 4.5
+Comment 7: 3
+Comment 8: 3
+Comment 9: 4.5
+Comment 10: 5
+Comment 11: 3.5
+Comment 12: 4.5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f0c >
+Comment 1: 5
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f0d >
+Comment 1: 1
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f0e >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f0f >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 3
+Comment 9: 5
+Comment 10: 3
+Comment 11: 2
+Comment 12: 2
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f10 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f11 >
+Comment 1: 2/5
+Comment 2: 3/5
+Comment 3: 4/5
+Comment 4: 1/5
+Comment 5: 4/5
+Comment 6: 5/5
+Comment 7: 4/5
+Comment 8: 4/5
+Comment 9: 4/5
+Comment 10: 5/5
+Comment 11: 4/5
+Comment 12: 5/5
+Comment 13: 5/5
+--------
+< 67299dbda23f7e5639814f12 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f13 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f14 >
+Comment 1: 1 - The comment does not accurately describe the function of the code and seems to be a part of some other code.
+
+Comment 2: 4 - The comment is concise and mostly accurate, but it could be more specific about what "this header" refers to.
+
+Comment 3: 5 - The comment is concise, accurate, and clearly explains the function of the code.
+
+Comment 4: 1 - The comment does not provide any information about the function of the code.
+
+Comment 5: 5 - The comment is concise, accurate, and clearly explains the function of the code.
+
+Comment 6: 3 - The comment is accurate but a bit verbose. It could be more concise.
+
+Comment 7: 3 - The comment is somewhat accurate, but it does not specify that the reference count is for the header state.
+
+Comment 8: 3 - The comment is somewhat accurate, but it does not specify that the reference count is for the header state.
+
+Comment 9: 5 - The comment is concise, accurate, and clearly explains the function of the code.
+
+Comment 10: 3 - The comment is somewhat accurate, but it does not specify that the reference count is for the header state.
+
+Comment 11: 3 - The comment is somewhat accurate, but it does not specify that the reference count is for the header state.
+
+Comment 12: 5 - The comment is concise, accurate, and clearly explains the function of the code.
+
+Comment 13: 3 - The comment is somewhat accurate, but it does not specify that the reference count is for the header state.
+--------
+< 67299dbda23f7e5639814f15 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814f16 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 4
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f17 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 3
+Comment 10: 2
+Comment 11: 4.5
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f18 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 5
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 3
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f19 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 3
+Comment 11: 4.5
+Comment 12: 4.5
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814f1a >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f1b >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f1c >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 5
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f1d >
+Comment 1: 2.5
+Comment 2: 3
+Comment 3: 3.5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 3.5
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f1e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f1f >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f20 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f21 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f22 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 3
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f23 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 2
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f24 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f25 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 5
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f26 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f27 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f28 >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 3
+Comment 10: 3
+Comment 11: 2
+Comment 12: 3
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f29 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f2a >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f2b >
+Comment 1: 2.5
+Comment 2: 2.5
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 3
+Comment 8: 5
+Comment 9: 4.5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 4.5
+Comment 13: 2.5
+--------
+< 67299dbda23f7e5639814f2c >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 5
+Comment 8: 3
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f2d >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f2e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 3
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 2
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f2f >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f30 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 5
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f31 >
+Comment 1: 1
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f32 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 3
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 5
+Comment 10: 3.5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814f33 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f34 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f35 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f36 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f37 >
+Comment 1: 2/5 - The comment is not accurate. The function does not insert an element at the tail of a list, it sifts down an element in a heap.
+Comment 2: 3/5 - The comment is somewhat accurate but lacks detail. It does not explain what "sifting" means in the context of a heap.
+Comment 3: 4/5 - The comment is accurate and concise, but it could provide a bit more detail about what sifting down means.
+Comment 4: 1/5 - This comment is not helpful at all. It does not provide any information about the function.
+Comment 5: 4/5 - This comment is accurate and provides a bit more detail about what the function does.
+Comment 6: 5/5 - This comment is accurate, detailed, and concise. It explains what the function does and how it does it.
+Comment 7: 4/5 - This comment is accurate and concise, but it could provide a bit more detail about what sifting down means.
+Comment 8: 4/5 - This comment is accurate and provides a bit more detail about what the function does.
+Comment 9: 4/5 - This comment is accurate and concise, but it could provide a bit more detail about what sifting down means.
+Comment 10: 3/5 - This comment is accurate and detailed, but it is too verbose and could be more concise.
+Comment 11: 4/5 - This comment is accurate and provides a bit more detail about what the function does.
+Comment 12: 4/5 - This comment is accurate and provides a bit more detail about what the function does.
+Comment 13: 3/5 - This comment is somewhat accurate but it mentions a comparator which is not present in the provided code.
+--------
+< 67299dbda23f7e5639814f38 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f39 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f3a >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 1
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f3b >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f3c >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 2
+Comment 4: 1
+Comment 5: 3
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f3d >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 4
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f3e >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 2
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f3f >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 3
+Comment 9: 3
+Comment 10: 5
+Comment 11: 4
+Comment 12: 3
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f40 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f41 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f42 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 5
+Comment 9: 4.5
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814f43 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 2
+Comment 7: 3
+Comment 8: 4
+Comment 9: 3
+Comment 10: 4
+Comment 11: 4
+Comment 12: 3
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f44 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f45 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 1
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f46 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 5
+Comment 5: 4
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f47 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 3
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f48 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f49 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f4a >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f4b >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f4c >
+Comment 1: 1
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f4d >
+Comment 1: 1
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 3
+Comment 10: 3
+Comment 11: 3
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f4e >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 3
+Comment 8: 3
+Comment 9: 5
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f4f >
+Comment 1: 3.5 - The comment is concise and somewhat accurate, but it doesn't mention the adjustment based on the width of the object.
+Comment 2: 2 - The comment is not clear and doesn't provide enough information about the function.
+Comment 3: 4 - The comment is accurate and concise, but it doesn't mention the adjustment based on the width of the object.
+Comment 4: 1 - This comment doesn't provide any information about the function.
+Comment 5: 4 - The comment is accurate and concise, but it doesn't mention the adjustment based on the width of the object.
+Comment 6: 4.5 - The comment is accurate and provides a good level of detail, but it could be a bit more concise.
+Comment 7: 5 - The comment is accurate, concise, and provides a good level of detail.
+Comment 8: 3.5 - The comment is concise and somewhat accurate, but it doesn't mention the adjustment based on the width of the object.
+Comment 9: 5 - The comment is accurate, concise, and provides a good level of detail.
+Comment 10: 2 - The comment is too detailed and includes irrelevant information, making it less concise.
+Comment 11: 5 - The comment is accurate, concise, and provides a good level of detail.
+Comment 12: 5 - The comment is accurate, concise, and provides a good level of detail.
+Comment 13: 4 - The comment is accurate and provides a good level of detail, but it could be a bit more concise.
+--------
+< 67299dbda23f7e5639814f50 >
+Comment 1: 3.5
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4.5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4.5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f51 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 1
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f52 >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f53 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 3
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f54 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f55 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f56 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f57 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f58 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 2
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 3
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f59 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 3
+Comment 4: 2
+Comment 5: 4
+Comment 6: 2
+Comment 7: 5
+Comment 8: 2
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f5a >
+Comment 1: 1
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 5
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f5b >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f5c >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f5d >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f5e >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 3
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f5f >
+Comment 1: 3.5
+Comment 2: 4
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4.5
+Comment 8: 3
+Comment 9: 4
+Comment 10: 4.5
+Comment 11: 3
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f60 >
+Comment 1: 2.5
+Comment 2: 2.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 5
+Comment 7: 4.5
+Comment 8: 4.5
+Comment 9: 4
+Comment 10: 4
+Comment 11: 3.5
+Comment 12: 4
+Comment 13: 3.5
+--------
+< 67299dbda23f7e5639814f61 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 2
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 3
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f62 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 5
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f63 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 3
+Comment 10: 3
+Comment 11: 4
+Comment 12: 3
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f64 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f65 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f66 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 4
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f67 >
+Comment 1: 4.5
+Comment 2: 3.5
+Comment 3: 4.5
+Comment 4: 1
+Comment 5: 4.5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4.5
+Comment 9: 4.5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4.5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814f68 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f69 >
+Comment 1: 1/5 - The comment is not accurate. It mentions a null check that is not present in the code.
+Comment 2: 3/5 - The comment is somewhat accurate but it doesn't mention that it's the URI builder's string representation.
+Comment 3: 4/5 - The comment is accurate and concise, but it could be more specific about what the URI builder represents.
+Comment 4: 1/5 - This comment is not relevant to the code and doesn't provide any useful information about the function of the code.
+Comment 5: 5/5 - This comment is accurate, concise, and provides a clear explanation of what the code does.
+Comment 6: 3/5 - The comment is accurate but it's a bit verbose and includes unnecessary details.
+Comment 7: 5/5 - This comment is accurate, concise, and provides a clear explanation of what the code does.
+Comment 8: 3/5 - The comment is somewhat accurate but it doesn't mention that it's the URI builder's string representation.
+Comment 9: 5/5 - This comment is accurate, concise, and provides a clear explanation of what the code does.
+Comment 10: 4/5 - The comment is accurate and provides a clear explanation of what the code does, but the mention of debugging purposes only is not necessarily accurate.
+Comment 11: 5/5 - This comment is accurate, concise, and provides a clear explanation of what the code does.
+Comment 12: 4/5 - The comment is accurate and concise, but it could be more specific about what the URI builder represents.
+Comment 13: 3/5 - The comment is accurate but it's a bit verbose and includes unnecessary details.
+--------
+< 67299dbda23f7e5639814f6a >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 3
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f6b >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 2
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f6c >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f6d >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 3
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f6e >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f6f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f70 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f71 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f72 >
+Comment 1: 2/5 - The comment is too vague and does not provide enough information about the function's operation.
+Comment 2: 1/5 - The comment is incorrect, as the function converts to lowercase, not uppercase. The @param and @return tags are also not used correctly.
+Comment 3: 4/5 - The comment is accurate and provides a good level of detail about the function's operation, but it could be more concise.
+Comment 4: 1/5 - The comment is not relevant to the function's operation.
+Comment 5: 3/5 - The comment is accurate but could provide more detail about how the bitmask transformation is applied.
+Comment 6: 4/5 - The comment is accurate and provides a good level of detail about the function's operation, but it could be more concise.
+Comment 7: 4/5 - The comment is accurate and provides a good level of detail about the function's operation, but it could be more concise.
+Comment 8: 3/5 - The comment is partially correct, but it assumes that the input is an ASCII character, which may not always be the case.
+Comment 9: 4/5 - The comment is accurate and provides a good level of detail about the function's operation, but it could be more concise.
+Comment 10: 1/5 - The comment is too vague and does not provide enough information about the function's operation.
+Comment 11: 3/5 - The comment is partially correct, but it assumes that the input is an ASCII-encoded integer, which may not always be the case.
+Comment 12: 4/5 - The comment is accurate and provides a good level of detail about the function's operation, but it could be more concise.
+Comment 13: 3/5 - The comment is accurate but could provide more detail about how the upper-case pattern is applied and how it affects the output.
+--------
+< 67299dbda23f7e5639814f73 >
+Comment 1: 4.5
+Comment 2: 1
+Comment 3: 4
+Comment 4: 4.5
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4.5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f74 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 2
+Comment 11: 1
+Comment 12: 5
+Comment 13: 1
+--------
+< 67299dbda23f7e5639814f75 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f76 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 3
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4.5
+--------
+< 67299dbda23f7e5639814f77 >
+Comment 1: 3.5
+Comment 2: 2.5
+Comment 3: 4
+Comment 4: 4
+Comment 5: 4.5
+Comment 6: 2
+Comment 7: 4
+Comment 8: 3.5
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f78 >
+Comment 1: 3.5
+Comment 2: 2
+Comment 3: 5
+Comment 4: 4.5
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 1 (The comment seems to be cut off and includes unrelated information)
+Comment 10: 4.5
+Comment 11: 4.5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f79 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 4
+Comment 8: 5
+Comment 9: 1
+Comment 10: 4
+Comment 11: 3
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f7a >
+Comment 1: 1
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 3
+Comment 6: 5
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f7b >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 3
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f7c >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f7d >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f7e >
+Comment 1: 4
+Comment 2: 4.5
+Comment 3: 4
+Comment 4: 1
+Comment 5: 4
+Comment 6: 5
+Comment 7: 4.5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 4
+Comment 11: 4
+Comment 12: 4
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f7f >
+Comment 1: 2/5 - The comment is not accurate. The code does not check if the queue is full or too large, but rather if it's below a certain threshold.
+Comment 2: 1/5 - This comment is too vague and does not provide any information about the conditions under which the background fetch is started.
+Comment 3: 5/5 - This comment accurately and concisely describes the function of the code.
+Comment 4: 1/5 - This comment does not provide any information about the function of the code.
+Comment 5: 4/5 - This comment is mostly accurate and concise, but it could provide a bit more detail about how the threshold is calculated.
+Comment 6: 3/5 - This comment is accurate but not very concise. It could be simplified for easier understanding.
+Comment 7: 4/5 - This comment is accurate and fairly concise, but it could be a bit clearer about how the threshold is calculated.
+Comment 8: 5/5 - This comment is accurate, concise, and clearly explains the function of the code.
+Comment 9: 4/5 - This comment is accurate and fairly concise, but it could be a bit clearer about how the threshold is calculated.
+Comment 10: 3/5 - This comment is mostly accurate, but it could be clearer about how the threshold for starting a background fetch is calculated.
+Comment 11: 5/5 - This comment is accurate, concise, and clearly explains the function of the code.
+Comment 12: 3/5 - This comment is mostly accurate and concise, but it could provide more detail about how the threshold is calculated.
+Comment 13: 4/5 - This comment is accurate and fairly concise, but it could be a bit clearer about how the threshold is calculated.
+--------
+< 67299dbda23f7e5639814f80 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 2
+Comment 11: 5
+Comment 12: 5
+Comment 13: 2
+--------
+< 67299dbda23f7e5639814f81 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 4
+Comment 5: 5
+Comment 6: 4
+Comment 7: 3
+Comment 8: 5
+Comment 9: 5
+Comment 10: 5
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f82 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+Comment 4: 5
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f83 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+Comment 4: 1
+Comment 5: 4
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 4
+Comment 10: 3
+Comment 11: 4
+Comment 12: 5
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f84 >
+Comment 1: 2/5 - The comment is not accurate. The code does not change the size of a map nor does it use a ratio.
+Comment 2: 2/5 - The comment is not clear and lacks proper formatting for the parameters.
+Comment 3: 4/5 - The comment accurately describes the function of the code, but it could be more specific about what component is being resized.
+Comment 4: 1/5 - This comment does not provide any information about the function of the code.
+Comment 5: 5/5 - This comment is accurate, clear, and concise.
+Comment 6: 4/5 - The comment is accurate but it could be more specific about what object is being resized.
+Comment 7: 5/5 - This comment is accurate, clear, and concise.
+Comment 8: 5/5 - This comment is accurate, clear, and concise. It also provides additional information about when the size change notification is triggered.
+Comment 9: 5/5 - This comment is accurate, clear, and concise.
+Comment 10: 3/5 - The comment is mostly accurate, but it could be more clear about what happens when the dimensions are 0.
+Comment 11: 5/5 - This comment is accurate, clear, and concise.
+Comment 12: 5/5 - This comment is accurate, clear, and concise.
+Comment 13: 5/5 - This comment is accurate, clear, and concise. It also provides additional information about the function's behavior.
+--------
+< 67299dbda23f7e5639814f85 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 5
+Comment 8: 5
+Comment 9: 5
+Comment 10: 4
+Comment 11: 4
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f86 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 4
+Comment 9: 4
+Comment 10: 5
+Comment 11: 4
+Comment 12: 4
+Comment 13: 3
+--------
+< 67299dbda23f7e5639814f87 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 5
+Comment 7: 4
+Comment 8: 5
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 5
+--------
+< 67299dbda23f7e5639814f88 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 3
+Comment 4: 4
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 2
+Comment 9: 5
+Comment 10: 3
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------
+< 67299dbda23f7e5639814f89 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 4
+Comment 4: 1
+Comment 5: 5
+Comment 6: 4
+Comment 7: 5
+Comment 8: 4
+Comment 9: 5
+Comment 10: 4
+Comment 11: 5
+Comment 12: 5
+Comment 13: 4
+--------

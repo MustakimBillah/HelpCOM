@@ -1,0 +1,250 @@
+0	Get the effective converter map by combining the default converter map and the context-specific converter map.
+1	Adds a stagger to a 3D array along the specified dimension index by extrapolating and interpolating the values in the extracted 1D array.
+2	Deserialize a JSON string into a Map of String String representing an offset map. If the input string is null or empty, return an empty map.
+3	Adds a packet interceptor to the list of interceptors with a specified packet filter.
+4	Calculates the total number of characters needed to represent a decimal number with the given integer value and scale. Takes into account the minus sign, decimal point, and leading zeros if needed.
+5	Check if a recording is active by checking the state of a counter and comparing its metadata with the given recording ID.
+6	Check if a given column ID is part of any key in the provided column set.
+7	Get the clusters owned by a specific server.
+8	Sorts a specific range of elements in the array using the merge sort algorithm with a given comparator. The range is [lo, hi) and the sorting is stable.
+9	Main method that launches the media driver and waits for a shutdown signal.
+10	Invalidates all cached JWTs for contexts satisfying the given predicate.
+11	Attaches a timer to the node. If the timer is already attached, returns false.
+12	Allocates a character buffer of size bufferSize. If bufferSize is greater than MAX_BUFFER_SIZE, a new CharBuffer is created. Otherwise, a CharBuffer is obtained from the thread-local pool.
+13	Writes an XML representation of a NetcdfDataset to an OutputStream, with the option to show coordinates and specify a URI. Uses a standard formatter.
+14	Returns the ActivityContextInterface for the given activity object. Throws exceptions if the activity is null, unrecognized, or if there is a factory exception.
+15	Returns the fully qualified name prefix of a class or package.
+16	Checks if a substring is located between two other substrings.
+17	Create a new HTTP HEAD request to the specified destination.
+18	Returns a map of default values for all fields in the given Avro schema. Throws a SchemaRegistryException if there is an error while retrieving the default values.
+19	Adds transformations for JGroups model versions 3.0.0 and 5.0.0, including attribute discards and reject checks, value converters, and operation transformers. Also includes a call to build transformations for a property resource definition.
+20	Perform automatic differentiation wrt the input variables and update the gradients for the output variables. If a gradient already exists for an output variable, add the computed gradient to it. Otherwise, set the computed gradient as the gradient for the output variable.
+21	Validates that a given MediaPicture is not null, complete, and of the correct type. If resampling is enabled, it also checks that the picture is of the correct output format. Throws an IllegalArgumentException if any of these conditions are not met.
+22	Initializes the servlet with information from the HttpServletRequest, including the server name and port, servlet path info, and upload/download directories.
+23	Deletes a permission for a given contact and security identifier (SID). The permission is specified as an integer mask. Returns a ModelAndView object with the updated contact, SID, and permission information.
+24	Converts a Spanned text to RTHtml format with specified RTFormat and returns an RTHtml object containing the converted text and any images found in the text.
+25	Extracts validator meta-data for a given class and property name, either from a pre-existing list or by generating it from annotations.
+26	Retrieve the value of a named attribute from a node.
+27	Finds the child class of a given parent class for a given instance. Returns null if the instance is null or if the parent class is an interface.
+28	Writes a portion of a byte array to the output stream and updates the checksum if enabled in DAP mode. If DUMPCSUM is true, prints the checksum to standard error.
+29	Adds a query parameter with a name and number value to the URL builder. If the value is null, returns null.
+30	Draw a tile bitmap for the given x, y, and zoom level by either querying the index or querying all tiles.
+31	Close the ObjectOutputStream and release the underlying connector thread if it has been created.
+32	Checks if the given class name belongs to a system class based on a list of allowed and disallowed packages.
+33	Converts the given value to the specified target type. If the value is already of the target type, it is returned unchanged. Otherwise, the TypeConverterManager is used to perform the conversion. If strictTypes is true and the conversion fails, a JsonException is thrown. If strictTypes is false, null is returned instead.
+34	Returns the package name of the class of the given object, or null if the object is null.
+35	Adds a parameterized template to the list of parameterized templates.
+36	Gets the usage parameter set for a specific SBB entity and name.
+37	Converts the object to a map of extra metadata, including the Thrift class name and descriptor in JSON format.
+38	Reads more bytes from the input stream until the end sequence is found, or until the buffer is full.
+39	Loads data from a stream into the object. The data is assumed to be in a specific format, with a header followed by a series of data records. Each data record consists of a record indicator byte followed by a series of fields. If the record indicator byte is 0x20, the record is valid and the fields are read in. If the record indicator byte is not 0x20, the record is considered deleted and skipped.
+40	Enable a specific profile for use.
+41	Returns the collection of vertices that have an inward edge to the specified vertex. If no vertices have an inward edge to the specified vertex, an empty set is returned.
+42	Removes and returns the head of the queue, waiting if necessary until an element becomes available. This method implements the blocking behavior of the queue. If the queue is empty, the current thread becomes disabled for thread scheduling purposes and lies dormant until one of two things happens: Some other thread inserts an element into the queue, or the specified waiting time elapses.
+43	Skips over any whitespace characters at the current position in the string.
+44	Parses an integer from a substring of the given string buffer, starting from the 'from' index (inclusive) and ending at the 'to' index (exclusive).
+45	Copies incoming arcs from the old state to the new state.
+46	Sets the styles and icons for a feature in a feature table. If featureStyles is null, deletes the styles and icons for the feature.
+47	setter for id - sets
+48	Get the status of a job by sending a Job Status request every STATUS_REQUEST_DELAY milliseconds and waiting for a response. If the response is not received within STATUS_REQUEST_TIMEOUT milliseconds, return null.
+49	Create an empty PersistentTreeMap with the specified Comparator.
+50	Converts an authentication token to a JSON object with a "token" field.
+51	Convert a string representation of an array of ComponentIDs to an actual array of ComponentIDs. The string format is "name vendor version" separated by CID_SEPARATOR.
+52	Converts a DataRootExt object to a DataRoot object. If the DataRoot object is already present, it is returned. Otherwise, the catalog it is in is read to obtain the DataRoot object.
+53	Performs version control on a resource using the WebDAV versioning protocol.
+54	Checks if the given HollowDataset contains any collections (lists, sets, maps).
+55	Checks if a stream exists in Amazon Kinesis and returns the number of shards in the stream. If the stream does not exist, it logs an error and adds a configuration issue to the list of issues.
+56	Registers all Madvoc components needed for the web application. Throws an exception if the Madvoc WebApp is not initialized.
+57	Creates a new URLStreamHandler instance for the specified protocol, using the handler packages defined in the system property "java.protocol.handler.pkgs". If a handler for the protocol has already been created, returns the existing handler. If no handler is found, returns null.
+58	Sends the content of the data to the specified output stream. If debugging is enabled, logs the entry to this method.
+59	Reads a double value from the byte array starting at the given offset, taking into account the endianness of the data.
+60	Checks the dependencies of a given SLEE component against the components available in a deployable unit. Throws a DependencyException if a dependency is not met. The method checks for dependencies on event types, libraries, profile specifications, resource adaptors, resource adaptor types, and SBBs. It also throws a SLEEException if a dependency on a service component is found, as services cannot be dependencies.
+61	Gets the configuration for the specified class by iterating through the service path and deserializing the configuration file.
+62	Returns the number of nodes with a specified status for a given database.
+63	Execute the CREATE PROPERTY command.
+64	Intercepts method calls on a proxy object and delegates to the appropriate provider to obtain the result. Also handles default methods in Java 8 and thread-local providers. If a ProvisionException is thrown, checks if it can be rethrown as the original cause.
+65	Sets the footer range of the sheet configuration based on the given form command and cell indices.
+66	Converts a Parquet array type to a GroupType.
+67	Emits a field instruction. A field instruction is an instruction that accesses a field of an object.
+68	Adds a vertex to the graph if it does not already exist.
+69	Returns true if the input name is empty or contains only an empty string component.
+70	Checks if the given interceptorClass has any scope annotations. Returns true if it does, false otherwise.
+71	This method gets the index of an object in the map. Returns -1 if the object is not in the map.
+72	Creates a filter that logs the response to a PrintStream if the response status code matches the provided matcher.
+73	Deserialize a file into the given return type.
+74	Populates a GeometryMetadata object with the given parameters.
+75	Converts the given value to a collection with a single element.
+76	Commits the given offset and updates the last committed offset.
+77	Perform additional read operations on WebSocket connections that have data in their input queue. Uses a ByteBuffer to read data from the connection's channel and puts it into the connection's input queue. If the ByteBuffer still has remaining data after reading, the connection is added back to the input queue for further processing.
+78	Fire a Profile Added or Updated Event if needed.
+79	Find the index of a given value in an array. If the array is constant, return 0 if the value matches the start value, otherwise return -1. If the array is sequential, return the difference between the value and the start value. If the array is sorted, use binary search to find the index. If none of these conditions apply, use linear search to find the index. Return -1 if the value is not found in the array.
+80	Pushes a variable reference onto the stack, either as a SimpleNode or a VariableReferenceNode depending on whether parser translation is enabled. If the variable is not defined in any of the current scopes, throws an UndefinedVariableException.
+81	Adds a constant name and type to the constant pool. If a similar constant already exists, returns its index instead of adding a new one.
+82	Reads the header of a NEXRAD Level III product and checks if it is a valid product. Returns 1 if the product is valid, 0 otherwise.
+83	Decodes a base58-encoded string into its corresponding byte array. If the input string starts with "base58:", that prefix is removed before decoding. Throws an IllegalArgumentException if the input contains an illegal character.
+84	Returns the principal (username or DN) of the current authentication, which should be an LdapUserDetails object. If the authentication is anonymous, an empty string is returned. If there is no authentication object set in the SecurityContext, a warning is logged and an empty string is returned.
+85	Generates a token string by concatenating user ID, username, expiration date, and attributes hash, encrypting the resulting string, and encoding it in base 16.
+86	Converts a string of delimited values into an array of strings. Returns null if the input string is empty.
+87	Creates a linked list of ForwardPath objects representing the path from the root to the given Path object. Returns the head of the linked list.
+88	Sets the value of the zimmertyp property.
+89	Creates a new locator with the given resource URL and label.
+90	Returns the stack trace of a given thread as a string.
+91	Retrieve the build reference date from a timestamp file created by a previous build. If the file does not exist, return the current date.
+92	Creates a new instance of a bean using the constructor injection point and wiring the necessary dependencies.
+93	Merges two sets of ORecords. If the source set is not null, it will be merged with the target set. If the target set is null, the source set will be returned. If both sets are not null, the smaller set will be added to the larger set and returned.
+94	Reads and sets the parameters for the server configuration, including the socket buffer size.
+95	Returns a transactional OrientDB graph instance, either from a pool or by creating a new one.
+96	Invokes the plugin associated with the given custom tag node, if one exists. The plugin is retrieved from the map of tag plugins using the tag handler class name as the key. If no plugin is found, the method returns without doing anything. Otherwise, a new TagPluginContextImpl object is created and passed to the plugin's doTag method.
+97	Copy the contents of an InputStream to an OutputStream using a buffer pool for efficient memory management.
+98	Sets the presence of an object and fires appropriate events.
+99	Sets the cell value as a number, parsing the provided string value and replacing any commas with empty characters.
+100	Cache the entities in the result array using a HashMap. If an object is already in the cache, replace it with the cached object. If not, add it to the cache.
+101	Calculates the number of columns needed to display all fields in a field editor.
+102	Parses the remote IP address from a given Channel object.
+103	Ensures that the working directory exists and is a directory. If it does not exist, it is created. If it exists but is not a directory, it is deleted and recreated.
+104	Checks if this node has an edge connected to it.
+105	Adds a property injection point to the list of injection points.
+106	Calculates the appropriate size for a hash table based on the number of elements to be stored, taking into account a load factor of 0.7 and a maximum size limit. Returns the smallest power of 2 that can hold the specified number of elements with the load factor applied.
+107	Adds a parent join to the current cursor position in the table.
+108	Returns the ActiveMQ server name from the given properties map. If the server name is not present in the map, returns the default server name.
+109	Creates array properties by scanning through all defined properties and checking if the property key ends in an integer. If it does, it adds the property value to an array property for that index.
+110	Gets the data type for coordinates based on the first nested dataset. If the dataset is string-valued, returns STRING, otherwise returns DOUBLE.
+111	Converts a URL-safe string representation of a key into a Cloud Datastore key object.
+112	Converts the member information of a StructureMembers object by setting the variable information for each member based on the corresponding Variable object. Also handles nested structures.
+113	Returns a MultiTypeData object representing the given boolean value. The native type is set to BOOLEAN.
+114	Looks up the alias in the actions manager and returns the corresponding value. If the alias is not found, it looks up the alias as an action and returns the action path.
+115	Applies the default header to a metadata buffer and copies it to a term buffer at a specified offset.
+116	Returns a list of all values associated with the specified key in this map. If the map contains no mapping for the key, an empty list is returned.
+117	Handles an ElementEvent and triggers a refresh if the EntityType matches the endpoint's EntityType.
+118	Extracts meta tags from the given DocumentFragment and parses the "robots" tag to determine which values to use.
+119	Returns a transactional wrapper for the given queue.
+120	Gets the value of the valuelist property.
+121	Restores all tables in the database from CSV files using the given context and suffix.
+122	Returns the list of occurrences for this candidate answer variant.
+123	Write a JSON integer value to the output stream. If escapeNum is true, the number will be enclosed in quotes.
+124	Frees a state from the linked list of states. The state must have no incoming or outgoing transitions.
+125	Calculates the total size of all elements in the collection.
+126	Returns a list of all group names.
+127	Returns a list of IDs for all polymers and groupings in the HELM2 notation, excluding any JSON serialization.
+128	Finds the next occurrence of a separator character in a string, taking into account an escape character that may be used to escape the separator. Returns the index of the separator or -1 if not found. The characters between the start index and the separator are appended to the provided StringBuilder.
+129	Checks if all cluster members have reached a certain log position and leadership term ID.
+130	Returns a detailed error message by combining the client error message and the server error message from the response command.
+131	Resolves the external system using the specified resolver and system ID. Returns the resolved system ID or null if the resolver is not found.
+132	Iterate over all beans of a certain type and execute a consumer on their names.
+133	Query for user custom cursor within the provided bounding box and projection
+134	Adds all elements of the given JsonArray to this array and returns this array. Throws a NullPointerException if the given array is null.
+135	Get fact sheets based on type, relation types, page size, cursor, and permissions.
+136	Looks up a child node with the given name and returns the cached object associated with it, or null if not found.
+137	Sets the value of the erdwaerme property.
+138	Returns the vocabulary to be used for JSON-LD serialization, taking into account any mixins and context providers.
+139	Returns the default icon reference based on the project's classpath and dependencies.
+140	Adds a condition factor to the list of condition factors. Throws a WebDAVException if the factor already exists in the list.
+141	Returns the size of a file with the given name, throwing an exception if the file has not been closed or added.
+142	Returns a list of transactions associated with the given address, up to the specified limit. If no limit is specified, returns all transactions. Throws an IOException if there is an error retrieving the transactions.
+143	Check if a given class or interface implements a specific interface, and return the interface if found.
+144	Performs post-parsing steps for the persistence unit metadata, including setting URLs and creating a scoped persistence unit name. Also handles custom scoped persistence unit names specified in the persistence unit definition.
+145	Checks if a pipeline configuration needs to be upgraded and upgrades it if necessary, both schema and data. Returns the upgraded pipeline configuration or null if there were issues during the upgrade process.
+146	Sweeps the tail of the execution queue for a specific device, destroying any events that have already been executed or have been waiting in the queue for too long.
+147	Attaches the given HttpServletRequest and HttpServletResponse to the current instance, setting the request URL, locale, and request path if they are not already set by a request pre-processor. Sets the attached flag to true.
+148	Extracts the primary key from the given object using the corresponding type mapper. Returns a RecordPrimaryKey object containing the type name and primary key value.
+149	Removes a property change listener for a specific property from this component.
+150	Skips over and discards n bytes of data from the input stream. Returns the actual number of bytes skipped. If end of stream is reached before n bytes are skipped, returns the number of bytes skipped before the end of stream.
+151	Converts a POI cell to a FacesCell, taking into account any merged cell ranges and setting control attributes and save attributes.
+152	Rounds up the provided integer to the nearest power of 2. If the number is greater than or equal to 1000, it will be rounded to 1000.
+153	Registers a new resource adapter deployment.
+154	Checks if there are no more characters to read from the input stream. If there are no more characters, returns true. Otherwise, reads more characters into the buffer and returns false.
+155	Finds a variable in a structure that has a specific attribute name and value. Returns null if no variable is found.
+156	Recursively builds a TreeItem widget from a FQDNNode object, used for displaying a hierarchical log view.
+157	Converts a string value into the true value for typeName using the PropertyEditor associated with typeName.
+158	Initializes the detail and summary messages for a message object based on the parent and name properties. If both are null, uses the class name to load from the class loader. If only the name is present, uses it to load from the class loader. If the parent is present, initializes the message keys with the parent name.
+159	Replaces a column in the matrix with the given vector. The vector must have the same length as the number of rows in the matrix. If the vector is a complex array, the elements are converted to complex numbers before being inserted into the matrix.
+160	Adds a throwable to the list of throwables to be handled by the error handler.
+161	Gets the value of the vermarktungsart property.
+162	Create a ResourceChangeHandler with the given WroManagerFactory and Log. If either of these parameters are null, throw an exception.
+163	Returns an instance of RegExpAndDurationTimeCoverageEnhancer that matches on dataset path with given match pattern, substitution pattern, and duration.
+164	Create a new StationDateDataIterator object to iterate over data for the given station and time range.
+165	Finds and returns all files in a directory and its subdirectories using a custom iterator.
+166	Check if changes have been filled up to a certain page index.
+167	Maps each element of the source Flowable into an Iterable, subscribes to each inner Iterable one at a time, and emits their values in order, while respecting backpressure.
+168	Sends a handshake request to the server.
+169	Sets the fetch plan to use for the query. Returns the query object for method chaining.
+170	Sets the value of the city property.
+171	Add multiple attributes to the element.
+172	Gets an input stream for the specified resource URI. First checks if the file exists on the file system, and if not, retrieves it through the context.
+173	Replaces all occurrences of a character in a string with a given replacement string. If the character is not found, returns the original string.
+174	getter for depLabel - gets the dependency label of the token
+175	Registers an event ID with a description and value in a properties file. This function uses a lock to prevent concurrent writes to the file. If the event ID already exists, it does nothing.
+176	Adds a new CONSTANT_Long_info or CONSTANT_Double_info to the constant pool of this symbol table.
+177	Initializes the lookup table for a given decision tree node. The lookup table is used to quickly find the appropriate child node based on the attribute value of the input data. This method iterates over all the child nodes of the given node and inserts them into the lookup table based on their matching attribute value.
+178	Evaluates the code from a reader and returns the result. The source name is used for error reporting.
+179	Writes a field name and its value to a StringWriter in the format "fieldName: value\n".
+180	Check if boxA is fully contained within boxB.
+181	Migrate the generic transport by replacing the factory class with the new one.
+182	Analyzes the dataset and creates tables for each feature type, or uses a default table if no configuration is provided. Finds the leaves of the table hierarchy and creates a NestedTable object for each one. If the PointDatasetStandardFactory flag for showing tables is set, prints detailed information about the tables to the console.
+183	Create a custom response handler to process the HTTP response and return the text response if valid. Handles different HTTP status codes and throws exceptions for unexpected responses.
+184	Gets the value of the objektKategorie2 property, with a default value of KEINE_ANGABE if it is null.
+185	Checks if the given string matches the pattern for a valid group ID (starting with G and followed by one or more digits). Returns true if it matches, false otherwise. Also logs the validation result.
+186	Attempts to subscribe to a scalar value and map it to another observable source.
+187	Create a new input stream for the body of a cached response.
+188	Retries the timeout for a timer if it is still active, sets the timer state to RETRY_TIMEOUT, and persists the timer. If the timer is not active, logs a message indicating that the timer is not active. If the retry is successful, calls the timeout method for the timer.
+189	Sets the headers of a MimeMessage object based on the headers of an Email object.
+190	Writes a data page with specified parameters and updates the offset index.
+191	Get the setter method name for a given ProtobufAttribute and Field. Uses a cache to improve performance.
+192	Parse the response from the HTTP request and return a Record object. If the HTTP method is HEAD, return an empty record since there is no body. If the response is not null, parse it using the appropriate parser based on the data format. If the data format is TEXT, the output is placed in a field "/text" so we remove it here. If there is an error during parsing, handle it using the errorRecordHandler.
+193	Returns an InputStream for the resource with the given name on the classpath, using the specified ClassLoader.
+194	Export the data of the object to a HashMap.
+195	Renders the view by forwarding or including the request to the target page, depending on whether the page is being included or not. If the target page is not found, it sends an error response.
+196	Save the persistence provider adaptor for a deployment unit, using the specified module name or the provider's class name as the key. If the key is not already set, set it to the specified adaptor and return it. If it is already set, return the current value. This method is thread-safe.
+197	Removes the property with the given key from the vertex. If the vertex has been deleted in the current transaction, an IllegalStateException will be thrown. If the vertex belongs to a graph, a transaction will be started automatically. The method returns the old value of the property.
+198	Returns the full request URL for the given HttpServletRequest object.
+199	Returns a MultiTypeData object representing the possible types that a given character can be converted to. The native type is set to CHAR.
+200	Converts a string value to the corresponding Avro schema type. If the string is null, returns null. If the string cannot be converted to the schema type, throws a NumberFormatException. If the schema type is not supported, throws a RecordException. For union types, tries to convert the string to each possible type until a successful conversion is found.
+201	Get the set of locators for the given execution context, taking into account delayed metric tracking and rerolling.
+202	Copies all of the mappings from the specified map to this map. These mappings will replace any mappings that this map had for any of the keys currently in the specified map. If the number of mappings to be added is greater than or equal to the threshold, the map will be expanded to accommodate the new mappings.
+203	Adds a new CONSTANT_Dynamic_info or CONSTANT_InvokeDynamic_info to the constant pool of this symbol table.
+204	Add cache dependencies for a specific cache type by calling the addCacheDependencies method on all registered event listeners.
+205	Performs a bulk insert/update/delete operation on the database. The objects parameter is a list of objects to be inserted/updated/deleted. The newEdits parameter specifies whether to create new revisions for each document. Returns a list of Response objects for each document affected by the operation.
+206	Compute the prime factors of an integer using a prime sieve and trial division.
+207	Adds a naming listener for a specific target and scope. If a holder for the listener already exists, adds the target to the existing holder. Otherwise, creates a new holder and adds it to the appropriate maps. Uses thread-safe data structures for concurrency safety.
+208	Schedules a task to prune the cache after a specified delay.
+209	Sets the count of a certain string. If the count is "1", sets the default flag to true.
+210	Sets the NetcdfFile object and filename, and then creates a GetDataRunnable to print the contents of the NetcdfFile using NCdumpW. The result is stored in a StringWriter and returned as a String.
+211	Attaches a timer to the cache data. If successful, notifies the AC references handler and returns true. Otherwise, returns false.
+212	Verifies and creates temporary tables for a specific time block.
+213	Removes the run as identity from the given security context. This method is used when the WildFlySecurityManager is checking for permissions.
+214	Converts a column name to a property name and then back to a column name.
+215	Consumes comment tokens in a given line and returns the remaining text.
+216	Creates an inheritance link between a concrete class and its superclass. If the superclass is null, no link is created. Logs the creation of the link at trace level.
+217	Returns a collection of all the supported codecs by this object, removing any duplicate IDs.
+218	Method to convert a HELM2Notation object to a string representation in HELM2 format. The string is composed of four sections: simple polymer section, connection section, grouping section, and annotation section. The version number is also added at the end of the string.
+219	Returns a binary search implementation for a given list. The list must contain elements that implement the Comparable interface.
+220	Creates a new cache with a synchronized or unsynchronized HashMap depending on the thread safety setting. Also records the current time.
+221	Prints the usage information for the given command.
+222	Clears the "used" flag for all elements in the grid array.
+223	Encodes the given prefix using URL encoding, except for file separators and colons in the "file:" protocol.
+224	Transforms an array of 2D points using the provided SE(2) transformation.
+225	Validates the given target object using the validation context and returns a list of violations.
+226	Converts an absolute path to a relative path based on a given base path. Returns the original absolute path if it is not actually an absolute path.
+227	Encode a P-frame for the given picture and write it to the output buffer. Increment the frame number and set the slice type to P.
+228	Deletes a global attribute with the given name. Only allowed in define mode. Returns the deleted attribute or null if it doesn't exist.
+229	Create a recovery plan based on the given entries and AeronArchive. The plan includes snapshots and logs, and calculates the last leadership term ID, last term base log position, committed log position, and appended log position.
+230	Returns the ComponentView associated with this object. If the ComponentView has not been initialized yet, it will be created and stored for future use. This method is thread-safe.
+231	Parse the given input source and return the root Element using the document builder associated with the current thread.
+232	Get the default instance of PnSignalingParams with default constraints and ice servers.
+233	Returns an array of azimuths for each ray in the data set. If the azimuths have not yet been calculated, they are calculated and stored in the azimuths array.
+234	Finds all data from the bucket for a given timestamp, using token ranges to parallelize the query. Returns an Observable of Observables of Rows, where each inner Observable represents a page of results. If the table does not exist or the timestamp is before the earliest data, returns an empty Observable.
+235	Returns an iterator over all the keys in this property list, including distinct keys in the default property list if a key of the same name has not already been found from the main properties list.
+236	Handles the different types of Decora tags (self-closing, start, and closed) and defines the Decora tag accordingly.
+237	Extract the symbolic name from the given jar file.
+238	Returns the URL of the host, including the protocol, host name, and port number if it is not the default port.
+239	Change the state of the profile to write mode if it is not already writable.
+240	Resets the state of the bundle manager by deleting all bundle files and clearing the action bundles and mirrors, if the strategy is ACTION_MANAGED.
+241	Sets an attribute in the page context with the specified name and value.
+242	Writes an object to the output stream, including optional vendor data. The vendor data is serialized as a marshalled object to allow for deferred deserialization.
+243	Creates a new UnicastProcessor with the specified capacity hint and a Runnable to be executed when the processor is cancelled. The capacity hint is used to determine the initial size of the buffer used to store emitted items.
+244	Find a coordinate transform by name.
+245	Doubles the capacity of the map and rehashes all of its keys and values. If the maximum capacity has already been reached, an exception is thrown.
+246	Checks if the given class loader has the same version of CGLIB as the current class loader.
+247	Performs a HTTP DELETE request and returns the response.
+248	Join a list of strings into a single string, separated by commas and spaces. Returns an empty string if the list is null or empty, or the single element if the list contains only one element.
+249	Waits for a task to become available for the given worker w. If w is terminating or interrupted, returns false. Otherwise, spins for a certain number of times, then waits for a task to become available. If the pool is terminating or stopped, returns false. If w is the last waiter and there are no available tasks, tries to shrink the pool. If the wait times out, also tries to shrink the pool. Returns true if a task becomes available.

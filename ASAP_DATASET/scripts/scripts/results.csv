@@ -1,0 +1,760 @@
+67299ba101063176805e7e86,independent,Returns the rotational inertia of the body about the local origin.
+67299ba101063176805e7e87,independent,Sets the y-coordinate of this circle.
+67299ba101063176805e7e88,independent,Get the default currency time limit for this assembler.
+67299ba101063176805e7e89,independent,Wraps this bucket collector into a regular collector.
+67299ba101063176805e7e8a,independent,"Set the default value for HTML escaping , to be put into the current PageContext . This can be overridden by page - specific attributes ."
+67299ba101063176805e7e8b,independent,Returns the configured DataSource.
+67299ba101063176805e7e8c,independent,Set the types to use the attribute for instead of the element value .
+67299ba101063176805e7e8d,independent,Returns the reader idle time in milliseconds by converting the reader idle time in nanoseconds to milliseconds using TimeUnit.
+67299ba101063176805e7e8e,independent,Creates a new builder for an executable hint with the specified method name and parameter types.
+67299ba101063176805e7e8f,independent,Creates a new double field with the given name.
+67299ba101063176805e7e90,independent,"Creates a new enum setting with the given key, fallback setting, validator, and properties."
+67299ba101063176805e7e91,independent,Set the MessageCodesResolver to use for this DataBinder . Default is the one configured on the DataBinderFactory .
+67299ba101063176805e7e92,independent,Set the root object and its type descriptor for this evaluation context.
+67299ba101063176805e7e93,independent,Creates a new Name object with the given name.
+67299ba101063176805e7e94,independent,"Returns the first element of this list, or null if the list is empty."
+67299ba101063176805e7e95,independent,Set the number of digits after the decimal separator.
+67299ba101063176805e7e96,independent,Create a physical operation from a source operator factory and layout.
+67299ba101063176805e7e97,independent,Creates the directories for the extracted content.
+67299ba101063176805e7e98,independent,Serializes the enrichment to the given channel .
+67299ba101063176805e7e99,independent,Returns the job manager instance.
+67299ba101063176805e7e9a,independent,Set the port to which the relay will connect.
+67299ba101063176805e7e9b,independent,Returns a builder for the given object class.
+67299ba101063176805e7e9c,independent,"Sets the cell to grow in both directions, filling the available space."
+67299ba101063176805e7e9d,independent,Adds an initialized type to the frame.
+67299ba101063176805e7e9e,independent,Executes a shard operation on a specific shard routing.
+67299ba101063176805e7e9f,independent,Creates a new PhraseSuggestionBuilder for the given fieldname.
+67299ba101063176805e7ea0,independent,Handles the given server request and returns a result.
+67299ba101063176805e7ea1,independent,Returns the number of bytes per value for the given term .
+67299ba101063176805e7ea2,independent,Returns the join field for the child document with the given parent type.
+67299ba101063176805e7ea3,independent,Returns the first item in the array. Throws IllegalStateException if the array is empty.
+67299ba101063176805e7ea4,independent,Sets the indices to be closed.
+67299ba101063176805e7ea5,independent,Checks if the given flags are set in this ClassWriter's flags field.
+67299ba101063176805e7ea6,independent,Set the application directory for the build request .
+67299ba101063176805e7ea7,independent,Resolves the request by updating the cluster state.
+67299ba101063176805e7ea8,independent,Set the name of the default theme to use if no theme cookie found .
+67299ba101063176805e7ea9,independent,Returns a collection of common filter settings that can be used by plugins.
+67299ba101063176805e7eaa,independent,Translates the polygon by the given amounts . This is equivalent to adding the given amounts to the x and y coordinates of each vertex . The polygon's bounding rectangle is recalculated if it has been computed before .
+67299ba101063176805e7eab,independent,Not available.
+67299ba101063176805e7eac,independent,Returns the number of elements between the current position and the limit.
+67299ba101063176805e7ead,independent,Sets whether an alias is required for the index request.
+67299ba101063176805e7eae,independent,Checks if the map is a constant.
+67299ba101063176805e7eaf,independent,Returns the location of the unsupported config data.
+67299ba101063176805e7eb0,independent,Set the maximum word length for the more like this query.
+67299ba101063176805e7eb1,independent,Sets whether the button should be disabled or not.
+67299ba101063176805e7eb2,independent,Sets the conditions for the rollover request.
+67299ba101063176805e7eb3,independent,Create a new hourly schedule with the given minutes.
+67299ba101063176805e7eb4,independent,Appends a block to the page and returns a new page with the added block.
+67299ba101063176805e7eb5,independent,Creates a new CharBuffer with the specified capacity.
+67299ba101063176805e7eb6,independent,abstract String formatInfo(ThreadPool.Info info);
+67299ba101063176805e7eb7,independent,"Checks if the query type is SCHEMA_WRITE and the execution is not EXPLAIN, indicating that the schema can be updated."
+67299ba101063176805e7eb8,independent,Installs a mock FileSystem to be used for testing purposes.
+67299ba101063176805e7eb9,independent,"Returns the initial delay duration for this trigger, if any."
+67299ba101063176805e7eba,independent,Set the launch cache to use when building the application .
+67299ba101063176805e7ebb,independent,"Reads a line of input from the user, using the given prompt. Throws an IOException if there is an error reading the input."
+67299ba101063176805e7ebc,independent,Checks if the given word is a sequence with no bits set except for the first one.
+67299ba101063176805e7ebd,independent,Sets the marshaller for the web service template builder and returns a new builder instance.
+67299ba101063176805e7ebe,independent,Create a new JmsMessageEndpoint instance.
+67299ba101063176805e7ebf,independent,Set the names of the caches to resolve .
+67299ba101063176805e7ec0,independent,Sets the number of blur passes for the shadow effect.
+67299ba101063176805e7ec1,independent,"Multiply a matrix times a vector. If a rotation matrix is provided, then this transforms the vector from one frame to another."
+67299ba101063176805e7ec2,independent,Get the block at the specified index.
+67299ba101063176805e7ec3,independent,Sets the validation method for the geo polygon query.
+67299ba101063176805e7ec4,independent,Create a new ExitStatus with the same code and name but with the hangup flag set to true.
+67299ba101063176805e7ec5,independent,Set whether to show the term doc count error.
+67299ba101063176805e7ec6,independent,Creates a new role that is limited by the given role.
+67299ba101063176805e7ec7,independent,Returns whether the shard is currently relocating.
+67299ba101063176805e7ec8,independent,Writes a message to update the filters used in the autodetect process.
+67299ba101063176805e7ec9,independent,Returns the runner type for the given task.
+67299ba101063176805e7eca,independent,Calculate the squared distance between two points.
+67299ba101063176805e7ecb,independent,Sets the alignment of the table to left aligned.
+67299ba101063176805e7ecc,independent,Checks if the PID is available.
+67299ba101063176805e7ecd,independent,Create a new SimpMessageHeaderAccessor with the given message type and no message.
+67299ba101063176805e7ece,independent,"Clears all flags and fields, and sets the groups to null."
+67299ba101063176805e7ecf,independent,Returns whether this composite values source configuration has a script defined.
+67299ba101063176805e7ed0,independent,Sets the verbosity level for the terminal.
+67299ba101063176805e7ed1,independent,Checks if this access mode allows traversing all relationship types.
+67299ba101063176805e7ed2,independent,"Returns a SingletonSupplier wrapping the given supplier, if non-null, or null otherwise."
+67299ba101063176805e7ed3,independent,Returns the map of field names to field capabilities for the given response.
+67299ba101063176805e7ed4,independent,Creates a new NestedAggregationBuilder with the given name and path.
+67299ba101063176805e7ed5,independent,Returns whether the snapshot has been completed.
+67299ba101063176805e7ed6,independent,Increases the ticksInNanos variable by the given delay converted to nanoseconds.
+67299ba101063176805e7ed7,independent,Calculate the squared distance between two points.
+67299ba101063176805e7ed8,independent,Returns the first item.
+67299ba101063176805e7ed9,independent,Creates a new ReadableInputs object with the given iterable of ReadableInputs and null as the default value.
+67299ba101063176805e7eda,independent,Returns the value of the allowCredentials field.
+67299ba101063176805e7edb,independent,Sets the precision for the geo query context.
+67299ba101063176805e7edc,independent,Specifies whether to allow partial search results.
+67299ba101063176805e7edd,independent,Notifies the audio implementation that the music was disposed.
+67299ba101063176805e7ede,independent,Checks if the input has a channel.
+67299ba101063176805e7edf,independent,Returns the number of slots for the given level.
+67299ba101063176805e7ee0,independent,"Sets the maximum number of buttons that can be checked at once. If set to 0, any number of buttons can be checked. If set to a negative number, the number of buttons that can be checked will be unlimited."
+67299ba101063176805e7ee1,independent,Create a StAX Result for the given event writer.
+67299ba101063176805e7ee2,independent,Builds the partitioned index storage if it doesn't already exist.
+67299ba101063176805e7ee3,independent,Returns the segment index containing the specified index.
+67299ba101063176805e7ee4,independent,Fills a rectangle with the given color.
+67299ba101063176805e7ee5,independent,Set whether to use auto-commit for Connections obtained from this factory.
+67299ba101063176805e7ee6,independent,Returns a new calculator for calculating the encoded size of property values.
+67299ba101063176805e7ee7,independent,Set the pattern to use for formatting and parsing.
+67299ba101063176805e7ee8,independent,"Checks if the given syntax is a function syntax, i.e. not a prefix, binary, or postfix operator."
+67299ba101063176805e7ee9,independent,Sets if the servlet filters should be eagerly initialized . Defaults to {@code false} .
+67299ba101063176805e7eea,independent,Rotate this matrix by the given quaternion.
+67299ba101063176805e7eeb,independent,Logs a debug message with the specified tag.
+67299ba101063176805e7eec,independent,Sets the stats groups to be included in the search results.
+67299ba101063176805e7eed,independent,Sets the filter for this alias.
+67299ba101063176805e7eee,independent,Build the mock server HTTP request.
+67299ba101063176805e7eef,independent,Creates a new DoubleBuffer using the specified array as the backing store.
+67299ba101063176805e7ef0,independent,Completes creation of a table with the specified metadata and data.
+67299ba101063176805e7ef1,independent,
+67299ba101063176805e7ef2,independent,Returns the frame memory allocator for this output channel. Throws an exception if the allocator is not available.
+67299ba101063176805e7ef3,independent,Returns the current size of the buffer.
+67299ba101063176805e7ef4,independent,Sets the name of the indexed shape index to query against.
+67299ba101063176805e7ef5,independent,Set the chronology to use for formatting and parsing.
+67299ba101063176805e7ef6,independent,Builds a RestResponse from the given Response object.
+67299ba101063176805e7ef7,independent,Return the AopProxyFactory that this ProxyConfig uses.
+67299ba101063176805e7ef8,independent,Count the number of occurrences of a substring in a string.
+67299ba101063176805e7ef9,independent,Set the JAXB schema resources to use for validation .
+67299ba101063176805e7efa,independent,Checks if this format family has a higher rank than the given one.
+67299ba101063176805e7efb,independent,Calculates the x scale of the given matrix.
+67299ba101063176805e7efc,independent,Computes the number of bytes needed to encode an integer using VByte encoding.
+67299ba101063176805e7efd,independent,Sets the preferred size of this container.
+67299ba101063176805e7efe,independent,Sets the format for the output of the bucket script aggregation.
+67299ba101063176805e7eff,independent,Returns the EmbeddedDatabaseType for this connection or {@code null} if there is no
+67299ba101063176805e7f00,independent,Sets the position of the exception in the expression string.
+67299ba101063176805e7f01,independent,"Check if the type is a wildcard without any bounds (i.e. ""?"")"
+67299ba101063176805e7f02,independent,Returns the MimeMessageHelper instance used by this MimeMailMessage.
+67299ba101063176805e7f03,independent,"Get the value of the ""onfocus"" attribute."
+67299ba101063176805e7f04,independent,"Callback after the invocation of the target method, to be implemented by subclasses ."
+67299ba101063176805e7f05,independent,Set the servlet to be registered.
+67299ba101063176805e7f06,independent,Set the URI template for the request.
+67299ba101063176805e7f07,independent,Generate a random salt of specified length.
+67299ba101063176805e7f08,independent,Inverts the quaternion.
+67299ba101063176805e7f09,independent,Checks whether the 'blah' field is set.
+67299ba101063176805e7f0a,independent,Sets the windowed mode size.
+67299ba101063176805e7f0b,independent,Sets the 32-bit float at the specified absolute index in this buffer.
+67299ba101063176805e7f0c,independent,Indexes the given list of translog operations on the target shard.
+67299ba101063176805e7f0d,independent,Creates a new InvalidateApiKeyRequest with the specified API key ID and ownership information.
+67299ba101063176805e7f0e,independent,Wraps the given message in a SimpMessageHeaderAccessor.
+67299ba101063176805e7f0f,independent,Sets the timeout for waiting for the completion of the async operation.
+67299ba101063176805e7f10,independent,Creates an ExprEval from a boolean value.
+67299ba101063176805e7f11,independent,Returns whether nested paths should be ignored.
+67299ba101063176805e7f12,independent,Inserts a {@link ChannelHandler} to the front of the {@link ChannelPipeline}.
+67299ba101063176805e7f13,independent,Encodes the given byte array into a Base64 string using the BASE64_ENCODER.
+67299ba101063176805e7f14,independent,Customize the given MockMvcRestDocumentationConfigurer.
+67299ba101063176805e7f15,independent,Return the required type that was expected but not found.
+67299ba101063176805e7f16,independent,Sets the user data associated with this body.
+67299ba101063176805e7f17,independent,Set flag to enable/disable warm starting . For testing .
+67299ba101063176805e7f18,independent,Returns an empty set of direct paths for the given mapping.
+67299ba101063176805e7f19,independent,"Calculates the average number of primary shards per index. If no indices are present, returns -1."
+67299ba101063176805e7f1a,independent,Creates a new InvalidateApiKeyRequest with the given API key name and ownership information.
+67299ba101063176805e7f1b,independent,"Truncates the array to the specified size, if the current size is larger."
+67299ba101063176805e7f1c,independent,Get the total time in nanoseconds.
+67299ba101063176805e7f1d,independent,Sets the instance of the Restarter class. This is used for testing purposes only.
+67299ba101063176805e7f1e,independent,Removes the frame tail from the given WebSocket frame.
+67299ba101063176805e7f1f,independent,Set the prefix that gets prepended to view names when building a URL.
+67299ba101063176805e7f20,independent,"Set whether to wait for running jobs to complete on shutdown . Default is "" true "" ."
+67299ba101063176805e7f21,independent,Retrieves the initial progress from the response and notifies the progress listener.
+67299ba101063176805e7f22,independent,Get the scheduler used by this resource factory.
+67299ba101063176805e7f23,independent,Get the base cell for a given face and coordinate.
+67299ba101063176805e7f24,independent,Get the time-to-live value for messages sent using this template.
+67299ba101063176805e7f25,independent,Get the lock ID for a given entry ID and lock type.
+67299ba101063176805e7f26,independent,Sets the default verification mode for SSL connections.
+67299ba101063176805e7f27,independent,"Returns the char value in this sequence at the specified index . The first char value is at index 0, the next at index 1, and so on, as in array indexing . The index argument must be greater than or equal to 0, and less than the length of this sequence ."
+67299ba101063176805e7f28,independent,Checks if this RoutingState is not equal to any of the given candidates.
+67299ba101063176805e7f29,independent,Adds the given timeout to the end of this bucket.
+67299ba101063176805e7f2a,independent,"Sets the minimum, preferred, and maximum width to the specified value."
+67299ba101063176805e7f2b,independent,Sets the suffix to use when quoting field names in the query string.
+67299ba101063176805e7f2c,independent,Creates a new local scope within the current block scope.
+67299ba101063176805e7f2d,independent,Set the pointcut targeting the advice. Default is Pointcut.TRUE.
+67299ba101063176805e7f2e,independent,Convert the size to the size index.
+67299ba101063176805e7f2f,independent,Returns a float value from a specific column.
+67299ba101063176805e7f30,independent,Returns the minimum of the given value and the remaining length of the RandomAccessDataFile.
+67299ba101063176805e7f31,independent,Returns the value of the requested vertex attribute at the given index.
+67299ba101063176805e7f32,independent,Adds a directional light to the system.
+67299ba101063176805e7f33,independent,Sets the cell's horizontal size to be uniform.
+67299ba101063176805e7f34,independent,Resets the fields that are only used when creating a model package.
+67299ba101063176805e7f35,independent,Sets the center point for the geo distance query.
+67299ba101063176805e7f36,independent,Set the description that will be associated with the Trigger.
+67299ba101063176805e7f37,independent,This method is used to read the shard result from the given input stream.
+67299ba101063176805e7f38,independent,Abstract method that returns the total number of buckets.
+67299ba101063176805e7f39,independent,Sets the left padding for the font.
+67299ba101063176805e7f3a,independent,Create a new UnixDomainSocket using the given path.
+67299ba101063176805e7f3b,independent,Set the name of the attribute to use for determining the lookup path for CORS configuration.
+67299ba101063176805e7f3c,independent,Returns the smallest integer greater than or equal to the result of dividing the dividend by the divisor.
+67299ba101063176805e7f3d,independent,Returns the previous element in the list and sets it as the current element.
+67299ba101063176805e7f3e,independent,Asserts that the cookie map does not contain a cookie with the given name.
+67299ba101063176805e7f3f,independent,"Set the minimum amount of time (in milliseconds) an object may sit idle in the pool before it is eligible for eviction by the idle object evictor . When non - positive , no objects will be evicted from the pool due to idle time alone . This setting has no effect unless numTestsPerEvictionRun is positive ."
+67299ba101063176805e7f40,independent,"Return the view name, if any."
+67299ba101063176805e7f41,independent,Calculates the total size of all the buffers in the chunks list.
+67299ba101063176805e7f42,independent,Checks if the given string is a valid IPv6 address.
+67299ba101063176805e7f43,independent,Set the distance unit for the sort.
+67299ba101063176805e7f44,independent,Sets the position and radius of the circle.
+67299ba101063176805e7f45,independent,Returns the attribute method at the given index.
+67299ba101063176805e7f46,independent,Set the transaction rollback-only flag to true.
+67299ba101063176805e7f47,independent,Returns the task description for downloading a model with the given model id.
+67299ba101063176805e7f48,independent,Returns a map of worker IDs to the number of running tasks on that worker.
+67299ba101063176805e7f49,independent,Copies the given source long array into the given destination buffer using JNI.
+67299ba101063176805e7f4a,independent,This function reverses a sequence of integers within an integer array. It is used for sorting purposes.
+67299ba101063176805e7f4b,independent,Checks whether the 'foo' field is set.
+67299ba101063176805e7f4c,independent,Set the {@link HandlerExceptionResolver HandlerExceptionResolvers} to use.
+67299ba101063176805e7f4d,independent,Returns the perimeter of the AABB. This is used to compare the order of two AABBs.
+67299ba101063176805e7f4e,independent,Sets the y coordinate of the map object's position.
+67299ba101063176805e7f4f,independent,Creates a new AliasActions object with the type set to ADD.
+67299ba101063176805e7f50,independent,Sets the right padding for the font.
+67299ba101063176805e7f51,independent,Returns an array of ASCII characters from the specified range of indices.
+67299ba101063176805e7f52,independent,Adds a listener to the view controller.
+67299ba101063176805e7f53,independent,"Get the parent bean definition, if any."
+67299ba101063176805e7f54,independent,"Creates a short from two chars, using big endian order if the platform is big endian."
+67299ba101063176805e7f55,independent,Sets the page size for the page cache configuration.
+67299ba101063176805e7f56,independent,Returns a cache key for the given view name and locale.
+67299ba101063176805e7f57,independent,Callback for when a point is removed during simplification.
+67299ba101063176805e7f58,independent,Create a new ClientRequest builder with the given HTTP method and URL.
+67299ba101063176805e7f59,independent,Return the JNDI template used for JTA access.
+67299ba101063176805e7f5a,independent,Convert the given column name to lower case.
+67299ba101063176805e7f5b,independent,Sets the gap policy for the serial diff aggregation . The gap policy determines how missing buckets are treated when computing the diff between consecutive buckets .
+67299ba101063176805e7f5c,independent,Sets the boost for this context.
+67299ba101063176805e7f5d,independent,Sets the maximum number of concurrent search requests allowed for this multi search template request.
+67299ba101063176805e7f5e,independent,Create a new AggCardinalityUpperBoundAggregationBuilder with the given name.
+67299ba101063176805e7f5f,independent,Compute the size in bytes of a sparse-encoding serialized histogram without the serialization header.
+67299ba101063176805e7f60,independent,Returns the identifier of the given entity using the persistence unit util of the entity manager factory.
+67299ba101063176805e7f61,independent,Set the name of the schema to use for this call.
+67299ba101063176805e7f62,independent,Checks if the given byte has the tombstone flag set.
+67299ba101063176805e7f63,independent,Sets this matrix to a scaling matrix . The values of the matrix will be set to the given scaling values .
+67299ba101063176805e7f64,independent,Calculates the number of padding bytes that need to be appended to the end of a frame.
+67299ba101063176805e7f65,independent,Updates the tags from the given remote repository.
+67299ba101063176805e7f66,independent,Sets the listener for text field events.
+67299ba101063176805e7f67,independent,Publishes the results of the benchmark run.
+67299ba101063176805e7f68,independent,Returns the number of bytes required to store the given number of bits per value in a block.
+67299ba101063176805e7f69,independent,Returns the current version of Spring Boot.
+67299ba101063176805e7f6a,independent,Returns the declaring class of the given type variable.
+67299ba101063176805e7f6b,independent,Returns {@code true} if TCP Fast Open is enabled.
+67299ba101063176805e7f6c,independent,64 characters from the alphabet used for the encoding .
+67299ba101063176805e7f6d,independent,Internal method for receiving events from the pipeline.
+67299ba101063176805e7f6e,independent,Sets the group for the job detail factory bean.
+67299ba101063176805e7f6f,independent,Creates a listener for Druid connection state changes.
+67299ba101063176805e7f70,independent,Calculates the position of an ordinal at the given level and offset.
+67299ba101063176805e7f71,independent,"Returns whether the transform is in a transient state, meaning it has not yet been started or has been stopped."
+67299ba101063176805e7f72,independent,Sets the charset to use for this HttpData.
+67299ba101063176805e7f73,independent,Converts RGB values to ANSI color code.
+67299ba101063176805e7f74,independent,"Sets the button to listen for, all other buttons are ignored."
+67299ba101063176805e7f75,independent,Returns a random field name that is compatible with the field value factor function.
+67299ba101063176805e7f76,independent,"Returns the body of this entity, or null if it has no body."
+67299ba101063176805e7f77,independent,Sets the center of the circle.
+67299ba101063176805e7f78,independent,Creates a column handle for a subfield of a base column handle.
+67299ba101063176805e7f79,independent,Returns a comparator that compares objects according to their natural order.
+67299ba101063176805e7f7a,independent,Returns whether the snapshot index shard stage is completed.
+67299ba101063176805e7f7b,independent,Returns a random precision value for testing purposes.
+67299ba101063176805e7f7c,independent,Sets the rotation of the object in degrees .
+67299ba101063176805e7f7d,independent,Returns whether this rectangle overlaps the other rectangle.
+67299ba101063176805e7f7e,independent,Sets the flip vertically flag for this cell.
+67299ba101063176805e7f7f,independent,Sets the vertex values to the specified values. The passed in color is packed so it can be used with SpriteBatch's packed draw calls.
+67299ba101063176805e7f80,independent,"Rotates the sprite by 90 degrees, either clockwise or counterclockwise."
+67299ba101063176805e7f81,independent,Get the current sort definition for this holder.
+67299ba101063176805e7f82,independent,Creates a custom level configuration with the given name.
+67299ba101063176805e7f83,independent,"Generate a random string of a certain length, replacing any carriage return or line feed characters with question marks."
+67299ba101063176805e7f84,independent,Sets the alignment of the list items (left/right/center).
+67299ba101063176805e7f85,independent,Returns the index of the failed shard.
+67299ba101063176805e7f86,independent,Returns a boolean value indicating the specified program parameter for the given WebGL program.
+67299ba101063176805e7f87,independent,Remove all entries from the dynamic table.
+67299ba101063176805e7f88,independent,Removes a point light from the system.
+67299ba101063176805e7f89,independent,Copies the given source double array into the given destination buffer using JNI.
+67299ba101063176805e7f8a,independent,Sets if the watcher should be stopped when the application is restarted .
+67299ba101063176805e7f8b,independent,Writes the given object to the output message using the specified serializer and format.
+67299ba101063176805e7f8c,independent,"Returns the oldest value in the window, or the last value if the window is full ."
+67299ba101063176805e7f8d,independent,Get the concurrency setting for this endpoint.
+67299ba101063176805e7f8e,independent,Creates a new SnappyFrameEncoder with the specified jumbo frame size.
+67299ba101063176805e7f8f,independent,Builds a key for a given field name in Painless.
+67299ba101063176805e7f90,independent,Checks if the bitField0_ has the isValid bit set.
+67299ba101063176805e7f91,independent,Set the continuous physics flag for this world.
+67299ba101063176805e7f92,independent,Checks if the given TrustManager is an instance of Conscrypt's TrustManagerImpl.
+67299ba101063176805e7f93,independent,"Returns the buffer at the given index, or the underlying buffer if it is a component buffer."
+67299ba101063176805e7f94,independent,Returns the origin of this property source.
+67299ba101063176805e7f95,independent,"Returns an iterator over S3ObjectSummary objects for the given prefixes, using the provided S3 client and retry settings."
+67299ba101063176805e7f96,independent,"Collects a stream to an unmodifiable sorted map, throwing an exception if duplicate keys are encountered."
+67299ba101063176805e7f97,independent,Sets the left side width of the content area (or the middle patch's width).
+67299ba101063176805e7f98,independent,Returns true if the arrays have the same order and each value is the same.
+67299ba101063176805e7f99,independent,Sets the maximum number of expansions allowed for fuzzy queries.
+67299ba101063176805e7f9a,independent,Sets the user data associated with this joint.
+67299ba101063176805e7f9b,independent,Checks if a given base cell is a polar pentagon.
+67299ba101063176805e7f9c,independent,Returns a new RSocketRequestValues instance with the given values.
+67299ba101063176805e7f9d,independent,Get the locale associated with the request.
+67299ba101063176805e7f9e,independent,Creates a builder for configuring a new SslContext for client-side.
+67299ba101063176805e7f9f,independent,Encode from one message to an other. This method will be called for each written message that can be handled by this encoder.
+67299ba101063176805e7fa0,independent,Returns the SortDefinition used for this comparator.
+67299ba101063176805e7fa1,independent,Sets a bit in a header byte to a given value.
+67299ba101063176805e7fa2,independent,Sets the width of the outline effect.
+67299ba101063176805e7fa3,independent,Initializes an XAResource with a TransactionDelegate.
+67299ba101063176805e7fa4,independent,Converts the specified array of bytes to a char array of hex digits.
+67299ba101063176805e7fa5,independent,Sets the y coordinate of this object.
+67299ba101063176805e7fa6,independent,"Sets the minimum, preferred, and maximum width of the cell to the specified value."
+67299ba101063176805e7fa7,independent,Customize the given ResourceDatabasePopulator before it is applied .
+67299ba101063176805e7fa8,independent,Returns an array of metrics.
+67299ba101063176805e7fa9,independent,Converts the given number to a byte array representing a 16-bit unsigned integer. Throws an exception if the number is not within the valid range.
+67299ba101063176805e7faa,independent,Returns the listener for the inference service results.
+67299ba101063176805e7fab,independent,Limits the maximum number of relationships to traverse during the shortest path calculation.
+67299ba101063176805e7fac,independent,"Calculates the split ratio based on the flags provided. If neither W_SPLIT_KEEP_ALL_LEFT nor W_SPLIT_KEEP_ALL_RIGHT is set, the default split ratio is returned."
+67299ba101063176805e7fad,independent,Creates an InvalidateApiKeyRequest with the given realm name and user name.
+67299ba101063176805e7fae,independent,Checks if the given longitude is valid (within the range of -180 to 180 degrees).
+67299ba101063176805e7faf,independent,Abstract method to get a short value from the given offset in the page.
+67299ba101063176805e7fb0,independent,Returns the height of the specified row in this table.
+67299ba101063176805e7fb1,independent,Converts a byte array to a long using z-order curve.
+67299ba101063176805e7fb2,independent,Increment the evaluation count for this pointcut.
+67299ba101063176805e7fb3,independent,Builds the aggregator factory based on the given context and parent aggregator factory.
+67299ba101063176805e7fb4,independent,Handles the response from an HTTP request and returns the result.
+67299ba101063176805e7fb5,independent,Set the suffix that gets appended to view names when building a URL.
+67299ba101063176805e7fb6,independent,Returns the index of the lowest ordinal in the given candidates.
+67299ba101063176805e7fb7,independent,Sets the pad right value for this table.
+67299ba101063176805e7fb8,independent,Set the URL patterns that the filter will be registered against. This will replace any previously specified URL patterns.
+67299ba101063176805e7fb9,independent,Sets the schema resource for validation during unmarshalling.
+67299ba101063176805e7fba,independent,Sets the x coordinate of the origin of this object.
+67299ba101063176805e7fbb,independent,Get the reason for the close status.
+67299ba101063176805e7fbc,independent,Calculates maximum possible size of output buffer for not compressible data.
+67299ba101063176805e7fbd,independent,Draws a string at the specified coordinates with the given color.
+67299ba101063176805e7fbe,independent,Sets the pad for all four sides.
+67299ba101063176805e7fbf,independent,Returns an unmodifiable list of content codings supported by this resource resolver.
+67299ba101063176805e7fc0,independent,Returns a collection of ignored field values.
+67299ba101063176805e7fc1,independent,Returns a map of worker IDs to the number of tasks assigned to them.
+67299ba101063176805e7fc2,independent,Resolves the operation mode based on the given license type.
+67299ba101063176805e7fc3,independent,Returns the cached object without refreshing it.
+67299ba101063176805e7fc4,independent,Sets the double at the specified index in this buffer.
+67299ba101063176805e7fc5,independent,This implementation opens a OutputStream for the underlying file.
+67299ba101063176805e7fc6,independent,Returns the command line options supported by this command.
+67299ba101063176805e7fc7,independent,"Encodes a long value using zig-zag encoding, which is used to efficiently encode signed integers in Protobuf."
+67299ba101063176805e7fc8,independent,Handles the click event on a URL.
+67299ba101063176805e7fc9,independent,Set whether to require a data stream for this request.
+67299ba101063176805e7fca,independent,Called when a node is connected to the transport service.
+67299ba101063176805e7fcb,independent,"Checks if the map contains the specified value. This will iterate over the entire map and compare each value, so it may be slow for large maps."
+67299ba101063176805e7fcc,independent,Multiplies this vector by the given matrix .
+67299ba101063176805e7fcd,independent,Sets the id of the document to be deleted.
+67299ba101063176805e7fce,independent,Returns the type argument index of the path element at the given index.
+67299ba101063176805e7fcf,independent,"Sets the back buffer color, depth and stencil sizes in bits per pixel. This is only used when the window is fullscreen. Default is 8 for all."
+67299ba101063176805e7fd0,independent,Handles an unknown frame received from the remote endpoint.
+67299ba101063176805e7fd1,independent,Sets the rotation of the cell in degrees.
+67299ba101063176805e7fd2,independent,Parses a byte array into an IPv6Address object.
+67299ba101063176805e7fd3,independent,"Multiplies this quaternion with the given quaternion, storing the result in this quaternion."
+67299ba101063176805e7fd4,independent,Creates a proxy. Provide a tight fitting AABB and a userData pointer.
+67299ba101063176805e7fd5,independent,Create a database tracer using the given page cache tracer and clock.
+67299ba101063176805e7fd6,independent,Finds the latest checkpoint in the checkpoint file.
+67299ba101063176805e7fd7,independent,Resizes the canvas to the given width and height.
+67299ba101063176805e7fd8,independent,Sets the time zone for this Jackson2ObjectMapperBuilder.
+67299ba101063176805e7fd9,independent,Computes the natural logarithm of the given value .
+67299ba101063176805e7fda,independent,Returns the high bit of the given H3 index.
+67299ba101063176805e7fdb,independent,Returns the bytes for bar.
+67299ba101063176805e7fdc,independent,Returns the southern polar bound for a given H3 resolution.
+67299ba101063176805e7fdd,independent,"Checks if the current block size read from the channel is less than the block size, indicating the end of the stream."
+67299ba101063176805e7fde,independent,None provided.
+67299ba101063176805e7fdf,independent,"Configure a handler to delegate unhandled requests by forwarding to the Servlet container's ""default"" servlet."
+67299ba101063176805e7fe0,independent,"Returns a string representation of the handle, including the owner, name, descriptor, tag, and whether it is an interface method."
+67299ba101063176805e7fe1,independent,Sets the minimum number of optional clauses that must be matched in order to consider the query a match.
+67299ba101063176805e7fe2,independent,Set the geo distance for sorting.
+67299ba101063176805e7fe3,independent,Creates a new MemoryBasicInformation object.
+67299ba101063176805e7fe4,independent,Checks if this vector is collinear with the given vector.
+67299ba101063176805e7fe5,independent,Create a new instance of the state machine with the given connection and log service.
+67299ba101063176805e7fe6,independent,Create a new EventLoop to be used for a Channel.
+67299ba101063176805e7fe7,independent,Set the URI for the request.
+67299ba101063176805e7fe8,independent,Converts a Java object to a Ruby object using the JRuby runtime.
+67299ba101063176805e7fe9,independent,Calculates the weighted average between two values.
+67299ba101063176805e7fea,independent,Set the order value for this filter.
+67299ba101063176805e7feb,independent,"Stops the datafeed job by setting the running flag to false. Returns true if the flag was successfully set, false if it was already false."
+67299ba101063176805e7fec,independent,Set the order value for this filter.
+67299ba101063176805e7fed,independent,Sets the components of this vector to the given values and returns it for chaining.
+67299ba101063176805e7fee,independent,Converts a JSON node to a BuildpackMetadata object.
+67299ba101063176805e7fef,independent,Create an AutowiredMethodArgumentsResolver for the given method name and parameter types.
+67299ba101063176805e7ff0,independent,Returns the AspectInstanceFactory used by this advice.
+67299ba101063176805e7ff1,independent,Returns an Ordering that can be used to sort the results of this query.
+67299ba101063176805e7ff2,independent,Checks if the given task type matches the supervisor's task type.
+67299ba101063176805e7ff3,independent,Sets the x-coordinate of this circle.
+67299ba101063176805e7ff4,independent,Configures the server bootstrap with the SO_REUSEADDR option.
+67299ba101063176805e7ff5,independent,Set the layers for this packager.
+67299ba101063176805e7ff6,independent,Creates a copy of this GridPoint3.
+67299ba101063176805e7ff7,independent,Serialize the given key collector snapshot.
+67299ba101063176805e7ff8,independent,Set the boost value for this KNN search.
+67299ba101063176805e7ff9,independent,Sets the alignment of the column to the left.
+67299ba101063176805e7ffa,independent,Set the ThreadPoolExecutor's core pool size. Default is 1.
+67299ba101063176805e7ffb,independent,Sets the version type for this index request.
+67299ba101063176805e7ffc,independent,Puts a byte at the given offset in the buffer.
+67299ba101063176805e7ffd,independent,Calculates the height of a geohash cell at a given level.
+67299ba101063176805e7ffe,independent,Copies histogram h into the current histogram .
+67299ba101063176805e7fff,independent,Creates a new key with the given type and annotation strategy.
+67299ba101063176805e8000,independent,"Set the type name of the map's keys, as a fully qualified class name."
+67299ba101063176805e8001,independent,Callback for when the list of shards is available.
+67299dbda23f7e5639814e0e,dependent,Test that the internal HTTP request is correctly built and executed .
+67299dbda23f7e5639814e0f,dependent,Not available.
+67299dbda23f7e5639814e10,dependent,Tracks the failure by adding the exception to the suppressed exceptions list and setting it as the main exception if it is not already set.
+67299dbda23f7e5639814e11,dependent,Returns the settings for the rest client with basic authentication using the admin user and the default password .
+67299dbda23f7e5639814e12,dependent,Runs a script and returns the result.
+67299dbda23f7e5639814e13,dependent,Runs a container with the given distribution and DockerRun configuration.
+67299dbda23f7e5639814e14,dependent,"Run a container using the given distribution and builder, and return an Installation object representing the container."
+67299dbda23f7e5639814e15,dependent,Create parameters for the test suite.
+67299dbda23f7e5639814e16,dependent,Starts initializing shards and reroutes them to the given routing node.
+67299dbda23f7e5639814e17,dependent,Connects to a given node using the provided transport service.
+67299dbda23f7e5639814e18,dependent,Stops a random data node in the cluster.
+67299dbda23f7e5639814e19,dependent,Sets up a mock TransportService with a mock ThreadPool and returns the mock TransportService.
+67299dbda23f7e5639814e1a,dependent,Rewrites the given query using the provided shard rewrite context and ensures that the rewritten query is serializable.
+67299dbda23f7e5639814e1b,dependent,Executes the given code block repeatedly until it either succeeds or the timeout is reached.
+67299dbda23f7e5639814e1c,dependent,Returns the range of ports used by the worker nodes.
+67299dbda23f7e5639814e1d,dependent,Returns a SecureRandom instance using the FIPS algorithm.
+67299dbda23f7e5639814e1e,dependent,Creates an index with the given name and default settings.
+67299dbda23f7e5639814e1f,dependent,Adds a rule that will make the transport service unresponsive for the given duration when trying to connect to the specified transport address. This is useful for simulating network failures during testing.
+67299dbda23f7e5639814e20,dependent,Ensures that the cluster is in a healthy state before starting a network disruption. This method checks for active disruptions and ensures that the cluster has the correct number of nodes and is fully connected.
+67299dbda23f7e5639814e21,dependent,Waits for all pending tasks to complete on the given rest client.
+67299dbda23f7e5639814e22,dependent,"Resets the feature states for the current cluster, if supported."
+67299dbda23f7e5639814e23,dependent,Returns the settings for the REST client used for administrative requests.
+67299dbda23f7e5639814e24,dependent,Updates the cluster settings using the given settings object.
+67299dbda23f7e5639814e25,dependent,Dispatches the given request to the controller and verifies the response .
+67299dbda23f7e5639814e26,dependent,Looks up a binary method handle for the given classes and name.
+67299dbda23f7e5639814e27,dependent,Returns a MethodHandle that can be used to normalize an index into a list or map.
+67299dbda23f7e5639814e28,dependent,Finds the result of applying a function to each element in a collection.
+67299dbda23f7e5639814e29,dependent,Checks the user expression node for errors and throws exceptions if necessary
+67299dbda23f7e5639814e2a,dependent,Add additional field to the map if the property is contained in the list and the value is not empty.
+67299dbda23f7e5639814e2b,dependent,Specifies whether to ignore unmapped fields when executing the query.
+67299dbda23f7e5639814e2c,dependent,Test the decode and encode functions for the ScaledFloatFieldMapper class.
+67299dbda23f7e5639814e2d,dependent,Stop the APM server instance.
+67299dbda23f7e5639814e2e,dependent,"Deletes the given path, retrying if necessary."
+67299dbda23f7e5639814e2f,dependent,Syncs the source directory with the destination directory using hard links.
+67299dbda23f7e5639814e30,dependent,"Register a client with the given clientId, clientSecret and redirectUri."
+67299dbda23f7e5639814e31,dependent,"Pauses the execution of the watch, cancelling any queued tasks."
+67299dbda23f7e5639814e32,dependent,Clears the allocation ids and returns true if there were any previous ids.
+67299dbda23f7e5639814e33,dependent,Called after an index operation has completed.
+67299dbda23f7e5639814e34,dependent,Called before a delete is executed on the engine.
+67299dbda23f7e5639814e35,dependent,Filters out any settings that are not allowed to be set by the user.
+67299dbda23f7e5639814e36,dependent,"Registers a new execution with the given id and execution object. Returns true if the execution was successfully registered, false if an execution with the same id already exists."
+67299dbda23f7e5639814e37,dependent,"Pauses the execution service and clears any pending executions, returning the number of cleared executions."
+67299dbda23f7e5639814e38,dependent,"Clears all executions and the queue, and returns the number of cancelled tasks."
+67299dbda23f7e5639814e39,dependent,Creates triggered watches and contexts from the given events.
+67299dbda23f7e5639814e3a,dependent,Clears all executions and waits for them to stop.
+67299dbda23f7e5639814e3b,dependent,"Returns the concrete index for the given index name, or null if the index does not exist ."
+67299dbda23f7e5639814e3c,dependent,Checks if the given time is after the scheduled time and returns the previous scheduled time if it is.
+67299dbda23f7e5639814e3d,dependent,"Removes the value associated with the given key from the map and returns it as the specified type. If the value cannot be cast to the specified type, an exception is thrown."
+67299dbda23f7e5639814e3e,dependent,Moves the model ID from the task settings to the service settings if it is not already present in the service settings.
+67299dbda23f7e5639814e3f,dependent,"Positions the parser at the next token after the specified field. If the field is not found, an exception is thrown."
+67299dbda23f7e5639814e40,dependent,Calculates the time to reserve for the given number of tokens.
+67299dbda23f7e5639814e41,dependent,Reserve the specified number of tokens and return the time value for the reservation.
+67299dbda23f7e5639814e42,dependent,Test that the shard status is complete when a node is shut down on non-data nodes.
+67299dbda23f7e5639814e43,dependent,Syncronously renews the retention lease on the leader shard.
+67299dbda23f7e5639814e44,dependent,Validates that the leader and follower index settings are identical .
+67299dbda23f7e5639814e45,dependent,"Returns a view of the given list based on the specified limit and offset values. If the limit is negative, the list is reversed before applying the limit. If the size of the list is greater than or equal to the total limit, the sublist from the offset to the total limit is returned. If the size of the list is smaller than the absolute value of the limit, the entire list is returned. Otherwise, the sublist from the end of the list to the absolute value of the limit is returned."
+67299dbda23f7e5639814e46,dependent,Checks if there are any following candidates for the given stage.
+67299dbda23f7e5639814e47,dependent,"Returns the substring between the first occurrence of left and the last occurrence of right in the given string, or an empty string if either left or right is not found."
+67299dbda23f7e5639814e48,dependent,"Records an error in retrieving a policy for an index, and sets the step info for the index to reflect the error."
+67299dbda23f7e5639814e49,dependent,"Adds an ILM history item to the index asynchronously. If ILM history is not enabled, the item will not be recorded."
+67299dbda23f7e5639814e4a,dependent,"Finds the best jobs for the given source and set of job capabilities. There is an opportunity to optimize the returned caps to find the minimal set of required caps. For example, one leaf may have equally good jobs [A,B], while another leaf finds only job [B] to be best. If job A is a subset of job B, we could simply search job B in isolation and get the same results. We can't do that today, because we don't (yet) have way of determining if one job is a sub/super set of another."
+67299dbda23f7e5639814e4b,dependent,Freezes the clock at the current time.
+67299dbda23f7e5639814e4c,dependent,Unfreezes the clock by resetting it to the system clock with the current time zone.
+67299dbda23f7e5639814e4d,dependent,Fast forwards the clock by the specified number of seconds.
+67299dbda23f7e5639814e4e,dependent,Rewinds the clock by the specified number of seconds.
+67299dbda23f7e5639814e4f,dependent,Checks if the license is currently active by checking against the status of the license.
+67299dbda23f7e5639814e50,dependent,"Checks if the given state is allowed and starts tracking if it is. Returns true if the state is allowed, false otherwise."
+67299dbda23f7e5639814e51,dependent,Checks if the given XPackLicenseState allows this feature without tracking its usage.
+67299dbda23f7e5639814e52,dependent,Updates the last checked and last met condition timestamps and resets the acknowledgement status for all actions if the condition is not met.
+67299dbda23f7e5639814e53,dependent,Creates a rounding object for the date histogram group config.
+67299dbda23f7e5639814e54,dependent,Tests whether the given expression is a valid cron expression.
+67299dbda23f7e5639814e55,dependent,"Create a response for the given document ID, headers, and response object, and pass it to the given listener."
+67299dbda23f7e5639814e56,dependent,"Get the response for the given async execution id, optionally restoring the response headers."
+67299dbda23f7e5639814e57,dependent,"Sets the internal user for the security context, using the provided internal user and transport version."
+67299dbda23f7e5639814e58,dependent,"Checks if the given action is allowed for any of the groups in the list. If the action is a mapping update action, also checks if any of the groups have a privilege that grants mapping updates for BWC."
+67299dbda23f7e5639814e59,dependent,Validates the given application name.
+67299dbda23f7e5639814e5a,dependent,Verifies a given hash against a SecureString data using a Hasher object.
+67299dbda23f7e5639814e5b,dependent,Writes the authentication object to the context and adds the encoded header to the context header .
+67299dbda23f7e5639814e5c,dependent,"Generate a salt for use with the BCrypt.hashpw() method, selecting a reasonable default for the number of hashing rounds to apply"
+67299dbda23f7e5639814e5d,dependent,Generates a salt for use with the BCrypt hash function.
+67299dbda23f7e5639814e5e,dependent,"Returns true if align checkpoints is disabled in the settings, false otherwise."
+67299dbda23f7e5639814e5f,dependent,Create a mask to identify short fields in a delimited text structure.
+67299dbda23f7e5639814e60,dependent,"Compares two rows of a delimited text file using the Levenshtein distance algorithm, taking into account only the fields specified in the given BitSet."
+67299dbda23f7e5639814e61,dependent,Calculates the weights for each matched format based on the number of matches and the weight of each match.
+67299dbda23f7e5639814e62,dependent,Decides if the given sample can be used to create a text structure.
+67299dbda23f7e5639814e63,dependent,"Replaces expressions in the target list with the given pattern, using the provided replacer function. Returns true if any replacements were made."
+67299dbda23f7e5639814e64,dependent,Combines a list of queries into a single query using the given clause.
+67299dbda23f7e5639814e65,dependent,"Converts a long to a Number, treating it as an unsigned long."
+67299dbda23f7e5639814e66,dependent,"Counts the number of repeated coordinates in reverse order, starting from the last coordinate."
+67299dbda23f7e5639814e67,dependent,"Adjusts the circuit breaker based on the delta value. If the delta is positive, it may potentially trip the breaker. If the delta is negative, it will not trip the breaker."
+67299dbda23f7e5639814e68,dependent,Computes the median value of a list of integers in ascending order.
+67299dbda23f7e5639814e69,dependent,Checks if the given rounding is valid for the given range.
+67299dbda23f7e5639814e6a,dependent,"Evaluates the MvMax function for an ascending index, handling null values."
+67299dbda23f7e5639814e6b,dependent,Schedule snapshot jobs based on the snapshot lifecycle metadata in the cluster state.
+67299dbda23f7e5639814e6c,dependent,Generates a set of random ByteRanges with the given length.
+67299dbda23f7e5639814e6d,dependent,"Finish the read operation, releasing all permits and marking all bytes as accounted for."
+67299dbda23f7e5639814e6e,dependent,Checks if a node is safe to be shut down by comparing its shutdown start time with the current time.
+67299dbda23f7e5639814e6f,dependent,Finish reporting of datafeed timing stats .
+67299dbda23f7e5639814e70,dependent,Vacate the node with the given reason.
+67299dbda23f7e5639814e71,dependent,"Finds the common prefix between the input bytes and the offsets, and returns the corresponding value if a leaf is found."
+67299dbda23f7e5639814e72,dependent,Returns the top transaction IDs from the transaction store.
+67299dbda23f7e5639814e73,dependent,Returns the top item ids from the transaction store.
+67299dbda23f7e5639814e74,dependent,Compute the logarithm of the probability mass function for a binomial distribution.
+67299dbda23f7e5639814e75,dependent,"Calculate the log of the binomial probability for a given x, n, p, and q."
+67299dbda23f7e5639814e76,dependent,Returns true if the memory tracker has been recently refreshed and is not stale.
+67299dbda23f7e5639814e77,dependent,Returns the memory requirement for an anomaly detector job.
+67299dbda23f7e5639814e78,dependent,Get the memory requirement for a data frame analytics job.
+67299dbda23f7e5639814e79,dependent,Refreshes the memory tracker with the latest persistent tasks and their memory usage.
+67299dbda23f7e5639814e7a,dependent,Waits for a flush acknowledgement for the given flush ID within the specified timeout. Returns null if the flush failed.
+67299dbda23f7e5639814e7b,dependent,Builds a TimeRange object using the specified start and end times.
+67299dbda23f7e5639814e7c,dependent,Deletes all annotations for all jobs.
+67299dbda23f7e5639814e7d,dependent,"Persists a bucket in the index, along with its influencers."
+67299dbda23f7e5639814e7e,dependent,Deletes the interim results for the given job.
+67299dbda23f7e5639814e7f,dependent,Flushes the bulk and executes the given listener when complete.
+67299dbda23f7e5639814e80,dependent,Tests the inflation of a bounded tiler with a specific H3 cell and precision.
+67299dbda23f7e5639814e81,dependent,Sets the value of the given GeoShapeCellValues object with the encoded tile coordinates if they are valid. Returns the number of cells set.
+67299dbda23f7e5639814e82,dependent,Checks if the bounding box intersects with the given coordinates.
+67299dbda23f7e5639814e83,dependent,"Relates a point to the GeoHex grid, returning the appropriate GeoRelation."
+67299dbda23f7e5639814e84,dependent,Returns the generation of the last commit in the given files.
+67299dbda23f7e5639814e85,dependent,Skips the final output of the provided data input.
+67299dbda23f7e5639814e86,dependent,Generates a valid random instance name by checking if the name is valid using the Name class.
+67299dbda23f7e5639814e87,dependent,Creates a user with a run as role using basic authentication.
+67299dbda23f7e5639814e88,dependent,Invalidates tokens for the given realm by sending a request to the invalidate tokens API.
+67299dbda23f7e5639814e89,dependent,Returns the part number for the given position in the file.
+67299dbda23f7e5639814e8a,dependent,Removes the given cache key from the cache.
+67299dbda23f7e5639814e8b,dependent,Marks the transform as failed and logs the exception and failure message.
+67299dbda23f7e5639814e8c,dependent,"Resolves the given expression as root attributes, using the given aliases to resolve any nested expressions."
+67299dbda23f7e5639814e8d,dependent,Creates a field attribute for a keyword field with the given name.
+67299dbda23f7e5639814e8e,dependent,Increments the translate metric.
+67299dbda23f7e5639814e8f,dependent,Parses a date string into a ZonedDateTime with only the date component.
+67299dbda23f7e5639814e90,dependent,Prints a message to the terminal with the specified verbosity level.
+67299dbda23f7e5639814e91,dependent,Converts the IJK coordinates to latitude and longitude coordinates.
+67299dbda23f7e5639814e92,dependent,Normalizes the ijk coordinates by finding the minimum value and subtracting it from all coordinates.
+67299dbda23f7e5639814e93,dependent,Finds the neighboring cell in the given direction and updates the coordinates accordingly.
+67299dbda23f7e5639814e94,dependent,Converts face coordinates to geo coordinates at the specified resolution.
+67299dbda23f7e5639814e95,dependent,Convert an H3 address to the number of children at a given resolution.
+67299dbda23f7e5639814e96,dependent,Converts an H3 address to the size of the smallest non-intersecting children.
+67299dbda23f7e5639814e97,dependent,Returns the H3 index at the north pole for the given resolution.
+67299dbda23f7e5639814e98,dependent,Returns the H3 index at the south polar region for a given resolution.
+67299dbda23f7e5639814e99,dependent,Calculates the maximum latitude of the great circle defined by this point and the given point.
+67299dbda23f7e5639814e9a,dependent,Returns the minimum latitude of the great circle defined by this point and the given point.
+67299dbda23f7e5639814e9b,dependent,Converts a hex2d coordinate to a lat/lng coordinate.
+67299dbda23f7e5639814e9c,dependent,Rotates the given H3 index 60 degrees counter-clockwise.
+67299dbda23f7e5639814e9d,dependent,Consumes a point with the given coordinates and adds it to the simplified geometry.
+67299dbda23f7e5639814e9e,dependent,Encodes a given string into a long value using the given length.
+67299dbda23f7e5639814e9f,dependent,Encodes a pair of coordinates into a geohash string with a precision of 12 characters.
+67299dbda23f7e5639814ea0,dependent,Encodes a geohash as a string.
+67299dbda23f7e5639814ea1,dependent,Test loading resources from a parent classloader with a non-package name.
+67299dbda23f7e5639814ea2,dependent,Checks the manifest of the jar for any issues.
+67299dbda23f7e5639814ea3,dependent,Checks if the given array of doubles is in ascending order and throws an assertion error if not. Also checks the values associated with the keys.
+67299dbda23f7e5639814ea4,dependent,Sorts the given array of key values and corresponding arrays of values in ascending order.
+67299dbda23f7e5639814ea5,dependent,Compress the current data in the buffer.
+67299dbda23f7e5639814ea6,dependent,Finds the agent jar file for APM.
+67299dbda23f7e5639814ea7,dependent,Forcefully stops the JVM process associated with this server process.
+67299dbda23f7e5639814ea8,dependent,Returns a list of all versions that are compatible with the current index version.
+67299dbda23f7e5639814ea9,dependent,Asserts that the given number of tasks are unassigned in the cluster state.
+67299dbda23f7e5639814eaa,dependent,Creates a PersistentTasksClusterService using the given function to generate assignments.
+67299dbda23f7e5639814eab,dependent,"Returns an Optional containing the Error instance if the given Throwable or its cause chain contains an Error, otherwise returns an empty Optional."
+67299dbda23f7e5639814eac,dependent,Collects all shard data paths from the given data paths.
+67299dbda23f7e5639814ead,dependent,Initializes the routing table for a new index with the given metadata and unassigned info.
+67299dbda23f7e5639814eae,dependent,Cancels the relocation of a shard and updates the assigned shards.
+67299dbda23f7e5639814eaf,dependent,Resolves a set of index name expressions against the cluster state.
+67299dbda23f7e5639814eb0,dependent,Checks if the given collection of aliases or indices represents all indices.
+67299dbda23f7e5639814eb1,dependent,Close the bulk processor.
+67299dbda23f7e5639814eb2,dependent,"Returns the list of task groups. If the groups have not been built yet, it will call the buildTaskGroups method to populate the list."
+67299dbda23f7e5639814eb3,dependent,Scales down the given value by the sampling probability if the context is sampled.
+67299dbda23f7e5639814eb4,dependent,Scales up a value if the context is sampled.
+67299dbda23f7e5639814eb5,dependent,Encodes a hash value into a string representation of the ZXY coordinates.
+67299dbda23f7e5639814eb6,dependent,Add an unbounded upper bound to the range aggregation.
+67299dbda23f7e5639814eb7,dependent,Adds an unbounded range from the given key and from value.
+67299dbda23f7e5639814eb8,dependent,"Returns a LeafBucketCollector for the given context and input collector, and updates the topChangedListener if necessary."
+67299dbda23f7e5639814eb9,dependent,Submits a task to the cluster service with the result of the migration.
+67299dbda23f7e5639814eba,dependent,Returns the value of the field at the given path as a byte array.
+67299dbda23f7e5639814ebb,dependent,Returns the retention leases for this shard.
+67299dbda23f7e5639814ebc,dependent,"Returns the retention leases for this shard, optionally refreshing them first."
+67299dbda23f7e5639814ebd,dependent,Returns true if the given string has a length greater than 0.
+67299dbda23f7e5639814ebe,dependent,Preserve the current thread context when executing the given command.
+67299dbda23f7e5639814ebf,dependent,"Fast forwards the count down, returning true if the count down was successfully fast forwarded."
+67299dbda23f7e5639814ec0,dependent,Simple pattern matching with optional case insensitivity.
+67299dbda23f7e5639814ec1,dependent,Updates dynamic settings for a specific type.
+67299dbda23f7e5639814ec2,dependent,Formats the given address using the default ports range.
+67299dbda23f7e5639814ec3,dependent,Closes the given channel without throwing any exceptions.
+67299dbda23f7e5639814ec4,dependent,Create a CompressedXContent object from a JSON string.
+67299dbda23f7e5639814ec5,dependent,Calculates the maximum size of the encrypted output buffer required to wrap the given plaintext bytes. Assumes a max of one frame per component in a composite buffer.
+67299dbda23f7e5639814ec6,dependent,Calculates the required size of the output buffer for the given plaintext bytes and number of buffers.
+67299dbda23f7e5639814ec7,dependent,Converts a byte array to an IP address string.
+67299dbda23f7e5639814ec8,dependent,Returns a new AsciiString that is a subsequence of this sequence.
+67299dbda23f7e5639814ec9,dependent,Compares the specified string to this string and compares the specified range of characters to determine if they are the same . When ignoreCase is true the case of the characters is ignored during the comparison .
+67299dbda23f7e5639814eca,dependent,"Returns the next positive power of two value that is greater than or equal to the specified value, or if the specified value is equal to or greater than 2^30, then 2^30."
+67299dbda23f7e5639814ecb,dependent,"Returns a pseudorandom, uniformly distributed long value between least (inclusive) and bound (exclusive)."
+67299dbda23f7e5639814ecc,dependent,Formats a message with a single argument using the specified message pattern.
+67299dbda23f7e5639814ecd,dependent,Create a big-endian buffer that holds a sequence of the specified 32-bit integers.
+67299dbda23f7e5639814ece,dependent,Calculates the checksum of the given data by calling the calculateChecksum function with the reader index and readable bytes of the data.
+67299dbda23f7e5639814ecf,dependent,Write a unary value.
+67299dbda23f7e5639814ed0,dependent,Finishes the encoding of this stream. Will fail if no data was written to this stream yet.
+67299dbda23f7e5639814ed1,dependent,"Update the CRC with the specified value, repeating it the specified number of times."
+67299dbda23f7e5639814ed2,dependent,Validates a valid header value.
+67299dbda23f7e5639814ed3,dependent,Skips any white spaces in the given byte array starting at the specified index and returns the number of skipped bytes.
+67299dbda23f7e5639814ed4,dependent,Checks if the secret store exists for the given secure config.
+67299dbda23f7e5639814ed5,dependent,Checks if the current writer is stale based on the given flush interval.
+67299dbda23f7e5639814ed6,dependent,Returns a collection of common input settings.
+67299dbda23f7e5639814ed7,dependent,Parses the given expression and checks that the result is the same as the given expression .
+67299dbda23f7e5639814ed8,dependent,"Checks the origin of the request against the allowed origins in the given configuration. Returns the origin if it is allowed, or null if not."
+67299dbda23f7e5639814ed9,dependent,Encode the given source URI into an encoded String . The encoding is performed using the given encoding scheme .
+67299dbda23f7e5639814eda,dependent,Decodes and cleans the given URI string. Removes any semicolon content and decodes the string using the given request's encoding. Also sanitizes the path by removing any path traversal sequences.
+67299dbda23f7e5639814edb,dependent,"Return the fallback TimeZone, if any, for this RequestContext."
+67299dbda23f7e5639814edc,dependent,Determine whether the given bean should be proxied with its target class rather than its interfaces .
+67299dbda23f7e5639814edd,dependent,Set the argument names from the given string.
+67299dbda23f7e5639814ede,dependent,Sets the main text content of the message.
+67299dbda23f7e5639814edf,dependent,"Gets a connection from the underlying DataSource, using the specified user credentials if any. Sets the catalog and schema if specified."
+67299dbda23f7e5639814ee0,dependent,Skip over any end-of-line characters.
+67299dbda23f7e5639814ee1,dependent,"Connect to the STOMP server asynchronously, using the given handler to process the resulting session."
+67299dbda23f7e5639814ee2,dependent,"Return the current TimeZone, taken from the current LocaleContext."
+67299dbda23f7e5639814ee3,dependent,"This implementation supports programmatic lookup if the JTA UserTransaction,"
+67299dbda23f7e5639814ee4,dependent,Checks for any leaked buffers and fails the test if any are found.
+67299dbda23f7e5639814ee5,dependent,Increase the indentation level and refresh the indent writer.
+67299dbda23f7e5639814ee6,dependent,Check whether the given array of enum constants contains a constant with the given name ignoring case when determining a match.
+67299dbda23f7e5639814ee7,dependent,Checks whether the given line is a comment line and returns the index of the comment start or -1 if not a comment .
+67299dbda23f7e5639814ee8,dependent,"Finds the best matching locale for the given language string. If the app supports the exact locale, it is returned. Otherwise, the best system locale is returned."
+67299dbda23f7e5639814ee9,dependent,"Cancel the notification with the given notificationId. Uses conversation support if available, otherwise falls back to legacy method."
+67299dbda23f7e5639814eea,dependent,Returns the angle in radians of the rotation around the y axis. Assumes the quaternion is normalized.
+67299dbda23f7e5639814eeb,dependent,Returns the angle in radians of the rotation around the given axis.
+67299dbda23f7e5639814eec,dependent,"Sets this matrix to a translation, rotation and scale matrix."
+67299dbda23f7e5639814eed,dependent,Scales this matrix by the given vector.
+67299dbda23f7e5639814eee,dependent,Returns the quality of a triangle with the given vertices. The quality is defined as the minimum squared length of the triangle's edges divided by the triangle's circumradius squared.
+67299dbda23f7e5639814eef,dependent,Checks if two line segments intersect and returns the intersection point if they do.
+67299dbda23f7e5639814ef0,dependent,Returns the angle in degrees of the vector from the y-axis to the specified point . Angles are towards the positive x-axis (typically counter-clockwise) and between 0 and 360 . The returned angle is the acute angle between the two vectors . It is always between 0 and 360 degrees .
+67299dbda23f7e5639814ef1,dependent,Returns the angle in degrees of the vector from the y-axis to the specified point . Angles are towards the positive x-axis (typically counter-clockwise) and between 0 and 360 . The returned angle is the acute angle between the two vectors . It is always between 0 and 360 . In radians the return value is always between 0 and PI .
+67299dbda23f7e5639814ef2,dependent,Cancels touch focus for all actors.
+67299dbda23f7e5639814ef3,dependent,Sets whether debug lines for tables are shown for tables under the mouse . Only applicable if debug is enabled for the stage .
+67299dbda23f7e5639814ef4,dependent,"Removes an actor from this group. If the actor is not a child of this group, nothing happens. If the actor is a group, all children are recursively removed. This method should be avoided in performance critical applications and might be removed in a future version."
+67299dbda23f7e5639814ef5,dependent,Clears the group's children and optionally unfocuses them.
+67299dbda23f7e5639814ef6,dependent,Sets the background of the container.
+67299dbda23f7e5639814ef7,dependent,Clears the map and reduces the size of the backing arrays to be the specified capacity if they are larger.
+67299dbda23f7e5639814ef8,dependent,Counts the number of runs in the given run and reverse the run if it is descending.
+67299dbda23f7e5639814ef9,dependent,Schedules a task to be executed immediately.
+67299dbda23f7e5639814efa,dependent,Scales the size of the particle emitter by the given scale factor.
+67299dbda23f7e5639814efb,dependent,Rotates the particle controller by the given quaternion.
+67299dbda23f7e5639814efc,dependent,Animate the given animation with the specified parameters and transition time.
+67299dbda23f7e5639814efd,dependent,Queues an animation to be played after the current animation is finished.
+67299dbda23f7e5639814efe,dependent,Returns a file object for the specified sub-directory within the application temp directory.
+67299dbda23f7e5639814eff,dependent,Persist the given entity and return its id.
+67299dbda23f7e5639814f00,dependent,Builds the JDBC URL for the given running service.
+67299dbda23f7e5639814f01,dependent,Builds a JDBC URL for the given service and database.
+67299dbda23f7e5639814f02,dependent,"Get the optional double value associated with a key, or NaN if there is no such key or if the value is not a number."
+67299dbda23f7e5639814f03,dependent,"Get the optional int value associated with a key, or the default if there is no such key or if the value is not a number."
+67299dbda23f7e5639814f04,dependent,"Get an optional long value associated with a key, or the default if there is no such key or if the value is not a long."
+67299dbda23f7e5639814f05,dependent,"Returns the string value associated with the given name, or an empty string if there is no such key."
+67299dbda23f7e5639814f06,dependent,"Creates a new directory with the given name and owner, with default permissions of 0755."
+67299dbda23f7e5639814f07,dependent,"Creates a file with the given name, owner and content."
+67299dbda23f7e5639814f08,dependent,Stops the overlord by gracefully stopping the leader lifecycle and unregistering the leader selector listener.
+67299dbda23f7e5639814f09,dependent,Converts Druid table function parameters to Calcite function parameters.
+67299dbda23f7e5639814f0a,dependent,"Checks if the given RexNode is a non-trivial string concatenation, meaning it is a concatenation of multiple strings and not just a single string literal."
+67299dbda23f7e5639814f0b,dependent,"Submits a SQL task successfully with the given query, username, and password."
+67299dbda23f7e5639814f0c,dependent,Returns the smallest power of two that is greater than or equal to the given value.
+67299dbda23f7e5639814f0d,dependent,Hashes a single value using the specified hash function.
+67299dbda23f7e5639814f0e,dependent,Hashes a single value and converts it to an integer.
+67299dbda23f7e5639814f0f,dependent,Opens all NeoStores using the default store types.
+67299dbda23f7e5639814f10,dependent,Decodes a PropertyBlock into a TextValue .
+67299dbda23f7e5639814f11,dependent,Sets the end condition for the race to be a combination of the given end conditions.
+67299dbda23f7e5639814f12,dependent,"Returns a valid code point between the minimum code point and the given maximum code point, excluding unassigned, private use, and surrogate code points."
+67299dbda23f7e5639814f13,dependent,Unlocks the exclusive lock and takes the write lock for the given address.
+67299dbda23f7e5639814f14,dependent,Get the reference count of the paged file.
+67299dbda23f7e5639814f15,dependent,Evicts a page from the cache and updates the translation table accordingly.
+67299dbda23f7e5639814f16,dependent,Clears the changed chunks in the chunkChangedArray for the given denseNodes.
+67299dbda23f7e5639814f17,dependent,Creates a log channel for an existing version of the physical log.
+67299dbda23f7e5639814f18,dependent,Returns the total waiting time in nanoseconds for this transaction.
+67299dbda23f7e5639814f19,dependent,Stops the index population and checks if it is empty.
+67299dbda23f7e5639814f1a,dependent,Returns a channel for reading the log file.
+67299dbda23f7e5639814f1b,dependent,Release the write lock.
+67299dbda23f7e5639814f1c,dependent,Checks if the cursor is out of bounds and if the seeker is closed.
+67299dbda23f7e5639814f1d,dependent,"Write the generation and pointer to the given cursor, asserting that they are valid values."
+67299dbda23f7e5639814f1e,dependent,"Bumps the unstable generation of this tree, keeping the stable generation unchanged."
+67299dbda23f7e5639814f1f,dependent,Normalize this duration value to a standard representation .
+67299dbda23f7e5639814f20,dependent,Parses the command line arguments and returns a CliArgs object containing the parsed arguments. Throws an ArgumentParserException if there is an error in parsing the arguments.
+67299dbda23f7e5639814f21,dependent,Prints the given text only if the format is set to plain.
+67299dbda23f7e5639814f22,dependent,Checks if the current character is inside a quote
+67299dbda23f7e5639814f23,dependent,Decrease the key of the given node to the new key.
+67299dbda23f7e5639814f24,dependent,Remove x from the child list of y and add it to the root list.
+67299dbda23f7e5639814f25,dependent,"Releases the latch, allowing any waiting threads to proceed."
+67299dbda23f7e5639814f26,dependent,Applies the given work unit to the stack and executes it until it is completed.
+67299dbda23f7e5639814f27,dependent,Returns a user-friendly string representation of the store version.
+67299dbda23f7e5639814f28,dependent,"Returns the total degree of this node, i.e. the sum of all its degrees for all types."
+67299dbda23f7e5639814f29,dependent,Disables the given commands by setting their probability factor to 0.
+67299dbda23f7e5639814f2a,dependent,Runs the test with the given iteration timeout and time unit.
+67299dbda23f7e5639814f2b,dependent,"Runs the test for a specified number of iterations, with a timeout for each iteration. If an exception is thrown, it will print out the details of the previous run before re-throwing the exception."
+67299dbda23f7e5639814f2c,dependent,Creates indexes for the given graph database service.
+67299dbda23f7e5639814f2d,dependent,Deletes all relationships and nodes in the given database using batched delete.
+67299dbda23f7e5639814f2e,dependent,Negotiates the protocol version with the given connection by sending the current protocol version and asserting that the connection negotiates it.
+67299dbda23f7e5639814f2f,dependent,"Read a primitive value from the buffer, with a given limit on the number of bytes that can be read."
+67299dbda23f7e5639814f30,dependent,Returns the center point for the given derived value and level.
+67299dbda23f7e5639814f31,dependent,Returns a list of tiles that intersect the given envelope.
+67299dbda23f7e5639814f32,dependent,Returns the double coordinates for the given normalized coordinates and level.
+67299dbda23f7e5639814f33,dependent,Propagate the length from source to target.
+67299dbda23f7e5639814f34,dependent,Inserts the given element into the heap . Returns true if the element was successfully inserted .
+67299dbda23f7e5639814f35,dependent,Sorts the heap using heap sort algorithm.
+67299dbda23f7e5639814f36,dependent,Heapify the heap by sifting down all elements starting from the middle of the heap.
+67299dbda23f7e5639814f37,dependent,Sifts down the element at the given index .
+67299dbda23f7e5639814f38,dependent,"Sets bits in the given array of longs, starting at the given bit index, using the given number of slots, starting at the given slot index."
+67299dbda23f7e5639814f39,dependent,"Returns a subpath of the current path, starting at the specified beginIndex and ending at the specified endIndex. If the original path has a trailing separator or has more elements than the endIndex, the subpath will have a trailing separator. Otherwise, the subpath will not have a trailing separator."
+67299dbda23f7e5639814f3a,dependent,"Perform a file operation on a list of database files, with the option to include the id file and specify an existing target strategy."
+67299dbda23f7e5639814f3b,dependent,Returns the symmetric difference between two sorted sets of integers.
+67299dbda23f7e5639814f3c,dependent,Count the number of unique elements in two sorted arrays.
+67299dbda23f7e5639814f3d,dependent,Compares two iterators for equality.
+67299dbda23f7e5639814f3e,dependent,Counts the number of elements in the iterator that satisfy the given predicate.
+67299dbda23f7e5639814f3f,dependent,Add a lazy binding for the given component supplier and type to the list of lazy bindings.
+67299dbda23f7e5639814f40,dependent,"Returns a channel for reading a log file, given a file system abstraction, a path to the log file, and the kernel version."
+67299dbda23f7e5639814f41,dependent,"Returns an iterator over the values in the index, sorted by relevance for the given field."
+67299dbda23f7e5639814f42,dependent,"Ensure that the current DocIdSetIterator is valid, and if not, try to advance to the next one."
+67299dbda23f7e5639814f43,dependent,"Add a document to the index, if the document is not null."
+67299dbda23f7e5639814f44,dependent,Updates or deletes a document in the index based on the given term.
+67299dbda23f7e5639814f45,dependent,Clears the URL cache for this class loader.
+67299dbda23f7e5639814f46,dependent,Asserts that the given RequestBuilder throws an exception of the specified type and status when executed.
+67299dbda23f7e5639814f47,dependent,"Retrieve a column value from a ResultSet, using the specified value type."
+67299dbda23f7e5639814f48,dependent,Configures modules to be registered with the Jackson ObjectMapper.
+67299dbda23f7e5639814f49,dependent,"Returns the child element with the specified name, or null if it doesn't exist."
+67299dbda23f7e5639814f4a,dependent,Tests for illegal order input.
+67299dbda23f7e5639814f4b,dependent,Determine a match between the given method name and the mapped name.
+67299dbda23f7e5639814f4c,dependent,Tests the network host setting for GCE discovery when the provided GCE metadata server does not exist .
+67299dbda23f7e5639814f4d,dependent,Handles the resize event of the widget collection and checks the size of the widgets.
+67299dbda23f7e5639814f4e,dependent,"Creates a default field type for the given field name, with subfields for min and max metrics."
+67299dbda23f7e5639814f4f,dependent,"Sets the x coordinate of the center of this sprite, adjusting the x coordinate of the sprite to keep the center at the same position."
+67299dbda23f7e5639814f50,dependent,Creates an ElasticsearchSecurityException with a message indicating that the token has expired and adds the appropriate header for WWW-Authenticate.
+67299dbda23f7e5639814f51,dependent,"Registers a test task for the given project and source set, using the source set name as the task name."
+67299dbda23f7e5639814f52,dependent,Returns true if the element at the given index is indexed.
+67299dbda23f7e5639814f53,dependent,Returns the field data for the given field type and field data context.
+67299dbda23f7e5639814f54,dependent,"Computes the sum of the values in the given array, ignoring any NaN values."
+67299dbda23f7e5639814f55,dependent,Searches for a single entry in the LDAP server using the given parameters and returns the result to the listener. Supports both LDAPConnection and LDAPConnectionPool implementations.
+67299dbda23f7e5639814f56,dependent,"Attempts to delete the given path, throwing an unchecked exception if it fails."
+67299dbda23f7e5639814f57,dependent,"Writes the specified InputStream to this file, optionally appending it to existing data."
+67299dbda23f7e5639814f58,dependent,Computes the limit of bytes for auto mode.
+67299dbda23f7e5639814f59,dependent,Determine whether the given expression is a valid cron expression.
+67299dbda23f7e5639814f5a,dependent,"Returns the database ID for the given database name, if it exists."
+67299dbda23f7e5639814f5b,dependent,Checks if there is enough capacity in the byte buffer to encode the specified number of values.
+67299dbda23f7e5639814f5c,dependent,Compare two data tiers based on their position in the ordered list of tiers.
+67299dbda23f7e5639814f5d,dependent,Parse a float value from the given XContentParser.
+67299dbda23f7e5639814f5e,dependent,Wraps a PathExpander with a printing PathExpander that prints the paths it expands.
+67299dbda23f7e5639814f5f,dependent,Removes the key from this set if it is present. Returns true if the set contained the key.
+67299dbda23f7e5639814f60,dependent,Returns the value of the designated column in the current row of this SqlRowSet as a double.
+67299dbda23f7e5639814f61,dependent,Release the shared lock if the final state is reached.
+67299dbda23f7e5639814f62,dependent,Get the exceptions declared by the given method .
+67299dbda23f7e5639814f63,dependent,Creates a new CoordinatesBuilder with the given longitude and latitude.
+67299dbda23f7e5639814f64,dependent,Loads the application context for AOT processing.
+67299dbda23f7e5639814f65,dependent,Set the name of the misfire instruction.
+67299dbda23f7e5639814f66,dependent,This function takes in a transaction and an iterable of tokens and returns an array of ids corresponding to the tokens in the transaction.
+67299dbda23f7e5639814f67,dependent,Determine if the given element is annotated with any meta-annotation of the given annotation type.
+67299dbda23f7e5639814f68,dependent,Create a new PersistenceManagedTypes instance from the given managed class names.
+67299dbda23f7e5639814f69,dependent,Returns the string representation of the URI builder.
+67299dbda23f7e5639814f6a,dependent,Waits for the cluster state to match the given predicate.
+67299dbda23f7e5639814f6b,dependent,Returns the number of positions in the block.
+67299dbda23f7e5639814f6c,dependent,Convert a comma-delimited string to a set. Note that this will preserve the order of the elements in the original string.
+67299dbda23f7e5639814f6d,dependent,Stop watching the given thread and task for death events.
+67299dbda23f7e5639814f6e,dependent,"Sets the field value in the given document, either by updating the existing value or creating a new field."
+67299dbda23f7e5639814f6f,dependent,Translate the given SQLException into a generic DataAccessException .
+67299dbda23f7e5639814f70,dependent,Return the list of configured HttpMessageConverters .
+67299dbda23f7e5639814f71,dependent,Calculates an exponential backoff time with jitter.
+67299dbda23f7e5639814f72,dependent,Converts the given word to lower case using the SWAR algorithm.
+67299dbda23f7e5639814f73,dependent,Returns the smallest power of two that is greater than or equal to the given value .
+67299dbda23f7e5639814f74,dependent,"Adds a new request to the bulk request with the given data, starting from the specified index and with the specified content type."
+67299dbda23f7e5639814f75,dependent,Sets the timeout for this search request.
+67299dbda23f7e5639814f76,dependent,Log an error with the given message and throwable.
+67299dbda23f7e5639814f77,dependent,Adds an unbounded upper bound to the range aggregation.
+67299dbda23f7e5639814f78,dependent,Returns the value of the designated column in the current row of this SqlRowSet as an int.
+67299dbda23f7e5639814f79,dependent,Set the type of the scope annotation to be used .
+67299dbda23f7e5639814f7a,dependent,Returns the maximum number of indices this buffer can hold.
+67299dbda23f7e5639814f7b,dependent,Trigger {@code beforeCommit} callbacks on all currently registered synchronizations.
+67299dbda23f7e5639814f7c,dependent,"Transforms the given constraints to only include partition keys, if any."
+67299dbda23f7e5639814f7d,dependent,Handles any error that occurs during the WebSocket session . This method will close the session and cancel any ongoing processing .
+67299dbda23f7e5639814f7e,dependent,"Determine whether the given property descriptor has a unique write method, i.e. whether the type of the property is a subtype of the type of the write method's parameter."
+67299dbda23f7e5639814f7f,dependent,Checks if the queue size is below a certain threshold and starts a background fetch if it is.
+67299dbda23f7e5639814f80,dependent,Creates a new SslHandler with the given allocator and delegated task executor.
+67299dbda23f7e5639814f81,dependent,Flushes the base64 buffer to the output stream.
+67299dbda23f7e5639814f82,dependent,"Returns the element type of an array type, or null if the given type is not an array."
+67299dbda23f7e5639814f83,dependent,Cancels the population of each index in the list.
+67299dbda23f7e5639814f84,dependent,Increases the actor's size by the specified amount in each direction.
+67299dbda23f7e5639814f85,dependent,"Returns the value associated with the specified key, or the specified default value if the key is not present in the map."
+67299dbda23f7e5639814f86,dependent,"Returns the key for the specified value, or {@code notFound} if it can't be found."
+67299dbda23f7e5639814f87,dependent,Process the field value through the RequestDataValueProcessor.
+67299dbda23f7e5639814f88,dependent,Set the comment prefix to use for lines that should be ignored.
+67299dbda23f7e5639814f89,dependent,Ensures that the file is open and throws an exception if it is not.

@@ -1,0 +1,28 @@
+##################
+Write down only the summary part of the Javadoc comment that would have been written by a developer for the following function,
+
+"public void vacateNode(String reason) {
+            isolateDatafeed();
+            task.markAsLocallyAborted(reason);
+        }"
+
+Where the implementations of the helper functions are as follows:
+Level-1 helpers:
+-------------------------------------------------------------------------------
+public void isolateDatafeed() {
+            datafeedJob.isolate();
+        }
+@Override
+    public final void markAsLocallyAborted(String localAbortReason) {
+        stopTracking();
+        doMarkAsLocallyAborted(localAbortReason);
+    }
+-------------------------------------------------------------------------------
+Level-2 helpers:
+-------------------------------------------------------------------------------
+void isolate() {
+        isIsolated = true;
+        timingStatsReporter.disallowPersisting();
+    }
+-------------------------------------------------------------------------------
+##################

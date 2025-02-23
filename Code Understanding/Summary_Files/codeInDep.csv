@@ -1,0 +1,1658 @@
+_id,Summary
+67299ba101063176805e7e86,"public final float getInertia () {
+		return m_I + m_mass * (m_sweep.localCenter.x * m_sweep.localCenter.x + m_sweep.localCenter.y * m_sweep.localCenter.y);
+	}"
+67299ba101063176805e7e87,"public void setY (float y) {
+		this.y = y;
+	}"
+67299ba101063176805e7e88,"@Nullable
+	protected Integer getDefaultCurrencyTimeLimit() {
+		return this.defaultCurrencyTimeLimit;
+	}"
+67299ba101063176805e7e89,"public final Collector asCollector() {
+        return new BucketCollectorWrapper(this);
+    }"
+67299ba101063176805e7e8a,"public void setDefaultHtmlEscape(boolean defaultHtmlEscape) {
+		this.defaultHtmlEscape = defaultHtmlEscape;
+	}"
+67299ba101063176805e7e8b,"protected final DataSource getDataSource() {
+		return this.dataSource;
+	}"
+67299ba101063176805e7e8c,"public void setUseAttributeForTypes(Class<?>... useAttributeForTypes) {
+		this.useAttributeForTypes = useAttributeForTypes;
+	}"
+67299ba101063176805e7e8d,"public long getReaderIdleTimeInMillis() {
+        return TimeUnit.NANOSECONDS.toMillis(readerIdleTimeNanos);
+    }"
+67299ba101063176805e7e8e,"static Builder ofMethod(String name, List<TypeReference> parameterTypes) {
+		return new Builder(name, parameterTypes);
+	}"
+67299ba101063176805e7e8f,"protected NumberFieldMapper.NumberFieldType doubleField(String name) {
+        return new NumberFieldMapper.NumberFieldType(name, NumberFieldMapper.NumberType.DOUBLE);
+    }"
+67299ba101063176805e7e90,"public static <T extends Enum<T>> Setting<T> enumSetting(
+        Class<T> clazz,
+        String key,
+        Setting<T> fallbackSetting,
+        Validator<T> validator,
+        Property... properties
+    ) {
+        return new Setting<>(
+            new SimpleKey(key),
+            fallbackSetting,
+            fallbackSetting::getRaw,
+            e -> Enum.valueOf(clazz, e.toUpperCase(Locale.ROOT)),
+            validator,
+            properties
+        );
+    }"
+67299ba101063176805e7e91,"public void setMessageCodesResolver(MessageCodesResolver messageCodesResolver) {
+		this.messageCodesResolver = messageCodesResolver;
+	}"
+67299ba101063176805e7e92,"public Builder withTypedRootObject(Object rootObject, TypeDescriptor typeDescriptor) {
+			this.rootObject = new TypedValue(rootObject, typeDescriptor);
+			return this;
+		}"
+67299ba101063176805e7e93,"public static Name of(String name) {
+        return new Name(name);
+    }"
+67299ba101063176805e7e94,"@SuppressWarnings(""unchecked"")
+    public V getFirst() {
+        if (firstKey < lastKey) {
+            return (V) firstChunk.values[((int) firstKey) & (chunkSize - 1)];
+        } else {
+            return null;
+        }
+    }"
+67299ba101063176805e7e95,"public void setFractionDigits(int fractionDigits) {
+		this.fractionDigits = fractionDigits;
+	}"
+67299ba101063176805e7e96,"static PhysicalOperation fromSource(SourceOperatorFactory sourceOperatorFactory, Layout layout) {
+            return new PhysicalOperation(sourceOperatorFactory, layout);
+        }"
+67299ba101063176805e7e97,void createDirectories() throws IOException;
+67299ba101063176805e7e98,public abstract void serialize(WritableChannel channel) throws IOException;
+67299ba101063176805e7e99,"public JobManager getJobManager() {
+        if (instance == null) {
+            throw new ElasticsearchException(""Tried to get job manager although Machine Learning is disabled"");
+        }
+        return instance;
+    }"
+67299ba101063176805e7e9a,"public StompBrokerRelayRegistration setRelayPort(int relayPort) {
+		this.relayPort = relayPort;
+		return this;
+	}"
+67299ba101063176805e7e9b,"public static <T> Builder<T> on(Class<T> objectClass) {
+		return new Builder<>(objectClass);
+	}"
+67299ba101063176805e7e9c,"public Cell<T> grow () {
+		expandX = onei;
+		expandY = onei;
+		fillX = onef;
+		fillY = onef;
+		return this;
+	}"
+67299ba101063176805e7e9d,"private void addInitializedType(final int abstractType) {
+    // Create and/or resize the initializations array if necessary.
+    if (initializations == null) {
+      initializations = new int[2];
+    }
+    int initializationsLength = initializations.length;
+    if (initializationCount >= initializationsLength) {
+      int[] newInitializations =
+          new int[Math.max(initializationCount + 1, 2 * initializationsLength)];
+      System.arraycopy(initializations, 0, newInitializations, 0, initializationsLength);
+      initializations = newInitializations;
+    }
+    // Store the abstract type.
+    initializations[initializationCount++] = abstractType;
+  }"
+67299ba101063176805e7e9e,"protected abstract void shardOperation(
+        Request request,
+        ShardRouting shardRouting,
+        Task task,
+        ActionListener<ShardOperationResult> listener
+    );"
+67299ba101063176805e7e9f,"public static PhraseSuggestionBuilder phraseSuggestion(String fieldname) {
+        return new PhraseSuggestionBuilder(fieldname);
+    }"
+67299ba101063176805e7ea0,T handle(ServerRequest request) throws Exception;
+67299ba101063176805e7ea1,"@Override
+        public long bytesPerValue(BytesRef term) {
+            if (term == null) {
+                return 0;
+            }
+            long bytes = term.length;
+            // 64 bytes for miscellaneous overhead
+            bytes += 64;
+            // Seems to be about a 1.5x compression per term/ord, plus 1 for some wiggle room
+            bytes = (long) ((double) bytes / 1.5) + 1;
+            return bytes;
+        }"
+67299ba101063176805e7ea2,"public String childJoinField(String parentType) {
+        return joinField + ""#"" + parentType;
+    }"
+67299ba101063176805e7ea3,"public byte first () {
+		if (size == 0) throw new IllegalStateException(""Array is empty."");
+		return items[0];
+	}"
+67299ba101063176805e7ea4,"@Override
+    public CloseIndexRequest indices(String... indices) {
+        this.indices = indices;
+        return this;
+    }"
+67299ba101063176805e7ea5,"public boolean hasFlags(final int flags) {
+    return (this.flags & flags) == flags;
+  }"
+67299ba101063176805e7ea6,"public BuildRequest withApplicationDirectory(String applicationDirectory) {
+		Assert.notNull(applicationDirectory, ""ApplicationDirectory must not be null"");
+		return new BuildRequest(this.name, this.applicationContent, this.builder, this.runImage, this.creator, this.env,
+				this.cleanCache, this.verboseLogging, this.pullPolicy, this.publish, this.buildpacks, this.bindings,
+				this.network, this.tags, this.buildWorkspace, this.buildCache, this.launchCache, this.createdDate,
+				applicationDirectory, this.securityOptions, this.trustBuilder);
+	}"
+67299ba101063176805e7ea7,"protected abstract void resolveRequest(ClusterState state, Request request);"
+67299ba101063176805e7ea8,"public void setDefaultThemeName(String defaultThemeName) {
+		this.defaultThemeName = defaultThemeName;
+	}"
+67299ba101063176805e7ea9,"public static Collection<PluginConfigSpec<?>> commonFilterSettings() {
+        return Arrays.asList(ADD_FIELD_CONFIG, ADD_TAG_CONFIG, ENABLE_METRIC_CONFIG, ID_CONFIG,
+                PERIODIC_FLUSH_CONFIG , REMOVE_FIELD_CONFIG, REMOVE_TAG_CONFIG);
+    }"
+67299ba101063176805e7eaa,"public void translate (float x, float y) {
+		this.x += x;
+		this.y += y;
+		dirty = true;
+	}"
+67299ba101063176805e7eab,void fileMapped(PagedFile pagedFile);
+67299ba101063176805e7eac,"public final int remaining () {
+		return limit - position;
+	}"
+67299ba101063176805e7ead,"public IndexRequestBuilder setRequireAlias(boolean requireAlias) {
+        this.requireAlias = requireAlias;
+        return this;
+    }"
+67299ba101063176805e7eae,"public boolean isConstant() {
+		return this.constant != null;
+	}"
+67299ba101063176805e7eaf,"public ConfigDataLocation getLocation() {
+		return this.location;
+	}"
+67299ba101063176805e7eb0,"public void setMaxWordLen(int maxWordLen) {
+        this.maxWordLen = maxWordLen;
+    }"
+67299ba101063176805e7eb1,"public void setDisabled(boolean disabled) {
+		this.disabled = disabled;
+	}"
+67299ba101063176805e7eb2,"public void setConditions(RolloverConditions conditions) {
+        this.conditions = conditions;
+    }"
+67299ba101063176805e7eb3,"public static HourlySchedule hourly(int... minutes) {
+        return new HourlySchedule(minutes);
+    }"
+67299ba101063176805e7eb4,"public Page appendBlock(Block block) {
+        return new Page(this, new Block[] { block });
+    }"
+67299ba101063176805e7eb5,"public static CharBuffer newCharBuffer (int capacity) {
+		return new ReadWriteCharArrayBuffer(capacity);
+	}"
+67299ba101063176805e7eb6,abstract String formatInfo(ThreadPool.Info info);
+67299ba101063176805e7eb7,"public boolean canUpdateSchema() {
+        return type == QueryType.SCHEMA_WRITE && execution != Execution.EXPLAIN;
+    }"
+67299ba101063176805e7eb8,"public static void installMock(FileSystem mock) {
+        PathUtils.DEFAULT = mock;
+    }"
+67299ba101063176805e7eb9,"@Nullable
+	public Duration getInitialDelayDuration() {
+		return this.initialDelay;
+	}"
+67299ba101063176805e7eba,"public BuildRequest withLaunchCache(Cache launchCache) {
+		Assert.notNull(launchCache, ""LaunchCache must not be null"");
+		return new BuildRequest(this.name, this.applicationContent, this.builder, this.runImage, this.creator, this.env,
+				this.cleanCache, this.verboseLogging, this.pullPolicy, this.publish, this.buildpacks, this.bindings,
+				this.network, this.tags, this.buildWorkspace, this.buildCache, launchCache, this.createdDate,
+				this.applicationDirectory, this.securityOptions, this.trustBuilder);
+	}"
+67299ba101063176805e7ebb,String readLine(String prompt) throws IOException;
+67299ba101063176805e7ebc,"public static boolean isSequenceWithNoBits(int word)
+  {
+    // ""word"" must be 0?00000*
+    return (word & 0xBE000000) == 0x00000000;
+  }"
+67299ba101063176805e7ebd,"public WebServiceTemplateBuilder setMarshaller(Marshaller marshaller) {
+		return new WebServiceTemplateBuilder(this.detectHttpMessageSender, this.interceptors, this.internalCustomizers,
+				this.customizers, this.messageSenders, marshaller, this.unmarshaller, this.destinationProvider,
+				this.transformerFactoryClass, this.messageFactory);
+	}"
+67299ba101063176805e7ebe,"@Override
+	protected AbstractMessageEndpoint createEndpointInternal() throws UnavailableException {
+		return new JmsMessageEndpoint();
+	}"
+67299ba101063176805e7ebf,"public void setCacheNames(Collection<String> cacheNames) {
+		this.cacheNames = cacheNames;
+	}"
+67299ba101063176805e7ec0,"public void setBlurPasses (int blurPasses) {
+		this.blurPasses = blurPasses;
+	}"
+67299ba101063176805e7ec1,"public final Vec2 mulTrans (final Vec2 v) {
+		// return new Vec2(Vec2.dot(v, ex), Vec2.dot(v, col2));
+		return new Vec2((v.x * ex.x + v.y * ex.y), (v.x * ey.x + v.y * ey.y));
+	}"
+67299ba101063176805e7ec2,"public <B extends Block> B getBlock(int blockIndex) {
+        @SuppressWarnings(""unchecked"")
+        B block = (B) blocks[blockIndex];
+        return block;
+    }"
+67299ba101063176805e7ec3,"public GeoPolygonQueryBuilder setValidationMethod(GeoValidationMethod method) {
+        this.validationMethod = method;
+        return this;
+    }"
+67299ba101063176805e7ec4,"public ExitStatus hangup() {
+		return new ExitStatus(this.code, this.name, true);
+	}"
+67299ba101063176805e7ec5,"public MultiTermsAggregationBuilder showTermDocCountError(boolean showTermDocCountError) {
+        this.showTermDocCountError = showTermDocCountError;
+        return this;
+    }"
+67299ba101063176805e7ec6,"default Role limitedBy(Role role) {
+        return new LimitedRole(this, role);
+    }"
+67299ba101063176805e7ec7,"public boolean relocating() {
+        return state == ShardRoutingState.RELOCATING;
+    }"
+67299ba101063176805e7ec8,void writeUpdateFiltersMessage(List<MlFilter> filters) throws IOException;
+67299ba101063176805e7ec9,RunnerType getRunnerTypeForTask(Task task);
+67299ba101063176805e7eca,"private static float getDistanceSquared(@NonNull PointF a, @NonNull PointF b) {
+    float dx = a.x - b.x;
+    float dy = a.y - b.y;
+    return dx * dx + dy * dy;
+  }"
+67299ba101063176805e7ecb,"public Table left () {
+		align |= Align.left;
+		align &= ~Align.right;
+		return this;
+	}"
+67299ba101063176805e7ecc,"public boolean isAvailable() {
+		return this.pid != null;
+	}"
+67299ba101063176805e7ecd,"public static SimpMessageHeaderAccessor create() {
+		return new SimpMessageHeaderAccessor(SimpMessageType.MESSAGE, null);
+	}"
+67299ba101063176805e7ece,"public CommonStatsFlags clear() {
+        flags = EnumSet.noneOf(Flag.class);
+        groups = null;
+        fieldDataFields = null;
+        completionDataFields = null;
+        includeSegmentFileSizes = false;
+        includeUnloadedSegments = false;
+        return this;
+    }"
+67299ba101063176805e7ecf,"boolean hasScript() {
+        return hasScript;
+    }"
+67299ba101063176805e7ed0,"public void setVerbosity(Verbosity verbosity) {
+        this.currentVerbosity = verbosity;
+    }"
+67299ba101063176805e7ed1,boolean allowsTraverseAllRelTypes();
+67299ba101063176805e7ed2,"@Nullable
+	public static <T> SingletonSupplier<T> ofNullable(@Nullable Supplier<T> supplier) {
+		return (supplier != null ? new SingletonSupplier<>(supplier) : null);
+	}"
+67299ba101063176805e7ed3,"public Map<String, Map<String, FieldCapabilities>> get() {
+        return responseMap;
+    }"
+67299ba101063176805e7ed4,"public static NestedAggregationBuilder nested(String name, String path) {
+        return new NestedAggregationBuilder(name, path);
+    }"
+67299ba101063176805e7ed5,"public boolean completed() {
+        return completed;
+    }"
+67299ba101063176805e7ed6,"public void tick(long delay, TimeUnit unit) {
+            ticksInNanos += unit.toNanos(delay);
+        }"
+67299ba101063176805e7ed7,"private static float getDistanceSquared(@NonNull PointF a, @NonNull PointF b) {
+    float dx = a.x - b.x;
+    float dy = a.y - b.y;
+    return dx * dx + dy * dy;
+  }"
+67299ba101063176805e7ed8,"public short first () {
+		if (size == 0) throw new IllegalStateException(""Array is empty."");
+		return items[0];
+	}"
+67299ba101063176805e7ed9,"public static ReadableInputs segments(final Iterable<ReadableInput> iterable)
+  {
+    return new ReadableInputs(iterable, null);
+  }"
+67299ba101063176805e7eda,"@Nullable
+	public Boolean getAllowCredentials() {
+		return this.allowCredentials;
+	}"
+67299ba101063176805e7edb,"public Builder setPrecision(int precision) {
+            if (precision < 1 || precision > 12) {
+                throw new IllegalArgumentException(""precision must be between 1 and 12"");
+            }
+            this.precision = precision;
+            return this;
+        }"
+67299ba101063176805e7edc,"public SearchRequest allowPartialSearchResults(boolean allowPartialSearchResults) {
+        this.allowPartialSearchResults = allowPartialSearchResults;
+        return this;
+    }"
+67299ba101063176805e7edd,void notifyMusicDisposed (AndroidMusic music);
+67299ba101063176805e7ede,"public boolean hasChannel()
+  {
+    return channel != null;
+  }"
+67299ba101063176805e7edf,"private static int numSlots(int level) {
+            return 1 << level;
+        }"
+67299ba101063176805e7ee0,"public void setMaxCheckCount (int maxCheckCount) {
+		if (maxCheckCount == 0) maxCheckCount = -1;
+		this.maxCheckCount = maxCheckCount;
+	}"
+67299ba101063176805e7ee1,"public static Result createStaxResult(XMLEventWriter eventWriter) {
+		return new StAXResult(eventWriter);
+	}"
+67299ba101063176805e7ee2,"public PartitionedIndexStorage build() {
+        if (indexStorage == null) {
+            Objects.requireNonNull(directoryFactory);
+            Objects.requireNonNull(fileSystem);
+            Objects.requireNonNull(indexRootFolder);
+            indexStorage = new PartitionedIndexStorage(directoryFactory, fileSystem, indexRootFolder);
+        }
+        return indexStorage;
+    }"
+67299ba101063176805e7ee3,"public static int segment(final long index)
+    {
+        return (int) (index >>> SEGMENT_SHIFT);
+    }"
+67299ba101063176805e7ee4,"private static native void fillRect (long pixmap, int x, int y, int width, int height, int color);"
+67299ba101063176805e7ee5,"public void setAutoCommit(boolean autoCommit) {
+		this.autoCommit = autoCommit;
+	}"
+67299ba101063176805e7ee6,"public PropertyValueRecordSizeCalculator newValueEncodedSizeCalculator() {
+        return new PropertyValueRecordSizeCalculator(this);
+    }"
+67299ba101063176805e7ee7,"public void setPattern(String pattern) {
+		this.pattern = pattern;
+	}"
+67299ba101063176805e7ee8,"public static boolean isFunctionSyntax(final SqlSyntax syntax)
+  {
+    return syntax != SqlSyntax.PREFIX && syntax != SqlSyntax.BINARY && syntax != SqlSyntax.POSTFIX;
+  }"
+67299ba101063176805e7ee9,"public void setEagerFilterInit(boolean eagerFilterInit) {
+		this.eagerFilterInit = eagerFilterInit;
+	}"
+67299ba101063176805e7eea,"public Matrix4 rotate (Quaternion rotation) {
+		float x = rotation.x, y = rotation.y, z = rotation.z, w = rotation.w;
+		float xx = x * x;
+		float xy = x * y;
+		float xz = x * z;
+		float xw = x * w;
+		float yy = y * y;
+		float yz = y * z;
+		float yw = y * w;
+		float zz = z * z;
+		float zw = z * w;
+		// Set matrix from quaternion
+		float r00 = 1 - 2 * (yy + zz);
+		float r01 = 2 * (xy - zw);
+		float r02 = 2 * (xz + yw);
+		float r10 = 2 * (xy + zw);
+		float r11 = 1 - 2 * (xx + zz);
+		float r12 = 2 * (yz - xw);
+		float r20 = 2 * (xz - yw);
+		float r21 = 2 * (yz + xw);
+		float r22 = 1 - 2 * (xx + yy);
+		float m00 = val[M00] * r00 + val[M01] * r10 + val[M02] * r20;
+		float m01 = val[M00] * r01 + val[M01] * r11 + val[M02] * r21;
+		float m02 = val[M00] * r02 + val[M01] * r12 + val[M02] * r22;
+		float m10 = val[M10] * r00 + val[M11] * r10 + val[M12] * r20;
+		float m11 = val[M10] * r01 + val[M11] * r11 + val[M12] * r21;
+		float m12 = val[M10] * r02 + val[M11] * r12 + val[M12] * r22;
+		float m20 = val[M20] * r00 + val[M21] * r10 + val[M22] * r20;
+		float m21 = val[M20] * r01 + val[M21] * r11 + val[M22] * r21;
+		float m22 = val[M20] * r02 + val[M21] * r12 + val[M22] * r22;
+		float m30 = val[M30] * r00 + val[M31] * r10 + val[M32] * r20;
+		float m31 = val[M30] * r01 + val[M31] * r11 + val[M32] * r21;
+		float m32 = val[M30] * r02 + val[M31] * r12 + val[M32] * r22;
+		val[M00] = m00;
+		val[M10] = m10;
+		val[M20] = m20;
+		val[M30] = m30;
+		val[M01] = m01;
+		val[M11] = m11;
+		val[M21] = m21;
+		val[M31] = m31;
+		val[M02] = m02;
+		val[M12] = m12;
+		val[M22] = m22;
+		val[M32] = m32;
+		return this;
+	}"
+67299ba101063176805e7eeb,"public void debug (String tag, String message);"
+67299ba101063176805e7eec,"public SearchSourceBuilder stats(List<String> statsGroups) {
+        this.stats = statsGroups;
+        return this;
+    }"
+67299ba101063176805e7eed,"public Alias filter(String filter) {
+        this.filter = filter;
+        return this;
+    }"
+67299ba101063176805e7eee,MockServerHttpRequest build();
+67299ba101063176805e7eef,"public static DoubleBuffer newDoubleBuffer (double array[]) {
+		return new ReadWriteDoubleArrayBuffer(array);
+	}"
+67299ba101063176805e7ef0,"Optional<ConnectorOutputMetadata> finishCreateTable(Session session, OutputTableHandle tableHandle, Collection<Slice> fragments, Collection<ComputedStatistics> computedStatistics);"
+67299ba101063176805e7ef1,void pins(long pins);
+67299ba101063176805e7ef2,"public synchronized MemoryAllocator getFrameMemoryAllocator()
+  {
+    if (frameMemoryAllocator == null) {
+      throw new ISE(""Frame allocator is not available. The output channel might be marked as read-only,""
+                    + "" hence memory allocator is not required."");
+    } else {
+      return frameMemoryAllocator;
+    }
+  }"
+67299ba101063176805e7ef3,"public int size() {
+		return (this.alreadyBufferedSize + this.index);
+	}"
+67299ba101063176805e7ef4,"@SuppressWarnings(""unchecked"")
+    public QB indexedShapeIndex(String indexedShapeIndex) {
+        this.indexedShapeIndex = indexedShapeIndex;
+        return (QB) this;
+    }"
+67299ba101063176805e7ef5,"public void setChronology(@Nullable Chronology chronology) {
+		this.chronology = chronology;
+	}"
+67299ba101063176805e7ef6,public abstract RestResponse buildResponse(Response response) throws Exception;
+67299ba101063176805e7ef7,"public AopProxyFactory getAopProxyFactory() {
+		return this.aopProxyFactory;
+	}"
+67299ba101063176805e7ef8,"private static int countOccurrences(final String string, final String substring)
+  {
+    int count = 0;
+    int i = -1;
+
+    while ((i = string.indexOf(substring, i + 1)) >= 0) {
+      count++;
+    }
+
+    return count;
+  }"
+67299ba101063176805e7ef9,"public void setSchemas(Resource... schemaResources) {
+		this.schemaResources = schemaResources;
+	}"
+67299ba101063176805e7efa,"public boolean isHigherThan(FormatFamily other) {
+        return rank > other.rank;
+    }"
+67299ba101063176805e7efb,"static float xScale(@NonNull Matrix matrix) {
+    float[] values = new float[9];
+    matrix.getValues(values);
+    return (float) Math.sqrt(values[0] * values[0] + values[3] * values[3]);
+  }"
+67299ba101063176805e7efc,"public static int computeIntSize(int val)
+  {
+    if (val < (1 << 7)) {
+      return 1;
+    } else if (val < (1 << 14)) {
+      return 2;
+    } else if (val < (1 << 21)) {
+      return 3;
+    } else if (val < (1 << 28)) {
+      return 4;
+    } else {
+      return 5;
+    }
+  }"
+67299ba101063176805e7efd,"public Container<T> prefSize (Value width, Value height) {
+		if (width == null) throw new IllegalArgumentException(""width cannot be null."");
+		if (height == null) throw new IllegalArgumentException(""height cannot be null."");
+		prefWidth = width;
+		prefHeight = height;
+		return this;
+	}"
+67299ba101063176805e7efe,"public BucketScriptPipelineAggregationBuilder format(String format) {
+        if (format == null) {
+            throw new IllegalArgumentException(""[format] must not be null: ["" + name + ""]"");
+        }
+        this.format = format;
+        return this;
+    }"
+67299ba101063176805e7eff,"public EmbeddedDatabaseType getType() {
+		// See https://github.com/spring-projects/spring-boot/issues/32865
+		return switch (this) {
+			case NONE -> null;
+			case H2 -> EmbeddedDatabaseType.H2;
+			case DERBY -> EmbeddedDatabaseType.DERBY;
+			case HSQLDB -> EmbeddedDatabaseType.HSQL;
+		};
+	}"
+67299ba101063176805e7f00,"public void setPosition(int position) {
+		this.position = position;
+	}"
+67299ba101063176805e7f01,"private boolean isWildcardWithoutBounds() {
+		if (this.type instanceof WildcardType wildcardType) {
+			if (wildcardType.getLowerBounds().length == 0) {
+				Type[] upperBounds = wildcardType.getUpperBounds();
+				if (upperBounds.length == 0 || (upperBounds.length == 1 && Object.class == upperBounds[0])) {
+					return true;
+				}
+			}
+		}
+		return false;
+	}"
+67299ba101063176805e7f02,"public final MimeMessageHelper getMimeMessageHelper() {
+		return this.helper;
+	}"
+67299ba101063176805e7f03,"@Nullable
+	protected String getOnfocus() {
+		return this.onfocus;
+	}"
+67299ba101063176805e7f04,"protected void afterInvocation() {
+		// NOOP
+	}"
+67299ba101063176805e7f05,"public void setServlet(T servlet) {
+		Assert.notNull(servlet, ""Servlet must not be null"");
+		this.servlet = servlet;
+	}"
+67299ba101063176805e7f06,"public void setUriTemplate(@Nullable String uriTemplate) {
+		this.uriTemplate = uriTemplate;
+	}"
+67299ba101063176805e7f07,"private static byte[] generateSalt(int length) {
+        byte[] salt = new byte[length];
+        SECURE_RANDOM.nextBytes(salt);
+        return salt;
+    }"
+67299ba101063176805e7f08,"public Quaternion conjugate () {
+		x = -x;
+		y = -y;
+		z = -z;
+		return this;
+	}"
+67299ba101063176805e7f09,"public boolean hasBlah() {
+      return ((bitField0_ & 0x00000002) != 0);
+    }"
+67299ba101063176805e7f0a,"public void setWindowedMode (int width, int height) {
+		this.windowWidth = width;
+		this.windowHeight = height;
+	}"
+67299ba101063176805e7f0b,"public abstract ByteBuf setFloat(int index, float value);"
+67299ba101063176805e7f0c,"void indexTranslogOperations(
+        List<Translog.Operation> operations,
+        int totalTranslogOps,
+        long maxSeenAutoIdTimestampOnPrimary,
+        long maxSeqNoOfUpdatesOrDeletesOnPrimary,
+        RetentionLeases retentionLeases,
+        long mappingVersionOnPrimary,
+        ActionListener<Long> listener
+    );"
+67299ba101063176805e7f0d,"public static InvalidateApiKeyRequest usingApiKeyId(String id, boolean ownedByAuthenticatedUser) {
+        return new InvalidateApiKeyRequest(null, null, null, ownedByAuthenticatedUser, new String[] { id });
+    }"
+67299ba101063176805e7f0e,"public static SimpMessageHeaderAccessor wrap(Message<?> message) {
+		return new SimpMessageHeaderAccessor(message);
+	}"
+67299ba101063176805e7f0f,"public GetAsyncResultRequest setWaitForCompletionTimeout(TimeValue timeValue) {
+        this.waitForCompletionTimeout = timeValue;
+        return this;
+    }"
+67299ba101063176805e7f10,"public static ExprEval ofLongBoolean(boolean value)
+  {
+    return value ? LongExprEval.TRUE : LongExprEval.FALSE;
+  }"
+67299ba101063176805e7f11,"public boolean isIgnoreNestedPath() {
+		return this.ignoreNestedPath;
+	}"
+67299ba101063176805e7f12,"ChannelPipeline addBefore(String baseName, String name, ChannelHandler handler);"
+67299ba101063176805e7f13,"public static String encodeBase64String(byte[] input)
+  {
+    return BASE64_ENCODER.encodeToString(input);
+  }"
+67299ba101063176805e7f14,void customize(MockMvcRestDocumentationConfigurer configurer);
+67299ba101063176805e7f15,"public final Class<?> getRequiredType() {
+		return this.requiredType;
+	}"
+67299ba101063176805e7f16,"public void setUserData (Object userData) {
+		this.userData = userData;
+	}"
+67299ba101063176805e7f17,"public void setWarmStarting (boolean flag) {
+		m_warmStarting = flag;
+	}"
+67299ba101063176805e7f18,"protected Set<String> getDirectPaths(T mapping) {
+		return Collections.emptySet();
+	}"
+67299ba101063176805e7f19,"public double getAvgIndexPrimaryShards() {
+            if (this.indices == 0) {
+                return -1;
+            }
+            return ((double) this.primaries) / this.indices;
+        }"
+67299ba101063176805e7f1a,"public static InvalidateApiKeyRequest usingApiKeyName(String name, boolean ownedByAuthenticatedUser) {
+        return new InvalidateApiKeyRequest(null, null, name, ownedByAuthenticatedUser, null);
+    }"
+67299ba101063176805e7f1b,"public void truncate (int newSize) {
+		if (size > newSize) size = newSize;
+	}"
+67299ba101063176805e7f1c,"public long getTotalTimeNanos() {
+		return this.totalTimeNanos;
+	}"
+67299ba101063176805e7f1d,"static void setInstance(Restarter instance) {
+		synchronized (INSTANCE_MONITOR) {
+			Restarter.instance = instance;
+		}
+	}"
+67299ba101063176805e7f1e,protected abstract boolean removeFrameTail(WebSocketFrame msg);
+67299ba101063176805e7f1f,"public void setPrefix(@Nullable String prefix) {
+		this.prefix = (prefix != null ? prefix : """");
+	}"
+67299ba101063176805e7f20,"public void setWaitForJobsToCompleteOnShutdown(boolean waitForJobsToCompleteOnShutdown) {
+		this.waitForJobsToCompleteOnShutdown = waitForJobsToCompleteOnShutdown;
+	}"
+67299ba101063176805e7f21,"void getInitialProgressFromResponse(SearchResponse response, ActionListener<TransformProgress> progressListener);"
+67299ba101063176805e7f22,"@Nullable
+	public Scheduler getScheduler() {
+		return this.scheduler;
+	}"
+67299ba101063176805e7f23,"public static int getBaseCell(int face, CoordIJK coord) {
+        return faceIjkBaseCells[face][coord.i][coord.j][coord.k].baseCell;
+    }"
+67299ba101063176805e7f24,"public long getTimeToLive() {
+		return this.timeToLive;
+	}"
+67299ba101063176805e7f25,"@Nullable
+  Long getLockId(String entryId, LockType lock);"
+67299ba101063176805e7f26,"public void setDefaultVerificationMode(SslVerificationMode defaultVerificationMode) {
+        this.defaultVerificationMode = defaultVerificationMode;
+    }"
+67299ba101063176805e7f27,"public char charAt (int index) {
+		if (index < 0 || index >= length) {
+			throw new StringIndexOutOfBoundsException(index);
+		}
+		return chars[index];
+	}"
+67299ba101063176805e7f28,"public boolean isNoneOf(RoutingState... candidates) {
+        return Arrays.stream(candidates).noneMatch(candidate -> this == candidate);
+    }"
+67299ba101063176805e7f29,"public void addTimeout(HashedWheelTimeout timeout) {
+            assert timeout.bucket == null;
+            timeout.bucket = this;
+            if (head == null) {
+                head = tail = timeout;
+            } else {
+                tail.next = timeout;
+                timeout.prev = tail;
+                tail = timeout;
+            }
+        }"
+67299ba101063176805e7f2a,"public Container<T> width (Value width) {
+		if (width == null) throw new IllegalArgumentException(""width cannot be null."");
+		minWidth = width;
+		prefWidth = width;
+		maxWidth = width;
+		return this;
+	}"
+67299ba101063176805e7f2b,"public QueryStringQueryBuilder quoteFieldSuffix(String quoteFieldSuffix) {
+        this.quoteFieldSuffix = quoteFieldSuffix;
+        return this;
+    }"
+67299ba101063176805e7f2c,"public BlockScope newLocalScope() {
+        return new BlockScope(this);
+    }"
+67299ba101063176805e7f2d,"public void setPointcut(@Nullable Pointcut pointcut) {
+		this.pointcut = (pointcut != null ? pointcut : Pointcut.TRUE);
+	}"
+67299ba101063176805e7f2e,int size2SizeIdx(int size);
+67299ba101063176805e7f2f,float getSomeFloatColumn();
+67299ba101063176805e7f30,"private int cap(long n) {
+			return (int) Math.min(RandomAccessDataFile.this.length - this.position, n);
+		}"
+67299ba101063176805e7f31,"public final native <T extends WebGLObject> T getVertexAttribo (int index, int pname) /*-{
+		return this.getVertexAttrib(index, pname);
+	}-*/;"
+67299ba101063176805e7f32,public void addLight (DirectionalLight dir);
+67299ba101063176805e7f33,"public Cell<T> uniformX () {
+		uniformX = Boolean.TRUE;
+		return this;
+	}"
+67299ba101063176805e7f34,"public Builder resetPackageOnlyFields() {
+            this.description = null;
+            this.inferenceConfigSource = null;
+            this.metadata = null;
+            this.modelType = null;
+            this.tags = null;
+            this.prefixStrings = null;
+            return this;
+        }"
+67299ba101063176805e7f35,"public GeoDistanceQueryBuilder point(double lat, double lon) {
+        this.center = new GeoPoint(lat, lon);
+        return this;
+    }"
+67299ba101063176805e7f36,"public void setDescription(String description) {
+		this.description = description;
+	}"
+67299ba101063176805e7f37,protected abstract ShardOperationResult readShardResult(StreamInput in) throws IOException;
+67299ba101063176805e7f38,abstract long totalBuckets();
+67299ba101063176805e7f39,"public void setPaddingLeft (int paddingLeft) {
+		this.paddingLeft = paddingLeft;
+	}"
+67299ba101063176805e7f3a,"public static Socket get(String path) throws IOException {
+		return new UnixDomainSocket(path);
+	}"
+67299ba101063176805e7f3b,"@Deprecated
+	public void setLookupPathAttributeName(String name) {
+		this.lookupPathAttributeName = name;
+	}"
+67299ba101063176805e7f3c,"private static int ceil(int dividend, int divisor)
+    {
+        return ((dividend + divisor) - 1) / divisor;
+    }"
+67299ba101063176805e7f3d,"public @Null T previous () {
+		if (iter == null) return null;
+
+		T payload = iter.payload;
+		curr = iter;
+		iter = iter.prev;
+		return payload;
+	}"
+67299ba101063176805e7f3e,"public CookieMapAssert doesNotContainCookie(String name) {
+		return doesNotContainKey(name);
+	}"
+67299ba101063176805e7f3f,"public void setMinEvictableIdleTimeMillis(long minEvictableIdleTimeMillis) {
+		this.minEvictableIdleTimeMillis = minEvictableIdleTimeMillis;
+	}"
+67299ba101063176805e7f40,"@Nullable
+	public String getViewName() {
+		return (this.view instanceof String viewName ? viewName : null);
+	}"
+67299ba101063176805e7f41,"public int getBufferSize() {
+		int size = 0;
+		for (ByteBuffer buffer : this.chunks) {
+			size = size + buffer.remaining();
+		}
+		return size;
+	}"
+67299ba101063176805e7f42,"static boolean isValidIPv6Address(@Nullable String addressString)
+  {
+    return addressString != null && new IPAddressString(addressString, IPV6_ADDRESS_PARAMS).isIPv6();
+  }"
+67299ba101063176805e7f43,"public GeoDistanceSortBuilder unit(DistanceUnit unit) {
+        this.unit = unit;
+        return this;
+    }"
+67299ba101063176805e7f44,"public void set (float x, float y, float radius) {
+		this.x = x;
+		this.y = y;
+		this.radius = radius;
+	}"
+67299ba101063176805e7f45,"Method get(int index) {
+		return this.attributeMethods[index];
+	}"
+67299ba101063176805e7f46,"public void setRollbackOnly() {
+		this.rollbackOnly = true;
+	}"
+67299ba101063176805e7f47,"public static String downloadModelTaskDescription(String modelId) {
+        return DOWNLOAD_MODEL_TASK_DESCRIPTION_PREFIX + modelId;
+    }"
+67299ba101063176805e7f48,"Map<String, Long> getWorkerRunningTasks();"
+67299ba101063176805e7f49,"private native static void copyJni (long[] src, int srcOffset, Buffer dst, int dstOffset, int numBytes);"
+67299ba101063176805e7f4a,"public static void reverse(int[] order, int offset, int length) {
+        for (int i = 0; i < length / 2; i++) {
+            int t = order[offset + i];
+            order[offset + i] = order[offset + length - i - 1];
+            order[offset + length - i - 1] = t;
+        }
+    }"
+67299ba101063176805e7f4b,"public boolean hasFoo() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }"
+67299ba101063176805e7f4c,"public StandaloneMockMvcBuilder setHandlerExceptionResolvers(List<HandlerExceptionResolver> exceptionResolvers) {
+		this.handlerExceptionResolvers = exceptionResolvers;
+		return this;
+	}"
+67299ba101063176805e7f4d,"public final float getPerimeter () {
+		return 2.0f * (upperBound.x - lowerBound.x + upperBound.y - lowerBound.y);
+	}"
+67299ba101063176805e7f4e,"public void setY (float y) {
+		this.y = y;
+	}"
+67299ba101063176805e7f4f,"public static AliasActions add() {
+            return new AliasActions(AliasActions.Type.ADD);
+        }"
+67299ba101063176805e7f50,"public void setPaddingRight (int paddingRight) {
+		this.paddingRight = paddingRight;
+	}"
+67299ba101063176805e7f51,"static char[] asciiFromTo(int from, int to) {
+            char[] chars = new char[to - from + 1];
+
+            for (int i = from; i <= to; ++i) {
+                chars[i - from] = (char) i;
+            }
+
+            return chars;
+        }"
+67299ba101063176805e7f52,"public void addViewControllerListener (IOSViewControllerListener listener) {
+		viewControllerListener = listener;
+	}"
+67299ba101063176805e7f53,"@Nullable
+	public RegisteredBean getParent() {
+		return this.parent;
+	}"
+67299ba101063176805e7f54,"static short makeShort(char first, char second) {
+        return PlatformDependent.BIG_ENDIAN_NATIVE_ORDER ?
+                (short) ((second << 8) | first) : (short) ((first << 8) | second);
+    }"
+67299ba101063176805e7f55,"public PageCacheConfig withPageSize(int pageSize) {
+        this.pageSize = pageSize;
+        return this;
+    }"
+67299ba101063176805e7f56,"@Override
+	protected Object getCacheKey(String viewName, Locale locale) {
+		return viewName + '_' + locale;
+	}"
+67299ba101063176805e7f57,"void pointRemoved(
+            String status,
+            List<SimplificationErrorCalculator.PointLike> points,
+            SimplificationErrorCalculator.PointLike removed,
+            double error,
+            SimplificationErrorCalculator.PointLike previous,
+            SimplificationErrorCalculator.PointLike next
+        );"
+67299ba101063176805e7f58,"static Builder create(HttpMethod method, URI url) {
+		return new DefaultClientRequestBuilder(method, url);
+	}"
+67299ba101063176805e7f59,"public JndiTemplate getJndiTemplate() {
+		return this.jndiTemplate;
+	}"
+67299ba101063176805e7f5a,"protected String lowerCaseName(String name) {
+		return name.toLowerCase(Locale.US);
+	}"
+67299ba101063176805e7f5b,"public SerialDiffPipelineAggregationBuilder gapPolicy(GapPolicy gapPolicy) {
+        if (gapPolicy == null) {
+            throw new IllegalArgumentException(""[gapPolicy] must not be null: ["" + name + ""]"");
+        }
+        this.gapPolicy = gapPolicy;
+        return this;
+    }"
+67299ba101063176805e7f5c,"public Builder setBoost(int boost) {
+            if (boost <= 0) {
+                throw new IllegalArgumentException(""boost must be greater than 0"");
+            }
+            this.boost = boost;
+            return this;
+        }"
+67299ba101063176805e7f5d,"public MultiSearchTemplateRequest maxConcurrentSearchRequests(int maxConcurrentSearchRequests) {
+        if (maxConcurrentSearchRequests < 1) {
+            throw new IllegalArgumentException(""maxConcurrentSearchRequests must be positive"");
+        }
+
+        this.maxConcurrentSearchRequests = maxConcurrentSearchRequests;
+        return this;
+    }"
+67299ba101063176805e7f5e,"public static AggregationBuilder aggCardinalityUpperBound(String name) {
+        return new AggCardinalityUpperBoundAggregationBuilder(name);
+    }"
+67299ba101063176805e7f5f,"public static int getSparseStorageSize(int nonEmptyBuckets)
+  {
+    return COMMON_FIELDS_SIZE +
+           Integer.BYTES +
+           (Integer.BYTES + Long.BYTES) * nonEmptyBuckets;
+  }"
+67299ba101063176805e7f60,"public Object getId(Object entity) {
+		return this.entityManagerFactory.getPersistenceUnitUtil().getIdentifier(entity);
+	}"
+67299ba101063176805e7f61,"public void setSchemaName(@Nullable String schemaName) {
+		this.schemaName = schemaName;
+	}"
+67299ba101063176805e7f62,"private static boolean hasTombstone(byte firstKeySizeByte) {
+        return (firstKeySizeByte & FLAG_FIRST_BYTE_TOMBSTONE) != 0;
+    }"
+67299ba101063176805e7f63,"public Matrix3 setToScaling (float scaleX, float scaleY) {
+		float[] val = this.val;
+		val[M00] = scaleX;
+		val[M10] = 0;
+		val[M20] = 0;
+		val[M01] = 0;
+		val[M11] = scaleY;
+		val[M21] = 0;
+		val[M02] = 0;
+		val[M12] = 0;
+		val[M22] = 1;
+		return this;
+	}"
+67299ba101063176805e7f64,"private static int paddingBytes(int padding) {
+        // The padding parameter contains the 1 byte pad length field as well as the trailing padding bytes.
+        // Subtract 1, so to only get the number of padding bytes that need to be appended to the end of a frame.
+        return padding - 1;
+    }"
+67299ba101063176805e7f65,"public void updateTags(String remote) {
+        runCommand(""git"", ""fetch"", ""--tags"", Objects.requireNonNull(remote));
+    }"
+67299ba101063176805e7f66,"public void setTextFieldListener (@Null TextFieldListener listener) {
+		this.listener = listener;
+	}"
+67299ba101063176805e7f67,"public static void publish(final Result result) throws Exception {
+        final Runner runner = new Runner();
+        final Method method = runner.getClass().getDeclaredMethod(
+                ""postResults"", Result.class);
+        method.setAccessible(true);
+        method.invoke(runner, result);
+    }"
+67299ba101063176805e7f68,"public static int numBytes(int bitsPerValue) {
+        return bitsPerValue << (BLOCK_SIZE_LOG2 - 3);
+    }"
+67299ba101063176805e7f69,"public static String getVersion() {
+		return ""${springBootVersion}"";
+	}"
+67299ba101063176805e7f6a,"private static Class<?> declaringClassOf(TypeVariable<?> typeVariable) {
+        GenericDeclaration genericDeclaration = typeVariable.getGenericDeclaration();
+        return genericDeclaration instanceof Class ? (Class<?>) genericDeclaration : null;
+    }"
+67299ba101063176805e7f6b,"public boolean isTcpFastOpen() {
+        return enableTcpFastOpen;
+    }"
+67299ba101063176805e7f6c,"private static byte char64(char x) {
+        if ((int) x < 0 || (int) x > index_64.length) return -1;
+        return index_64[(int) x];
+    }"
+67299ba101063176805e7f6d,ReceiveResponse internalReceive(Stream<JrubyEventExtLibrary.RubyEvent> events);
+67299ba101063176805e7f6e,"public void setGroup(String group) {
+		this.group = group;
+	}"
+67299ba101063176805e7f6f,"@Provides
+  @LazySingleton
+  public DruidConnectionStateListener makeConnectionStateListener(final ServiceEmitter emitter)
+  {
+    return new DruidConnectionStateListener(emitter);
+  }"
+67299ba101063176805e7f70,"private static long position(int level, long offset) {
+            assert level >= 1;
+            return (1 << (level - 1)) | (offset << level);
+        }"
+67299ba101063176805e7f71,"public boolean isTransient() {
+        return checkpoint == -1;
+    }"
+67299ba101063176805e7f72,void setCharset(Charset charset);
+67299ba101063176805e7f73,"private static int toAnsi(int red, int green, int blue)
+    {
+        // rescale to 0-5 range
+        red = red * 6 / 256;
+        green = green * 6 / 256;
+        blue = blue * 6 / 256;
+
+        return 16 + red * 36 + green * 6 + blue;
+    }"
+67299ba101063176805e7f74,"public void setButton (int button) {
+		this.button = button;
+	}"
+67299ba101063176805e7f75,"private static String fieldValueFactorCompatibleField() {
+        return randomFrom(INT_FIELD_NAME, DOUBLE_FIELD_NAME, DATE_FIELD_NAME);
+    }"
+67299ba101063176805e7f76,"@Nullable
+	public T getBody() {
+		return this.body;
+	}"
+67299ba101063176805e7f77,"public CircleBuilder center(Coordinate center) {
+        this.center = center;
+        return this;
+    }"
+67299ba101063176805e7f78,"protected abstract ColumnHandle createSubfieldColumnHandle(
+            ColumnHandle baseColumnHandle,
+            Subfield subfield,
+            Type subfieldDataType,
+            String subfieldColumnName);"
+67299ba101063176805e7f79,"@SuppressWarnings(""unchecked"")
+	public static <T> Comparator<T> comparable() {
+		return (Comparator<T>) Comparator.naturalOrder();
+	}"
+67299ba101063176805e7f7a,"public boolean completed() {
+        return completed;
+    }"
+67299ba101063176805e7f7b,protected abstract int randomPrecision();
+67299ba101063176805e7f7c,"public void setRotation (float rotation) {
+		this.rotation = rotation;
+	}"
+67299ba101063176805e7f7d,"public boolean overlaps (Rectangle r) {
+		return x < r.x + r.width && x + width > r.x && y < r.y + r.height && y + height > r.y;
+	}"
+67299ba101063176805e7f7e,"public Cell setFlipVertically (boolean flipVertically) {
+			this.flipVertically = flipVertically;
+			return this;
+		}"
+67299ba101063176805e7f7f,"private void set (int idx, float x, float y, float width, float height, float color) {
+		final float fx2 = x + width;
+		final float fy2 = y + height;
+		final float[] vertices = this.vertices;
+		vertices[idx] = x;
+		vertices[idx + 1] = y;
+		vertices[idx + 2] = color;
+
+		vertices[idx + 5] = x;
+		vertices[idx + 6] = fy2;
+		vertices[idx + 7] = color;
+
+		vertices[idx + 10] = fx2;
+		vertices[idx + 11] = fy2;
+		vertices[idx + 12] = color;
+
+		vertices[idx + 15] = fx2;
+		vertices[idx + 16] = y;
+		vertices[idx + 17] = color;
+	}"
+67299ba101063176805e7f80,"public void rotate90 (boolean clockwise) {
+		float[] vertices = this.vertices;
+
+		if (clockwise) {
+			float temp = vertices[V1];
+			vertices[V1] = vertices[V4];
+			vertices[V4] = vertices[V3];
+			vertices[V3] = vertices[V2];
+			vertices[V2] = temp;
+
+			temp = vertices[U1];
+			vertices[U1] = vertices[U4];
+			vertices[U4] = vertices[U3];
+			vertices[U3] = vertices[U2];
+			vertices[U2] = temp;
+		} else {
+			float temp = vertices[V1];
+			vertices[V1] = vertices[V2];
+			vertices[V2] = vertices[V3];
+			vertices[V3] = vertices[V4];
+			vertices[V4] = temp;
+
+			temp = vertices[U1];
+			vertices[U1] = vertices[U2];
+			vertices[U2] = vertices[U3];
+			vertices[U3] = vertices[U4];
+			vertices[U4] = temp;
+		}
+	}"
+67299ba101063176805e7f81,"@Nullable
+	public SortDefinition getSort() {
+		return this.sort;
+	}"
+67299ba101063176805e7f82,"public static LevelConfiguration ofCustom(String name) {
+			Assert.hasText(name, ""Name must not be empty"");
+			return new LevelConfiguration(name, null);
+		}"
+67299ba101063176805e7f83,"private static String randomString(final int length)
+  {
+    return RandomStringUtils.random(length)
+                            .replace('\r', '?')
+                            .replace('\n', '?');
+  }"
+67299ba101063176805e7f84,"public void setAlignment (int alignment) {
+		this.alignment = alignment;
+	}"
+67299ba101063176805e7f85,"@Nullable
+    public final String index() {
+        return index;
+    }"
+67299ba101063176805e7f86,"public final native boolean getProgramParameterb (WebGLProgram program, int pname) /*-{
+		return this.getProgramParameter(program, pname);
+	}-*/;"
+67299ba101063176805e7f87,"public void clear() {
+        while (tail != head) {
+            hpackHeaderFields[tail++] = null;
+            if (tail == hpackHeaderFields.length) {
+                tail = 0;
+            }
+        }
+        head = 0;
+        tail = 0;
+        size = 0;
+    }"
+67299ba101063176805e7f88,public void removeLight (PointLight point);
+67299ba101063176805e7f89,"private native static void copyJni (double[] src, int srcOffset, Buffer dst, int dstOffset, int numBytes);"
+67299ba101063176805e7f8a,"public void setStopWatcherOnRestart(boolean stopWatcherOnRestart) {
+		this.stopWatcherOnRestart = stopWatcherOnRestart;
+	}"
+67299ba101063176805e7f8b,"protected abstract void writeInternal(Object object, KSerializer<Object> serializer, T format,
+			HttpOutputMessage outputMessage) throws IOException, HttpMessageNotWritableException;"
+67299ba101063176805e7f8c,"public float getOldest () {
+		return added_values < values.length ? values[0] : values[last_value];
+	}"
+67299ba101063176805e7f8d,"@Nullable
+	public String getConcurrency() {
+		return this.concurrency;
+	}"
+67299ba101063176805e7f8e,"public static SnappyFrameEncoder snappyEncoderWithJumboFrames() {
+        return new SnappyFrameEncoder(SNAPPY_SLICE_JUMBO_SIZE);
+    }"
+67299ba101063176805e7f8f,"public static String buildPainlessFieldKey(String fieldName) {
+        return fieldName;
+    }"
+67299ba101063176805e7f90,"@java.lang.Override
+      public boolean hasIsValid() {
+        return ((bitField0_ & 0x00000010) != 0);
+      }"
+67299ba101063176805e7f91,"public void setContinuousPhysics (boolean flag) {
+		m_continuousPhysics = flag;
+	}"
+67299ba101063176805e7f92,"public static boolean isConscrypt(TrustManager trustManager) {
+    return trustManager instanceof TrustManagerImpl;
+  }"
+67299ba101063176805e7f93,"private ByteBuf buffer(int i) {
+        ByteBuf b = buffers[i];
+        return b instanceof Component ? ((Component) b).buf : b;
+    }"
+67299ba101063176805e7f94,"@Override
+	public Origin getOrigin() {
+		return this.origin;
+	}"
+67299ba101063176805e7f95,"public static Iterator<S3ObjectSummary> objectSummaryIterator(
+      final ServerSideEncryptingAmazonS3 s3Client,
+      final Iterable<URI> prefixes,
+      final int maxListingLength,
+      final int maxRetries
+  )
+  {
+    return new ObjectSummaryIterator(s3Client, prefixes, maxListingLength, maxRetries);
+  }"
+67299ba101063176805e7f96,"public static <T, K, V> Collector<T, ?, NavigableMap<K, V>> toUnmodifiableSortedMap(
+        Function<T, ? extends K> keyMapper,
+        Function<T, ? extends V> valueMapper
+    ) {
+        return Collectors.collectingAndThen(Collectors.toMap(keyMapper, valueMapper, (v1, v2) -> {
+            throw new IllegalStateException(""Duplicate key (attempted merging values "" + v1 + ""  and "" + v2 + "")"");
+        }, () -> new TreeMap<K, V>()), Collections::unmodifiableNavigableMap);
+    }"
+67299ba101063176805e7f97,"public void setLeftWidth (float leftWidth) {
+		this.leftWidth = leftWidth;
+	}"
+67299ba101063176805e7f98,"public boolean equals (Object object) {
+		if (object == this) return true;
+		if (!ordered) return false;
+		if (!(object instanceof FloatArray)) return false;
+		FloatArray array = (FloatArray)object;
+		if (!array.ordered) return false;
+		int n = size;
+		if (n != array.size) return false;
+		float[] items1 = this.items, items2 = array.items;
+		for (int i = 0; i < n; i++)
+			if (items1[i] != items2[i]) return false;
+		return true;
+	}"
+67299ba101063176805e7f99,"public void setFuzzyMaxExpansions(int fuzzyMaxExpansions) {
+        this.fuzzyMaxExpansions = fuzzyMaxExpansions;
+    }"
+67299ba101063176805e7f9a,"public void setUserData (Object data) {
+		m_userData = data;
+	}"
+67299ba101063176805e7f9b,"public static boolean isBaseCellPolarPentagon(int baseCell) {
+        return baseCell == 4 || baseCell == 117;
+    }"
+67299ba101063176805e7f9c,"public RSocketRequestValues build() {
+			return new RSocketRequestValues(
+					this.route, this.routeVariables, this.metadataHelper,
+					this.payloadValue, this.payload, this.payloadElementType);
+		}"
+67299ba101063176805e7f9d,"public final Locale getLocale() {
+		return this.locale;
+	}"
+67299ba101063176805e7f9e,"public static SslContextBuilder forClient() {
+        return new SslContextBuilder(false);
+    }"
+67299ba101063176805e7f9f,"protected abstract void encode(ChannelHandlerContext ctx, I msg, ByteBuf out) throws Exception;"
+67299ba101063176805e7fa0,"public final SortDefinition getSortDefinition() {
+		return this.sortDefinition;
+	}"
+67299ba101063176805e7fa1,"protected static byte set(byte headerByte, int bitMask, boolean value) {
+        return (byte) (value ? headerByte | bitMask : headerByte);
+    }"
+67299ba101063176805e7fa2,"public void setWidth (int width) {
+		this.width = width;
+	}"
+67299ba101063176805e7fa3,"void initXAResource(XAResource xaResource) {
+			this.transactionDelegate = new TransactionDelegate(xaResource);
+		}"
+67299ba101063176805e7fa4,"static char[] toHexCharArray(byte[] bytes) {
+        Objects.requireNonNull(bytes);
+        final char[] result = new char[2 * bytes.length];
+        for (int i = 0; i < bytes.length; i++) {
+            byte b = bytes[i];
+            result[2 * i] = HEX_DIGITS[b >> 4 & 0xf];
+            result[2 * i + 1] = HEX_DIGITS[b & 0xf];
+        }
+        return result;
+    }"
+67299ba101063176805e7fa5,"public void setY(int y) {
+        this.y = y;
+    }"
+67299ba101063176805e7fa6,"public Cell<T> width (Value width) {
+		if (width == null) throw new IllegalArgumentException(""width cannot be null."");
+		minWidth = width;
+		prefWidth = width;
+		maxWidth = width;
+		return this;
+	}"
+67299ba101063176805e7fa7,"protected void customize(ResourceDatabasePopulator populator) {
+
+	}"
+67299ba101063176805e7fa8,"public Metric[] metrics() {
+        return metrics;
+    }"
+67299ba101063176805e7fa9,"static byte[] toUint16(int num) {
+        if (num < 0 || num > 65535) {
+            throw new IllegalStateException(""number ["" + num + ""] must be a value between 0 and 65535"");
+        }
+        return new byte[] { (byte) (num >> 8), (byte) num };
+    }"
+67299ba101063176805e7faa,ActionListener<InferenceServiceResults> getListener();
+67299ba101063176805e7fab,"public void limitMaxRelationShipsToTraverse(long maxRelationShipsToTraverse) {
+        this.maxRelationShipsToTraverse = maxRelationShipsToTraverse;
+    }"
+67299ba101063176805e7fac,"static double splitRatio(int flags) {
+        if ((flags & DataTree.W_SPLIT_KEEP_ALL_LEFT) != 0) {
+            return 1;
+        } else if ((flags & DataTree.W_SPLIT_KEEP_ALL_RIGHT) != 0) {
+            return 0;
+        }
+        return DEFAULT_SPLIT_RATIO;
+    }"
+67299ba101063176805e7fad,"public static InvalidateApiKeyRequest usingRealmAndUserName(String realmName, String userName) {
+        return new InvalidateApiKeyRequest(realmName, userName, null, false, null);
+    }"
+67299ba101063176805e7fae,"public static boolean isValidLongitude(double longitude) {
+        if (Double.isNaN(longitude) || Double.isInfinite(longitude) || longitude < GeoUtils.MIN_LON || longitude > GeoUtils.MAX_LON) {
+            return false;
+        }
+        return true;
+    }"
+67299ba101063176805e7faf,public abstract short getShort(int offset);
+67299ba101063176805e7fb0,"public float getRowHeight (int rowIndex) {
+		if (rowHeight == null) return 0;
+		return rowHeight[rowIndex];
+	}"
+67299ba101063176805e7fb1,"public long zOrderByteAddressToLong(byte[] byteAddress)
+    {
+        long address = 0;
+        for (int byteIndex = 0; byteIndex < byteAddress.length; byteIndex++) {
+            address |= Byte.toUnsignedLong(byteAddress[byteIndex]) << (byteIndex << 3);
+        }
+        return address;
+    }"
+67299ba101063176805e7fb2,"protected final void incrementEvaluationCount() {
+		this.evaluationCount.incrementAndGet();
+	}"
+67299ba101063176805e7fb3,"protected abstract AggregatorFactory build(AggregationContext context, AggregatorFactory parent) throws IOException;"
+67299ba101063176805e7fb4,"ClientResponse<IntermediateType> handleResponse(HttpResponse response, TrafficCop trafficCop);"
+67299ba101063176805e7fb5,"public void setSuffix(@Nullable String suffix) {
+		this.suffix = (suffix != null ? suffix : """");
+	}"
+67299ba101063176805e7fb6,"static int lowestIndex(Visibility... candidates) {
+			Visibility visibility = PUBLIC;
+			int index = 0;
+			for (int i = 0; i < candidates.length; i++) {
+				Visibility candidate = candidates[i];
+				if (candidate.ordinal() > visibility.ordinal()) {
+					visibility = candidate;
+					index = i;
+				}
+			}
+			return index;
+		}"
+67299ba101063176805e7fb7,"public Table padRight (Value padRight) {
+		if (padRight == null) throw new IllegalArgumentException(""padRight cannot be null."");
+		this.padRight = padRight;
+		sizeInvalid = true;
+		return this;
+	}"
+67299ba101063176805e7fb8,"public void setUrlPatterns(Collection<String> urlPatterns) {
+		Assert.notNull(urlPatterns, ""UrlPatterns must not be null"");
+		this.urlPatterns = new LinkedHashSet<>(urlPatterns);
+	}"
+67299ba101063176805e7fb9,"public void setSchema(Resource schemaResource) {
+		this.schemaResources = new Resource[] {schemaResource};
+	}"
+67299ba101063176805e7fba,"public void setOriginX (float x) {
+		this.originX = x;
+	}"
+67299ba101063176805e7fbb,"@Nullable
+	public String getReason() {
+		return this.reason;
+	}"
+67299ba101063176805e7fbc,"private static int maxOutputBufferLength(int inputLength) {
+        double factor;
+        if (inputLength < 200) {
+            factor = 1.5;
+        } else if (inputLength < 500) {
+            factor = 1.2;
+        } else if (inputLength < 1000) {
+            factor = 1.1;
+        } else if (inputLength < 10000) {
+            factor = 1.05;
+        } else {
+            factor = 1.02;
+        }
+        return 13 + (int) (inputLength * factor);
+    }"
+67299ba101063176805e7fbd,"public abstract void drawString (float x, float y, String s, Color3f color);"
+67299ba101063176805e7fbe,"public Container<T> pad (Value pad) {
+		if (pad == null) throw new IllegalArgumentException(""pad cannot be null."");
+		padTop = pad;
+		padLeft = pad;
+		padBottom = pad;
+		padRight = pad;
+		return this;
+	}"
+67299ba101063176805e7fbf,"public List<String> getContentCodings() {
+		return Collections.unmodifiableList(this.contentCodings);
+	}"
+67299ba101063176805e7fc0,"public final Collection<IgnoredSourceFieldMapper.NameValue> getIgnoredFieldValues() {
+        return Collections.unmodifiableCollection(ignoredFieldValues);
+    }"
+67299ba101063176805e7fc1,"Map<String, Long> getWorkerAssignedTasks();"
+67299ba101063176805e7fc2,"public static OperationMode resolve(LicenseType type) {
+            if (type == null) {
+                return MISSING;
+            }
+            return switch (type) {
+                case BASIC -> BASIC;
+                case STANDARD -> STANDARD;
+                case GOLD -> GOLD;
+                case PLATINUM -> PLATINUM;
+                case ENTERPRISE -> ENTERPRISE;
+                case TRIAL -> TRIAL;
+            };
+        }"
+67299ba101063176805e7fc3,"protected final T getNoRefresh() {
+        return cached;
+    }"
+67299ba101063176805e7fc4,"public abstract ByteBuf setDouble(int index, double value);"
+67299ba101063176805e7fc5,"@Override
+	public OutputStream getOutputStream() throws IOException {
+		return Files.newOutputStream(this.filePath);
+	}"
+67299ba101063176805e7fc6,"Options getOptions() {
+		return this.options;
+	}"
+67299ba101063176805e7fc7,"public static long zigZagEncode(long n) {
+        return (n >> 63) ^ (n << 1);
+    }"
+67299ba101063176805e7fc8,boolean onUrlClicked(@NonNull String url);
+67299ba101063176805e7fc9,"public IndexRequest setRequireDataStream(boolean requireDataStream) {
+        this.requireDataStream = requireDataStream;
+        return this;
+    }"
+67299ba101063176805e7fca,"default void onNodeConnected(DiscoveryNode node, Transport.Connection connection) {}"
+67299ba101063176805e7fcb,"public boolean containsValue (float value) {
+		if (hasZeroValue && zeroValue == value) return true;
+		int[] keyTable = this.keyTable;
+		float[] valueTable = this.valueTable;
+		for (int i = valueTable.length - 1; i >= 0; i--)
+			if (keyTable[i] != 0 && valueTable[i] == value) return true;
+		return false;
+	}"
+67299ba101063176805e7fcc,"public Vector2 mul (Matrix3 mat) {
+		float x = this.x * mat.val[0] + this.y * mat.val[3] + mat.val[6];
+		float y = this.x * mat.val[1] + this.y * mat.val[4] + mat.val[7];
+		this.x = x;
+		this.y = y;
+		return this;
+	}"
+67299ba101063176805e7fcd,"public DeleteRequest id(String id) {
+        this.id = id;
+        return this;
+    }"
+67299ba101063176805e7fce,"public int getStepArgument(final int index) {
+    // Returns the type_argument_index of the path element of the given index.
+    return typePathContainer[typePathOffset + 2 * index + 2];
+  }"
+67299ba101063176805e7fcf,"public void setBackBufferConfig (int r, int g, int b, int a, int depth, int stencil, int samples) {
+		this.r = r;
+		this.g = g;
+		this.b = b;
+		this.a = a;
+		this.depth = depth;
+		this.stencil = stencil;
+		this.samples = samples;
+	}"
+67299ba101063176805e7fd0,"void onUnknownFrame(ChannelHandlerContext ctx, byte frameType, int streamId, Http2Flags flags, ByteBuf payload)
+            throws Http2Exception;"
+67299ba101063176805e7fd1,"public Cell setRotation (int rotation) {
+			this.rotation = rotation;
+			return this;
+		}"
+67299ba101063176805e7fd2,"@Nullable
+  public static IPv6Address parse(@Nullable byte[] bytes)
+  {
+    return bytes == null ? null : new IPv6Address(bytes);
+  }"
+67299ba101063176805e7fd3,"public Quaternion mul (final float x, final float y, final float z, final float w) {
+		final float newX = this.w * x + this.x * w + this.y * z - this.z * y;
+		final float newY = this.w * y + this.y * w + this.z * x - this.x * z;
+		final float newZ = this.w * z + this.z * w + this.x * y - this.y * x;
+		final float newW = this.w * w - this.x * x - this.y * y - this.z * z;
+		this.x = newX;
+		this.y = newY;
+		this.z = newZ;
+		this.w = newW;
+		return this;
+	}"
+67299ba101063176805e7fd4,"int createProxy (AABB aabb, Object userData);"
+67299ba101063176805e7fd5,"DatabaseTracer createDatabaseTracer(PageCacheTracer pageCacheTracer, Clock clock);"
+67299ba101063176805e7fd6,Optional<CheckpointInfo> findLatestCheckpoint() throws IOException;
+67299ba101063176805e7fd7,"protected void resize (int width, int height) {
+	}"
+67299ba101063176805e7fd8,"public Jackson2ObjectMapperBuilder timeZone(TimeZone timeZone) {
+		this.timeZone = timeZone;
+		return this;
+	}"
+67299ba101063176805e7fd9,"public static double log(double value) {
+        if (value > 0.0) {
+            if (value == Double.POSITIVE_INFINITY) {
+                return Double.POSITIVE_INFINITY;
+            }
+
+            // For normal values not close to 1.0, we use the following formula:
+            // log(value)
+            // = log(2^exponent*1.mantissa)
+            // = log(2^exponent) + log(1.mantissa)
+            // = exponent * log(2) + log(1.mantissa)
+            // = exponent * log(2) + log(1.mantissaApprox) + log(1.mantissa/1.mantissaApprox)
+            // = exponent * log(2) + log(1.mantissaApprox) + log(1+epsilon)
+            // = exponent * log(2) + log(1.mantissaApprox) + epsilon-epsilon^2/2+epsilon^3/3-epsilon^4/4+...
+            // with:
+            // 1.mantissaApprox <= 1.mantissa,
+            // log(1.mantissaApprox) in table,
+            // epsilon = (1.mantissa/1.mantissaApprox)-1
+            //
+            // To avoid bad relative error for small results,
+            // values close to 1.0 are treated aside, with the formula:
+            // log(x) = z*(2+z^2*((2.0/3)+z^2*((2.0/5))+z^2*((2.0/7))+...)))
+            // with z=(x-1)/(x+1)
+
+            double h;
+            if (value > 0.95) {
+                if (value < 1.14) {
+                    double z = (value - 1.0) / (value + 1.0);
+                    double z2 = z * z;
+                    return z * (2 + z2 * ((2.0 / 3) + z2 * ((2.0 / 5) + z2 * ((2.0 / 7) + z2 * ((2.0 / 9) + z2 * ((2.0 / 11)))))));
+                }
+                h = 0.0;
+            } else if (value < MIN_DOUBLE_NORMAL) {
+                // Ensuring value is normal.
+                value *= TWO_POW_52;
+                // log(x*2^52)
+                // = log(x)-ln(2^52)
+                // = log(x)-52*ln(2)
+                h = -52 * LOG_2;
+            } else {
+                h = 0.0;
+            }
+
+            int valueBitsHi = (int) (Double.doubleToRawLongBits(value) >> 32);
+            int valueExp = (valueBitsHi >> 20) - MAX_DOUBLE_EXPONENT;
+            // Getting the first LOG_BITS bits of the mantissa.
+            int xIndex = ((valueBitsHi << 12) >>> (32 - LOG_BITS));
+
+            // 1.mantissa/1.mantissaApprox - 1
+            double z = (value * twoPowTab[-valueExp - MIN_DOUBLE_EXPONENT]) * logXInvTab[xIndex] - 1;
+
+            z *= (1 - z * ((1.0 / 2) - z * ((1.0 / 3))));
+
+            return h + valueExp * LOG_2 + (logXLogTab[xIndex] + z);
+
+        } else if (value == 0.0) {
+            return Double.NEGATIVE_INFINITY;
+        } else { // value < 0.0, or value is NaN
+            return Double.NaN;
+        }
+    }"
+67299ba101063176805e7fda,"public static int H3_get_high_bit(long h3) {
+        return ((int) ((((h3) & H3_HIGH_BIT_MASK) >> H3_MAX_OFFSET)));
+    }"
+67299ba101063176805e7fdb,"@java.lang.Override
+      public com.google.protobuf.ByteString
+          getBarBytes() {
+        java.lang.Object ref = bar_;
+        if (ref instanceof java.lang.String) {
+          com.google.protobuf.ByteString b = 
+              com.google.protobuf.ByteString.copyFromUtf8(
+                  (java.lang.String) ref);
+          bar_ = b;
+          return b;
+        } else {
+          return (com.google.protobuf.ByteString) ref;
+        }
+      }"
+67299ba101063176805e7fdc,"public static double getSouthPolarBound(int resolution) {
+        return SOUTH_BOUND[resolution];
+    }"
+67299ba101063176805e7fdd,"public boolean isEndOfStream() {
+        return currentBlockSizeReadFromChannel < BLOCK_SIZE;
+    }"
+67299ba101063176805e7fde,int getYear();
+67299ba101063176805e7fdf,"protected void configureDefaultServletHandling(DefaultServletHandlerConfigurer configurer) {
+	}"
+67299ba101063176805e7fe0,"@Override
+  public String toString() {
+    return owner + '.' + name + descriptor + "" ("" + tag + (isInterface ? "" itf"" : """") + ')';
+  }"
+67299ba101063176805e7fe1,"public MatchQueryBuilder minimumShouldMatch(String minimumShouldMatch) {
+        this.minimumShouldMatch = minimumShouldMatch;
+        return this;
+    }"
+67299ba101063176805e7fe2,"public GeoDistanceSortBuilder geoDistance(GeoDistance geoDistance) {
+        this.geoDistance = geoDistance;
+        return this;
+    }"
+67299ba101063176805e7fe3,MemoryBasicInformation newMemoryBasicInformation();
+67299ba101063176805e7fe4,boolean isCollinear (T other);
+67299ba101063176805e7fe5,"StateMachine createInstance(ConnectionHandle connection, LogService logService);"
+67299ba101063176805e7fe6,"protected EventLoop newChild(@SuppressWarnings(""UnusedParameters"") Object... args) throws Exception {
+        return new ThreadPerChannelEventLoop(this);
+    }"
+67299ba101063176805e7fe7,"public Builder setUri(URI uri) {
+			this.uri = uri;
+			return this;
+		}"
+67299ba101063176805e7fe8,"public static IRubyObject toRubyObject(Object javaObject) {
+        return JavaUtil.convertJavaToRuby(RUBY, javaObject);
+    }"
+67299ba101063176805e7fe9,"private static double wAvg(double first, double second, double weight) {
+        double width = (second - first) * weight;
+        return first + width;
+    }"
+67299ba101063176805e7fea,"public void setOrder(int order) {
+		this.order = order;
+	}"
+67299ba101063176805e7feb,"public boolean stop() {
+        return running.compareAndSet(true, false);
+    }"
+67299ba101063176805e7fec,"public void setOrder(int order) {
+		this.order = order;
+	}"
+67299ba101063176805e7fed,"public Vector3 set (float x, float y, float z) {
+		this.x = x;
+		this.y = y;
+		this.z = z;
+		return this;
+	}"
+67299ba101063176805e7fee,"static BuildpackMetadata fromJson(JsonNode node) {
+		return new BuildpackMetadata(node);
+	}"
+67299ba101063176805e7fef,"public static AutowiredMethodArgumentsResolver forMethod(String methodName, Class<?>... parameterTypes) {
+		return new AutowiredMethodArgumentsResolver(methodName, parameterTypes, false, null);
+	}"
+67299ba101063176805e7ff0,"public final AspectInstanceFactory getAspectInstanceFactory() {
+		return this.aspectInstanceFactory;
+	}"
+67299ba101063176805e7ff1,"@Override
+  @SuppressWarnings(""unchecked"") // assumes T is Comparable; see method javadoc
+  public Ordering<T> getResultOrdering()
+  {
+    Ordering retVal = Ordering.natural();
+    return descending ? retVal.reverse() : retVal;
+  }"
+67299ba101063176805e7ff2,protected abstract boolean doesTaskTypeMatchSupervisor(Task task);
+67299ba101063176805e7ff3,"public void setX (float x) {
+		this.x = x;
+	}"
+67299ba101063176805e7ff4,"protected void configureServer(ServerBootstrap bootstrap) {
+        bootstrap.option(ChannelOption.SO_REUSEADDR, TRUE);
+    }"
+67299ba101063176805e7ff5,"public void setLayers(Layers layers) {
+		Assert.notNull(layers, ""Layers must not be null"");
+		this.layers = layers;
+		this.layersIndex = new LayersIndex(layers);
+	}"
+67299ba101063176805e7ff6,"public GridPoint3 cpy () {
+		return new GridPoint3(this);
+	}"
+67299ba101063176805e7ff7,protected abstract byte[] serializeKeyCollector(KeyCollectorSnapshot collectorSnapshot);
+67299ba101063176805e7ff8,"public KnnSearchBuilder boost(float boost) {
+        this.boost = boost;
+        return this;
+    }"
+67299ba101063176805e7ff9,"public VerticalGroup columnLeft () {
+		columnAlign |= Align.left;
+		columnAlign &= ~Align.right;
+		return this;
+	}"
+67299ba101063176805e7ffa,"public void setCorePoolSize(int corePoolSize) {
+		this.corePoolSize = corePoolSize;
+	}"
+67299ba101063176805e7ffb,"public IndexRequestBuilder setVersionType(VersionType versionType) {
+        this.versionType = versionType;
+        return this;
+    }"
+67299ba101063176805e7ffc,"public abstract void putByte(int offset, byte value);"
+67299ba101063176805e7ffd,"public static double geoHashCellHeight(int level) {
+        assert level >= 0;
+        // Geohash cells are split into 32 cells at each level. the grid
+        // alternates at each level between a 8x4 and a 4x8 grid
+        return EARTH_POLAR_DISTANCE / (1L << ((((level + 1) / 2) * 2) + ((level / 2) * 3)));
+    }"
+67299ba101063176805e7ffe,"public ApproximateHistogram copy(ApproximateHistogram h)
+  {
+    if (h.size > this.size) {
+      this.size = h.size;
+      this.positions = new float[size];
+      this.bins = new long[size];
+    }
+
+    System.arraycopy(h.positions, 0, this.positions, 0, h.binCount);
+    System.arraycopy(h.bins, 0, this.bins, 0, h.binCount);
+    this.min = h.min;
+    this.max = h.max;
+    this.binCount = h.binCount;
+    this.count = h.count;
+    return this;
+  }"
+67299ba101063176805e7fff,"Key<?> ofType(Type type) {
+        return new Key<>(type, annotationStrategy);
+    }"
+67299ba101063176805e8000,"public void setKeyTypeName(@Nullable String keyTypeName) {
+		this.keyTypeName = keyTypeName;
+	}"
+67299ba101063176805e8001,"protected void onListShards(
+        List<SearchShard> shards,
+        List<SearchShard> skippedShards,
+        Clusters clusters,
+        boolean fetchPhase,
+        TransportSearchAction.SearchTimeProvider timeProvider
+    ) {}"

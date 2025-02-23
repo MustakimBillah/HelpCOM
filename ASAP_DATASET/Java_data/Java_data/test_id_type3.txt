@@ -1,0 +1,4107 @@
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getInertia
+Identifier to access field/array: ['m_sweep', 'localCenter', 'x', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setY
+Parameters of the function: ['y']
+Identifier to access field/array: ['y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDefaultCurrencyTimeLimit
+Identifier to access field/array: ['defaultCurrencyTimeLimit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: asCollector
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDefaultHtmlEscape
+Parameters of the function: ['defaultHtmlEscape']
+Identifier to access field/array: ['defaultHtmlEscape']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDataSource
+Identifier to access field/array: ['dataSource']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setUseAttributeForTypes
+Variable declaration: ['useAttributeForTypes']
+Identifier to access field/array: ['useAttributeForTypes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getReaderIdleTimeInMillis
+Method Invocation: ['toMillis']
+Method Arguments: ['readerIdleTimeNanos']
+Identifier to access field/array: ['TimeUnit', 'NANOSECONDS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ofMethod
+Parameters of the function: ['name', 'parameterTypes']
+Method Arguments: ['name', 'parameterTypes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: doubleField
+Parameters of the function: ['name']
+Method Arguments: ['name']
+Identifier to access field/array: ['NumberFieldMapper', 'NumberType', 'DOUBLE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: enumSetting
+Parameters of the function: ['clazz', 'key', 'fallbackSetting', 'validator']
+Method Invocation: ['Enum', 'valueOf', 'e', 'toUpperCase']
+Method Arguments: ['key', 'fallbackSetting', 'clazz', 'validator', 'properties']
+Variable declaration: ['properties']
+Identifier to access field/array: ['Locale', 'ROOT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setMessageCodesResolver
+Parameters of the function: ['messageCodesResolver']
+Identifier to access field/array: ['messageCodesResolver']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: withTypedRootObject
+Parameters of the function: ['rootObject', 'typeDescriptor']
+Method Arguments: ['rootObject', 'typeDescriptor']
+Identifier to access field/array: ['rootObject']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: of
+Parameters of the function: ['name']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getFirst
+Identifier to access field/array: ['firstChunk', 'values']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setFractionDigits
+Parameters of the function: ['fractionDigits']
+Identifier to access field/array: ['fractionDigits']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fromSource
+Parameters of the function: ['sourceOperatorFactory', 'layout']
+Method Arguments: ['sourceOperatorFactory', 'layout']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createDirectories
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: serialize
+Parameters of the function: ['channel']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getJobManager
+Identifier to be returned: ['instance']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setRelayPort
+Parameters of the function: ['relayPort']
+Identifier to access field/array: ['relayPort']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: on
+Parameters of the function: ['objectClass']
+Method Arguments: ['objectClass']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: grow
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addInitializedType
+Parameters of the function: ['abstractType']
+Method Invocation: ['Math', 'max', 'System', 'arraycopy']
+Method Arguments: ['initializations', 'newInitializations', 'initializationsLength']
+Variable declaration: ['initializationsLength', 'newInitializations']
+Identifier to access field/array: ['initializations', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: shardOperation
+Parameters of the function: ['request', 'shardRouting', 'task', 'listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: phraseSuggestion
+Parameters of the function: ['fieldname']
+Method Arguments: ['fieldname']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: handle
+Parameters of the function: ['request']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: bytesPerValue
+Parameters of the function: ['term']
+Identifier to be returned: ['bytes']
+Variable declaration: ['bytes']
+Identifier to access field/array: ['term', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: childJoinField
+Parameters of the function: ['parentType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: first
+Identifier to access field/array: ['items']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: indices
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasFlags
+Parameters of the function: ['flags']
+Identifier to access field/array: ['flags']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: withApplicationDirectory
+Parameters of the function: ['applicationDirectory']
+Method Invocation: ['Assert', 'notNull']
+Method Arguments: ['applicationDirectory']
+Identifier to access field/array: ['name', 'applicationContent', 'builder', 'runImage', 'creator', 'env', 'cleanCache', 'verboseLogging', 'pullPolicy', 'publish', 'buildpacks', 'bindings', 'network', 'tags', 'buildWorkspace', 'buildCache', 'launchCache', 'createdDate', 'securityOptions', 'trustBuilder']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resolveRequest
+Parameters of the function: ['state', 'request']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDefaultThemeName
+Parameters of the function: ['defaultThemeName']
+Identifier to access field/array: ['defaultThemeName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: commonFilterSettings
+Method Invocation: ['Arrays', 'asList']
+Method Arguments: ['ADD_FIELD_CONFIG', 'ADD_TAG_CONFIG', 'ENABLE_METRIC_CONFIG', 'ID_CONFIG', 'PERIODIC_FLUSH_CONFIG', 'REMOVE_FIELD_CONFIG', 'REMOVE_TAG_CONFIG']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: translate
+Parameters of the function: ['x', 'y']
+Identifier to access field/array: ['x', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fileMapped
+Parameters of the function: ['pagedFile']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: remaining
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setRequireAlias
+Parameters of the function: ['requireAlias']
+Identifier to access field/array: ['requireAlias']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isConstant
+Identifier to access field/array: ['constant']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getLocation
+Identifier to access field/array: ['location']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setMaxWordLen
+Parameters of the function: ['maxWordLen']
+Identifier to access field/array: ['maxWordLen']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDisabled
+Parameters of the function: ['disabled']
+Identifier to access field/array: ['disabled']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setConditions
+Parameters of the function: ['conditions']
+Identifier to access field/array: ['conditions']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hourly
+Method Arguments: ['minutes']
+Variable declaration: ['minutes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: appendBlock
+Parameters of the function: ['block']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newCharBuffer
+Parameters of the function: ['capacity']
+Method Arguments: ['capacity']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: formatInfo
+Parameters of the function: ['info']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: canUpdateSchema
+Identifier to access field/array: ['QueryType', 'SCHEMA_WRITE', 'Execution', 'EXPLAIN']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: installMock
+Parameters of the function: ['mock']
+Identifier to access field/array: ['PathUtils', 'DEFAULT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getInitialDelayDuration
+Identifier to access field/array: ['initialDelay']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: withLaunchCache
+Parameters of the function: ['launchCache']
+Method Invocation: ['Assert', 'notNull']
+Method Arguments: ['launchCache']
+Identifier to access field/array: ['name', 'applicationContent', 'builder', 'runImage', 'creator', 'env', 'cleanCache', 'verboseLogging', 'pullPolicy', 'publish', 'buildpacks', 'bindings', 'network', 'tags', 'buildWorkspace', 'buildCache', 'createdDate', 'applicationDirectory', 'securityOptions', 'trustBuilder']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: readLine
+Parameters of the function: ['prompt']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isSequenceWithNoBits
+Parameters of the function: ['word']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setMarshaller
+Parameters of the function: ['marshaller']
+Method Arguments: ['marshaller']
+Identifier to access field/array: ['detectHttpMessageSender', 'interceptors', 'internalCustomizers', 'customizers', 'messageSenders', 'unmarshaller', 'destinationProvider', 'transformerFactoryClass', 'messageFactory']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createEndpointInternal
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setCacheNames
+Parameters of the function: ['cacheNames']
+Identifier to access field/array: ['cacheNames']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setBlurPasses
+Parameters of the function: ['blurPasses']
+Identifier to access field/array: ['blurPasses']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: mulTrans
+Parameters of the function: ['v']
+Identifier to access field/array: ['v', 'x', 'ex', 'y', 'ey']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getBlock
+Parameters of the function: ['blockIndex']
+Identifier to be returned: ['block']
+Variable declaration: ['block']
+Identifier to access field/array: ['blocks', 'blockIndex']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setValidationMethod
+Parameters of the function: ['method']
+Identifier to access field/array: ['validationMethod']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hangup
+Identifier to access field/array: ['code', 'name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: showTermDocCountError
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: limitedBy
+Parameters of the function: ['role']
+Method Arguments: ['role']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: relocating
+Identifier to access field/array: ['ShardRoutingState', 'RELOCATING']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: writeUpdateFiltersMessage
+Parameters of the function: ['filters']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getRunnerTypeForTask
+Parameters of the function: ['task']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDistanceSquared
+Parameters of the function: ['a', 'b']
+Variable declaration: ['dx', 'dy']
+Identifier to access field/array: ['a', 'x', 'b', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: left
+Identifier to access field/array: ['Align', 'right']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isAvailable
+Identifier to access field/array: ['pid']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: create
+Identifier to access field/array: ['SimpMessageType', 'MESSAGE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clear
+Method Invocation: ['EnumSet', 'noneOf']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasScript
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setVerbosity
+Parameters of the function: ['verbosity']
+Identifier to access field/array: ['currentVerbosity']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: allowsTraverseAllRelTypes
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ofNullable
+Parameters of the function: ['supplier']
+Method Arguments: ['supplier']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: get
+Identifier to be returned: ['responseMap']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: nested
+Parameters of the function: ['name', 'path']
+Method Arguments: ['name', 'path']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: completed
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: tick
+Parameters of the function: ['delay', 'unit']
+Method Invocation: ['unit', 'toNanos']
+Method Arguments: ['delay']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDistanceSquared
+Parameters of the function: ['a', 'b']
+Variable declaration: ['dx', 'dy']
+Identifier to access field/array: ['a', 'x', 'b', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: first
+Identifier to access field/array: ['items']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: segments
+Parameters of the function: ['iterable']
+Method Arguments: ['iterable']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getAllowCredentials
+Identifier to access field/array: ['allowCredentials']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPrecision
+Parameters of the function: ['precision']
+Identifier to access field/array: ['precision']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: allowPartialSearchResults
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: notifyMusicDisposed
+Parameters of the function: ['music']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasChannel
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: numSlots
+Parameters of the function: ['level']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setMaxCheckCount
+Parameters of the function: ['maxCheckCount']
+Identifier to access field/array: ['maxCheckCount']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createStaxResult
+Parameters of the function: ['eventWriter']
+Method Arguments: ['eventWriter']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+Identifier to be returned: ['indexStorage']
+Method Invocation: ['Objects', 'requireNonNull']
+Method Arguments: ['directoryFactory', 'fileSystem', 'indexRootFolder']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: segment
+Parameters of the function: ['index']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fillRect
+Parameters of the function: ['pixmap', 'x', 'y', 'width', 'height', 'color']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setAutoCommit
+Parameters of the function: ['autoCommit']
+Identifier to access field/array: ['autoCommit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newValueEncodedSizeCalculator
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPattern
+Parameters of the function: ['pattern']
+Identifier to access field/array: ['pattern']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isFunctionSyntax
+Parameters of the function: ['syntax']
+Identifier to access field/array: ['SqlSyntax', 'PREFIX', 'BINARY', 'POSTFIX']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setEagerFilterInit
+Parameters of the function: ['eagerFilterInit']
+Identifier to access field/array: ['eagerFilterInit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: rotate
+Parameters of the function: ['rotation']
+Variable declaration: ['x', 'y', 'z', 'w', 'xx', 'xy', 'xz', 'xw', 'yy', 'yz', 'yw', 'zz', 'zw', 'r00', 'r01', 'r02', 'r10', 'r11', 'r12', 'r20', 'r21', 'r22', 'm00', 'm01', 'm02', 'm10', 'm11', 'm12', 'm20', 'm21', 'm22', 'm30', 'm31', 'm32']
+Identifier to access field/array: ['rotation', 'x', 'y', 'z', 'w', 'val', 'M00', 'M01', 'M02', 'M10', 'M11', 'M12', 'M20', 'M21', 'M22', 'M30', 'M31', 'M32']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: debug
+Parameters of the function: ['tag', 'message']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stats
+Parameters of the function: ['statsGroups']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: filter
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newDoubleBuffer
+Parameters of the function: ['array']
+Method Arguments: ['array']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: finishCreateTable
+Parameters of the function: ['session', 'tableHandle', 'fragments', 'computedStatistics']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: pins
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getFrameMemoryAllocator
+Identifier to be returned: ['frameMemoryAllocator']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: size
+Identifier to access field/array: ['alreadyBufferedSize', 'index']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: indexedShapeIndex
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setChronology
+Parameters of the function: ['chronology']
+Identifier to access field/array: ['chronology']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: buildResponse
+Parameters of the function: ['response']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getAopProxyFactory
+Identifier to access field/array: ['aopProxyFactory']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: countOccurrences
+Parameters of the function: ['string', 'substring']
+Identifier to be returned: ['count']
+Method Invocation: ['string', 'indexOf']
+Method Arguments: ['substring']
+Variable declaration: ['count', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setSchemas
+Variable declaration: ['schemaResources']
+Identifier to access field/array: ['schemaResources']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isHigherThan
+Parameters of the function: ['other']
+Identifier to access field/array: ['other', 'rank']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: xScale
+Parameters of the function: ['matrix']
+Method Invocation: ['matrix', 'getValues', 'Math', 'sqrt']
+Method Arguments: ['values']
+Variable declaration: ['values']
+Identifier to access field/array: ['values']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: computeIntSize
+Parameters of the function: ['val']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: prefSize
+Parameters of the function: ['width', 'height']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: format
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getType
+Identifier to access field/array: ['EmbeddedDatabaseType', 'H2', 'DERBY', 'HSQL']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPosition
+Parameters of the function: ['position']
+Identifier to access field/array: ['position']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isWildcardWithoutBounds
+Method Invocation: ['wildcardType', 'getLowerBounds', 'getUpperBounds']
+Variable declaration: ['upperBounds']
+Identifier to access field/array: ['type', 'length', 'upperBounds']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getMimeMessageHelper
+Identifier to access field/array: ['helper']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getOnfocus
+Identifier to access field/array: ['onfocus']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: afterInvocation
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setServlet
+Parameters of the function: ['servlet']
+Method Invocation: ['Assert', 'notNull']
+Method Arguments: ['servlet']
+Identifier to access field/array: ['servlet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setUriTemplate
+Parameters of the function: ['uriTemplate']
+Identifier to access field/array: ['uriTemplate']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: generateSalt
+Parameters of the function: ['length']
+Identifier to be returned: ['salt']
+Method Invocation: ['SECURE_RANDOM', 'nextBytes']
+Method Arguments: ['salt']
+Variable declaration: ['salt']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: conjugate
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasBlah
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setWindowedMode
+Parameters of the function: ['width', 'height']
+Identifier to access field/array: ['windowWidth', 'windowHeight']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setFloat
+Parameters of the function: ['index', 'value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: indexTranslogOperations
+Parameters of the function: ['operations', 'totalTranslogOps', 'maxSeenAutoIdTimestampOnPrimary', 'maxSeqNoOfUpdatesOrDeletesOnPrimary', 'retentionLeases', 'mappingVersionOnPrimary', 'listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: usingApiKeyId
+Parameters of the function: ['id', 'ownedByAuthenticatedUser']
+Method Arguments: ['ownedByAuthenticatedUser']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: wrap
+Parameters of the function: ['message']
+Method Arguments: ['message']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setWaitForCompletionTimeout
+Parameters of the function: ['timeValue']
+Identifier to access field/array: ['waitForCompletionTimeout']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ofLongBoolean
+Parameters of the function: ['value']
+Identifier to access field/array: ['LongExprEval', 'TRUE', 'FALSE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isIgnoreNestedPath
+Identifier to access field/array: ['ignoreNestedPath']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addBefore
+Parameters of the function: ['baseName', 'name', 'handler']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: encodeBase64String
+Parameters of the function: ['input']
+Method Invocation: ['BASE64_ENCODER', 'encodeToString']
+Method Arguments: ['input']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: customize
+Parameters of the function: ['configurer']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getRequiredType
+Identifier to access field/array: ['requiredType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setUserData
+Parameters of the function: ['userData']
+Identifier to access field/array: ['userData']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setWarmStarting
+Parameters of the function: ['flag']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDirectPaths
+Parameters of the function: ['mapping']
+Method Invocation: ['Collections', 'emptySet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getAvgIndexPrimaryShards
+Identifier to access field/array: ['indices', 'primaries']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: usingApiKeyName
+Parameters of the function: ['name', 'ownedByAuthenticatedUser']
+Method Arguments: ['name', 'ownedByAuthenticatedUser']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: truncate
+Parameters of the function: ['newSize']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTotalTimeNanos
+Identifier to access field/array: ['totalTimeNanos']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setInstance
+Parameters of the function: ['instance']
+Identifier to access field/array: ['Restarter', 'instance']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: removeFrameTail
+Parameters of the function: ['msg']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPrefix
+Parameters of the function: ['prefix']
+Identifier to access field/array: ['prefix']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setWaitForJobsToCompleteOnShutdown
+Parameters of the function: ['waitForJobsToCompleteOnShutdown']
+Identifier to access field/array: ['waitForJobsToCompleteOnShutdown']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getInitialProgressFromResponse
+Parameters of the function: ['response', 'progressListener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getScheduler
+Identifier to access field/array: ['scheduler']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getBaseCell
+Parameters of the function: ['face', 'coord']
+Identifier to access field/array: ['faceIjkBaseCells', 'face', 'coord', 'i', 'j', 'k', 'baseCell']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTimeToLive
+Identifier to access field/array: ['timeToLive']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getLockId
+Parameters of the function: ['entryId', 'lock']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDefaultVerificationMode
+Parameters of the function: ['defaultVerificationMode']
+Identifier to access field/array: ['defaultVerificationMode']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: charAt
+Parameters of the function: ['index']
+Method Arguments: ['index']
+Identifier to access field/array: ['chars', 'index']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isNoneOf
+Method Invocation: ['Arrays', 'stream', 'noneMatch']
+Method Arguments: ['candidates']
+Variable declaration: ['candidates']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addTimeout
+Parameters of the function: ['timeout']
+Identifier to access field/array: ['timeout', 'bucket', 'tail', 'next', 'prev']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: width
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: quoteFieldSuffix
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newLocalScope
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPointcut
+Parameters of the function: ['pointcut']
+Identifier to access field/array: ['pointcut', 'Pointcut', 'TRUE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: size2SizeIdx
+Parameters of the function: ['size']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getSomeFloatColumn
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cap
+Parameters of the function: ['n']
+Method Invocation: ['Math', 'min']
+Method Arguments: ['n']
+Identifier to access field/array: ['RandomAccessDataFile', 'length', 'position']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getVertexAttribo
+Parameters of the function: ['index', 'pname']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addLight
+Parameters of the function: ['dir']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: uniformX
+Identifier to access field/array: ['Boolean', 'TRUE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resetPackageOnlyFields
+Identifier to access field/array: ['description', 'inferenceConfigSource', 'metadata', 'modelType', 'tags', 'prefixStrings']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: point
+Parameters of the function: ['lat', 'lon']
+Method Arguments: ['lat', 'lon']
+Identifier to access field/array: ['center']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDescription
+Parameters of the function: ['description']
+Identifier to access field/array: ['description']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: readShardResult
+Parameters of the function: ['in']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: totalBuckets
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPaddingLeft
+Parameters of the function: ['paddingLeft']
+Identifier to access field/array: ['paddingLeft']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: get
+Parameters of the function: ['path']
+Method Arguments: ['path']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setLookupPathAttributeName
+Parameters of the function: ['name']
+Identifier to access field/array: ['lookupPathAttributeName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ceil
+Parameters of the function: ['dividend', 'divisor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: previous
+Identifier to be returned: ['payload']
+Variable declaration: ['payload']
+Identifier to access field/array: ['iter', 'payload', 'prev']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: doesNotContainCookie
+Parameters of the function: ['name']
+Method Invocation: ['doesNotContainKey']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setMinEvictableIdleTimeMillis
+Parameters of the function: ['minEvictableIdleTimeMillis']
+Identifier to access field/array: ['minEvictableIdleTimeMillis']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getViewName
+Identifier to access field/array: ['view']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getBufferSize
+Identifier to be returned: ['size']
+Method Invocation: ['buffer', 'remaining']
+Variable declaration: ['size']
+Identifier to access field/array: ['chunks']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isValidIPv6Address
+Parameters of the function: ['addressString']
+Method Invocation: ['isIPv6']
+Method Arguments: ['addressString', 'IPV6_ADDRESS_PARAMS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: unit
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: set
+Parameters of the function: ['x', 'y', 'radius']
+Identifier to access field/array: ['x', 'y', 'radius']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: get
+Parameters of the function: ['index']
+Identifier to access field/array: ['attributeMethods', 'index']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setRollbackOnly
+Identifier to access field/array: ['rollbackOnly']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: downloadModelTaskDescription
+Parameters of the function: ['modelId']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getWorkerRunningTasks
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: copyJni
+Parameters of the function: ['src', 'srcOffset', 'dst', 'dstOffset', 'numBytes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: reverse
+Parameters of the function: ['order', 'offset', 'length']
+Variable declaration: ['i', 't']
+Identifier to access field/array: ['order']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasFoo
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setHandlerExceptionResolvers
+Parameters of the function: ['exceptionResolvers']
+Identifier to access field/array: ['handlerExceptionResolvers']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getPerimeter
+Identifier to access field/array: ['upperBound', 'x', 'lowerBound', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setY
+Parameters of the function: ['y']
+Identifier to access field/array: ['y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: add
+Identifier to access field/array: ['AliasActions', 'Type', 'ADD']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setPaddingRight
+Parameters of the function: ['paddingRight']
+Identifier to access field/array: ['paddingRight']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: asciiFromTo
+Parameters of the function: ['from', 'to']
+Identifier to be returned: ['chars']
+Variable declaration: ['chars', 'i', 'from']
+Identifier to access field/array: ['chars']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addViewControllerListener
+Parameters of the function: ['listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getParent
+Identifier to access field/array: ['parent']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: makeShort
+Parameters of the function: ['first', 'second']
+Identifier to access field/array: ['PlatformDependent', 'BIG_ENDIAN_NATIVE_ORDER']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: withPageSize
+Parameters of the function: ['pageSize']
+Identifier to access field/array: ['pageSize']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getCacheKey
+Parameters of the function: ['viewName', 'locale']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: pointRemoved
+Parameters of the function: ['status', 'points', 'removed', 'error', 'previous', 'next']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: create
+Parameters of the function: ['method', 'url']
+Method Arguments: ['method', 'url']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getJndiTemplate
+Identifier to access field/array: ['jndiTemplate']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: lowerCaseName
+Parameters of the function: ['name']
+Method Invocation: ['name', 'toLowerCase']
+Identifier to access field/array: ['Locale', 'US']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: gapPolicy
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setBoost
+Parameters of the function: ['boost']
+Identifier to access field/array: ['boost']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: maxConcurrentSearchRequests
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: aggCardinalityUpperBound
+Parameters of the function: ['name']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getSparseStorageSize
+Parameters of the function: ['nonEmptyBuckets']
+Identifier to access field/array: ['Integer', 'BYTES', 'Long']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getId
+Parameters of the function: ['entity']
+Method Invocation: ['getPersistenceUnitUtil', 'getIdentifier']
+Method Arguments: ['entity']
+Identifier to access field/array: ['entityManagerFactory']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setSchemaName
+Parameters of the function: ['schemaName']
+Identifier to access field/array: ['schemaName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasTombstone
+Parameters of the function: ['firstKeySizeByte']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setToScaling
+Parameters of the function: ['scaleX', 'scaleY']
+Variable declaration: ['val']
+Identifier to access field/array: ['val', 'M00', 'M10', 'M20', 'M01', 'M11', 'M21', 'M02', 'M12', 'M22']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: paddingBytes
+Parameters of the function: ['padding']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: updateTags
+Parameters of the function: ['remote']
+Method Invocation: ['runCommand', 'Objects', 'requireNonNull']
+Method Arguments: ['remote']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setTextFieldListener
+Parameters of the function: ['listener']
+Identifier to access field/array: ['listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: publish
+Parameters of the function: ['result']
+Method Invocation: ['runner', 'getClass', 'getDeclaredMethod', 'method', 'setAccessible', 'invoke']
+Method Arguments: ['runner', 'result']
+Variable declaration: ['runner', 'method']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: numBytes
+Parameters of the function: ['bitsPerValue']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getVersion
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: declaringClassOf
+Parameters of the function: ['typeVariable']
+Method Invocation: ['typeVariable', 'getGenericDeclaration']
+Variable declaration: ['genericDeclaration']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isTcpFastOpen
+Identifier to be returned: ['enableTcpFastOpen']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: char64
+Parameters of the function: ['x']
+Identifier to access field/array: ['index_64', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: internalReceive
+Parameters of the function: ['events']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setGroup
+Parameters of the function: ['group']
+Identifier to access field/array: ['group']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: makeConnectionStateListener
+Parameters of the function: ['emitter']
+Method Arguments: ['emitter']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: position
+Parameters of the function: ['level', 'offset']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isTransient
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setCharset
+Parameters of the function: ['charset']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toAnsi
+Parameters of the function: ['red', 'green', 'blue']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setButton
+Parameters of the function: ['button']
+Identifier to access field/array: ['button']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fieldValueFactorCompatibleField
+Method Invocation: ['randomFrom']
+Method Arguments: ['INT_FIELD_NAME', 'DOUBLE_FIELD_NAME', 'DATE_FIELD_NAME']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getBody
+Identifier to access field/array: ['body']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: center
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createSubfieldColumnHandle
+Parameters of the function: ['baseColumnHandle', 'subfield', 'subfieldDataType', 'subfieldColumnName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: comparable
+Method Invocation: ['Comparator', 'naturalOrder']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: completed
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: randomPrecision
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setRotation
+Parameters of the function: ['rotation']
+Identifier to access field/array: ['rotation']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: overlaps
+Parameters of the function: ['r']
+Identifier to access field/array: ['r', 'x', 'width', 'y', 'height']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setFlipVertically
+Parameters of the function: ['flipVertically']
+Identifier to access field/array: ['flipVertically']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: set
+Parameters of the function: ['idx', 'x', 'y', 'width', 'height', 'color']
+Variable declaration: ['fx2', 'fy2', 'vertices']
+Identifier to access field/array: ['vertices', 'idx']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: rotate90
+Parameters of the function: ['clockwise']
+Variable declaration: ['vertices', 'temp']
+Identifier to access field/array: ['vertices', 'V1', 'V4', 'V3', 'V2', 'U1', 'U4', 'U3', 'U2']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getSort
+Identifier to access field/array: ['sort']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ofCustom
+Parameters of the function: ['name']
+Method Invocation: ['Assert', 'hasText']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: randomString
+Parameters of the function: ['length']
+Method Invocation: ['RandomStringUtils', 'random', 'replace']
+Method Arguments: ['length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setAlignment
+Parameters of the function: ['alignment']
+Identifier to access field/array: ['alignment']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: index
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getProgramParameterb
+Parameters of the function: ['program', 'pname']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clear
+Identifier to access field/array: ['hpackHeaderFields', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: removeLight
+Parameters of the function: ['point']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: copyJni
+Parameters of the function: ['src', 'srcOffset', 'dst', 'dstOffset', 'numBytes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setStopWatcherOnRestart
+Parameters of the function: ['stopWatcherOnRestart']
+Identifier to access field/array: ['stopWatcherOnRestart']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: writeInternal
+Parameters of the function: ['object', 'serializer', 'format', 'outputMessage']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getOldest
+Identifier to access field/array: ['values', 'length', 'last_value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getConcurrency
+Identifier to access field/array: ['concurrency']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: snappyEncoderWithJumboFrames
+Method Arguments: ['SNAPPY_SLICE_JUMBO_SIZE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: buildPainlessFieldKey
+Parameters of the function: ['fieldName']
+Identifier to be returned: ['fieldName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasIsValid
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setContinuousPhysics
+Parameters of the function: ['flag']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isConscrypt
+Parameters of the function: ['trustManager']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: buffer
+Parameters of the function: ['i']
+Variable declaration: ['b']
+Identifier to access field/array: ['buffers', 'i', 'buf']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getOrigin
+Identifier to access field/array: ['origin']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: objectSummaryIterator
+Parameters of the function: ['s3Client', 'prefixes', 'maxListingLength', 'maxRetries']
+Method Arguments: ['s3Client', 'prefixes', 'maxListingLength', 'maxRetries']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toUnmodifiableSortedMap
+Parameters of the function: ['keyMapper', 'valueMapper']
+Method Invocation: ['Collectors', 'collectingAndThen', 'toMap']
+Method Arguments: ['keyMapper', 'valueMapper']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setLeftWidth
+Parameters of the function: ['leftWidth']
+Identifier to access field/array: ['leftWidth']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: equals
+Parameters of the function: ['object']
+Variable declaration: ['array', 'n', 'size', 'items1', 'items2', 'i']
+Identifier to access field/array: ['array', 'ordered', 'size', 'items', 'items1', 'i', 'items2']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setFuzzyMaxExpansions
+Parameters of the function: ['fuzzyMaxExpansions']
+Identifier to access field/array: ['fuzzyMaxExpansions']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setUserData
+Parameters of the function: ['data']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isBaseCellPolarPentagon
+Parameters of the function: ['baseCell']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+Identifier to access field/array: ['route', 'routeVariables', 'metadataHelper', 'payloadValue', 'payload', 'payloadElementType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getLocale
+Identifier to access field/array: ['locale']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: forClient
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: encode
+Parameters of the function: ['ctx', 'msg', 'out']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getSortDefinition
+Identifier to access field/array: ['sortDefinition']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: set
+Parameters of the function: ['headerByte', 'bitMask', 'value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setWidth
+Parameters of the function: ['width']
+Identifier to access field/array: ['width']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: initXAResource
+Parameters of the function: ['xaResource']
+Method Arguments: ['xaResource']
+Identifier to access field/array: ['transactionDelegate']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toHexCharArray
+Parameters of the function: ['bytes']
+Identifier to be returned: ['result']
+Method Invocation: ['Objects', 'requireNonNull']
+Method Arguments: ['bytes']
+Variable declaration: ['result', 'i', 'b']
+Identifier to access field/array: ['bytes', 'length', 'i', 'result', 'HEX_DIGITS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setY
+Parameters of the function: ['y']
+Identifier to access field/array: ['y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: width
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: customize
+Parameters of the function: ['populator']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: metrics
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toUint16
+Parameters of the function: ['num']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getListener
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: limitMaxRelationShipsToTraverse
+Parameters of the function: ['maxRelationShipsToTraverse']
+Identifier to access field/array: ['maxRelationShipsToTraverse']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: splitRatio
+Parameters of the function: ['flags']
+Identifier to be returned: ['DEFAULT_SPLIT_RATIO']
+Identifier to access field/array: ['DataTree', 'W_SPLIT_KEEP_ALL_LEFT', 'W_SPLIT_KEEP_ALL_RIGHT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: usingRealmAndUserName
+Parameters of the function: ['realmName', 'userName']
+Method Arguments: ['realmName', 'userName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isValidLongitude
+Parameters of the function: ['longitude']
+Method Invocation: ['Double', 'isNaN', 'isInfinite']
+Method Arguments: ['longitude']
+Identifier to access field/array: ['GeoUtils', 'MIN_LON', 'MAX_LON']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getShort
+Parameters of the function: ['offset']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getRowHeight
+Parameters of the function: ['rowIndex']
+Identifier to access field/array: ['rowHeight', 'rowIndex']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: zOrderByteAddressToLong
+Parameters of the function: ['byteAddress']
+Identifier to be returned: ['address']
+Method Invocation: ['Byte', 'toUnsignedLong']
+Variable declaration: ['address', 'byteIndex']
+Identifier to access field/array: ['byteAddress', 'length', 'byteIndex']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: incrementEvaluationCount
+Method Invocation: ['incrementAndGet']
+Identifier to access field/array: ['evaluationCount']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+Parameters of the function: ['context', 'parent']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: handleResponse
+Parameters of the function: ['response', 'trafficCop']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setSuffix
+Parameters of the function: ['suffix']
+Identifier to access field/array: ['suffix']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: lowestIndex
+Identifier to be returned: ['index']
+Method Invocation: ['candidate', 'ordinal', 'visibility']
+Variable declaration: ['candidates', 'visibility', 'PUBLIC', 'index', 'i', 'candidate']
+Identifier to access field/array: ['candidates', 'length', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: padRight
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setUrlPatterns
+Parameters of the function: ['urlPatterns']
+Method Invocation: ['Assert', 'notNull']
+Method Arguments: ['urlPatterns']
+Identifier to access field/array: ['urlPatterns']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setSchema
+Parameters of the function: ['schemaResource']
+Identifier to access field/array: ['schemaResources']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setOriginX
+Parameters of the function: ['x']
+Identifier to access field/array: ['originX']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getReason
+Identifier to access field/array: ['reason']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: maxOutputBufferLength
+Parameters of the function: ['inputLength']
+Variable declaration: ['factor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: drawString
+Parameters of the function: ['x', 'y', 's', 'color']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: pad
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getContentCodings
+Method Invocation: ['Collections', 'unmodifiableList']
+Identifier to access field/array: ['contentCodings']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getIgnoredFieldValues
+Method Invocation: ['Collections', 'unmodifiableCollection']
+Method Arguments: ['ignoredFieldValues']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getWorkerAssignedTasks
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resolve
+Parameters of the function: ['type']
+Identifier to be returned: ['MISSING']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getNoRefresh
+Identifier to be returned: ['cached']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDouble
+Parameters of the function: ['index', 'value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getOutputStream
+Method Invocation: ['Files', 'newOutputStream']
+Identifier to access field/array: ['filePath']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getOptions
+Identifier to access field/array: ['options']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: zigZagEncode
+Parameters of the function: ['n']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onUrlClicked
+Parameters of the function: ['url']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setRequireDataStream
+Parameters of the function: ['requireDataStream']
+Identifier to access field/array: ['requireDataStream']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onNodeConnected
+Parameters of the function: ['node', 'connection']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: containsValue
+Parameters of the function: ['value']
+Variable declaration: ['keyTable', 'valueTable', 'i']
+Identifier to access field/array: ['keyTable', 'valueTable', 'length', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: mul
+Parameters of the function: ['mat']
+Variable declaration: ['x', 'y']
+Identifier to access field/array: ['x', 'mat', 'val', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: id
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getStepArgument
+Parameters of the function: ['index']
+Identifier to access field/array: ['typePathContainer']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setBackBufferConfig
+Parameters of the function: ['r', 'g', 'b', 'a', 'depth', 'stencil', 'samples']
+Identifier to access field/array: ['r', 'g', 'b', 'a', 'depth', 'stencil', 'samples']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onUnknownFrame
+Parameters of the function: ['ctx', 'frameType', 'streamId', 'flags', 'payload']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setRotation
+Parameters of the function: ['rotation']
+Identifier to access field/array: ['rotation']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: parse
+Parameters of the function: ['bytes']
+Method Arguments: ['bytes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: mul
+Parameters of the function: ['x', 'y', 'z', 'w']
+Variable declaration: ['newX', 'newY', 'newZ', 'newW']
+Identifier to access field/array: ['w', 'x', 'y', 'z']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createProxy
+Parameters of the function: ['aabb', 'userData']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createDatabaseTracer
+Parameters of the function: ['pageCacheTracer', 'clock']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: findLatestCheckpoint
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resize
+Parameters of the function: ['width', 'height']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: timeZone
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: log
+Parameters of the function: ['value']
+Method Invocation: ['Double', 'doubleToRawLongBits']
+Method Arguments: ['value']
+Variable declaration: ['h', 'z', 'z2', 'valueBitsHi', 'valueExp', 'xIndex']
+Identifier to access field/array: ['Double', 'POSITIVE_INFINITY', 'twoPowTab', 'logXInvTab', 'xIndex', 'logXLogTab', 'NEGATIVE_INFINITY', 'NaN']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: H3_get_high_bit
+Parameters of the function: ['h3']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getBarBytes
+Identifier to be returned: ['b']
+Method Invocation: ['copyFromUtf8']
+Variable declaration: ['ref', 'bar_', 'b']
+Identifier to access field/array: ['com', 'google', 'protobuf', 'ByteString']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getSouthPolarBound
+Parameters of the function: ['resolution']
+Identifier to access field/array: ['SOUTH_BOUND', 'resolution']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isEndOfStream
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getYear
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: configureDefaultServletHandling
+Parameters of the function: ['configurer']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toString
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: minimumShouldMatch
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: geoDistance
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newMemoryBasicInformation
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isCollinear
+Parameters of the function: ['other']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createInstance
+Parameters of the function: ['connection', 'logService']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newChild
+Variable declaration: ['args']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setUri
+Parameters of the function: ['uri']
+Identifier to access field/array: ['uri']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toRubyObject
+Parameters of the function: ['javaObject']
+Method Invocation: ['JavaUtil', 'convertJavaToRuby']
+Method Arguments: ['RUBY', 'javaObject']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: wAvg
+Parameters of the function: ['first', 'second', 'weight']
+Variable declaration: ['width']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setOrder
+Parameters of the function: ['order']
+Identifier to access field/array: ['order']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stop
+Method Invocation: ['running', 'compareAndSet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setOrder
+Parameters of the function: ['order']
+Identifier to access field/array: ['order']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: set
+Parameters of the function: ['x', 'y', 'z']
+Identifier to access field/array: ['x', 'y', 'z']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fromJson
+Parameters of the function: ['node']
+Method Arguments: ['node']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: forMethod
+Parameters of the function: ['methodName']
+Method Arguments: ['methodName', 'parameterTypes']
+Variable declaration: ['parameterTypes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getAspectInstanceFactory
+Identifier to access field/array: ['aspectInstanceFactory']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getResultOrdering
+Method Invocation: ['Ordering', 'natural', 'retVal', 'reverse']
+Variable declaration: ['retVal']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: doesTaskTypeMatchSupervisor
+Parameters of the function: ['task']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setX
+Parameters of the function: ['x']
+Identifier to access field/array: ['x']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: configureServer
+Parameters of the function: ['bootstrap']
+Method Invocation: ['bootstrap', 'option']
+Method Arguments: ['TRUE']
+Identifier to access field/array: ['ChannelOption', 'SO_REUSEADDR']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setLayers
+Parameters of the function: ['layers']
+Method Invocation: ['Assert', 'notNull']
+Method Arguments: ['layers']
+Identifier to access field/array: ['layers', 'layersIndex']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cpy
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: serializeKeyCollector
+Parameters of the function: ['collectorSnapshot']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: boost
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: columnLeft
+Identifier to access field/array: ['Align', 'left', 'right']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setCorePoolSize
+Parameters of the function: ['corePoolSize']
+Identifier to access field/array: ['corePoolSize']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setVersionType
+Parameters of the function: ['versionType']
+Identifier to access field/array: ['versionType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: putByte
+Parameters of the function: ['offset', 'value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: geoHashCellHeight
+Parameters of the function: ['level']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: copy
+Parameters of the function: ['h']
+Method Invocation: ['System', 'arraycopy']
+Identifier to access field/array: ['h', 'size', 'positions', 'bins', 'binCount', 'min', 'max', 'count']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ofType
+Parameters of the function: ['type']
+Method Arguments: ['type', 'annotationStrategy']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setKeyTypeName
+Parameters of the function: ['keyTypeName']
+Identifier to access field/array: ['keyTypeName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onListShards
+Parameters of the function: ['shards', 'skippedShards', 'clusters', 'fetchPhase', 'timeProvider']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testInternalHttpRequest
+Method Invocation: ['ArgumentCaptor', 'forClass', 'getHttpMethods', 'performRandomRequest', 'verify', 'times', 'execute', 'requestArgumentCaptor', 'capture', 'any', 'nullable', 'getValue', 'generateRequest', 'assertEquals', 'expectedRequest', 'getURI', 'actualRequest', 'getClass', 'assertArrayEquals', 'getAllHeaders', 'getEntity', 'EntityUtils', 'toString']
+Method Arguments: ['httpMethod', 'httpClient', 'expectedEntity', 'actualEntity']
+Variable declaration: ['requestArgumentCaptor', 'times', 'expectedRequest', 'actualRequest', 'expectedEntity', 'actualEntity']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onDefinitiveFailure
+Parameters of the function: ['e']
+Method Invocation: ['trackFailure', 'responseListener', 'onFailure']
+Method Arguments: ['e']
+Identifier to access field/array: ['exception']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: trackFailure
+Parameters of the function: ['e']
+Method Invocation: ['addSuppressedException']
+Method Arguments: ['e']
+Identifier to access field/array: ['exception']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: restClientSettings
+Method Invocation: ['basicAuthHeaderValue', 'toCharArray', 'Settings', 'builder', 'put', 'build']
+Method Arguments: ['token']
+Variable declaration: ['token']
+Identifier to access field/array: ['ThreadContext', 'PREFIX']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: run
+Parameters of the function: ['script']
+Method Invocation: ['runScript', 'getScriptCommand']
+Method Arguments: ['script']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: runContainer
+Parameters of the function: ['distribution']
+Method Invocation: ['DockerRun', 'builder']
+Method Arguments: ['distribution']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: runContainer
+Parameters of the function: ['distribution', 'builder']
+Method Invocation: ['executeDockerRun', 'waitForElasticsearchToStart', 'Installation', 'ofContainer']
+Method Arguments: ['distribution', 'builder', 'dockerShell']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createParameters
+Parameters of the function: ['executeableSectionRegistry']
+Method Arguments: ['executeableSectionRegistry']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: startInitializingShardsAndReroute
+Parameters of the function: ['allocationService', 'clusterState', 'routingNode']
+Method Invocation: ['startShardsAndReroute', 'routingNode', 'shardsWithState', 'toList']
+Method Arguments: ['allocationService', 'clusterState', 'INITIALIZING']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: connectToNode
+Parameters of the function: ['service', 'node']
+Method Arguments: ['service', 'node']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stopRandomDataNode
+Method Invocation: ['ensureOpen', 'getRandomNodeAndClient', 'logger', 'info', 'stopNodesAndClient']
+Method Arguments: ['DATA_NODE_PREDICATE', 'nodeAndClient']
+Variable declaration: ['nodeAndClient']
+Identifier to access field/array: ['nodeAndClient', 'name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setupTransportServiceWithThreadpoolExecutor
+Method Invocation: ['setMockReturns', 'mock']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: rewriteQuery
+Parameters of the function: ['queryBuilder', 'shardRewriteContext']
+Identifier to be returned: ['rewritten']
+Method Invocation: ['rewriteAndFetch', 'assertSerialization']
+Method Arguments: ['queryBuilder', 'shardRewriteContext', 'rewritten']
+Variable declaration: ['rewritten']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: assertBusy
+Parameters of the function: ['codeBlock']
+Method Arguments: ['codeBlock']
+Identifier to access field/array: ['TimeUnit', 'SECONDS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getPortRange
+Method Invocation: ['getWorkerBasePort']
+Variable declaration: ['firstPort', 'lastPort']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: secureRandomFips
+Method Invocation: ['randomByteArrayOfLength']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createIndex
+Parameters of the function: ['index']
+Method Arguments: ['index']
+Identifier to access field/array: ['Settings', 'EMPTY']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addUnresponsiveRule
+Parameters of the function: ['transportService', 'duration']
+Method Invocation: ['extractTransportAddresses']
+Method Arguments: ['transportService', 'transportAddress', 'duration']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ensureHealthy
+Parameters of the function: ['testCluster']
+Method Invocation: ['ensureNodeCount', 'ensureFullyConnectedCluster']
+Method Arguments: ['testCluster']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: waitForPendingTasks
+Parameters of the function: ['restClient']
+Method Arguments: ['restClient']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resetFeatureStates
+Method Invocation: ['clusterHasFeature', 'isMlEnabled']
+Identifier to access field/array: ['RestTestLegacyFeatures', 'FEATURE_STATE_RESET_SUPPORTED', 'ML_STATE_RESET_FALLBACK_ON_DISABLED']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: restAdminSettings
+Method Invocation: ['restClientSettings']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: updateClusterSettings
+Parameters of the function: ['settings']
+Method Invocation: ['client']
+Method Arguments: ['settings']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: dispatchRequest
+Parameters of the function: ['request']
+Method Invocation: ['verifyingClient', 'threadPool', 'getThreadContext', 'threadContext', 'stashContext', 'controller', 'Releasables', 'close', 'channel', 'capturedResponse']
+Method Arguments: ['request', 'channel', 'threadContext']
+Variable declaration: ['channel', 'threadContext']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: lookupBinary
+Parameters of the function: ['classA', 'classB', 'name']
+Identifier to be returned: ['handle']
+Method Invocation: ['TYPE_OP_MAPPING', 'get', 'promote', 'unbox']
+Method Arguments: ['classA', 'classB', 'name']
+Variable declaration: ['handle']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: lookupIndexNormalize
+Parameters of the function: ['receiverClass']
+Identifier to be returned: ['MAP_INDEX_NORMALIZE', 'LIST_INDEX_NORMALIZE']
+Method Invocation: ['receiverClass', 'isArray', 'ArrayIndexNormalizeHelper', 'arrayIndexNormalizer', 'isAssignableFrom', 'getCanonicalName']
+Method Arguments: ['receiverClass']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: findResult
+Parameters of the function: ['receiver', 'function']
+Method Arguments: ['receiver', 'function']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkedVisit
+Parameters of the function: ['userExpressionNode', 'semanticScope']
+Method Invocation: ['userExpressionNode', 'visit', 'semanticScope', 'hasDecoration', 'createError', 'getDecoration', 'partialCanonicalTypeName', 'getStaticCanonicalTypeName']
+Method Arguments: ['semanticScope', 'userExpressionNode']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addAdditionalField
+Parameters of the function: ['additionalFields', 'property', 'value']
+Method Invocation: ['properties', 'contains', 'Strings', 'hasLength', 'additionalFields', 'put', 'property', 'toLowerCase']
+Method Arguments: ['property', 'value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ignoreUnmapped
+Method Invocation: ['innerHitBuilder', 'setIgnoreUnmapped']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testDecodeEncode
+Method Invocation: ['randomValueOtherThanMany', 'Double', 'isInfinite', 'randomLongBetween', 'assertThat', 'ScaledFloatFieldMapper', 'encode', 'decodeForSyntheticSource', 'equalTo']
+Method Arguments: ['encoded', 'scalingFactor']
+Variable declaration: ['scalingFactor', 'encoded']
+Identifier to access field/array: ['Long', 'MAX_VALUE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stop
+Method Invocation: ['logger', 'lifecycle', 'instance']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: deleteWithRetry
+Parameters of the function: ['path']
+Method Invocation: ['deleteWithRetry0']
+Method Arguments: ['path', 'x']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: syncWithLinks
+Parameters of the function: ['sourceRoot', 'destinationRoot', 'd', 's']
+Method Invocation: ['sync', 'Files', 'createLink']
+Method Arguments: ['sourceRoot', 'destinationRoot', 'd', 's', 'e']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: registerClient
+Method Invocation: ['randomFrom', 'randomAlphaOfLength', 'Strings', 'format', 'registerClients']
+Method Arguments: ['ALLOWED_AUDIENCES', 'clientId', 'clientSecret', 'redirectUri', 'clientSetup']
+Variable declaration: ['clientSecret', 'clientSetup']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: pauseExecution
+Parameters of the function: ['reason']
+Method Invocation: ['triggerService', 'executionService', 'pause', 'logger', 'info']
+Method Arguments: ['reason', 'cancelledTaskCount']
+Variable declaration: ['cancelledTaskCount']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clearAllocationIds
+Method Invocation: ['previousShardRoutings', 'getAndSet', 'Collections', 'emptyList', 'previousIds', 'isEmpty']
+Variable declaration: ['previousIds']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: postIndex
+Parameters of the function: ['shardId', 'index', 'ex']
+Method Invocation: ['isWatchDocument', 'shardId', 'getIndexName', 'logger', 'debug', 'index', 'id']
+Method Arguments: ['ex']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: preDelete
+Parameters of the function: ['shardId', 'delete']
+Identifier to be returned: ['delete']
+Method Invocation: ['isWatchDocument', 'shardId', 'getIndexName', 'logger', 'debug', 'delete', 'id', 'triggerService', 'remove']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: filterSettableSettings
+Parameters of the function: ['settings']
+Method Invocation: ['Settings', 'builder', 'settings', 'hasValue', 'put', 'get', 'build']
+Method Arguments: ['settingName']
+Variable declaration: ['builder']
+Identifier to access field/array: ['UpdateWatcherSettingsAction', 'ALLOWED_SETTING_KEYS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: put
+Parameters of the function: ['id', 'execution']
+Method Invocation: ['lock', 'seal', 'get', 'illegalState', 'currentExecutions', 'putIfAbsent', 'unlock']
+Method Arguments: ['id', 'execution']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: pause
+Parameters of the function: ['stoppedListener']
+Method Invocation: ['paused', 'set', 'clearExecutionsAndQueue']
+Method Arguments: ['stoppedListener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clearExecutionsAndQueue
+Parameters of the function: ['stoppedListener']
+Identifier to be returned: ['cancelledTaskCount']
+Method Invocation: ['executor', 'queue', 'drainTo', 'clearExecutions']
+Method Arguments: ['stoppedListener']
+Variable declaration: ['cancelledTaskCount']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createTriggeredWatchesAndContext
+Parameters of the function: ['events']
+Method Invocation: ['clock', 'instant', 'atZone', 'getWatch', 'event', 'jobName', 'response', 'isExists', 'logger', 'warn', 'contexts', 'add', 'triggeredWatches', 'ctx', 'id', 'Tuple', 'tuple']
+Method Arguments: ['now', 'event', 'defaultThrottlePeriod', 'ctx', 'triggeredWatches', 'contexts']
+Variable declaration: ['triggeredWatches', 'contexts', 'now', 'response', 'ctx']
+Identifier to access field/array: ['ZoneOffset', 'UTC']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clearExecutions
+Parameters of the function: ['stoppedListener']
+Method Invocation: ['currentExecutions', 'getAndSet', 'genericExecutor', 'execute', 'currentExecutionsBeforeSetting', 'sealAndAwaitEmpty']
+Method Arguments: ['maxStopTimeout', 'stoppedListener']
+Variable declaration: ['currentExecutionsBeforeSetting']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getConcreteIndex
+Parameters of the function: ['name', 'metadata']
+Method Invocation: ['metadata', 'getIndicesLookup', 'get', 'indexAbstraction', 'getType', 'getIndices', 'size', 'getWriteIndex', 'String', 'format', 'index']
+Method Arguments: ['name', 'concreteIndex']
+Variable declaration: ['indexAbstraction', 'concreteIndex']
+Identifier to access field/array: ['IndexAbstraction', 'Type', 'ALIAS', 'Locale', 'ROOT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: check
+Parameters of the function: ['time']
+Identifier to be returned: ['prevScheduledTime']
+Method Invocation: ['schedule', 'nextScheduledTimeAfter']
+Method Arguments: ['startTime', 'time']
+Variable declaration: ['prevScheduledTime']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: removeAsType
+Parameters of the function: ['sourceMap', 'key', 'type']
+Method Invocation: ['sourceMap', 'remove', 'type', 'isAssignableFrom', 'o', 'getClass', 'invalidTypeErrorMsg', 'getSimpleName']
+Method Arguments: ['key', 'o']
+Variable declaration: ['o']
+Identifier to access field/array: ['RestStatus', 'BAD_REQUEST']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: moveModelFromTaskToServiceSettings
+Parameters of the function: ['taskSettings', 'serviceSettings']
+Method Invocation: ['serviceSettings', 'containsKey', 'taskSettings', 'remove', 'put']
+Method Arguments: ['MODEL_ID', 'OLD_MODEL_ID_FIELD', 'oldModelId', 'modelId']
+Variable declaration: ['OLD_MODEL_ID_FIELD', 'oldModelId', 'modelId']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: positionParserAtTokenAfterField
+Parameters of the function: ['parser', 'field', 'errorMsgTemplate']
+Method Invocation: ['parser', 'nextToken', 'currentName', 'equals', 'format']
+Method Arguments: ['field', 'errorMsgTemplate']
+Variable declaration: ['token']
+Identifier to access field/array: ['XContentParser', 'Token', 'FIELD_NAME']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: timeToReserve
+Parameters of the function: ['tokens']
+Method Invocation: ['timeToReserveInternal']
+Method Arguments: ['tokens']
+Variable declaration: ['timeToReserveRes']
+Identifier to access field/array: ['timeToReserveRes', 'microsToWait', 'TimeUnit', 'MICROSECONDS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: reserve
+Parameters of the function: ['tokens']
+Method Invocation: ['reserveInternal']
+Method Arguments: ['tokens']
+Identifier to access field/array: ['TimeUnit', 'MICROSECONDS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testShardStatusIsCompleteOnNonDataNodes
+Method Invocation: ['internalCluster', 'startMasterOnlyNode', 'getNodeId', 'putNodeShutdown', 'assertNodeShutdownStatus']
+Method Arguments: ['nodeToShutDownName', 'nodeToRestartId', 'COMPLETE']
+Variable declaration: ['nodeToShutDownName', 'nodeToRestartId']
+Identifier to access field/array: ['SingleNodeShutdownMetadata', 'Type', 'REMOVE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: syncRenewRetentionLease
+Parameters of the function: ['leaderShardId', 'retentionLeaseId', 'retainingSequenceNumber', 'remoteClient', 'timeout']
+Method Invocation: ['asyncRenewRetentionLease', 'response', 'actionGet', 'Optional', 'empty', 'of']
+Method Arguments: ['leaderShardId', 'retentionLeaseId', 'retainingSequenceNumber', 'remoteClient', 'response', 'timeout', 'e']
+Variable declaration: ['response']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: validateSettings
+Parameters of the function: ['leaderIndexSettings', 'followerIndexSettings']
+Method Invocation: ['filter', 'leaderSettings', 'equals', 'String', 'format']
+Method Arguments: ['leaderIndexSettings', 'followerIndexSettings', 'followerSettings', 'leaderSettings', 'message']
+Variable declaration: ['leaderSettings', 'followerSettings', 'message']
+Identifier to access field/array: ['Locale', 'ROOT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: view
+Parameters of the function: ['values']
+Identifier to be returned: ['values']
+Method Invocation: ['values', 'isEmpty', 'emptyList', 'Collections', 'reverse', 'size', 'subList', 'absLimit']
+Method Arguments: ['values', 'offset', 'total']
+Variable declaration: ['size', 'l']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasFollowingCandidates
+Parameters of the function: ['stage']
+Method Invocation: ['hasCandidates']
+Method Arguments: ['stage', 'completionStage']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: between
+Parameters of the function: ['string', 'left', 'right', 'greedy', 'caseInsensitive']
+Identifier to be returned: ['string', 'EMPTY']
+Method Invocation: ['hasLength', 'matchString', 'toLowerCase', 'left', 'right', 'indexOf', 'length', 'lastIndexOf', 'string', 'substring']
+Method Arguments: ['string', 'left', 'right', 'start', 'idx']
+Variable declaration: ['matchString', 'string', 'idx', 'start']
+Identifier to access field/array: ['Locale', 'ROOT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: markPolicyRetrievalError
+Parameters of the function: ['policyName', 'index', 'executionState', 'e']
+Method Invocation: ['logger', 'debug', 'format', 'index', 'getName', 'setStepInfo', 'Step', 'getCurrentStepKey']
+Method Arguments: ['policyName', 'e', 'index', 'executionState']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: putAsync
+Parameters of the function: ['item']
+Method Invocation: ['logger', 'trace', 'LIFECYCLE_HISTORY_INDEX_ENABLED_SETTING', 'getKey', 'XContentFactory', 'jsonBuilder', 'item', 'toXContent', 'source', 'opType', 'processor', 'add', 'error', 'format']
+Method Arguments: ['item', 'ILM_HISTORY_DATA_STREAM', 'builder', 'request', 'e']
+Variable declaration: ['request']
+Identifier to access field/array: ['ToXContent', 'EMPTY_PARAMS', 'DocWriteRequest', 'OpType', 'CREATE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: findBestJobs
+Parameters of the function: ['source', 'jobCaps']
+Identifier to be returned: ['bestCaps']
+Method Invocation: ['doFindBestJobs']
+Method Arguments: ['source', 'jobCaps', 'bestCaps']
+Variable declaration: ['bestCaps']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: freeze
+Method Invocation: ['setTime', 'instant']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: unfreeze
+Method Invocation: ['Clock', 'system', 'getZone']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fastForwardSeconds
+Parameters of the function: ['seconds']
+Method Invocation: ['fastForward', 'TimeValue', 'timeValueSeconds']
+Method Arguments: ['seconds']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: rewindSeconds
+Parameters of the function: ['seconds']
+Method Invocation: ['rewind', 'TimeValue', 'timeValueSeconds']
+Method Arguments: ['seconds']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isActive
+Method Invocation: ['checkAgainstStatus', 'statusToCheck', 'active']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkAndStartTracking
+Parameters of the function: ['state', 'contextName']
+Method Invocation: ['state', 'isAllowed', 'startTracking']
+Method Arguments: ['state', 'contextName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkWithoutTracking
+Parameters of the function: ['state']
+Method Invocation: ['state', 'isAllowed']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onCheck
+Parameters of the function: ['metCondition', 'timestamp']
+Method Invocation: ['actions', 'values', 'status', 'resetAckStatus']
+Method Arguments: ['timestamp']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createRounding
+Method Invocation: ['interval', 'toString']
+Method Arguments: ['timeZone']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isValid
+Parameters of the function: ['expression']
+Method Invocation: ['validate']
+Method Arguments: ['expression']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createResponse
+Parameters of the function: ['docId', 'headers', 'response', 'listener']
+Method Invocation: ['indexResponse']
+Method Arguments: ['docId', 'headers', 'response', 'listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getResponse
+Parameters of the function: ['asyncExecutionId', 'restoreResponseHeaders', 'listener']
+Method Invocation: ['getResponseFromIndex']
+Method Arguments: ['asyncExecutionId', 'restoreResponseHeaders', 'listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setInternalUser
+Parameters of the function: ['internalUser', 'version']
+Method Invocation: ['setAuthentication', 'Authentication', 'newInternalAuthentication']
+Method Arguments: ['internalUser', 'version', 'nodeName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: check
+Parameters of the function: ['action']
+Method Invocation: ['isMappingUpdateAction', 'group', 'checkAction', 'containsPrivilegeThatGrantsMappingUpdatesForBwc']
+Method Arguments: ['action', 'group']
+Variable declaration: ['isMappingUpdateAction']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: validateApplicationName
+Parameters of the function: ['application']
+Method Arguments: ['application']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: verifyHash
+Parameters of the function: ['data', 'hash']
+Method Invocation: ['resolveFromHash', 'hasher', 'verify']
+Method Arguments: ['hash', 'data']
+Variable declaration: ['hasher']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: writeToContext
+Parameters of the function: ['authentication', 'ctx']
+Method Invocation: ['ensureContextDoesNotContainAuthentication', 'authentication', 'encode', 'ctx', 'putTransient', 'putHeader']
+Method Arguments: ['ctx', 'contextKey', 'authentication', 'header']
+Variable declaration: ['header']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: gensalt
+Parameters of the function: ['log_rounds']
+Method Arguments: ['log_rounds']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: gensalt
+Method Arguments: ['GENSALT_DEFAULT_LOG2_ROUNDS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isAlignCheckpointsDisabled
+Parameters of the function: ['settings']
+Method Invocation: ['equals', 'settings', 'getAlignCheckpoints']
+Identifier to access field/array: ['Boolean', 'FALSE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: makeShortFieldMask
+Parameters of the function: ['rows', 'longFieldThreshold']
+Identifier to be returned: ['shortFieldMask']
+Method Invocation: ['rows', 'isEmpty', 'stream', 'map', 'max', 'get', 'shortFieldMask', 'set', 'allMatch', 'row', 'size', 'length']
+Method Arguments: ['i']
+Variable declaration: ['shortFieldMask', 'maxLength', 'index', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: levenshteinFieldwiseCompareRows
+Parameters of the function: ['firstRow', 'secondRow']
+Method Invocation: ['Math', 'max', 'firstRow', 'size', 'secondRow', 'allFields', 'set']
+Method Arguments: ['largestSize', 'firstRow', 'secondRow', 'allFields']
+Variable declaration: ['largestSize', 'allFields']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: calculateMatchWeights
+Identifier to be returned: ['weights']
+Method Invocation: ['matches', 'size', 'matchedFormats', 'get', 'canMergeWith', 'weightForMatch', 'findDifferenceBetweenTwoHighestWeights']
+Method Arguments: ['matchedFormatIndex', 'weights']
+Variable declaration: ['remainingMatches', 'weights', 'matchedFormatIndex']
+Identifier to access field/array: ['match', 'timestampFormat', 'weights', 'matchedFormatIndex', 'preface']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: canCreateFromSample
+Parameters of the function: ['explanation', 'sample', 'allowedFractionOfBadLines']
+Method Invocation: ['sample', 'indexOf', 'explanation', 'add', 'TWO_NON_BLANK_LINES_PATTERN', 'matcher', 'find']
+Method Arguments: ['sample']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: replace
+Parameters of the function: ['pattern', 'target', 'originalExpressions', 'replacer']
+Identifier to be returned: ['modified']
+Method Invocation: ['target', 'size', 'get', 't', 'anyMatch', 'replacer', 'apply', 'set', 'originalExpressions', 'replaceAll', 'semanticEquals']
+Method Arguments: ['i', 't', 's', 'replacement', 'e']
+Variable declaration: ['modified', 'i', 't', 'replacement']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: combine
+Parameters of the function: ['clause', 'queries']
+Method Invocation: ['boolQuery']
+Method Arguments: ['clause', 'firstQuery', 'bool', 'query']
+Variable declaration: ['firstQuery', 'bool']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: unsignedLongAsNumber
+Parameters of the function: ['l']
+Method Invocation: ['twosComplement', 'LONG_MAX_PLUS_ONE_AS_BIGINTEGER', 'add', 'BigInteger', 'valueOf']
+Method Arguments: ['l']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: countCoordRepeatReverse
+Parameters of the function: ['coords']
+Identifier to be returned: ['repeatCoords']
+Method Invocation: ['equalAsInts2d']
+Method Arguments: ['firstCoord', 'nextCoord']
+Variable declaration: ['repeatCoords', 'firstCoord', 'nextCoord', 'i']
+Identifier to access field/array: ['coords', 'length', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: adjustBreaker
+Parameters of the function: ['delta']
+Method Invocation: ['breaker', 'addEstimateBytesAndMaybeBreak', 'addWithoutBreaking']
+Method Arguments: ['delta']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ascending
+Parameters of the function: ['values', 'firstValue', 'count']
+Method Invocation: ['values', 'getInt', 'avgWithoutOverflow']
+Method Arguments: ['middle']
+Variable declaration: ['middle']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: roundingIsOk
+Parameters of the function: ['rounding']
+Method Invocation: ['rounding', 'prepareForUnknown', 'r', 'round', 'nextRoundingValue']
+Method Arguments: ['from', 'bucket']
+Variable declaration: ['r', 'bucket', 'used']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: evalAscendingNullable
+Parameters of the function: ['fieldVal']
+Method Invocation: ['v', 'getPositionCount', 'driverContext', 'blockFactory', 'newIntBlockBuilder', 'getValueCount', 'builder', 'appendNull', 'getFirstValueIndex', 'MvMax', 'ascendingIndex', 'getInt', 'appendInt', 'build']
+Method Arguments: ['positionCount', 'p', 'valueCount', 'result']
+Variable declaration: ['v', 'positionCount', 'p', 'valueCount', 'first', 'idx', 'result']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: scheduleSnapshotJobs
+Parameters of the function: ['state']
+Method Invocation: ['state', 'metadata', 'custom', 'snapMeta', 'getSnapshotConfigurations', 'values', 'forEach']
+Variable declaration: ['snapMeta']
+Identifier to access field/array: ['SnapshotLifecycleMetadata', 'TYPE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: randomRanges
+Parameters of the function: ['length']
+Method Invocation: ['randomLongBetween', 'Math', 'max', 'add', 'ByteRange', 'of']
+Method Arguments: ['i', 'length', 'start', 'end']
+Variable declaration: ['i', 'start', 'end']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: finish
+Parameters of the function: ['bytesRead']
+Method Invocation: ['permits', 'availablePermits', 'acquire', 'buffer', 'position']
+Identifier to access field/array: ['Integer', 'MAX_VALUE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isNodeSafeToShutdown
+Parameters of the function: ['nodeId']
+Method Invocation: ['clusterService', 'state', 'shutdownStartTimes', 'get', 'Clock', 'systemUTC']
+Method Arguments: ['nodeId']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: finishReporting
+Method Invocation: ['flush', 'logger', 'warn', 'currentTimingStats', 'getJobId', 'Thread', 'currentThread', 'interrupt']
+Identifier to access field/array: ['WriteRequest', 'RefreshPolicy', 'IMMEDIATE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: vacateNode
+Parameters of the function: ['reason']
+Method Invocation: ['isolateDatafeed', 'task', 'markAsLocallyAborted']
+Method Arguments: ['reason']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: commonPrefix
+Parameters of the function: ['inputBytes', 'offset', 'len']
+Identifier to be returned: ['vs']
+Method Invocation: ['OptionalInt', 'empty', 'offset', 'label', 'hasLeaf', 'of', 'value']
+Method Arguments: ['v']
+Variable declaration: ['pos', 'vs', 'v', 'i', 'offset', 'k']
+Identifier to access field/array: ['offsets', 'pos', 'inputBytes', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTopTransactionIds
+Method Invocation: ['getTransactions', 'size']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTopItemIds
+Method Invocation: ['getItems', 'size']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: logProbability
+Parameters of the function: ['x']
+Identifier to be returned: ['ret']
+Method Invocation: ['logBinomialProbability']
+Method Arguments: ['x', 'numberOfTrials', 'probabilityOfSuccess']
+Variable declaration: ['ret']
+Identifier to access field/array: ['Double', 'NEGATIVE_INFINITY']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: logBinomialProbability
+Parameters of the function: ['x', 'n', 'p', 'q']
+Identifier to be returned: ['ret']
+Method Invocation: ['getDeviancePart', 'FastMath', 'log', 'getStirlingError']
+Method Arguments: ['n', 'q', 'p', 'x', 'f']
+Variable declaration: ['ret', 'f']
+Identifier to access field/array: ['MathUtils', 'TWO_PI']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isRecentlyRefreshed
+Method Invocation: ['localLastUpdateTime', 'plus', 'getStalenessDuration', 'isAfter', 'Instant', 'now']
+Variable declaration: ['localLastUpdateTime', 'lastUpdateTime']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getAnomalyDetectorJobMemoryRequirement
+Parameters of the function: ['jobId']
+Method Invocation: ['getJobMemoryRequirement']
+Method Arguments: ['jobId']
+Identifier to access field/array: ['MlTasks', 'JOB_TASK_NAME']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDataFrameAnalyticsJobMemoryRequirement
+Parameters of the function: ['id']
+Method Invocation: ['getJobMemoryRequirement']
+Method Arguments: ['id']
+Identifier to access field/array: ['MlTasks', 'DATA_FRAME_ANALYTICS_TASK_NAME']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: refresh
+Parameters of the function: ['persistentTasks', 'onCompletion']
+Method Invocation: ['Collections', 'emptySet']
+Method Arguments: ['persistentTasks', 'onCompletion']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: waitForFlushAcknowledgement
+Parameters of the function: ['flushId', 'timeout']
+Method Invocation: ['flushListener', 'waitForFlush']
+Method Arguments: ['flushId', 'timeout']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+Method Invocation: ['createTimeRange']
+Method Arguments: ['start', 'end']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: deleteAllAnnotations
+Parameters of the function: ['listener']
+Method Invocation: ['deleteAnnotations']
+Method Arguments: ['listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: persistBucket
+Parameters of the function: ['bucket']
+Method Invocation: ['bucketWithoutRecords', 'getRecords', 'isEmpty', 'setRecords', 'Collections', 'emptyList', 'getId', 'logger', 'trace', 'indexResult', 'persistBucketInfluencersStandalone', 'getBucketInfluencers']
+Method Arguments: ['bucket', 'jobId', 'indexName', 'id', 'bucketWithoutRecords']
+Variable declaration: ['bucketWithoutRecords', 'bucket', 'id']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: deleteInterimResults
+Parameters of the function: ['jobId']
+Method Arguments: ['client', 'jobId']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: flush
+Parameters of the function: ['listener']
+Method Invocation: ['closed', 'compareAndSet', 'doFlush', 'listener', 'onResponse']
+Method Arguments: ['listener']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testBoundedTilerInflation_8001fffffffffff
+Method Invocation: ['H3', 'stringToH3', 'h3ToLatLng', 'assertH3CellInflation', 'centroid', 'getLonDeg', 'getLatDeg']
+Method Arguments: ['h3', 'precision']
+Variable declaration: ['precision', 'h3', 'centroid']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setValue
+Parameters of the function: ['docValues', 'xTile', 'yTile']
+Method Invocation: ['validTile', 'docValues', 'resizeCell', 'add', 'GeoTileUtils', 'longEncodeTiles']
+Method Arguments: ['xTile', 'yTile', 'precision']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: intersectsBbox
+Parameters of the function: ['minX', 'maxX', 'minY', 'maxY']
+Method Invocation: ['relateBbox']
+Method Arguments: ['minX', 'minY', 'maxY', 'maxX']
+Identifier to access field/array: ['GeoUtils', 'MAX_LON_INCL', 'MIN_LON_INCL']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: relatePoint
+Parameters of the function: ['x', 'y']
+Method Invocation: ['boxesAreDisjoint', 'H3CartesianUtil']
+Method Arguments: ['x', 'y', 'xs', 'ys', 'numPoints', 'crossesDateline']
+Identifier to access field/array: ['GeoRelation', 'QUERY_DISJOINT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getLastCommitGeneration
+Parameters of the function: ['files']
+Identifier to be returned: ['max']
+Method Invocation: ['file', 'startsWith', 'generationFromSegmentsFileName']
+Method Arguments: ['OLD_SEGMENTS_GEN', 'file']
+Variable declaration: ['max', 'gen']
+Identifier to access field/array: ['IndexFileNames', 'SEGMENTS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: skipFinalOutput
+Parameters of the function: ['in']
+Method Invocation: ['skipOutput']
+Method Arguments: ['in']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getValidRandomInstanceName
+Identifier to be returned: ['name']
+Method Invocation: ['randomAlphaOfLengthBetween', 'Name', 'fromUserProvidedName']
+Method Arguments: ['name']
+Variable declaration: ['name', 'valid']
+Identifier to access field/array: ['error']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createUserWithRunAsRole
+Method Invocation: ['Map', 'of', 'basicAuthHeaderValue']
+Method Arguments: ['ES_TEST_ROOT_USER', 'TEST_PASSWORD_SECURE_STRING']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: invalidateTokensForRealm
+Parameters of the function: ['realmName']
+Method Invocation: ['invalidateTokens', 'String', 'format']
+Method Arguments: ['realmName']
+Identifier to access field/array: ['Locale', 'ROOT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getPartNumberForPosition
+Parameters of the function: ['position']
+Identifier to be returned: ['part']
+Method Invocation: ['ensureValidPosition', 'fileInfo', 'numberOfParts', 'Math', 'toIntExact', 'partSize', 'getBytes']
+Method Arguments: ['position']
+Variable declaration: ['part']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: removeFromCache
+Parameters of the function: ['cacheKey']
+Method Invocation: ['cache', 'invalidate']
+Method Arguments: ['cacheKey']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fail
+Parameters of the function: ['exception', 'failureMessage']
+Method Invocation: ['context', 'markAsFailed']
+Method Arguments: ['exception', 'failureMessage']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resolveExpressionAsRootAttributes
+Parameters of the function: ['exp', 'aliases']
+Method Invocation: ['doResolve', 'emptySet']
+Method Arguments: ['exp', 'aliases', 'resolvedExpressions']
+Variable declaration: ['resolvedExpressions', 'changed']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: keyword
+Parameters of the function: ['name']
+Method Invocation: ['field']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: translate
+Method Invocation: ['translateMetric', 'inc']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: asDateOnly
+Parameters of the function: ['dateFormat']
+Method Invocation: ['timeSeparatorIdx', 'dateFormat', 'length', 'charAt', 'LocalDate', 'parse', 'atStartOfDay']
+Method Arguments: ['dateFormat', 'separatorIdx', 'ISO_LOCAL_DATE_OPTIONAL_TIME_FORMATTER_T_LITERAL', 'UTC', 'ISO_LOCAL_DATE_OPTIONAL_TIME_FORMATTER_WHITESPACE']
+Variable declaration: ['separatorIdx']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: print
+Parameters of the function: ['verbosity', 'msg']
+Method Arguments: ['verbosity', 'outWriter', 'msg']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ijkToGeo
+Parameters of the function: ['face', 'res', 'substrate']
+Method Invocation: ['Math', 'subtractExact', 'Vec2d', 'hex2dToGeo']
+Method Arguments: ['face', 'res', 'substrate']
+Variable declaration: ['i', 'j']
+Identifier to access field/array: ['i', 'k', 'j', 'Constants', 'M_SQRT3_2']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ijkNormalize
+Method Invocation: ['Math', 'min', 'ijkSub']
+Method Arguments: ['i', 'j', 'k', 'min']
+Variable declaration: ['min']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: neighbor
+Parameters of the function: ['digit']
+Method Invocation: ['digit', 'ijkAdd', 'ijkNormalize']
+Identifier to access field/array: ['Direction', 'CENTER_DIGIT', 'NUM_DIGITS', 'UNIT_VECS', 'digit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: faceIjkToGeo
+Parameters of the function: ['res']
+Method Invocation: ['coord', 'ijkToGeo']
+Method Arguments: ['face', 'res']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: h3ToChildrenSize
+Parameters of the function: ['h3Address', 'childRes']
+Method Invocation: ['stringToH3']
+Method Arguments: ['h3Address', 'childRes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: h3ToNotIntersectingChildrenSize
+Parameters of the function: ['h3Address']
+Method Invocation: ['stringToH3']
+Method Arguments: ['h3Address']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: northPolarH3
+Parameters of the function: ['res']
+Method Invocation: ['checkResolution']
+Method Arguments: ['res']
+Identifier to access field/array: ['NORTH', 'res']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: southPolarH3
+Parameters of the function: ['res']
+Method Invocation: ['checkResolution']
+Method Arguments: ['res']
+Identifier to access field/array: ['SOUTH', 'res']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: greatCircleMaxLatitude
+Parameters of the function: ['latLng']
+Method Invocation: ['isNumericallyIdentical']
+Method Arguments: ['latLng']
+Identifier to access field/array: ['latLng', 'lat']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: greatCircleMinLatitude
+Parameters of the function: ['latLng']
+Method Invocation: ['isNumericallyIdentical']
+Method Arguments: ['latLng']
+Identifier to access field/array: ['latLng', 'lat']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hex2dToGeo
+Parameters of the function: ['face', 'res', 'substrate']
+Method Arguments: ['face', 'res', 'substrate']
+Identifier to access field/array: ['x', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: h3Rotate60ccw
+Parameters of the function: ['h']
+Identifier to be returned: ['h']
+Method Invocation: ['H3_get_resolution', 'H3_set_index_digit', 'CoordIJK', 'rotate60ccw', 'H3_get_index_digit']
+Method Arguments: ['h', 'r']
+Variable declaration: ['r', 'res']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: consume
+Parameters of the function: ['x', 'y']
+Method Invocation: ['makePointErrorFor']
+Method Arguments: ['length', 'x', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: longEncode
+Parameters of the function: ['hash']
+Method Invocation: ['hash', 'length']
+Method Arguments: ['hash']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stringEncode
+Parameters of the function: ['lon', 'lat']
+Method Arguments: ['lon', 'lat']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stringEncode
+Parameters of the function: ['lon', 'lat', 'level']
+Method Invocation: ['encodeLatLon']
+Method Arguments: ['lat', 'lon', 'geohash']
+Variable declaration: ['interleaved', 'geohash']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testResourcesParentNonPkgName
+Method Invocation: ['testResourcesParent']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkManifest
+Parameters of the function: ['manifest', 'jar']
+Method Invocation: ['manifest', 'getMainAttributes', 'getValue', 'checkJavaVersion', 'jar', 'toString']
+Method Arguments: ['targetVersion']
+Variable declaration: ['targetVersion']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkOrder
+Parameters of the function: ['key', 'start', 'length']
+Method Invocation: ['assertTrue', 'String', 'format', 'checkValues']
+Method Arguments: ['i', 'key', 'start', 'length', 'values']
+Variable declaration: ['values', 'i', 'start']
+Identifier to access field/array: ['key', 'length', 'Locale', 'ROOT', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: sort
+Parameters of the function: ['key']
+Method Arguments: ['key', 'values']
+Variable declaration: ['values']
+Identifier to access field/array: ['key', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: compress
+Method Invocation: ['mergeNewValues']
+Method Arguments: ['publicCompression']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: findAgentJar
+Method Invocation: ['System', 'getProperty']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: forceStop
+Method Invocation: ['jvmProcess', 'destroyForcibly', 'waitFor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getIndexCompatible
+Method Invocation: ['filterSupportedVersions', 'getAllIndexCompatible']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: assertNbUnassignedTasks
+Parameters of the function: ['nbTasks', 'clusterState']
+Method Invocation: ['assertPersistentTasks', 'task', 'isAssigned']
+Method Arguments: ['nbTasks', 'clusterState']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createService
+Parameters of the function: ['fn']
+Method Arguments: ['clusterService', 'fn']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: maybeError
+Parameters of the function: ['cause']
+Method Invocation: ['unwrapCausesAndSuppressed']
+Method Arguments: ['cause']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: collectShardDataPaths
+Parameters of the function: ['dataPaths']
+Method Invocation: ['collectIndexSubPaths']
+Method Arguments: ['dataPaths']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: initializeAsNew
+Parameters of the function: ['indexMetadata']
+Method Invocation: ['initializeEmpty']
+Method Arguments: ['indexMetadata']
+Identifier to access field/array: ['UnassignedInfo', 'Reason', 'INDEX_CREATED']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cancelRelocation
+Parameters of the function: ['shard']
+Identifier to be returned: ['cancelledShard']
+Method Invocation: ['shard', 'updateAssigned']
+Method Arguments: ['shard', 'cancelledShard']
+Variable declaration: ['cancelledShard']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: resolveExpressions
+Parameters of the function: ['state']
+Method Invocation: ['IndicesOptions', 'lenientExpandOpen']
+Method Arguments: ['state', 'expressions']
+Variable declaration: ['expressions']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isAllIndices
+Parameters of the function: ['aliasesOrIndices']
+Method Invocation: ['aliasesOrIndices', 'isEmpty', 'isExplicitAllPattern']
+Method Arguments: ['aliasesOrIndices']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: close
+Method Invocation: ['awaitClose', 'Thread', 'currentThread', 'interrupt']
+Identifier to access field/array: ['TimeUnit', 'SECONDS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTaskGroups
+Identifier to be returned: ['groups']
+Method Invocation: ['buildTaskGroups']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: scaleDown
+Parameters of the function: ['value']
+Identifier to be returned: ['value']
+Method Invocation: ['isSampled']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: scaleUp
+Parameters of the function: ['value']
+Identifier to be returned: ['value']
+Method Invocation: ['isSampled']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stringEncode
+Parameters of the function: ['hash']
+Method Invocation: ['parseHash', 'validateZXY']
+Method Arguments: ['hash']
+Variable declaration: ['res']
+Identifier to access field/array: ['res']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addUnboundedTo
+Parameters of the function: ['key', 'to']
+Method Invocation: ['addRange']
+Method Arguments: ['key', 'to']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addUnboundedFrom
+Parameters of the function: ['key', 'from']
+Method Invocation: ['addRange']
+Method Arguments: ['key', 'from']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getLeafCollector
+Parameters of the function: ['context', 'in']
+Identifier to be returned: ['leafBucketCollector']
+Method Invocation: ['size', 'competitiveBoundsChangedListener', 'boundsChanged', 'top']
+Method Arguments: ['context', 'in']
+Variable declaration: ['leafBucketCollector']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: submit
+Parameters of the function: ['clusterService']
+Method Invocation: ['format', 'status', 'succeeded', 'submitUnbatchedTask']
+Method Arguments: ['featureName', 'clusterService', 'source']
+Variable declaration: ['source']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getFieldValueAsBytes
+Parameters of the function: ['path']
+Method Arguments: ['path']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getRetentionLeases
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getRetentionLeases
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasLength
+Parameters of the function: ['str']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: preserveContext
+Parameters of the function: ['command']
+Method Invocation: ['doPreserveContext']
+Method Arguments: ['command']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fastForward
+Method Invocation: ['assertValidCount', 'countDown', 'getAndSet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: simpleMatch
+Parameters of the function: ['pattern', 'str', 'caseInsensitive']
+Method Invocation: ['Strings', 'toLowercaseAscii', 'simpleMatchWithNormalizedStrings']
+Method Arguments: ['pattern', 'str']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: updateDynamicSettings
+Parameters of the function: ['toApply', 'target', 'updates', 'type']
+Method Invocation: ['updateSettings']
+Method Arguments: ['toApply', 'target', 'updates', 'type']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: format
+Parameters of the function: ['address']
+Method Arguments: ['address']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: closeChannel
+Parameters of the function: ['channel']
+Method Arguments: ['channel']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fromJSON
+Parameters of the function: ['json']
+Method Invocation: ['createParser', 'builder', 'copyCurrentStructure']
+Method Arguments: ['json', 'parser']
+Identifier to access field/array: ['JsonXContent', 'jsonXContent', 'XContentParserConfiguration', 'EMPTY']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: calculateOutNetBufSize
+Parameters of the function: ['plaintextBytes', 'numBuffers']
+Method Invocation: ['calculateSpace']
+Method Arguments: ['plaintextBytes', 'numBuffers']
+Identifier to access field/array: ['Integer', 'MAX_VALUE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: calculateRequiredOutBufSpace
+Parameters of the function: ['plaintextBytes', 'numBuffers']
+Method Invocation: ['calculateSpace', 'Conscrypt', 'maxEncryptedPacketLength']
+Method Arguments: ['plaintextBytes', 'numBuffers']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: bytesToIpAddress
+Parameters of the function: ['bytes']
+Method Arguments: ['bytes']
+Identifier to access field/array: ['bytes', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: subSequence
+Parameters of the function: ['start', 'end']
+Method Arguments: ['start', 'end']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: regionMatches
+Parameters of the function: ['ignoreCase', 'thisStart', 'string', 'start', 'length']
+Method Invocation: ['ObjectUtil', 'checkNotNull', 'length', 'string', 'arrayOffset', 'equalsIgnoreCase', 'b2c', 'charAt']
+Method Arguments: ['thisStart', 'string', 'start', 'length']
+Variable declaration: ['thisLen', 'thisEnd']
+Identifier to access field/array: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: safeFindNextPositivePowerOfTwo
+Parameters of the function: ['value']
+Method Invocation: ['findNextPositivePowerOfTwo']
+Method Arguments: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: nextLong
+Parameters of the function: ['least', 'bound']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: format
+Parameters of the function: ['messagePattern', 'arg']
+Method Invocation: ['arrayFormat']
+Method Arguments: ['messagePattern']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: copyInt
+Identifier to be returned: ['EMPTY_BUFFER', 'buffer']
+Method Invocation: ['buffer', 'writeInt']
+Method Arguments: ['v']
+Variable declaration: ['values', 'buffer']
+Identifier to access field/array: ['values', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: calculateChecksum
+Parameters of the function: ['data']
+Method Invocation: ['data', 'readerIndex', 'readableBytes']
+Method Arguments: ['data']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: writeUnary
+Parameters of the function: ['out', 'value']
+Method Invocation: ['writeBoolean']
+Method Arguments: ['out']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: finish
+Parameters of the function: ['ctx']
+Method Invocation: ['finishEncode', 'ctx', 'newPromise']
+Method Arguments: ['ctx']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: updateCRC
+Parameters of the function: ['value', 'count']
+Method Arguments: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: validateValidHeaderValue
+Parameters of the function: ['value']
+Method Invocation: ['value', 'length', 'verifyValidHeaderValueAsciiString', 'verifyValidHeaderValueCharSequence']
+Method Arguments: ['value']
+Variable declaration: ['length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: skipWhiteSpaces
+Parameters of the function: ['hex', 'start', 'length']
+Identifier to be returned: ['i', 'length']
+Method Invocation: ['isWhitespace']
+Variable declaration: ['i']
+Identifier to access field/array: ['hex']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: exists
+Parameters of the function: ['secureConfig']
+Method Invocation: ['doIt']
+Method Arguments: ['secureConfig']
+Identifier to access field/array: ['MODE', 'EXISTS']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isCurrentWriterStale
+Method Invocation: ['currentWriter', 'isStale']
+Method Arguments: ['flushInterval']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: commonInputSettings
+Parameters of the function: ['settings']
+Method Invocation: ['combineSettings']
+Method Arguments: ['settings']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: parseCheck
+Parameters of the function: ['expression']
+Method Arguments: ['expression']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkOrigin
+Parameters of the function: ['config', 'requestOrigin']
+Method Invocation: ['config']
+Method Arguments: ['requestOrigin']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: encode
+Parameters of the function: ['source', 'charset']
+Method Arguments: ['source', 'charset']
+Identifier to access field/array: ['HierarchicalUriComponents', 'Type', 'URI']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: decodeAndCleanUriString
+Parameters of the function: ['request', 'uri']
+Identifier to be returned: ['uri']
+Method Invocation: ['removeSemicolonContent', 'decodeRequestString', 'getSanitizedPath']
+Method Arguments: ['uri', 'request']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getFallbackTimeZone
+Identifier to be returned: ['timeZone']
+Method Invocation: ['JstlPageLocaleResolver', 'getJstlTimeZone', 'getPageContext']
+Variable declaration: ['timeZone']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: shouldProxyTargetClass
+Parameters of the function: ['beanClass', 'beanName']
+Method Invocation: ['AutoProxyUtils']
+Method Arguments: ['clbf', 'beanName']
+Identifier to access field/array: ['beanFactory']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setArgumentNames
+Parameters of the function: ['argumentNames']
+Method Invocation: ['StringUtils', 'commaDelimitedListToStringArray', 'setArgumentNamesFromStringArray']
+Method Arguments: ['argumentNames', 'tokens']
+Variable declaration: ['tokens']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setText
+Parameters of the function: ['text']
+Method Arguments: ['text']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getConnection
+Identifier to be returned: ['con']
+Method Invocation: ['get', 'doGetConnection', 'con', 'setCatalog', 'setSchema']
+Variable declaration: ['threadCredentials', 'con']
+Identifier to access field/array: ['threadBoundCredentials', 'threadCredentials', 'username', 'password', 'catalog', 'schema']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: skipEol
+Parameters of the function: ['byteBuffer']
+Method Invocation: ['tryConsumeEndOfLine']
+Method Arguments: ['byteBuffer']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: connectAsync
+Parameters of the function: ['handler']
+Method Arguments: ['handler']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTimeZone
+Method Invocation: ['getLocaleContext']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: doGetTransaction
+Method Invocation: ['getUserTransaction', 'lookupUserTransaction', 'doGetJtaTransaction']
+Method Arguments: ['ut']
+Variable declaration: ['ut']
+Identifier to access field/array: ['cacheUserTransaction', 'userTransactionName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkForLeaks
+Method Invocation: ['Duration', 'ofSeconds']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: indent
+Method Invocation: ['refreshIndent']
+Identifier to access field/array: ['level']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: containsConstant
+Parameters of the function: ['enumValues', 'constant']
+Method Arguments: ['enumValues', 'constant']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: startComment
+Parameters of the function: ['line']
+Method Invocation: ['commentToken']
+Method Arguments: ['line', 'START_COMMENT']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: findBestMatchingLocaleForLanguage
+Parameters of the function: ['language']
+Identifier to be returned: ['locale']
+Method Invocation: ['LanguageString', 'parseLocale', 'appSupportsTheExactLocale', 'findBestSystemLocale']
+Method Arguments: ['language', 'locale']
+Variable declaration: ['locale']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cancel
+Parameters of the function: ['context', 'notificationId']
+Method Invocation: ['Log', 'd', 'cancelWithConversationSupport', 'cancelLegacy']
+Method Arguments: ['TAG', 'context', 'notificationId']
+Identifier to access field/array: ['Build', 'VERSION', 'SDK_INT', 'ConversationUtil', 'CONVERSATION_SUPPORT_VERSION']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getYawRad
+Method Invocation: ['getGimbalPole', 'MathUtils', 'atan2']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getAngleAroundRad
+Parameters of the function: ['axis']
+Identifier to access field/array: ['axis', 'x', 'y', 'z']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setToTrnRotScl
+Parameters of the function: ['trn', 'degrees', 'scale']
+Method Arguments: ['degrees']
+Identifier to access field/array: ['trn', 'x', 'y', 'scale']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: scale
+Identifier to access field/array: ['x', 'y']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: triangleQuality
+Parameters of the function: ['x1', 'y1', 'x2', 'y2', 'x3', 'y3']
+Method Invocation: ['Math', 'sqrt', 'min', 'triangleCircumradius']
+Method Arguments: ['sqLength1', 'sqLength2', 'sqLength3', 'x1', 'y1', 'x2', 'y2', 'x3', 'y3']
+Variable declaration: ['sqLength1', 'sqLength2', 'sqLength3']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: intersectSegments
+Parameters of the function: ['p1', 'p2', 'p3', 'p4', 'intersection']
+Method Arguments: ['intersection']
+Identifier to access field/array: ['p1', 'x', 'y', 'p2', 'p3', 'p4']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: atan2Deg
+Parameters of the function: ['y', 'x']
+Method Invocation: ['atanUncheckedDeg']
+Method Arguments: ['n']
+Variable declaration: ['n']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: atan2Deg360
+Parameters of the function: ['y', 'x']
+Method Invocation: ['atanUncheckedDeg']
+Method Arguments: ['n']
+Variable declaration: ['n']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cancelTouchFocus
+Method Invocation: ['cancelTouchFocusExcept']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setDebugTableUnderMouse
+Parameters of the function: ['debugTableUnderMouse']
+Identifier to access field/array: ['Debug', 'all', 'none']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: removeActor
+Parameters of the function: ['actor']
+Method Arguments: ['actor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clear
+Parameters of the function: ['unfocus']
+Method Invocation: ['clearChildren']
+Method Arguments: ['unfocus']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setBackground
+Parameters of the function: ['background']
+Method Arguments: ['background']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clear
+Parameters of the function: ['maximumCapacity']
+Method Invocation: ['tableSize', 'resize']
+Method Arguments: ['maximumCapacity', 'loadFactor', 'tableSize']
+Variable declaration: ['tableSize']
+Identifier to access field/array: ['keyTable', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: countRunAndMakeAscending
+Parameters of the function: ['a', 'lo', 'hi', 'c']
+Method Invocation: ['c', 'compare', 'reverseRange']
+Method Arguments: ['a', 'lo', 'runHi']
+Variable declaration: ['runHi']
+Identifier to access field/array: ['a', 'lo', 'runHi']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: postTask
+Parameters of the function: ['task']
+Method Invocation: ['scheduleTask']
+Method Arguments: ['task']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: scaleSize
+Parameters of the function: ['scale']
+Method Arguments: ['scale']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: rotate
+Parameters of the function: ['rotation']
+Method Arguments: ['rotation']
+Identifier to access field/array: ['transform']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: animate
+Parameters of the function: ['anim', 'offset', 'duration', 'loopCount', 'speed', 'listener', 'transitionTime']
+Method Invocation: ['obtain']
+Method Arguments: ['anim', 'offset', 'duration', 'loopCount', 'speed', 'listener', 'transitionTime']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: queue
+Parameters of the function: ['anim', 'offset', 'duration', 'loopCount', 'speed', 'listener', 'transitionTime']
+Method Invocation: ['obtain']
+Method Arguments: ['anim', 'offset', 'duration', 'loopCount', 'speed', 'listener', 'transitionTime']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDir
+Parameters of the function: ['subDir']
+Method Invocation: ['createDirectory', 'getPath', 'resolve', 'toFile']
+Method Arguments: ['subDir']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: persistAndGetId
+Parameters of the function: ['entity']
+Method Invocation: ['persist', 'getId']
+Method Arguments: ['entity']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+Parameters of the function: ['service']
+Method Arguments: ['service']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: build
+Parameters of the function: ['service', 'database']
+Method Invocation: ['urlFor']
+Method Arguments: ['service', 'database']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: optDouble
+Parameters of the function: ['name']
+Method Arguments: ['name']
+Identifier to access field/array: ['Double', 'NaN']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: optInt
+Parameters of the function: ['name']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: optLong
+Parameters of the function: ['name']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: optString
+Parameters of the function: ['name']
+Method Arguments: ['name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: directory
+Parameters of the function: ['name', 'owner']
+Method Arguments: ['name', 'owner']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: file
+Parameters of the function: ['name', 'owner', 'content']
+Method Arguments: ['name', 'owner', 'content']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stop
+Method Invocation: ['giant', 'lock', 'gracefulStopLeaderLifecycle', 'overlordLeaderSelector', 'unregisterListener', 'unlock']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: convertParameters
+Parameters of the function: ['fn']
+Method Invocation: ['convertToCalciteParameters', 'fn', 'parameters']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isNonTrivialStringConcat
+Parameters of the function: ['rexNode']
+Method Invocation: ['isStringConcat', 'bits', 'isEmpty']
+Method Arguments: ['rexNode']
+Identifier to access field/array: ['RelOptUtil', 'InputFinder']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: submitMsqTaskSuccesfully
+Parameters of the function: ['sqlQuery', 'username', 'password']
+Method Invocation: ['submitMsqTaskWithExpectedStatusCode']
+Method Arguments: ['sqlQuery', 'username', 'password']
+Identifier to access field/array: ['HttpResponseStatus', 'ACCEPTED']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ceilingPowerOfTwo
+Parameters of the function: ['value']
+Method Invocation: ['requirePositive', 'Long', 'numberOfLeadingZeros']
+Method Arguments: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hashSingleValue
+Parameters of the function: ['value']
+Method Invocation: ['finalise', 'update', 'initialise']
+Method Arguments: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hashSingleValueToInt
+Parameters of the function: ['value']
+Method Invocation: ['toInt', 'hashSingleValue']
+Method Arguments: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: openAllNeoStores
+Method Invocation: ['openNeoStores']
+Identifier to access field/array: ['StoreType', 'STORE_TYPES']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: decode
+Parameters of the function: ['block']
+Method Invocation: ['block', 'getValueBlocks']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: withEndCondition
+Method Invocation: ['mergeEndCondition']
+Method Arguments: ['endCondition']
+Variable declaration: ['endConditions']
+Identifier to access field/array: ['endCondition']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: nextValidCodePoint
+Parameters of the function: ['maxCodePoint']
+Identifier to be returned: ['codePoint']
+Method Invocation: ['intBetween', 'configuration', 'minCodePoint', 'Character', 'getType']
+Method Arguments: ['maxCodePoint', 'codePoint']
+Variable declaration: ['codePoint', 'type']
+Identifier to access field/array: ['Character', 'UNASSIGNED', 'PRIVATE_USE', 'SURROGATE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: unlockExclusiveAndTakeWriteLock
+Parameters of the function: ['address']
+Method Invocation: ['initiateExclusiveLockRelease', 'nextSeq', 'unconditionallySetState']
+Method Arguments: ['address', 's', 'n']
+Variable declaration: ['s', 'n']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getRefCount
+Method Invocation: ['refCountOf', 'getHeaderState']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: evictPage
+Parameters of the function: ['filePageId']
+Method Invocation: ['computeChunkId', 'computeChunkIndex', 'translationTableGetVolatile', 'deref', 'setHighestEvictedTransactionId', 'getAndResetLastModifiedTransactionId', 'translationTableSetVolatile']
+Method Arguments: ['filePageId', 'chunk', 'chunkIndex', 'mappedPageId', 'pageRef', 'UNMAPPED_TTE']
+Variable declaration: ['chunkId', 'chunkIndex', 'chunk', 'mappedPageId', 'pageRef']
+Identifier to access field/array: ['translationTable', 'chunkId']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clearChangedChunks
+Parameters of the function: ['denseNodes']
+Method Invocation: ['chunkChangeMask']
+Method Arguments: ['denseNodes']
+Variable declaration: ['chunkMask', 'i']
+Identifier to access field/array: ['chunkChangedArray', 'length', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createLogChannelForExistingVersion
+Parameters of the function: ['version']
+Method Invocation: ['channelAllocator', 'createLogChannelExistingVersion']
+Method Arguments: ['version']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getWaitingTimeNanos
+Parameters of the function: ['nowNanos']
+Identifier to be returned: ['waitingTime']
+Method Invocation: ['transaction', 'executingQuery', 'query', 'isPresent', 'get', 'totalWaitingTimeNanos']
+Method Arguments: ['nowNanos']
+Variable declaration: ['query', 'waitingTime', 'waitingTimeNanos', 'latestQueryWaitingNanos']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: stop
+Parameters of the function: ['indexPopulation', 'cursorContext']
+Method Invocation: ['indexPopulation', 'disconnectAndStop', 'checkEmpty']
+Method Arguments: ['cursorContext']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: logChannel
+Method Invocation: ['file']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: releaseWrite
+Method Invocation: ['spinTransform']
+Method Arguments: ['ALWAYS_TRUE', 'RELEASE_WRITE_LOCK']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: checkOutOfBoundsAndClosed
+Method Invocation: ['checkOutOfBounds', 'Preconditions', 'checkState']
+Method Arguments: ['cursor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: write
+Parameters of the function: ['cursor', 'generation', 'pointer']
+Method Invocation: ['assertGenerationOnWrite', 'assertPointerOnWrite', 'writeGSP']
+Method Arguments: ['generation', 'pointer', 'cursor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: bumpUnstableGeneration
+Method Invocation: ['generation', 'stableGeneration', 'unstableGeneration']
+Method Arguments: ['generation']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: normalize
+Method Invocation: ['duration']
+Method Arguments: ['months', 'd', 's', 'n']
+Variable declaration: ['d', 'days', 's', 'seconds', 'n', 'nanos', 'extraSeconds', 'extraDays']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: parseAndThrow
+Method Invocation: ['setupParser', 'preValidateArguments', 'parser', 'parseArgs', 'getCliArgs']
+Method Arguments: ['parser', 'args', 'cliArgs', 'ns']
+Variable declaration: ['args', 'cliArgs', 'parser', 'ns']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: printIfPlain
+Parameters of the function: ['text']
+Method Invocation: ['equals', 'getFormat', 'printOut']
+Method Arguments: ['text']
+Identifier to access field/array: ['Format', 'PLAIN']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: inQuote
+Parameters of the function: ['awaitedRightDelimiter']
+Method Invocation: ['inComment']
+Method Arguments: ['awaitedRightDelimiter']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: decreaseKey
+Parameters of the function: ['node', 'newKey']
+Method Invocation: ['keyComparator', 'compare', 'cut', 'cascadingCut']
+Method Arguments: ['newKey', 'node', 'parent']
+Variable declaration: ['parent']
+Identifier to access field/array: ['node', 'key', 'parent', 'minimum']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cut
+Parameters of the function: ['x', 'y']
+Method Invocation: ['equals', 'insertInRootList']
+Method Arguments: ['x']
+Identifier to access field/array: ['x', 'left', 'right', 'y', 'child', 'degree']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: release
+Method Invocation: ['STACK', 'getAndSet', 'unparkSuccessor']
+Method Arguments: ['released', 'waiters']
+Variable declaration: ['waiters']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: apply
+Parameters of the function: ['work']
+Method Invocation: ['enqueueWork', 'checkFailure', 'tryDoWork', 'unit', 'isDone']
+Method Arguments: ['work', 'unit']
+Variable declaration: ['unit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getStoreVersionUserString
+Method Invocation: ['formatVersion']
+Method Arguments: ['storageEngineName', 'formatName', 'majorVersion', 'minorVersion']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: totalDegree
+Identifier to be returned: ['degree']
+Method Invocation: ['types']
+Method Arguments: ['type']
+Variable declaration: ['degree']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: disableCommands
+Method Invocation: ['setCommandProbabilityFactor']
+Method Arguments: ['command']
+Variable declaration: ['commands']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: run
+Parameters of the function: ['iterationTimeout', 'unit']
+Method Arguments: ['iterationTimeout', 'unit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: run
+Parameters of the function: ['iterations', 'iterationTimeout', 'unit']
+Method Invocation: ['runIteration', 'describePreviousRun']
+Method Arguments: ['iterationTimeout', 'unit']
+Variable declaration: ['i']
+Identifier to access field/array: ['System', 'err']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createIndexes
+Parameters of the function: ['db']
+Method Invocation: ['db', 'beginTx', 'createTokenIndexes', 'createNodePropertyIndexes', 'createRelationshipPropertyIndexes', 'tx', 'commit']
+Method Arguments: ['tx']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: deleteStuff
+Parameters of the function: ['db']
+Method Invocation: ['batchedDelete']
+Method Arguments: ['db']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: negotiate
+Parameters of the function: ['connection']
+Method Invocation: ['connection', 'send', 'getProtocolVersion', 'BoltConnectionAssertions', 'assertThat', 'negotiates']
+Method Arguments: ['connection']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: readPrimitiveValue
+Parameters of the function: ['limit']
+Method Invocation: ['doReadPrimitiveValue', 'buf', 'peekType']
+Method Arguments: ['limit']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: centerPointFor
+Parameters of the function: ['derivedValue', 'level']
+Method Invocation: ['normalizedCoordinateFor', 'getDoubleCoord']
+Method Arguments: ['derivedValue', 'level', 'normalizedCoord']
+Variable declaration: ['normalizedCoord']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getTilesIntersectingEnvelope
+Parameters of the function: ['referenceEnvelope']
+Method Invocation: ['referenceEnvelope', 'getMin', 'getMax']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDoubleCoord
+Parameters of the function: ['normalizedCoord', 'level']
+Identifier to be returned: ['coord']
+Method Invocation: ['range', 'getMin', 'getTileWidth', 'clamp', 'getMax']
+Method Arguments: ['dim', 'level', 'coordinate']
+Variable declaration: ['coord', 'dim', 'coordinate']
+Identifier to access field/array: ['normalizedCoord', 'dim', 'scalingFactor', 'coord']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: propagate
+Parameters of the function: ['lengthFromSource', 'lengthToTarget']
+Method Invocation: ['dataGraphLength', 'forwardNode', 'newPropagatedLengthFromSource', 'addSourceLength']
+Method Arguments: ['newLength']
+Variable declaration: ['newLength']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: insert
+Parameters of the function: ['e']
+Method Invocation: ['grow', 'siftUp']
+Method Arguments: ['n', 'e']
+Variable declaration: ['n', 'size']
+Identifier to access field/array: ['heap', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: sort
+Method Invocation: ['siftDown']
+Method Arguments: ['tmp', 'n']
+Variable declaration: ['n', 'tmp']
+Identifier to access field/array: ['heap', 'n']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: heapify
+Method Invocation: ['siftDown']
+Method Arguments: ['i', 'size']
+Variable declaration: ['i']
+Identifier to access field/array: ['heap', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: siftDown
+Parameters of the function: ['x']
+Method Arguments: ['x', 'size']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setBits
+Parameters of the function: ['bits', 'start', 'slots', 'bitsArraySlot']
+Method Invocation: ['min', 'bitsInSingleLong']
+Method Arguments: ['slots', 'start', 'slotsInThisLong']
+Variable declaration: ['firstArraySlot', 'arraySlot', 'slotsInThisLong', 'bitsInThisSlot']
+Identifier to access field/array: ['Long', 'SIZE', 'bits', 'arraySlot']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: subpath
+Parameters of the function: ['beginIndex', 'endIndex']
+Method Invocation: ['hasTrailingSeparator', 'elements', 'size']
+Method Arguments: ['beginIndex', 'endIndex', 'pathStr']
+Variable declaration: ['pathStr']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: fileOperation
+Parameters of the function: ['operation', 'fs', 'fromLayout', 'toLayout', 'databaseFiles', 'allowSkipNonExistentFiles', 'includeIdFile', 'existingTargetStrategy']
+Method Invocation: ['fromLayout', 'allFiles', 'toArray', 'file', 'perform']
+Method Arguments: ['databaseStore', 'operation', 'fs', 'fromLayout', 'toLayout', 'allowSkipNonExistentFiles', 'existingTargetStrategy', 'files']
+Variable declaration: ['files']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: symmetricDifference
+Parameters of the function: ['left', 'right']
+Identifier to be returned: ['EMPTY_INT_ARRAY', 'difference']
+Method Invocation: ['isSortedSet', 'countUnique', 'left', 'right']
+Method Arguments: ['left', 'right', 'uniqueCounts']
+Variable declaration: ['uniqueCounts', 'difference', 'cursor', 'l', 'r']
+Identifier to access field/array: ['left', 'length', 'right', 'l', 'r', 'difference']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: countUnique
+Parameters of the function: ['left', 'right']
+Method Invocation: ['intPair']
+Method Arguments: ['uniqueInLeft', 'uniqueInRight']
+Variable declaration: ['l', 'r', 'uniqueInLeft', 'uniqueInRight']
+Identifier to access field/array: ['left', 'length', 'right', 'l', 'r']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: iteratorsEqual
+Parameters of the function: ['first', 'other']
+Method Invocation: ['first', 'hasNext', 'other', 'Objects', 'equals', 'next', 'tryCloseResource']
+Method Arguments: ['first', 'other']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: count
+Parameters of the function: ['iterator']
+Method Invocation: ['Predicates', 'alwaysTrue']
+Method Arguments: ['iterator']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addLazyBinding
+Parameters of the function: ['componentSupplier', 'type']
+Method Invocation: ['verifyBinding', 'lazyBindings', 'add']
+Method Arguments: ['componentSupplier', 'type']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getReadChannel
+Parameters of the function: ['fs', 'path', 'kernelVersion']
+Method Invocation: ['fs', 'open', 'Set', 'of', 'LogHeaderReader', 'readLogHeader', 'validateKernelVersion', 'ReadAheadUtils', 'newChannel']
+Method Arguments: ['path', 'storeChannel', 'INSTANCE', 'kernelVersion', 'logHeader', 'logChannel']
+Variable declaration: ['storeChannel', 'logHeader', 'logChannel']
+Identifier to access field/array: ['StandardOpenOption', 'READ', 'ChannelNativeAccessor', 'EMPTY_ACCESSOR', 'DatabaseTracer', 'NULL']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getValuesSortedByRelevance
+Parameters of the function: ['field']
+Method Invocation: ['getTotalHits', 'getTopDocsByRelevance', 'getLeafReaderContexts', 'getMatchingDocs']
+Method Arguments: ['size', 'topDocs', 'contexts', 'field']
+Variable declaration: ['size', 'topDocs', 'contexts']
+Identifier to access field/array: ['ValuesIterator', 'EMPTY']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ensureValidDisi
+Method Invocation: ['matchingDocs', 'hasNext', 'next', 'currentDocs', 'readDocValues']
+Method Arguments: ['field']
+Identifier to access field/array: ['currentDocs', 'docIdSet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: nullableAddDocument
+Parameters of the function: ['document']
+Method Invocation: ['addDocument']
+Method Arguments: ['document']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: updateOrDeleteDocument
+Parameters of the function: ['term', 'document']
+Method Invocation: ['updateDocument', 'deleteDocuments']
+Method Arguments: ['term', 'document']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: clearCache
+Method Invocation: ['getURLs', 'url', 'openConnection']
+Method Arguments: ['connection']
+Variable declaration: ['connection']
+Identifier to access field/array: ['exploded']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: assertRequestBuilderThrows
+Parameters of the function: ['builder', 'exceptionClass', 'status']
+Method Invocation: ['assertFutureThrows', 'builder', 'execute']
+Method Arguments: ['exceptionClass', 'status']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getColumnValue
+Parameters of the function: ['rs', 'index', 'paramType']
+Method Invocation: ['JdbcUtils', 'getResultSetValue']
+Method Arguments: ['rs', 'index', 'paramType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: modules
+Parameters of the function: ['consumer']
+Method Invocation: ['consumer', 'accept']
+Identifier to access field/array: ['findModulesViaServiceLoader', 'findWellKnownModules']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getChildByName
+Parameters of the function: ['name']
+Identifier to be returned: ['element']
+Method Invocation: ['children', 'get', 'equals']
+Method Arguments: ['i', 'name']
+Variable declaration: ['i', 'element']
+Identifier to access field/array: ['children', 'size', 'element', 'name']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testIllegalOrder
+Method Invocation: ['expectThrows', 'order', 'assertEquals', 'e', 'getMessage']
+Variable declaration: ['e']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isMatch
+Parameters of the function: ['methodName', 'mappedName']
+Method Invocation: ['PatternMatchUtils', 'simpleMatch']
+Method Arguments: ['mappedName', 'methodName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: testNetworkHostWrongSetting
+Method Invocation: ['resolveGce']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: onResize
+Parameters of the function: ['event']
+Method Invocation: ['checkWidgetSize']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: createDefaultFieldType
+Parameters of the function: ['fieldName']
+Identifier to be returned: ['fieldType']
+Method Invocation: ['List', 'of', 'subfieldName', 'fieldType', 'addMetricField', 'setDefaultMetric']
+Method Arguments: ['fieldName', 'm', 'subfieldName', 'subfield']
+Variable declaration: ['fieldType', 'subfieldName', 'subfield']
+Identifier to access field/array: ['Metric', 'min', 'max', 'NumberFieldMapper', 'NumberType', 'DOUBLE']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setCenterX
+Parameters of the function: ['x']
+Method Invocation: ['setX']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: expiredTokenException
+Identifier to be returned: ['e']
+Method Invocation: ['e', 'addHeader']
+Method Arguments: ['EXPIRED_TOKEN_WWW_AUTH_VALUE']
+Variable declaration: ['e']
+Identifier to access field/array: ['RestStatus', 'UNAUTHORIZED']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: registerTestTask
+Parameters of the function: ['project', 'sourceSet']
+Method Invocation: ['sourceSet', 'getName']
+Method Arguments: ['project', 'sourceSet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isIndexed
+Parameters of the function: ['elementIndex']
+Method Invocation: ['getType']
+Method Arguments: ['elementIndex']
+Identifier to access field/array: ['elements']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getForField
+Parameters of the function: ['fieldType', 'fieldDataContext']
+Method Invocation: ['getFromBuilder', 'fieldType', 'fielddataBuilder']
+Method Arguments: ['fieldType', 'fieldDataContext']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: sum
+Parameters of the function: ['values']
+Identifier to be returned: ['value']
+Method Invocation: ['Arrays', 'stream', 'map', 'Double', 'isNaN']
+Method Arguments: ['values', 'value']
+Identifier to access field/array: ['values', 'length']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: searchForEntry
+Parameters of the function: ['ldap', 'baseDN', 'scope', 'filter', 'timeLimitSeconds', 'ignoreReferralErrors', 'listener']
+Method Arguments: ['ldapConnection', 'baseDN', 'scope', 'filter', 'timeLimitSeconds', 'ignoreReferralErrors', 'listener', 'attributes', 'ldapConnectionPool']
+Variable declaration: ['attributes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: uncheckedDeleteWithRetry
+Parameters of the function: ['path']
+Method Invocation: ['deleteWithRetry0']
+Method Arguments: ['path', 'e']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: write
+Parameters of the function: ['input', 'append']
+Method Invocation: ['StreamUtils', 'copyStream', 'closeQuietly']
+Method Arguments: ['append', 'input', 'output', 'ex']
+Variable declaration: ['output']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: computeLimitBytesForAuto
+Parameters of the function: ['lookupManager', 'maxMemoryInJvm', 'maxConcurrentQueries']
+Method Invocation: ['computeLookupFootprint', 'Math', 'max']
+Method Arguments: ['lookupManager', 'memoryInJvmForSubqueryResultsInliningPerQuery']
+Variable declaration: ['memoryInJvmWithoutLookups', 'memoryInJvmForSubqueryResultsInlining', 'memoryInJvmForSubqueryResultsInliningPerQuery']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: isValidExpression
+Parameters of the function: ['expression']
+Method Invocation: ['parse']
+Method Arguments: ['expression']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getByName
+Parameters of the function: ['databaseName']
+Method Arguments: ['databaseName']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasCapacity
+Parameters of the function: ['count']
+Method Invocation: ['bytes', 'length', 'bytesCapacity']
+Identifier to access field/array: ['Integer', 'BYTES']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: compare
+Parameters of the function: ['tier1', 'tier2']
+Method Invocation: ['tier1', 'equals', 'tier2', 'ORDERED_FROZEN_TO_HOT_TIERS', 'indexOf']
+Method Arguments: ['DATA_CONTENT', 'tier1', 'tier2']
+Variable declaration: ['indexOfTier1', 'indexOfTier2']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: parseFloat
+Parameters of the function: ['parser']
+Method Invocation: ['parser', 'currentToken', 'ensureExpectedToken', 'floatValue']
+Method Arguments: ['token', 'parser']
+Variable declaration: ['token']
+Identifier to access field/array: ['XContentParser', 'Token', 'VALUE_NUMBER']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: printingWrapper
+Parameters of the function: ['source', 'pred']
+Method Arguments: ['source', 'pred']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: remove
+Parameters of the function: ['key']
+Method Invocation: ['locateKey', 'place']
+Method Arguments: ['key']
+Variable declaration: ['i', 'keyTable', 'mask', 'next', 'placement']
+Identifier to access field/array: ['keyTable', 'mask', 'next', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getDouble
+Parameters of the function: ['columnIndex']
+Method Arguments: ['columnIndex', 'se']
+Identifier to access field/array: ['resultSet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: tryReleaseShared
+Parameters of the function: ['finalState']
+Method Invocation: ['setState']
+Method Arguments: ['finalState']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getExceptionsFromMethodSignature
+Parameters of the function: ['method']
+Identifier to be returned: ['result']
+Method Invocation: ['method', 'getParameterTypes', 'isAssignableFrom', 'result', 'add', 'isEmpty']
+Method Arguments: ['paramType']
+Variable declaration: ['result']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: coordinate
+Parameters of the function: ['longitude', 'latitude']
+Method Arguments: ['longitude', 'latitude']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: loadContextForAotProcessing
+Parameters of the function: ['mergedConfig']
+Method Invocation: ['loadContext']
+Method Arguments: ['mergedConfig']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setMisfireInstructionName
+Parameters of the function: ['constantName']
+Method Invocation: ['Assert', 'hasText', 'constants', 'get', 'notNull']
+Method Arguments: ['constantName', 'misfireInstruction']
+Variable declaration: ['misfireInstruction']
+Identifier to access field/array: ['misfireInstruction']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getIds
+Parameters of the function: ['tx', 'tokens']
+Method Invocation: ['empty', 'ids', 'add', 'getId', 'toArray']
+Method Arguments: ['tx', 'token']
+Variable declaration: ['ids']
+Identifier to access field/array: ['IntLists', 'mutable']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasMetaAnnotationTypes
+Parameters of the function: ['element', 'annotationType']
+Method Invocation: ['getAnnotations', 'stream', 'anyMatch']
+Method Arguments: ['element', 'annotationType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: of
+Method Invocation: ['Assert', 'notNull', 'List']
+Method Arguments: ['managedClassNames']
+Variable declaration: ['managedClassNames']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toString
+Method Invocation: ['uriBuilder']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: waitForState
+Parameters of the function: ['clusterService', 'threadContext', 'listener', 'statePredicate', 'timeout', 'logger']
+Method Invocation: ['clusterService', 'state', 'statePredicate', 'test', 'listener', 'onNewClusterState', 'observer', 'waitForNextChange']
+Method Arguments: ['initialState', 'clusterService', 'timeout', 'logger', 'threadContext', 'listener', 'statePredicate']
+Variable declaration: ['initialState', 'observer']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getPositionCount
+Method Invocation: ['block']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: commaDelimitedListToSet
+Parameters of the function: ['str']
+Method Invocation: ['commaDelimitedListToStringArray', 'Arrays', 'asList']
+Method Arguments: ['str', 'tokens']
+Variable declaration: ['tokens']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: unwatch
+Parameters of the function: ['thread', 'task']
+Method Invocation: ['schedule', 'ObjectUtil', 'checkNotNull']
+Method Arguments: ['thread', 'task']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setFieldValue
+Parameters of the function: ['doc', 'path', 'value']
+Method Invocation: ['doc', 'getSourceAndMetadata', 'source', 'containsKey', 'put']
+Method Arguments: ['path', 'value']
+Variable declaration: ['source']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: translateException
+Parameters of the function: ['task', 'sql', 'ex']
+Method Invocation: ['getExceptionTranslator', 'translate']
+Method Arguments: ['task', 'sql', 'ex']
+Variable declaration: ['dae']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getMessageConverters
+Method Invocation: ['configureMessageConverters', 'isEmpty', 'addDefaultHttpMessageConverters', 'extendMessageConverters']
+Identifier to access field/array: ['messageConverters']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: exponentialBackoff
+Parameters of the function: ['pastAttemptCount', 'maxBackoff']
+Method Invocation: ['Math', 'min', 'pow', 'random']
+Method Arguments: ['pastAttemptCount', 'boundedAttempt', 'maxBackoff']
+Variable declaration: ['boundedAttempt', 'actualBackoff', 'jitter']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toLowerCase
+Parameters of the function: ['word']
+Method Invocation: ['applyUpperCasePattern']
+Method Arguments: ['word']
+Variable declaration: ['mask']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ceilingPowerOfTwo
+Parameters of the function: ['value']
+Method Invocation: ['requirePositive', 'Integer', 'numberOfLeadingZeros']
+Method Arguments: ['value']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: add
+Parameters of the function: ['data', 'from', 'length', 'xContentType']
+Method Arguments: ['data', 'from', 'length', 'xContentType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setTimeout
+Parameters of the function: ['timeout']
+Method Invocation: ['sourceBuilder', 'timeout']
+Method Arguments: ['timeout']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: error
+Parameters of the function: ['cause', 'messageSupplier']
+Method Invocation: ['isErrorEnabled', 'LogMessage', 'of']
+Method Arguments: ['messageSupplier', 'cause']
+Identifier to access field/array: ['log']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: addUnboundedTo
+Parameters of the function: ['key', 'to']
+Method Invocation: ['addRange']
+Method Arguments: ['key', 'to']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getInt
+Parameters of the function: ['columnIndex']
+Method Arguments: ['columnIndex', 'se']
+Identifier to access field/array: ['resultSet']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setScopeAnnotationType
+Parameters of the function: ['scopeAnnotationType']
+Method Invocation: ['Assert', 'notNull']
+Method Arguments: ['scopeAnnotationType']
+Identifier to access field/array: ['scopeAnnotationType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: getNumMaxIndices
+Method Invocation: ['buffer', 'capacity']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: triggerBeforeCommit
+Parameters of the function: ['readOnly']
+Method Invocation: ['TransactionSynchronizationManager', 'getSynchronizations', 'synchronization', 'beforeCommit']
+Method Arguments: ['readOnly']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: toExplainIOConstraints
+Parameters of the function: ['session', 'tableHandle', 'constraints']
+Method Invocation: ['constraints', 'transform', 'isPartitionKey']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: handleError
+Parameters of the function: ['ex']
+Method Invocation: ['tryEmitEmpty', 'onError', 'sendProcessor', 'cancel']
+Method Arguments: ['ex']
+Variable declaration: ['sendProcessor']
+Identifier to access field/array: ['closeStatusSink', 'receivePublisher', 'sendProcessor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: hasUniqueWriteMethod
+Parameters of the function: ['pd']
+Method Invocation: ['gpd', 'pd', 'getWriteMethod']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: optionalStartBackgroundFetch
+Method Invocation: ['size', 'Math', 'min', 'startBackgroundFetch']
+Identifier to access field/array: ['queue', 'maxRecordsPerPoll']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: newHandler
+Parameters of the function: ['alloc', 'delegatedTaskExecutor']
+Method Arguments: ['alloc', 'startTls', 'delegatedTaskExecutor']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: flushBase64
+Method Invocation: ['out', 'write', 'encode3to4']
+Method Arguments: ['b4', 'buffer', 'position', 'options']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: elementType
+Parameters of the function: ['type']
+Identifier to be returned: ['type']
+Method Invocation: ['type', 'isArray', 'getElementType']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: cancel
+Parameters of the function: ['failure', 'cursorContext']
+Method Arguments: ['population', 'failure', 'cursorContext']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: sizeBy
+Parameters of the function: ['width', 'height']
+Method Invocation: ['sizeChanged']
+Identifier to access field/array: ['width', 'height']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: get
+Parameters of the function: ['key', 'defaultValue']
+Method Invocation: ['locateKey']
+Method Arguments: ['key']
+Variable declaration: ['i']
+Identifier to access field/array: ['valueTable', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: findKey
+Parameters of the function: ['value', 'identity', 'notFound']
+Identifier to be returned: ['notFound']
+Method Invocation: ['value', 'equals']
+Method Arguments: ['zeroValue']
+Variable declaration: ['valueTable', 'keyTable', 'i']
+Identifier to access field/array: ['valueTable', 'keyTable', 'length', 'i']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: processFieldValue
+Parameters of the function: ['name', 'value', 'type']
+Identifier to be returned: ['value']
+Method Invocation: ['getRequestContext', 'getRequestDataValueProcessor', 'getRequest', 'processor', 'processFormFieldValue']
+Method Arguments: ['httpServletRequest', 'name', 'value', 'type']
+Variable declaration: ['processor', 'request']
+Identifier to access field/array: ['pageContext']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: setCommentPrefix
+Parameters of the function: ['commentPrefix']
+Method Invocation: ['Assert', 'hasText']
+Method Arguments: ['commentPrefix']
+Identifier to access field/array: ['commentPrefixes']
+##########
+We categorized the identifiers into different classes. Please find the information below.
+Function name: ensureOpen
+Parameters of the function: ['exceptionSupplier']
+Method Arguments: ['exceptionSupplier']
+Identifier to access field/array: ['fileAccess']
+##########

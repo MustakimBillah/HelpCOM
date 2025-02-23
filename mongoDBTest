@@ -1,0 +1,22 @@
+from pymongo import MongoClient
+import csv
+
+# Connect to MongoDB
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+db = client.sample_mflix
+
+# Access the collection
+javaTestDataset = db.javaTestDataset
+
+# Open a CSV file in write mode
+with open('java_test_dataset.csv', 'w', newline='') as csvfile:
+    # Define the CSV writer
+    writer = csv.DictWriter(csvfile, fieldnames=['_id', 'func_name', 'docstring_tokens', 'url', 'sha', 'path', 'original_string', 'language', 'code', 'docstring', 'partition', 'helpers', 'repo', 'code_tokens'])  # Provide fieldnames if needed
+
+    # Write the header (field names)
+    writer.writeheader()
+
+    # Iterate over documents in the collection
+    for document in javaTestDataset.find():
+        # Write each document as a row in the CSV file
+        writer.writerow(document)

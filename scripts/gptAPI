@@ -1,0 +1,73 @@
+
+# required version for this code to run pip install openai==0.28
+
+import os
+import openai
+import json
+import csv
+import time
+
+openai.api_key = "sk-proj-dPQvN0GALJBgOPcFYYkWT3BlbkFJOMo2fRii5rMXSv7fxDEm"
+
+def generateComment(method):
+    instruction =("""
+                  Write down only the summary part of the Javadoc comment that would have been written by a developer for the following function,
+                  """)
+    prompt = instruction + "\"" + method + "\""
+    
+    completion = openai.ChatCompletion.create(
+        model="gpt-4o",
+        temperature=0.2,
+        messages=[
+            {"role": "system", "content": "You are an expert Java developer."},
+            {"role": "user", "content": prompt}
+            ]
+            )
+    return completion.choices[0].message["content"]
+
+
+
+def read_jsonl_file(file_path):
+    data = []
+    counter = 0
+    with open(file_path, 'r') as file:
+        for line in file:
+            json_data = json.loads(line)
+            method_body = ' '.join(json_data.get("code_tokens", []))
+            groundTruth = ' '.join(json_data.get("docstring_tokens", []))
+            if counter == 250:
+                break
+            try:
+                gptComment = generateComment(method_body)
+                data.append((method_body, gptComment, groundTruth))
+                counter+=1
+                print("processed data:",counter)
+                time.sleep(2)
+            except Exception as e:
+                print(f"Error occurred while generating comment: {e}")
+                time.sleep(60)
+    return data
+
+
+def save_to_csv(data, csv_file):
+    with open(csv_file, 'w', newline='') as file:
+        writer = csv.writer(file)
+        writer.writerow(['methodBody', 'gptComment', 'groundTruth'])
+        writer.writerows(data)
+ 
+
+csv_file = "/student/mjr175/commentGeneration/Test_From_Asap/outputJava250.csv"
+
+#processedData = read_jsonl_file("/student/mjr175/commentGeneration/ASAP_DATASET/Java_data/Java_data/test.jsonl")
+#save_to_csv(processedData, csv_file)
+print(generateComment('''public void testPreemptiveAuthEnabled() throws Exception {
+        final String[] methods = { "POST", "PUT", "GET", "DELETE" };
+
+        try (RestClient restClient = createRestClient(true, true, true)) {
+            for (final String method : methods) {
+                final Response response = bodyTest(restClient, method);
+
+                assertThat(response.getHeader("Authorization"), startsWith("Basic"));
+            }
+        }
+    }'''))

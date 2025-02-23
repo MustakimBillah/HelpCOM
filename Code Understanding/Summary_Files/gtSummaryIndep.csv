@@ -1,0 +1,591 @@
+_id,Summary
+67299ba101063176805e7e86,Get the central rotational inertia of the body.
+67299ba101063176805e7e87,"Sets the y-coordinate of circle center
+@param y The y-coordinate"
+67299ba101063176805e7e88,"Return default value for the JMX field ""currencyTimeLimit"", if any."
+67299ba101063176805e7e89,Return this BucketCollector wrapped as a {@link Collector}
+67299ba101063176805e7e8a,"Set the default value for HTML escaping,
+to be put into the current PageContext."
+67299ba101063176805e7e8b,"Returns the {@code DataSource} that will be initialized.
+@return the initialization data source"
+67299ba101063176805e7e8c,"Set types to use XML attributes for.
+@see XStream#useAttributeFor(Class)"
+67299ba101063176805e7e8d,Return the readerIdleTime that was given when instance this class in milliseconds.
+67299ba101063176805e7e8e,"Initialize a builder with the name and parameter types of a method.
+@param name the name of the method
+@param parameterTypes the parameter types of the method
+@return a builder"
+67299ba101063176805e7e8f,Make a {@linkplain NumberFieldMapper.NumberFieldType} for a {@code double}.
+67299ba101063176805e7e90,Creates a setting where the allowed values are defined as enum constants. All enum constants must be uppercase.
+67299ba101063176805e7e91,"Set the strategy to use to determine message codes for violations.
+<p>Default is a DefaultMessageCodesResolver."
+67299ba101063176805e7e92,"Specify a typed root object to resolve against.
+<p>Default is none, expecting an object argument at evaluation time.
+@see org.springframework.expression.Expression#getValue(EvaluationContext)
+@see org.springframework.expression.Expression#getValue(EvaluationContext, Object)"
+67299ba101063176805e7e93,Creates a name from the given string.
+67299ba101063176805e7e94,Get the first value
+67299ba101063176805e7e95,"Specify the desired number of fraction digits.
+Default is 2."
+67299ba101063176805e7e96,Creates a new physical operation with the given source and layout.
+67299ba101063176805e7e97,"Creates needed directories.
+@throws IOException if something went wrong"
+67299ba101063176805e7e98,"@param channel the channel to write the enrichment data to
+@throws IOException if unable to write the enrichment data"
+67299ba101063176805e7e99,Get the instance of the held JobManager.
+67299ba101063176805e7e9a,Set the STOMP message broker port.
+67299ba101063176805e7e9b,Create a {@code ResolvableMethod} builder for the given handler class.
+67299ba101063176805e7e9c,"Sets expandX, expandY, fillX, and fillY to 1."
+67299ba101063176805e7e9d,"Adds an abstract type to the list of types on which a constructor is invoked in the basic
+block."
+67299ba101063176805e7e9e,"Executes the shard-level operation. This method is called once per shard serially on the receiving node.
+This method should not throw an exception, but pass the exception to the listener instead."
+67299ba101063176805e7e9f,Creates a phrase suggestion lookup query with the provided <code>field</code>
+67299ba101063176805e7ea0,"Handle the given request.
+@param request the request to handle
+@return the response"
+67299ba101063176805e7ea1,@return the number of bytes for the term based on the length and ordinal overhead
+67299ba101063176805e7ea2,@return the name of the linked join field for documents of a specific parent type
+67299ba101063176805e7ea3,Returns the first item.
+67299ba101063176805e7ea4,"Sets the indices to be closed
+@param indices the indices to be closed
+@return the request itself"
+67299ba101063176805e7ea5,Returns true if all the given flags were passed to the constructor.
+67299ba101063176805e7ea6,"Return a new {@link BuildRequest} with an updated application directory.
+@param applicationDirectory the application directory
+@return an updated build request"
+67299ba101063176805e7ea7,Resolves the request. Throws an exception if the request cannot be resolved.
+67299ba101063176805e7ea8,Set the name of the default theme.
+67299ba101063176805e7ea9,@return Settings that are common to all filter plugins.
+67299ba101063176805e7eaa,Translates the polygon's position by the specified horizontal and vertical amounts.
+67299ba101063176805e7eab,"Called from page cache after new file mapping was performed
+@param pagedFile newly mapped paged file"
+67299ba101063176805e7eac,"Returns the number of remaining elements in this buffer, that is {@code limit - position}."
+67299ba101063176805e7ead,Sets the require_alias flag
+67299ba101063176805e7eae,Return whether this map is a constant value.
+67299ba101063176805e7eaf,"Return the unsupported location reference.
+@return the unsupported location reference"
+67299ba101063176805e7eb0,Sets the maximum word length above which words will be ignored.
+67299ba101063176805e7eb1,Set the value of the '{@code disabled}' attribute.
+67299ba101063176805e7eb2,Sets the conditions that need to be met for the index to roll over
+67299ba101063176805e7eb3,Creates an hourly schedule.
+67299ba101063176805e7eb4,"Creates a new page, appending the given block to the existing blocks in this Page."
+67299ba101063176805e7eb5,Returns a new array based char buffer with the specified capacity.
+67299ba101063176805e7eb6,Format the thread pool info object for this executor.
+67299ba101063176805e7eb7,Signifies that the execution of the query updates the schema.
+67299ba101063176805e7eb8,Installs a mock filesystem for testing
+67299ba101063176805e7eb9,"Return the initial delay, or {@code null} if none.
+@since 6.0"
+67299ba101063176805e7eba,"Return a new {@link BuildRequest} with an updated launch cache.
+@param launchCache the cache
+@return an updated build request"
+67299ba101063176805e7ebb,"Reads line from user, returns null if end of stream is reached."
+67299ba101063176805e7ebc,"Checks whether a word contains a sequence of 0's with no set bit, or 1's
+with no unset bit."
+67299ba101063176805e7ebd,"Set the {@link Marshaller} to use to serialize messages.
+@param marshaller the message marshaller
+@return a new builder instance.
+@see WebServiceTemplate#setMarshaller(Marshaller)"
+67299ba101063176805e7ebe,"Creates a concrete JMS message endpoint, internal to this factory."
+67299ba101063176805e7ebf,Set the cache name(s) that this resolver should use.
+67299ba101063176805e7ec0,Sets the number of times to apply a blur to the shadow. Set to 0 for no blur.
+67299ba101063176805e7ec1,Multiply a vector by the transpose of this matrix.
+67299ba101063176805e7ec2,Returns the block at the given block index.
+67299ba101063176805e7ec3,Sets the validation method to use for geo coordinates.
+67299ba101063176805e7ec4,"Convert the existing code to a hangup.
+@return a new ExitStatus with hangup=true"
+67299ba101063176805e7ec5,Set whether doc count error will be return for individual terms
+67299ba101063176805e7ec6,Creates a {@link LimitedRole} that uses this Role as base and the given role as limited-by.
+67299ba101063176805e7ec7,"Returns <code>true</code> iff the this shard is currently relocating to
+another node. Otherwise <code>false</code>"
+67299ba101063176805e7ec8,Write message to update the filters
+67299ba101063176805e7ec9,Analyzes the task and determines the appropriate runner type for executing it.
+67299ba101063176805e7eca,Distance between two points squared.
+67299ba101063176805e7ecb,Adds {@link Align#left} and clears {@link Align#right} for the alignment of the logical table within the table actor.
+67299ba101063176805e7ecc,"Return if the application PID is available.
+@return {@code true} if the PID is available
+@since 3.4.0"
+67299ba101063176805e7ecd,"Create an instance with
+{@link org.springframework.messaging.simp.SimpMessageType} {@code MESSAGE}."
+67299ba101063176805e7ece,Clears all stats.
+67299ba101063176805e7ecf,Returns true if the source contains a script that can change the value.
+67299ba101063176805e7ed0,Sets the verbosity of the terminal.
+67299ba101063176805e7ed1,true if all relationships can be traversed
+67299ba101063176805e7ed2,"Build a {@code SingletonSupplier} with the given supplier.
+@param supplier the instance supplier (potentially {@code null})
+@return the singleton supplier, or {@code null} if the instance supplier was {@code null}"
+67299ba101063176805e7ed3,Get the field capabilities map.
+67299ba101063176805e7ed4,Create a new {@link Nested} aggregation with the given name.
+67299ba101063176805e7ed5,Returns true if snapshot completed (successfully or not)
+67299ba101063176805e7ed6,Advances the current ticker by the given amount.
+67299ba101063176805e7ed7,Distance between two points squared.
+67299ba101063176805e7ed8,Returns the first item.
+67299ba101063176805e7ed9,Create a sequence of segment-based {@link ReadableInput}.
+67299ba101063176805e7eda,"Return the configured {@code allowCredentials} flag, or {@code null} if none.
+@see #setAllowCredentials(Boolean)"
+67299ba101063176805e7edb,"Sets the precision level for computing the geohash from the context geo point.
+Defaults to using index-time precision level"
+67299ba101063176805e7edc,"Sets if this request should allow partial results. (If method is not called,
+will default to the cluster level setting)."
+67299ba101063176805e7edd,Notifies the AndroidAudio if an AndroidMusic is disposed *
+67299ba101063176805e7ede,"Whether this input is a channel (from {@link #channel(ReadableFrameChannel, FrameReader, StagePartition)}."
+67299ba101063176805e7edf,Number of slots at <code>level</code>
+67299ba101063176805e7ee0,Sets the maximum number of buttons that can be checked. Set to -1 for no maximum. Default is 1.
+67299ba101063176805e7ee1,"Create a JAXP 1.4 {@link StAXResult} for the given {@link XMLEventWriter}.
+@param eventWriter the StAX event writer
+@return a result wrapping {@code streamReader}"
+67299ba101063176805e7ee2,Build lucene index storage with specified configuration
+67299ba101063176805e7ee3,Computes the segment associated with a given index.
+67299ba101063176805e7ee4,"/*
+		gdx2d_draw_circle((gdx2d_pixmap*)pixmap, x, y, radius, color);"
+67299ba101063176805e7ee5,"Set whether the returned {@link Connection}'s ""autoCommit"" setting should
+be overridden."
+67299ba101063176805e7ee6,@return a calculator of property value sizes. The returned instance is designed to be used multiple times by a single thread only.
+67299ba101063176805e7ee7,"Set the pattern to use to format date values.
+@param pattern the format pattern"
+67299ba101063176805e7ee8,"Checks if a given SqlSyntax value represents a valid function syntax. Treats anything other
+than prefix/suffix/binary syntax as function syntax."
+67299ba101063176805e7ee9,"Set whether filters should be eagerly initialized.
+@param eagerFilterInit {@code true} if filters are eagerly initialized, otherwise
+{@code false}.
+@since 2.4.0"
+67299ba101063176805e7eea,"Postmultiplies this matrix with a (counter-clockwise) rotation matrix. Postmultiplication is also used by OpenGL ES' 1.x
+glTranslate/glRotate/glScale.
+@param rotation
+@return This matrix for the purpose of chaining methods together."
+67299ba101063176805e7eeb,Logs a debug message to the console or logcat
+67299ba101063176805e7eec,The stats groups this request will be aggregated under.
+67299ba101063176805e7eed,Associates a filter to the alias
+67299ba101063176805e7eee,"Builds the request with no body.
+@return the request
+@see BodyBuilder#body(Publisher)
+@see BodyBuilder#body(String)"
+67299ba101063176805e7eef,Returns a new double buffer based on the specified double array.
+67299ba101063176805e7ef0,Finish a table creation with data after the data is written.
+67299ba101063176805e7ef1,"Report number of observed pins
+@param pins number of pins"
+67299ba101063176805e7ef2,"Returns the memory allocator for the writable channel. The producer uses this to generate frames for the channel.
+Throws ISE if the output channel is read only."
+67299ba101063176805e7ef3,Return the number of bytes stored in this {@code FastByteArrayOutputStream}.
+67299ba101063176805e7ef4,Sets the name of the index where the indexed Shape can be found
+67299ba101063176805e7ef5,Set the user's chronology (calendar system).
+67299ba101063176805e7ef6,Builds the response to send back through the channel.
+67299ba101063176805e7ef7,Return the AopProxyFactory that this ProxyConfig uses.
+67299ba101063176805e7ef8,"Count the number of occurrences of substring in string. Considers overlapping occurrences as multiple occurrences;
+for example the string ""--"" is counted as appearing twice in ""---""."
+67299ba101063176805e7ef9,Set the schema resources to use for validation.
+67299ba101063176805e7efa,"Check if this format family is higher ranked than another format family.
+It is generally possible to migrate from a lower ranked family to a higher ranked family.
+@param other family to compare with.
+@return {@code true} if this family is higher ranked than {@code other}."
+67299ba101063176805e7efb,"Extract the x scale from a matrix, which is the length of the first column."
+67299ba101063176805e7efc,Compute number of bytes required to represent variable byte encoded integer.
+67299ba101063176805e7efd,Sets the prefWidth and prefHeight to the specified values.
+67299ba101063176805e7efe,Sets the format to use on the output of this aggregation.
+67299ba101063176805e7eff,"Returns the {@link EmbeddedDatabaseType} for the connection.
+@return the database type"
+67299ba101063176805e7f00,Set the position in the related expression which gave rise to this exception.
+67299ba101063176805e7f01,"Determine whether the underlying type represents a wildcard
+without specific bounds (i.e., equal to {@code ? extends Object})."
+67299ba101063176805e7f02,Return the MimeMessageHelper that this MimeMailMessage is based on.
+67299ba101063176805e7f03,Get the value of the '{@code onfocus}' attribute.
+67299ba101063176805e7f04,"Hook that subclasses or anonymous classes can override to implement custom behavior
+after invocation completes."
+67299ba101063176805e7f05,"Sets the servlet to be registered.
+@param servlet the servlet"
+67299ba101063176805e7f06,Set the URI template used for the current client exchange.
+67299ba101063176805e7f07,Generates an array of {@code length} random bytes using {@link java.security.SecureRandom}
+67299ba101063176805e7f08,Conjugate the quaternion.
+67299ba101063176805e7f09,"<code>optional .SecondMsg blah = 2;</code>
+@return Whether the blah field is set."
+67299ba101063176805e7f0a,Sets the app to use windowed mode.
+67299ba101063176805e7f0b,"Sets the specified 32-bit floating-point number at the specified
+absolute {@code index} in this buffer.
+This method does not modify {@code readerIndex} or {@code writerIndex} of
+this buffer."
+67299ba101063176805e7f0c,Index a set of translog operations on the target
+67299ba101063176805e7f0d,Creates invalidate API key request for given api key ids
+67299ba101063176805e7f0e,Create an instance by copying the headers of a Message.
+67299ba101063176805e7f0f,Sets the minimum time that the request should wait before returning a partial result (defaults to no wait).
+67299ba101063176805e7f10,Convert a boolean into a long expression type
+67299ba101063176805e7f11,"Return whether to ignore a nested path, if any."
+67299ba101063176805e7f12,"Inserts a {@link ChannelHandler} before an existing handler of this
+pipeline."
+67299ba101063176805e7f13,Convert an input byte array into a string using the {@link Base64} encoding scheme
+67299ba101063176805e7f14,"Customize the given {@code configurer}.
+@param configurer the configurer"
+67299ba101063176805e7f15,"Return the required type for the lookup, if available."
+67299ba101063176805e7f16,Set the user data
+67299ba101063176805e7f17,Enable/disable warm starting. For testing.
+67299ba101063176805e7f18,"Return the request mapping paths that are not patterns.
+@since 5.3"
+67299ba101063176805e7f19,the average number primary shards across the indices
+67299ba101063176805e7f1a,Creates invalidate api key request for given api key name
+67299ba101063176805e7f1b,"Reduces the size of the array to the specified size. If the array is already smaller than the specified size, no action is
+taken."
+67299ba101063176805e7f1c,"Get the total time for all tasks in nanoseconds.
+@since 5.2
+@see #getTotalTime(TimeUnit)"
+67299ba101063176805e7f1d,"Set the restarter instance (useful for testing).
+@param instance the instance to set"
+67299ba101063176805e7f1e,"@param msg the current frame.
+@return true if compressed payload tail needs to be removed."
+67299ba101063176805e7f1f,Set the prefix that gets prepended to view names when building a URL.
+67299ba101063176805e7f20,"Set whether to wait for running jobs to complete on shutdown.
+Default is ""false"".
+@see org.quartz.simpl.SimpleThreadPool#shutdown(boolean)"
+67299ba101063176805e7f21,Process the search response from progress search call and return progress information.
+67299ba101063176805e7f22,Return the configured {@link Scheduler}.
+67299ba101063176805e7f23,Find base cell given a face and a CoordIJK.
+67299ba101063176805e7f24,Return the time-to-live of the message when sending.
+67299ba101063176805e7f25,Returns the lock id for the given entry and the lock.
+67299ba101063176805e7f26,"Change the default verification mode.
+The initial verification mode is {@link SslVerificationMode#FULL}."
+67299ba101063176805e7f27,Retrieves the character at the {@code index}.
+67299ba101063176805e7f28,"@param candidates one or more candidate states
+@return {@code true} if state matches none of the given {@code candidates}"
+67299ba101063176805e7f29,Add {@link HashedWheelTimeout} to this bucket.
+67299ba101063176805e7f2a,"Sets the minWidth, prefWidth, and maxWidth to the specified value."
+67299ba101063176805e7f2b,An optional field name suffix to automatically try and add to the field searched when using quoted text.
+67299ba101063176805e7f2c,"Returns a new block scope with the current scope as
+its parent."
+67299ba101063176805e7f2d,"Specify the pointcut targeting the advice.
+<p>Default is {@code Pointcut.TRUE}.
+@see #setAdviceBeanName"
+67299ba101063176805e7f2e,Normalizes request size up to the nearest size class.
+67299ba101063176805e7f2f,"<code>optional float someFloatColumn = 7;</code>
+@return The someFloatColumn."
+67299ba101063176805e7f30,"Cap the specified value such that it cannot exceed the number of bytes
+remaining.
+@param n the value to cap
+@return the capped value"
+67299ba101063176805e7f31,Return the information requested in pname about the vertex attribute at the passed index.
+67299ba101063176805e7f32,"Add directional light in shadow system
+@param dir DirectionalLight to add in the ShadowSystem"
+67299ba101063176805e7f33,Sets uniformX to true.
+67299ba101063176805e7f34,Reset (clear) all fields which are part to the model configuration
+67299ba101063176805e7f35,"Sets the center point of the query.
+@param lat latitude of center
+@param lon longitude of center"
+67299ba101063176805e7f36,Associate a textual description with this trigger.
+67299ba101063176805e7f37,Deserialize a shard-level result from an input stream
+67299ba101063176805e7f38,The total number of buckets collected by this strategy.
+67299ba101063176805e7f39,Sets the padding to the left of a glyph on the GlyphPage to allow for effects to be drawn.
+67299ba101063176805e7f3a,"Create a new {@link Socket} for the given path.
+@param path the path to the domain socket
+@return a {@link Socket} instance
+@throws IOException if the socket cannot be opened"
+67299ba101063176805e7f3b,"Configure the name of the attribute that holds the lookupPath extracted
+via {@link UrlPathHelper#getLookupPathForRequest(HttpServletRequest)}.
+<p>By default this is {@link UrlPathHelper#PATH_ATTRIBUTE}.
+@param name the request attribute to check
+@since 5.2
+@deprecated as of 5.3 in favor of {@link UrlPathHelper#PATH_ATTRIBUTE}."
+67299ba101063176805e7f3c,Ceiling of integer division
+67299ba101063176805e7f3d,Gets the previous item in the list
+67299ba101063176805e7f3e,"Verify that the actual cookies do not contain a cookie with the given
+{@code name}.
+@param name the name of a cookie that should not be present
+@see #doesNotContainKey"
+67299ba101063176805e7f3f,"Set the minimum time that an idle object can sit in the pool before
+it becomes subject to eviction. Default is 1800000 (30 minutes).
+<p>Note that eviction runs need to be performed to take this
+setting into effect.
+@see #setTimeBetweenEvictionRunsMillis
+@see GenericObjectPool#setMinEvictableIdleTimeMillis"
+67299ba101063176805e7f40,"Return the view name to be resolved by the DispatcherServlet via a
+ViewResolver, or {@code null} if a View object is set."
+67299ba101063176805e7f41,Calculate the current buffer size.
+67299ba101063176805e7f42,"@return True if argument is a valid IPv6 address semicolon separated string. Single segments, Inet addresses and subnets are not allowed."
+67299ba101063176805e7f43,The distance unit to use. Defaults to {@link org.elasticsearch.common.unit.DistanceUnit#METERS}
+67299ba101063176805e7f44,Sets a new location and radius for this circle.
+67299ba101063176805e7f45,"Get the attribute at the specified index.
+@param index the index of the attribute to return
+@return the attribute method
+@throws IndexOutOfBoundsException if the index is out of range
+({@code index < 0 || index >= size()})"
+67299ba101063176805e7f46,Mark the resource transaction as rollback-only.
+67299ba101063176805e7f47,Builds the task description from the model id that initiated the task.
+67299ba101063176805e7f48,Map from datasource name to the number of running tasks on the Indexer.
+67299ba101063176805e7f49,"/*
+		memcpy(dst + dstOffset, src + srcOffset, numBytes);"
+67299ba101063176805e7f4a,Reverses part of an array. See {@link #reverse(int[])}
+67299ba101063176805e7f4b,"<code>optional string foo = 1;</code>
+@return Whether the foo field is set."
+67299ba101063176805e7f4c,Set the HandlerExceptionResolver types to use as a list.
+67299ba101063176805e7f4d,Gets the perimeter length
+67299ba101063176805e7f4e,@param y new y axis coordinate
+67299ba101063176805e7f4f,Build a new {@link AliasAction} to add aliases.
+67299ba101063176805e7f50,Sets the padding to the right of a glyph on the GlyphPage to allow for effects to be drawn.
+67299ba101063176805e7f51,"Create a character array for characters [{@code from}, {@code to}]."
+67299ba101063176805e7f52,"Add a listener to handle events from the libGDX root view controller
+@param listener The {#link IOSViewControllerListener} to add"
+67299ba101063176805e7f53,"Return the parent of this instance or {@code null} if not an inner-bean.
+@return the parent"
+67299ba101063176805e7f54,Returns a {@code short} value using endian order.
+67299ba101063176805e7f55,Makes PageCache have the specified page size.
+67299ba101063176805e7f56,"This resolver supports i18n, so cache keys should contain the locale."
+67299ba101063176805e7f57,"Every time a point is added and another is removed from the collection, this method sends the resulting state"
+67299ba101063176805e7f58,"Create a request builder with the given HTTP method and url.
+@param method the HTTP method (GET, POST, etc)
+@param url the url (as a URI instance)
+@return the created builder"
+67299ba101063176805e7f59,Return the JndiTemplate used for JNDI lookups.
+67299ba101063176805e7f5a,"Convert the given name to lower case.
+<p>By default, conversions will happen within the US locale.
+@param name the original name
+@return the converted name"
+67299ba101063176805e7f5b,Sets the GapPolicy to use on the output of this aggregation.
+67299ba101063176805e7f5c,"Sets the query-time boost for the context
+Defaults to 1"
+67299ba101063176805e7f5d,Sets how many search requests specified in this multi search requests are allowed to be ran concurrently.
+67299ba101063176805e7f5e,"Request an aggregation that returns the {@link CardinalityUpperBound}
+that was passed to its ctor."
+67299ba101063176805e7f5f,"Compute the size in bytes of a sparse-encoding serialized histogram, without the serialization header"
+67299ba101063176805e7f60,"Return the ID of the given entity. Delegates to
+{@link PersistenceUnitUtil#getIdentifier(Object)}.
+@param entity the source entity
+@return the ID of the entity or {@code null}
+@see #getId(Object, Class)"
+67299ba101063176805e7f61,Specify the name of the schema.
+67299ba101063176805e7f62,"Check read key size for tombstone.
+@return True if read key size has tombstone."
+67299ba101063176805e7f63,Sets this matrix to a scaling matrix.
+67299ba101063176805e7f64,Returns the number of padding bytes that should be appended to the end of a frame.
+67299ba101063176805e7f65,"Updates the git repository's tags from the specified remote
+@param remote the remote to use to update"
+67299ba101063176805e7f66,@param listener May be null.
+67299ba101063176805e7f67,Publish result on https://microbenchmarks.appspot.com
+67299ba101063176805e7f68,Number of bytes required to encode 128 integers of {@code bitsPerValue} bits per value.
+67299ba101063176805e7f69,"Return the full version string of the present Spring Boot codebase.
+@return the version of Spring Boot"
+67299ba101063176805e7f6a,"Returns the declaring class of {@code typeVariable}, or {@code null} if it was not declared by
+a class."
+67299ba101063176805e7f6b,Returns {@code true} if TCP FastOpen is enabled.
+67299ba101063176805e7f6c,"Look up the 3 bits base64-encoded by the specified character,
+range-checking againt conversion table
+@param x the base64-encoded value
+@return  the decoded value of x"
+67299ba101063176805e7f6d,Accepts an event. It might be rejected if the input is stopping.
+67299ba101063176805e7f6e,"Set the group of the job.
+<p>Default is the default group of the Scheduler.
+@see org.quartz.Scheduler#DEFAULT_GROUP"
+67299ba101063176805e7f6f,Provide an instance of {@link DruidConnectionStateListener} for monitoring connection state.
+67299ba101063176805e7f70,"Encode the position for the given level and offset. The idea is to encode the level using unary coding in the lower bits and
+then the offset in the higher bits."
+67299ba101063176805e7f71,Whether this checkpoint is a transient (non persisted) checkpoint
+67299ba101063176805e7f72,Set the Charset passed by the browser if defined
+67299ba101063176805e7f73,Convert the given color (rgb or system) to an ansi-compatible index (for use with ESC[38;5;<value>m)
+67299ba101063176805e7f74,"Sets the button to listen for, all other buttons are ignored. Default is {@link Buttons#LEFT}. Use -1 for any button."
+67299ba101063176805e7f75,A random field compatible with FieldValueFactor.
+67299ba101063176805e7f76,Returns the body of this entity.
+67299ba101063176805e7f77,Set the center of the circle
+67299ba101063176805e7f78,Create connector specific ColumnHandle for given subfield that is being pushed into table scan.
+67299ba101063176805e7f79,"Return a {@link Comparable} adapter.
+@see Comparator#naturalOrder()"
+67299ba101063176805e7f7a,Returns true if snapshot completed (successfully or not)
+67299ba101063176805e7f7b,Generate a random precision according to the rules of the given aggregation.
+67299ba101063176805e7f7c,@param rotation new texture's rotation in radians
+67299ba101063176805e7f7d,"@param r the other {@link Rectangle}
+@return whether this rectangle overlaps the other rectangle."
+67299ba101063176805e7f7e,Sets whether to flip the tile vertically.
+67299ba101063176805e7f7f,Set the coordinates and color of a ninth of the patch.
+67299ba101063176805e7f80,"Rotates this sprite 90 degrees in-place by rotating the texture coordinates. This rotation is unaffected by
+{@link #setRotation(float)} and {@link #rotate(float)}."
+67299ba101063176805e7f81,Return the sort definition for this holder.
+67299ba101063176805e7f82,"Create a new {@link LevelConfiguration} instance for a custom level name.
+@param name the log level name
+@return a new {@link LevelConfiguration} instance"
+67299ba101063176805e7f83,Random string that does not contain \r or \n.
+67299ba101063176805e7f84,"Sets the horizontal alignment of the list items.
+@param alignment See {@link Align}."
+67299ba101063176805e7f85,The index the operation failed on. Might return {@code null} if it can't be derived.
+67299ba101063176805e7f86,Return the value for the passed pname given the passed program.
+67299ba101063176805e7f87,Remove all entries from the dynamic table.
+67299ba101063176805e7f88,"Remove light from the shadowSystem
+@param point PointLight to remove in the ShadowSystem"
+67299ba101063176805e7f89,"/*
+		memcpy(dst + dstOffset, src + srcOffset, numBytes);"
+67299ba101063176805e7f8a,"Set if the {@link FileSystemWatcher} should be stopped when a full restart occurs.
+@param stopWatcherOnRestart if the watcher should be stopped when a restart occurs"
+67299ba101063176805e7f8b,Write the given object to the output message with the given serializer and format.
+67299ba101063176805e7f8c,@return the oldest value in the window
+67299ba101063176805e7f8d,"Return the concurrency for the listener, if any."
+67299ba101063176805e7f8e,"Create a new instance with a
+{@value io.netty.handler.codec.compression.SnappyFrameEncoder#SNAPPY_SLICE_JUMBO_SIZE}
+chunk size."
+67299ba101063176805e7f8f,Constructs a painless field key used to lookup painless fields from a painless class.
+67299ba101063176805e7f90,"<code>optional bool isValid = 5;</code>
+@return Whether the isValid field is set."
+67299ba101063176805e7f91,Enable/disable continuous physics. For testing.
+67299ba101063176805e7f92,"Indicates whether the given {@link TrustManager} was created by this distribution of
+Conscrypt."
+67299ba101063176805e7f93,Return the {@link ByteBuf} stored at the given index of the array.
+67299ba101063176805e7f94,"Return the actual origin for the source if known.
+@return the actual source origin
+@since 3.2.8"
+67299ba101063176805e7f95,Create an iterator over a set of S3 objects specified by a set of prefixes.
+67299ba101063176805e7f96,"Returns a {@link Collector} that accumulates the input elements into a sorted map and finishes the resulting set into an
+unmodifiable sorted map. The resulting read-only view through the unmodifiable sorted map is a sorted map."
+67299ba101063176805e7f97,Set the draw-time width of the three left edge patches
+67299ba101063176805e7f98,Returns false if either array is unordered.
+67299ba101063176805e7f99,"@param fuzzyMaxExpansions Sets the maximum number of expansions allowed in a fuzzy query.
+Defaults to {@link FuzzyQuery#defaultMaxExpansions}."
+67299ba101063176805e7f9a,Set the user data pointer.
+67299ba101063176805e7f9b,"Return whether the indicated base cell is a pentagon where all
+neighbors are oriented towards it."
+67299ba101063176805e7f9c,Build the {@link RSocketRequestValues} instance.
+67299ba101063176805e7f9d,Return the current Locale.
+67299ba101063176805e7f9e,Creates a builder for new client-side {@link SslContext}.
+67299ba101063176805e7f9f,"Encode a message into a {@link ByteBuf}. This method will be called for each written message that can be handled
+by this encoder."
+67299ba101063176805e7fa0,Return the SortDefinition that this comparator uses.
+67299ba101063176805e7fa1,Sets or clears bits specified by the {@code bitMask} in the header byte.
+67299ba101063176805e7fa2,Sets the width of the outline. The glyphs will need padding so the outline doesn't get clipped.
+67299ba101063176805e7fa3,"Initialize this endpoint's TransactionDelegate.
+@param xaResource the XAResource for this endpoint"
+67299ba101063176805e7fa4,"Encodes the byte array into a newly created hex char array, without allocating any other temporary variables."
+67299ba101063176805e7fa5,setter for y
+67299ba101063176805e7fa6,"Sets the minWidth, prefWidth, and maxWidth to the specified value."
+67299ba101063176805e7fa7,"Customize the {@link ResourceDatabasePopulator}.
+@param populator the configured database populator
+@since 2.6.2"
+67299ba101063176805e7fa8,return the list of metrics that are computed for the field
+67299ba101063176805e7fa9,Converts an integer in the range of an unsigned 16-bit integer to a big-endian byte pair
+67299ba101063176805e7faa,Returns the listener to notify of the results.
+67299ba101063176805e7fab,"This sets the maximum depth in the form of a maximum number of
+relationships to follow."
+67299ba101063176805e7fac,"@param flags flags, typically provided by the user to the writer.
+@return the split ratio to be used, given the flags."
+67299ba101063176805e7fad,Creates invalidate API key request for given realm and user name
+67299ba101063176805e7fae,Returns true if longitude is actually a valid longitude value.
+67299ba101063176805e7faf,"Get the signed short at the given offset into the page.
+Leaves the current page offset unchanged."
+67299ba101063176805e7fb0,"Returns the height of the specified row, or 0 if the table layout has not been validated."
+67299ba101063176805e7fb1,Converts the byte array representation of a z-address into its long representation.
+67299ba101063176805e7fb2,"Increment the {@link #getEvaluations() evaluation count}.
+@since 6.1
+@see #matches(Method, Class, Object...)"
+67299ba101063176805e7fb3,Internal: build an {@link AggregatorFactory} based on the configuration of this builder.
+67299ba101063176805e7fb4,Handles the initial HttpResponse object that comes back from Netty.
+67299ba101063176805e7fb5,Set the suffix that gets appended to view names when building a URL.
+67299ba101063176805e7fb6,"Returns the index of the lowest {@link Visibility} from the given
+candidates.
+@param candidates the candidates to check
+@return the index of the lowest {@link Visibility} from the candidates"
+67299ba101063176805e7fb7,Padding at the right edge of the table.
+67299ba101063176805e7fb8,"Set the URL patterns that the filter will be registered against. This will replace
+any previously specified URL patterns.
+@param urlPatterns the URL patterns
+@see #setServletRegistrationBeans
+@see #setServletNames"
+67299ba101063176805e7fb9,Set the schema resource to use for validation.
+67299ba101063176805e7fba,@param x new x axis origin
+67299ba101063176805e7fbb,"Return the reason, or {@code null} if none."
+67299ba101063176805e7fbc,Calculates maximum possible size of output buffer for not compressible data.
+67299ba101063176805e7fbd,Draw a string.
+67299ba101063176805e7fbe,"Sets the padTop, padLeft, padBottom, and padRight to the specified value."
+67299ba101063176805e7fbf,Return a read-only list with the supported content codings.
+67299ba101063176805e7fc0,Return the collection of values for fields that have been ignored so far.
+67299ba101063176805e7fc1,Map from datasource name to the number of assigned tasks to the Indexer.
+67299ba101063176805e7fc2,Determine the operating mode for a license type
+67299ba101063176805e7fc3,Return the potentially stale cached entry.
+67299ba101063176805e7fc4,"Sets the specified 64-bit floating-point number at the specified
+absolute {@code index} in this buffer.
+This method does not modify {@code readerIndex} or {@code writerIndex} of
+this buffer."
+67299ba101063176805e7fc5,"This implementation opens a FileOutputStream for the underlying file.
+@see java.nio.file.Files#newOutputStream(Path, java.nio.file.OpenOption...)"
+67299ba101063176805e7fc6,"Return options that this command accepts.
+@return the command options"
+67299ba101063176805e7fc7,Zig-zag encode: this helps transforming small signed numbers into small positive numbers.
+67299ba101063176805e7fc8,"@return true if handled, false if you want to let the normal url handling continue"
+67299ba101063176805e7fc9,Set whether this IndexRequest requires a data stream. The data stream may be pre-existing or to-be-created.
+67299ba101063176805e7fca,Called once a node connection is opened and registered.
+67299ba101063176805e7fcb,"Returns true if the specified value is in the map. Note this traverses the entire map and compares every value, which may
+be an expensive operation."
+67299ba101063176805e7fcc,"Left-multiplies this vector by the given matrix
+@param mat the matrix
+@return this vector"
+67299ba101063176805e7fcd,Sets the id of the document to delete.
+67299ba101063176805e7fce,"Returns the index of the type argument that the given step is stepping into. This method should
+only be used for steps whose value is {@link #TYPE_ARGUMENT}."
+67299ba101063176805e7fcf,"Sets the bit depth of the color, depth and stencil buffer as well as multi-sampling."
+67299ba101063176805e7fd0,Handler for a frame not defined by the HTTP/2 spec.
+67299ba101063176805e7fd1,"Sets the rotation of this cell, in 90 degree increments."
+67299ba101063176805e7fd2,@return IPv6 address from supplied array of bytes
+67299ba101063176805e7fd3,Multiplies this quaternion with another one in the form of this = this * other
+67299ba101063176805e7fd4,Create a proxy. Provide a tight fitting AABB and a userData pointer.
+67299ba101063176805e7fd5,Create a new DatabaseTracer instance.
+67299ba101063176805e7fd6,"Last available checkpoint
+@return last checkpoint"
+67299ba101063176805e7fd7,Called when the canvas size changes.
+67299ba101063176805e7fd8,"Override the default {@link TimeZone} to use for formatting.
+Default value used is UTC (NOT local timezone).
+@since 4.1.5"
+67299ba101063176805e7fd9,"@param value A double value.
+@return Value logarithm (base e)."
+67299ba101063176805e7fda,Gets the highest bit of the H3 index.
+67299ba101063176805e7fdb,"<code>required string bar = 1;</code>
+@return The bytes for bar."
+67299ba101063176805e7fdc,"For the given resolution, it returns the maximum latitude of the h3 bin containing the south pole"
+67299ba101063176805e7fdd,"basically, is last block
+@return true if this is the end of the stream"
+67299ba101063176805e7fde,<code>required uint32 year = 1;</code>
+67299ba101063176805e7fdf,"Override this method to configure ""default"" Servlet handling.
+@see DefaultServletHandlerConfigurer"
+67299ba101063176805e7fe0,Returns the textual representation of this handle. The textual representation is:
+67299ba101063176805e7fe1,Sets optional minimumShouldMatch value to apply to the query
+67299ba101063176805e7fe2,The geo distance type used to compute the distance.
+67299ba101063176805e7fe3,Create a new MemoryBasicInformation for use by VirtualQuery and VirtualQueryEx
+67299ba101063176805e7fe4,"@return true if this vector is collinear with the other vector ({@link #isOnLine(Vector)} &&
+        {@link #hasSameDirection(Vector)})."
+67299ba101063176805e7fe5,Initializes a new state machine context for a given connection.
+67299ba101063176805e7fe6,Creates a new {@link EventLoop}.  The default implementation creates a new {@link ThreadPerChannelEventLoop}.
+67299ba101063176805e7fe7,"Set the URL to use. When set, this overrides the
+{@linkplain #setUriTemplate(String) URI template} from the
+{@code HttpExchange} annotation."
+67299ba101063176805e7fe8,"Convert a Java object to a Ruby representative.
+@param javaObject the object to convert (might be null)
+@return a Ruby wrapper"
+67299ba101063176805e7fe9,"Calculate weighted average: 1 means second dominates, 0 means first dominates"
+67299ba101063176805e7fea,"Set the order for this filter.
+@param order the order to set"
+67299ba101063176805e7feb,Stops the datafeed job
+67299ba101063176805e7fec,"Set the order for this filter.
+@param order the order to set"
+67299ba101063176805e7fed,Sets the vector to the given components
+67299ba101063176805e7fee,"Factory method create {@link BuildpackMetadata} from JSON.
+@param node the source JSON
+@return the builder metadata"
+67299ba101063176805e7fef,"Create a new {@link AutowiredMethodArgumentsResolver} for the specified
+method where injection is optional.
+@param methodName the method name
+@param parameterTypes the factory method parameter types
+@return a new {@link AutowiredFieldValueResolver} instance"
+67299ba101063176805e7ff0,Return the factory for aspect instances.
+67299ba101063176805e7ff1,Default implementation of {@link Query#getResultOrdering()} that uses {@link Ordering#natural()}.
+67299ba101063176805e7ff2,"checks if the passed in Task is a specific instance of
+[Kafka/Kinesis]IndexTask"
+67299ba101063176805e7ff3,"Sets the x-coordinate of circle center
+@param x The x-coordinate"
+67299ba101063176805e7ff4,Customizes the server bootstrap prior of binding to the desired address.
+67299ba101063176805e7ff5,"Sets the layers that should be used in the jar.
+@param layers the jar layers"
+67299ba101063176805e7ff6,@return a copy of this grid point
+67299ba101063176805e7ff7,Converts the key collector in the argument into a byte array representation.
+67299ba101063176805e7ff8,Set a boost to apply to the kNN search scores.
+67299ba101063176805e7ff9,Adds {@link Align#left} and clears {@link Align#right} for the alignment of widgets within each column.
+67299ba101063176805e7ffa,"Set the ThreadPoolExecutor's core pool size.
+Default is 1."
+67299ba101063176805e7ffb,Sets the versioning type. Defaults to {@link VersionType#INTERNAL}.
+67299ba101063176805e7ffc,"Set the signed byte at the given offset into the page.
+Leaves the current page offset unchanged."
+67299ba101063176805e7ffd,"Calculate the height (in meters) of geohash cells at a specific level
+@param level geohash level must be greater or equal to zero
+@return the height of cells at level in meters"
+67299ba101063176805e7ffe,Copies histogram h into the current histogram.
+67299ba101063176805e7fff,"Returns a new key of the specified type with the same annotation as this
+key."
+67299ba101063176805e8000,Set the default key type name (class name) to be used for this map.
+67299ba101063176805e8001,Executed when shards are ready to be queried.

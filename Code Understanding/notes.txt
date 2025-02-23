@@ -1,0 +1,28 @@
+#########################################################################################
+search query pattern for mongodb compass
+{ "methods.Docstring": { "$regex": "\\/\\*.*\\*\\/", "$options": "i" } } 
+#########################################################################################
+
+#########################################################################################
+Related Paper: https://arxiv.org/pdf/2312.10349
+#########################################################################################
+
+#########################################################################################
+mongodb atlas creds: 'mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/'
+#########################################################################################
+
+############################mongodb restore#############################################################
+sudo chown -R mongodb:mongodb /var/lib/mongodb
+sudo chown mongodb:mongodb /tmp/mongodb-27017.sock
+#########################################################################################
+
+#########################################################################################
+directory_to_process = "/student/mjr175/JAVA_Projects/druid"
+
+#information about the GitHub Project
+repo_name = "apache/druid"
+branch_name = "master"
+file_prefix = "https://github.com/"+repo_name+"/blob/"+branch_name
+#########################################################################################
+
+mongodump --db code_understanding --collection javaDBCodeT5p --out backup/

@@ -1,0 +1,381 @@
+_id,Summary
+67299dbda23f7e5639814e0e,Tests the internal HTTP request handling by verifying that the generated requests match the expected requests for various HTTP methods.
+67299dbda23f7e5639814e0f,Handles a definitive failure by tracking the exception and notifying the response listener of the failure.
+67299dbda23f7e5639814e10,Tracks a failure by adding the given exception to the list of suppressed exceptions and updating the current exception.
+67299dbda23f7e5639814e11,Overrides the method to configure the REST client settings with basic authentication credentials.
+67299dbda23f7e5639814e12,"Executes the provided script and returns the result."
+67299dbda23f7e5639814e13,Runs a container using the specified distribution and returns the resulting installation.
+67299dbda23f7e5639814e14,Runs a Docker container for the specified Elasticsearch distribution and returns the installation details.
+67299dbda23f7e5639814e15,Creates an iterable of parameter arrays using the provided NamedXContentRegistry.
+67299dbda23f7e5639814e16,Starts initializing shards on the specified routing node and triggers a reroute of the cluster state.
+67299dbda23f7e5639814e17,"Initiates a connection to the specified discovery node using the provided transport service."
+67299dbda23f7e5639814e18,"Stops a random data node if available and returns true; otherwise, returns false."
+67299dbda23f7e5639814e19,Sets up a mock `TransportService` using a mocked `ThreadPool` with a thread pool executor.
+67299dbda23f7e5639814e1a,"Rewrites the given query using the provided shard rewrite context and ensures the rewritten query is serializable."
+67299dbda23f7e5639814e1b,"Executes the provided code block, retrying until it completes successfully or a timeout occurs."
+67299dbda23f7e5639814e1c,"Returns a string representation of the port range allocated for a worker."
+67299dbda23f7e5639814e1d,"Generates a FIPS-compliant SecureRandom instance using a specified byte array length."
+67299dbda23f7e5639814e1e,Creates an index with the specified name using default settings.
+67299dbda23f7e5639814e1f,Adds an unresponsive rule for each transport address extracted from the given transport service for the specified duration.
+67299dbda23f7e5639814e20,"Ensures that the test cluster is in a healthy state by verifying that there are no active disruptions, the node count is correct, and the cluster is fully connected."
+67299dbda23f7e5639814e21,Waits for all pending tasks to complete using the provided RestClient.
+67299dbda23f7e5639814e22,Resets the feature states if supported by the cluster and certain conditions are met.
+67299dbda23f7e5639814e23,Returns the default client settings for the REST admin interface.
+67299dbda23f7e5639814e24,Updates the cluster settings using the provided settings object.
+67299dbda23f7e5639814e25,Dispatches a REST request using a fake channel and manages the thread context and response lifecycle.
+67299dbda23f7e5639814e26,"Looks up a binary operation method handle for the specified classes and operation name."
+67299dbda23f7e5639814e27,"Determines the appropriate index normalization method handle for a given class, supporting arrays, maps, and lists."
+67299dbda23f7e5639814e28,Finds and returns a result by applying a specified function to elements of a given collection.
+67299dbda23f7e5639814e29,"Checks the provided user expression node within the given semantic scope for specific decorations and throws exceptions if certain conditions are met, ensuring the node is valid and has the required value type."
+67299dbda23f7e5639814e2a,Adds a specified value to the additional fields map if the property is present and the value is non-empty.
+67299dbda23f7e5639814e2b,Sets whether unmapped fields should be ignored in the query.
+67299dbda23f7e5639814e2c,Tests the encoding and decoding process of a scaled float to ensure that the original value is preserved after encoding and decoding operations.
+67299dbda23f7e5639814e2d,Stops the APM server and releases the instance resources.
+67299dbda23f7e5639814e2e,"Deletes the specified path with retry logic, throwing an IOException if interrupted."
+67299dbda23f7e5639814e2f,"Synchronizes the contents of the source directory with the destination directory by creating hard links."
+67299dbda23f7e5639814e30,Registers a client with randomly generated credentials and redirect URI for testing purposes.
+67299dbda23f7e5639814e31,"Pauses the execution of tasks, logging the reason and the number of cancelled queued tasks."
+67299dbda23f7e5639814e32,Clears the allocation IDs by setting the shard routings to an empty list and returns whether any IDs were cleared.
+67299dbda23f7e5639814e33,"Handles the post-indexing operation for a document, logging a debug message if the document is a watch and an exception occurs."
+67299dbda23f7e5639814e34,Overrides the preDelete method to remove a watch from the trigger service if the document is identified as a watch document.
+67299dbda23f7e5639814e35,Filters and returns a new `Settings` object containing only the settings that are allowed to be set.
+67299dbda23f7e5639814e36,"Attempts to register a new execution with the specified ID, ensuring thread safety and checking if the executions are sealed."
+67299dbda23f7e5639814e37,"Pauses the current execution and clears the queue, notifying the provided listener upon completion."
+67299dbda23f7e5639814e38,"Clears all pending executions in the queue and invokes the specified listener upon completion, returning the number of tasks that were cancelled."
+67299dbda23f7e5639814e39,Creates and returns a tuple containing lists of triggered watches and their corresponding execution contexts based on the provided trigger events.
+67299dbda23f7e5639814e3a,Clears the current executions and invokes the provided listener once all executions have stopped.
+67299dbda23f7e5639814e3b,"Retrieves the concrete index metadata for a given index name from the provided metadata, handling alias scenarios and ensuring a valid write index is present when necessary."
+67299dbda23f7e5639814e3c,"Checks the given time against the scheduled time and updates the scheduled time if necessary."
+67299dbda23f7e5639814e3d,"Removes an entry from the provided map by its key and returns it as the specified type, throwing an exception if the type does not match."
+67299dbda23f7e5639814e3e,"Moves the model identifier from the task settings to the service settings, ensuring the service settings are updated only if they do not already contain a model identifier."
+67299dbda23f7e5639814e3f,Parses the given XContentParser to position it at the token immediately following the specified field name.
+67299dbda23f7e5639814e40,Calculates the time required to reserve a specified number of tokens.
+67299dbda23f7e5639814e41,Reserves a specified number of tokens and returns the time value associated with the reservation in microseconds.
+67299dbda23f7e5639814e42,Tests that the shard status is complete on non-data nodes after a node shutdown and restart process.
+67299dbda23f7e5639814e43,Synchronously renews a retention lease for a specified leader shard and returns an Optional containing a RetentionLeaseNotFoundException if the lease is not found.
+67299dbda23f7e5639814e44,Validates that the leader and follower index settings are identical after filtering out settings that are allowed to differ.
+67299dbda23f7e5639814e45,"Returns a sublist of the given list based on specified offset and limit conditions, handling cases of null or empty lists, and reversing the list if the limit is negative."
+67299dbda23f7e5639814e46,"Determines if there are any candidates following the specified stage."
+67299dbda23f7e5639814e47,"Extracts a substring from the given string that is located between two specified substrings, with options for greedy matching and case insensitivity."
+67299dbda23f7e5639814e48,Marks an error encountered during the retrieval of a policy for a specified index by logging the error and recording it in the step information for the index.
+67299dbda23f7e5639814e49,Queues an ILM history item for asynchronous indexing if ILM history recording is enabled.
+67299dbda23f7e5639814e4a,Finds the best rollup jobs from a given set of job capabilities based on the provided aggregation source.
+67299dbda23f7e5639814e4b,"Freezes the current time of the ClockMock instance to the current instant."
+67299dbda23f7e5639814e4c,"Unfreezes the clock, resetting it to the current system time in the specified time zone."
+67299dbda23f7e5639814e4d,Fast-forwards the current time by a specified number of seconds.
+67299dbda23f7e5639814e4e,Rewinds the current time by a specified number of seconds.
+67299dbda23f7e5639814e4f,Determines if the current status is active.
+67299dbda23f7e5639814e50,"Checks if tracking is allowed for the given license state and context, and starts tracking if permitted."
+67299dbda23f7e5639814e51,Checks if the current operation is permitted without tracking the usage.
+67299dbda23f7e5639814e52,Updates the last checked timestamp and conditionally updates the last met condition timestamp or resets the acknowledgment status of actions based on the provided condition.
+67299dbda23f7e5639814e53,Creates a prepared rounding instance using the specified interval and time zone.
+67299dbda23f7e5639814e54,Checks if the given expression is valid by attempting to validate it.
+67299dbda23f7e5639814e55,"Creates a response by indexing the document with the specified ID and headers, and notifies the provided listener upon completion."
+67299dbda23f7e5639814e56,Retrieves the response for a given asynchronous execution ID and notifies the listener with the result.
+67299dbda23f7e5639814e57,Sets the internal user for authentication using the specified transport version and node name.
+67299dbda23f7e5639814e58,Checks if the specified action is permitted based on the group's privileges and mapping update conditions.
+67299dbda23f7e5639814e59,Validates the given application name using default settings.
+67299dbda23f7e5639814e5a,Verifies if the provided data matches the given hash using a resolved hasher.
+67299dbda23f7e5639814e5b,Writes the encoded authentication information to the provided thread context.
+67299dbda23f7e5639814e5c,"Generates a salt string for use with password hashing, using the specified number of log rounds to determine the computational cost."
+67299dbda23f7e5639814e5d,Generates a salt string using the default log2 rounds.
+67299dbda23f7e5639814e5e,Determines if the alignment of checkpoints is disabled based on the provided settings configuration.
+67299dbda23f7e5639814e5f,"Creates a BitSet mask indicating which fields across all rows are considered ""short"" based on a specified length threshold."
+67299dbda23f7e5639814e60,"Compares two rows of strings field by field using the Levenshtein distance."
+67299dbda23f7e5639814e61,Calculates and returns an array of weights representing the likelihood of each matched format being the correct one based on the provided timestamp matches.
+67299dbda23f7e5639814e62,Determines if a given sample can be considered text based on the presence of newlines and a minimum number of non-blank lines.
+67299dbda23f7e5639814e63,"Replaces matching expressions in the target list with new expressions generated by the replacer function, returning true if any modifications were made."
+67299dbda23f7e5639814e64,"Combines a list of query builders using the specified clause, returning a single query builder that represents the combined queries."
+67299dbda23f7e5639814e65,"Converts an unsigned long value to a Number, handling negative values using two's complement."
+67299dbda23f7e5639814e66,Counts the number of consecutive coordinates from the end of the array that match the first coordinate.
+67299dbda23f7e5639814e67,"Adjusts the circuit breaker by the specified delta, potentially tripping it if the delta is positive."
+67299dbda23f7e5639814e68,"Calculates the median value of a block of integers, handling both even and odd counts."
+67299dbda23f7e5639814e69,Determines if the specified rounding configuration can produce a sequence of rounding values within a given range.
+67299dbda23f7e5639814e6a,"Evaluates an ascending nullable block by selecting specific integer values based on their position and appends them to a new block, handling null values appropriately."
+67299dbda23f7e5639814e6b,Schedules snapshot jobs based on the current cluster state if snapshot lifecycle metadata is available.
+67299dbda23f7e5639814e6c,"Generates a sorted set of non-contiguous, non-empty random byte ranges within a specified length."
+67299dbda23f7e5639814e6d,Finishes processing by marking the specified number of bytes as read and releasing all permits.
+67299dbda23f7e5639814e6e,Determines if a node with the specified ID is safe to shut down based on the current cluster state and shutdown timing information.
+67299dbda23f7e5639814e6f,"Finishes the reporting process by flushing data with an immediate refresh policy, handling any interruptions that occur."
+67299dbda23f7e5639814e70,"Vacates the node by isolating the datafeed and marking the task as locally aborted with the given reason."
+67299dbda23f7e5639814e71,"Determines the common prefix of a given byte array segment and returns an OptionalInt containing the associated value if a leaf node is reached; otherwise, returns an empty OptionalInt."
+67299dbda23f7e5639814e72,"Retrieves the top transaction IDs based on the current number of transactions."
+67299dbda23f7e5639814e73,Retrieves the top item IDs based on the current number of items.
+67299dbda23f7e5639814e74,Calculates the natural logarithm of the probability of obtaining a specified number of successes in a fixed number of independent Bernoulli trials.
+67299dbda23f7e5639814e75,Calculates the natural logarithm of the probability of obtaining exactly x successes in n independent Bernoulli trials with success probability p and failure probability q.
+67299dbda23f7e5639814e76,Determines if the data has been refreshed recently based on the last update time and staleness duration.
+67299dbda23f7e5639814e77,Returns the memory requirement for an anomaly detector job specified by the given job ID.
+67299dbda23f7e5639814e78,Returns the memory requirement for a specified data frame analytics job.
+67299dbda23f7e5639814e79,Refreshes the persistent tasks metadata and triggers the specified completion action once the refresh operation is complete.
+67299dbda23f7e5639814e7a,"Waits for a flush acknowledgement for the given flush ID within the specified timeout period."
+67299dbda23f7e5639814e7b,"Builds and returns a TimeRange object using the specified start and end times."
+67299dbda23f7e5639814e7c,Deletes all annotations and notifies the provided listener upon completion.
+67299dbda23f7e5639814e7d,"Persist a bucket by creating a copy without records and indexing it, ensuring nested records are not persisted."
+67299dbda23f7e5639814e7e,Deletes interim results for the specified job.
+67299dbda23f7e5639814e7f,Flushes the current state and notifies the provided listener upon completion.
+67299dbda23f7e5639814e80,"Tests the inflation of an H3 cell with the identifier ""8001fffffffffff"" at different precision levels."
+67299dbda23f7e5639814e81,Sets the value of the specified GeoShapeCellValues object based on the provided tile coordinates if they are valid.
+67299dbda23f7e5639814e82,Determines if a bounding box intersects with specified longitude and latitude ranges.
+67299dbda23f7e5639814e83,"Determines the spatial relationship between a point and a geometric shape."
+67299dbda23f7e5639814e84,"Determines the highest commit generation number from an array of file names, excluding certain old segment files."
+67299dbda23f7e5639814e85,"Skips the final output from the given DataInput stream."
+67299dbda23f7e5639814e86,"Generates a valid random instance name."
+67299dbda23f7e5639814e87,"Creates a user with the ""run as"" role using the provided authorization headers."
+67299dbda23f7e5639814e88,"Invalidates tokens for a specified realm."
+67299dbda23f7e5639814e89,Determines the part number corresponding to a given file position.
+67299dbda23f7e5639814e8a,Removes the specified cache key from the cache.
+67299dbda23f7e5639814e8b,Marks the current context as failed with the provided exception and failure message.
+67299dbda23f7e5639814e8c,"Resolves the given expression into a set of root attribute expressions, considering provided aliases."
+67299dbda23f7e5639814e8d,"Creates a keyword field attribute with the specified name."
+67299dbda23f7e5639814e8e,Increments the translation metric counter.
+67299dbda23f7e5639814e8f,"Converts a date string into a `ZonedDateTime` object representing the start of the day in UTC, using the specified date format."
+67299dbda23f7e5639814e90,Prints a message to the output writer with the specified verbosity level.
+67299dbda23f7e5639814e91,"Converts IJK coordinates to geographic coordinates (latitude and longitude) for a given face and resolution, considering whether a substrate is used."
+67299dbda23f7e5639814e92,"Normalizes the instance variables i, j, and k by subtracting the minimum value among them."
+67299dbda23f7e5639814e93,Determines the neighboring position based on the given digit and updates the current position accordingly.
+67299dbda23f7e5639814e94,Converts the IJK coordinates of a face to geographic coordinates (latitude and longitude) for a given resolution.
+67299dbda23f7e5639814e95,Calculates the number of child H3 indexes for a given H3 address at a specified resolution.
+67299dbda23f7e5639814e96,Calculates the number of non-intersecting child H3 cells for a given H3 address.
+67299dbda23f7e5639814e97,Returns the H3 index for the north polar region at the specified resolution.
+67299dbda23f7e5639814e98,Returns the H3 index for the South Pole at the specified resolution.
+67299dbda23f7e5639814e99,Calculates the maximum latitude reached on the great circle path between this point and the specified `LatLng` point.
+67299dbda23f7e5639814e9a,Calculates the minimum latitude along the great circle path between this point and the specified LatLng.
+67299dbda23f7e5639814e9b,Converts 2D hexagonal coordinates to geographical coordinates based on the specified face and resolution.
+67299dbda23f7e5639814e9c,"Rotates the H3 index 60 degrees counter-clockwise at each resolution level."
+67299dbda23f7e5639814e9d,Consumes a point error generated from the given x and y coordinates.
+67299dbda23f7e5639814e9e,Encodes a given hash string into a long value using its length as a parameter.
+67299dbda23f7e5639814e9f,Encodes the given longitude and latitude into a string representation with a default precision of 12.
+67299dbda23f7e5639814ea0,Encodes the given latitude and longitude into a geohash string at the specified precision level.
+67299dbda23f7e5639814ea1,Tests the resources parent functionality with a non-package name path.
+67299dbda23f7e5639814ea2,Checks the manifest of a JAR file to ensure it does not require a newer Java version than is currently available.
+67299dbda23f7e5639814ea3,Checks that the specified portion of the key array is ordered and verifies associated values.
+67299dbda23f7e5639814ea4,"Sorts the specified array of keys and, if provided, the corresponding arrays of values in parallel."
+67299dbda23f7e5639814ea5,"Compresses data by merging new values using the specified compression strategy."
+67299dbda23f7e5639814ea6,"Attempts to locate the agent JAR file in the current user's directory."
+67299dbda23f7e5639814ea7,Forcibly stops the associated JVM process if it is not detached.
+67299dbda23f7e5639814ea8,"Retrieves a list of versions that are compatible with the index."
+67299dbda23f7e5639814ea9,"Asserts that the number of unassigned tasks in the given cluster state matches the expected count."
+67299dbda23f7e5639814eaa,Creates a PersistentTasksClusterService using the provided assignment function.
+67299dbda23f7e5639814eab,"Determines if the provided `Throwable` or any of its causes or suppressed exceptions is an instance of `Error`, returning it wrapped in an `Optional` if found."
+67299dbda23f7e5639814eac,"Collects and returns a list of shard data paths from the given array of data paths."
+67299dbda23f7e5639814ead,Initializes the builder as a new index with the given index metadata.
+67299dbda23f7e5639814eae,Cancels the relocation of the specified shard and updates the assigned shard state accordingly.
+67299dbda23f7e5639814eaf,"Resolves the given expressions into a set of index names based on the provided cluster state."
+67299dbda23f7e5639814eb0,"Determines if the provided collection of aliases or indices represents an ""all"" pattern."
+67299dbda23f7e5639814eb1,"Closes the resource, waiting up to 30 seconds for the operation to complete."
+67299dbda23f7e5639814eb2,"Retrieves the list of task groups, initializing them if they have not been created yet."
+67299dbda23f7e5639814eb3,Scales down the given value by a predefined probability if sampling is enabled.
+67299dbda23f7e5639814eb4,Scales up the given value based on a sampling probability if applicable.
+67299dbda23f7e5639814eb5,Converts a long hash into a formatted string representation by parsing and validating its components.
+67299dbda23f7e5639814eb6,Adds a range to the aggregation with an unbounded lower limit and an upper limit specified by the given key and to value.
+67299dbda23f7e5639814eb7,"Adds a range to the aggregation with an unbounded lower limit, using the specified key and starting value."
+67299dbda23f7e5639814eb8,"Retrieves a {@link LeafBucketCollector} for the specified segment context, updating any competitive bounds listener if necessary when starting to collect from a new segment."
+67299dbda23f7e5639814eb9,"Submits a migration task to the specified ClusterService with a descriptive source string."
+67299dbda23f7e5639814eba,Returns the value of the specified field as a byte array.
+67299dbda23f7e5639814ebb,"Retrieves the current retention leases."
+67299dbda23f7e5639814ebc,"Retrieves the current retention leases."
+67299dbda23f7e5639814ebd,Checks if the given string has a length greater than zero.
+67299dbda23f7e5639814ebe,Preserves the execution context of the given Runnable command.
+67299dbda23f7e5639814ebf,"Resets the countdown to zero and checks if the previous count was valid."
+67299dbda23f7e5639814ec0,"Determines if the given string matches the specified pattern, with an option for case-insensitive comparison."
+67299dbda23f7e5639814ec1,Updates dynamic settings for a specified type and returns whether the update was successful.
+67299dbda23f7e5639814ec2,Formats the given `InetAddress` using a default `PortsRange`.
+67299dbda23f7e5639814ec3,Closes the specified channel without throwing an exception if an error occurs.
+67299dbda23f7e5639814ec4,Creates a `CompressedXContent` instance from a JSON string.
+67299dbda23f7e5639814ec5,Calculates the output network buffer size based on the given plaintext bytes and number of buffers.
+67299dbda23f7e5639814ec6,Calculates the required output buffer space for encrypting a given number of plaintext bytes across multiple buffers.
+67299dbda23f7e5639814ec7,Converts an array of bytes into an IP address string representation.
+67299dbda23f7e5639814ec8,Overrides the subSequence method to return a subsequence of the AsciiString from the specified start index to the specified end index.
+67299dbda23f7e5639814ec9,"Checks if two regions of characters are equal, optionally ignoring case differences."
+67299dbda23f7e5639814eca,"Determines the next power of two greater than or equal to the specified positive integer, with safeguards for non-positive inputs and overflow."
+67299dbda23f7e5639814ecb,"Generates a random long value within the specified range [least, bound)."
+67299dbda23f7e5639814ecc,Formats a message string using a single argument.
+67299dbda23f7e5639814ecd,Copies an array of integers into a new ByteBuf.
+67299dbda23f7e5639814ece,Calculates the checksum of the given ByteBuf data starting from the current reader index and covering all readable bytes.
+67299dbda23f7e5639814ecf,Writes the specified non-negative integer value as a unary-encoded sequence to the given ByteBuf.
+67299dbda23f7e5639814ed0,Finishes the encoding process for the given channel context.
+67299dbda23f7e5639814ed1,Updates the CRC value a specified number of times using the given input value.
+67299dbda23f7e5639814ed2,"Validates the given header value and returns a status code indicating the result."
+67299dbda23f7e5639814ed3,Determines the number of leading whitespace characters in a specified segment of a byte array.
+67299dbda23f7e5639814ed4,Checks if the specified secure configuration exists.
+67299dbda23f7e5639814ed5,Determines if the current writer is considered stale based on the specified flush interval.
+67299dbda23f7e5639814ed6,"Combines the provided plugin configuration settings with a set of common input settings."
+67299dbda23f7e5639814ed7,Parses the given expression by invoking an overloaded method with the same expression as both arguments.
+67299dbda23f7e5639814ed8,Checks the origin of a request against the provided CORS configuration and returns the result.
+67299dbda23f7e5639814ed9,Encodes the given source string into a URI component using the specified charset.
+67299dbda23f7e5639814eda,"Decodes and sanitizes the given URI string from the HttpServletRequest."
+67299dbda23f7e5639814edb,"Returns a fallback TimeZone if JSTL is present and a JSTL time zone is available; otherwise, returns null."
+67299dbda23f7e5639814edc,Determines whether the given bean class should be proxied using its target class.
+67299dbda23f7e5639814edd,Sets the argument names by parsing a comma-delimited string into an array.
+67299dbda23f7e5639814ede,Sets the text content of the message.
+67299dbda23f7e5639814edf,"Returns a database connection using thread-bound credentials if available, otherwise defaults to configured credentials, and sets the specified catalog and schema if provided."
+67299dbda23f7e5639814ee0,"Skips over end-of-line characters in the provided ByteBuffer."
+67299dbda23f7e5639814ee1,Connects asynchronously to a STOMP server using the specified session handler.
+67299dbda23f7e5639814ee2,"Retrieves the current time zone based on the locale context."
+67299dbda23f7e5639814ee3,"Returns the current JTA transaction object, throwing an exception if no UserTransaction is available."
+67299dbda23f7e5639814ee4,Checks for resource leaks with a default duration of zero seconds.
+67299dbda23f7e5639814ee5,Increases the indentation level and updates the indenting writer.
+67299dbda23f7e5639814ee6,Checks if the specified constant is present in the given array of enum values.
+67299dbda23f7e5639814ee7,"Initiates a comment parsing process on the given line."
+67299dbda23f7e5639814ee8,"Finds the best matching locale for a given language, returning the exact locale if supported, or a suitable system locale otherwise."
+67299dbda23f7e5639814ee9,"Cancels a notification with the specified ID, utilizing conversation support if available."
+67299dbda23f7e5639814eea,Calculates and returns the yaw angle in radians based on the quaternion's current orientation.
+67299dbda23f7e5639814eeb,Calculates the angle in radians around the specified axis vector.
+67299dbda23f7e5639814eec,"Sets this affine transformation to the specified translation, rotation (in degrees), and scaling."
+67299dbda23f7e5639814eed,Scales the current affine transformation by the specified x and y factors using a Vector2 object.
+67299dbda23f7e5639814eee,Calculates the quality of a triangle based on the minimum squared length of its vertices and its circumradius.
+67299dbda23f7e5639814eef,Determines if two line segments intersect and calculates the intersection point if they do.
+67299dbda23f7e5639814ef0,"Calculates the angle in degrees from the positive x-axis to the point (x, y), handling edge cases such as infinite values and NaN inputs."
+67299dbda23f7e5639814ef1,"Calculates the angle in degrees between the positive x-axis and the point (x, y) in a 360-degree circle, handling special cases where x or y might be zero or infinite."
+67299dbda23f7e5639814ef2,Cancels the touch focus for the current listener.
+67299dbda23f7e5639814ef3,Sets the debug mode for the table under the mouse cursor.
+67299dbda23f7e5639814ef4,"Removes the specified actor from the collection, optionally performing additional cleanup."
+67299dbda23f7e5639814ef5,Clears the current object and optionally removes focus from its children.
+67299dbda23f7e5639814ef6,"Sets the background drawable for the current view, allowing for an optional update of the view's appearance."
+67299dbda23f7e5639814ef7,Clears the current map and resizes it to accommodate the specified maximum capacity.
+67299dbda23f7e5639814ef8,Counts the length of a run in the specified array and ensures it is in ascending order by reversing it if necessary.
+67299dbda23f7e5639814ef9,"Posts a task for immediate scheduling."
+67299dbda23f7e5639814efa,Scales the size of an object by the specified factor.
+67299dbda23f7e5639814efb,"Applies the specified rotation to the current transform."
+67299dbda23f7e5639814efc,Animates the specified animation with the given parameters and returns the resulting AnimationDesc.
+67299dbda23f7e5639814efd,Queues an animation with specified parameters and returns the resulting AnimationDesc.
+67299dbda23f7e5639814efe,"Retrieves a File object representing a directory specified by the given subdirectory name."
+67299dbda23f7e5639814eff,"Persists the given entity and returns its identifier."
+67299dbda23f7e5639814f00,"Constructs a string representation using the specified RunningService instance."
+67299dbda23f7e5639814f01,"Constructs a URL for the specified running service and database."
+67299dbda23f7e5639814f02,"Returns the double value associated with the specified name, or `Double.NaN` if the name is not found."
+67299dbda23f7e5639814f03,"Returns the value associated with the specified key as an integer, or 0 if the key is not found."
+67299dbda23f7e5639814f04,"Returns the value mapped by the specified name as a long, or returns 0L if no such mapping exists."
+67299dbda23f7e5639814f05,"Returns the value mapped by the specified name as a string, or an empty string if no such mapping exists."
+67299dbda23f7e5639814f06,"Creates a directory with the specified name and owner, using default permissions."
+67299dbda23f7e5639814f07,"Files the content with the specified name and owner, using default permissions."
+67299dbda23f7e5639814f08,Stops the lifecycle by gracefully stopping the leader lifecycle and unregistering the listener.
+67299dbda23f7e5639814f09,Converts the parameters of a given table function into a list of Calcite-compatible function parameters.
+67299dbda23f7e5639814f0a,"Determines if the given `RexNode` represents a non-trivial string concatenation, where the concatenation involves at least one input reference."
+67299dbda23f7e5639814f0b,Submits an MSQ task with the expectation of receiving an HTTP 202 Accepted status.
+67299dbda23f7e5639814f0c,Calculates the smallest power of two that is greater than or equal to the specified positive long value.
+67299dbda23f7e5639814f0d,Calculates the hash of a single long value using a series of transformation steps.
+67299dbda23f7e5639814f0e,Calculates an integer hash code for a given long value.
+67299dbda23f7e5639814f0f,Opens and returns all NeoStores.
+67299dbda23f7e5639814f10,"Decodes a PropertyBlock into a TextValue."
+67299dbda23f7e5639814f11,Sets the end conditions for the race by merging the provided BooleanSupplier conditions.
+67299dbda23f7e5639814f12,"Generates a valid Unicode code point within the specified range, excluding unassigned, private use, and surrogate code points."
+67299dbda23f7e5639814f13,"Transitions an exclusive lock to a write lock on the specified address."
+67299dbda23f7e5639814f14,"Returns the reference count of the current header state."
+67299dbda23f7e5639814f15,"Evicts a page from the translation table by its file page ID, updating necessary metadata and handling versioning if applicable."
+67299dbda23f7e5639814f16,Clears the change status of chunks based on the specified node density.
+67299dbda23f7e5639814f17,Creates a log channel for an existing version of the physical log.
+67299dbda23f7e5639814f18,"Calculates the total waiting time in nanoseconds for the current transaction, including any ongoing query."
+67299dbda23f7e5639814f19,Stops the given index population and verifies if it is empty.
+67299dbda23f7e5639814f1a,"Retrieves the versioned store channel for the physical log."
+67299dbda23f7e5639814f1b,Releases the write lock by applying a spin transformation.
+67299dbda23f7e5639814f1c,Checks if the cursor is out of bounds and verifies that the seeker is not closed when an out-of-bounds condition is detected.
+67299dbda23f7e5639814f1d,"Writes the specified generation and pointer to the given PageCursor.`"
+67299dbda23f7e5639814f1e,Updates the current generation by incrementing the unstable generation component.
+67299dbda23f7e5639814f1f,"Normalizes the duration by adjusting the nanoseconds and seconds to ensure they are within their standard ranges, potentially increasing the number of days accordingly."
+67299dbda23f7e5639814f20,"Parses the provided command-line arguments and returns a `CliArgs` object, throwing an `ArgumentParserException` if parsing fails."
+67299dbda23f7e5639814f21,Checks the format and prints the given text if the format is plain.
+67299dbda23f7e5639814f22,Determines if the given string is within a quote by checking if it is not null and not within a comment.
+67299dbda23f7e5639814f23,Decreases the key value of a given node in the Fibonacci heap and restructures the heap if necessary to maintain the heap properties.
+67299dbda23f7e5639814f24,Cuts the node x from the child list of node y and adds x to the root list of the Fibonacci heap.
+67299dbda23f7e5639814f25,"Releases any waiters by atomically swapping the release sentinel onto the stack, ensuring that all waiters are unparked if present."
+67299dbda23f7e5639814f26,"Applies the given work unit, scheduling it and processing it until completion, while handling any execution failures."
+67299dbda23f7e5639814f27,"Returns a formatted string representing the version of the store."
+67299dbda23f7e5639814f28,Calculates the total degree by summing the degrees of all types.
+67299dbda23f7e5639814f29,Disables the specified commands by setting their probability factor to zero.
+67299dbda23f7e5639814f2a,"Executes the run method with a single iteration and a specified timeout."
+67299dbda23f7e5639814f2b,"Runs a specified number of iterations with a timeout for each iteration, handling exceptions by logging details of the previous run."
+67299dbda23f7e5639814f2c,"Creates necessary indexes in the given graph database."
+67299dbda23f7e5639814f2d,Deletes all relationships and nodes from the specified graph database in batches.
+67299dbda23f7e5639814f2e,Negotiates the protocol version with the specified transport connection.
+67299dbda23f7e5639814f2f,Reads a primitive value from the buffer up to the specified limit.
+67299dbda23f7e5639814f30,Calculates the center point coordinates for a given derived value and level.
+67299dbda23f7e5639814f31,"Retrieves a list of tile ranges that intersect with the specified envelope."
+67299dbda23f7e5639814f32,"Converts normalized coordinates to double precision coordinates, adjusting for the specified level and clamping within the defined range."
+67299dbda23f7e5639814f33,"Propagates the calculated length from the source to the target node, updating internal state accordingly."
+67299dbda23f7e5639814f34,"Inserts the specified element into the heap, growing the heap if necessary."
+67299dbda23f7e5639814f35,"Sorts the array using the heap sort algorithm."
+67299dbda23f7e5639814f36,"Restores the heap property by sifting down elements from the middle of the heap."
+67299dbda23f7e5639814f37,Sorts the specified element down the heap to maintain the heap property.
+67299dbda23f7e5639814f38,Sets a specified number of bits in a long array starting from a given position.
+67299dbda23f7e5639814f39,"Returns a subpath of the current path representation, starting from the specified begin index and extending to the end index."
+67299dbda23f7e5639814f3a,"Performs a specified file operation on a set of database files, potentially including ID files, while handling existing target strategies and allowing for the skipping of non-existent files."
+67299dbda23f7e5639814f3b,"Calculates the symmetric difference between two sorted integer arrays, returning a new array containing elements that are present in either of the input arrays but not in both."
+67299dbda23f7e5639814f3c,Counts the number of unique elements in two sorted integer arrays.
+67299dbda23f7e5639814f3d,Determines if two iterators are equal by comparing their elements in sequence.
+67299dbda23f7e5639814f3e,Counts the number of elements in the given iterator using a predicate that always evaluates to true.
+67299dbda23f7e5639814f3f,Adds a lazy binding for a component of the specified type using the provided supplier.
+67299dbda23f7e5639814f40,"Opens a read channel for a log file at the specified path, validating the kernel version and reading the log header."
+67299dbda23f7e5639814f41,"Retrieves an iterator over values sorted by relevance for a specified field."
+67299dbda23f7e5639814f42,Ensures that the current document ID iterator is valid by advancing to the next set of matching documents if necessary.
+67299dbda23f7e5639814f43,"Adds a document if it is not null, otherwise performs no operation."
+67299dbda23f7e5639814f44,"Updates the document associated with the given term, or deletes the document if it is null."
+67299dbda23f7e5639814f45,"Clears the cache for all URLs associated with this instance, unless it is already marked as exploded."
+67299dbda23f7e5639814f46,Ensures that executing the given `RequestBuilder` results in a throwable of the specified exception class and status.
+67299dbda23f7e5639814f47,Retrieves the value of the specified column from the given `ResultSet` using the provided parameter type.
+67299dbda23f7e5639814f48,"Sets the modules to be used by the Jackson2ObjectMapperBuilder, disabling automatic detection of modules and allowing customization via the provided consumer."
+67299dbda23f7e5639814f49,"Retrieves the first child element with the specified name, or returns null if no such child exists."
+67299dbda23f7e5639814f4a,Tests that a NullPointerException is thrown when a null sort order is provided to the ScoreSortBuilder.
+67299dbda23f7e5639814f4b,Determines if the given method name matches the specified mapped pattern using simple pattern matching.
+67299dbda23f7e5639814f4c,Tests the behavior of the network host resolution when provided with an incorrect GCE setting.
+67299dbda23f7e5639814f4d,Handles the resize event by checking the widget's size.
+67299dbda23f7e5639814f4e,"Creates a default `AggregateDoubleMetricFieldType` with specified subfields for minimum and maximum metrics, setting the default metric to minimum."
+67299dbda23f7e5639814f4f,Sets the x-coordinate of the center of the object.
+67299dbda23f7e5639814f50,"Creates an `ElasticsearchSecurityException` indicating that a token has expired, with an unauthorized status and appropriate authentication header."
+67299dbda23f7e5639814f51,Registers a RestIntegTestTask for the specified project and source set.
+67299dbda23f7e5639814f52,Checks if the element at the specified index is indexed.
+67299dbda23f7e5639814f53,Retrieves the index field data for a given mapped field type and field data context.
+67299dbda23f7e5639814f54,"Calculates the sum of all non-NaN elements in the given array of doubles. If the array is empty, returns 0.0."
+67299dbda23f7e5639814f55,"Performs an LDAP search for an entry using the specified parameters and handles different types of LDAP interfaces, delegating the search to the appropriate method based on the provided LDAP interface implementation."
+67299dbda23f7e5639814f56,"Deletes the specified path with retry logic, converting checked exceptions to unchecked exceptions."
+67299dbda23f7e5639814f57,"Writes data from the given InputStream to a file, with an option to append to the existing content."
+67299dbda23f7e5639814f58,"Calculates the memory limit in bytes for automatic subquery result inlining per query, considering the JVM memory, lookup footprint, and maximum concurrent queries."
+67299dbda23f7e5639814f59,Determines if the given expression is valid by attempting to parse it.
+67299dbda23f7e5639814f5a,"Returns an Optional containing the NamedDatabaseId associated with the specified database name, if it exists."
+67299dbda23f7e5639814f5b,Determines if there is sufficient capacity to accommodate the specified number of additional integers.
+67299dbda23f7e5639814f5c,Compares two storage tier strings and returns an integer indicating their relative order based on a predefined hierarchy.
+67299dbda23f7e5639814f5d,Parses a floating-point number from the current token of the given XContentParser.
+67299dbda23f7e5639814f5e,"Returns a PathExpander that wraps the given source PathExpander and applies a predicate to determine if paths should be printed."
+67299dbda23f7e5639814f5f,"Removes the specified key from the collection, if it is present, and returns true if the key was successfully removed."
+67299dbda23f7e5639814f60,"Returns the double value of the specified column index from the result set, throwing an exception if access is invalid."
+67299dbda23f7e5639814f61,Attempts to release the shared lock by setting the state to the specified final state.
+67299dbda23f7e5639814f62,Retrieves a list of exception types from the parameter types of a given method signature.
+67299dbda23f7e5639814f63,Sets the longitude and latitude for the CoordinatesBuilder using the specified values.
+67299dbda23f7e5639814f64,Loads the application context for AOT (Ahead-Of-Time) processing based on the provided merged configuration.
+67299dbda23f7e5639814f65,"Sets the misfire instruction using the provided constant name, ensuring it is not null or blank and corresponds to a valid misfire instruction constant."
+67299dbda23f7e5639814f66,Returns an array of integer IDs corresponding to the provided tokens within the context of the given transaction.
+67299dbda23f7e5639814f67,Checks if the specified element has any meta-annotations of the given annotation type.
+67299dbda23f7e5639814f68,Creates a new instance of `PersistenceManagedTypes` with the specified managed class names.
+67299dbda23f7e5639814f69,Returns a string representation of the URI being built.
+67299dbda23f7e5639814f6a,"Waits for the cluster state to satisfy a given predicate, notifying the listener upon success or timeout."
+67299dbda23f7e5639814f6b,Returns the number of positions in the block.
+67299dbda23f7e5639814f6c,"Converts a comma-delimited string into a Set of strings, preserving the order of elements."
+67299dbda23f7e5639814f6d,Removes a previously scheduled task associated with the specified thread.
+67299dbda23f7e5639814f6e,"Sets the value of a specified field in an IngestDocument, updating the source map if the field exists, or using the document's setFieldValue method otherwise."
+67299dbda23f7e5639814f6f,"Translates a given `SQLException` into a `DataAccessException`, using an exception translator if available, or defaults to an `UncategorizedSQLException` if translation is not possible."
+67299dbda23f7e5639814f70,"Returns the list of configured HttpMessageConverter instances, initializing and extending them if necessary."
+67299dbda23f7e5639814f71,"Calculates an exponential backoff time with jitter, based on the number of past attempts, capped by a maximum backoff limit."
+67299dbda23f7e5639814f72,Converts the given word to lowercase by applying a bitmask transformation.
+67299dbda23f7e5639814f73,Calculates the smallest power of two that is greater than or equal to the specified positive integer value.
+67299dbda23f7e5639814f74,Adds a portion of the provided byte array to the bulk request with the specified content type.
+67299dbda23f7e5639814f75,Sets the timeout for the search request and returns the updated SearchRequestBuilder instance.
+67299dbda23f7e5639814f76,Logs an error message with an associated throwable cause if error logging is enabled.
+67299dbda23f7e5639814f77,Adds a new range with an unbounded lower limit and a specified upper limit to the aggregation builder.
+67299dbda23f7e5639814f78,"Returns the integer value of the specified column index from the result set, throwing an exception if access is invalid."
+67299dbda23f7e5639814f79,"Sets the type of the scope annotation for this instance, ensuring it is not null."
+67299dbda23f7e5639814f7a,"Returns the capacity of the buffer."
+67299dbda23f7e5639814f7b,"Triggers the `beforeCommit` method on all registered `TransactionSynchronization` instances, passing the `readOnly` flag to indicate if the transaction is read-only."
+67299dbda23f7e5639814f7c,"Transforms the given constraints to include only partition key columns for IO explanation."
+67299dbda23f7e5639814f7d,"Handles an error by emitting an empty signal, notifying the receive publisher, and canceling and notifying the send processor if it exists."
+67299dbda23f7e5639814f7e,Determines if the given PropertyDescriptor has a unique write method.
+67299dbda23f7e5639814f7f,Starts a background fetch if the queue size is below a calculated threshold.
+67299dbda23f7e5639814f80,Creates a new `SslHandler` with the specified `ByteBufAllocator` and `Executor` for delegated tasks.
+67299dbda23f7e5639814f81,"Flushes the Base64 buffer by encoding any remaining bytes and writing them to the output stream, or throws an IOException if decoding and the input is not properly padded."
+67299dbda23f7e5639814f82,"Determines the element type of an array if the given `ExpressionType` is an array; otherwise, returns the original type."
+67299dbda23f7e5639814f83,Cancels all index populations with the specified failure and cursor context.
+67299dbda23f7e5639814f84,"Adjusts the dimensions of the object by the specified width and height increments."
+67299dbda23f7e5639814f85,"Retrieves the value associated with the specified key, or returns the provided default value if the key is not found."
+67299dbda23f7e5639814f86,"Finds the key associated with the specified value in the map, using either identity or equality comparison, and returns a specified value if the key is not found."
+67299dbda23f7e5639814f87,"Processes the given form field value using a `RequestDataValueProcessor` if available, and returns the potentially modified value."
+67299dbda23f7e5639814f88,"Sets the prefix to be used for comments, ensuring it is neither null nor empty."
+67299dbda23f7e5639814f89,"Ensures that the file is open, throwing an exception provided by the given supplier if it is not."

@@ -1,0 +1,37 @@
+import csv
+import json
+
+# Function to read CSV file and update it with a new column
+def update_csv(input_file, output_file, new_column_header):
+    # Read the existing CSV file
+    with open(input_file, mode='r') as infile:
+        reader = csv.reader(infile)
+        # Get the header
+        header = next(reader)
+        # Add the new column header
+        header.append(new_column_header)
+        # Read the remaining rows
+        rows = [row for row in reader]
+    
+    # Add the new column data to each row
+    for row in rows:
+        method = row[2]
+        helpers = json.loads(row[5])
+        print(helpers)
+        break
+    # Write the updated data to a new CSV file
+    with open(output_file, mode='w', newline='') as outfile:
+        writer = csv.writer(outfile)
+        # Write the header
+        writer.writerow(header)
+        # Write the updated rows
+        writer.writerows(rows)
+
+# Example usage
+input_file = '/student/mjr175/commentGeneration/helpersSimplified.csv'
+output_file = 'helpersWithGPTComment.csv'
+new_column_header = 'gptOutput'
+
+update_csv(input_file, output_file, new_column_header)
+
+print(f"CSV file '{output_file}' has been updated with a new column.")

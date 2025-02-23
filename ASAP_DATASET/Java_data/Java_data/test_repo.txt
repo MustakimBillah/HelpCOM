@@ -1,0 +1,5 @@
+Please find some info about the location of the function in the repo.
+Repo: tony19/logback-android
+Path: logback-android/src/main/java/ch/qos/logback/core/html/HTMLLayoutBase.java
+Function_name: HTMLLayoutBase.getEffectiveConverterMap
+##########

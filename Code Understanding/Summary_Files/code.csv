@@ -1,0 +1,2640 @@
+_id,Code
+67299dbda23f7e5639814e0e,"@SuppressWarnings(""unchecked"")
+    public void testInternalHttpRequest() throws Exception {
+        ArgumentCaptor<HttpAsyncRequestProducer> requestArgumentCaptor = ArgumentCaptor.forClass(HttpAsyncRequestProducer.class);
+        int times = 0;
+        for (String httpMethod : getHttpMethods()) {
+            HttpUriRequest expectedRequest = performRandomRequest(httpMethod);
+            verify(httpClient, times(++times)).<HttpResponse>execute(
+                requestArgumentCaptor.capture(),
+                any(HttpAsyncResponseConsumer.class),
+                any(HttpClientContext.class),
+                nullable(FutureCallback.class)
+            );
+            HttpUriRequest actualRequest = (HttpUriRequest) requestArgumentCaptor.getValue().generateRequest();
+            assertEquals(expectedRequest.getURI(), actualRequest.getURI());
+            assertEquals(expectedRequest.getClass(), actualRequest.getClass());
+            assertArrayEquals(expectedRequest.getAllHeaders(), actualRequest.getAllHeaders());
+            if (expectedRequest instanceof HttpEntityEnclosingRequest) {
+                HttpEntity expectedEntity = ((HttpEntityEnclosingRequest) expectedRequest).getEntity();
+                if (expectedEntity != null) {
+                    HttpEntity actualEntity = ((HttpEntityEnclosingRequest) actualRequest).getEntity();
+                    assertEquals(EntityUtils.toString(expectedEntity), EntityUtils.toString(actualEntity));
+                }
+            }
+        }
+    }"
+67299dbda23f7e5639814e0f,"void onDefinitiveFailure(Exception e) {
+            trackFailure(e);
+            responseListener.onFailure(this.exception);
+        }"
+67299dbda23f7e5639814e10,"void trackFailure(Exception e) {
+            addSuppressedException(this.exception, e);
+            this.exception = e;
+        }"
+67299dbda23f7e5639814e11,"@Override
+    protected Settings restClientSettings() {
+        String token = basicAuthHeaderValue(""admin"", new SecureString(""changeme"".toCharArray()));
+        return Settings.builder().put(ThreadContext.PREFIX + "".Authorization"", token).build();
+    }"
+67299dbda23f7e5639814e12,"public Result run(String script) {
+        return runScript(getScriptCommand(script));
+    }"
+67299dbda23f7e5639814e13,"public static Installation runContainer(Distribution distribution) {
+        return runContainer(distribution, DockerRun.builder());
+    }"
+67299dbda23f7e5639814e14,"public static Installation runContainer(Distribution distribution, DockerRun builder) {
+        executeDockerRun(distribution, builder);
+
+        waitForElasticsearchToStart();
+
+        return Installation.ofContainer(dockerShell, distribution);
+    }"
+67299dbda23f7e5639814e15,"public static Iterable<Object[]> createParameters(NamedXContentRegistry executeableSectionRegistry) throws Exception {
+        return createParameters(executeableSectionRegistry, null);
+    }"
+67299dbda23f7e5639814e16,"public static ClusterState startInitializingShardsAndReroute(
+        AllocationService allocationService,
+        ClusterState clusterState,
+        RoutingNode routingNode
+    ) {
+        return startShardsAndReroute(allocationService, clusterState, routingNode.shardsWithState(INITIALIZING).toList());
+    }"
+67299dbda23f7e5639814e17,"public static void connectToNode(TransportService service, DiscoveryNode node) throws ConnectTransportException {
+        connectToNode(service, node, null);
+    }"
+67299dbda23f7e5639814e18,"public synchronized boolean stopRandomDataNode() throws IOException {
+        ensureOpen();
+        NodeAndClient nodeAndClient = getRandomNodeAndClient(DATA_NODE_PREDICATE);
+        if (nodeAndClient != null) {
+            logger.info(""Closing random node [{}] "", nodeAndClient.name);
+            stopNodesAndClient(nodeAndClient);
+            return true;
+        }
+        return false;
+    }"
+67299dbda23f7e5639814e19,"public static TransportService setupTransportServiceWithThreadpoolExecutor() {
+        return setMockReturns(mock(TransportService.class), mock(ThreadPool.class));
+    }"
+67299dbda23f7e5639814e1a,"protected QueryBuilder rewriteQuery(QB queryBuilder, SearchExecutionContext shardRewriteContext) throws IOException {
+        QueryBuilder rewritten = rewriteAndFetch(queryBuilder, shardRewriteContext);
+        // extra safety to fail fast - serialize the rewritten version to ensure it's serializable.
+        assertSerialization(rewritten);
+        return rewritten;
+    }"
+67299dbda23f7e5639814e1b,"public static void assertBusy(CheckedRunnable<Exception> codeBlock) throws Exception {
+        assertBusy(codeBlock, 10, TimeUnit.SECONDS);
+    }"
+67299dbda23f7e5639814e1c,"public static String getPortRange() {
+        final var firstPort = getWorkerBasePort();
+        final var lastPort = firstPort + PORTS_PER_WORKER - 1; // upper bound is inclusive
+        assert MIN_PRIVATE_PORT <= firstPort && lastPort <= MAX_PRIVATE_PORT;
+        return firstPort + ""-"" + lastPort;
+    }"
+67299dbda23f7e5639814e1d,"protected static SecureRandom secureRandomFips() throws NoSuchAlgorithmException {
+        return secureRandomFips(randomByteArrayOfLength(32));
+    }"
+67299dbda23f7e5639814e1e,"protected IndexService createIndex(String index) {
+        return createIndex(index, Settings.EMPTY);
+    }"
+67299dbda23f7e5639814e1f,"public void addUnresponsiveRule(TransportService transportService, final TimeValue duration) {
+        for (TransportAddress transportAddress : extractTransportAddresses(transportService)) {
+            addUnresponsiveRule(transportAddress, duration);
+        }
+    }"
+67299dbda23f7e5639814e20,"public void ensureHealthy(InternalTestCluster testCluster) {
+        assert activeDisruption == false;
+        ensureNodeCount(testCluster);
+        ensureFullyConnectedCluster(testCluster);
+    }"
+67299dbda23f7e5639814e21,"public static void waitForPendingTasks(final RestClient restClient) throws Exception {
+        waitForPendingTasks(restClient, taskName -> false);
+    }"
+67299dbda23f7e5639814e22,"protected boolean resetFeatureStates() {
+        if (clusterHasFeature(RestTestLegacyFeatures.FEATURE_STATE_RESET_SUPPORTED) == false) {
+            return false;
+        }
+
+        // ML reset fails when ML is disabled in versions before 8.7
+        if (isMlEnabled() == false && clusterHasFeature(RestTestLegacyFeatures.ML_STATE_RESET_FALLBACK_ON_DISABLED) == false) {
+            return false;
+        }
+        return true;
+    }"
+67299dbda23f7e5639814e23,"protected Settings restAdminSettings() {
+        return restClientSettings(); // default to the same client settings
+    }"
+67299dbda23f7e5639814e24,"public static void updateClusterSettings(Settings settings) throws IOException {
+        updateClusterSettings(client(), settings);
+    }"
+67299dbda23f7e5639814e25,"protected void dispatchRequest(RestRequest request) {
+        FakeRestChannel channel = new FakeRestChannel(request, false, 1);
+        ThreadContext threadContext = verifyingClient.threadPool().getThreadContext();
+        try (ThreadContext.StoredContext ignore = threadContext.stashContext()) {
+            controller.dispatchRequest(request, channel, threadContext);
+        } finally {
+            Releasables.close(channel.capturedResponse());
+        }
+    }"
+67299dbda23f7e5639814e26,"public static MethodHandle lookupBinary(Class<?> classA, Class<?> classB, String name) {
+        MethodHandle handle = TYPE_OP_MAPPING.get(promote(promote(unbox(classA)), promote(unbox(classB)))).get(name);
+        if (handle == null) {
+            throw new ClassCastException(""Cannot apply operator ["" + name + ""] to types ["" + classA + ""] and ["" + classB + ""]"");
+        }
+        return handle;
+    }"
+67299dbda23f7e5639814e27,"static MethodHandle lookupIndexNormalize(Class<?> receiverClass) {
+        if (receiverClass.isArray()) {
+            return ArrayIndexNormalizeHelper.arrayIndexNormalizer(receiverClass);
+        } else if (Map.class.isAssignableFrom(receiverClass)) {
+            // noop so that mymap[key] doesn't do funny things with negative keys
+            return MAP_INDEX_NORMALIZE;
+        } else if (List.class.isAssignableFrom(receiverClass)) {
+            return LIST_INDEX_NORMALIZE;
+        }
+        throw new IllegalArgumentException(
+            ""Attempting to address a non-array-like type "" + ""["" + receiverClass.getCanonicalName() + ""] as an array.""
+        );
+    }"
+67299dbda23f7e5639814e28,"public static <T, U> Object findResult(Collection<T> receiver, Function<T, U> function) {
+        return findResult(receiver, null, function);
+    }"
+67299dbda23f7e5639814e29,"public void checkedVisit(AExpression userExpressionNode, SemanticScope semanticScope) {
+        if (userExpressionNode != null) {
+            userExpressionNode.visit(this, semanticScope);
+
+            if (semanticScope.hasDecoration(userExpressionNode, PartialCanonicalTypeName.class)) {
+                throw userExpressionNode.createError(
+                    new IllegalArgumentException(
+                        ""cannot resolve symbol [""
+                            + semanticScope.getDecoration(userExpressionNode, PartialCanonicalTypeName.class).partialCanonicalTypeName()
+                            + ""]""
+                    )
+                );
+            }
+
+            if (semanticScope.hasDecoration(userExpressionNode, StaticType.class)) {
+                throw userExpressionNode.createError(
+                    new IllegalArgumentException(
+                        ""value required: instead found unexpected type ""
+                            + ""[""
+                            + semanticScope.getDecoration(userExpressionNode, StaticType.class).getStaticCanonicalTypeName()
+                            + ""]""
+                    )
+                );
+            }
+
+            if (semanticScope.hasDecoration(userExpressionNode, ValueType.class) == false) {
+                throw userExpressionNode.createError(new IllegalStateException(""value required: instead found no value""));
+            }
+        }
+    }"
+67299dbda23f7e5639814e2a,"private <T> void addAdditionalField(Map<String, Object> additionalFields, Property property, String value) {
+        if (properties.contains(property) && Strings.hasLength(value)) {
+            additionalFields.put(property.toLowerCase(), value);
+        }
+    }"
+67299dbda23f7e5639814e2b,"public HasParentQueryBuilder ignoreUnmapped(boolean ignoreUnmapped) {
+        this.ignoreUnmapped = ignoreUnmapped;
+        if (innerHitBuilder != null) {
+            innerHitBuilder.setIgnoreUnmapped(ignoreUnmapped);
+        }
+        return this;
+    }"
+67299dbda23f7e5639814e2c,"public void testDecodeEncode() {
+        double scalingFactor = randomValueOtherThanMany(d -> Double.isInfinite(Long.MAX_VALUE / d), ESTestCase::randomDouble);
+        long encoded = randomLongBetween(-2 << 53, 2 << 53);
+        assertThat(
+            ScaledFloatFieldMapper.encode(ScaledFloatFieldMapper.decodeForSyntheticSource(encoded, scalingFactor), scalingFactor),
+            equalTo(encoded)
+        );
+    }"
+67299dbda23f7e5639814e2d,"public synchronized void stop() {
+        logger.lifecycle(""stopping apm server"");
+        instance.stop(1);
+        instance = null;
+    }"
+67299dbda23f7e5639814e2e,"void deleteWithRetry(Path path) throws IOException {
+        try {
+            deleteWithRetry0(path);
+        } catch (InterruptedException x) {
+            throw new IOException(""Interrupted while deleting."", x);
+        }
+    }"
+67299dbda23f7e5639814e2f,"private void syncWithLinks(Path sourceRoot, Path destinationRoot) {
+        sync(sourceRoot, destinationRoot, (Path d, Path s) -> {
+            try {
+                Files.createLink(d, s);
+            } catch (IOException e) {
+                // Note does not work for network drives, e.g. Vagrant
+                throw new LinkCreationException(""Failed to create hard link "" + d + "" pointing to "" + s, e);
+            }
+        });
+    }"
+67299dbda23f7e5639814e30,"@BeforeClass
+    public static void registerClient() throws IOException {
+        clientId = randomFrom(ALLOWED_AUDIENCES);
+        redirectUri = ""https://"" + randomAlphaOfLength(4) + "".rp.example.com/"" + randomAlphaOfLength(6);
+        String clientSecret = randomAlphaOfLength(24);
+        String clientSetup = Strings.format(""""""
+            {
+              ""grant_types"": [ ""implicit"" ],
+              ""response_types"": [ ""token id_token"" ],
+              ""preferred_client_id"": ""%s"",
+              ""preferred_client_secret"": ""%s"",
+              ""redirect_uris"": [ ""%s"" ]
+            }"""""", clientId, clientSecret, redirectUri);
+        registerClients(clientSetup);
+    }"
+67299dbda23f7e5639814e31,"public void pauseExecution(String reason) {
+        triggerService.pauseExecution();
+        int cancelledTaskCount = executionService.pause(() -> {});
+        logger.info(""paused watch execution, reason [{}], cancelled [{}] queued tasks"", reason, cancelledTaskCount);
+    }"
+67299dbda23f7e5639814e32,"private boolean clearAllocationIds() {
+        List<ShardRouting> previousIds = previousShardRoutings.getAndSet(Collections.emptyList());
+        return previousIds.isEmpty() == false;
+    }"
+67299dbda23f7e5639814e33,"@Override
+    public void postIndex(ShardId shardId, Engine.Index index, Exception ex) {
+        if (isWatchDocument(shardId.getIndexName())) {
+            logger.debug(() -> ""failed to add watch ["" + index.id() + ""] to trigger service"", ex);
+        }
+    }"
+67299dbda23f7e5639814e34,"@Override
+    public Engine.Delete preDelete(ShardId shardId, Engine.Delete delete) {
+        if (isWatchDocument(shardId.getIndexName())) {
+            logger.debug(""removing watch [{}] from trigger service via delete"", delete.id());
+            triggerService.remove(delete.id());
+        }
+        return delete;
+    }"
+67299dbda23f7e5639814e35,"private static Settings filterSettableSettings(Settings settings) {
+        Settings.Builder builder = Settings.builder();
+        for (String settingName : UpdateWatcherSettingsAction.ALLOWED_SETTING_KEYS) {
+            if (settings.hasValue(settingName)) {
+                builder.put(settingName, settings.get(settingName));
+            }
+        }
+        return builder.build();
+    }"
+67299dbda23f7e5639814e36,"public boolean put(String id, ExecutionService.WatchExecution execution) {
+        lock.lock();
+        try {
+            if (seal.get() != null) {
+                // We shouldn't get here, because, ExecutionService#started should have been set to false
+                throw illegalState(
+                    ""could not register execution [{}]. current executions are sealed and forbid registrations of ""
+                        + ""additional executions."",
+                    id
+                );
+            }
+            return currentExecutions.putIfAbsent(id, execution) != null;
+        } finally {
+            lock.unlock();
+        }
+    }"
+67299dbda23f7e5639814e37,"public int pause(Runnable stoppedListener) {
+        assert stoppedListener != null;
+        paused.set(true);
+        return clearExecutionsAndQueue(stoppedListener);
+    }"
+67299dbda23f7e5639814e38,"public int clearExecutionsAndQueue(Runnable stoppedListener) {
+        assert stoppedListener != null;
+        int cancelledTaskCount = executor.queue().drainTo(new ArrayList<>());
+        this.clearExecutions(stoppedListener);
+        return cancelledTaskCount;
+    }"
+67299dbda23f7e5639814e39,"private Tuple<List<TriggeredWatch>, List<TriggeredExecutionContext>> createTriggeredWatchesAndContext(Iterable<TriggerEvent> events) {
+        final LinkedList<TriggeredWatch> triggeredWatches = new LinkedList<>();
+        final LinkedList<TriggeredExecutionContext> contexts = new LinkedList<>();
+
+        ZonedDateTime now = clock.instant().atZone(ZoneOffset.UTC);
+        for (TriggerEvent event : events) {
+            GetResponse response = getWatch(event.jobName());
+            if (response.isExists() == false) {
+                logger.warn(""unable to find watch [{}] in watch index, perhaps it has been deleted"", event.jobName());
+                continue;
+            }
+            TriggeredExecutionContext ctx = new TriggeredExecutionContext(event.jobName(), now, event, defaultThrottlePeriod);
+            contexts.add(ctx);
+            triggeredWatches.add(new TriggeredWatch(ctx.id(), event));
+        }
+
+        return Tuple.tuple(triggeredWatches, contexts);
+    }"
+67299dbda23f7e5639814e3a,"private void clearExecutions(Runnable stoppedListener) {
+        assert stoppedListener != null;
+        final CurrentExecutions currentExecutionsBeforeSetting = currentExecutions.getAndSet(new CurrentExecutions());
+        // clear old executions in background, no need to wait
+        genericExecutor.execute(() -> currentExecutionsBeforeSetting.sealAndAwaitEmpty(maxStopTimeout, stoppedListener));
+    }"
+67299dbda23f7e5639814e3b,"public static IndexMetadata getConcreteIndex(String name, Metadata metadata) {
+        IndexAbstraction indexAbstraction = metadata.getIndicesLookup().get(name);
+        if (indexAbstraction == null) {
+            return null;
+        }
+
+        if (indexAbstraction.getType() == IndexAbstraction.Type.ALIAS
+            && indexAbstraction.getIndices().size() > 1
+            && indexAbstraction.getWriteIndex() == null) {
+            throw new IllegalStateException(
+                String.format(
+                    Locale.ROOT,
+                    ""Alias [%s] points to %d indices, and does not have a designated write index"",
+                    name,
+                    indexAbstraction.getIndices().size()
+                )
+            );
+        }
+
+        Index concreteIndex = indexAbstraction.getWriteIndex();
+        if (concreteIndex == null) {
+            concreteIndex = indexAbstraction.getIndices().get(indexAbstraction.getIndices().size() - 1);
+        }
+        return metadata.index(concreteIndex);
+    }"
+67299dbda23f7e5639814e3c,"public long check(long time) {
+            if (time < scheduledTime) {
+                return -1;
+            }
+            long prevScheduledTime = scheduledTime == 0 ? time : scheduledTime;
+            scheduledTime = schedule.nextScheduledTimeAfter(startTime, time);
+            return prevScheduledTime;
+        }"
+67299dbda23f7e5639814e3d,"@SuppressWarnings(""unchecked"")
+    public static <T> T removeAsType(Map<String, Object> sourceMap, String key, Class<T> type) {
+        Object o = sourceMap.remove(key);
+        if (o == null) {
+            return null;
+        }
+
+        if (type.isAssignableFrom(o.getClass())) {
+            return (T) o;
+        } else {
+            throw new ElasticsearchStatusException(invalidTypeErrorMsg(key, o, type.getSimpleName()), RestStatus.BAD_REQUEST);
+        }
+    }"
+67299dbda23f7e5639814e3e,"static void moveModelFromTaskToServiceSettings(Map<String, Object> taskSettings, Map<String, Object> serviceSettings) {
+        if (serviceSettings.containsKey(MODEL_ID)) {
+            return;
+        }
+
+        final String OLD_MODEL_ID_FIELD = ""model"";
+        var oldModelId = taskSettings.remove(OLD_MODEL_ID_FIELD);
+        if (oldModelId != null) {
+            serviceSettings.put(MODEL_ID, oldModelId);
+        } else {
+            var modelId = taskSettings.remove(MODEL_ID);
+            serviceSettings.put(MODEL_ID, modelId);
+        }
+    }"
+67299dbda23f7e5639814e3f,"public static void positionParserAtTokenAfterField(XContentParser parser, String field, String errorMsgTemplate) throws IOException {
+        XContentParser.Token token = parser.nextToken();
+
+        while (token != null) {
+            if (token == XContentParser.Token.FIELD_NAME && parser.currentName().equals(field)) {
+                parser.nextToken();
+                return;
+            }
+            token = parser.nextToken();
+        }
+
+        throw new IllegalStateException(format(errorMsgTemplate, field));
+    }"
+67299dbda23f7e5639814e40,"public TimeValue timeToReserve(int tokens) {
+        var timeToReserveRes = timeToReserveInternal(tokens);
+
+        return new TimeValue((long) timeToReserveRes.microsToWait, TimeUnit.MICROSECONDS);
+    }"
+67299dbda23f7e5639814e41,"public TimeValue reserve(int tokens) {
+        return new TimeValue(reserveInternal(tokens), TimeUnit.MICROSECONDS);
+    }"
+67299dbda23f7e5639814e42,"public void testShardStatusIsCompleteOnNonDataNodes() throws Exception {
+        final String nodeToShutDownName = internalCluster().startMasterOnlyNode();
+        internalCluster().startMasterOnlyNode(); // Just to have at least one other node
+        final String nodeToRestartId = getNodeId(nodeToShutDownName);
+
+        putNodeShutdown(nodeToRestartId, SingleNodeShutdownMetadata.Type.REMOVE, null);
+        assertNodeShutdownStatus(nodeToRestartId, COMPLETE);
+    }"
+67299dbda23f7e5639814e43,"public static Optional<RetentionLeaseNotFoundException> syncRenewRetentionLease(
+        final ShardId leaderShardId,
+        final String retentionLeaseId,
+        final long retainingSequenceNumber,
+        final RemoteClusterClient remoteClient,
+        final TimeValue timeout
+    ) {
+        try {
+            final PlainActionFuture<ActionResponse.Empty> response = new PlainActionFuture<>();
+            asyncRenewRetentionLease(leaderShardId, retentionLeaseId, retainingSequenceNumber, remoteClient, response);
+            response.actionGet(timeout);
+            return Optional.empty();
+        } catch (final RetentionLeaseNotFoundException e) {
+            return Optional.of(e);
+        }
+    }"
+67299dbda23f7e5639814e44,"private static void validateSettings(final Settings leaderIndexSettings, final Settings followerIndexSettings) {
+        // make a copy, remove settings that are allowed to be different, and then compare if the settings are equal
+        final Settings leaderSettings = filter(leaderIndexSettings);
+        final Settings followerSettings = filter(followerIndexSettings);
+        if (leaderSettings.equals(followerSettings) == false) {
+            final String message = String.format(
+                Locale.ROOT,
+                ""the leader index settings [%s] and follower index settings [%s] must be identical"",
+                leaderSettings,
+                followerSettings
+            );
+            throw new IllegalArgumentException(message);
+        }
+    }"
+67299dbda23f7e5639814e45,"public <E> List<E> view(List<E> values) {
+        if (values == null || values.isEmpty()) {
+            return values;
+        }
+        if (limit == 0) {
+            return emptyList();
+        }
+
+        if (limit < 0) {
+            values = new ArrayList<>(values);
+            Collections.reverse(values);
+        }
+        int size = values.size();
+
+        if (size >= total) {
+            return values.subList(offset, total);
+        }
+        int l = absLimit();
+        if (size <= l) {
+            return values;
+        }
+        return values.subList(size - l, values.size());
+    }"
+67299dbda23f7e5639814e46,"boolean hasFollowingCandidates(int stage) {
+        return hasCandidates(stage, completionStage);
+    }"
+67299dbda23f7e5639814e47,"static String between(String string, String left, String right, boolean greedy, boolean caseInsensitive) {
+        if (hasLength(string) == false || hasLength(left) == false || hasLength(right) == false) {
+            return string;
+        }
+
+        String matchString = string;
+        if (caseInsensitive) {
+            matchString = matchString.toLowerCase(Locale.ROOT);
+            left = left.toLowerCase(Locale.ROOT);
+            right = right.toLowerCase(Locale.ROOT);
+        }
+
+        int idx = matchString.indexOf(left);
+        if (idx == -1) {
+            return EMPTY;
+        }
+
+        int start = idx + left.length();
+
+        if (greedy) {
+            idx = matchString.lastIndexOf(right);
+        } else {
+            idx = matchString.indexOf(right, start);
+        }
+
+        if (idx == -1) {
+            return EMPTY;
+        }
+
+        return string.substring(start, idx);
+    }"
+67299dbda23f7e5639814e48,"private void markPolicyRetrievalError(String policyName, Index index, LifecycleExecutionState executionState, Exception e) {
+        logger.debug(
+            () -> format(
+                ""unable to retrieve policy [%s] for index [%s], recording this in step_info for this index"",
+                policyName,
+                index.getName()
+            ),
+            e
+        );
+        setStepInfo(index, policyName, Step.getCurrentStepKey(executionState), new SetStepInfoUpdateTask.ExceptionWrapper(e));
+    }"
+67299dbda23f7e5639814e49,"public void putAsync(ILMHistoryItem item) {
+        if (ilmHistoryEnabled == false) {
+            logger.trace(
+                ""not recording ILM history item because [{}] is [false]: [{}]"",
+                LIFECYCLE_HISTORY_INDEX_ENABLED_SETTING.getKey(),
+                item
+            );
+            return;
+        }
+        logger.trace(""queueing ILM history item for indexing [{}]: [{}]"", ILM_HISTORY_DATA_STREAM, item);
+        try (XContentBuilder builder = XContentFactory.jsonBuilder()) {
+            item.toXContent(builder, ToXContent.EMPTY_PARAMS);
+            IndexRequest request = new IndexRequest(ILM_HISTORY_DATA_STREAM).source(builder).opType(DocWriteRequest.OpType.CREATE);
+            processor.add(request);
+        } catch (Exception e) {
+            logger.error(() -> format(""failed to send ILM history item to index [%s]: [%s]"", ILM_HISTORY_DATA_STREAM, item), e);
+        }
+    }"
+67299dbda23f7e5639814e4a,"public static Set<RollupJobCaps> findBestJobs(AggregationBuilder source, Set<RollupJobCaps> jobCaps) {
+        // TODO there is an opportunity to optimize the returned caps to find the minimal set of required caps.
+        // For example, one leaf may have equally good jobs [A,B], while another leaf finds only job [B] to be best.
+        // If job A is a subset of job B, we could simply search job B in isolation and get the same results
+        //
+        // We can't do that today, because we don't (yet) have way of determining if one job is a sub/super set of another
+        Set<RollupJobCaps> bestCaps = new HashSet<>();
+        doFindBestJobs(source, new ArrayList<>(jobCaps), bestCaps);
+        return bestCaps;
+    }"
+67299dbda23f7e5639814e4b,"public synchronized ClockMock freeze() {
+        setTime(instant());
+        return this;
+    }"
+67299dbda23f7e5639814e4c,"public synchronized ClockMock unfreeze() {
+        wrappedClock = Clock.system(getZone());
+        return this;
+    }"
+67299dbda23f7e5639814e4d,"public void fastForwardSeconds(int seconds) {
+        fastForward(TimeValue.timeValueSeconds(seconds));
+    }"
+67299dbda23f7e5639814e4e,"public void rewindSeconds(int seconds) {
+        rewind(TimeValue.timeValueSeconds(seconds));
+    }"
+67299dbda23f7e5639814e4f,"public boolean isActive() {
+        return checkAgainstStatus(statusToCheck -> statusToCheck.active());
+    }"
+67299dbda23f7e5639814e50,"public boolean checkAndStartTracking(XPackLicenseState state, String contextName) {
+            if (state.isAllowed(this)) {
+                startTracking(state, contextName);
+                return true;
+            } else {
+                return false;
+            }
+        }"
+67299dbda23f7e5639814e51,"public final boolean checkWithoutTracking(XPackLicenseState state) {
+        return state.isAllowed(this);
+    }"
+67299dbda23f7e5639814e52,"public void onCheck(boolean metCondition, ZonedDateTime timestamp) {
+        lastChecked = timestamp;
+        if (metCondition) {
+            lastMetCondition = timestamp;
+        } else {
+            for (ActionStatus status : actions.values()) {
+                status.resetAckStatus(timestamp);
+            }
+        }
+    }"
+67299dbda23f7e5639814e53,"public Rounding.Prepared createRounding() {
+        return createRounding(interval.toString(), timeZone);
+    }"
+67299dbda23f7e5639814e54,"public static boolean isValid(String expression) {
+        try {
+            validate(expression);
+        } catch (IllegalArgumentException pe) {
+            return false;
+        }
+        return true;
+    }"
+67299dbda23f7e5639814e55,"public void createResponse(String docId, Map<String, String> headers, R response, ActionListener<DocWriteResponse> listener) {
+        indexResponse(docId, headers, null, response, true, listener);
+    }"
+67299dbda23f7e5639814e56,"public void getResponse(AsyncExecutionId asyncExecutionId, boolean restoreResponseHeaders, ActionListener<R> listener) {
+        getResponseFromIndex(asyncExecutionId, restoreResponseHeaders, true, listener);
+    }"
+67299dbda23f7e5639814e57,"public void setInternalUser(InternalUser internalUser, TransportVersion version) {
+        setAuthentication(Authentication.newInternalAuthentication(internalUser, version, nodeName));
+    }"
+67299dbda23f7e5639814e58,"public boolean check(String action) {
+        final boolean isMappingUpdateAction = isMappingUpdateAction(action);
+        for (Group group : groups) {
+            if (group.checkAction(action) || (isMappingUpdateAction && containsPrivilegeThatGrantsMappingUpdatesForBwc(group))) {
+                return true;
+            }
+        }
+        return false;
+    }"
+67299dbda23f7e5639814e59,"public static void validateApplicationName(String application) {
+        validateApplicationName(application, false);
+    }"
+67299dbda23f7e5639814e5a,"public static boolean verifyHash(SecureString data, char[] hash) {
+        final Hasher hasher = resolveFromHash(hash);
+        return hasher.verify(data, hash);
+    }"
+67299dbda23f7e5639814e5b,"public void writeToContext(Authentication authentication, ThreadContext ctx) throws IOException {
+        ensureContextDoesNotContainAuthentication(ctx);
+        String header = authentication.encode();
+        assert header != null : ""Authentication object encoded to null""; // this usually happens with mock objects in tests
+        ctx.putTransient(contextKey, authentication);
+        ctx.putHeader(contextKey, header);
+    }"
+67299dbda23f7e5639814e5c,"public static String gensalt(int log_rounds) {
+        return gensalt(log_rounds, new SecureRandom());
+    }"
+67299dbda23f7e5639814e5d,"public static String gensalt() {
+        return gensalt(GENSALT_DEFAULT_LOG2_ROUNDS);
+    }"
+67299dbda23f7e5639814e5e,"public static boolean isAlignCheckpointsDisabled(SettingsConfig settings) {
+        return Boolean.FALSE.equals(settings.getAlignCheckpoints());
+    }"
+67299dbda23f7e5639814e5f,"static BitSet makeShortFieldMask(List<List<String>> rows, int longFieldThreshold) {
+
+        assert rows.isEmpty() == false;
+
+        BitSet shortFieldMask = new BitSet();
+
+        int maxLength = rows.stream().map(List::size).max(Integer::compareTo).get();
+        for (int index = 0; index < maxLength; ++index) {
+            final int i = index;
+            shortFieldMask.set(
+                i,
+                rows.stream().allMatch(row -> i >= row.size() || row.get(i) == null || row.get(i).length() < longFieldThreshold)
+            );
+        }
+
+        return shortFieldMask;
+    }"
+67299dbda23f7e5639814e60,"static int levenshteinFieldwiseCompareRows(List<String> firstRow, List<String> secondRow) {
+
+        int largestSize = Math.max(firstRow.size(), secondRow.size());
+        if (largestSize < 1) {
+            return 0;
+        }
+
+        BitSet allFields = new BitSet();
+        allFields.set(0, largestSize);
+
+        return levenshteinFieldwiseCompareRows(firstRow, secondRow, allFields);
+    }"
+67299dbda23f7e5639814e61,"private double[] calculateMatchWeights() {
+
+        int remainingMatches = matches.size();
+        double[] weights = new double[matchedFormats.size()];
+        for (TimestampMatch match : matches) {
+
+            for (int matchedFormatIndex = 0; matchedFormatIndex < matchedFormats.size(); ++matchedFormatIndex) {
+                if (matchedFormats.get(matchedFormatIndex).canMergeWith(match.timestampFormat)) {
+                    weights[matchedFormatIndex] += weightForMatch(match.preface);
+                    break;
+                }
+                ++matchedFormatIndex;
+            }
+
+            // The highest possible weight is 1, so if the difference between the two highest weights
+            // is less than the number of lines remaining then the leader cannot possibly be overtaken
+            if (findDifferenceBetweenTwoHighestWeights(weights) > --remainingMatches) {
+                break;
+            }
+        }
+
+        return weights;
+    }"
+67299dbda23f7e5639814e62,"@Override
+    public boolean canCreateFromSample(List<String> explanation, String sample, double allowedFractionOfBadLines) {
+        if (sample.indexOf('\n') < 0) {
+            explanation.add(""Not text because sample contains no newlines"");
+            return false;
+        }
+        if (TWO_NON_BLANK_LINES_PATTERN.matcher(sample).find() == false) {
+            explanation.add(""Not text because sample contains fewer than two non-blank lines"");
+            return false;
+        }
+
+        explanation.add(""Deciding sample is text"");
+        return true;
+    }"
+67299dbda23f7e5639814e63,"private static boolean replace(
+            Iterable<Expression> pattern,
+            List<Expression> target,
+            List<Expression> originalExpressions,
+            BiFunction<Expression, Expression, Expression> replacer
+        ) {
+            boolean modified = false;
+            for (Expression s : pattern) {
+                for (int i = 0; i < target.size(); i++) {
+                    Expression t = target.get(i);
+                    // identify matching expressions
+                    if (t.anyMatch(s::semanticEquals)) {
+                        Expression replacement = replacer.apply(t, s);
+                        // if the expression has changed, replace it
+                        if (replacement != t) {
+                            modified = true;
+                            target.set(i, replacement);
+                            originalExpressions.replaceAll(e -> t.semanticEquals(e) ? replacement : e);
+                        }
+                    }
+                }
+            }
+            return modified;
+        }"
+67299dbda23f7e5639814e64,"public static QueryBuilder combine(Clause clause, List<QueryBuilder> queries) {
+        QueryBuilder firstQuery = null;
+        BoolQueryBuilder bool = null;
+
+        for (QueryBuilder query : queries) {
+            if (query == null) {
+                continue;
+            }
+            if (firstQuery == null) {
+                firstQuery = query;
+                if (firstQuery instanceof BoolQueryBuilder bqb) {
+                    bool = bqb;
+                }
+            }
+            // at least two entries, start copying
+            else {
+                // lazy init the root bool
+                if (bool == null) {
+                    bool = combine(clause, boolQuery(), firstQuery);
+                }
+                // keep adding queries to it
+                bool = combine(clause, bool, query);
+            }
+        }
+
+        return bool == null ? firstQuery : bool;
+    }"
+67299dbda23f7e5639814e65,"public static Number unsignedLongAsNumber(long l) {
+        return l < 0 ? twosComplement(l) : LONG_MAX_PLUS_ONE_AS_BIGINTEGER.add(BigInteger.valueOf(l));
+    }"
+67299dbda23f7e5639814e66,"private static int countCoordRepeatReverse(Coordinate[] coords) {
+        int repeatCoords = 0;
+
+        final Coordinate firstCoord = coords[0];
+        Coordinate nextCoord;
+
+        for (int i = coords.length - 1; i > 0; --i) {
+            nextCoord = coords[i];
+            if (equalAsInts2d(firstCoord, nextCoord)) {
+                ++repeatCoords;
+            } else {
+                break;
+            }
+        }
+
+        return repeatCoords;
+    }"
+67299dbda23f7e5639814e67,"void adjustBreaker(final long delta) throws CircuitBreakingException {
+        // checking breaker means potentially tripping, but it doesn't
+        // have to if the delta is negative
+        if (delta > 0) {
+            breaker.addEstimateBytesAndMaybeBreak(delta, ""<esql_block_factory>"");
+        } else {
+            breaker.addWithoutBreaking(delta);
+        }
+    }"
+67299dbda23f7e5639814e68,"static int ascending(IntBlock values, int firstValue, int count) {
+        int middle = firstValue + count / 2;
+        if (count % 2 == 1) {
+            return values.getInt(middle);
+        }
+        return avgWithoutOverflow(values.getInt(middle - 1), values.getInt(middle));
+    }"
+67299dbda23f7e5639814e69,"boolean roundingIsOk(Rounding rounding) {
+            Rounding.Prepared r = rounding.prepareForUnknown();
+            long bucket = r.round(from);
+            int used = 0;
+            while (used < buckets) {
+                bucket = r.nextRoundingValue(bucket);
+                used++;
+                if (bucket > to) {
+                    return true;
+                }
+            }
+            return false;
+        }"
+67299dbda23f7e5639814e6a,"private Block evalAscendingNullable(Block fieldVal) {
+    IntBlock v = (IntBlock) fieldVal;
+    int positionCount = v.getPositionCount();
+    try (IntBlock.Builder builder = driverContext.blockFactory().newIntBlockBuilder(positionCount)) {
+      for (int p = 0; p < positionCount; p++) {
+        int valueCount = v.getValueCount(p);
+        if (valueCount == 0) {
+          builder.appendNull();
+          continue;
+        }
+        int first = v.getFirstValueIndex(p);
+        int idx = MvMax.ascendingIndex(valueCount);
+        int result = v.getInt(first + idx);
+        builder.appendInt(result);
+      }
+      return builder.build();
+    }
+  }"
+67299dbda23f7e5639814e6b,"public void scheduleSnapshotJobs(final ClusterState state) {
+        SnapshotLifecycleMetadata snapMeta = state.metadata().custom(SnapshotLifecycleMetadata.TYPE);
+        if (snapMeta != null) {
+            snapMeta.getSnapshotConfigurations().values().forEach(this::maybeScheduleSnapshot);
+        }
+    }"
+67299dbda23f7e5639814e6c,"public static SortedSet<ByteRange> randomRanges(long length) {
+        final SortedSet<ByteRange> randomRanges = new TreeSet<>();
+        for (long i = 0L; i < length;) {
+            long start = randomLongBetween(i, Math.max(0L, length - 1L));
+            long end = randomLongBetween(start + 1L, length); // +1 for non empty ranges
+            randomRanges.add(ByteRange.of(start, end));
+            i = end + 1L + randomLongBetween(0L, Math.max(0L, length - end)); // +1 for non contiguous ranges
+        }
+        return randomRanges;
+    }"
+67299dbda23f7e5639814e6d,"public void finish(int bytesRead) throws Exception {
+        if (buffer != null) {
+            assert bytesRead == 0 || permits.availablePermits() == Integer.MAX_VALUE
+                : ""Try to finish ["" + bytesRead + ""] but only had ["" + permits.availablePermits() + ""] permits available."";
+            permits.acquire(Integer.MAX_VALUE);
+            buffer.position(buffer.position() + bytesRead); // mark all bytes as accounted for
+            buffer = null;
+        }
+    }"
+67299dbda23f7e5639814e6e,"public boolean isNodeSafeToShutdown(String nodeId) {
+        return isNodeSafeToShutdown(nodeId, clusterService.state(), shutdownStartTimes.get(nodeId), Clock.systemUTC());
+    }"
+67299dbda23f7e5639814e6f,"public void finishReporting() {
+        try {
+            flush(WriteRequest.RefreshPolicy.IMMEDIATE, true);
+        } catch (InterruptedException e) {
+            logger.warn(""[{}] interrupted while finishing reporting of datafeed timing stats"", currentTimingStats.getJobId());
+            Thread.currentThread().interrupt();
+        }
+    }"
+67299dbda23f7e5639814e70,"public void vacateNode(String reason) {
+            isolateDatafeed();
+            task.markAsLocallyAborted(reason);
+        }"
+67299dbda23f7e5639814e71,"private OptionalInt commonPrefix(byte[] inputBytes, int offset, int len) {
+        int pos = 0;
+        OptionalInt vs = OptionalInt.empty();
+        int v = offsets[pos];
+        pos ^= offset(v);
+        for (int i = offset; i < offset + len; i++) {
+            // bytes can be negative in java, handle it and require unsigned
+            int k = inputBytes[i];
+            if (k < 0) {
+                k += 256;
+            }
+            if (k == 0) {
+                break;
+            }
+            pos ^= k;
+            v = offsets[pos];
+            if (label(v) != k) {
+                return vs;
+            }
+            pos ^= offset(v);
+            if (hasLeaf(v)) {
+                vs = OptionalInt.of(value(offsets[pos]));
+                return vs;
+            }
+        }
+        return vs;
+    }"
+67299dbda23f7e5639814e72,"public TopTransactionIds getTopTransactionIds() {
+        return getTopTransactionIds(getTransactions().size());
+    }"
+67299dbda23f7e5639814e73,"public TopItemIds getTopItemIds() {
+        return getTopItemIds(getItems().size());
+    }"
+67299dbda23f7e5639814e74,"public double logProbability(long x) {
+        if (numberOfTrials == 0) {
+            return (x == 0) ? 0. : Double.NEGATIVE_INFINITY;
+        }
+        double ret;
+        if (x < 0 || x > numberOfTrials) {
+            ret = Double.NEGATIVE_INFINITY;
+        } else {
+            ret = logBinomialProbability(x, numberOfTrials, probabilityOfSuccess, 1.0 - probabilityOfSuccess);
+        }
+        return ret;
+    }"
+67299dbda23f7e5639814e75,"static double logBinomialProbability(long x, long n, double p, double q) {
+        double ret;
+        if (x == 0) {
+            if (p < 0.1) {
+                ret = -getDeviancePart(n, n * q) - n * p;
+            } else {
+                ret = n * FastMath.log(q);
+            }
+        } else if (x == n) {
+            if (q < 0.1) {
+                ret = -getDeviancePart(n, n * p) - n * q;
+            } else {
+                ret = n * FastMath.log(p);
+            }
+        } else {
+            ret = getStirlingError(n) - getStirlingError(x) - getStirlingError(n - x) - getDeviancePart(x, n * p) - getDeviancePart(
+                n - x,
+                n * q
+            );
+            double f = (MathUtils.TWO_PI * x * (n - x)) / n;
+            ret = -0.5 * FastMath.log(f) + ret;
+        }
+        return ret;
+    }"
+67299dbda23f7e5639814e76,"public boolean isRecentlyRefreshed() {
+        Instant localLastUpdateTime = lastUpdateTime;
+        return isMaster && localLastUpdateTime != null && localLastUpdateTime.plus(getStalenessDuration()).isAfter(Instant.now());
+    }"
+67299dbda23f7e5639814e77,"public Long getAnomalyDetectorJobMemoryRequirement(String jobId) {
+        return getJobMemoryRequirement(MlTasks.JOB_TASK_NAME, jobId);
+    }"
+67299dbda23f7e5639814e78,"public Long getDataFrameAnalyticsJobMemoryRequirement(String id) {
+        return getJobMemoryRequirement(MlTasks.DATA_FRAME_ANALYTICS_TASK_NAME, id);
+    }"
+67299dbda23f7e5639814e79,"public void refresh(PersistentTasksCustomMetadata persistentTasks, ActionListener<Void> onCompletion) {
+        refresh(persistentTasks, Collections.emptySet(), onCompletion);
+    }"
+67299dbda23f7e5639814e7a,"@Nullable
+    public FlushAcknowledgement waitForFlushAcknowledgement(String flushId, Duration timeout) throws Exception {
+        return failed ? null : flushListener.waitForFlush(flushId, timeout);
+    }"
+67299dbda23f7e5639814e7b,"public TimeRange build() {
+            return createTimeRange(start, end);
+        }"
+67299dbda23f7e5639814e7c,"public void deleteAllAnnotations(ActionListener<Boolean> listener) {
+        deleteAnnotations(null, null, null, listener);
+    }"
+67299dbda23f7e5639814e7d,"public synchronized Builder persistBucket(Bucket bucket) {
+            // If the supplied bucket has records then create a copy with records
+            // removed, because we never persist nested records in buckets
+            Bucket bucketWithoutRecords = bucket;
+            if (bucketWithoutRecords.getRecords().isEmpty() == false) {
+                bucketWithoutRecords = new Bucket(bucket);
+                bucketWithoutRecords.setRecords(Collections.emptyList());
+            }
+            String id = bucketWithoutRecords.getId();
+            logger.trace(""[{}] ES API CALL: index bucket to index [{}] with ID [{}]"", jobId, indexName, id);
+            indexResult(id, bucketWithoutRecords, ""bucket"");
+
+            persistBucketInfluencersStandalone(jobId, bucketWithoutRecords.getBucketInfluencers());
+
+            return this;
+        }"
+67299dbda23f7e5639814e7e,"public void deleteInterimResults(String jobId) {
+        new JobDataDeleter(client, jobId).deleteInterimResults();
+    }"
+67299dbda23f7e5639814e7f,"public void flush(ActionListener<Void> listener) {
+        if (closed.compareAndSet(false, true)) {
+            doFlush(listener);
+        } else {
+            listener.onResponse(null);
+        }
+    }"
+67299dbda23f7e5639814e80,"public void testBoundedTilerInflation_8001fffffffffff() {
+        for (int precision = 0; precision < 2; precision++) {
+            long h3 = H3.stringToH3(""8001fffffffffff"");
+            LatLng centroid = H3.h3ToLatLng(h3);
+            assertH3CellInflation(new Point(centroid.getLonDeg(), centroid.getLatDeg()), precision);
+        }
+    }"
+67299dbda23f7e5639814e81,"private int setValue(GeoShapeCellValues docValues, int xTile, int yTile) {
+        if (validTile(xTile, yTile, precision)) {
+            docValues.resizeCell(1);
+            docValues.add(0, GeoTileUtils.longEncodeTiles(precision, xTile, yTile));
+            return 1;
+        }
+        return 0;
+    }"
+67299dbda23f7e5639814e82,"public boolean intersectsBbox(double minX, double maxX, double minY, double maxY) {
+        if (minX > maxX) {
+            return relateBbox(minX, GeoUtils.MAX_LON_INCL, minY, maxY) || relateBbox(GeoUtils.MIN_LON_INCL, maxX, minY, maxY);
+        } else {
+            return relateBbox(minX, maxX, minY, maxY);
+        }
+    }"
+67299dbda23f7e5639814e83,"private GeoRelation relatePoint(double x, double y) {
+        if (boxesAreDisjoint(x, x, y, y)) {
+            return GeoRelation.QUERY_DISJOINT;
+        }
+        return H3CartesianUtil.relatePoint(xs, ys, numPoints, crossesDateline, x, y);
+    }"
+67299dbda23f7e5639814e84,"public static long getLastCommitGeneration(String[] files) {
+        long max = -1;
+        for (String file : files) {
+            if (file.startsWith(IndexFileNames.SEGMENTS) &&
+            // skipping this file here helps deliver the right exception when opening an old index
+                file.startsWith(OLD_SEGMENTS_GEN) == false) {
+                long gen = generationFromSegmentsFileName(file);
+                if (gen > max) {
+                    max = gen;
+                }
+            }
+        }
+        return max;
+    }"
+67299dbda23f7e5639814e85,"public void skipFinalOutput(DataInput in) throws IOException {
+        skipOutput(in);
+    }"
+67299dbda23f7e5639814e86,"private String getValidRandomInstanceName() {
+        String name;
+        boolean valid;
+        do {
+            name = randomAlphaOfLengthBetween(1, 32);
+            valid = Name.fromUserProvidedName(name, name).error == null;
+        } while (valid == false);
+        return name;
+    }"
+67299dbda23f7e5639814e87,"private void createUserWithRunAsRole() throws ExecutionException, InterruptedException {
+        createUserWithRunAsRole(Map.of(""Authorization"", basicAuthHeaderValue(ES_TEST_ROOT_USER, TEST_PASSWORD_SECURE_STRING)));
+    }"
+67299dbda23f7e5639814e88,"public TokenInvalidation invalidateTokensForRealm(String realmName) throws IOException {
+        return invalidateTokens(String.format(Locale.ROOT, """"""
+            {
+              ""realm_name"":""%s""
+            }
+            """""", realmName));
+    }"
+67299dbda23f7e5639814e89,"private int getPartNumberForPosition(long position) {
+        ensureValidPosition(position);
+        final int part = fileInfo.numberOfParts() == 1 ? 0 : Math.toIntExact(position / fileInfo.partSize().getBytes());
+        assert part <= fileInfo.numberOfParts() : ""part number ["" + part + ""] exceeds number of parts: "" + fileInfo.numberOfParts();
+        assert part >= 0 : ""part number ["" + part + ""] is negative"";
+        return part;
+    }"
+67299dbda23f7e5639814e8a,"public void removeFromCache(final CacheKey cacheKey) {
+        cache.invalidate(cacheKey);
+    }"
+67299dbda23f7e5639814e8b,"private void fail(Throwable exception, String failureMessage) {
+        // note: logging and audit is done as part of context.markAsFailed
+        context.markAsFailed(exception, failureMessage);
+    }"
+67299dbda23f7e5639814e8c,"protected Set<Expression> resolveExpressionAsRootAttributes(Expression exp, AttributeMap<Expression> aliases) {
+            Set<Expression> resolvedExpressions = new LinkedHashSet<>();
+            boolean changed = doResolve(exp, aliases, resolvedExpressions);
+            return changed ? resolvedExpressions : emptySet();
+        }"
+67299dbda23f7e5639814e8d,"protected final FieldAttribute keyword(String name) {
+        return field(name, new KeywordEsField(name));
+    }"
+67299dbda23f7e5639814e8e,"public void translate() {
+        translateMetric.inc();
+    }"
+67299dbda23f7e5639814e8f,"public static ZonedDateTime asDateOnly(String dateFormat) {
+        int separatorIdx = timeSeparatorIdx(dateFormat);
+        // Avoid index out of bounds - it will lead to DateTimeParseException anyways
+        if (separatorIdx >= dateFormat.length() || dateFormat.charAt(separatorIdx) == 'T') {
+            return LocalDate.parse(dateFormat, ISO_LOCAL_DATE_OPTIONAL_TIME_FORMATTER_T_LITERAL).atStartOfDay(UTC);
+        } else {
+            return LocalDate.parse(dateFormat, ISO_LOCAL_DATE_OPTIONAL_TIME_FORMATTER_WHITESPACE).atStartOfDay(UTC);
+        }
+    }"
+67299dbda23f7e5639814e90,"public final void print(Verbosity verbosity, String msg) {
+        print(verbosity, outWriter, msg, false, true);
+    }"
+67299dbda23f7e5639814e91,"public LatLng ijkToGeo(int face, int res, boolean substrate) {
+        final int i = Math.subtractExact(this.i, this.k);
+        final int j = Math.subtractExact(this.j, this.k);
+        return Vec2d.hex2dToGeo(i - 0.5 * j, j * Constants.M_SQRT3_2, face, res, substrate);
+    }"
+67299dbda23f7e5639814e92,"public void ijkNormalize() {
+        final int min = Math.min(i, Math.min(j, k));
+        ijkSub(min, min, min);
+    }"
+67299dbda23f7e5639814e93,"public void neighbor(int digit) {
+        if (digit > Direction.CENTER_DIGIT.digit() && digit < Direction.NUM_DIGITS.digit()) {
+            ijkAdd(UNIT_VECS[digit][0], UNIT_VECS[digit][1], UNIT_VECS[digit][2]);
+            ijkNormalize();
+        }
+    }"
+67299dbda23f7e5639814e94,"public LatLng faceIjkToGeo(int res) {
+        return coord.ijkToGeo(face, res, false);
+    }"
+67299dbda23f7e5639814e95,"public static long h3ToChildrenSize(String h3Address, int childRes) {
+        return h3ToChildrenSize(stringToH3(h3Address), childRes);
+    }"
+67299dbda23f7e5639814e96,"public static int h3ToNotIntersectingChildrenSize(String h3Address) {
+        return h3ToNotIntersectingChildrenSize(stringToH3(h3Address));
+    }"
+67299dbda23f7e5639814e97,"public static long northPolarH3(int res) {
+        checkResolution(res);
+        return NORTH[res];
+    }"
+67299dbda23f7e5639814e98,"public static long southPolarH3(int res) {
+        checkResolution(res);
+        return SOUTH[res];
+    }"
+67299dbda23f7e5639814e99,"public double greatCircleMaxLatitude(LatLng latLng) {
+        if (isNumericallyIdentical(latLng)) {
+            return latLng.lat;
+        }
+        return latLng.lat > this.lat ? greatCircleMaxLatitude(latLng, this) : greatCircleMaxLatitude(this, latLng);
+    }"
+67299dbda23f7e5639814e9a,"public double greatCircleMinLatitude(LatLng latLng) {
+        if (isNumericallyIdentical(latLng)) {
+            return latLng.lat;
+        }
+        return latLng.lat < this.lat ? greatCircleMinLatitude(latLng, this) : greatCircleMinLatitude(this, latLng);
+    }"
+67299dbda23f7e5639814e9b,"public LatLng hex2dToGeo(int face, int res, boolean substrate) {
+        return hex2dToGeo(this.x, this.y, face, res, substrate);
+    }"
+67299dbda23f7e5639814e9c,"public static long h3Rotate60ccw(long h) {
+        for (int r = 1, res = H3_get_resolution(h); r <= res; r++) {
+            h = H3_set_index_digit(h, r, CoordIJK.rotate60ccw(H3_get_index_digit(h, r)));
+        }
+        return h;
+    }"
+67299dbda23f7e5639814e9d,"public void consume(double x, double y) {
+        consume(makePointErrorFor(length, x, y));
+    }"
+67299dbda23f7e5639814e9e,"public static final long longEncode(String hash) {
+        return longEncode(hash, hash.length());
+    }"
+67299dbda23f7e5639814e9f,"public static final String stringEncode(final double lon, final double lat) {
+        return stringEncode(lon, lat, 12);
+    }"
+67299dbda23f7e5639814ea0,"public static final String stringEncode(final double lon, final double lat, final int level) {
+        // convert to geohashlong
+        long interleaved = encodeLatLon(lat, lon);
+        interleaved >>>= (((PRECISION - level) * 5) + (MORTON_OFFSET - 2));
+        final long geohash = (interleaved << 4) | level;
+        return stringEncode(geohash);
+    }"
+67299dbda23f7e5639814ea1,"public void testResourcesParentNonPkgName() throws Exception {
+        testResourcesParent(""p-u/q/r/T.txt"");
+    }"
+67299dbda23f7e5639814ea2,"private static void checkManifest(Manifest manifest, Path jar) {
+        // give a nice error if jar requires a newer java version
+        String targetVersion = manifest.getMainAttributes().getValue(""X-Compile-Target-JDK"");
+        if (targetVersion != null) {
+            checkJavaVersion(jar.toString(), targetVersion);
+        }
+    }"
+67299dbda23f7e5639814ea3,"private void checkOrder(double[] key, int start, int length, double[]... values) {
+        assert start + length <= key.length;
+
+        for (int i = start; i < start + length - 1; i++) {
+            assertTrue(String.format(Locale.ROOT, ""bad ordering at %d, %f > %f"", i, key[i], key[i + 1]), key[i] <= key[i + 1]);
+        }
+
+        checkValues(key, start, length, values);
+    }"
+67299dbda23f7e5639814ea4,"public static void sort(double[] key, double[]... values) {
+        sort(key, 0, key.length, values);
+    }"
+67299dbda23f7e5639814ea5,"@Override
+    public void compress() {
+        mergeNewValues(publicCompression);
+    }"
+67299dbda23f7e5639814ea6,"@Nullable
+    private static Path findAgentJar() throws IOException, UserException {
+        return findAgentJar(System.getProperty(""user.dir""));
+    }"
+67299dbda23f7e5639814ea7,"public void forceStop() throws IOException {
+        assert detached == false;
+        jvmProcess.destroyForcibly();
+        waitFor();
+    }"
+67299dbda23f7e5639814ea8,"public List<Version> getIndexCompatible() {
+        return filterSupportedVersions(getAllIndexCompatible());
+    }"
+67299dbda23f7e5639814ea9,"protected static void assertNbUnassignedTasks(final long nbTasks, final ClusterState clusterState) {
+        assertPersistentTasks(nbTasks, clusterState, task -> task.isAssigned() == false);
+    }"
+67299dbda23f7e5639814eaa,"private <P extends PersistentTaskParams> PersistentTasksClusterService createService(
+        final TriFunction<P, Collection<DiscoveryNode>, ClusterState, Assignment> fn
+    ) {
+        return createService(clusterService, fn);
+    }"
+67299dbda23f7e5639814eab,"public static Optional<Error> maybeError(final Throwable cause) {
+        return unwrapCausesAndSuppressed(cause, t -> t instanceof Error);
+    }"
+67299dbda23f7e5639814eac,"static List<Path> collectShardDataPaths(DataPath[] dataPaths) throws IOException {
+        return collectIndexSubPaths(dataPaths, NodeEnvironment::isShardPath);
+    }"
+67299dbda23f7e5639814ead,"public Builder initializeAsNew(IndexMetadata indexMetadata) {
+            return initializeEmpty(indexMetadata, new UnassignedInfo(UnassignedInfo.Reason.INDEX_CREATED, null), null);
+        }"
+67299dbda23f7e5639814eae,"private ShardRouting cancelRelocation(ShardRouting shard) {
+        relocatingShards--;
+        ShardRouting cancelledShard = shard.cancelRelocation();
+        updateAssigned(shard, cancelledShard);
+        return cancelledShard;
+    }"
+67299dbda23f7e5639814eaf,"public Set<String> resolveExpressions(ClusterState state, String... expressions) {
+        return resolveExpressions(state, IndicesOptions.lenientExpandOpen(), false, expressions);
+    }"
+67299dbda23f7e5639814eb0,"public static boolean isAllIndices(Collection<String> aliasesOrIndices) {
+        return aliasesOrIndices == null || aliasesOrIndices.isEmpty() || isExplicitAllPattern(aliasesOrIndices);
+    }"
+67299dbda23f7e5639814eb1,"public void close() {
+        try {
+            awaitClose(30, TimeUnit.SECONDS);
+        } catch (InterruptedException exc) {
+            Thread.currentThread().interrupt();
+        }
+    }"
+67299dbda23f7e5639814eb2,"public List<TaskGroup> getTaskGroups() {
+        if (groups == null) {
+            buildTaskGroups();
+        }
+        return groups;
+    }"
+67299dbda23f7e5639814eb3,"public double scaleDown(double value) {
+        if (isSampled()) {
+            return value * probability;
+        }
+        return value;
+    }"
+67299dbda23f7e5639814eb4,"public double scaleUp(double value) {
+        if (isSampled()) {
+            return value / probability;
+        }
+        return value;
+    }"
+67299dbda23f7e5639814eb5,"public static String stringEncode(long hash) {
+        final int[] res = parseHash(hash);
+        validateZXY(res[0], res[1], res[2]);
+        return res[0] + ""/"" + res[1] + ""/"" + res[2];
+    }"
+67299dbda23f7e5639814eb6,"public DateRangeAggregationBuilder addUnboundedTo(String key, String to) {
+        addRange(new RangeAggregator.Range(key, null, to));
+        return this;
+    }"
+67299dbda23f7e5639814eb7,"public DateRangeAggregationBuilder addUnboundedFrom(String key, String from) {
+        addRange(new RangeAggregator.Range(key, from, null));
+        return this;
+    }"
+67299dbda23f7e5639814eb8,"LeafBucketCollector getLeafCollector(LeafReaderContext context, LeafBucketCollector in) throws IOException {
+        LeafBucketCollector leafBucketCollector = getLeafCollector(null, context, in);
+
+        // As we are starting to collect from a new segment we need to update the topChangedListener if present
+        // and if the queue is full.
+        if (competitiveBoundsChangedListener != null && size() >= maxSize) {
+            competitiveBoundsChangedListener.boundsChanged(top());
+        }
+        return leafBucketCollector;
+    }"
+67299dbda23f7e5639814eb9,"public void submit(ClusterService clusterService) {
+        String source = format(""record [%s] migration [%s]"", featureName, status.succeeded() ? ""success"" : ""failure"");
+        submitUnbatchedTask(clusterService, source, this);
+    }"
+67299dbda23f7e5639814eba,"public byte[] getFieldValueAsBytes(String path) {
+        return getFieldValueAsBytes(path, false);
+    }"
+67299dbda23f7e5639814ebb,"public RetentionLeases getRetentionLeases() {
+        return getRetentionLeases(false);
+    }"
+67299dbda23f7e5639814ebc,"public RetentionLeases getRetentionLeases() {
+        return getRetentionLeases(false);
+    }"
+67299dbda23f7e5639814ebd,"public static boolean hasLength(String str) {
+        return hasLength((CharSequence) str);
+    }"
+67299dbda23f7e5639814ebe,"public Runnable preserveContext(Runnable command) {
+        return doPreserveContext(command, false);
+    }"
+67299dbda23f7e5639814ebf,"public boolean fastForward() {
+        return assertValidCount(countDown.getAndSet(0)) > 0;
+    }"
+67299dbda23f7e5639814ec0,"public static boolean simpleMatch(String pattern, String str, boolean caseInsensitive) {
+        if (pattern == null || str == null) {
+            return false;
+        }
+        if (caseInsensitive) {
+            pattern = Strings.toLowercaseAscii(pattern);
+            str = Strings.toLowercaseAscii(str);
+        }
+        return simpleMatchWithNormalizedStrings(pattern, str);
+    }"
+67299dbda23f7e5639814ec1,"public boolean updateDynamicSettings(Settings toApply, Settings.Builder target, Settings.Builder updates, String type) {
+        return updateSettings(toApply, target, updates, type, true);
+    }"
+67299dbda23f7e5639814ec2,"public static String format(InetAddress address) {
+        return format(address, new PortsRange(""""));
+    }"
+67299dbda23f7e5639814ec3,"static <C extends CloseableChannel> void closeChannel(C channel) {
+        closeChannel(channel, false);
+    }"
+67299dbda23f7e5639814ec4,"public static CompressedXContent fromJSON(String json) throws IOException {
+        try (var parser = JsonXContent.jsonXContent.createParser(XContentParserConfiguration.EMPTY, json)) {
+            return new CompressedXContent((ToXContentObject) (builder, params) -> builder.copyCurrentStructure(parser));
+        }
+    }"
+67299dbda23f7e5639814ec5,"final int calculateOutNetBufSize(int plaintextBytes, int numBuffers) {
+        // Assuming a max of one frame per component in a composite buffer.
+        return calculateSpace(plaintextBytes, numBuffers, Integer.MAX_VALUE);
+    }"
+67299dbda23f7e5639814ec6,"final int calculateRequiredOutBufSpace(int plaintextBytes, int numBuffers) {
+        return calculateSpace(plaintextBytes, numBuffers, Conscrypt.maxEncryptedPacketLength());
+    }"
+67299dbda23f7e5639814ec7,"public static String bytesToIpAddress(byte[] bytes) {
+        return bytesToIpAddress(bytes, 0, bytes.length);
+    }"
+67299dbda23f7e5639814ec8,"@Override
+    public AsciiString subSequence(int start, int end) {
+       return subSequence(start, end, true);
+    }"
+67299dbda23f7e5639814ec9,"public boolean regionMatches(boolean ignoreCase, int thisStart, CharSequence string, int start, int length) {
+        if (!ignoreCase) {
+            return regionMatches(thisStart, string, start, length);
+        }
+
+        ObjectUtil.checkNotNull(string, ""string"");
+
+        final int thisLen = length();
+        if (thisStart < 0 || length > thisLen - thisStart) {
+            return false;
+        }
+        if (start < 0 || length > string.length() - start) {
+            return false;
+        }
+
+        thisStart += arrayOffset();
+        final int thisEnd = thisStart + length;
+        while (thisStart < thisEnd) {
+            if (!equalsIgnoreCase(b2c(value[thisStart++]), string.charAt(start++))) {
+                return false;
+            }
+        }
+        return true;
+    }"
+67299dbda23f7e5639814eca,"public static int safeFindNextPositivePowerOfTwo(final int value) {
+        return value <= 0 ? 1 : value >= 0x40000000 ? 0x40000000 : findNextPositivePowerOfTwo(value);
+    }"
+67299dbda23f7e5639814ecb,"public long nextLong(long least, long bound) {
+        if (least >= bound) {
+            throw new IllegalArgumentException();
+        }
+        return nextLong(bound - least) + least;
+    }"
+67299dbda23f7e5639814ecc,"public static FormattingTuple format(String messagePattern, Object arg) {
+        return arrayFormat(messagePattern, new Object[]{arg});
+    }"
+67299dbda23f7e5639814ecd,"public static ByteBuf copyInt(int... values) {
+        if (values == null || values.length == 0) {
+            return EMPTY_BUFFER;
+        }
+        ByteBuf buffer = buffer(values.length * 4);
+        for (int v: values) {
+            buffer.writeInt(v);
+        }
+        return buffer;
+    }"
+67299dbda23f7e5639814ece,"static int calculateChecksum(ByteBuf data) {
+        return calculateChecksum(data, data.readerIndex(), data.readableBytes());
+    }"
+67299dbda23f7e5639814ecf,"void writeUnary(ByteBuf out, int value) {
+        if (value < 0) {
+            throw new IllegalArgumentException(""value: "" + value + "" (expected 0 or more)"");
+        }
+        while (value-- > 0) {
+            writeBoolean(out, true);
+        }
+        writeBoolean(out, false);
+    }"
+67299dbda23f7e5639814ed0,"public void finish(ChannelHandlerContext ctx) throws IOException {
+        finishEncode(ctx, ctx.newPromise());
+    }"
+67299dbda23f7e5639814ed1,"public void updateCRC(final int value, int count) {
+        while (count-- > 0) {
+            updateCRC(value);
+        }
+    }"
+67299dbda23f7e5639814ed2,"public static int validateValidHeaderValue(CharSequence value) {
+        int length = value.length();
+        if (length == 0) {
+            return -1;
+        }
+        if (value instanceof AsciiString) {
+            return verifyValidHeaderValueAsciiString((AsciiString) value);
+        }
+        return verifyValidHeaderValueCharSequence(value);
+    }"
+67299dbda23f7e5639814ed3,"private static int skipWhiteSpaces(byte[] hex, int start, int length) {
+        for (int i = 0; i < length; i++) {
+            if (!isWhitespace(hex[start + i])) {
+                return i;
+            }
+        }
+        return length;
+    }"
+67299dbda23f7e5639814ed4,"public boolean exists(SecureConfig secureConfig) {
+        return doIt(MODE.EXISTS, secureConfig).exists(secureConfig);
+    }"
+67299dbda23f7e5639814ed5,"private boolean isCurrentWriterStale() {
+        return currentWriter.isStale(flushInterval);
+    }"
+67299dbda23f7e5639814ed6,"public static Collection<PluginConfigSpec<?>> commonInputSettings(Collection<PluginConfigSpec<?>> settings) {
+        return combineSettings(settings, commonInputSettings());
+    }"
+67299dbda23f7e5639814ed7,"private void parseCheck(String expression) {
+		parseCheck(expression, expression);
+	}"
+67299dbda23f7e5639814ed8,"@Nullable
+	protected String checkOrigin(CorsConfiguration config, @Nullable String requestOrigin) {
+		return config.checkOrigin(requestOrigin);
+	}"
+67299dbda23f7e5639814ed9,"public static String encode(String source, Charset charset) {
+		return encode(source, charset, HierarchicalUriComponents.Type.URI);
+	}"
+67299dbda23f7e5639814eda,"private String decodeAndCleanUriString(HttpServletRequest request, String uri) {
+		uri = removeSemicolonContent(uri);
+		uri = decodeRequestString(request, uri);
+		uri = getSanitizedPath(uri);
+		return uri;
+	}"
+67299dbda23f7e5639814edb,"@Override
+	@Nullable
+	protected TimeZone getFallbackTimeZone() {
+		if (jstlPresent) {
+			TimeZone timeZone = JstlPageLocaleResolver.getJstlTimeZone(getPageContext());
+			if (timeZone != null) {
+				return timeZone;
+			}
+		}
+		return null;
+	}"
+67299dbda23f7e5639814edc,"protected boolean shouldProxyTargetClass(Class<?> beanClass, @Nullable String beanName) {
+		return (this.beanFactory instanceof ConfigurableListableBeanFactory clbf &&
+				AutoProxyUtils.shouldProxyTargetClass(clbf, beanName));
+	}"
+67299dbda23f7e5639814edd,"public void setArgumentNames(String argumentNames) {
+		String[] tokens = StringUtils.commaDelimitedListToStringArray(argumentNames);
+		setArgumentNamesFromStringArray(tokens);
+	}"
+67299dbda23f7e5639814ede,"public void setText(String text) throws MessagingException {
+		setText(text, false);
+	}"
+67299dbda23f7e5639814edf,"@Override
+	public Connection getConnection() throws SQLException {
+		JdbcUserCredentials threadCredentials = this.threadBoundCredentials.get();
+		Connection con = (threadCredentials != null ?
+				doGetConnection(threadCredentials.username, threadCredentials.password) :
+				doGetConnection(this.username, this.password));
+
+		if (this.catalog != null) {
+			con.setCatalog(this.catalog);
+		}
+		if (this.schema != null) {
+			con.setSchema(this.schema);
+		}
+		return con;
+	}"
+67299dbda23f7e5639814ee0,"protected void skipEol(ByteBuffer byteBuffer) {
+		while (true) {
+			if (!tryConsumeEndOfLine(byteBuffer)) {
+				break;
+			}
+		}
+	}"
+67299dbda23f7e5639814ee1,"public CompletableFuture<StompSession> connectAsync(StompSessionHandler handler) {
+		return connectAsync(null, handler);
+	}"
+67299dbda23f7e5639814ee2,"public static TimeZone getTimeZone() {
+		return getTimeZone(getLocaleContext());
+	}"
+67299dbda23f7e5639814ee3,"@Override
+	protected Object doGetTransaction() {
+		UserTransaction ut = getUserTransaction();
+		if (ut == null) {
+			throw new CannotCreateTransactionException(""No JTA UserTransaction available - "" +
+					""programmatic PlatformTransactionManager.getTransaction usage not supported"");
+		}
+		if (!this.cacheUserTransaction) {
+			ut = lookupUserTransaction(
+					this.userTransactionName != null ? this.userTransactionName : DEFAULT_USER_TRANSACTION_NAME);
+		}
+		return doGetJtaTransaction(ut);
+	}"
+67299dbda23f7e5639814ee4,"public void checkForLeaks() {
+		checkForLeaks(Duration.ofSeconds(0));
+	}"
+67299dbda23f7e5639814ee5,"private IndentingWriter indent() {
+			this.level++;
+			return refreshIndent();
+		}"
+67299dbda23f7e5639814ee6,"public static boolean containsConstant(Enum<?>[] enumValues, String constant) {
+		return containsConstant(enumValues, constant, false);
+	}"
+67299dbda23f7e5639814ee7,"private int startComment(String line) {
+		return commentToken(line, START_COMMENT, true);
+	}"
+67299dbda23f7e5639814ee8,"static @NonNull Locale findBestMatchingLocaleForLanguage(@Nullable String language) {
+    final Locale locale = LanguageString.parseLocale(language);
+    if (appSupportsTheExactLocale(locale)) {
+      return locale;
+    } else {
+      return findBestSystemLocale();
+    }
+  }"
+67299dbda23f7e5639814ee9,"public static boolean cancel(@NonNull Context context, int notificationId) {
+    Log.d(TAG, ""cancel() called with: notificationId = ["" + notificationId + ""]"");
+    if (Build.VERSION.SDK_INT >= ConversationUtil.CONVERSATION_SUPPORT_VERSION) {
+      return cancelWithConversationSupport(context, notificationId);
+    } else {
+      cancelLegacy(context, notificationId);
+      return true;
+    }
+  }"
+67299dbda23f7e5639814eea,"public float getYawRad () {
+		return getGimbalPole() == 0 ? MathUtils.atan2(2f * (y * w + x * z), 1f - 2f * (y * y + x * x)) : 0f;
+	}"
+67299dbda23f7e5639814eeb,"public float getAngleAroundRad (final Vector3 axis) {
+		return getAngleAroundRad(axis.x, axis.y, axis.z);
+	}"
+67299dbda23f7e5639814eec,"public Affine2 setToTrnRotScl (Vector2 trn, float degrees, Vector2 scale) {
+		return setToTrnRotScl(trn.x, trn.y, degrees, scale.x, scale.y);
+	}"
+67299dbda23f7e5639814eed,"public Affine2 scale (Vector2 scale) {
+		return scale(scale.x, scale.y);
+	}"
+67299dbda23f7e5639814eee,"static public float triangleQuality (float x1, float y1, float x2, float y2, float x3, float y3) {
+		float sqLength1 = x1 * x1 + y1 * y1;
+		float sqLength2 = x2 * x2 + y2 * y2;
+		float sqLength3 = x3 * x3 + y3 * y3;
+		return (float)Math.sqrt(Math.min(sqLength1, Math.min(sqLength2, sqLength3))) / triangleCircumradius(x1, y1, x2, y2, x3, y3);
+	}"
+67299dbda23f7e5639814eef,"public static boolean intersectSegments (Vector2 p1, Vector2 p2, Vector2 p3, Vector2 p4, Vector2 intersection) {
+		return intersectSegments(p1.x, p1.y, p2.x, p2.y, p3.x, p3.y, p4.x, p4.y, intersection);
+	}"
+67299dbda23f7e5639814ef0,"public static float atan2Deg (final float y, float x) {
+		float n = y / x;
+		if (n != n)
+			n = (y == x ? 1f : -1.0f); // if both y and x are infinite, n would be NaN
+		else if (n - n != n - n) x = 0f; // if n is infinite, y is infinitely larger than x.
+		if (x > 0)
+			return (float)atanUncheckedDeg(n);
+		else if (x < 0) {
+			if (y >= 0) return (float)(atanUncheckedDeg(n) + 180.0);
+			return (float)(atanUncheckedDeg(n) - 180.0);
+		} else if (y > 0)
+			return x + 90f;
+		else if (y < 0) return x - 90f;
+		return x + y; // returns 0 for 0,0 or NaN if either y or x is NaN
+	}"
+67299dbda23f7e5639814ef1,"public static float atan2Deg360 (final float y, float x) {
+		float n = y / x;
+		if (n != n)
+			n = (y == x ? 1f : -1.0f); // if both y and x are infinite, n would be NaN
+		else if (n - n != n - n) x = 0f; // if n is infinite, y is infinitely larger than x.
+		if (x > 0) {
+			if (y >= 0)
+				return (float)atanUncheckedDeg(n);
+			else
+				return (float)(atanUncheckedDeg(n) + 360.0);
+		} else if (x < 0) {
+			return (float)(atanUncheckedDeg(n) + 180.0);
+		} else if (y > 0)
+			return x + 90f;
+		else if (y < 0) return x + 270f;
+		return x + y; // returns 0 for 0,0 or NaN if either y or x is NaN
+	}"
+67299dbda23f7e5639814ef2,"public void cancelTouchFocus () {
+		cancelTouchFocusExcept(null, null);
+	}"
+67299dbda23f7e5639814ef3,"public void setDebugTableUnderMouse (boolean debugTableUnderMouse) {
+		setDebugTableUnderMouse(debugTableUnderMouse ? Debug.all : Debug.none);
+	}"
+67299dbda23f7e5639814ef4,"public boolean removeActor (Actor actor) {
+		return removeActor(actor, true);
+	}"
+67299dbda23f7e5639814ef5,"public void clear (boolean unfocus) {
+		super.clear();
+		clearChildren(unfocus);
+	}"
+67299dbda23f7e5639814ef6,"public void setBackground (@Null Drawable background) {
+		setBackground(background, true);
+	}"
+67299dbda23f7e5639814ef7,"public void clear (int maximumCapacity) {
+		int tableSize = tableSize(maximumCapacity, loadFactor);
+		if (keyTable.length <= tableSize) {
+			clear();
+			return;
+		}
+		size = 0;
+		hasZeroValue = false;
+		zeroValue = null;
+		resize(tableSize);
+	}"
+67299dbda23f7e5639814ef8,"private static <T> int countRunAndMakeAscending (T[] a, int lo, int hi, Comparator<? super T> c) {
+		if (DEBUG) assert lo < hi;
+		int runHi = lo + 1;
+		if (runHi == hi) return 1;
+
+		// Find end of run, and reverse range if descending
+		if (c.compare(a[runHi++], a[lo]) < 0) { // Descending
+			while (runHi < hi && c.compare(a[runHi], a[runHi - 1]) < 0)
+				runHi++;
+			reverseRange(a, lo, runHi);
+		} else { // Ascending
+			while (runHi < hi && c.compare(a[runHi], a[runHi - 1]) >= 0)
+				runHi++;
+		}
+
+		return runHi - lo;
+	}"
+67299dbda23f7e5639814ef9,"public Task postTask (Task task) {
+		return scheduleTask(task, 0, 0, 0);
+	}"
+67299dbda23f7e5639814efa,"public void scaleSize (float scale) {
+		if (scale == 1f) return;
+		scaleSize(scale, scale);
+	}"
+67299dbda23f7e5639814efb,"public void rotate (Quaternion rotation) {
+		this.transform.rotate(rotation);
+	}"
+67299dbda23f7e5639814efc,"protected AnimationDesc animate (final Animation anim, float offset, float duration, int loopCount, float speed,
+		final AnimationListener listener, float transitionTime) {
+		return animate(obtain(anim, offset, duration, loopCount, speed, listener), transitionTime);
+	}"
+67299dbda23f7e5639814efd,"protected AnimationDesc queue (final Animation anim, float offset, float duration, int loopCount, float speed,
+		final AnimationListener listener, float transitionTime) {
+		return queue(obtain(anim, offset, duration, loopCount, speed, listener), transitionTime);
+	}"
+67299dbda23f7e5639814efe,"public File getDir(String subDir) {
+		return createDirectory(getPath().resolve(subDir)).toFile();
+	}"
+67299dbda23f7e5639814eff,"public Object persistAndGetId(Object entity) {
+		persist(entity);
+		return getId(entity);
+	}"
+67299dbda23f7e5639814f00,"public String build(RunningService service) {
+		return build(service, null);
+	}"
+67299dbda23f7e5639814f01,"public String build(RunningService service, String database) {
+		return urlFor(service, database);
+	}"
+67299dbda23f7e5639814f02,"public double optDouble(String name) {
+		return optDouble(name, Double.NaN);
+	}"
+67299dbda23f7e5639814f03,"public int optInt(String name) {
+		return optInt(name, 0);
+	}"
+67299dbda23f7e5639814f04,"public long optLong(String name) {
+		return optLong(name, 0L);
+	}"
+67299dbda23f7e5639814f05,"public String optString(String name) {
+		return optString(name, """");
+	}"
+67299dbda23f7e5639814f06,"default void directory(String name, Owner owner) throws IOException {
+		directory(name, owner, 0755);
+	}"
+67299dbda23f7e5639814f07,"default void file(String name, Owner owner, Content content) throws IOException {
+		file(name, owner, 0644, content);
+	}"
+67299dbda23f7e5639814f08,"@LifecycleStop
+  public void stop()
+  {
+    giant.lock();
+
+    try {
+      gracefulStopLeaderLifecycle();
+      overlordLeaderSelector.unregisterListener();
+    }
+    finally {
+      giant.unlock();
+    }
+  }"
+67299dbda23f7e5639814f09,"public static List<FunctionParameter> convertParameters(TableFunction fn)
+  {
+    return convertToCalciteParameters(fn.parameters());
+  }"
+67299dbda23f7e5639814f0a,"static boolean isNonTrivialStringConcat(final RexNode rexNode)
+  {
+    return isStringConcat(rexNode) && !RelOptUtil.InputFinder.bits(rexNode).isEmpty();
+  }"
+67299dbda23f7e5639814f0b,"public SqlTaskStatus submitMsqTaskSuccesfully(SqlQuery sqlQuery, String username, String password) throws ExecutionException, InterruptedException
+  {
+    return submitMsqTaskWithExpectedStatusCode(sqlQuery, username, password, HttpResponseStatus.ACCEPTED);
+  }"
+67299dbda23f7e5639814f0c,"public static long ceilingPowerOfTwo(long value) {
+        requirePositive(value);
+        if (value > MAX_POWER_OF_TWO_LONG) {
+            throw new IllegalArgumentException(
+                    ""Provided value "" + value + "" is larger than the largest power of two long value."");
+        }
+        return 1L << -Long.numberOfLeadingZeros(value - 1);
+    }"
+67299dbda23f7e5639814f0d,"default long hashSingleValue(long value) {
+        return finalise(update(initialise(0), value));
+    }"
+67299dbda23f7e5639814f0e,"default int hashSingleValueToInt(long value) {
+        return toInt(hashSingleValue(value));
+    }"
+67299dbda23f7e5639814f0f,"public NeoStores openAllNeoStores() {
+        return openNeoStores(StoreType.STORE_TYPES);
+    }"
+67299dbda23f7e5639814f10,"public static TextValue decode(PropertyBlock block) {
+        return decode(block.getValueBlocks(), 0);
+    }"
+67299dbda23f7e5639814f11,"public Race withEndCondition(BooleanSupplier... endConditions) {
+        for (BooleanSupplier endCondition : endConditions) {
+            this.endCondition = mergeEndCondition(endCondition);
+        }
+        return this;
+    }"
+67299dbda23f7e5639814f12,"private int nextValidCodePoint(int maxCodePoint) {
+        int codePoint;
+        int type;
+        do {
+            codePoint = intBetween(configuration.minCodePoint(), maxCodePoint);
+            type = Character.getType(codePoint);
+        } while (type == Character.UNASSIGNED || type == Character.PRIVATE_USE || type == Character.SURROGATE);
+        return codePoint;
+    }"
+67299dbda23f7e5639814f13,"public static void unlockExclusiveAndTakeWriteLock(long address) {
+        long s = initiateExclusiveLockRelease(address);
+        long n = (nextSeq(s) - EXL_MASK + CNT_UNIT) | MOD_MASK;
+        unconditionallySetState(address, n);
+    }"
+67299dbda23f7e5639814f14,"int getRefCount() {
+        return (int) refCountOf(getHeaderState());
+    }"
+67299dbda23f7e5639814f15,"private void evictPage(long filePageId) {
+        int chunkId = computeChunkId(filePageId);
+        int chunkIndex = computeChunkIndex(filePageId);
+        int[] chunk = translationTable[chunkId];
+
+        int mappedPageId = translationTableGetVolatile(chunk, chunkIndex);
+        long pageRef = deref(mappedPageId);
+        if (!multiVersioned && contextVersionUpdates) {
+            setHighestEvictedTransactionId(getAndResetLastModifiedTransactionId(pageRef));
+        }
+        translationTableSetVolatile(chunk, chunkIndex, UNMAPPED_TTE);
+    }"
+67299dbda23f7e5639814f16,"private void clearChangedChunks(boolean denseNodes) {
+        // Executed by a single thread, so no synchronized required
+        byte chunkMask = chunkChangeMask(denseNodes);
+        for (int i = 0; i < chunkChangedArray.length; i++) {
+            chunkChangedArray[i] &= ~chunkMask;
+        }
+    }"
+67299dbda23f7e5639814f17,"@Override
+    public PhysicalLogVersionedStoreChannel createLogChannelForExistingVersion(long version) throws IOException {
+        return channelAllocator.createLogChannelExistingVersion(version);
+    }"
+67299dbda23f7e5639814f18,"long getWaitingTimeNanos(long nowNanos) {
+            Optional<ExecutingQuery> query = transaction.executingQuery();
+            long waitingTime = waitingTimeNanos;
+            if (query.isPresent()) {
+                long latestQueryWaitingNanos = query.get().totalWaitingTimeNanos(nowNanos);
+                waitingTime = waitingTime + latestQueryWaitingNanos;
+            }
+            return waitingTime;
+        }"
+67299dbda23f7e5639814f19,"void stop(IndexPopulation indexPopulation, CursorContext cursorContext) {
+        indexPopulation.disconnectAndStop(cursorContext);
+        checkEmpty();
+    }"
+67299dbda23f7e5639814f1a,"private PhysicalLogVersionedStoreChannel logChannel() throws IOException {
+        return logChannel(file(0));
+    }"
+67299dbda23f7e5639814f1b,"void releaseWrite() {
+        spinTransform(ALWAYS_TRUE, RELEASE_WRITE_LOCK, false, false);
+    }"
+67299dbda23f7e5639814f1c,"private void checkOutOfBoundsAndClosed() {
+        try {
+            checkOutOfBounds(cursor);
+        } catch (TreeInconsistencyException e) {
+            // Only check the closed status here when we get an out of bounds to avoid making
+            // this check for every call to next.
+            Preconditions.checkState(!closed, ""Tried to use seeker after it was closed"");
+            throw e;
+        }
+    }"
+67299dbda23f7e5639814f1d,"static void write(PageCursor cursor, long generation, long pointer) {
+        assertGenerationOnWrite(generation);
+        assertPointerOnWrite(pointer);
+        writeGSP(cursor, generation, pointer);
+    }"
+67299dbda23f7e5639814f1e,"private void bumpUnstableGeneration() {
+        generation = generation(stableGeneration(generation), unstableGeneration(generation) + 1);
+    }"
+67299dbda23f7e5639814f1f,"public DurationValue normalize() {
+        long d = days;
+        long s = seconds;
+        long n = nanos;
+
+        if (n < NANOS_PER_SECOND && s < SECONDS_PER_DAY) {
+            return this;
+        }
+
+        if (n >= NANOS_PER_SECOND) {
+            long extraSeconds = n / NANOS_PER_SECOND;
+            s += extraSeconds;
+            n -= extraSeconds * NANOS_PER_SECOND;
+        }
+
+        if (s >= SECONDS_PER_DAY) {
+            long extraDays = s / SECONDS_PER_DAY;
+            d += extraDays;
+            s -= extraDays * SECONDS_PER_DAY;
+        }
+
+        return duration(months, d, s, n);
+    }"
+67299dbda23f7e5639814f20,"public CliArgs parseAndThrow(String... args) throws ArgumentParserException {
+        final CliArgs cliArgs = new CliArgs();
+        final ArgumentParser parser = setupParser();
+        preValidateArguments(parser, args);
+        final Namespace ns = parser.parseArgs(args);
+        return getCliArgs(cliArgs, parser, ns);
+    }"
+67299dbda23f7e5639814f21,"default void printIfPlain(String text) {
+        if (Format.PLAIN.equals(getFormat())) {
+            printOut(text);
+        }
+    }"
+67299dbda23f7e5639814f22,"private static boolean inQuote(String awaitedRightDelimiter) {
+        return awaitedRightDelimiter != null && !inComment(awaitedRightDelimiter);
+    }"
+67299dbda23f7e5639814f23,"public void decreaseKey(FibonacciHeapNode node, KeyType newKey) {
+        if (keyComparator.compare(newKey, node.key) > 0) {
+            throw new RuntimeException(""Trying to decrease to a greater key"");
+        }
+        node.key = newKey;
+        FibonacciHeapNode parent = node.parent;
+        if (parent != null && keyComparator.compare(node.key, parent.key) < 0) {
+            cut(node, parent);
+            cascadingCut(parent);
+        }
+        if (keyComparator.compare(node.key, minimum.key) < 0) {
+            minimum = node;
+        }
+    }"
+67299dbda23f7e5639814f24,"protected void cut(FibonacciHeapNode x, FibonacciHeapNode y) {
+        // remove x from child list of y
+        x.left.right = x.right;
+        x.right.left = x.left;
+        if (x.right.equals(x)) {
+            y.child = null;
+        } else {
+            y.child = x.right;
+        }
+        y.degree--;
+        // add x to root list
+        insertInRootList(x);
+    }"
+67299dbda23f7e5639814f25,"public void release() {
+        // Once the release sentinel is on the stack, it can never (observably) leave.
+        // Waiters might accidentally remove the released sentinel from the stack for brief periods of time, but then
+        // they are required to fix the situation and put it back.
+        // Atomically swapping the release sentinel onto the stack will give us back all the waiters, if any.
+        Node waiters = (Node) STACK.getAndSet(this, released);
+        if (waiters == null) {
+            // There are no waiters to unpark, so don't bother.
+            return;
+        }
+        unparkSuccessor(waiters);
+    }"
+67299dbda23f7e5639814f26,"public void apply(W work) throws ExecutionException {
+        // Schedule our work on the stack.
+        WorkUnit<Material, W> unit = enqueueWork(work);
+
+        // Try grabbing the lock to do all the work, until our work unit
+        // has been completed.
+        do {
+            checkFailure(tryDoWork(unit, true));
+        } while (!unit.isDone());
+    }"
+67299dbda23f7e5639814f27,"@Override
+    public String getStoreVersionUserString() {
+        return formatVersion(storageEngineName, formatName, majorVersion, minorVersion);
+    }"
+67299dbda23f7e5639814f28,"default int totalDegree() {
+        int degree = 0;
+        for (int type : types()) {
+            degree += totalDegree(type);
+        }
+        return degree;
+    }"
+67299dbda23f7e5639814f29,"public void disableCommands(Command... commands) {
+        for (Command command : commands) {
+            setCommandProbabilityFactor(command, 0);
+        }
+    }"
+67299dbda23f7e5639814f2a,"public void run(long iterationTimeout, TimeUnit unit) throws Exception {
+        run(1, iterationTimeout, unit);
+    }"
+67299dbda23f7e5639814f2b,"public void run(int iterations, long iterationTimeout, TimeUnit unit) throws Exception {
+        try {
+            for (int i = 0; i < iterations; i++) {
+                runIteration(iterationTimeout, unit);
+            }
+        } catch (Exception e) {
+            describePreviousRun(System.err);
+            throw e;
+        }
+    }"
+67299dbda23f7e5639814f2c,"private void createIndexes(GraphDatabaseService db) {
+        try (Transaction tx = db.beginTx()) {
+            createTokenIndexes(tx);
+            createNodePropertyIndexes(tx);
+            createRelationshipPropertyIndexes(tx);
+            tx.commit();
+        }
+    }"
+67299dbda23f7e5639814f2d,"private static void deleteStuff(GraphDatabaseService db) {
+        batchedDelete(db, Transaction::getAllRelationships, Relationship::delete);
+        batchedDelete(db, Transaction::getAllNodes, Node::delete);
+    }"
+67299dbda23f7e5639814f2e,"default void negotiate(TransportConnection connection) throws IOException {
+        connection.send(this.getProtocolVersion());
+
+        BoltConnectionAssertions.assertThat(connection).negotiates(this.getProtocolVersion());
+    }"
+67299dbda23f7e5639814f2f,"public AnyValue readPrimitiveValue(long limit) throws PackstreamReaderException {
+        return this.doReadPrimitiveValue(buf.peekType(), limit);
+    }"
+67299dbda23f7e5639814f30,"private double[] centerPointFor(long derivedValue, int level) {
+        long[] normalizedCoord = normalizedCoordinateFor(derivedValue, level);
+        return getDoubleCoord(normalizedCoord, level);
+    }"
+67299dbda23f7e5639814f31,"List<LongRange> getTilesIntersectingEnvelope(Envelope referenceEnvelope) {
+        return getTilesIntersectingEnvelope(
+                referenceEnvelope.getMin(), referenceEnvelope.getMax(), new StandardConfiguration());
+    }"
+67299dbda23f7e5639814f32,"private double[] getDoubleCoord(long[] normalizedCoord, int level) {
+        double[] coord = new double[nbrDim];
+
+        for (int dim = 0; dim < nbrDim; dim++) {
+            double coordinate = ((double) normalizedCoord[dim]) / scalingFactor[dim]
+                    + range.getMin(dim)
+                    + getTileWidth(dim, level) / 2.0;
+            coord[dim] = clamp(coordinate, range.getMin(dim), range.getMax(dim));
+        }
+        return coord;
+    }"
+67299dbda23f7e5639814f33,"public void propagate(int lengthFromSource, int lengthToTarget) {
+        int newLength = lengthFromSource + dataGraphLength();
+        forwardNode.newPropagatedLengthFromSource(newLength, lengthToTarget - dataGraphLength());
+        this.addSourceLength(newLength);
+    }"
+67299dbda23f7e5639814f34,"protected boolean insert(T e) {
+        int n = size;
+        if (n >= heap.length) {
+            grow(n + 1);
+        }
+        siftUp(n, e);
+        size = n + 1;
+        return true;
+    }"
+67299dbda23f7e5639814f35,"protected void sort() {
+        // Heap sort the array
+        int n = size - 1;
+        while (n > 0) {
+            T tmp = heap[n];
+            heap[n] = heap[0];
+            heap[0] = tmp;
+            siftDown(0, tmp, n);
+            n--;
+        }
+    }"
+67299dbda23f7e5639814f36,"protected void heapify() {
+        for (int i = (size >>> 1) - 1; i >= 0; i--) {
+            siftDown(i, heap[i], size);
+        }
+    }"
+67299dbda23f7e5639814f37,"public void siftDown(T x) {
+        super.siftDown(0, x, size);
+    }"
+67299dbda23f7e5639814f38,"static void setBits(long[] bits, int start, int slots, int bitsArraySlot) {
+        int firstArraySlot = bitsArraySlot + start / Long.SIZE;
+        start %= Long.SIZE;
+        for (int arraySlot = firstArraySlot; slots > 0; arraySlot++) {
+            int slotsInThisLong = min(slots, Long.SIZE - start);
+            long bitsInThisSlot = bitsInSingleLong(start, slotsInThisLong);
+            assert bits[arraySlot] == 0;
+            bits[arraySlot] = bitsInThisSlot;
+            slots -= slotsInThisLong;
+            start = 0;
+        }
+    }"
+67299dbda23f7e5639814f39,"public PathRepresentation subpath(int beginIndex, int endIndex) {
+        var pathStr = subpath(this, beginIndex, endIndex);
+        if (hasTrailingSeparator() || elements().size() > endIndex) {
+            return new PathRepresentation(pathStr + SEPARATOR);
+        } else {
+            return new PathRepresentation(pathStr);
+        }
+    }"
+67299dbda23f7e5639814f3a,"public static void fileOperation(
+            FileOperation operation,
+            FileSystemAbstraction fs,
+            DatabaseLayout fromLayout,
+            DatabaseLayout toLayout,
+            Iterable<DatabaseFile> databaseFiles,
+            boolean allowSkipNonExistentFiles,
+            boolean includeIdFile,
+            ExistingTargetStrategy existingTargetStrategy)
+            throws IOException {
+        for (DatabaseFile databaseStore : databaseFiles) {
+            Path[] files = includeIdFile
+                    ? fromLayout.allFiles(databaseStore).toArray(Path[]::new)
+                    : new Path[] {fromLayout.file(databaseStore)};
+            perform(operation, fs, fromLayout, toLayout, allowSkipNonExistentFiles, existingTargetStrategy, files);
+        }
+    }"
+67299dbda23f7e5639814f3b,"public static int[] symmetricDifference(int[] left, int[] right) {
+        if (left == null || right == null) {
+            return left == null ? right : left;
+        }
+
+        assert isSortedSet(left) && isSortedSet(right);
+
+        long uniqueCounts = countUnique(left, right);
+        if (uniqueCounts == 0) // complete intersection
+        {
+            return EMPTY_INT_ARRAY;
+        }
+
+        int[] difference = new int[left(uniqueCounts) + right(uniqueCounts)];
+
+        int cursor = 0;
+        int l = 0;
+        int r = 0;
+        while (l < left.length && r < right.length) {
+            if (left[l] == right[r]) {
+                l++;
+                r++;
+            } else if (left[l] < right[r]) {
+                difference[cursor++] = left[l];
+                l++;
+            } else {
+                difference[cursor++] = right[r];
+                r++;
+            }
+        }
+        while (l < left.length) {
+            difference[cursor++] = left[l];
+            l++;
+        }
+        while (r < right.length) {
+            difference[cursor++] = right[r];
+            r++;
+        }
+
+        assert cursor == difference.length;
+        return difference;
+    }"
+67299dbda23f7e5639814f3c,"static long countUnique(int[] left, int[] right) {
+        int l = 0;
+        int r = 0;
+        int uniqueInLeft = 0;
+        int uniqueInRight = 0;
+        while (l < left.length && r < right.length) {
+            if (left[l] == right[r]) {
+                l++;
+                r++;
+            } else if (left[l] < right[r]) {
+                uniqueInLeft++;
+                l++;
+            } else {
+                uniqueInRight++;
+                r++;
+            }
+        }
+        uniqueInLeft += left.length - l;
+        uniqueInRight += right.length - r;
+        return intPair(uniqueInLeft, uniqueInRight);
+    }"
+67299dbda23f7e5639814f3d,"public static boolean iteratorsEqual(Iterator<?> first, Iterator<?> other) {
+        try {
+            while (first.hasNext() && other.hasNext()) {
+                if (!Objects.equals(first.next(), other.next())) {
+                    return false;
+                }
+            }
+            return first.hasNext() == other.hasNext();
+        } finally {
+            tryCloseResource(first);
+            tryCloseResource(other);
+        }
+    }"
+67299dbda23f7e5639814f3e,"public static <T> long count(Iterator<T> iterator) {
+        return count(iterator, Predicates.alwaysTrue());
+    }"
+67299dbda23f7e5639814f3f,"public void addLazyBinding(Supplier<?> componentSupplier, Class<?> type) {
+        verifyBinding(componentSupplier, type);
+        lazyBindings.add(new LazyBinding(componentSupplier, type));
+    }"
+67299dbda23f7e5639814f40,"public static ReadableLogPositionAwareChannel getReadChannel(
+            FileSystemAbstraction fs, Path path, KernelVersion kernelVersion) throws IOException {
+        var storeChannel = fs.open(path, Set.of(StandardOpenOption.READ));
+        var logHeader = LogHeaderReader.readLogHeader(storeChannel, true, path, INSTANCE);
+        validateKernelVersion(kernelVersion, logHeader);
+        var logChannel = new PhysicalLogVersionedStoreChannel(
+                storeChannel, logHeader, path, ChannelNativeAccessor.EMPTY_ACCESSOR, DatabaseTracer.NULL);
+
+        return ReadAheadUtils.newChannel(logChannel, logHeader, INSTANCE);
+    }"
+67299dbda23f7e5639814f41,"public ValuesIterator getValuesSortedByRelevance(String field) throws IOException {
+        int size = getTotalHits();
+        if (size == 0) {
+            return ValuesIterator.EMPTY;
+        }
+        TopDocs topDocs = getTopDocsByRelevance(size);
+        LeafReaderContext[] contexts = getLeafReaderContexts(getMatchingDocs());
+        return new TopDocsValuesIterator(topDocs, contexts, field);
+    }"
+67299dbda23f7e5639814f42,"boolean ensureValidDisi() {
+            while (currentIdIterator == null) {
+                if (matchingDocs.hasNext()) {
+                    currentDocs = matchingDocs.next();
+                    currentIdIterator = currentDocs.docIdSet;
+                    index = 0;
+                    if (currentIdIterator != null) {
+                        currentDocValues = currentDocs.readDocValues(field);
+                    }
+                } else {
+                    return false;
+                }
+            }
+            return true;
+        }"
+67299dbda23f7e5639814f43,"default void nullableAddDocument(Document document) throws IOException {
+        if (document != null) {
+            addDocument(document);
+        }
+    }"
+67299dbda23f7e5639814f44,"default void updateOrDeleteDocument(Term term, Document document) throws IOException {
+        if (document != null) {
+            updateDocument(term, document);
+        } else {
+            deleteDocuments(term);
+        }
+    }"
+67299dbda23f7e5639814f45,"public void clearCache() {
+		if (this.exploded) {
+			return;
+		}
+		for (URL url : getURLs()) {
+			try {
+				URLConnection connection = url.openConnection();
+				if (connection instanceof JarURLConnection) {
+					clearCache(connection);
+				}
+			}
+			catch (IOException ex) {
+				// Ignore
+			}
+		}
+
+	}"
+67299dbda23f7e5639814f46,"public static <E extends Throwable> void assertRequestBuilderThrows(
+        RequestBuilder<?, ?> builder,
+        Class<E> exceptionClass,
+        RestStatus status
+    ) {
+        assertFutureThrows(builder.execute(), exceptionClass, status);
+    }"
+67299dbda23f7e5639814f47,"@Nullable
+	protected Object getColumnValue(ResultSet rs, int index, Class<?> paramType) throws SQLException {
+		return JdbcUtils.getResultSetValue(rs, index, paramType);
+	}"
+67299dbda23f7e5639814f48,"public Jackson2ObjectMapperBuilder modules(Consumer<List<Module>> consumer) {
+		this.modules = (this.modules != null ? this.modules : new ArrayList<>());
+		this.findModulesViaServiceLoader = false;
+		this.findWellKnownModules = false;
+		consumer.accept(this.modules);
+		return this;
+	}"
+67299dbda23f7e5639814f49,"public @Null Element getChildByName (String name) {
+			if (children == null) return null;
+			for (int i = 0; i < children.size; i++) {
+				Element element = children.get(i);
+				if (element.name.equals(name)) return element;
+			}
+			return null;
+		}"
+67299dbda23f7e5639814f4a,"public void testIllegalOrder() {
+        Exception e = expectThrows(NullPointerException.class, () -> new ScoreSortBuilder().order(null));
+        assertEquals(""sort order cannot be null."", e.getMessage());
+    }"
+67299dbda23f7e5639814f4b,"protected boolean isMatch(String methodName, String mappedName) {
+		return PatternMatchUtils.simpleMatch(mappedName, methodName);
+	}"
+67299dbda23f7e5639814f4c,"public void testNetworkHostWrongSetting() throws IOException {
+        resolveGce(""_gce:doesnotexist_"", (InetAddress) null);
+    }"
+67299dbda23f7e5639814f4d,"@Override
+	public void onResize (ResizeEvent event) {
+		checkWidgetSize();
+	}"
+67299dbda23f7e5639814f4e,"private AggregateDoubleMetricFieldType createDefaultFieldType(String fieldName) {
+        AggregateDoubleMetricFieldType fieldType = new AggregateDoubleMetricFieldType(fieldName);
+
+        for (Metric m : List.of(Metric.min, Metric.max)) {
+            String subfieldName = subfieldName(fieldName, m);
+            NumberFieldMapper.NumberFieldType subfield = new NumberFieldMapper.NumberFieldType(
+                subfieldName,
+                NumberFieldMapper.NumberType.DOUBLE
+            );
+            fieldType.addMetricField(m, subfield);
+        }
+        fieldType.setDefaultMetric(Metric.min);
+        return fieldType;
+    }"
+67299dbda23f7e5639814f4f,"public void setCenterX (float x) {
+		setX(x - width / 2);
+	}"
+67299dbda23f7e5639814f50,"private static ElasticsearchSecurityException expiredTokenException() {
+        ElasticsearchSecurityException e = new ElasticsearchSecurityException(""token expired"", RestStatus.UNAUTHORIZED);
+        e.addHeader(""WWW-Authenticate"", EXPIRED_TOKEN_WWW_AUTH_VALUE);
+        return e;
+    }"
+67299dbda23f7e5639814f51,"public static Provider<RestIntegTestTask> registerTestTask(Project project, SourceSet sourceSet) {
+        return registerTestTask(project, sourceSet, sourceSet.getName());
+    }"
+67299dbda23f7e5639814f52,"boolean isIndexed(int elementIndex) {
+		return this.elements.getType(elementIndex).isIndexed();
+	}"
+67299dbda23f7e5639814f53,"@SuppressWarnings(""unchecked"")
+    public <IFD extends IndexFieldData<?>> IFD getForField(MappedFieldType fieldType, FieldDataContext fieldDataContext) {
+        return getFromBuilder(fieldType, fieldType.fielddataBuilder(fieldDataContext));
+    }"
+67299dbda23f7e5639814f54,"public static double sum(double[] values) {
+        if (values.length == 0) {
+            return 0.0;
+        }
+        return Arrays.stream(values).map(value -> {
+            if (Double.isNaN(value) == false) {
+                return value;
+            }
+            return 0.0;
+        }).sum();
+    }"
+67299dbda23f7e5639814f55,"public static void searchForEntry(
+        LDAPInterface ldap,
+        String baseDN,
+        SearchScope scope,
+        Filter filter,
+        int timeLimitSeconds,
+        boolean ignoreReferralErrors,
+        ActionListener<SearchResultEntry> listener,
+        String... attributes
+    ) {
+        if (ldap instanceof LDAPConnection ldapConnection) {
+            searchForEntry(ldapConnection, baseDN, scope, filter, timeLimitSeconds, ignoreReferralErrors, listener, attributes);
+        } else if (ldap instanceof LDAPConnectionPool ldapConnectionPool) {
+            searchForEntry(ldapConnectionPool, baseDN, scope, filter, timeLimitSeconds, ignoreReferralErrors, listener, attributes);
+        } else {
+            throw new IllegalArgumentException(""unsupported LDAPInterface implementation: "" + ldap);
+        }
+    }"
+67299dbda23f7e5639814f56,"void uncheckedDeleteWithRetry(Path path) {
+        try {
+            deleteWithRetry0(path);
+        } catch (IOException e) {
+            throw new UncheckedIOException(e);
+        } catch (InterruptedException x) {
+            throw new UncheckedIOException(""Interrupted while deleting."", new IOException());
+        }
+    }"
+67299dbda23f7e5639814f57,"public void write (InputStream input, boolean append) {
+		OutputStream output = null;
+		try {
+			output = write(append);
+			StreamUtils.copyStream(input, output);
+		} catch (Exception ex) {
+			throw new GdxRuntimeException(""Error stream writing to file: "" + file + "" ("" + type + "")"", ex);
+		} finally {
+			StreamUtils.closeQuietly(input);
+			StreamUtils.closeQuietly(output);
+		}
+
+	}"
+67299dbda23f7e5639814f58,"private static long computeLimitBytesForAuto(
+      final LookupExtractorFactoryContainerProvider lookupManager,
+      final long maxMemoryInJvm,
+      final int maxConcurrentQueries
+  )
+  {
+    long memoryInJvmWithoutLookups = maxMemoryInJvm - computeLookupFootprint(lookupManager);
+    long memoryInJvmForSubqueryResultsInlining = (long) (memoryInJvmWithoutLookups * SUBQUERY_MEMORY_BYTES_FRACTION);
+    long memoryInJvmForSubqueryResultsInliningPerQuery =
+        memoryInJvmForSubqueryResultsInlining / maxConcurrentQueries;
+    return Math.max(memoryInJvmForSubqueryResultsInliningPerQuery, 1L);
+  }"
+67299dbda23f7e5639814f59,"public static boolean isValidExpression(@Nullable String expression) {
+		if (expression == null) {
+			return false;
+		}
+		try {
+			parse(expression);
+			return true;
+		}
+		catch (IllegalArgumentException ex) {
+			return false;
+		}
+	}"
+67299dbda23f7e5639814f5a,"default Optional<NamedDatabaseId> getByName(String databaseName) {
+        return getByName(new NormalizedDatabaseName(databaseName));
+    }"
+67299dbda23f7e5639814f5b,"protected final boolean hasCapacity(int count) {
+            return bytes.length() + count * Integer.BYTES <= bytesCapacity();
+        }"
+67299dbda23f7e5639814f5c,"public static int compare(String tier1, String tier2) {
+        if (tier1.equals(DATA_CONTENT)) {
+            tier1 = DATA_HOT;
+        }
+        if (tier2.equals(DATA_CONTENT)) {
+            tier2 = DATA_HOT;
+        }
+        int indexOfTier1 = ORDERED_FROZEN_TO_HOT_TIERS.indexOf(tier1);
+        assert indexOfTier1 >= 0 : ""expecting a valid tier to compare but got:"" + tier1;
+        int indexOfTier2 = ORDERED_FROZEN_TO_HOT_TIERS.indexOf(tier2);
+        assert indexOfTier2 >= 0 : ""expecting a valid tier to compare but got:"" + tier2;
+
+        if (indexOfTier1 == indexOfTier2) {
+            return 0;
+        } else {
+            return indexOfTier1 < indexOfTier2 ? -1 : 1;
+        }
+    }"
+67299dbda23f7e5639814f5d,"public static float parseFloat(XContentParser parser) throws IOException {
+        XContentParser.Token token = parser.currentToken();
+        ensureExpectedToken(XContentParser.Token.VALUE_NUMBER, token, parser);
+        return parser.floatValue();
+    }"
+67299dbda23f7e5639814f5e,"public static <STATE> PathExpander<STATE> printingWrapper(
+            final PathExpander<STATE> source, final BiFunction<Path, BranchState, Boolean> pred) {
+        return printingWrapper(source, pred, new Paths.DefaultPathDescriptor());
+    }"
+67299dbda23f7e5639814f5f,"public boolean remove (T key) {
+		int i = locateKey(key);
+		if (i < 0) return false;
+		T[] keyTable = this.keyTable;
+		int mask = this.mask, next = i + 1 & mask;
+		while ((key = keyTable[next]) != null) {
+			int placement = place(key);
+			if ((next - placement & mask) > (i - placement & mask)) {
+				keyTable[i] = key;
+				i = next;
+			}
+			next = next + 1 & mask;
+		}
+		keyTable[i] = null;
+		size--;
+		return true;
+	}"
+67299dbda23f7e5639814f60,"@Override
+	public double getDouble(int columnIndex) throws InvalidResultSetAccessException {
+		try {
+			return this.resultSet.getDouble(columnIndex);
+		}
+		catch (SQLException se) {
+			throw new InvalidResultSetAccessException(se);
+		}
+	}"
+67299dbda23f7e5639814f61,"@Override
+        protected boolean tryReleaseShared(int finalState) {
+            setState(finalState);
+            return true;
+        }"
+67299dbda23f7e5639814f62,"@SuppressWarnings(""unchecked"")
+	protected static List<Class<? extends Throwable>> getExceptionsFromMethodSignature(Method method) {
+		List<Class<? extends Throwable>> result = new ArrayList<>();
+		for (Class<?> paramType : method.getParameterTypes()) {
+			if (Throwable.class.isAssignableFrom(paramType)) {
+				result.add((Class<? extends Throwable>) paramType);
+			}
+		}
+		if (result.isEmpty()) {
+			throw new IllegalStateException(""No exception types mapped to "" + method);
+		}
+		return result;
+	}"
+67299dbda23f7e5639814f63,"public CoordinatesBuilder coordinate(double longitude, double latitude) {
+        return this.coordinate(new Coordinate(longitude, latitude));
+    }"
+67299dbda23f7e5639814f64,"@Override
+	public final GenericApplicationContext loadContextForAotProcessing(MergedContextConfiguration mergedConfig)
+			throws Exception {
+		return loadContext(mergedConfig, true);
+	}"
+67299dbda23f7e5639814f65,"public void setMisfireInstructionName(String constantName) {
+		Assert.hasText(constantName, ""'constantName' must not be null or blank"");
+		Integer misfireInstruction = constants.get(constantName);
+		Assert.notNull(misfireInstruction, ""Only misfire instruction constants allowed"");
+		this.misfireInstruction = misfireInstruction;
+	}"
+67299dbda23f7e5639814f66,"public final int[] getIds(KernelTransaction tx, Iterable<TOKEN> tokens) throws KernelException {
+                final var ids = IntLists.mutable.empty();
+                for (final var token : tokens) {
+                    ids.add(getId(tx, token));
+                }
+                return ids.toArray();
+            }"
+67299dbda23f7e5639814f67,"public static boolean hasMetaAnnotationTypes(AnnotatedElement element, Class<? extends Annotation> annotationType) {
+		return getAnnotations(element).stream(annotationType).anyMatch(MergedAnnotation::isMetaPresent);
+	}"
+67299dbda23f7e5639814f68,"static PersistenceManagedTypes of(String... managedClassNames) {
+		Assert.notNull(managedClassNames, ""'managedClassNames' must not be null"");
+		return new SimplePersistenceManagedTypes(List.of(managedClassNames), List.of());
+	}"
+67299dbda23f7e5639814f69,"@Override
+    public String toString() {
+        return uriBuilder.toString();
+    }"
+67299dbda23f7e5639814f6a,"public static void waitForState(
+        ClusterService clusterService,
+        ThreadContext threadContext,
+        Listener listener,
+        Predicate<ClusterState> statePredicate,
+        @Nullable TimeValue timeout,
+        Logger logger
+    ) {
+        final ClusterState initialState = clusterService.state();
+        if (statePredicate.test(initialState)) {
+            // short-cut in case the state matches the predicate already
+            listener.onNewClusterState(initialState);
+            return;
+        }
+        ClusterStateObserver observer = new ClusterStateObserver(initialState, clusterService, timeout, logger, threadContext);
+        observer.waitForNextChange(listener, statePredicate);
+    }"
+67299dbda23f7e5639814f6b,"int getPositionCount() {
+        return block.getPositionCount();
+    }"
+67299dbda23f7e5639814f6c,"public static Set<String> commaDelimitedListToSet(@Nullable String str) {
+		String[] tokens = commaDelimitedListToStringArray(str);
+		return new LinkedHashSet<>(Arrays.asList(tokens));
+	}"
+67299dbda23f7e5639814f6d,"public static void unwatch(Thread thread, Runnable task) {
+        schedule(ObjectUtil.checkNotNull(thread, ""thread""),
+                ObjectUtil.checkNotNull(task, ""task""),
+                false);
+    }"
+67299dbda23f7e5639814f6e,"private static void setFieldValue(IngestDocument doc, String path, String value) {
+        Map<String, Object> source = doc.getSourceAndMetadata();
+        if (source.containsKey(path)) {
+            source.put(path, value);
+        } else {
+            doc.setFieldValue(path, value);
+        }
+    }"
+67299dbda23f7e5639814f6f,"protected DataAccessException translateException(String task, @Nullable String sql, SQLException ex) {
+		DataAccessException dae = getExceptionTranslator().translate(task, sql, ex);
+		return (dae != null ? dae : new UncategorizedSQLException(task, sql, ex));
+	}"
+67299dbda23f7e5639814f70,"protected final List<HttpMessageConverter<?>> getMessageConverters() {
+		if (this.messageConverters == null) {
+			this.messageConverters = new ArrayList<>();
+			configureMessageConverters(this.messageConverters);
+			if (this.messageConverters.isEmpty()) {
+				addDefaultHttpMessageConverters(this.messageConverters);
+			}
+			extendMessageConverters(this.messageConverters);
+		}
+		return this.messageConverters;
+	}"
+67299dbda23f7e5639814f71,"public static long exponentialBackoff(int pastAttemptCount, long maxBackoff) {
+    if (pastAttemptCount < 1) {
+      throw new IllegalArgumentException(""Bad attempt count! "" + pastAttemptCount);
+    }
+
+    int    boundedAttempt     = Math.min(pastAttemptCount, 30);
+    long   exponentialBackoff = (long) Math.pow(2, boundedAttempt) * 1000;
+    long   actualBackoff      = Math.min(exponentialBackoff, maxBackoff);
+    double jitter             = 0.75 + (Math.random() * 0.5);
+
+    return (long) (actualBackoff * jitter);
+  }"
+67299dbda23f7e5639814f72,"public static int toLowerCase(final int word) {
+        final int mask = applyUpperCasePattern(word) >>> 2;
+        return word | mask;
+    }"
+67299dbda23f7e5639814f73,"public static int ceilingPowerOfTwo(int value) {
+        requirePositive(value);
+        if (value > MAX_POWER_OF_TWO_INTEGER) {
+            throw new IllegalArgumentException(
+                    ""Provided value "" + value + "" is larger than the largest power of two long value."");
+        }
+        return 1 << -Integer.numberOfLeadingZeros(value - 1);
+    }"
+67299dbda23f7e5639814f74,"public BulkRequest add(byte[] data, int from, int length, XContentType xContentType) throws IOException {
+        return add(data, from, length, null, xContentType);
+    }"
+67299dbda23f7e5639814f75,"public SearchRequestBuilder setTimeout(TimeValue timeout) {
+        sourceBuilder().timeout(timeout);
+        return this;
+    }"
+67299dbda23f7e5639814f76,"public void error(Throwable cause, Supplier<? extends CharSequence> messageSupplier) {
+		if (this.log.isErrorEnabled()) {
+			this.log.error(LogMessage.of(messageSupplier), cause);
+		}
+	}"
+67299dbda23f7e5639814f77,"public RangeAggregationBuilder addUnboundedTo(String key, double to) {
+        addRange(new Range(key, null, to));
+        return this;
+    }"
+67299dbda23f7e5639814f78,"@Override
+	public int getInt(int columnIndex) throws InvalidResultSetAccessException {
+		try {
+			return this.resultSet.getInt(columnIndex);
+		}
+		catch (SQLException se) {
+			throw new InvalidResultSetAccessException(se);
+		}
+	}"
+67299dbda23f7e5639814f79,"public void setScopeAnnotationType(Class<? extends Annotation> scopeAnnotationType) {
+		Assert.notNull(scopeAnnotationType, ""'scopeAnnotationType' must not be null"");
+		this.scopeAnnotationType = scopeAnnotationType;
+	}"
+67299dbda23f7e5639814f7a,"public int getNumMaxIndices () {
+		return buffer.capacity();
+	}"
+67299dbda23f7e5639814f7b,"public static void triggerBeforeCommit(boolean readOnly) {
+		for (TransactionSynchronization synchronization : TransactionSynchronizationManager.getSynchronizations()) {
+			synchronization.beforeCommit(readOnly);
+		}
+	}"
+67299dbda23f7e5639814f7c,"@Override
+    public TupleDomain<ColumnHandle> toExplainIOConstraints(ConnectorSession session, ConnectorTableHandle tableHandle, TupleDomain<ColumnHandle> constraints)
+    {
+        return constraints.transform(columnHandle -> ((HiveColumnHandle) columnHandle).isPartitionKey() ? columnHandle : null);
+    }"
+67299dbda23f7e5639814f7d,"void handleError(Throwable ex) {
+		// Ignore result: can't overflow, ok if not first or no one listens
+		this.closeStatusSink.tryEmitEmpty();
+		this.receivePublisher.onError(ex);
+		WebSocketSendProcessor sendProcessor = this.sendProcessor;
+		if (sendProcessor != null) {
+			sendProcessor.cancel();
+			sendProcessor.onError(ex);
+		}
+	}"
+67299dbda23f7e5639814f7e,"public static boolean hasUniqueWriteMethod(PropertyDescriptor pd) {
+		if (pd instanceof GenericTypeAwarePropertyDescriptor gpd) {
+			return gpd.hasUniqueWriteMethod();
+		}
+		else {
+			return (pd.getWriteMethod() != null);
+		}
+	}"
+67299dbda23f7e5639814f7f,"public void optionalStartBackgroundFetch()
+  {
+    if (this.queue.size() < Math.min(this.maxRecordsPerPoll * 2, recordBufferSize / 2)) {
+      this.startBackgroundFetch();
+    }
+  }"
+67299dbda23f7e5639814f80,"public SslHandler newHandler(ByteBufAllocator alloc, Executor delegatedTaskExecutor) {
+        return newHandler(alloc, startTls, delegatedTaskExecutor);
+    }"
+67299dbda23f7e5639814f81,"public void flushBase64() throws java.io.IOException  {
+            if( position > 0 ) {
+                if( encode ) {
+                    out.write( encode3to4( b4, buffer, position, options ) );
+                    position = 0;
+                }   // end if: encoding
+                else {
+                    throw new java.io.IOException( ""Base64 input not properly padded."" );
+                }   // end else: decoding
+            }   // end if: buffer partially full
+
+        }"
+67299dbda23f7e5639814f82,"@Nullable
+  public static ExpressionType elementType(@Nullable ExpressionType type)
+  {
+    if (type != null && type.isArray()) {
+      return (ExpressionType) type.getElementType();
+    }
+    return type;
+  }"
+67299dbda23f7e5639814f83,"public void cancel(Throwable failure, CursorContext cursorContext) {
+        for (IndexPopulation population : populations) {
+            cancel(population, failure, cursorContext);
+        }
+    }"
+67299dbda23f7e5639814f84,"public void sizeBy (float width, float height) {
+		if (width != 0 || height != 0) {
+			this.width += width;
+			this.height += height;
+			sizeChanged();
+		}
+	}"
+67299dbda23f7e5639814f85,"public V get (K key, @Null V defaultValue) {
+		int i = locateKey(key);
+		return i < 0 ? defaultValue : valueTable[i];
+	}"
+67299dbda23f7e5639814f86,"public int findKey (@Null Object value, boolean identity, int notFound) {
+		V[] valueTable = this.valueTable;
+		if (value == null) {
+			if (hasZeroValue && zeroValue == null) return 0;
+			int[] keyTable = this.keyTable;
+			for (int i = valueTable.length - 1; i >= 0; i--)
+				if (keyTable[i] != 0 && valueTable[i] == null) return keyTable[i];
+		} else if (identity) {
+			if (value == zeroValue) return 0;
+			for (int i = valueTable.length - 1; i >= 0; i--)
+				if (valueTable[i] == value) return keyTable[i];
+		} else {
+			if (hasZeroValue && value.equals(zeroValue)) return 0;
+			for (int i = valueTable.length - 1; i >= 0; i--)
+				if (value.equals(valueTable[i])) return keyTable[i];
+		}
+		return notFound;
+	}"
+67299dbda23f7e5639814f87,"protected final String processFieldValue(@Nullable String name, String value, String type) {
+		RequestDataValueProcessor processor = getRequestContext().getRequestDataValueProcessor();
+		ServletRequest request = this.pageContext.getRequest();
+		if (processor != null && request instanceof HttpServletRequest httpServletRequest) {
+			value = processor.processFormFieldValue(httpServletRequest, name, value, type);
+		}
+		return value;
+	}"
+67299dbda23f7e5639814f88,"public void setCommentPrefix(String commentPrefix) {
+		Assert.hasText(commentPrefix, ""'commentPrefix' must not be null or empty"");
+		this.commentPrefixes = new String[] { commentPrefix };
+	}"
+67299dbda23f7e5639814f89,"<E extends Exception> void ensureOpen(Supplier<E> exceptionSupplier) throws E {
+		this.fileAccess.ensureOpen(exceptionSupplier);
+	}"

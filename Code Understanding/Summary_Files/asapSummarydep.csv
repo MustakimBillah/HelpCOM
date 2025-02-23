@@ -1,0 +1,381 @@
+_id,Summary
+67299dbda23f7e5639814e0e,Test that the internal HTTP request is correctly built and executed .
+67299dbda23f7e5639814e0f,Not available.
+67299dbda23f7e5639814e10,Tracks the failure by adding the exception to the suppressed exceptions list and setting it as the main exception if it is not already set.
+67299dbda23f7e5639814e11,Returns the settings for the rest client with basic authentication using the admin user and the default password .
+67299dbda23f7e5639814e12,Runs a script and returns the result.
+67299dbda23f7e5639814e13,Runs a container with the given distribution and DockerRun configuration.
+67299dbda23f7e5639814e14,"Run a container using the given distribution and builder, and return an Installation object representing the container."
+67299dbda23f7e5639814e15,Create parameters for the test suite.
+67299dbda23f7e5639814e16,Starts initializing shards and reroutes them to the given routing node.
+67299dbda23f7e5639814e17,Connects to a given node using the provided transport service.
+67299dbda23f7e5639814e18,Stops a random data node in the cluster.
+67299dbda23f7e5639814e19,Sets up a mock TransportService with a mock ThreadPool and returns the mock TransportService.
+67299dbda23f7e5639814e1a,Rewrites the given query using the provided shard rewrite context and ensures that the rewritten query is serializable.
+67299dbda23f7e5639814e1b,Executes the given code block repeatedly until it either succeeds or the timeout is reached.
+67299dbda23f7e5639814e1c,Returns the range of ports used by the worker nodes.
+67299dbda23f7e5639814e1d,Returns a SecureRandom instance using the FIPS algorithm.
+67299dbda23f7e5639814e1e,Creates an index with the given name and default settings.
+67299dbda23f7e5639814e1f,Adds a rule that will make the transport service unresponsive for the given duration when trying to connect to the specified transport address. This is useful for simulating network failures during testing.
+67299dbda23f7e5639814e20,Ensures that the cluster is in a healthy state before starting a network disruption. This method checks for active disruptions and ensures that the cluster has the correct number of nodes and is fully connected.
+67299dbda23f7e5639814e21,Waits for all pending tasks to complete on the given rest client.
+67299dbda23f7e5639814e22,"Resets the feature states for the current cluster, if supported."
+67299dbda23f7e5639814e23,Returns the settings for the REST client used for administrative requests.
+67299dbda23f7e5639814e24,Updates the cluster settings using the given settings object.
+67299dbda23f7e5639814e25,Dispatches the given request to the controller and verifies the response .
+67299dbda23f7e5639814e26,Looks up a binary method handle for the given classes and name.
+67299dbda23f7e5639814e27,Returns a MethodHandle that can be used to normalize an index into a list or map.
+67299dbda23f7e5639814e28,Finds the result of applying a function to each element in a collection.
+67299dbda23f7e5639814e29,Checks the user expression node for errors and throws exceptions if necessary
+67299dbda23f7e5639814e2a,Add additional field to the map if the property is contained in the list and the value is not empty.
+67299dbda23f7e5639814e2b,Specifies whether to ignore unmapped fields when executing the query.
+67299dbda23f7e5639814e2c,Test the decode and encode functions for the ScaledFloatFieldMapper class.
+67299dbda23f7e5639814e2d,Stop the APM server instance.
+67299dbda23f7e5639814e2e,"Deletes the given path, retrying if necessary."
+67299dbda23f7e5639814e2f,Syncs the source directory with the destination directory using hard links.
+67299dbda23f7e5639814e30,"Register a client with the given clientId, clientSecret and redirectUri."
+67299dbda23f7e5639814e31,"Pauses the execution of the watch, cancelling any queued tasks."
+67299dbda23f7e5639814e32,Clears the allocation ids and returns true if there were any previous ids.
+67299dbda23f7e5639814e33,Called after an index operation has completed.
+67299dbda23f7e5639814e34,Called before a delete is executed on the engine.
+67299dbda23f7e5639814e35,Filters out any settings that are not allowed to be set by the user.
+67299dbda23f7e5639814e36,"Registers a new execution with the given id and execution object. Returns true if the execution was successfully registered, false if an execution with the same id already exists."
+67299dbda23f7e5639814e37,"Pauses the execution service and clears any pending executions, returning the number of cleared executions."
+67299dbda23f7e5639814e38,"Clears all executions and the queue, and returns the number of cancelled tasks."
+67299dbda23f7e5639814e39,Creates triggered watches and contexts from the given events.
+67299dbda23f7e5639814e3a,Clears all executions and waits for them to stop.
+67299dbda23f7e5639814e3b,"Returns the concrete index for the given index name, or null if the index does not exist ."
+67299dbda23f7e5639814e3c,Checks if the given time is after the scheduled time and returns the previous scheduled time if it is.
+67299dbda23f7e5639814e3d,"Removes the value associated with the given key from the map and returns it as the specified type. If the value cannot be cast to the specified type, an exception is thrown."
+67299dbda23f7e5639814e3e,Moves the model ID from the task settings to the service settings if it is not already present in the service settings.
+67299dbda23f7e5639814e3f,"Positions the parser at the next token after the specified field. If the field is not found, an exception is thrown."
+67299dbda23f7e5639814e40,Calculates the time to reserve for the given number of tokens.
+67299dbda23f7e5639814e41,Reserve the specified number of tokens and return the time value for the reservation.
+67299dbda23f7e5639814e42,Test that the shard status is complete when a node is shut down on non-data nodes.
+67299dbda23f7e5639814e43,Syncronously renews the retention lease on the leader shard.
+67299dbda23f7e5639814e44,Validates that the leader and follower index settings are identical .
+67299dbda23f7e5639814e45,"Returns a view of the given list based on the specified limit and offset values. If the limit is negative, the list is reversed before applying the limit. If the size of the list is greater than or equal to the total limit, the sublist from the offset to the total limit is returned. If the size of the list is smaller than the absolute value of the limit, the entire list is returned. Otherwise, the sublist from the end of the list to the absolute value of the limit is returned."
+67299dbda23f7e5639814e46,Checks if there are any following candidates for the given stage.
+67299dbda23f7e5639814e47,"Returns the substring between the first occurrence of left and the last occurrence of right in the given string, or an empty string if either left or right is not found."
+67299dbda23f7e5639814e48,"Records an error in retrieving a policy for an index, and sets the step info for the index to reflect the error."
+67299dbda23f7e5639814e49,"Adds an ILM history item to the index asynchronously. If ILM history is not enabled, the item will not be recorded."
+67299dbda23f7e5639814e4a,"Finds the best jobs for the given source and set of job capabilities. There is an opportunity to optimize the returned caps to find the minimal set of required caps. For example, one leaf may have equally good jobs [A,B], while another leaf finds only job [B] to be best. If job A is a subset of job B, we could simply search job B in isolation and get the same results. We can't do that today, because we don't (yet) have way of determining if one job is a sub/super set of another."
+67299dbda23f7e5639814e4b,Freezes the clock at the current time.
+67299dbda23f7e5639814e4c,Unfreezes the clock by resetting it to the system clock with the current time zone.
+67299dbda23f7e5639814e4d,Fast forwards the clock by the specified number of seconds.
+67299dbda23f7e5639814e4e,Rewinds the clock by the specified number of seconds.
+67299dbda23f7e5639814e4f,Checks if the license is currently active by checking against the status of the license.
+67299dbda23f7e5639814e50,"Checks if the given state is allowed and starts tracking if it is. Returns true if the state is allowed, false otherwise."
+67299dbda23f7e5639814e51,Checks if the given XPackLicenseState allows this feature without tracking its usage.
+67299dbda23f7e5639814e52,Updates the last checked and last met condition timestamps and resets the acknowledgement status for all actions if the condition is not met.
+67299dbda23f7e5639814e53,Creates a rounding object for the date histogram group config.
+67299dbda23f7e5639814e54,Tests whether the given expression is a valid cron expression.
+67299dbda23f7e5639814e55,"Create a response for the given document ID, headers, and response object, and pass it to the given listener."
+67299dbda23f7e5639814e56,"Get the response for the given async execution id, optionally restoring the response headers."
+67299dbda23f7e5639814e57,"Sets the internal user for the security context, using the provided internal user and transport version."
+67299dbda23f7e5639814e58,"Checks if the given action is allowed for any of the groups in the list. If the action is a mapping update action, also checks if any of the groups have a privilege that grants mapping updates for BWC."
+67299dbda23f7e5639814e59,Validates the given application name.
+67299dbda23f7e5639814e5a,Verifies a given hash against a SecureString data using a Hasher object.
+67299dbda23f7e5639814e5b,Writes the authentication object to the context and adds the encoded header to the context header .
+67299dbda23f7e5639814e5c,"Generate a salt for use with the BCrypt.hashpw() method, selecting a reasonable default for the number of hashing rounds to apply"
+67299dbda23f7e5639814e5d,Generates a salt for use with the BCrypt hash function.
+67299dbda23f7e5639814e5e,"Returns true if align checkpoints is disabled in the settings, false otherwise."
+67299dbda23f7e5639814e5f,Create a mask to identify short fields in a delimited text structure.
+67299dbda23f7e5639814e60,"Compares two rows of a delimited text file using the Levenshtein distance algorithm, taking into account only the fields specified in the given BitSet."
+67299dbda23f7e5639814e61,Calculates the weights for each matched format based on the number of matches and the weight of each match.
+67299dbda23f7e5639814e62,Decides if the given sample can be used to create a text structure.
+67299dbda23f7e5639814e63,"Replaces expressions in the target list with the given pattern, using the provided replacer function. Returns true if any replacements were made."
+67299dbda23f7e5639814e64,Combines a list of queries into a single query using the given clause.
+67299dbda23f7e5639814e65,"Converts a long to a Number, treating it as an unsigned long."
+67299dbda23f7e5639814e66,"Counts the number of repeated coordinates in reverse order, starting from the last coordinate."
+67299dbda23f7e5639814e67,"Adjusts the circuit breaker based on the delta value. If the delta is positive, it may potentially trip the breaker. If the delta is negative, it will not trip the breaker."
+67299dbda23f7e5639814e68,Computes the median value of a list of integers in ascending order.
+67299dbda23f7e5639814e69,Checks if the given rounding is valid for the given range.
+67299dbda23f7e5639814e6a,"Evaluates the MvMax function for an ascending index, handling null values."
+67299dbda23f7e5639814e6b,Schedule snapshot jobs based on the snapshot lifecycle metadata in the cluster state.
+67299dbda23f7e5639814e6c,Generates a set of random ByteRanges with the given length.
+67299dbda23f7e5639814e6d,"Finish the read operation, releasing all permits and marking all bytes as accounted for."
+67299dbda23f7e5639814e6e,Checks if a node is safe to be shut down by comparing its shutdown start time with the current time.
+67299dbda23f7e5639814e6f,Finish reporting of datafeed timing stats .
+67299dbda23f7e5639814e70,Vacate the node with the given reason.
+67299dbda23f7e5639814e71,"Finds the common prefix between the input bytes and the offsets, and returns the corresponding value if a leaf is found."
+67299dbda23f7e5639814e72,Returns the top transaction IDs from the transaction store.
+67299dbda23f7e5639814e73,Returns the top item ids from the transaction store.
+67299dbda23f7e5639814e74,Compute the logarithm of the probability mass function for a binomial distribution.
+67299dbda23f7e5639814e75,"Calculate the log of the binomial probability for a given x, n, p, and q."
+67299dbda23f7e5639814e76,Returns true if the memory tracker has been recently refreshed and is not stale.
+67299dbda23f7e5639814e77,Returns the memory requirement for an anomaly detector job.
+67299dbda23f7e5639814e78,Get the memory requirement for a data frame analytics job.
+67299dbda23f7e5639814e79,Refreshes the memory tracker with the latest persistent tasks and their memory usage.
+67299dbda23f7e5639814e7a,Waits for a flush acknowledgement for the given flush ID within the specified timeout. Returns null if the flush failed.
+67299dbda23f7e5639814e7b,Builds a TimeRange object using the specified start and end times.
+67299dbda23f7e5639814e7c,Deletes all annotations for all jobs.
+67299dbda23f7e5639814e7d,"Persists a bucket in the index, along with its influencers."
+67299dbda23f7e5639814e7e,Deletes the interim results for the given job.
+67299dbda23f7e5639814e7f,Flushes the bulk and executes the given listener when complete.
+67299dbda23f7e5639814e80,Tests the inflation of a bounded tiler with a specific H3 cell and precision.
+67299dbda23f7e5639814e81,Sets the value of the given GeoShapeCellValues object with the encoded tile coordinates if they are valid. Returns the number of cells set.
+67299dbda23f7e5639814e82,Checks if the bounding box intersects with the given coordinates.
+67299dbda23f7e5639814e83,"Relates a point to the GeoHex grid, returning the appropriate GeoRelation."
+67299dbda23f7e5639814e84,Returns the generation of the last commit in the given files.
+67299dbda23f7e5639814e85,Skips the final output of the provided data input.
+67299dbda23f7e5639814e86,Generates a valid random instance name by checking if the name is valid using the Name class.
+67299dbda23f7e5639814e87,Creates a user with a run as role using basic authentication.
+67299dbda23f7e5639814e88,Invalidates tokens for the given realm by sending a request to the invalidate tokens API.
+67299dbda23f7e5639814e89,Returns the part number for the given position in the file.
+67299dbda23f7e5639814e8a,Removes the given cache key from the cache.
+67299dbda23f7e5639814e8b,Marks the transform as failed and logs the exception and failure message.
+67299dbda23f7e5639814e8c,"Resolves the given expression as root attributes, using the given aliases to resolve any nested expressions."
+67299dbda23f7e5639814e8d,Creates a field attribute for a keyword field with the given name.
+67299dbda23f7e5639814e8e,Increments the translate metric.
+67299dbda23f7e5639814e8f,Parses a date string into a ZonedDateTime with only the date component.
+67299dbda23f7e5639814e90,Prints a message to the terminal with the specified verbosity level.
+67299dbda23f7e5639814e91,Converts the IJK coordinates to latitude and longitude coordinates.
+67299dbda23f7e5639814e92,Normalizes the ijk coordinates by finding the minimum value and subtracting it from all coordinates.
+67299dbda23f7e5639814e93,Finds the neighboring cell in the given direction and updates the coordinates accordingly.
+67299dbda23f7e5639814e94,Converts face coordinates to geo coordinates at the specified resolution.
+67299dbda23f7e5639814e95,Convert an H3 address to the number of children at a given resolution.
+67299dbda23f7e5639814e96,Converts an H3 address to the size of the smallest non-intersecting children.
+67299dbda23f7e5639814e97,Returns the H3 index at the north pole for the given resolution.
+67299dbda23f7e5639814e98,Returns the H3 index at the south polar region for a given resolution.
+67299dbda23f7e5639814e99,Calculates the maximum latitude of the great circle defined by this point and the given point.
+67299dbda23f7e5639814e9a,Returns the minimum latitude of the great circle defined by this point and the given point.
+67299dbda23f7e5639814e9b,Converts a hex2d coordinate to a lat/lng coordinate.
+67299dbda23f7e5639814e9c,Rotates the given H3 index 60 degrees counter-clockwise.
+67299dbda23f7e5639814e9d,Consumes a point with the given coordinates and adds it to the simplified geometry.
+67299dbda23f7e5639814e9e,Encodes a given string into a long value using the given length.
+67299dbda23f7e5639814e9f,Encodes a pair of coordinates into a geohash string with a precision of 12 characters.
+67299dbda23f7e5639814ea0,Encodes a geohash as a string.
+67299dbda23f7e5639814ea1,Test loading resources from a parent classloader with a non-package name.
+67299dbda23f7e5639814ea2,Checks the manifest of the jar for any issues.
+67299dbda23f7e5639814ea3,Checks if the given array of doubles is in ascending order and throws an assertion error if not. Also checks the values associated with the keys.
+67299dbda23f7e5639814ea4,Sorts the given array of key values and corresponding arrays of values in ascending order.
+67299dbda23f7e5639814ea5,Compress the current data in the buffer.
+67299dbda23f7e5639814ea6,Finds the agent jar file for APM.
+67299dbda23f7e5639814ea7,Forcefully stops the JVM process associated with this server process.
+67299dbda23f7e5639814ea8,Returns a list of all versions that are compatible with the current index version.
+67299dbda23f7e5639814ea9,Asserts that the given number of tasks are unassigned in the cluster state.
+67299dbda23f7e5639814eaa,Creates a PersistentTasksClusterService using the given function to generate assignments.
+67299dbda23f7e5639814eab,"Returns an Optional containing the Error instance if the given Throwable or its cause chain contains an Error, otherwise returns an empty Optional."
+67299dbda23f7e5639814eac,Collects all shard data paths from the given data paths.
+67299dbda23f7e5639814ead,Initializes the routing table for a new index with the given metadata and unassigned info.
+67299dbda23f7e5639814eae,Cancels the relocation of a shard and updates the assigned shards.
+67299dbda23f7e5639814eaf,Resolves a set of index name expressions against the cluster state.
+67299dbda23f7e5639814eb0,Checks if the given collection of aliases or indices represents all indices.
+67299dbda23f7e5639814eb1,Close the bulk processor.
+67299dbda23f7e5639814eb2,"Returns the list of task groups. If the groups have not been built yet, it will call the buildTaskGroups method to populate the list."
+67299dbda23f7e5639814eb3,Scales down the given value by the sampling probability if the context is sampled.
+67299dbda23f7e5639814eb4,Scales up a value if the context is sampled.
+67299dbda23f7e5639814eb5,Encodes a hash value into a string representation of the ZXY coordinates.
+67299dbda23f7e5639814eb6,Add an unbounded upper bound to the range aggregation.
+67299dbda23f7e5639814eb7,Adds an unbounded range from the given key and from value.
+67299dbda23f7e5639814eb8,"Returns a LeafBucketCollector for the given context and input collector, and updates the topChangedListener if necessary."
+67299dbda23f7e5639814eb9,Submits a task to the cluster service with the result of the migration.
+67299dbda23f7e5639814eba,Returns the value of the field at the given path as a byte array.
+67299dbda23f7e5639814ebb,Returns the retention leases for this shard.
+67299dbda23f7e5639814ebc,"Returns the retention leases for this shard, optionally refreshing them first."
+67299dbda23f7e5639814ebd,Returns true if the given string has a length greater than 0.
+67299dbda23f7e5639814ebe,Preserve the current thread context when executing the given command.
+67299dbda23f7e5639814ebf,"Fast forwards the count down, returning true if the count down was successfully fast forwarded."
+67299dbda23f7e5639814ec0,Simple pattern matching with optional case insensitivity.
+67299dbda23f7e5639814ec1,Updates dynamic settings for a specific type.
+67299dbda23f7e5639814ec2,Formats the given address using the default ports range.
+67299dbda23f7e5639814ec3,Closes the given channel without throwing any exceptions.
+67299dbda23f7e5639814ec4,Create a CompressedXContent object from a JSON string.
+67299dbda23f7e5639814ec5,Calculates the maximum size of the encrypted output buffer required to wrap the given plaintext bytes. Assumes a max of one frame per component in a composite buffer.
+67299dbda23f7e5639814ec6,Calculates the required size of the output buffer for the given plaintext bytes and number of buffers.
+67299dbda23f7e5639814ec7,Converts a byte array to an IP address string.
+67299dbda23f7e5639814ec8,Returns a new AsciiString that is a subsequence of this sequence.
+67299dbda23f7e5639814ec9,Compares the specified string to this string and compares the specified range of characters to determine if they are the same . When ignoreCase is true the case of the characters is ignored during the comparison .
+67299dbda23f7e5639814eca,"Returns the next positive power of two value that is greater than or equal to the specified value, or if the specified value is equal to or greater than 2^30, then 2^30."
+67299dbda23f7e5639814ecb,"Returns a pseudorandom, uniformly distributed long value between least (inclusive) and bound (exclusive)."
+67299dbda23f7e5639814ecc,Formats a message with a single argument using the specified message pattern.
+67299dbda23f7e5639814ecd,Create a big-endian buffer that holds a sequence of the specified 32-bit integers.
+67299dbda23f7e5639814ece,Calculates the checksum of the given data by calling the calculateChecksum function with the reader index and readable bytes of the data.
+67299dbda23f7e5639814ecf,Write a unary value.
+67299dbda23f7e5639814ed0,Finishes the encoding of this stream. Will fail if no data was written to this stream yet.
+67299dbda23f7e5639814ed1,"Update the CRC with the specified value, repeating it the specified number of times."
+67299dbda23f7e5639814ed2,Validates a valid header value.
+67299dbda23f7e5639814ed3,Skips any white spaces in the given byte array starting at the specified index and returns the number of skipped bytes.
+67299dbda23f7e5639814ed4,Checks if the secret store exists for the given secure config.
+67299dbda23f7e5639814ed5,Checks if the current writer is stale based on the given flush interval.
+67299dbda23f7e5639814ed6,Returns a collection of common input settings.
+67299dbda23f7e5639814ed7,Parses the given expression and checks that the result is the same as the given expression .
+67299dbda23f7e5639814ed8,"Checks the origin of the request against the allowed origins in the given configuration. Returns the origin if it is allowed, or null if not."
+67299dbda23f7e5639814ed9,Encode the given source URI into an encoded String . The encoding is performed using the given encoding scheme .
+67299dbda23f7e5639814eda,Decodes and cleans the given URI string. Removes any semicolon content and decodes the string using the given request's encoding. Also sanitizes the path by removing any path traversal sequences.
+67299dbda23f7e5639814edb,"Return the fallback TimeZone, if any, for this RequestContext."
+67299dbda23f7e5639814edc,Determine whether the given bean should be proxied with its target class rather than its interfaces .
+67299dbda23f7e5639814edd,Set the argument names from the given string.
+67299dbda23f7e5639814ede,Sets the main text content of the message.
+67299dbda23f7e5639814edf,"Gets a connection from the underlying DataSource, using the specified user credentials if any. Sets the catalog and schema if specified."
+67299dbda23f7e5639814ee0,Skip over any end-of-line characters.
+67299dbda23f7e5639814ee1,"Connect to the STOMP server asynchronously, using the given handler to process the resulting session."
+67299dbda23f7e5639814ee2,"Return the current TimeZone, taken from the current LocaleContext."
+67299dbda23f7e5639814ee3,"This implementation supports programmatic lookup if the JTA UserTransaction,"
+67299dbda23f7e5639814ee4,Checks for any leaked buffers and fails the test if any are found.
+67299dbda23f7e5639814ee5,Increase the indentation level and refresh the indent writer.
+67299dbda23f7e5639814ee6,Check whether the given array of enum constants contains a constant with the given name ignoring case when determining a match.
+67299dbda23f7e5639814ee7,Checks whether the given line is a comment line and returns the index of the comment start or -1 if not a comment .
+67299dbda23f7e5639814ee8,"Finds the best matching locale for the given language string. If the app supports the exact locale, it is returned. Otherwise, the best system locale is returned."
+67299dbda23f7e5639814ee9,"Cancel the notification with the given notificationId. Uses conversation support if available, otherwise falls back to legacy method."
+67299dbda23f7e5639814eea,Returns the angle in radians of the rotation around the y axis. Assumes the quaternion is normalized.
+67299dbda23f7e5639814eeb,Returns the angle in radians of the rotation around the given axis.
+67299dbda23f7e5639814eec,"Sets this matrix to a translation, rotation and scale matrix."
+67299dbda23f7e5639814eed,Scales this matrix by the given vector.
+67299dbda23f7e5639814eee,Returns the quality of a triangle with the given vertices. The quality is defined as the minimum squared length of the triangle's edges divided by the triangle's circumradius squared.
+67299dbda23f7e5639814eef,Checks if two line segments intersect and returns the intersection point if they do.
+67299dbda23f7e5639814ef0,Returns the angle in degrees of the vector from the y-axis to the specified point . Angles are towards the positive x-axis (typically counter-clockwise) and between 0 and 360 . The returned angle is the acute angle between the two vectors . It is always between 0 and 360 degrees .
+67299dbda23f7e5639814ef1,Returns the angle in degrees of the vector from the y-axis to the specified point . Angles are towards the positive x-axis (typically counter-clockwise) and between 0 and 360 . The returned angle is the acute angle between the two vectors . It is always between 0 and 360 . In radians the return value is always between 0 and PI .
+67299dbda23f7e5639814ef2,Cancels touch focus for all actors.
+67299dbda23f7e5639814ef3,Sets whether debug lines for tables are shown for tables under the mouse . Only applicable if debug is enabled for the stage .
+67299dbda23f7e5639814ef4,"Removes an actor from this group. If the actor is not a child of this group, nothing happens. If the actor is a group, all children are recursively removed. This method should be avoided in performance critical applications and might be removed in a future version."
+67299dbda23f7e5639814ef5,Clears the group's children and optionally unfocuses them.
+67299dbda23f7e5639814ef6,Sets the background of the container.
+67299dbda23f7e5639814ef7,Clears the map and reduces the size of the backing arrays to be the specified capacity if they are larger.
+67299dbda23f7e5639814ef8,Counts the number of runs in the given run and reverse the run if it is descending.
+67299dbda23f7e5639814ef9,Schedules a task to be executed immediately.
+67299dbda23f7e5639814efa,Scales the size of the particle emitter by the given scale factor.
+67299dbda23f7e5639814efb,Rotates the particle controller by the given quaternion.
+67299dbda23f7e5639814efc,Animate the given animation with the specified parameters and transition time.
+67299dbda23f7e5639814efd,Queues an animation to be played after the current animation is finished.
+67299dbda23f7e5639814efe,Returns a file object for the specified sub-directory within the application temp directory.
+67299dbda23f7e5639814eff,Persist the given entity and return its id.
+67299dbda23f7e5639814f00,Builds the JDBC URL for the given running service.
+67299dbda23f7e5639814f01,Builds a JDBC URL for the given service and database.
+67299dbda23f7e5639814f02,"Get the optional double value associated with a key, or NaN if there is no such key or if the value is not a number."
+67299dbda23f7e5639814f03,"Get the optional int value associated with a key, or the default if there is no such key or if the value is not a number."
+67299dbda23f7e5639814f04,"Get an optional long value associated with a key, or the default if there is no such key or if the value is not a long."
+67299dbda23f7e5639814f05,"Returns the string value associated with the given name, or an empty string if there is no such key."
+67299dbda23f7e5639814f06,"Creates a new directory with the given name and owner, with default permissions of 0755."
+67299dbda23f7e5639814f07,"Creates a file with the given name, owner and content."
+67299dbda23f7e5639814f08,Stops the overlord by gracefully stopping the leader lifecycle and unregistering the leader selector listener.
+67299dbda23f7e5639814f09,Converts Druid table function parameters to Calcite function parameters.
+67299dbda23f7e5639814f0a,"Checks if the given RexNode is a non-trivial string concatenation, meaning it is a concatenation of multiple strings and not just a single string literal."
+67299dbda23f7e5639814f0b,"Submits a SQL task successfully with the given query, username, and password."
+67299dbda23f7e5639814f0c,Returns the smallest power of two that is greater than or equal to the given value.
+67299dbda23f7e5639814f0d,Hashes a single value using the specified hash function.
+67299dbda23f7e5639814f0e,Hashes a single value and converts it to an integer.
+67299dbda23f7e5639814f0f,Opens all NeoStores using the default store types.
+67299dbda23f7e5639814f10,Decodes a PropertyBlock into a TextValue .
+67299dbda23f7e5639814f11,Sets the end condition for the race to be a combination of the given end conditions.
+67299dbda23f7e5639814f12,"Returns a valid code point between the minimum code point and the given maximum code point, excluding unassigned, private use, and surrogate code points."
+67299dbda23f7e5639814f13,Unlocks the exclusive lock and takes the write lock for the given address.
+67299dbda23f7e5639814f14,Get the reference count of the paged file.
+67299dbda23f7e5639814f15,Evicts a page from the cache and updates the translation table accordingly.
+67299dbda23f7e5639814f16,Clears the changed chunks in the chunkChangedArray for the given denseNodes.
+67299dbda23f7e5639814f17,Creates a log channel for an existing version of the physical log.
+67299dbda23f7e5639814f18,Returns the total waiting time in nanoseconds for this transaction.
+67299dbda23f7e5639814f19,Stops the index population and checks if it is empty.
+67299dbda23f7e5639814f1a,Returns a channel for reading the log file.
+67299dbda23f7e5639814f1b,Release the write lock.
+67299dbda23f7e5639814f1c,Checks if the cursor is out of bounds and if the seeker is closed.
+67299dbda23f7e5639814f1d,"Write the generation and pointer to the given cursor, asserting that they are valid values."
+67299dbda23f7e5639814f1e,"Bumps the unstable generation of this tree, keeping the stable generation unchanged."
+67299dbda23f7e5639814f1f,Normalize this duration value to a standard representation .
+67299dbda23f7e5639814f20,Parses the command line arguments and returns a CliArgs object containing the parsed arguments. Throws an ArgumentParserException if there is an error in parsing the arguments.
+67299dbda23f7e5639814f21,Prints the given text only if the format is set to plain.
+67299dbda23f7e5639814f22,Checks if the current character is inside a quote
+67299dbda23f7e5639814f23,Decrease the key of the given node to the new key.
+67299dbda23f7e5639814f24,Remove x from the child list of y and add it to the root list.
+67299dbda23f7e5639814f25,"Releases the latch, allowing any waiting threads to proceed."
+67299dbda23f7e5639814f26,Applies the given work unit to the stack and executes it until it is completed.
+67299dbda23f7e5639814f27,Returns a user-friendly string representation of the store version.
+67299dbda23f7e5639814f28,"Returns the total degree of this node, i.e. the sum of all its degrees for all types."
+67299dbda23f7e5639814f29,Disables the given commands by setting their probability factor to 0.
+67299dbda23f7e5639814f2a,Runs the test with the given iteration timeout and time unit.
+67299dbda23f7e5639814f2b,"Runs the test for a specified number of iterations, with a timeout for each iteration. If an exception is thrown, it will print out the details of the previous run before re-throwing the exception."
+67299dbda23f7e5639814f2c,Creates indexes for the given graph database service.
+67299dbda23f7e5639814f2d,Deletes all relationships and nodes in the given database using batched delete.
+67299dbda23f7e5639814f2e,Negotiates the protocol version with the given connection by sending the current protocol version and asserting that the connection negotiates it.
+67299dbda23f7e5639814f2f,"Read a primitive value from the buffer, with a given limit on the number of bytes that can be read."
+67299dbda23f7e5639814f30,Returns the center point for the given derived value and level.
+67299dbda23f7e5639814f31,Returns a list of tiles that intersect the given envelope.
+67299dbda23f7e5639814f32,Returns the double coordinates for the given normalized coordinates and level.
+67299dbda23f7e5639814f33,Propagate the length from source to target.
+67299dbda23f7e5639814f34,Inserts the given element into the heap . Returns true if the element was successfully inserted .
+67299dbda23f7e5639814f35,Sorts the heap using heap sort algorithm.
+67299dbda23f7e5639814f36,Heapify the heap by sifting down all elements starting from the middle of the heap.
+67299dbda23f7e5639814f37,Sifts down the element at the given index .
+67299dbda23f7e5639814f38,"Sets bits in the given array of longs, starting at the given bit index, using the given number of slots, starting at the given slot index."
+67299dbda23f7e5639814f39,"Returns a subpath of the current path, starting at the specified beginIndex and ending at the specified endIndex. If the original path has a trailing separator or has more elements than the endIndex, the subpath will have a trailing separator. Otherwise, the subpath will not have a trailing separator."
+67299dbda23f7e5639814f3a,"Perform a file operation on a list of database files, with the option to include the id file and specify an existing target strategy."
+67299dbda23f7e5639814f3b,Returns the symmetric difference between two sorted sets of integers.
+67299dbda23f7e5639814f3c,Count the number of unique elements in two sorted arrays.
+67299dbda23f7e5639814f3d,Compares two iterators for equality.
+67299dbda23f7e5639814f3e,Counts the number of elements in the iterator that satisfy the given predicate.
+67299dbda23f7e5639814f3f,Add a lazy binding for the given component supplier and type to the list of lazy bindings.
+67299dbda23f7e5639814f40,"Returns a channel for reading a log file, given a file system abstraction, a path to the log file, and the kernel version."
+67299dbda23f7e5639814f41,"Returns an iterator over the values in the index, sorted by relevance for the given field."
+67299dbda23f7e5639814f42,"Ensure that the current DocIdSetIterator is valid, and if not, try to advance to the next one."
+67299dbda23f7e5639814f43,"Add a document to the index, if the document is not null."
+67299dbda23f7e5639814f44,Updates or deletes a document in the index based on the given term.
+67299dbda23f7e5639814f45,Clears the URL cache for this class loader.
+67299dbda23f7e5639814f46,Asserts that the given RequestBuilder throws an exception of the specified type and status when executed.
+67299dbda23f7e5639814f47,"Retrieve a column value from a ResultSet, using the specified value type."
+67299dbda23f7e5639814f48,Configures modules to be registered with the Jackson ObjectMapper.
+67299dbda23f7e5639814f49,"Returns the child element with the specified name, or null if it doesn't exist."
+67299dbda23f7e5639814f4a,Tests for illegal order input.
+67299dbda23f7e5639814f4b,Determine a match between the given method name and the mapped name.
+67299dbda23f7e5639814f4c,Tests the network host setting for GCE discovery when the provided GCE metadata server does not exist .
+67299dbda23f7e5639814f4d,Handles the resize event of the widget collection and checks the size of the widgets.
+67299dbda23f7e5639814f4e,"Creates a default field type for the given field name, with subfields for min and max metrics."
+67299dbda23f7e5639814f4f,"Sets the x coordinate of the center of this sprite, adjusting the x coordinate of the sprite to keep the center at the same position."
+67299dbda23f7e5639814f50,Creates an ElasticsearchSecurityException with a message indicating that the token has expired and adds the appropriate header for WWW-Authenticate.
+67299dbda23f7e5639814f51,"Registers a test task for the given project and source set, using the source set name as the task name."
+67299dbda23f7e5639814f52,Returns true if the element at the given index is indexed.
+67299dbda23f7e5639814f53,Returns the field data for the given field type and field data context.
+67299dbda23f7e5639814f54,"Computes the sum of the values in the given array, ignoring any NaN values."
+67299dbda23f7e5639814f55,Searches for a single entry in the LDAP server using the given parameters and returns the result to the listener. Supports both LDAPConnection and LDAPConnectionPool implementations.
+67299dbda23f7e5639814f56,"Attempts to delete the given path, throwing an unchecked exception if it fails."
+67299dbda23f7e5639814f57,"Writes the specified InputStream to this file, optionally appending it to existing data."
+67299dbda23f7e5639814f58,Computes the limit of bytes for auto mode.
+67299dbda23f7e5639814f59,Determine whether the given expression is a valid cron expression.
+67299dbda23f7e5639814f5a,"Returns the database ID for the given database name, if it exists."
+67299dbda23f7e5639814f5b,Checks if there is enough capacity in the byte buffer to encode the specified number of values.
+67299dbda23f7e5639814f5c,Compare two data tiers based on their position in the ordered list of tiers.
+67299dbda23f7e5639814f5d,Parse a float value from the given XContentParser.
+67299dbda23f7e5639814f5e,Wraps a PathExpander with a printing PathExpander that prints the paths it expands.
+67299dbda23f7e5639814f5f,Removes the key from this set if it is present. Returns true if the set contained the key.
+67299dbda23f7e5639814f60,Returns the value of the designated column in the current row of this SqlRowSet as a double.
+67299dbda23f7e5639814f61,Release the shared lock if the final state is reached.
+67299dbda23f7e5639814f62,Get the exceptions declared by the given method .
+67299dbda23f7e5639814f63,Creates a new CoordinatesBuilder with the given longitude and latitude.
+67299dbda23f7e5639814f64,Loads the application context for AOT processing.
+67299dbda23f7e5639814f65,Set the name of the misfire instruction.
+67299dbda23f7e5639814f66,This function takes in a transaction and an iterable of tokens and returns an array of ids corresponding to the tokens in the transaction.
+67299dbda23f7e5639814f67,Determine if the given element is annotated with any meta-annotation of the given annotation type.
+67299dbda23f7e5639814f68,Create a new PersistenceManagedTypes instance from the given managed class names.
+67299dbda23f7e5639814f69,Returns the string representation of the URI builder.
+67299dbda23f7e5639814f6a,Waits for the cluster state to match the given predicate.
+67299dbda23f7e5639814f6b,Returns the number of positions in the block.
+67299dbda23f7e5639814f6c,Convert a comma-delimited string to a set. Note that this will preserve the order of the elements in the original string.
+67299dbda23f7e5639814f6d,Stop watching the given thread and task for death events.
+67299dbda23f7e5639814f6e,"Sets the field value in the given document, either by updating the existing value or creating a new field."
+67299dbda23f7e5639814f6f,Translate the given SQLException into a generic DataAccessException .
+67299dbda23f7e5639814f70,Return the list of configured HttpMessageConverters .
+67299dbda23f7e5639814f71,Calculates an exponential backoff time with jitter.
+67299dbda23f7e5639814f72,Converts the given word to lower case using the SWAR algorithm.
+67299dbda23f7e5639814f73,Returns the smallest power of two that is greater than or equal to the given value .
+67299dbda23f7e5639814f74,"Adds a new request to the bulk request with the given data, starting from the specified index and with the specified content type."
+67299dbda23f7e5639814f75,Sets the timeout for this search request.
+67299dbda23f7e5639814f76,Log an error with the given message and throwable.
+67299dbda23f7e5639814f77,Adds an unbounded upper bound to the range aggregation.
+67299dbda23f7e5639814f78,Returns the value of the designated column in the current row of this SqlRowSet as an int.
+67299dbda23f7e5639814f79,Set the type of the scope annotation to be used .
+67299dbda23f7e5639814f7a,Returns the maximum number of indices this buffer can hold.
+67299dbda23f7e5639814f7b,Trigger {@code beforeCommit} callbacks on all currently registered synchronizations.
+67299dbda23f7e5639814f7c,"Transforms the given constraints to only include partition keys, if any."
+67299dbda23f7e5639814f7d,Handles any error that occurs during the WebSocket session . This method will close the session and cancel any ongoing processing .
+67299dbda23f7e5639814f7e,"Determine whether the given property descriptor has a unique write method, i.e. whether the type of the property is a subtype of the type of the write method's parameter."
+67299dbda23f7e5639814f7f,Checks if the queue size is below a certain threshold and starts a background fetch if it is.
+67299dbda23f7e5639814f80,Creates a new SslHandler with the given allocator and delegated task executor.
+67299dbda23f7e5639814f81,Flushes the base64 buffer to the output stream.
+67299dbda23f7e5639814f82,"Returns the element type of an array type, or null if the given type is not an array."
+67299dbda23f7e5639814f83,Cancels the population of each index in the list.
+67299dbda23f7e5639814f84,Increases the actor's size by the specified amount in each direction.
+67299dbda23f7e5639814f85,"Returns the value associated with the specified key, or the specified default value if the key is not present in the map."
+67299dbda23f7e5639814f86,"Returns the key for the specified value, or {@code notFound} if it can't be found."
+67299dbda23f7e5639814f87,Process the field value through the RequestDataValueProcessor.
+67299dbda23f7e5639814f88,Set the comment prefix to use for lines that should be ignored.
+67299dbda23f7e5639814f89,Ensures that the file is open and throws an exception if it is not.

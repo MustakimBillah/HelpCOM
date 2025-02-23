@@ -1,0 +1,69 @@
+from pymongo import MongoClient
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+helperMethods = db.helperMethods
+
+repoMethods = db.repoMethods
+
+
+helperMethodsList = []
+repoMethodsList = []
+
+
+for item in helperMethods.find():
+    helperMethodsList.append(item)
+
+for element in repoMethods.find():
+    repoMethodsList.append(element)
+
+client.close()
+
+
+def getMethodBody(repo,functionName,argsCount):
+    methodBody=""
+    fileName=""
+    for item in repoMethodsList:
+        if (item.get('repo')==repo):
+            fileName = item.get('file')
+            methods = item.get('methods')
+            for method in methods:
+                if(functionName == method.get('FunctionName') and argsCount == method.get('ArgsCount')):
+                    methodBody = method.get('Syntax')
+                    return methodBody,fileName
+    return methodBody,fileName 
+
+
+
+counter = 0
+for helper in helperMethodsList:
+    repo = helper.get('repo')
+    helpers = helper.get('helpers')
+    
+    for item in helpers:
+        functionName = item.get('FunctionName')
+        argsCount = item.get('ArgsCount')
+        methodBody, fileName = getMethodBody(repo,functionName,argsCount)
+        item["MethodBody"] = methodBody
+        item["FileName"] = fileName
+        #print(item)
+        counter += 1
+        print("Processed helpers: ",counter)
+
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+javaTestDataset = db.javaTestDataset
+
+for item in helperMethodsList:
+    javaTestDataset.insert_one(item)
+
+
+
+
+
+

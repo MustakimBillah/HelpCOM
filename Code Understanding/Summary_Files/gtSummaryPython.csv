@@ -1,0 +1,51 @@
+id,groundTruth
+6799b7809cd06e9ec13c14bb,Version of :func:`imp.find_module` supporting dots.
+6799b7809cd06e9ec13c14bc,Runs the workflow and lets the waiting task run for a while.
+6799b7809cd06e9ec13c14bd,Fallback blocking event loop for transports that doesn't support AIO.
+6799b7809cd06e9ec13c14be,Publish event using custom :class:`~kombu.Producer`.
+6799b7809cd06e9ec13c14bf,Kill a Celery worker.
+6799b7809cd06e9ec13c14c0,Not so graceful shutdown of the worker server (Cold shutdown).
+6799b7809cd06e9ec13c14c1,Get the cache key for a task by id.
+6799b7809cd06e9ec13c14c2,Return a recursive list of dependencies.
+6799b7809cd06e9ec13c14c3,Release lock.
+6799b7809cd06e9ec13c14c4,Return all registered tasks per worker.
+6799b7809cd06e9ec13c14c5,Pool child process destructor.
+6799b7809cd06e9ec13c14c6,Forget about result.
+6799b7809cd06e9ec13c14c7,Store return value and state of an executed task.
+6799b7809cd06e9ec13c14c8,Return list of revoked tasks.
+6799b7809cd06e9ec13c14c9,Create task message in protocol 2 format.
+6799b7809cd06e9ec13c14ca,Test that linking a callback after stamping will stamp the callback correctly
+6799b7809cd06e9ec13c14cb,Test configuring a task with Pydantic when pydantic is not installed.
+6799b7809cd06e9ec13c14cc,Display bootsteps graph.
+6799b7809cd06e9ec13c14cd,Upon the initialization of a new solo worker pool a worker_process_init
+6799b7809cd06e9ec13c14ce,Convert float to value suitable for humans.
+6799b7809cd06e9ec13c14cf,Print the return value for a given task id.
+6799b7809cd06e9ec13c14d0,Gets the value at the given self.options[key] as a list.
+6799b7809cd06e9ec13c14d1,Return the current value for setting specified as a path.
+6799b7809cd06e9ec13c14d2,Destroy queues that can no longer be used.
+6799b7809cd06e9ec13c14d3,Test a pydantic task with no arguments or return value.
+6799b7809cd06e9ec13c14d4,Call :meth:`~celery.app.task.Task.delay` with Django's ``on_commit()``.
+6799b7809cd06e9ec13c14d5,Make sure that start_worker does not hang on exception
+6799b7809cd06e9ec13c14d6,Auto-discover task modules.
+6799b7809cd06e9ec13c14d7,Find tasks by filtering them and move the tasks to a new queue.
+6799b7809cd06e9ec13c14d8,Get the traceback of a failed task.
+6799b7809cd06e9ec13c14d9,Start worker in separate process.
+6799b7809cd06e9ec13c14da,Query for task information by id.
+6799b7809cd06e9ec13c14db,Connect callback to be called when any app is finalized.
+6799b7809cd06e9ec13c14dc,"Replace the args, kwargs or options set for this signature."
+6799b7809cd06e9ec13c14dd,Testing expiration of task.
+6799b7809cd06e9ec13c14de,Return a human readable text showing configuration changes.
+6799b7809cd06e9ec13c14df,Return list of scheduled tasks with details.
+6799b7809cd06e9ec13c14e0,Create a base task class bound to this app.
+6799b7809cd06e9ec13c14e1,Detach the current process in the background (daemonize).
+6799b7809cd06e9ec13c14e2,Release the contents of the local for the current context.
+6799b7809cd06e9ec13c14e3,Setup the task logger.
+6799b7809cd06e9ec13c14e4,Establish the broker connection used for consuming tasks.
+6799b7809cd06e9ec13c14e5,Shortcut to ``get_by_parts(*find_option(name)[:-1])``.
+6799b7809cd06e9ec13c14e6,Tell all (or specific) workers to shrink the pool by ``n``.
+6799b7809cd06e9ec13c14e7,:program:`celery beat` scheduler application.
+6799b7809cd06e9ec13c14e8,Start shell session with convenient access to celery symbols.
+6799b7809cd06e9ec13c14e9,Send monitoring event message.
+6799b7809cd06e9ec13c14ea,Fixture that sets app as current.
+6799b7809cd06e9ec13c14eb,Test a pydantic task with where Pydantic has to apply non-strict validation.
+6799b7809cd06e9ec13c14ec,Information about Celery installation for bug reports.

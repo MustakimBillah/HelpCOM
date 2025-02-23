@@ -1,0 +1,70 @@
+public void appendChild(final Node child) {
+        if (child instanceof Level) {
+            // Append the level
+            levels.add((Level) child);
+            nodes.add(child);
+            if (child.getParent() != null) {
+                child.removeParent();
+            }
+            child.setParent(this);
+        } else if (child instanceof SpecTopic) {
+            appendSpecTopic((SpecTopic) child);
+        } else if (child instanceof CommonContent) {
+            // Append the common content
+            commonContents.add((CommonContent) child);
+            nodes.add(child);
+            if (child.getParent() != null) {
+                child.removeParent();
+            }
+            child.setParent(this);
+        } else {
+            nodes.add(child);
+            if (child.getParent() != null) {
+                child.removeParent();
+            }
+            child.setParent(this);
+        }
+    }
+Write down the original comment written by the developer.    
+Comment: Adds a Child Element to the Level . If the Child Element already has a parent then it is removed from that parent and added to this level .
+
+public HttpClient setURI(final URI uri) {
+
+        final URIBuilder builder = new URIBuilder(uri);
+
+        this.scheme = builder.getScheme();
+        this.host   = builder.getHost();
+        this.port   = builder.getPort();
+        this.path   = builder.getPath();
+
+        this.fragment = builder.getFragment();
+
+        this.resetQueryParameters();
+
+        for (NameValuePair nvp : builder.getQueryParams()) {
+            this.queryParameters.add(new BasicNameValuePair(nvp.getName(), nvp.getValue()));
+        }
+
+        return this;
+    }
+Write down the original comment written by the developer.
+Comment: A URI representing the Absolute URL for the Request
+
+public static TransferListener getInstance(String xferId, AsperaTransaction transaction) {
+		if(instance == null) {
+			instance = new TransferListener();
+		}
+
+		if(transactions.get(xferId) != null) {
+			transactions.get(xferId).add(transaction);
+		} else {
+			List<AsperaTransaction> transferTransactions = new ArrayList<AsperaTransaction>();
+			transferTransactions.add(transaction);
+			transactions.put(xferId, transferTransactions);
+		}
+
+		return instance;
+	}
+Write down the original comment written by the developer.
+Comment: Returns TransferListener instance and associates an AsperaTransaction with a Transfer ID . On change of transfer status or bytes transferred the TransferLsitener will fire a progress change event to all progress listeners attached to the AsperaTransaction .
+

@@ -1,0 +1,78 @@
+from nltk.translate.bleu_score import corpus_bleu
+from nltk.translate.bleu_score import SmoothingFunction
+from nltk.translate.meteor_score import meteor_score
+from rouge_score import rouge_scorer
+from pymongo import MongoClient
+
+# Calculate BLEU score
+def calculate_bleu(references, hypothesis):
+    smooth = SmoothingFunction().method0  # Choose smoothing method
+    bleu_score = corpus_bleu(references, hypothesis, smoothing_function=smooth)
+    return bleu_score
+
+# Calculate ROUGE-L score
+def calculate_rouge_l(references, hypothesis):
+    scorer = rouge_scorer.RougeScorer(['rougeL'], use_stemmer=True)
+    scores = scorer.score(' '.join(references[0]), ' '.join(hypothesis))
+    rouge_l_score = scores['rougeL'].fmeasure
+    return rouge_l_score
+
+
+
+
+# Sample reference and hypothesis sentences
+
+
+def calculateScores(groundTruth, gptComment):
+
+    references = []
+    hypothesis = []
+
+    ref = []
+    ref.append(groundTruth)
+    references.append(ref)
+    hypothesis.append(gptComment)
+
+    # Example usage
+    bleu_score = calculate_bleu(references, hypothesis)
+    rouge_l_score = calculate_rouge_l(references, hypothesis)
+    return bleu_score, rouge_l_score
+
+
+
+def postProcessComment(gptComment, substring):
+    if gptComment is None:
+        return ""
+    if substring is None:
+        return gptComment
+    if substring in gptComment:
+        return gptComment.replace(substring, '')
+    else:
+        return gptComment
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+javaTestWithComments = db.javaTestWithComments
+
+
+cnt=0
+
+for item in javaTestWithComments.find():
+    groundTruth = item.get('groundTruth')
+    codet5 = item.get('codet5')
+    bleu, rougeL = calculateScores(groundTruth , codet5)
+    javaTestWithComments.update_one(
+        {'_id': item['_id']},
+        {'$set': {'bleucodet5': bleu, 'rougeLcodet5': rougeL}}
+    )
+    cnt+=1
+    if (cnt==250):
+        break
+    
+
+
+
+
+

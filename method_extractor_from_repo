@@ -1,0 +1,132 @@
+
+from tree_sitter import Language, Parser
+import json
+from pymongo import MongoClient
+import os
+import time
+import sys
+
+def instantiate_language(name, url):
+    Language.build_library(f"{name}.so", [name])
+    return Language(f"/student/mjr175/commentGeneration/java/{name}.so", name)
+
+
+# instantiate language
+JAVA = instantiate_language("java", "https://github.com/tree-sitter/tree-sitter-java") 
+
+# instantiate parser
+parser = Parser()
+parser.set_language(JAVA)
+
+
+
+def traverse(node, results):
+    if node is None:
+        return results
+    # Print node information
+    functionName = ''
+
+    if(node.type=="method_declaration"):
+        node_text = node.text.decode('utf-8')    
+        #print('Called_Method: ',node_text)
+        cnt = 0
+        for child in node.children:
+            if(child.type=="formal_parameters"):
+                for subchild in child.children:
+                    if ('parameter' in subchild.type):
+                        cnt = cnt + 1
+            if (child.type=="identifier"):
+                functionName = child.text.decode('utf-8')
+                #print('functionName',functionName)
+        
+        methodInf = {
+            "Syntax":node_text,
+            "FunctionName":functionName,
+            "ArgsCount":cnt
+        }
+        results.append(methodInf)
+    # Recursively traverse child nodes
+    for child in node.children:
+        traverse(child,results)
+    return results
+
+
+
+def extractMethods(root):
+    methodInfo=[]
+    return traverse(root,methodInfo)
+
+
+methodsFinal = [] 
+
+
+
+def process_java_files(directory):
+    # Traverse the directory tree recursively
+    for root, dirs, files in os.walk(directory):
+        # Iterate over all files in the current directory
+        #print('root',root)
+       
+        for file in files:
+            # Check if the file has a .java extension
+            if file.endswith(".java"):
+                # Process the Java file
+                process_java_file(os.path.join(root, file))
+
+def process_java_file(file_path):
+    # Process the Java file (replace this with your own logic)
+    #print("Processing Java file:", file_path)
+    # Split the file path using the '/' delimiter
+    path_parts = file_path.split('/')
+    file_path_fromRepo = file_path.replace(directory_to_process, "")
+
+    # Extract the repository name (second-to-last element)
+    repo_name = path_parts[5]+'/'+path_parts[6]
+    #print('repo_name:',repo_name)
+    with open(file_path, "rb") as f:
+        tree = parser.parse(f.read())
+        root = tree.root_node
+        methods = {
+            "repo":repo_name,
+            "file":file_path_fromRepo,
+            "methods":extractMethods(root)
+        }
+        methodsFinal.append(methods)
+        print("processed file: ",file_path_fromRepo)
+        
+
+# Specify the directory to process (change this to your desired directory)
+directory_to_process = "/student/mjr175/commentGeneration/JavaProjects"
+
+# Call the function to process Java files in the specified directory and its subdirectories
+process_java_files(directory_to_process)
+
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+db = client.sample_mflix
+repoMethods = db.repoMethods
+
+for item in methodsFinal:
+    try:
+        repoMethods.insert_one(item)
+        print("processed :",item)
+    except Exception as e:
+        print(f"Error inserting data: {e}")
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

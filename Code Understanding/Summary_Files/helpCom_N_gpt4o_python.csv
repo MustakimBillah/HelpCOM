@@ -1,0 +1,51 @@
+_id,HelpComSummary
+6799b7809cd06e9ec13c14bb,"Find a module, supporting dot-separated module names."
+6799b7809cd06e9ec13c14bc,"Runs a workflow and revokes a waiting task during its execution."
+6799b7809cd06e9ec13c14bd,"Fallback blocking event loop for transports that doesn't support AIO."
+6799b7809cd06e9ec13c14be,Publish an event using a custom `kombu.Producer`.
+6799b7809cd06e9ec13c14bf,"Kill a Celery worker using the specified method."
+6799b7809cd06e9ec13c14c0,Shuts down the worker server immediately without waiting for ongoing tasks to complete.
+6799b7809cd06e9ec13c14c1,"Generate a cache key for a task using its ID and an optional key."
+6799b7809cd06e9ec13c14c2,"Return a recursive list of dependencies with links intact."
+6799b7809cd06e9ec13c14c3,"Release lock by removing the specified result from the set."
+6799b7809cd06e9ec13c14c4,"Return all registered tasks per worker with optional task attributes."
+6799b7809cd06e9ec13c14c5,"Pool child process destructor."
+6799b7809cd06e9ec13c14c6,"Remove the result associated with the given task ID from the database."
+6799b7809cd06e9ec13c14c7,"Store the return value and state of an executed task in the database."
+6799b7809cd06e9ec13c14c8,"Return a dictionary mapping hostnames to lists of revoked task IDs."
+6799b7809cd06e9ec13c14c9,Create a task message in protocol 2 format with specified parameters and options.
+6799b7809cd06e9ec13c14ca,"Test that linking a callback after stamping will stamp the callback correctly."
+6799b7809cd06e9ec13c14cb,"Test configuring a Celery task with Pydantic when Pydantic is not installed, ensuring that an appropriate error is raised."
+6799b7809cd06e9ec13c14cc,"Display bootsteps graph for the worker and optionally the consumer."
+6799b7809cd06e9ec13c14cd,"Upon the initialization of a new solo worker pool, a worker_process_init signal should be emitted."
+6799b7809cd06e9ec13c14ce,Convert a floating point number to a human-readable string with specified precision.
+6799b7809cd06e9ec13c14cf,"Print the return value or traceback for a specified task ID."
+6799b7809cd06e9ec13c14d0,"Gets the value at the given self.options[key] as a list, converting if necessary."
+6799b7809cd06e9ec13c14d1,"Return the current value for a setting specified by a path of parts."
+6799b7809cd06e9ec13c14d2,"Destroy unusable queues and clean up associated resources."
+6799b7809cd06e9ec13c14d3,Test a Pydantic task with no arguments or return value.
+6799b7809cd06e9ec13c14d4,"Schedule a task to be executed after the current database transaction is committed."
+6799b7809cd06e9ec13c14d5,Ensure `start_worker` does not hang when an exception is raised.
+6799b7809cd06e9ec13c14d6,"Auto-discover task modules by searching specified packages for a ""tasks.py"" module or a module specified by the `related_name` argument, with an option to force immediate discovery."
+6799b7809cd06e9ec13c14d7,"Find tasks by filtering them and move the tasks to a new queue."
+6799b7809cd06e9ec13c14d8,"Retrieve the traceback information from the task metadata cache."
+6799b7809cd06e9ec13c14d9,"Start worker in separate process."
+6799b7809cd06e9ec13c14da,"Retrieve task information based on the provided task IDs."
+6799b7809cd06e9ec13c14db,"Registers a callback to be executed upon the finalization of any app."
+6799b7809cd06e9ec13c14dc,"Replace the args, kwargs, or options for this signature if they are not None."
+6799b7809cd06e9ec13c14dd,"Test that tasks expire correctly when their execution time exceeds the specified expiration time."
+6799b7809cd06e9ec13c14de,"Generate a human-readable representation of configuration changes."
+6799b7809cd06e9ec13c14df,"Return list of scheduled tasks with details."
+6799b7809cd06e9ec13c14e0,Create a base task class that is bound to the current application instance.
+6799b7809cd06e9ec13c14e1,"Detach the current process in the background (daemonize)."
+6799b7809cd06e9ec13c14e2,Release the contents of the local for the current context.
+6799b7809cd06e9ec13c14e3,"Setup the task logger with specified configurations or defaults."
+6799b7809cd06e9ec13c14e4,"Establish the broker connection used for consuming tasks."
+6799b7809cd06e9ec13c14e5,"Retrieve the current value for a configuration setting by its name."
+6799b7809cd06e9ec13c14e6,"Tell all (or specific) workers to shrink the pool by ``n``."
+6799b7809cd06e9ec13c14e7,"Initialize the `celery beat` scheduler application."
+6799b7809cd06e9ec13c14e8,"Start shell session with convenient access to celery symbols."
+6799b7809cd06e9ec13c14e9,"Send monitoring event message with optional retry and custom fields."
+6799b7809cd06e9ec13c14ea,"Fixture that sets the given Celery app as the current app for the thread."
+6799b7809cd06e9ec13c14eb,"Test a pydantic task with non-strict validation using a Celery app."
+6799b7809cd06e9ec13c14ec,"Information about Celery installation for bug reports."

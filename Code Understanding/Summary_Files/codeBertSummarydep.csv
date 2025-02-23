@@ -1,0 +1,381 @@
+_id,Summary
+67299dbda23f7e5639814e0e,Perform the actual HTTP request@throws Exception
+67299dbda23f7e5639814e0f,On failure.@param e the e
+67299dbda23f7e5639814e10,Track the failure.
+67299dbda23f7e5639814e11,Returns the REST client settings.
+67299dbda23f7e5639814e12,Runs a script.@param script the script to run@return the result of the script
+67299dbda23f7e5639814e13,Run a Docker container.@param distribution the distribution@return the installation
+67299dbda23f7e5639814e14,Runs an elasticsearch container and returns it.@param distribution@param builder@return
+67299dbda23f7e5639814e15,Creates the parameters.@param executeableSectionRegistry the executeable section registry@return the parameters@throws Exception the exception
+67299dbda23f7e5639814e16,Start the shards.@param allocationService the allocation service@param clusterState the cluster state@param routingNode the routing node@return the cluster state
+67299dbda23f7e5639814e17,Connect to the given node.@param service@param node@throws ConnectTransportException
+67299dbda23f7e5639814e18,Stop a random data node.
+67299dbda23f7e5639814e19,Setup a transport service with thread pool executor.@return a transport service
+67299dbda23f7e5639814e1a,Rewrite query.
+67299dbda23f7e5639814e1b,Asserts that the code block is busy.@param codeBlock the code block@throws Exception the exception
+67299dbda23f7e5639814e1c,Gets the port range.@return the port range
+67299dbda23f7e5639814e1d,Secure random fips@return SecureRandom@throws NoSuchAlgorithmException
+67299dbda23f7e5639814e1e,Creates an index service.@param index the index name@return the index service
+67299dbda23f7e5639814e1f,Add unresponsive rule.@param transportService the transport service@param duration the duration
+67299dbda23f7e5639814e20,Ensures that the cluster is connected.
+67299dbda23f7e5639814e21,Wait for pending tasks.@param restClient the rest client@throws Exception the exception
+67299dbda23f7e5639814e22,"Check to see if all features are supported.@return true if features are reset, false otherwise."
+67299dbda23f7e5639814e23,Returns the rest admin settings.@return the settings
+67299dbda23f7e5639814e24,Updates cluster settings.@param settings new settings@throws IOException
+67299dbda23f7e5639814e25,Dispatches a REST request.
+67299dbda23f7e5639814e26,Lookup a binary operator for a binary type.@param classA the binary type@param classB the binary type@param name the binary operator name@return the binary operator
+67299dbda23f7e5639814e27,Returns the index normalizer for the given receiver class.
+67299dbda23f7e5639814e28,Searches for the first result in the collection and returns the result.@param <T> the type parameter@param receiver the collection@param function the function@return the result
+67299dbda23f7e5639814e29,Visits a userExpression node.@param userExpressionNode@param semanticScope
+67299dbda23f7e5639814e2a,Adds an additional field to the map.@param additionalFields@param property@param value
+67299dbda23f7e5639814e2b,Sets whether or not the query should ignore unmapped.@param ignoreUnmapped true to ignore unmapped@return this builder
+67299dbda23f7e5639814e2c,Test if a decoded float is encoded.
+67299dbda23f7e5639814e2d,Stops the apm server.
+67299dbda23f7e5639814e2e,Delete a path.@param path the path to delete@throws IOException
+67299dbda23f7e5639814e2f,Creates a hard link between the source and destination directories.
+67299dbda23f7e5639814e30,Register a new client.@throws IOException
+67299dbda23f7e5639814e31,Pauses the watch execution.
+67299dbda23f7e5639814e32,Removes all previous allocations from the map.
+67299dbda23f7e5639814e33,Add a watch to the trigger.
+67299dbda23f7e5639814e34,Deletes a delete.@param shardId@param delete@return
+67299dbda23f7e5639814e35,Filters the given settings.@param settings the settings@return the filtered settings
+67299dbda23f7e5639814e36,"Registers a new execution.@param id          the identifier of the new execution@param execution the new execution@return {@code true} if the execution was successful, {@code false} otherwise"
+67299dbda23f7e5639814e37,Pauses the given Runnable and returns the number of paused executions.
+67299dbda23f7e5639814e38,Clears all executions of the given stopped listener.@param stoppedListener The listener to be notified.@return The number of cancelled executions.
+67299dbda23f7e5639814e39,Creates and returns the list of TriggeredWatches and contexts.
+67299dbda23f7e5639814e3a,Clear old executions.
+67299dbda23f7e5639814e3b,Gets the concrete index.@param name the name@param metadata the metadata@return the concrete index
+67299dbda23f7e5639814e3c,Check the next scheduled time.@param time@return
+67299dbda23f7e5639814e3d,Remove element from map.@param sourceMap the source map@param key          the key@param type        the type@param <T>         the type@return the value
+67299dbda23f7e5639814e3e,Moves the model to service settings.@param taskSettings task settings@param serviceSettings service settings
+67299dbda23f7e5639814e3f,Position parser at the next token in the parser.@param parser@param field@param errorMsgTemplate@throws IOException
+67299dbda23f7e5639814e40,Returns the time to wait for the given number of tokens.
+67299dbda23f7e5639814e41,Reserves the given number of tokens.@param tokens Number of tokens to reserve@return TimeValue
+67299dbda23f7e5639814e42,Checks if the shard status is complete.@throws Exception
+67299dbda23f7e5639814e43,Synchronously renew a new lease.@param leaderShardId                            the leader shard id@param retentionLeaseId                            the retention lease id@param retainingSequenceNumber                             the retaining sequence number@param remoteClient                                       the remote client@param timeout                                                       the timeout@return the optional
+67299dbda23f7e5639814e44,Validates the settings.@param leaderIndexSettings the leader index settings@param followerIndexSettings the follower index settings
+67299dbda23f7e5639814e45,Returns a view of the specified list.
+67299dbda23f7e5639814e46,Checks to see if there are more candidates in the given stage.@param stage the stage@return true if there are more candidates
+67299dbda23f7e5639814e47,Returns the substring between left and right@param string@param left@param right@param greedy@param caseInsensitive@return
+67299dbda23f7e5639814e48,Marks a policy for retrieval.@param policyName@param index@param executionState@param e
+67299dbda23f7e5639814e49,Adds an item to the index.@param item
+67299dbda23f7e5639814e4a,Finds the best job caps for a given aggregation builder.@param source the aggregation builder@param jobCaps the set of job caps@return the set of jobs
+67299dbda23f7e5639814e4b,Free the clock.
+67299dbda23f7e5639814e4c,Unlocks the clock.@return self
+67299dbda23f7e5639814e4d,Fast forward.@param seconds the seconds
+67299dbda23f7e5639814e4e,Rewinds the current timestamp in seconds.@param seconds The number of seconds to rewind.
+67299dbda23f7e5639814e4f,Returns true if the channel is active.
+67299dbda23f7e5639814e50,Check if tracking is allowed@param state@return
+67299dbda23f7e5639814e51,Returns true if this license is allowed to track tracking.
+67299dbda23f7e5639814e52,On check status@param metCondition@param timestamp
+67299dbda23f7e5639814e53,Create a new rounded rounding.@return the rounded rounding
+67299dbda23f7e5639814e54,Return true if the given expression is a valid expression@param expression@return
+67299dbda23f7e5639814e55,Index response.@param docId the doc id@param headers the headers@param response the response@param listener the listener
+67299dbda23f7e5639814e56,"Gets a response from an async execution.@param asyncExecutionId The async execution id.@param restoreResponseHeaders If true, the response headers should be restored.@param listener The action listener."
+67299dbda23f7e5639814e57,Sets the internal user.@param internalUser the internal user@param version the version
+67299dbda23f7e5639814e58,Check if the given action is granted.@param action@return
+67299dbda23f7e5639814e59,Validates application name.@param application application name@throws IllegalArgumentException if application name is invalid
+67299dbda23f7e5639814e5a,Verifies the given SHA-256 hash.@param data The data to verify.@param hash The hash.@return True if the hash matches the given hash.
+67299dbda23f7e5639814e5b,Writes the authentication information to the given thread context.
+67299dbda23f7e5639814e5c,Generate random salt.@param log_rounds the log_rounds@return the secret
+67299dbda23f7e5639814e5d,Gets the gensalt.@return the gensalt
+67299dbda23f7e5639814e5e,Check if all alignpoints are disabled.@param settings configuration@return true if alignpoints are disabled
+67299dbda23f7e5639814e5f,Creates a bit mask from a list of rows.
+67299dbda23f7e5639814e60,LevenshteinFieldwise compare rows.
+67299dbda23f7e5639814e61,Calculates the best match weights for each match.
+67299dbda23f7e5639814e62,Checks to see if a sample can be created from a sample.@param explanation explanation@param sample sample@param allowedFractionOfBadLines allowed fraction of bad lines@return
+67299dbda23f7e5639814e63,Replaces the given list of expressions with the given replacement.
+67299dbda23f7e5639814e64,Combine the given list of queries and return the result.@param clause the clause@param queries the queries@return the query builder
+67299dbda23f7e5639814e65,Convert an unsigned long value to a number.
+67299dbda23f7e5639814e66,Count the number of coordinates in a coordinate array.@param coords@return
+67299dbda23f7e5639814e67,Adds the estimated number of bytes to the breaker.
+67299dbda23f7e5639814e68,Calculates the highest value in ascending order.@param values the block containing the value@param firstValue the first value@param count the number of elements to sort@return the highest value in ascending order
+67299dbda23f7e5639814e69,Checks if the given rounding is ok.
+67299dbda23f7e5639814e6a,Evaluate nullable.
+67299dbda23f7e5639814e6b,Schedule snapshots for a given cluster.@param state the cluster state
+67299dbda23f7e5639814e6c,Returns a sorted set of byte ranges.
+67299dbda23f7e5639814e6d,Finishes reading.@param bytesRead@throws Exception
+67299dbda23f7e5639814e6e,Returns true if the node is safe to be shut down.
+67299dbda23f7e5639814e6f,Finish writing of data feed
+67299dbda23f7e5639814e70,Removes the node at the given reason.
+67299dbda23f7e5639814e71,Returns the common prefix of the input bytes.
+67299dbda23f7e5639814e72,Gets the top transaction ids.@return the top transaction ids
+67299dbda23f7e5639814e73,Gets the top item ids.@return the top item ids
+67299dbda23f7e5639814e74,Returns the log probability of a given number@param x@return
+67299dbda23f7e5639814e75,Returns the log-binomial probability for a given number of samples.
+67299dbda23f7e5639814e76,Returns true if the master is recently refreshed.
+67299dbda23f7e5639814e77,Gets the job memory requirement.@param jobId the job id@return the job memory requirement
+67299dbda23f7e5639814e78,Get data frame analyzer job memory requirement@param id@return
+67299dbda23f7e5639814e79,Refreshes the persistent task.@param persistentTasks the persistent task metadata@param onCompletion the callback
+67299dbda23f7e5639814e7a,Waits for a flush to complete.@param flushId The flush id.@param timeout The amount of time in milliseconds.@return The flush acknowledged.@throws Exception If an error occurs while waiting for the flush.
+67299dbda23f7e5639814e7b,Build the time range.@return the time range
+67299dbda23f7e5639814e7c,Delete all annotations.@param listener the listener
+67299dbda23f7e5639814e7d,Index a bucket.@param bucket the bucket@return the builder
+67299dbda23f7e5639814e7e,Deletes the intervals for the given job.@param jobId The ID of the job.
+67299dbda23f7e5639814e7f,Flushes the response.@param listener the listener
+67299dbda23f7e5639814e80,Searches for BoundedTilerInflation.
+67299dbda23f7e5639814e81,Set the value for a tile.@param docValues@param xTile@param yTile@return
+67299dbda23f7e5639814e82,Checks if the given bounding box intersects the given bounding box.@param minX min x@param maxX max x@param minY min y@param maxY max y@return true if the bounds intersect
+67299dbda23f7e5639814e83,Relationship point.@param x@param y@return
+67299dbda23f7e5639814e84,Gets the last commit generation from a list of files.@param files@return
+67299dbda23f7e5639814e85,Skip the output.
+67299dbda23f7e5639814e86,Returns a random instance name.@return a random instance name
+67299dbda23f7e5639814e87,Create user.@throws ExecutionException@throws InterruptedException
+67299dbda23f7e5639814e88,Invalidates tokens for the given realm name.@param realmName The realm name.@return A {@link TokenInvalidation} object.
+67299dbda23f7e5639814e89,Gets the part number for a given position.@param position the position@return the part number
+67299dbda23f7e5639814e8a,Removes an entry from the cache.@param cacheKey the cache key
+67299dbda23f7e5639814e8b,Mark the given exception as failed.
+67299dbda23f7e5639814e8c,Resolve expression as root attributes.@param exp@param aliases@return
+67299dbda23f7e5639814e8d,Create a keyword attribute.@param name the keyword name@return the field attribute
+67299dbda23f7e5639814e8e,Increment the translation count.
+67299dbda23f7e5639814e8f,Returns a ZonedDateTime instance with the given date format.@param dateFormat the date format@return the ZonedDateTime instance
+67299dbda23f7e5639814e90,Prints a message.@param verbosity the verbosity@param msg the message
+67299dbda23f7e5639814e91,Converts a point into a LatLng coordinate.@param face                           the face.@param res                                  the radius.@param suff                              the radius.@return                                         the LatLng coordinate.
+67299dbda23f7e5639814e92,Injk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-jk-k-jk-jk-jk-jk
+67299dbda23f7e5639814e93,Add neighbor.@param digit the digit
+67299dbda23f7e5639814e94,Converts the face ij to a geographic location@param   res          the face ijk@return  a LatLng
+67299dbda23f7e5639814e95,Convert h3 address to children size.@param h3Address the h3 address@param childRes the child res@return the size
+67299dbda23f7e5639814e96,Converts a h3 address to the number of not intersecting children.
+67299dbda23f7e5639814e97,Returns the polar H3 coordinate of the given resolution.@param res the resolution@return the polar H3 coordinate
+67299dbda23f7e5639814e98,Returns the south polar of the given resolution.@param res the resolution@return the south polar angle
+67299dbda23f7e5639814e99,Returns the maximum latitude.@param latLng@return
+67299dbda23f7e5639814e9a,Returns the minimum latitude between the given LatLng.
+67299dbda23f7e5639814e9b,Converts a hex position into a LatLng.@param face
+67299dbda23f7e5639814e9c,Rotate H3c degrees.@param h@return
+67299dbda23f7e5639814e9d,Consume a point from the given coordinates.
+67299dbda23f7e5639814e9e,Encode hash.@param hash the hash@return the long
+67299dbda23f7e5639814e9f,Encode a longitude.@param lon@param lat@return
+67299dbda23f7e5639814ea0,Encodes a long as a string.@param lon@param lat@param level@return
+67299dbda23f7e5639814ea1,Test if the resources are not found.@throws Exception
+67299dbda23f7e5639814ea2,Checks the given manifest.
+67299dbda23f7e5639814ea3,Checks that the keys in the given array are valid.
+67299dbda23f7e5639814ea4,Sort a double array by key.@param key      the key@param values the values
+67299dbda23f7e5639814ea5,Compress new values for public compression.
+67299dbda23f7e5639814ea6,Finds the agent jar.
+67299dbda23f7e5639814ea7,Force the JVM to be stopped.
+67299dbda23f7e5639814ea8,Get a list of versions compatible with this version@return a list of versions compatible with this version
+67299dbda23f7e5639814ea9,Asserts that the number of unassigned tasks are assigned.@param nbTasks the number of tasks@param clusterState the cluster state
+67299dbda23f7e5639814eaa,Creates the cluster service.
+67299dbda23f7e5639814eab,"If the cause is an error, returns an Optional. Otherwise, returns an Optional."
+67299dbda23f7e5639814eac,Collect Shard data paths.@param dataPaths the data paths@return the list@throws IOException Signals that an I/O exception has occurred.
+67299dbda23f7e5639814ead,Initializes the index as new.@param indexMetadata the index metadata@return the builder
+67299dbda23f7e5639814eae,Cancel the allocation.
+67299dbda23f7e5639814eaf,Resolve expressions.@param state the state@param expressions the expressions@return the resolved expressions
+67299dbda23f7e5639814eb0,Returns true if all indices in the given collection are all indices.
+67299dbda23f7e5639814eb1,Closes the connection.
+67299dbda23f7e5639814eb2,Returns the list of task groups@return
+67299dbda23f7e5639814eb3,Scales the given value down.@param value the value to be scaled@return the scaled value
+67299dbda23f7e5639814eb4,Scales the given value.@param value the value to be scaled@return the scaled value
+67299dbda23f7e5639814eb5,Encode a hash.@param hash the hash@return the string
+67299dbda23f7e5639814eb6,Adds a range aggregation to the aggregator.@param key       the key@param to      the value@return the aggregator
+67299dbda23f7e5639814eb7,Adds a range aggregation to the aggregator.@param key     the key@param from the lower bound@return the aggregator builder
+67299dbda23f7e5639814eb8,Gets a leaf collector.@param context the context@param in the input stream@return the leaf collector@throws IOException
+67299dbda23f7e5639814eb9,Submits the migration.
+67299dbda23f7e5639814eba,Get field value as bytes.@param path the path@return the field value as bytes
+67299dbda23f7e5639814ebb,Get retention leases.@return retention leases
+67299dbda23f7e5639814ebc,Get retention leases.@return retention leases
+67299dbda23f7e5639814ebd,Checks if a string has a length.@param str the string to check@return true if the string has a length
+67299dbda23f7e5639814ebe,Preserves the given command.@param command the command@return the runnable
+67299dbda23f7e5639814ebf,Returns true iff fast forward has been reached.@return
+67299dbda23f7e5639814ec0,"Checks if the given pattern matches the given pattern.@param pattern the pattern to match@param str the string to match@param caseInsensitive true to case insensitive@return true if match, false otherwise"
+67299dbda23f7e5639814ec1,Update dynamic settings@param toApply@param target@param updates@param type@return
+67299dbda23f7e5639814ec2,Formats an InetAddress.@param address@return
+67299dbda23f7e5639814ec3,Closes a channel.@param channel The channel to close.
+67299dbda23f7e5639814ec4,Creates a compressed XContent object from the given JSON string.@param json the JSON string@return the compressed XContent object@throws IOException if the given JSON cannot be read
+67299dbda23f7e5639814ec5,Calculates the size of the output buffer.@param plaintextBytes@param numBuffers@return
+67299dbda23f7e5639814ec6,Calculates the required amount of bytes required to write out buffers.
+67299dbda23f7e5639814ec7,Converts a byte array to an IP address.@param bytes the bytes@return the IP address
+67299dbda23f7e5639814ec8,Returns a sub-sequence of the characters in this string.
+67299dbda23f7e5639814ec9,"Compares the given string to this string, ignoring case.@param ignoreCase If true, ignore case.@param thisStart The start index.@param string The string to compare.@param start The start index.@param length The number of characters to compare.@return {@code true} if the string matches, {@code false} otherwise."
+67299dbda23f7e5639814eca,Find the next power of two two.@param value the value@return the next power of two
+67299dbda23f7e5639814ecb,Returns the next long in the range.
+67299dbda23f7e5639814ecc,Format the given message pattern using the given message pattern.
+67299dbda23f7e5639814ecd,Creates a new big-endian buffer that holds a sequence of four-bit integers.
+67299dbda23f7e5639814ece,Calculates the checksum of a byte buffer.
+67299dbda23f7e5639814ecf,Writes a unary boolean.
+67299dbda23f7e5639814ed0,Finishes writing the message.
+67299dbda23f7e5639814ed1,Updates the CRC.@param value the new CRC value@param count the new CRC value
+67299dbda23f7e5639814ed2,Validates a header value.@param value The header value.@return Returns -1 if the header value is valid.
+67299dbda23f7e5639814ed3,Skip white spaces.
+67299dbda23f7e5639814ed4,Check if the file exists.@param secureConfig the secure config@return true if the file exists
+67299dbda23f7e5639814ed5,Returns true if the current writer is stale.
+67299dbda23f7e5639814ed6,Returns the common input settings for the given collection of plugins.
+67299dbda23f7e5639814ed7,Parse a check expression.
+67299dbda23f7e5639814ed8,Checks the origin of the CORS configuration.@param config the CORS configuration.@param requestOrigin the origin of the CORS configuration.@return the result of the check origin.
+67299dbda23f7e5639814ed9,Encodes a string.@param source the source string@param charset the charset@return the encoded string
+67299dbda23f7e5639814eda,Decode and sanitized path from request string.@param request@param uri@return
+67299dbda23f7e5639814edb,"Retrieves the fallback time zone for the current page context.@return the fallback time zone, or null if there is no fallback time zone"
+67299dbda23f7e5639814edc,Returns whether the target class should be proxied.@param beanClass the target class@param beanName the name of the bean@return true if the target class should be proxied
+67299dbda23f7e5639814edd,Sets the argument names.@param argumentNames the argument names
+67299dbda23f7e5639814ede,Sets the text.@param textthe new text@throws MessagingExceptionthe messaging exception
+67299dbda23f7e5639814edf,Get a connection.@return a connection@throws SQLException
+67299dbda23f7e5639814ee0,Skip end of line@param byteBuffer
+67299dbda23f7e5639814ee1,Connects asynchronously.@param handler the handler@return the future
+67299dbda23f7e5639814ee2,Gets the current time zone.@return the current time zone
+67299dbda23f7e5639814ee3,Returns the user transaction associated with this platform.
+67299dbda23f7e5639814ee4,Checks for missing leaks.
+67299dbda23f7e5639814ee5,Increases the indentation of this indentation.
+67299dbda23f7e5639814ee6,Checks if an enum contains a constant.@param enumValues the enum values@param constant the constant name@return true if the constant contains the constant
+67299dbda23f7e5639814ee7,Start a comment.@param linethe line@return the index of the start comment
+67299dbda23f7e5639814ee8,Find the best matching locale for the given language.@param language the language@return the best matching locale
+67299dbda23f7e5639814ee9,"Cancel a conversation.@param context            the context@param notificationId          the notification id@return true if cancel was successful, false otherwise"
+67299dbda23f7e5639814eea,Returns the yaw rad in degrees.
+67299dbda23f7e5639814eeb,Returns the angle in radians for the given axis.@param axis the axis@return the angle in radians
+67299dbda23f7e5639814eec,"Sets this trn to a trn rotation.@return a reference to this, for chaining."
+67299dbda23f7e5639814eed,Scales the transformation by the given scaling factor.@param scale the scaling factor@return the scaling factor
+67299dbda23f7e5639814eee,Returns the quality of the triangle.
+67299dbda23f7e5639814eef,Returns true if the two points intersect.
+67299dbda23f7e5639814ef0,Calculates the angle between two numbers.
+67299dbda23f7e5639814ef1,Calculates the angle between two numbers.
+67299dbda23f7e5639814ef2,Cancel the touch focus.
+67299dbda23f7e5639814ef3,Sets whether debug table under mouse.@param debugTableUnderMouse
+67299dbda23f7e5639814ef4,Removes an actor from the screen.@param actor the actor to remove@return true if successful
+67299dbda23f7e5639814ef5,Removes all children of this element.@param unocus whether to unfocus the element to unfocus
+67299dbda23f7e5639814ef6,Sets the background.@param backgroundThe background to set.
+67299dbda23f7e5639814ef7,Clears the table.
+67299dbda23f7e5639814ef8,Counts the number of runs in a range.@param a@param lo@param hi@param c@return
+67299dbda23f7e5639814ef9,Post a task.@param task the task@return the task
+67299dbda23f7e5639814efa,Scales the image size by the given scale.@param scale the scale factor
+67299dbda23f7e5639814efb,Rotate the transformation.@param rotationthe rotation
+67299dbda23f7e5639814efc,Helper method to animate an anim object.@param anim the anim to animate.@param offset the offset of the animation to start.@param loopCount the number of times the animation should stop.@param speed the number of times the animation should stop.@param speed the speed of the animation.@param transitionTime the transition time.@param transitionTime the transition time.@return the animation descriptor.
+67299dbda23f7e5639814efd,Queues the given animation with the given animation.@param anim the animation to be queued.@param offset the offset of the animation to be queued.@param loopCount the number of times the animation should be queued.@param loopCount the number of times the animation should be queued.@param speed the speed of the animation.@param speed the speed of the animation.@param transitionTime the transition time.@return the animation.
+67299dbda23f7e5639814efe,Gets the sub-directory.@param subDir the sub-directory@return the sub-directory
+67299dbda23f7e5639814eff,Persists and returns the id.@param entitythe entity@return the id
+67299dbda23f7e5639814f00,Builds the service.@param service the running service@return the string
+67299dbda23f7e5639814f01,Builds the URL for the given service.@param service the running service@param database the database@return the URL
+67299dbda23f7e5639814f02,Get a double value.@param name the name of the property@return the double value
+67299dbda23f7e5639814f03,Get an int value.@param name the name of the int@return the int value
+67299dbda23f7e5639814f04,Get a long as a long.@param name the name of the long@return the long value
+67299dbda23f7e5639814f05,Get a string as a string.@param name the name of the string@return the string value
+67299dbda23f7e5639814f06,Creates a directory.
+67299dbda23f7e5639814f07,Uploads a file.@param name the file name@param owner the owner@param content the content@throws IOException Signals that an I/O exception has occurred.
+67299dbda23f7e5639814f08,Stops the leader.
+67299dbda23f7e5639814f09,Converts a TableFunctionFunctionFunction to Calcite function parameters.
+67299dbda23f7e5639814f0a,Checks if the given node is a string concat.@param rexNode the node to check@return {@code true} if the node is a string concat
+67299dbda23f7e5639814f0b,Submit a sql query with expected status code.
+67299dbda23f7e5639814f0c,Returns the least significant power of two two longs.@throws IllegalArgumentException if value is less than the largest power of two.
+67299dbda23f7e5639814f0d,Hash a single value.
+67299dbda23f7e5639814f0e,Hashes a single value to an int.
+67299dbda23f7e5639814f0f,Open all of the NeoStores.@return All of the NeoStores.
+67299dbda23f7e5639814f10,Decode a property block.@param block the property block@return the decoded value
+67299dbda23f7e5639814f11,Sets the end conditions.@param endConditions the end conditions@return the race condition
+67299dbda23f7e5639814f12,Returns the next valid code point in the given range.
+67299dbda23f7e5639814f13,Unlock exclusive lock.@param address the address
+67299dbda23f7e5639814f14,Returns the reference count for this header.
+67299dbda23f7e5639814f15,Evicts a page by id.
+67299dbda23f7e5639814f16,Clear all of the changed chunks.
+67299dbda23f7e5639814f17,Creates a log channel for the given version.
+67299dbda23f7e5639814f18,Gets the waiting time in nanoseconds.@param nowNanos the current time@return the waiting time in nanoseconds
+67299dbda23f7e5639814f19,Disconnects the server.@param indexPopulation the index population@param cursorContext the cursor context
+67299dbda23f7e5639814f1a,Returns the physical log channel for the file.
+67299dbda23f7e5639814f1b,Release write lock.
+67299dbda23f7e5639814f1c,Checks that the cursor is out of bounds.
+67299dbda23f7e5639814f1d,Writes a GSP message to the given PageCursor.
+67299dbda23f7e5639814f1e,Bump the generation.
+67299dbda23f7e5639814f1f,Normalizes this duration value.@return
+67299dbda23f7e5639814f20,Parses the given arguments.@param args the arguments@return the parsed arguments@throws ArgumentParserException if parsing fails
+67299dbda23f7e5639814f21,Prints the text to the given text.@param text the text to print
+67299dbda23f7e5639814f22,Checks if the right delimiter is in a comment.@param awaitingRightDelimiter the right delimiter@return true if the right delimiter is in a comment
+67299dbda23f7e5639814f23,Decrease key.@param node the node@param newKey the new key
+67299dbda23f7e5639814f24,Cut x.@param x the x@param y the y
+67299dbda23f7e5639814f25,Release the acquired waiters.
+67299dbda23f7e5639814f26,Schedule a work.@param work the work to be applied@throws ExecutionException if the work cannot be scheduled
+67299dbda23f7e5639814f27,Returns the string representation of the store version.
+67299dbda23f7e5639814f28,Returns the total degree of all types.
+67299dbda23f7e5639814f29,Disables the given commands.@param commands the commands to disable
+67299dbda23f7e5639814f2a,Run the algorithm.@param iterationTimeout@param unit@throws Exception
+67299dbda23f7e5639814f2b,Runs the given number of iterations.
+67299dbda23f7e5639814f2c,Creates the indexes for the given graph.
+67299dbda23f7e5639814f2d,Deletes all nodes from the database.
+67299dbda23f7e5639814f2e,Negotiates the given connection.
+67299dbda23f7e5639814f2f,Reads a primitive value from the stream.
+67299dbda23f7e5639814f30,Calculate the point for a given point@param derivedValue@param level@return
+67299dbda23f7e5639814f31,Get the tiles intersecting.@param referenceEnvelope@return
+67299dbda23f7e5639814f32,Calculates the normalized coordinates for a given level.@param normalizedCoord the normalized coordinates@param level the level@return the normalized coordinates
+67299dbda23f7e5639814f33,Propagates the length from source to target length@param lengthFromSource@param lengthToTarget
+67299dbda23f7e5639814f34,Inserts an element into the heap.@param e element to insert@return true if the element was inserted
+67299dbda23f7e5639814f35,Sorts the heap.
+67299dbda23f7e5639814f36,Heapify the heap.
+67299dbda23f7e5639814f37,Sifts the given value into this vector.
+67299dbda23f7e5639814f38,Sets bits.@param bits Bits@param start Start position@param slots Number of bits@param bitsArraySlot Index of bits
+67299dbda23f7e5639814f39,Returns a sub-path representation of this path.
+67299dbda23f7e5639814f3a,Performs a file operation.@param operation the operation@param fs                the file system@param fromLayout           the source layout@param toLayout             the database layout@param databaseFiles             the database layout@param allowSkipNonExistentFiles            whether to include the files@param includeIdFile               the existing target@param existingTargetStrategy the existing target target strategy@throws IOException if an I/O error occurs
+67299dbda23f7e5639814f3b,Returns the difference of two sets.
+67299dbda23f7e5639814f3c,Counts the number of unique values in left and right.
+67299dbda23f7e5639814f3d,Checks if two iterators are equal.@param first first@param other second@return true if they are equal
+67299dbda23f7e5639814f3e,Counts the number of elements in the iterator.@param <T> the element type@param iterator the iterator@return the number of elements in the iterator
+67299dbda23f7e5639814f3f,Adds a lazy binding.@param componentSupplier the supplier@param type            the type
+67299dbda23f7e5639814f40,Create a ReadableLogPositionAwareChannel for the given file.@param fs@param path@param kernelVersion@return@throws IOException
+67299dbda23f7e5639814f41,Returns the values indexed by the specified field.
+67299dbda23f7e5639814f42,Checks if there is a valid disi document.@return
+67299dbda23f7e5639814f43,Try to add a document to the default context.@param document the document@throws IOException
+67299dbda23f7e5639814f44,Updates or deletes or deletes or deletes the given document.@param term          the term to update or delete.@param document the document to update.@throws IOException
+67299dbda23f7e5639814f45,Clear the cache.
+67299dbda23f7e5639814f46,Asserts that the request builder throws an exception.@param builderthe request builder@param exceptionClassthe exception class@param statusthe status
+67299dbda23f7e5639814f47,Get the value of a column.@param rs the result set@param index the index@param paramType the parameter type@return the value of the column@throws SQLException if a database access error occurs
+67299dbda23f7e5639814f48,Sets the modules.@param consumer the consumer@return the builder
+67299dbda23f7e5639814f49,Returns the child element with the given name.@param name the name of the child element@return the child element with the given name
+67299dbda23f7e5639814f4a,Verifies that the sort order is consistent.
+67299dbda23f7e5639814f4b,"Checks if is match.@param methodNamethe method name@param mappedNamethe mapped name@return true, if matches"
+67299dbda23f7e5639814f4c,Test whether the network host is wrong.
+67299dbda23f7e5639814f4d,Check widget size.@param event the event
+67299dbda23f7e5639814f4e,Creates a default field type.@param fieldName@return
+67299dbda23f7e5639814f4f,Set the center x.@param x
+67299dbda23f7e5639814f50,Helper method for creating an Elasticsearch security exception.@return the Elasticsearch security exception
+67299dbda23f7e5639814f51,Register test task.@param project the project@param sourceSet the source set@return the provider
+67299dbda23f7e5639814f52,"Check if the given element is indexed.@param elementIndex the element index@return true if the element is indexed, false otherwise"
+67299dbda23f7e5639814f53,Returns the index field for the given field type.
+67299dbda23f7e5639814f54,Returns the sum of double values.@param values the values@return the sum of double values
+67299dbda23f7e5639814f55,Searches for entries matching the given search scope.
+67299dbda23f7e5639814f56,Deletes a path.@param path the path to delete
+67299dbda23f7e5639814f57,Writes the contents of an input stream to the given file.
+67299dbda23f7e5639814f58,Compute the maximum number of bytes that should be used for auto queries.
+67299dbda23f7e5639814f59,"Checks if the given expression is a valid expression.@param expressionThe expression to check.@return True if the expression is a valid expression, false otherwise."
+67299dbda23f7e5639814f5a,Find by database name.@param databaseName@return
+67299dbda23f7e5639814f5b,Checks if the given number of bytes is available.@param count the number of bytes to check@return true if the number of bytes is available
+67299dbda23f7e5639814f5c,Compares two tiers@param tier1@param tier2@return
+67299dbda23f7e5639814f5d,Parses a float value.@param parserThe parser.@return The parsed float value.@throws IOExceptionIf an I/O error occurs.
+67299dbda23f7e5639814f5e,Creates a PathExpander that prints a PrintPathExpander that prints a branch state.
+67299dbda23f7e5639814f5f,"Removes the specified key from the set.@param keythe key to be removed@return <code>true</code> if the key was found, <code>false</code> otherwise"
+67299dbda23f7e5639814f60,ResultSet object as a double.
+67299dbda23f7e5639814f61,Try to release shared state.@param finalState@return
+67299dbda23f7e5639814f62,Extract exceptions from method signature.@param methodthe method@return the exceptions
+67299dbda23f7e5639814f63,Set a coordinate.@param longitude@param latitude@return
+67299dbda23f7e5639814f64,Loads the application context for a given configuration.
+67299dbda23f7e5639814f65,Sets the misfire instruction name.@param constantName the misfire instruction name
+67299dbda23f7e5639814f66,Returns an array of tokens for the given tokens.@param tx@param tokens@return@throws KernelException
+67299dbda23f7e5639814f67,Checks if the element has meta annotation types.@param element the element@param annotationType the annotation type@return true if the element has meta annotation types
+67299dbda23f7e5639814f68,Creates a SimplePersistentType with the given managed class names.@param managedClassNames the managed class names@return the SimplePersistentType
+67299dbda23f7e5639814f69,Returns a string representation of this URI.
+67299dbda23f7e5639814f6a,Waits for a new cluster state.@param clusterService@param threadContext@param listener@param statePredicate@param timeout@param logger
+67299dbda23f7e5639814f6b,Returns the current position count.@return the current position count
+67299dbda23f7e5639814f6c,Converts a comma delimited list into a set.@param str the comma delimited list@return the set
+67299dbda23f7e5639814f6d,Schedules the specified task.@param thread the thread@param task the task
+67299dbda23f7e5639814f6e,Sets a field value.@param doc the document@param path the path@param value the value
+67299dbda23f7e5639814f6f,Translate an exception to a data access exception.@param task@param sql@param ex@return
+67299dbda23f7e5639814f70,Replies the list of message converters.@return the list of message converters.
+67299dbda23f7e5639814f71,Returns an exponential backoff for the given number of times.
+67299dbda23f7e5639814f72,Converts a word to upper case.@param word@return
+67299dbda23f7e5639814f73,Cancels a power of two long values.@param value the value to be returned@return the lower power of two
+67299dbda23f7e5639814f74,Add data to bulk request@param data@param from@param length@param xContentType@return@throws IOException
+67299dbda23f7e5639814f75,Sets the timeout.@param timeout the new timeout@return the search request builder
+67299dbda23f7e5639814f76,Log an error message.@param cause    the cause@param messageSupplier the message supplier
+67299dbda23f7e5639814f77,Adds a range aggregation to the aggregation builder.@param key       the key@param to      the value@return the range aggregation builder
+67299dbda23f7e5639814f78,ResultSet object as int.
+67299dbda23f7e5639814f79,Sets the scope annotation type.@param scopeAnnotationType the scope annotation type
+67299dbda23f7e5639814f7a,Returns the maximum number of indices in this vector.@return the maximum number of indices in this vector
+67299dbda23f7e5639814f7b,Trigger before commit
+67299dbda23f7e5639814f7c,Converts a Hive table into a column handle.
+67299dbda23f7e5639814f7d,Handles an error.
+67299dbda23f7e5639814f7e,Checks if the property has a unique write method.@param pd the property descriptor@return true if the property has a unique write method
+67299dbda23f7e5639814f7f,Start a background fetch.
+67299dbda23f7e5639814f80,Creates a new SslHandler.
+67299dbda23f7e5639814f81,Flush the output stream.
+67299dbda23f7e5639814f82,Gets the element type.@param type the type@return the element type
+67299dbda23f7e5639814f83,Cancel the batch.@param failure the failure@param cursorContext the cursor context
+67299dbda23f7e5639814f84,Size by the given width and height@param width@param height
+67299dbda23f7e5639814f85,"Returns the value for the given key, or the default value if not found."
+67299dbda23f7e5639814f86,"Find the key for the given value.@param valueThe value to search for. May be <code>null</code>.@param identity<code>true</code> if the value is <code>null</code>, <code>false</code> if not found.@param notFound<code>true</code> if the value is not found, <code>false</code> otherwise.@return the index or <code>0</code> if not found."
+67299dbda23f7e5639814f87,Process field value.@param name the name@param value the value@param type the type@return the string
+67299dbda23f7e5639814f88,Sets the comment prefix.@param commentPrefix the new comment prefix
+67299dbda23f7e5639814f89,Ensure that the file access is open.

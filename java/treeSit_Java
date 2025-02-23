@@ -1,0 +1,23 @@
+
+from tree_sitter import Language, Parser
+import sh
+
+def instantiate_language(name, url):
+    # Download language definition
+    # try:
+    #     sh.git.clone(url, name)
+    # except sh.ErrorReturnCode as e:
+    #     print(e.stderr.decode())
+    # compile language definition
+    Language.build_library(f"{name}.so", [name])
+    # load language
+    return Language(f"{name}.so", name)
+
+
+# instantiate language
+JAVA = instantiate_language("java", "https://github.com/tree-sitter/tree-sitter-java") 
+
+# instantiate parser
+parser = Parser()
+parser.set_language(JAVA)
+

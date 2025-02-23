@@ -1,0 +1,107 @@
+from pymongo import MongoClient
+import openai
+import time
+
+
+openai.api_key = "sk-proj-dPQvN0GALJBgOPcFYYkWT3BlbkFJOMo2fRii5rMXSv7fxDEm"
+
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+javaTestDataset = db.javaTestDataset
+
+javaTestDatasetList = []
+
+
+for item in javaTestDataset.find():
+    javaTestDatasetList.append(item)
+
+client.close()
+
+simplifiedList=[]
+
+def generateComment(method):
+    instruction =("""
+                  Please generate a short comment in one sentence for the following function,
+                  """)
+    prompt = instruction + "\"" + method + "\""
+    
+    completion = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo-0125",
+        messages=[
+            {"role": "user", "content": prompt}
+            ]
+            )
+    return completion.choices[0].message["content"]
+
+
+def generateMethodComment(method,helpers):
+    queryString=""
+
+    for item in helpers:
+        if item.get('MethodBody')!="":
+            queryString+= "helperMethod : "
+            queryString+= item.get('FunctionName')+"\n"
+            queryString+= "Summary : " + item.get('gptComment')+"\n"
+
+    instruction =("""Please generate a short comment in one sentence for the following function,
+                  """)
+    prompt = instruction + "\"" + method + "\"\n"
+    prompt+= "Where the Summaries of the helper functions as follows:\n"
+    prompt+=queryString
+    
+    print(prompt)
+
+    completion = openai.ChatCompletion.create(
+        model="gpt-3.5-turbo-0125",
+        messages=[
+            {"role": "user", "content": prompt}
+            ]
+            )
+    return completion.choices[0].message["content"],prompt
+
+
+counter = 0
+for helper in javaTestDatasetList:
+    helpers = helper.get('helpers')
+    method = helper.get('code')
+    docStrings = helper.get('docstring_tokens')
+    groundTruth = ' '.join(docStrings)
+    for item in helpers:
+        MethodBody = item.get('MethodBody')
+        if(MethodBody!=""):  
+            try:
+                helperSummary= generateComment(MethodBody)
+                item["gptComment"] = helperSummary
+            except Exception as e:
+                print('Error',e)
+                time.sleep(1)    
+        counter += 1
+        #print("Processed helpers: ",counter)
+    try:
+        print("-----------------------")
+        gptComment,prompt = generateMethodComment(method,helpers)
+        print("-----------------------\n")
+        helper["gptComment"] = gptComment
+        helper["prompt"] = prompt
+    except Exception as e:
+        print('Error',e)
+        time.sleep(1)
+
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+javaTestWithComments = db.javaTestWithComments
+
+for item in javaTestDatasetList:
+    javaTestWithComments.insert_one(item)
+
+
+
+
+
+

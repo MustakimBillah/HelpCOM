@@ -1,0 +1,181 @@
+
+from tree_sitter import Language, Parser
+import sh
+
+def instantiate_language(name, url):
+    # Download language definition
+    # try:
+    #     sh.git.clone(url, name)
+    # except sh.ErrorReturnCode as e:
+    #     print(e.stderr.decode())
+    # compile language definition
+    Language.build_library(f"{name}.so", ["/student/mjr175/method-level-comment-generation/"+name])
+    # load language
+    return Language(f"/student/mjr175/method-level-comment-generation/java/{name}.so", name)
+
+
+# instantiate language
+JAVA = instantiate_language("java", "https://github.com/tree-sitter/tree-sitter-java") 
+
+# instantiate parser
+parser = Parser()
+parser.set_language(JAVA)
+
+
+source = b"""
+public static int sum(int a, int b) {
+    return a + b;
+}
+"""
+
+tree = parser.parse(source)
+root = tree.root_node
+# print(root)
+# print(root.text)
+# print(root.type)
+# print(root.children)
+# print(root.sexp())
+
+# basic checking ends here
+
+def print_captures(captures):
+    for capture, tag in captures:
+        #print(capture)
+        #print(tag)
+        #print(f"@{tag} [{capture.type}] ({capture.start_byte}:{capture.end_byte})")
+        print(quote(text(capture)), "\n")
+
+def quote(s):
+    return '\n'.join(f"> {line}" for line in s.splitlines())
+    
+def text(node):
+    return node.text.decode()
+
+# Queries
+with open("/student/mjr175/method-level-comment-generation/StoreUtil.java", "rb") as f:
+    tree = parser.parse(f.read())
+    root = tree.root_node
+
+# print(text(root))
+
+
+# Get method_declaration
+query = JAVA.query("""
+;; Match any `method_declaration` node and capture it.
+(method_declaration) @method
+""")
+
+
+
+
+
+
+
+
+
+# Get method names
+query = JAVA.query("""
+;; Match any `method_declaration` node where at-least one child is an `identifier`.
+;; Capture the identifier.
+(method_invocation (identifier) @method.name)
+""")
+
+# Get method calls
+query = JAVA.query("""
+;; Match any `method calls`.
+;; Capture the calls.
+(method_invocation) @method.calls
+""")
+
+captures = query.captures(root)
+#print_captures(captures)
+
+# for child in root.children:
+#     print(child)
+#     for leaf in child.children:
+#         print(leaf)
+
+
+
+
+
+def traverse_old(node, depth=0):
+    if node is None:
+        return
+    # Print node information
+    print(node.type)
+    if(node.type=="method_invocation"):
+        arg_string = ""
+        for child in node.children:             
+            if(child.type=="argument_list"):
+                for args in child.children:
+                    arg_string+=args.type
+                arg_string = arg_string.strip('()')
+                arg_list = [item.strip() for item in arg_string.split(',')]
+                print(arg_list)
+                print(len(arg_list))                
+    # Recursively traverse child nodes
+    for child in node.children:
+        traverse(child)
+
+
+
+def traverse(node, depth=0):
+    global isDoctring
+    global blockComment
+    global declaredMethod
+
+    if node is None:
+        return
+    # Print node information
+    #print(node.type)
+
+    if(node.type=="method_declaration"):
+        declaredMethod = node.text.decode('utf-8')
+        if(isDoctring==True):
+            print('-------------------------------')
+            print('DocString: ',blockComment)
+            print('---------------------------------')
+            print('Method: ',declaredMethod)
+            print('-----------------------------------------')
+    
+
+    isDoctring = False
+
+    if(node.type=="block_comment"):
+        blockComment = node.text.decode('utf-8')
+        isDoctring = True
+    
+
+    
+    if(node.type=="method_invocation"):
+        node_text = node.text.decode('utf-8')    
+        #####print('Called_Method: ',node_text)
+        functionName = []
+        cnt = 0
+        arg_string=''
+        arg_list=[]
+        for child in node.children:
+            if(child.type=="argument_list"):
+                for args in child.children:
+                    arg_string+=args.type
+                arg_string = arg_string.strip('()')
+                arg_list = [item.strip() for item in arg_string.split(',')]
+                cnt = len(arg_list)
+            if(child.type=="identifier"):
+                #print('identifier: ',child.text.decode('utf-8'))  
+                functionName.append(child.text.decode('utf-8'))
+        #####print('function name: ',functionName.pop())
+        #####print('argument count: ',cnt)
+    # Recursively traverse child nodes
+    for child in node.children:
+        traverse(child)
+
+
+
+blockComment = ''
+declaredMethod = ''
+isDoctring = False
+
+
+traverse(root)

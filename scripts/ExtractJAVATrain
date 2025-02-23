@@ -1,0 +1,52 @@
+import json
+import random
+
+# Open the JSONL file and read its lines
+with open('/student/mjr175/commentGeneration/ASAP_DATASET/Java_data/Java_data/train.jsonl', 'r') as file:
+    lines = file.readlines()
+
+# Initialize a list to store the selected elements
+selected_elements = []
+
+# Randomly select 2500 lines from the file
+selected_lines = random.sample(lines, 2500)
+
+# Parse each selected line as JSON and append it to the list
+for line in selected_lines:
+    selected_elements.append(json.loads(line))
+
+# write the selected elements to a new JSONL file
+with open('/student/mjr175/commentGeneration/Train_4_Lang/JavaTrain2500.jsonl', 'w') as file:
+    for element in selected_elements:
+        json.dump(element, file)
+        file.write('\n')
+
+
+######################generate another 250 samples different from the previous#####################
+
+# # Open the original JSONL file and read its lines
+# with open('/student/mjr175/commentGeneration/ASAP_DATASET/Java_data/Java_data/train.jsonl', 'r') as file:
+#     original_lines = file.readlines()
+
+# # Open the existing JavaTrain.jsonl file and read its lines
+# with open('/student/mjr175/commentGeneration/Train_250_4_Lang/JavaTrain.jsonl', 'r') as file:
+#     existing_lines = file.readlines()
+
+# # Convert existing lines to a set for faster lookup
+# existing_set = set(existing_lines)
+
+# # Initialize a list to store the selected elements
+# selected_elements = []
+
+# # Randomly select 250 lines from the original file that are not already in JavaTrain.jsonl
+# selected_lines = random.sample([line for line in original_lines if line not in existing_set], 250)
+
+# # Parse each selected line as JSON and append it to the list
+# for line in selected_lines:
+#     selected_elements.append(json.loads(line))
+
+# # write the selected elements to a new JSONL file
+# with open('/student/mjr175/commentGeneration/Train_250_4_Lang/JavaTrainSecond.jsonl', 'w') as file:
+#     for element in selected_elements:
+#         json.dump(element, file)
+#         file.write('\n')

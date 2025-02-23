@@ -1,0 +1,3000 @@
+Please find the identifiers used in the function below.
+getEffectiveConverterMap effectiveMap defaultMap getDefaultConverterMap putAll context getContext SuppressWarnings contextMap getObject CoreConstants PATTERN_RULE_REGISTRY
+##########
+Please find the identifiers used in the function below.
+addStagger array dimIndex shape getShape newShape System arraycopy ni nj nk newArray n d eshape neweshape i origin j k it section getIndexIterator l getDoubleNext d2 extrapinterpolate newit setDoubleNext e
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings deserializeOffsetMap lastSourceOffset IOException offsetMap isEmpty JSON_MAPPER readValue
+##########
+Please find the identifiers used in the function below.
+addPacketInterceptor packetInterceptor packetFilter interceptors put
+##########
+Please find the identifiers used in the function below.
+getCharacterCountDecimal integerValue scale isNeg totalDigits BitHackUtils getCharacterCountInt64 totalLength
+##########
+Please find the identifiers used in the function below.
+isActive countersReader counterId recordingId buffer metaDataBuffer getCounterState RECORD_ALLOCATED recordOffset CountersReader metaDataOffset getInt TYPE_ID_OFFSET RECORDING_POSITION_TYPE_ID getLong KEY_OFFSET RECORDING_ID_OFFSET
+##########
+Please find the identifiers used in the function below.
+isKeyColumn Nonnull aColumnSet Nullable sColumnID aKey getAllKeys aColumnRef getColumnRef getRef getId equals
+##########
+Please find the identifiers used in the function below.
+getClustersOwnedByServer iNodeName clusters cl getClusterNames equals getClusterOwner add
+##########
+Please find the identifiers used in the function below.
+mergeSort index lo hi cmp chooseComparer
+##########
+Please find the identifiers used in the function below.
+main args loadPropertiesFiles barrier ctx terminationHook signal ignore MediaDriver launch await System out println
+##########
+Please find the identifiers used in the function below.
+invalidateAll predicate cache asMap entrySet stream map entry getValue getKey filter test JwtContext getJwt forEach invalidate
+##########
+Please find the identifiers used in the function below.
+attachTimer timerID node getAttachedTimersNode hasChild addChild Fqn fromElements
+##########
+Please find the identifiers used in the function below.
+allocateCharBuffer bufferSize MAX_BUFFER_SIZE buf getCharBufferThreadLocalPool allocate
+##########
+Please find the identifiers used in the function below.
+writeXML ncd os showCoords uri IOException fmt Format getPrettyFormat output makeDocument
+##########
+Please find the identifiers used in the function below.
+getACI activity NullPointerException UnrecognizedActivityException FactoryException handle raEntity sleeContainer getResourceManagement getResourceAdaptorEntitiesPerType resourceAdaptorTypeID getResourceAdaptorObject getActivityHandle ach ac getActivityContextFactory getActivityContext getActivityContextInterface toString
+##########
+Please find the identifiers used in the function below.
+fqnPrefix fqn structindex lastIndexOf groupindex substring
+##########
+Please find the identifiers used in the function below.
+insideOf start inStr end Chr FastStringUtils toCharArray
+##########
+Please find the identifiers used in the function below.
+head destination method HttpMethod HEAD set
+##########
+Please find the identifiers used in the function below.
+getDefaultValues schema SchemaRegistryException defaultValues putAll AvroTypeUtil getDefaultValuesFromSchema e
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings addTransformations version builder JGroupsModel VERSION_5_0_0 requiresTransformation getAttributeBuilder setDiscard DiscardAttributeChecker UNDEFINED Attribute STATISTICS_ENABLED getDefinition addRejectCheck RejectAttributeChecker DEFINED end VERSION_3_0_0 typeConverter Override convertAttribute address name value context isDefined set getLastElement getValue MODULE getDefaultValue setValueConverter DeprecatedAttribute TYPE addRawOperationTransformationOverride MapOperations MAP_GET_DEFINITION getName opName Operations getAllWriteAttributeOperationNames addOperationTransformationOverride inheritResourceAttributeDefinitions setCustomOperationTransformer PropertyResourceDefinition buildTransformation
+##########
+Please find the identifiers used in the function below.
+diff i_v1 vals doDiff opName outputVars args i size var grad getGradient gradVar f add get set e getClass getSimpleName sameDiff setGradientForVariableName getVarName updateVariableNameAndReference setForwardVariableForVarName
+##########
+Please find the identifiers used in the function below.
+validatePicture picture isComplete type getFormat getPictureType willResample mToImageResampler getOutputFormat
+##########
+Please find the identifiers used in the function below.
+initOnce req SendError once log info getClass getName tdsContext HttpServletResponse SC_INTERNAL_SERVER_ERROR buf append getServerName port getServerPort server toString tmp HTTPUtil canonicalpath getContextPath threddsname nullify relpath getServletPath requestname DEFAULTSERVLETNAME updir getUploadDir warn uploaddir getAbsolutePath downdir getDownloadDir downloaddir
+##########
+Please find the identifiers used in the function below.
+RequestMapping value deletePermission RequestParam contactId sid mask contact contactManager getById sidObject permission permissionFactory buildFromMask model put
+##########
+Please find the identifiers used in the function below.
+convert text rtFormat mText mRTFormat mOut mImages mParagraphStyles clear convertParagraphs toString
+##########
+Please find the identifiers used in the function below.
+extractValidatorMetaData clazz propertyName validatorMetaDataList annotations Annotations getAnnotationDataForFieldAndProperty validationAnnotationPackages extractMetaDataFromAnnotations
+##########
+Please find the identifiers used in the function below.
+pull n name map getAttributes attr getNamedItem getNodeValue
+##########
+Please find the identifiers used in the function below.
+childClassOf parentClass instance isInterface childClass getClass parent getSuperclass
+##########
+Please find the identifiers used in the function below.
+writeBytes bytes len IOException outputBytes checksummode enabled ChecksumMode DAP checksum update DUMPCSUM System err print i printf println
+##########
+Please find the identifiers used in the function below.
+queryParam name value toString
+##########
+Please find the identifiers used in the function below.
+drawTile x y zoom bitmap isIndexQuery drawTileQueryIndex drawTileQueryAll
+##########
+Please find the identifiers used in the function below.
+cleanUp oos close e LogLog error connector interrupted
+##########
+Please find the identifiers used in the function below.
+isSystemClass name packageList result canonicalName ClassLoaderUtil canonicalizeClassOrResource c shouldInclude startsWith substring endsWith length charAt
+##########
+Please find the identifiers used in the function below.
+convertType value targetType valueClass getClass TypeConverterManager get ex strictTypes
+##########
+Please find the identifiers used in the function below.
+getPackageName o getClassPackageName getClass
+##########
+Please find the identifiers used in the function below.
+addParamTemplate paramTemplate paramTemplates add
+##########
+Please find the identifiers used in the function below.
+getSbbUsageParameterSet sbbEntity name UnrecognizedUsageParameterSetNameException logger isTraceEnabled trace getSbbEntityId getServiceID getSbbId getServiceUsageMBeanImpl getInstalledUsageParameterSet
+##########
+Please find the identifiers used in the function below.
+toExtraMetaData map put THRIFT_CLASS getThriftClass getName THRIFT_DESCRIPTOR descriptor toJSON
+##########
+Please find the identifiers used in the function below.
+getMoreBytes currentOffset bytesRead lookingFor lineBuf length c in read endSequence endFound bytesRemaining
+##########
+Please find the identifiers used in the function below.
+loadData headerLoaded dataLoaded s stream i nrecords recbyte ds readByte j nfields data readRowN e close
+##########
+Please find the identifiers used in the function below.
+useProfile profile enabledProfiles add
+##########
+Please find the identifiers used in the function below.
+getInwardEdgeVertices vertex inwardEdgeVerticesForVertex inwardEdgesVertices get Collections emptySet
+##########
+Please find the identifiers used in the function below.
+poll currentLevel h first second n markers getNext isEmpty t getTail casTail casNext firstDataNode item getItem setItem count decrementAndGet
+##########
+Please find the identifiers used in the function below.
+skipWhiteSpace pos s length Character isWhitespace charAt
+##########
+Please find the identifiers used in the function below.
+parseInt buffer from to CharScanner FastStringUtils toCharArray
+##########
+Please find the identifiers used in the function below.
+copyins old newState a ins inchain cparc from
+##########
+Please find the identifiers used in the function below.
+setFeatureStyles featureTable featureId featureStyles setStyles getStyles setIcons getIcons deleteStyles deleteIcons
+##########
+Please find the identifiers used in the function below.
+setId v ConceptType_Type featOkTst jcasType casFeat_id jcas throwFeatMissing ll_cas ll_setStringValue addr casFeatCode_id
+##########
+Please find the identifiers used in the function below.
+getJobStatus jobId title IOException InterruptedException ar wb PlatformUI getWorkbench ps getProgressService busyCursorWhile run pm beginTask STATUS_REQUEST_TIMEOUT subTask startTime System currentTimeMillis stopTime Thread sleep STATUS_REQUEST_DELAY response httpGet jo JsonObject readFrom status get asString result equals set worked Activator println e printStackTrace isCanceled done
+##########
+Please find the identifiers used in the function below.
+V PersistentTreeMap K empty c
+##########
+Please find the identifiers used in the function below.
+tokenAsJson authToken jsonObject put userAuth tokenValue JsonResult of
+##########
+Please find the identifiers used in the function below.
+setAsText text equals setValue results st CID_SEPARATOR cidPropEditor hasMoreTokens nextToken add getValue cid size toArray
+##########
+Please find the identifiers used in the function below.
+Nonnull convert2DataRoot dataRootExt dataRoot getDataRoot readDataRootFromCatalog setDataRoot
+##########
+Please find the identifiers used in the function below.
+versionControl DAVException response davClient locator newContext examineResponse e closeResponse
+##########
+Please find the identifiers used in the function below.
+hasCollectionsInDataSet dataset schema getSchemas
+##########
+Please find the identifiers used in the function below.
+checkStreamExists awsClientConfig conf streamName issues context numShards getShardCount e LOG error Errors KINESIS_01 getMessage toString add createConfigIssue Groups KINESIS name KINESIS_CONFIG_BEAN
+##########
+Please find the identifiers used in the function below.
+registerMadvocComponents madvocContainer log debug registerComponent registerComponentInstance servletContext
+##########
+Please find the identifiers used in the function below.
+createURLStreamHandler protocol handler handlerMap get prevProtocol createURLStreamHandlerProtocol equals set checkHandlerPkgs ctxLoader Thread currentThread getContextClassLoader p handlerPkgs length classname type loadClass e Class forName newInstance put log trace ignore
+##########
+Please find the identifiers used in the function below.
+Override sendData out IOException DEBUG Log v TAG write getContent
+##########
+Please find the identifiers used in the function below.
+grabDouble bytes offset DescriptorException src littleEndianData stream readDouble ex
+##########
+Please find the identifiers used in the function below.
+checkDependencies sleeComponent deployableUnit DependencyException componentID getDependenciesSet getDeployableUnitRepository getComponentByID getComponentID
+##########
+Please find the identifiers used in the function below.
+T getConfig Class configClass ConfigurationException it getServicePath descendingPathIterator hasNext in getConfigurationStream next decoder deserialise e LOG trace incrementErrors getSimpleName
+##########
+Please find the identifiers used in the function below.
+Override getNodesWithStatus iNodes databaseName statuses it iterator hasNext node next isNodeStatusEqualsTo remove size
+##########
+Please find the identifiers used in the function below.
+execute iArgs type database getDatabase sourceClass getMetadata getSchema getClass className prop getProperty fieldName ifNotExists properties size linkedClass linkedType linked OType valueOf toUpperCase Locale ENGLISH internalProp addPropertyInternal unsafe readonly setReadonly mandatory setMandatory notnull setNotNull max setMax min setMin defaultValue setDefaultValue
+##########
+Please find the identifiers used in the function below.
+Override invoke proxy method args Throwable methodHandleByMethod containsKey get invokeWithArguments getDeclaringClass equals getName System identityHashCode data assistDataByMethod checkState provider cachedBinding getProvider getBindingFromNewInjector p tlp providers set e getErrorMessages size onlyError getOnlyElement cause getCause canRethrow remove
+##########
+Please find the identifiers used in the function below.
+setFooterOfSheetConfiguration fcommand sheetConfig leftCol rightCol tempStr calcFooterLength CellUtility getCellIndexLetterKey getTopRow calcHeaderLength calcBodyLength setFormFooterRange setFooterCellRange
+##########
+Please find the identifiers used in the function below.
+convertArrayType name typeInfo subType getListElementTypeInfo listWrapper listType Repetition REPEATED ParquetHiveSerDe ARRAY toString convertType
+##########
+Please find the identifiers used in the function below.
+emit_field opcode ctype name ftype mv visitFieldInsn getInternalName getDescriptor
+##########
+Please find the identifiers used in the function below.
+addVertex v verticies containsValue put getName
+##########
+Please find the identifiers used in the function below.
+isEmpty name size equals get
+##########
+Please find the identifiers used in the function below.
+hasScope interceptorClass annotation getAnnotations Annotations isScopeAnnotation annotationType
+##########
+Please find the identifiers used in the function below.
+getIndexOf key index keyToIndex get
+##########
+Please find the identifiers used in the function below.
+logResponseToIfMatches stream matcher
+##########
+Please find the identifiers used in the function below.
+T deserialize file returnType ApiException javaType mapper constructType getType readValue e getMessage
+##########
+Please find the identifiers used in the function below.
+populate geoPackageId tableName geomId envelope metadata setGeoPackageId setTableName setId setMinX getMinX setMaxX getMaxX setMinY getMinY setMaxY getMaxY hasZ setMinZ getMinZ setMaxZ getMaxZ hasM setMinM getMinM setMaxM getMaxM
+##########
+Please find the identifiers used in the function below.
+convertToSingleElementCollection value collection createCollection add
+##########
+Please find the identifiers used in the function below.
+commit offset batchCommitted LOG trace lastCommittedOffset Utils checkState controlChannel consumerCommit
+##########
+Please find the identifiers used in the function below.
+doAdditionalRead IOException conn iqueue isEmpty remove c getChannel buf takeBuffer SocketChannelIOHelper readMore add hasRemaining inQueue put queue pushBuffer e
+##########
+Please find the identifiers used in the function below.
+fireAddOrUpdatedEventIfNeeded state ProfileObjectState READY profileEntity isDirty profileTable doesFireEvents getProfileName getSleeContainer getSleeState SleeState RUNNING ac getActivityContext event isCreate persisted getProfileManagement logger isTraceEnabled trace profileEntitySnapshot fireEvent getEventTypeID getProfileAddress
+##########
+Please find the identifiers used in the function below.
+findIdx want isConstant start isSequential isSorted Arrays binarySearch raw i length
+##########
+Please find the identifiers used in the function below.
+pushVariableReference name isParserTranslationEnabled push node getContext getValueStack scope isVariableDefined
+##########
+Please find the identifiers used in the function below.
+addConstantNameAndType name descriptor tag Symbol CONSTANT_NAME_AND_TYPE_TAG hashCode hash entry get equals value index next constantPool put122 addConstantUtf8 put constantPoolCount
+##########
+Please find the identifiers used in the function below.
+readTop raf IOException pos seek readLen b rc read convertunsignedByte2Short pidd CDM utf8Charset contains
+##########
+Please find the identifiers used in the function below.
+decode input IllegalArgumentException startsWith substring length input58 i c charAt digit INDEXES zeros decoded outputStart inputStart divmod Arrays copyOfRange
+##########
+Please find the identifiers used in the function below.
+getPrincipal authentication SecurityContextHolder getContext getAuthentication log warn principal details getDn isDebugEnabled debug
+##########
+Please find the identifiers used in the function below.
+generateTokenString Exception dataString append getUserId SEPARATOR getUsername getExpirationDate getTime attributesHash newTokenString encryptor encrypt toString BaseEncoding base16 encode getBytes tokenString
+##########
+Please find the identifiers used in the function below.
+getStrings str delim values getStringCollection size toArray
+##########
+Please find the identifiers used in the function below.
+of path next getPrevious Path root previous
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setZimmertyp zimmertyp
+##########
+Please find the identifiers used in the function below.
+newLocator resourceURL label locatorFactory
+##########
+Please find the identifiers used in the function below.
+getStackTrace t stackTrace str e append toString
+##########
+Please find the identifiers used in the function below.
+getBuildReferenceDate MojoExecutionException tsFile project getBuild getDirectory AbstractDockerMojo DOCKER_BUILD_TIMESTAMP exists EnvUtil loadTimestamp e
+##########
+Please find the identifiers used in the function below.
+newBeanInstance beanDefinition ctor CtorInjectionPoint EMPTY type getName paramNo references length args wiringMode WiringMode NONE i pc getBean STRICT constructor bean newInstance ex
+##########
+Please find the identifiers used in the function below.
+mergeSet target source size addAll
+##########
+Please find the identifiers used in the function below.
+readParameters iServerConfig iParameters configuration length param setValue name value socketBufferSize getValueAsInteger OGlobalConfiguration NETWORK_SOCKET_BUFFER_SIZE
+##########
+Please find the identifiers used in the function below.
+getTx g pool getTxGraphImplFactory getGraph getDatabase user password settings initGraph
+##########
+Please find the identifiers used in the function below.
+invokePlugin n tagPlugin tagPlugins get getTagHandlerClass getName tagPluginContext pageInfo setTagPluginContext doTag
+##########
+Please find the identifiers used in the function below.
+writeInputStreamToOutput context source output IOException pool BeansManager get getContainer getBean IoUtils transfer
+##########
+Please find the identifiers used in the function below.
+setPresence present updateVague firePresence fireLeaving
+##########
+Please find the identifiers used in the function below.
+setCellValueNumber c value val Double parseDouble replace Character toString setCellType CellType NUMERIC setCellValue
+##########
+Please find the identifiers used in the function below.
+cacheResultSetEntities result entitiesCache i length object ded cachedDbEntityDescriptors key hasIdColumn getKeyValue cachedObject get put
+##########
+Please find the identifiers used in the function below.
+calcNumberOfColumns result fields e iterator hasNext pe next Math max getNumberOfControls
+##########
+Please find the identifiers used in the function below.
+parseRemoteIP channel StringUtils EMPTY remote remoteAddress getAddress getHostAddress
+##########
+Please find the identifiers used in the function below.
+ensureWorkingDirectory IOException directory getWorkingDirectory exists mkdirs isDirectory delete
+##########
+Please find the identifiers used in the function below.
+hasEdge e getFrom outgoingEdges contains getTo incomingEdges
+##########
+Please find the identifiers used in the function below.
+addPropertyInjectionPoint pip properties ArraysUtil append
+##########
+Please find the identifiers used in the function below.
+hashTableSize numElements IllegalArgumentException HASH_TABLE_MAX_SIZE sizeAfterLoadFactor bits Integer numberOfLeadingZeros
+##########
+Please find the identifiers used in the function below.
+addParentJoin cursor IOException level currentIndex t getTable extraJoins sdata add tableData j getJoinData StructureDataFactory make toArray size
+##########
+Please find the identifiers used in the function below.
+getActiveMQServerName properties getOrDefault SERVER DEFAULT
+##########
+Please find the identifiers used in the function below.
+createArrayProperties o keySet key value getProperty lastDotIndex lastIndexOf keyEnding substring length keyStart index Integer parseInt e propArray arrayProperties get put set
+##########
+Please find the identifiers used in the function below.
+getCoordinateType nestedDatasets getDatasets first get isStringValued DataType STRING DOUBLE
+##########
+Please find the identifiers used in the function below.
+SneakyThrows fromUrlSafe urlSafeKey startsWith KeyFormat INSTANCE parseOldStyleAppEngineKey com google cloud datastore Key
+##########
+Please find the identifiers used in the function below.
+convertMemberInfo wrapperSm m getMembers v findVariable getName orgVar findVariableFromOrgName setVariableInfo getShortName getDescription getUnitsString getDataType innerStruct getStructureMembers
+##########
+Please find the identifiers used in the function below.
+getMultiTypeData b result Boolean toString nativeType BOOLEAN
+##########
+Please find the identifiers used in the function below.
+lookupAlias alias value actionsManager lookupPathAlias cfg lookup getActionPath
+##########
+Please find the identifiers used in the function below.
+applyDefaultHeader metadataBuffer termBuffer termOffset putBytes LOG_DEFAULT_FRAME_HEADER_OFFSET HEADER_LENGTH
+##########
+Please find the identifiers used in the function below.
+getAll name values h hash i index e entries eq key addFirst getValue next
+##########
+Please find the identifiers used in the function below.
+Subscribe handle message getEndpoint getEntityType endpoint refresh
+##########
+Please find the identifiers used in the function below.
+extractMetaTags doc XPathExpressionException nodes expression evaluate XPathConstants NODESET numNodes getLength i n item isRobots content attrs getAttributes att keyval equalsIgnoreCase getNodeName getNodeValue vals split parseValues
+##########
+Please find the identifiers used in the function below.
+Queue E getTransactionalQueue queue
+##########
+Please find the identifiers used in the function below.
+Generated value date comments getVALUELIST valuelist
+##########
+Please find the identifiers used in the function below.
+restoreAllTablesFromCsv ctx db suffix table getTableHelpers restore
+##########
+Please find the identifiers used in the function below.
+getOccurrences CandidateAnswerVariant_Type featOkTst jcasType casFeat_occurrences jcas throwFeatMissing ll_cas ll_getFSForRef ll_getRefValue addr casFeatCode_occurrences
+##########
+Please find the identifiers used in the function below.
+writeJsonInteger num IOException context write str Long toString escapeNum transport QUOTE buf getBytes e
+##########
+Please find the identifiers used in the function below.
+freestate s nins nouts next prev slast states
+##########
+Please find the identifiers used in the function below.
+calcElementSize total v members getElementSize getSize elementSize
+##########
+Please find the identifiers used in the function below.
+groupNames groupInfo keySet
+##########
+Please find the identifiers used in the function below.
+JsonIgnore getPolymerAndGroupingIDs listOfIDs polymer listOfPolymers add getPolymerID getId grouping listOfGroupings getGroupID
+##########
+Please find the identifiers used in the function below.
+findNext str separator escapeChar start split numPreEscapes i length curChar charAt append
+##########
+Please find the identifiers used in the function below.
+haveVotersReachedPosition clusterMembers position leadershipTermId member vote logPosition
+##########
+Please find the identifiers used in the function below.
+detailErrMsg clientErrMsg responseCommand resp StringUtils isNotBlank getErrorMsg String format
+##########
+Please find the identifiers used in the function below.
+resolveExternalSystem systemId resolver MalformedURLException IOException r queryResolver resolveSystem
+##########
+Please find the identifiers used in the function below.
+forEachBeanType type beanNameConsumer forEachBean bd ClassUtil isTypeOf accept name
+##########
+Please find the identifiers used in the function below.
+query boundingBox projection featureBoundingBox projectBoundingBox
+##########
+Please find the identifiers used in the function below.
+addAll array Objects requireNonNull list
+##########
+Please find the identifiers used in the function below.
+getFactSheets type relationTypes pageSize cursor permissions ApiException localVarPostBody localVarPath replaceAll localVarQueryParams localVarHeaderParams localVarFormParams addAll apiClient parameterToPairs localVarAccepts localVarAccept selectHeaderAccept localVarContentTypes localVarContentType selectHeaderContentType localVarAuthNames localVarReturnType invokeAPI
+##########
+Please find the identifiers used in the function below.
+lookupName name childNode getNode getChild get CACHE_NODE_MAP_KEY
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setErdwaerme erdwaerme
+##########
+Please find the identifiers used in the function below.
+getVocab mixinSource bean mixInClass proxyUnwrapper unwrapProxy classVocab vocabFromClassOrPackage getClass mixinVocab findAnnotation nestedContextProviderFromMixin getNestedContextProviderFromMixin contextProviderVocab vocab value HTTP_SCHEMA_ORG
+##########
+Please find the identifiers used in the function below.
+getDefaultIconRef cls getContext getProjectClassLoaders isClassInCompileClasspath hasDependency hasPlugin SpringBootConfigurationHelper SPRING_BOOT_MAVEN_PLUGIN_ARTIFACT_ID
+##########
+Please find the identifiers used in the function below.
+addConditionFactor factor WebDAVException conditionFactors contains IResponse SC_BAD_REQUEST Policy bind addElement
+##########
+Please find the identifiers used in the function below.
+getSize fileName result sizes get String format
+##########
+Please find the identifiers used in the function below.
+getAddressTransactions address limit IOException
+##########
+Please find the identifiers used in the function below.
+checkInterfaces classOrInterfaceWithInterfaces interfaceSearched returnValue getName compareTo iface getInterfaces isInterface superClass getSuperclass
+##########
+Please find the identifiers used in the function below.
+postParseSteps persistence_xml puHolder deploymentUnit pu getPersistenceUnits jarfilesUrls getJarFiles jar add getRelativeURL setJarFileUrls url getPersistenceUnitURL setPersistenceUnitRootUrl scopedPersistenceUnitName Configuration getScopedPersistenceUnitName createBeanName getPersistenceUnitName ROOT_LOGGER tracef indexOf JpaLogger invalidScopedName setScopedPersistenceUnitName
+##########
+Please find the identifiers used in the function below.
+upgradeIfNecessary library pipelineConf issues Preconditions checkArgument isEmpty upgrade needsSchemaUpgrade upgradeSchema needsUpgrade
+##########
+Please find the identifiers used in the function below.
+sweepTail deviceId allocator getDeviceId cnt lastCommandId deviceClocks get l configuration getCommandLanesNumber queue eventsBarrier size MAX_EXECUTION_QUEUE laneClocks event poll isDestroyed synchronize destroy incrementAndGet
+##########
+Please find the identifiers used in the function below.
+attach httpRequest httpResponse requestURL getRequestURI locale getLocale requestPath substring getContextPath length attached
+##########
+Please find the identifiers used in the function below.
+extractPrimaryKey o typeMapper getTypeMapper getClass getTypeName
+##########
+Please find the identifiers used in the function below.
+removePropertyChangeListener p l listeners remove
+##########
+Please find the identifiers used in the function below.
+Override skip n IOException avail m pos readBytes toSkip result is System in skipByReading read t
+##########
+Please find the identifiers used in the function below.
+convertCell sheetConfig fcell poiCell cellRangeMap originRowIndex cellAttributesMap saveAttrs caddress key getCellIndexNumberKey get setColspan getLastColumn getFirstColumn setRowspan getLastRow getFirstRow CellControlsUtility setupControlAttributes setHasSaveAttr SaveAttrsUtility isHasSaveAttr
+##########
+Please find the identifiers used in the function below.
+roundUpToPowerOf2 number rounded Integer highestOneBit bitCount
+##########
+Please find the identifiers used in the function below.
+registerResourceAdapterDeployment deployment ConnectorLogger ROOT_LOGGER nullVar DEPLOYMENT_CONNECTOR_REGISTRY_LOGGER tracef deployments add
+##########
+Please find the identifiers used in the function below.
+noMoreCharacters IOException avail is read buffer pos
+##########
+Please find the identifiers used in the function below.
+findVariableWithAttributeValue struct attName attValue v getVariables att findAttributeIgnoreCase getStringValue equals
+##########
+Please find the identifiers used in the function below.
+doTree localRoot localLeaf logTreeNode browseContainer getShortName getFqdName isWasLeaf setWidget getChildren size t names getChildrenNames Collections sort it iterator hasNext addItem getChild next
+##########
+Please find the identifiers used in the function below.
+convertValue text typeName ClassNotFoundException IntrospectionException typeClass Classes getPrimitiveTypeForName loader Thread currentThread getContextClassLoader loadClass editor PropertyEditorManager findEditor setAsText getValue
+##########
+Please find the identifiers used in the function below.
+init name parent setDetailMessage getClass getName DETAIL_KEY setSummaryMessage SUMMARY_KEY
+##########
+Please find the identifiers used in the function below.
+Override putColumn column toPut isVector length rows columns r getColumn putComplex i n getComplex putScalar Nd4j createDouble getDouble
+##########
+Please find the identifiers used in the function below.
+add type t fireOnThrowable bad System err println printStackTrace
+##########
+Please find the identifiers used in the function below.
+Generated value date comments getVermarktungsart vermarktungsart
+##########
+Please find the identifiers used in the function below.
+create managerFactory log notNull setManagerFactory setLog
+##########
+Please find the identifiers used in the function below.
+getInstanceToMatchOnDatasetPath matchPattern substitutionPattern duration MatchTarget DATASET_PATH
+##########
+Please find the identifiers used in the function below.
+getDataIterator s start end IOException
+##########
+Please find the identifiers used in the function below.
+findAll allFiles file nextFile add
+##########
+Please find the identifiers used in the function below.
+checkChangesFilledUpTo changesContainer pageIndex isNew maxNewPageIndex truncate
+##########
+Please find the identifiers used in the function below.
+CheckReturnValue BackpressureSupport BackpressureKind FULL SchedulerSupport NONE Flowable U concatMapIterable mapper
+##########
+Please find the identifiers used in the function below.
+sendHandshake InvalidHandshakeException path part1 uri getRawPath part2 getRawQuery length port getPort host getHost WebSocketImpl DEFAULT_PORT DEFAULT_WSS_PORT handshake setResourceDescriptor put headers kv entrySet getKey getValue engine startHandshake
+##########
+Please find the identifiers used in the function below.
+setFetchPlan fetchPlan OFetchHelper checkFetchPlanValid length
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setCity city
+##########
+Please find the identifiers used in the function below.
+Override addAll atts att addAttribute
+##########
+Please find the identifiers used in the function below.
+getResourceAsStream uri JasperException real ctxt getRealPath ex
+##########
+Please find the identifiers used in the function below.
+replace s out in indexOf sb toString
+##########
+Please find the identifiers used in the function below.
+getDepLabel Token_Type featOkTst jcasType casFeat_depLabel jcas throwFeatMissing ll_cas ll_getStringValue addr casFeatCode_depLabel
+##########
+Please find the identifiers used in the function below.
+registerEventID description key value bufferedWriter out eventPropertiesPath doWithLock getChannel lock unlockedReloadFile getEventID write flush e printStackTrace error close
+##########
+Please find the identifiers used in the function below.
+addConstantLongOrDouble index tag value add hash
+##########
+Please find the identifiers used in the function below.
+initializeLookups thisNode i getChildIterator hasNext nextChildTree next matchingValue getElement getAttributeValue decisions ordinal
+##########
+Please find the identifiers used in the function below.
+evaluate reader sourceName IOException notNull IOUtils toString close
+##########
+Please find the identifiers used in the function below.
+write writer fieldName value
+##########
+Please find the identifiers used in the function below.
+contained boxA boxB p0 x p1 y z
+##########
+Please find the identifiers used in the function below.
+migrateGenericTransport addOperation factoryClass get FACTORY_CLASS getName asString newFactoryClass HORNETQ_NETTY_ACCEPTOR_FACTORY ARTEMIS_NETTY_ACCEPTOR_FACTORY HORNETQ_NETTY_CONNECTOR_FACTORY ARTEMIS_NETTY_CONNECTOR_FACTORY set
+##########
+Please find the identifiers used in the function below.
+analyze wantFeatureType IOException structAdded ds sendIospMessage NetcdfFile IOSP_MESSAGE_ADD_RECORD_STRUCTURE tc makeTablesDefault makeNestedTables configResult getConfig errlog addTableRecurse config tableSet children flatTable leaves add PointDatasetStandardFactory showTables getDetailInfo System out
+##########
+Please find the identifiers used in the function below.
+getJsonResponseHandler urlCalledParam responseHandler handleResponse responseParam status getStatusLine getStatusCode FluidClientException ErrorCode CONNECT_ERROR entity getEntity responseJsonString EntityUtils toString responseString getReasonPhrase IO_ERROR
+##########
+Please find the identifiers used in the function below.
+Generated value date comments getObjektKategorie2 objektKategorie2 GaragenKategorieTyp KEINE_ANGABE
+##########
+Please find the identifiers used in the function below.
+checkGroupId d p Pattern compile CASE_INSENSITIVE m matcher LOG debug matches
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings R tryScalarXMapSubscribe source observer mapper t call ex Exceptions throwIfFatal EmptyDisposable error complete r ObjectHelper requireNonNull apply u sd onSubscribe run subscribe
+##########
+Please find the identifiers used in the function below.
+newBodyInputStream snapshot getInputStream ENTRY_BODY Override close
+##########
+Please find the identifiers used in the function below.
+retryTimeout timer Exception callTimeout lock isActive EJB3_TIMER_LOGGER retryingTimeout setTimerState TimerState RETRY_TIMEOUT Thread currentThread timerService persistTimer timerNotActive unlock
+##########
+Please find the identifiers used in the function below.
+setHeaders emailWithData msgToSet MessagingException headers entry entrySet setHeader getKey getValue
+##########
+Please find the identifiers used in the function below.
+writeDataPage valueCount uncompressedPageSize bytes statistics rowCount rlEncoding dlEncoding valuesEncoding IOException beforeHeader out getPos innerWriteDataPage offsetIndexBuilder add
+##########
+Please find the identifiers used in the function below.
+getPojoSetter protobufAttribute field fieldName getName upperClassName getDeclaringClass getCanonicalName map CLASS_TO_FIELD_SETTERS_MAP_CACHE get isEmpty containsKey upperCaseFirstFieldName JStringUtils upperCaseFirst setter pojoSetter put
+##########
+Please find the identifiers used in the function below.
+parseResponse response StageException record conf httpMethod HttpMethod HEAD getContext createRecord set Field create parser parserFactory getParser parse dataFormat DataFormat TEXT get e errorRecordHandler onError Errors HTTP_00 toString
+##########
+Please find the identifiers used in the function below.
+getResourceAsStream name classLoader IOException url getResource openStream
+##########
+Please find the identifiers used in the function below.
+export data i queue size put QUEUE_DESCRIPTOR get playbackModes PLAYBACK_MODE_DESCRIPTOR name NAME_DESCRIPTOR POSITION_DESCRIPTOR position DATA_DESCRIPTOR
+##########
+Please find the identifiers used in the function below.
+Override renderView actionRequest target Exception request getHttpServletRequest response getHttpServletResponse dispatcher getRequestDispatcher sendError SC_NOT_FOUND DispatcherUtil isPageIncluded include forward
+##########
+Please find the identifiers used in the function below.
+savePerDeploymentSharedPersistenceProviderAdaptor deploymentUnit adaptorModule adaptor provider getParent map getAttachment providerAdaptorMapKey key getClass getName current get put
+##########
+Please find the identifiers used in the function below.
+Override T removeProperty String key checkDeletedInTx getIdentity graph getGraph autoStartTransaction oldValue getRecord removeField save
+##########
+Please find the identifiers used in the function below.
+getRequest req query getQueryString getRequestBase
+##########
+Please find the identifiers used in the function below.
+getMultiTypeData c result Character toString nativeType CHAR
+##########
+Please find the identifiers used in the function below.
+makeValue string schema getType BOOLEAN Boolean valueOf STRING FLOAT Float DOUBLE Double INT Integer LONG Long ENUM hasEnumSymbol getEnumSymbols get parseInt ex UNION value possible getTypes NULL e isEmpty
+##########
+Please find the identifiers used in the function below.
+getLocators executionContext isReroll delayedMetricsRerollGranularity delayedMetricsStorageGranularity locators RECORD_DELAYED_METRICS getGranularity isCoarser slotKey parentSlotKey getChildrenKeys addAll getDelayedLocators extrapolate
+##########
+Please find the identifiers used in the function below.
+Override putAll m numKeysToBeAdded size threshold targetCapacity loadFactor MAXIMUM_CAPACITY newCapacity table length resize i entrySet iterator hasNext e next put getKey getValue
+##########
+Please find the identifiers used in the function below.
+addConstantDynamicOrInvokeDynamicReference tag index name descriptor bootstrapMethodIndex hashCode hash add
+##########
+Please find the identifiers used in the function below.
+addCacheDependencies cacheType properties eventListener eventListeners
+##########
+Please find the identifiers used in the function below.
+bulk objects newEdits assertNotEmpty response newEditsVal json String format getGson toJson uri buildUri getDBUri path build post getResponseList close
+##########
+Please find the identifiers used in the function below.
+factorsOf pn n isPrime primeSieve v factor add Integer valueOf factors size i get intValue
+##########
+Please find the identifiers used in the function below.
+addListener target scope namingListener targetScope holder holdersByListener get byListenerCopy put addTarget holdersForTarget holdersByTarget byTargetCopy add
+##########
+Please find the identifiers used in the function below.
+schedulePrune delay pruneTimer cancel schedule Override run prune
+##########
+Please find the identifiers used in the function below.
+setCount str isDefault equals count
+##########
+Please find the identifiers used in the function below.
+setNetcdfFile ncf ncfile filename getLocation runner run o sw NCdumpW print command task result toString stopButton startProgressMonitorTask
+##########
+Please find the identifiers used in the function below.
+attachTimer timerID cacheData acReferencesHandler timerReferenceCreated
+##########
+Please find the identifiers used in the function below.
+verifyAndCreateTempTables currentBlock ZonedDateTime ofInstant Instant ofEpochMilli DateTimeService now get getMillis UTC with startOfPreviousEvenHour lastStartupBlock plus ChronoUnit HOURS await
+##########
+Please find the identifiers used in the function below.
+popRunAsIdentity sc WildFlySecurityManager isChecking AccessController doPrivileged Override run UndertowLogger ROOT_LOGGER noSecurityContext principal getOutgoingRunAs setOutgoingRunAs
+##########
+Please find the identifiers used in the function below.
+applyToColumnName columnName propertyName convertColumnNameToPropertyName convertPropertyNameToColumnName
+##########
+Please find the identifiers used in the function below.
+consumeCommentTokens line indexOf START_COMMENT END_COMMENT consume inComment trim startsWith
+##########
+Please find the identifiers used in the function below.
+createInheritanceLink concreteClass superClass setSuperclass logger trace getName cce printStackTrace
+##########
+Please find the identifiers used in the function below.
+getSupportedCodecs retval uniqueSet numCodecs getNumSupportedCodecs i id getSupportedCodecId Codec ID CODEC_ID_NONE contains add
+##########
+Please find the identifiers used in the function below.
+toHELM2 output polymerToHELM2 connectionToHELM2 groupingToHELM2 annotationToHELM2
+##########
+Please find the identifiers used in the function below.
+extends Comparable BinarySearch T forList List list Override SuppressWarnings compare index element get compareTo getLastIndex size
+##########
+Please find the identifiers used in the function below.
+create threadSafe entryMap Collections synchronizedMap now System currentTimeMillis
+##########
+Please find the identifiers used in the function below.
+printUsage commandName usage option options shortName append longName param params label System out println
+##########
+Please find the identifiers used in the function below.
+clear y countY x countX gridArray used
+##########
+Please find the identifiers used in the function below.
+uencode prefix startsWith tokens stringBuilder hasMoreElements token nextToken equals append URLEncoder encode ex toString
+##########
+Please find the identifiers used in the function below.
+transform se points length tranX getX tranY getY c getCosineYaw s getSineYaw i pt x y
+##########
+Please find the identifiers used in the function below.
+validate ctx target targetName entry map entrySet name getKey value BeanUtil declaredSilent getProperty valueName vcc check getValue checkProfiles getProfiles matchProfiles getSeverity severity constraint getConstraint isValid addViolation getViolations
+##########
+Please find the identifiers used in the function below.
+abs2rel basePath absPath isAbsolutePath isWindowsDrive charAt result baseParts getParts absParts start i Math min length equals append File separator toString
+##########
+Please find the identifiers used in the function below.
+encodePFrame pic _out frameNumber doEncodeFrame SliceType P
+##########
+Please find the identifiers used in the function below.
+deleteGlobalAttribute attName defineMode att findGlobalAttribute rootGroup remove
+##########
+Please find the identifiers used in the function below.
+createRecoveryPlan archive serviceCount snapshots logs planRecovery entries lastLeadershipTermId NULL_VALUE lastTermBaseLogPosition committedLogPosition appendedLogPosition snapshotStepsSize size snapshot get leadershipTermId termBaseLogPosition logPosition isEmpty log stopPosition
+##########
+Please find the identifiers used in the function below.
+getComponentView cv componentView getMSCService componentViewName WSLogger ROOT_LOGGER cannotFindComponentView reference createInstance e
+##########
+Please find the identifiers used in the function below.
+parse source IOException doc getDocumentBuilder root getDocumentElement e toString
+##########
+Please find the identifiers used in the function below.
+defaultInstance pcConstraints PnSignalingParams defaultPcConstraints videoConstraints defaultVideoConstraints audioConstraints defaultAudioConstraints iceServers defaultIceServers
+##########
+Please find the identifiers used in the function below.
+getAzimuths azimuths nRays r myRYIBs getAzimuth
+##########
+Please find the identifiers used in the function below.
+Override findAllDataFromBucket timestamp pageSize maxConcurrency ts getTempStatement MetricType UNDEFINED TempStatement SCAN_WITH_TOKEN_RANGES prepMap floorKey Observable empty from getTokenRanges map tr rxSession executeAndFetch bind setToken getStart getEnd setFetchSize
+##########
+Please find the identifiers used in the function below.
+names sm System getSecurityManager checkPropertiesAccess props
+##########
+Please find the identifiers used in the function below.
+onDecoraTag tag tagName getName toString getType TagType SELF_CLOSING checkNestedDecoraTags decoraTagName substring decoraTagStart getTagPosition decoraTagEnd getTagLength defineDecoraTag START decoraTagDefaultValueStart decoraTagDefaultValueEnd
+##########
+Please find the identifiers used in the function below.
+extractSymbolicName jar PluginExecutionException jarFile getManifest getMainAttributes getValue e getAbsolutePath close
+##########
+Please find the identifiers used in the function below.
+hostUrl url protocol append host port Defaults DEFAULT_PORT toString
+##########
+Please find the identifiers used in the function below.
+writeMode ManagementException isProfileWriteable logger isDebugEnabled debug profileName profileTable getProfileTableName profileObject getProfile getProfileEntity setReadOnly state State write
+##########
+Please find the identifiers used in the function below.
+reset strategy Strategy ACTION_MANAGED actionBundles clear mirrors ff includeDirs searchPath bundleFolder staplerPath f count nextFile delete log isInfoEnabled info
+##########
+Please find the identifiers used in the function below.
+put name value pageContext setAttribute scope
+##########
+Please find the identifiers used in the function below.
+writeObject out vendorData IOException defaultWriteObject writeBoolean
+##########
+Please find the identifiers used in the function below.
+CheckReturnValue NonNull UnicastProcessor T create capacityHint Runnable onCancelled ObjectHelper requireNonNull onTerminate
+##########
+Please find the identifiers used in the function below.
+findCoordinateTransform name v coordTransforms equals getName
+##########
+Please find the identifiers used in the function below.
+enlarge oldCapacity keys length LinearProbing MAXIMUM_CAPACITY oldKeys oldValues values newCapacity SuppressWarnings newKeys newValues i key putKeyValue
+##########
+Please find the identifiers used in the function below.
+hasSameVersionOfCglib classLoader fc loadClass getName e
+##########
+Please find the identifiers used in the function below.
+delete uri response executeRequest getResponse close
+##########
+Please find the identifiers used in the function below.
+join list size get builder item length append toString
+##########
+Please find the identifiers used in the function below.
+awaitWork w r qlock pred stackPred spins SPINS ss scanState v ws s j sc workQueues SMASK length parker Thread interrupted c prevctl parkTime deadline ac ctl AC_SHIFT config tryTerminate runState STOP UC_MASK AC_UNIT SP_MASK t TC_SHIFT U compareAndSwapLong CTL IDLE_TIMEOUT System nanoTime TIMEOUT_SLOP wt currentThread putObject PARKBLOCKER park putOrderedObject QPARKER
+##########
+Please find the identifiers used in the function below.
+factory name factoryWithExceptions e debugParse System out println
+##########
+Please find the identifiers used in the function below.
+convertPtg ptgs position shiftFormulaRef ptg originalOperandClass isBaseToken getPtgClass currentRow getFirstSupportedRowNumFromPtg getWatchList contains convertPtgForWatchList getFormulaChanged newPtg isSum fptg FuncVarPtg create singlePtg
+##########
+Please find the identifiers used in the function below.
+checkErrorMessageFromObjectInContext formRow formCol cell poiCell value sheetConfig updateGui SuppressWarnings tieCells parent getSerialDataContext getDataContext get tieCell CellUtility getSkeyFromPoiCell getContextObject errorMethod getMethodStr getConfigAdvancedContext getErrorSuffix errorMessage CellControlsUtility getObjectPropertyValue isEmpty setErrormsg LOG log Level INFO getSheet getSheetName getRowIndex getColumnIndex refreshAfterStatusChanged
+##########
+Please find the identifiers used in the function below.
+removeObjectPool profileTable sleeTransactionManager action execute logger isTraceEnabled trace getTransactionContext getAfterCommitActions add
+##########
+Please find the identifiers used in the function below.
+doAccept key i IOException InterruptedException onConnect cancel channel server accept configureBlocking socket setTcpNoDelay isTcpNoDelay setKeepAlive w wsf createWebSocket drafts setSelectionKey register selector SelectionKey OP_READ setChannel wrapChannel getSelectionKey remove allocateBuffers ex handleIOException
+##########
+Please find the identifiers used in the function below.
+addPostActivateInterceptor interceptorFactory priority postActivateInterceptors add Collections singletonList
+##########
+Please find the identifiers used in the function below.
+identifierFrom identifier resultSet SQLException isString hasValidClassIdType canConvertFromStringTo classIdTypeFrom convertFromStringTo convertToLong
+##########
+Please find the identifiers used in the function below.
+clear prefix media endpoint networkInterface controlEndpoint controlMode tags alias reliable ttl mtu termLength initialTermId termId termOffset sessionId linger sparse eos tether isSessionIdTagged
+##########
+Please find the identifiers used in the function below.
+execute MojoFailureException commandName commands keySet scriptOutDirectory writeUnixScript writeWindowsScript
+##########
+Please find the identifiers used in the function below.
+replaceObject obj IOException remote RemoteObject toStub ignore
+##########
+Please find the identifiers used in the function below.
+copy obj IOException ClassNotFoundException out in baos writeObject flush data toByteArray bais readObject Streams close
+##########
+Please find the identifiers used in the function below.
+updateIfSmaller counter value snapshotCoutner get compareAndSet
+##########
+Please find the identifiers used in the function below.
+setDim dim value shape current
+##########
+Please find the identifiers used in the function below.
+addAttribute parent name value immutable rootGroup att
+##########
+Please find the identifiers used in the function below.
+distance poly p Math sqrt distanceSq
+##########
+Please find the identifiers used in the function below.
+getFieldName constraint node getConstraint mvelConstraint accessor getFieldExtractor
+##########
+Please find the identifiers used in the function below.
+reBuildUpperLevelFormula configBuildRef actionFullName cachedMap getCachedCells rowsMap entry entrySet cell getKey originFormula getValue setupUpperLevelFormula
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setAnbieter anbieter
+##########
+Please find the identifiers used in the function below.
+joinNALUnitsToBuffer nalUnits out nal putInt put duplicate
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setHallenTyp hallenTyp
+##########
+Please find the identifiers used in the function below.
+printRoutes width actionsManager webApp madvocContainer lookupComponent actions getAllActionRuntimes aliases getAllAliases isEmpty print line stream sorted Comparator comparing actionRuntime getActionPath getActionMethod forEach ar actionMethod out Chalk256 chalk yellow space signature ClassUtil getShortClassName ProxettaUtil resolveTargetClass getActionClass getActionClassMethod getName outLeftRightNewLine green blue actionPath entry entrySet getValue equals getKey
+##########
+Please find the identifiers used in the function below.
+getFieldValue fieldName returnType realFieldName getRealFieldName value aciImpl getActivityContext getDataAttribute isPrimitive equals Integer TYPE valueOf Boolean FALSE Long Double Float
+##########
+Please find the identifiers used in the function below.
+unescapeURL url newurl urlDecode
+##########
+Please find the identifiers used in the function below.
+getAllInterfacesMethods xInterfaceClass ignore abstractMethods methods superInterfaces getInterfaces superInterface contains getName putAll getDeclaredMethods i length put getMethodKey
+##########
+Please find the identifiers used in the function below.
+visitField access name descriptor signature value cv
+##########
+Please find the identifiers used in the function below.
+get lang keys args keyArgs scala collection JavaConverters asScalaBufferConverter asScala scalaArgs convertArgsToScalaBuffer messages apply toSeq
+##########
+Please find the identifiers used in the function below.
+findOne sqlSelect Preconditions checkNotNull Db findFirst toString getParams toArray
+##########
+Please find the identifiers used in the function below.
+extractColumnParameters row result cell cells add FitUtils extractCellParameter toArray size
+##########
+Please find the identifiers used in the function below.
+getBookmarks bookmarkType groupKey sharingType ApiException localVarPostBody localVarPath replaceAll localVarQueryParams localVarHeaderParams localVarFormParams addAll apiClient parameterToPairs localVarAccepts localVarAccept selectHeaderAccept localVarContentTypes localVarContentType selectHeaderContentType localVarAuthNames localVarReturnType invokeAPI
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings unsetFaultTolerantResourceAdaptorContext IllegalArgumentException doTraceLogs logger trace isFaultTolerant object
+##########
+Please find the identifiers used in the function below.
+Override remove checkClass graph checkIfAttached setCurrentGraphInThreadLocal autoStartTransaction doc getRecord ExceptionFactory vertexWithIdDoesNotExist getId treeRidbagEdgesToRemove getRawGraph getTransaction isActive fieldName fieldNames connection getConnection Direction BOTH fv field isEmbedded docs id add OrientBaseGraph getDocument put removeRecord it getIndices iterator hasNext allEdges e getEdges index next isAssignableFrom getIndexClass idx removeElement entry entrySet removeField getKey iter getValue docEdge deleteEdgeIfAny removeEdgesInternal settings isUseVertexFieldsForEdgeLabels isAutoScaleEdgeType
+##########
+Please find the identifiers used in the function below.
+indexOf array object i length
+##########
+Please find the identifiers used in the function below.
+reduceByR array object method Invoker invokeReducerLongIntReturnLongMethod sum v invoke throwable handle
+##########
+Please find the identifiers used in the function below.
+getDiscriminatingValue event contextName getLoggerContextVO getName defaultValue
+##########
+Please find the identifiers used in the function below.
+readScaledInt buf s1 getShort s2 DataType unsignedByteToShort get posneg nn
+##########
+Please find the identifiers used in the function below.
+refreshRepositoryView activeWindow Activator getDefault getWorkbench getActiveWorkbenchWindow page getActivePage view findView IGuvnorConstants REPVIEW_ID refresh
+##########
+Please find the identifiers used in the function below.
+makeAssociatedField bitWidth assDD name units refVal scale type f x y fxy
+##########
+Please find the identifiers used in the function below.
+simplifyPoints simplifyTolerance points simplifiedPoints simplifyGeometries projection isUnit Units METRES toWebMercator getTransformation WEB_MERCATOR_PROJECTION transform GeometryUtils fromWebMercator
+##########
+Please find the identifiers used in the function below.
+open wantFeatureType location task errlog IOException startsWith DataFactory SCHEME result openFeatureDataset format errLog featureTypeOk featureType close featureDataset CdmrFeatureDataset opt factory isPresent get getErrorMessage ucar nc2 ft point collection CompositeDatasetFactory spec substring length dcm MFileCollectionManager durl DatasetUrl findDatasetUrl serviceType CoverageDatasetFactory openGrib NOT_GRIB_FILE NO_GRIB_CLASS ncd NetcdfDataset acquireDataset fd wrap
+##########
+Please find the identifiers used in the function below.
+addMemberValuesToAnnotation annotation cp memberValues mvName keySet mvValue get mv getMemberValue addMemberValue
+##########
+Please find the identifiers used in the function below.
+getDirPath date record StageException dirPathTemplateInHeader getHeader getAttribute HdfsTarget TARGET_DIRECTORY_HEADER pathResolver resolvePath
+##########
+Please find the identifiers used in the function below.
+getServers iClusterNames isEmpty getAllConfiguredServers partitions size p serverList getClusterConfiguration field SERVERS s equals NEW_NODE_TAG add
+##########
+Please find the identifiers used in the function below.
+visitInnerClass name outerName innerName access cv
+##########
+Please find the identifiers used in the function below.
+unpackData iiword nword ipktyp kxky nbits ref scale miss difmin kx decimalScale IOException MDGGRB useDP unpackGrib1Data ksgrid DM_RINT DP_UGRB MDGNMC MDGDIF
+##########
+Please find the identifiers used in the function below.
+crawlDirectDatasets ds task out context release isCatRef filter skipAll catref println getURI getName countCatrefs listen getCatalogRef dlist getDatasets leaves dds hasAccess add size type Type first_direct get getDataset random_direct chooseRandom random_direct_middle chooseRandomNotFirstOrLast isCancel hasNestedDatasets
+##########
+Please find the identifiers used in the function below.
+isSubset subset set d contains
+##########
+Please find the identifiers used in the function below.
+classExistsAndIsLoadable className Class forName e
+##########
+Please find the identifiers used in the function below.
+notificationError errorMsg error setError setSource getClass getSimpleName notification setErrors Arrays asList
+##########
+Please find the identifiers used in the function below.
+Generated value date comments getTerrain terrain
+##########
+Please find the identifiers used in the function below.
+flatten t list deque offer isEmpty e removeFirst ce exceptions getExceptions i size offerFirst get add
+##########
+Please find the identifiers used in the function below.
+find key url initialized RC initialize t dfaltRC lookup value
+##########
+Please find the identifiers used in the function below.
+optimize instructions optimizeConstants symbolTable interner matcher iterator result instruction add
+##########
+Please find the identifiers used in the function below.
+create stageLib stageLibraryName exportedInterface def getStageLibraryDelegateDefinition createInstance
+##########
+Please find the identifiers used in the function below.
+T parseQuery String response Class responseClass queryResponse MAPPER readValue e error LOGGER e1
+##########
+Please find the identifiers used in the function below.
+moveWindow moveOffset readPos keepSizeBefore moveSize writePos System arraycopy buf readLimit
+##########
+Please find the identifiers used in the function below.
+clear pointer pointersPool allocator deallocate pointersPoolSize set pointerMapping keySet
+##########
+Please find the identifiers used in the function below.
+getStandardUri cat dataset getParentCatalog getUnresolvedUrlName resolveUri e logger warn
+##########
+Please find the identifiers used in the function below.
+markParseErrors markers parserErrors iter iterator hasNext error next err add getMessage getRow res errorLines getLines length exc toString
+##########
+Please find the identifiers used in the function below.
+createHttpRequest uri httpMethod hasBody method notNull upperCase trimToNull type HTTP_METHOD_TO_HTTP_REQUEST_TYPE get httpRequest isInstance newInstance e setURI
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setPropertyStatus propertyStatus
+##########
+Please find the identifiers used in the function below.
+handleBodyLinks jsonBody links linkTemplates getNodeType JsonNodeType OBJECT linksNode get fields forEachRemaining x rel getKey linksForRel getOrAdd getValue ARRAY forEach subobj parseLinkObject
+##########
+Please find the identifiers used in the function below.
+Subscribe threadMode ThreadMode MAIN onEventMainThread event fragmentTag getFragmentTag mRTApi removeFragment wasCancelled ID_01_LINK_FRAGMENT equals editor getActiveEditor link getLink url isValid selection mLinkSelection end length linkText getLinkText str getText replace start setSelection getUrl applyEffect Effects LINK
+##########
+Please find the identifiers used in the function below.
+getColumn c MatrixException m_nCols INVALID_INDEX cv m_nRows r m_aValues
+##########
+Please find the identifiers used in the function below.
+getType cPtr VideoJNI BitStreamFilter_getType swigCPtr
+##########
+Please find the identifiers used in the function below.
+mapAuthorities authorities mapped size authority add mapAuthority getAuthority defaultAuthority
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings Override execute functionContext cache CacheFactory getAnyInstance args getArguments criteria pdxInstance getObject e getMessage JSONFormatter toJSON pagingRegion getRegion getPageRegionName region getRegionName pagination geodeSearch saveSearchResultsWithPageKeys getQuery collection readResultsByPageValues getId getSortField isSortDescending getBeginIndex getResultSender lastResult pageCollection logger LogManager getLogger error Debugger stackTrace
+##########
+Please find the identifiers used in the function below.
+getMethods superclass interfaces methods
+##########
+Please find the identifiers used in the function below.
+JsonCreator fromString str ResolvingException equals matcher PARSE_PAT matches group Integer valueOf
+##########
+Please find the identifiers used in the function below.
+load bindings Guiceable
+##########
+Please find the identifiers used in the function below.
+setup req resp SendError res once doonce params ioe SC_BAD_REQUEST
+##########
+Please find the identifiers used in the function below.
+handle session interceptor interceptors response httpHandler
+##########
+Please find the identifiers used in the function below.
+broadcast text clients doBroadcast
+##########
+Please find the identifiers used in the function below.
+findChildRowsMappingFromShiftMap fullName shiftMap rowsMappingList tailmap tailMap entry entrySet key getKey startsWith add getValue getUnitRowsMapping
+##########
+Please find the identifiers used in the function below.
+finish block i div
+##########
+Please find the identifiers used in the function below.
+lookup clazz sqlType x getSuperclass types get interfaces getInterfaces i
+##########
+Please find the identifiers used in the function below.
+locateFile filename abspath wantdir q trim replace charAt substring endsWith length addFirst currentpath poll current contents listFiles subfile getName equals isDirectory isFile DapUtil canonicalpath getAbsolutePath
+##########
+Please find the identifiers used in the function below.
+getBoolFunction name NoSuchFunctionException boolFunctions containsKey loadNewFunction get
+##########
+Please find the identifiers used in the function below.
+create indexDefinition clusterIndexName clustersToIndex rebuild progressListener valueSerializer acquireExclusiveLock configuration indexConfigurationInstance setTrackingChanges apiVersion removeValuesContainer e OLogManager instance error name indexId storage addIndexEngine algorithm type isAutomatic version getEngineProperties metadata OAbstractPaginatedStorage extractEngineAPIVersion onIndexEngineChange fillIndex updateConfiguration deleteIndexEngine ignore doReloadIndexEngine ex OException wrapException releaseExclusiveLock
+##########
+Please find the identifiers used in the function below.
+getStyleDao styleDao geoPackage isTable StyleTable TABLE_NAME attributesDao getGeoPackage getAttributesDao relatedTables setContents getTable
+##########
+Please find the identifiers used in the function below.
+getConnection iChannelId protocol connection connections get setProtocol
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings OBinarySerializer T getObjectSerializer type serializerTypeMap get
+##########
+Please find the identifiers used in the function below.
+jobOperatorServiceName deploymentRuntimeName subdeploymentName Services deploymentUnitName append
+##########
+Please find the identifiers used in the function below.
+writePermissions graphName permissions checkIsOpen client writeGraphPermissions getURI
+##########
+Please find the identifiers used in the function below.
+getUserHead append htmlConfig prepareUrlStringForHtml getHostInstLogoUrl getHostInstLogoAlt tdsContext getWebappDisplayName toString
+##########
+Please find the identifiers used in the function below.
+createContainer containerName CONTAINER_DATE_FORMAT format blobStore createContainerInLocation lastContainerCreated
+##########
+Please find the identifiers used in the function below.
+addCaptureToLogger logger appenderName currentAppender getAppender captureAppender CaptureAppender newAppenderFrom addAppender
+##########
+Please find the identifiers used in the function below.
+makeStation stationData recnum s ft timeUnit
+##########
+Please find the identifiers used in the function below.
+quorumPosition members rankedPositions length i member newPosition logPosition rankedPosition
+##########
+Please find the identifiers used in the function below.
+TypeLiteral T canonicalizeForKey typeLiteral type getType isFullySpecified errors keyNotFullySpecified getMessages getRawType parameterizedType SuppressWarnings guiceProviderType get Types providerOf getActualTypeArguments wrappedPrimitives PRIMITIVE_TO_WRAPPER getClass recreated
+##########
+Please find the identifiers used in the function below.
+createFirstChainDelegate_Continue tmd methodVisitor visitCode msign isStatic loadStaticMethodArguments visitMethodInsn INVOKESTATIC wd thisReference firstMethodName getDescription loadSpecialMethodArguments INVOKESPECIAL visitReturn visitMaxs visitEnd
+##########
+Please find the identifiers used in the function below.
+Override add e checkNotNull maxSize size delegate remove
+##########
+Please find the identifiers used in the function below.
+registerPetiteMethodInjectionPoint beanName methodName arguments references beanDefinition lookupExistingBeanDefinition cd ClassIntrospector get lookup type method methods getAllMethodDescriptors length getName getMethod md getMethodDescriptor ref referencesResolver resolveReferenceFromValues mip addMethodInjectionPoint
+##########
+Please find the identifiers used in the function below.
+buildProfileAttributeMap DeploymentException map cmpInterface getProfileCmpInterfaceClass attributeGetterMethodPrefix method getMethods getDeclaringClass equals getName startsWith attributeName substring length toLowerCase profileAttribute getReturnType e isSlee11 cmpField getDescriptor getProfileCMPInterface getCmpFields getCmpFieldName setUnique isUnique profileIndex getIndexedAttributes setIndex getUnique put profileAttributeMap Collections unmodifiableMap
+##########
+Please find the identifiers used in the function below.
+planeToWorld plane axisZ A B C normalize axisX axisY UtilPlane3D_F64 selectAxis2D
+##########
+Please find the identifiers used in the function below.
+getCatalogs catalogs readCatalogs result ext values add Collections sort o1 o2 getCatRelLocation compareTo
+##########
+Please find the identifiers used in the function below.
+rewindReverse64 hi lo len i rewindReverse32 S B
+##########
+Please find the identifiers used in the function below.
+loadProviderModuleByName moduleName ModuleLoadException moduleLoader Module getBootModuleLoader module loadModule ModuleIdentifier fromString serviceLoader loadService result provider1 PersistenceProviderResolverImpl getInstance addPersistenceProvider add
+##########
+Please find the identifiers used in the function below.
+Override position newPosition IOException flush repositionableStream fileChannel
+##########
+Please find the identifiers used in the function below.
+modify file edit IOException fi NIOUtils rwChannel fragments doTheFix fragment replaceBox v0 v1 closeQuietly
+##########
+Please find the identifiers used in the function below.
+buildIndexSearchDescriptorForFulltext ctx index block clazz indexFields getDefinition getFields keyCondition key setLeft found blockCopy copy blockIterator indexKeyValue result idx indexField getSubBlocks iterator breakHere indexFieldFound hasNext singleExp next left getLeft isBaseIdentifier fieldName getDefaultAlias getStringValue equals condition setRight getRight add remove size supportsOrderedIterations remainingCondition
+##########
+Please find the identifiers used in the function below.
+nameBound name node getNamesBoundNode hasChild addChild Fqn fromElements
+##########
+Please find the identifiers used in the function below.
+Override release ncfile IOException disabled get setFileCache close file files isLocked cacheLog warn name getLocation hashCode lastAccessed System currentTimeMillis countAccessed set isDebugEnabled debug debugPrint out printf countLocked
+##########
+Please find the identifiers used in the function below.
+resolveAllLocalSystem systemId map osname System getProperty windows indexOf enumt catalogEntries elements hasMoreElements e nextElement getEntryType SYSTEM getEntryArg equals equalsIgnoreCase addElement size
+##########
+Please find the identifiers used in the function below.
+identicalSign xa ya xb yb tol dx0 dy0 dx1 dy1 error0 error1
+##########
+Please find the identifiers used in the function below.
+removeSingleRowInSheet sheet rowIndexStart removingRow getRow removeRow
+##########
+Please find the identifiers used in the function below.
+getQueryString qs timeParams put type duration startTime endTime metricPath
+##########
+Please find the identifiers used in the function below.
+unbind streamingPlayback dropListener context unbindService serviceConnection e DEBUG Log w TAG bindRequested
+##########
+Please find the identifiers used in the function below.
+prepareWorkShee tabName tabIndex findTabIndexWithName parent getWebFormTabView setActiveIndex getCurrent setCurrentTabName sheetName getSheetConfigMap get getSheetName sheet1 getWb getSheet setActiveSheet getSheetIndex sheetConfig setMaxRowsPerPage getMaxRowPerPage setBodyAllowAddRows isBodyAllowAddRows cellRangeMap ConfigurationUtility indexMergedRegion skippedRegionCells loadHeaderRows loadBodyRows
+##########
+Please find the identifiers used in the function below.
+createPlaylistRequest provider playlistName hashMap put RESOURCE_ID
+##########
+Please find the identifiers used in the function below.
+V valueIn value map containsValue
+##########
+Please find the identifiers used in the function below.
+concatBits a len al bufa ah bufb bl bh
+##########
+Please find the identifiers used in the function below.
+frameTermId buffer termOffset termId putInt termIdOffset LITTLE_ENDIAN
+##########
+Please find the identifiers used in the function below.
+qtPlayerFrameNo movie mediaFrameNo videoTrack getVideoTrack editedTv mediaToEdited frameToTimevalue getTimescale tv2QTFrameNo
+##########
+Please find the identifiers used in the function below.
+getRemoteName time timestamp formattedTime format System currentTimeMillis Configuration getInstance getStringProperty CloudfilesConfig CLOUDFILES_HOST_UNIQUE_IDENTIFIER
+##########
+Please find the identifiers used in the function below.
+extractAsRuntime field valueStr getType Byte TYPE Short Integer Long Float Double extractAsNumber isAssignableFrom Utils format
+##########
+Please find the identifiers used in the function below.
+typeToTyperef type isArray isPrimitive typeToSignature getName
+##########
+Please find the identifiers used in the function below.
+verifyCommand command equals PLAY PAUSE STOP SELECT_TRACK NEXT PREVIOUS CHANGE_PLAYBACK CHANGE_VOLUME
+##########
+Please find the identifiers used in the function below.
+buildDynamicRowForAreaPtgBase ptg originalOperandClass rowList newPtg areaPtg originFirstRow getFirstRow originLastRow getLastRow unitSize i size row get getRow shiftRow getRowNum area3dPxg new3dpxg getExternalWorkbookNumber getSheetName format2DRefAsString setClass setFirstColRelative isFirstColRelative setLastColRelative isLastColRelative setFirstRow setLastRow setFirstRowRelative isFirstRowRelative setLastRowRelative isLastRowRelative setLastSheetName getLastSheetName areaPtgBase getFirstColumn getLastColumn ParenthesisPtg instance
+##########
+Please find the identifiers used in the function below.
+beforeGetCmpField ManagementException logger isDebugEnabled debug profileName profileTable getProfileTableName beforeNonSetCmpField
+##########
+Please find the identifiers used in the function below.
+setCodeAddress functorName offset length entry symbolTable put SYMKEY_CALLPOINTS reverseTable
+##########
+Please find the identifiers used in the function below.
+makemethod m session url HTTPException meth MOCKMETHODCLASS methodcl cons getConstructor e newInstance
+##########
+Please find the identifiers used in the function below.
+getAbsoluteFilePath filename EnvUtil isAndroidOS isAbsolute dataDir context getProperty CoreConstants DATA_DIR_KEY FileUtil prefixRelativePath
+##########
+Please find the identifiers used in the function below.
+jar src prefix info IOException jout out isDirectory getName entry setTime lastModified setMethod JarOutputStream STORED setSize setCrc putNextEntry closeEntry files listFiles filter i length isFile buffer in len read write close
+##########
+Please find the identifiers used in the function below.
+write24BitIntToByteArray buf offset value
+##########
+Please find the identifiers used in the function below.
+parse ParseException jjtn000 JJTPARSE jjtc000 jjtree openNodeScope jjtSetFirstToken getToken result Statement jj_consume_token closeNodeScope jjtSetLastToken jjte000 clearNodeScope popNode
+##########
+Please find the identifiers used in the function below.
+closeTx txActive connection setAutoCommit sex
+##########
+Please find the identifiers used in the function below.
+html value
+##########
+Please find the identifiers used in the function below.
+Override getPointer buffer context memoryHandler getDevicePointer
+##########
+Please find the identifiers used in the function below.
+calculateOperationAnalysisMap operationAnalysisMap oa i operations length put getIDLName attributes attr getAccessorAnalysis getMutatorAnalysis
+##########
+Please find the identifiers used in the function below.
+getLongitudes myASIBs lons nRays i getLongitude
+##########
+Please find the identifiers used in the function below.
+ntlm userName password workstation domain scheme setUserName setPassword setWorkstation setDomain
+##########
+Please find the identifiers used in the function below.
+doOneDataset ds debug System out println getName isDatasetUseable messBuffer id StringUtil2 replace getID fileOutName fileDir writeOneEntry close append ioe getMessage log error
+##########
+Please find the identifiers used in the function below.
+resetShape shape dimensions size i dim get getLength isVariableLength shapeAsSection
+##########
+Please find the identifiers used in the function below.
+upgradeV1toV2 configs removeIf config getName equals IMPLICIT_FIELD_MAPPING_CONFIG BIG_QUERY_IMPLICIT_FIELD_MAPPING_CONFIG add MAX_CACHE_SIZE
+##########
+Please find the identifiers used in the function below.
+compSize size comp compWidth compHeight getWidth getHeight
+##########
+Please find the identifiers used in the function below.
+getClassPackageName c s getName i lastIndexOf substring
+##########
+Please find the identifiers used in the function below.
+isTopLevel parent getSort DapSort DATASET GROUP
+##########
+Please find the identifiers used in the function below.
+copy input output IOException Const DEFAULT_ENCODING
+##########
+Please find the identifiers used in the function below.
+getWrappedData ref data Objects requireNonNull
+##########
+Please find the identifiers used in the function below.
+abort frameLength buffer capacity ByteOrder nativeOrder LITTLE_ENDIAN Integer reverseBytes putShort TYPE_FIELD_OFFSET HDR_TYPE_PAD putIntOrdered FRAME_LENGTH_FIELD_OFFSET
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setPelletheizung pelletheizung
+##########
+Please find the identifiers used in the function below.
+closeConnection addr url addressParser parse connectionManager remove getUniqueKey
+##########
+Please find the identifiers used in the function below.
+getClassessOfInterface thePackage theInterface iClassLoader classList discovered getClassesFor Arrays asList getInterfaces contains add ex OLogManager instance error
+##########
+Please find the identifiers used in the function below.
+joinNALUnits nalUnits size nal remaining allocate ByteBuffer joinNALUnitsToBuffer
+##########
+Please find the identifiers used in the function below.
+Override addAll c i iterator changed hasNext ret add next
+##########
+Please find the identifiers used in the function below.
+run args CliExecutionException options gatherOptions taskFactory commandLine getCommandLine interpretCommandLine
+##########
+Please find the identifiers used in the function below.
+injectUploadedFiles servletRequest targets multipartRequest isMultipart paramNames getFileParameterNames hasMoreElements paramName nextElement getAttribute forEachTargetAndIn target in name matchedName paramValues getFiles ignoreInvalidUploadFiles j length paramValue isValid isUploaded value writeValue
+##########
+Please find the identifiers used in the function below.
+extends Model getLoginUser req getSession getAttribute LOGIN_SESSION_KEY
+##########
+Please find the identifiers used in the function below.
+isNameEqual obj1 obj2 name length i
+##########
+Please find the identifiers used in the function below.
+extends T Binding to Supplier A instance underlying asJava
+##########
+Please find the identifiers used in the function below.
+joinAll InterruptedException queues q getQueueDispatcher join
+##########
+Please find the identifiers used in the function below.
+zoomToFit sclPic setScaleSize getSize getStatusCode LOADED READY createScaledPictureInThread Thread MAX_PRIORITY
+##########
+Please find the identifiers used in the function below.
+ensurePackageExists c previous remainder IRConstructionException equals idx indexOf base substring Util javaToIDLName next contained _lookup IIOPLogger ROOT_LOGGER collisionWhileCreatingPackage id m impl add def_kind DefinitionKind dk_Module
+##########
+Please find the identifiers used in the function below.
+next ob source e
+##########
+Please find the identifiers used in the function below.
+newTaskAttemptContext conf taskAttemptId TASK_CONTEXT_CONSTRUCTOR newInstance e
+##########
+Please find the identifiers used in the function below.
+fixupOverloadedOperationNames RMIIIOPViolationException i methods length m_flags M_OVERLOADED oa javaName getName opIdx operations getMethod equals params getParameters b getIDLName append j s getTypeIDLName startsWith substring idx indexOf charAt setIDLName toString
+##########
+Please find the identifiers used in the function below.
+Override findXYindexFromCoord x_coord y_coord result horizXaxis horizYaxis findCoordElement g2d result2 found
+##########
+Please find the identifiers used in the function below.
+process ctx snippet checkNotNull sb builder setLength currSnippet processedMacros snippetPos macroPos indexOf append substring macroEnd processMacroAt length toString ret urlEncode
+##########
+Please find the identifiers used in the function below.
+removeSelect sql ndx StringUtil indexOfIgnoreCase substring
+##########
+Please find the identifiers used in the function below.
+startConnectionLostTimer syncConnectionLost connectionLostTimeout log trace websocketRunning restartConnectionLostTimer
+##########
+Please find the identifiers used in the function below.
+Override keySet iterator it inner hasNext next getKey remove size
+##########
+Please find the identifiers used in the function below.
+Override getSubCenterName center subcenter
+##########
+Please find the identifiers used in the function below.
+shutdown poa getPOA deactivate_object reference_to_id getReference ex IIOPLogger ROOT_LOGGER warnCouldNotDeactivateIRObject
+##########
+Please find the identifiers used in the function below.
+getInstance symbolTable ImplementationUnavailableException libraryLoadAttempted System loadLibrary libraryFound e
+##########
+Please find the identifiers used in the function below.
+Override next iter hasNext passes numPasses batch log info reset preProcessor preProcess
+##########
+Please find the identifiers used in the function below.
+start ManagementException startingRequest Override stateChanged oldState logger isDebugEnabled debug generateMessageWithLogo notifyStateChange getNewState requestCompleted runningRequest info isBlockingRequest SleeState RUNNING sleeContainer setSleeState e error stop f STARTING ex getMessage
+##########
+Please find the identifiers used in the function below.
+uncompressed buf offset uncomplen IOException header position get out System arraycopy cbzip2 numCompBytes remaining bufc bis setStream total nread ubuff obuff read length temp ioe log warn raf getLocation
+##########
+Please find the identifiers used in the function below.
+fixupRefRelativeRowOneToOne ptg newRow ref3dPxg new3dpxg getExternalWorkbookNumber getSheetName getRowNum getColumn setClass getPtgClass setColRelative isColRelative setRowRelative isRowRelative setLastSheetName getLastSheetName refPtgBase area3dPxg format2DRefAsString setFirstColRelative isFirstColRelative setLastColRelative isLastColRelative shiftRow getFirstRow setFirstRow setLastRow getLastRow setFirstRowRelative isFirstRowRelative setLastRowRelative isLastRowRelative areaPtgBase getFirstColumn getLastColumn
+##########
+Please find the identifiers used in the function below.
+Override nextRecord IOException line reader readLine parts newParts splitLine toArray size partIndex
+##########
+Please find the identifiers used in the function below.
+fromStream algorithm is base64Key OIOUtils readStreamAsString ex OException wrapException getMessage
+##########
+Please find the identifiers used in the function below.
+add timer timeOwlThingContextInitRule timeRootContextInitializationRule timeDisjointSubsumerFromMemberRule timeContradictionFromNegationRule timeObjectIntersectionFromFirstConjunctRule timeObjectIntersectionFromSecondConjunctRule timeSuperClassFromSubClassRule timePropagationFromExistentialFillerRule timeObjectUnionFromDisjunctRule timeBackwardLinkChainFromBackwardLinkRule timeReflexiveBackwardLinkCompositionRule timeNonReflexiveBackwardLinkCompositionRule timeSubsumerBackwardLinkRule timeContradictionOverBackwardLinkRule timeContradictionPropagationRule timeContradictionCompositionRule timeIndexedObjectIntersectionOfDecomposition timeIndexedObjectSomeValuesFromDecomposition timeIndexedObjectComplementOfDecomposition timeIndexedObjectHasSelfDecomposition timeContradictionFromOwlNothingRule timeSubsumerPropagationRule timePropagationInitializationRule timeBackwardLinkFromForwardLinkRule timeComposedFromDecomposedSubsumerRule timeIndexedClassDecompositionRule timeIndexedClassFromDefinitionRule timeEquivalentClassFirstFromSecondRule timeEquivalentClassSecondFromFirstRule
+##########
+Please find the identifiers used in the function below.
+getConceptType QueryConcept_Type featOkTst jcasType casFeat_conceptType jcas throwFeatMissing ll_cas ll_getStringValue addr casFeatCode_conceptType
+##########
+Please find the identifiers used in the function below.
+doConfigure file JoranException fis url toURI toURL informContextOfURLUsedForConfiguration getContext toExternalForm ioe errMsg getPath addError CloseUtil closeQuietly
+##########
+Please find the identifiers used in the function below.
+Override getDistributedTimeout to OGlobalConfiguration DISTRIBUTED_CRUD_TASK_SYNCH_TIMEOUT getValueAsLong tasks size
+##########
+Please find the identifiers used in the function below.
+Validate start QApplication invokeLater run configureApplication m_logger info WebViewFactory m_browser m_url configureWindow show
+##########
+Please find the identifiers used in the function below.
+handleErrors exception errors log Level SEVERE getMessage getCause fine stackTrace printStackTrace add userError isUserReadable getUserMessageKey getUserMessage
+##########
+Please find the identifiers used in the function below.
+add requested n r get Long MAX_VALUE u addCap compareAndSet
+##########
+Please find the identifiers used in the function below.
+wrapQuery sql selectionArgs rawQuery
+##########
+Please find the identifiers used in the function below.
+incrementSourceOffset sourceOffset increment conf pagination mode PaginationMode BY_PAGE incrementStartAt BY_OFFSET
+##########
+Please find the identifiers used in the function below.
+encode rawPassword salt PREFIX saltGenerator generateKey SUFFIX digest
+##########
+Please find the identifiers used in the function below.
+main args Stemming useStemmer e printStackTrace
+##########
+Please find the identifiers used in the function below.
+Override updateOne object properties getId length entityManager merge sb append clazz getName cache prop field getClass getDeclaredField setAccessible value get put size e query createQuery toString entry entrySet setParameter getKey getValue executeUpdate
+##########
+Please find the identifiers used in the function below.
+clearFromRunning slotKey runningSlots remove stamp shardStateManager getUpdateStamp setAllCoarserSlotsDirtyForSlot currentTimeInMillis clock now getMillis setLastRollupTimestamp log debug getState UpdateStamp State Running setState Rolled setDirty
+##########
+Please find the identifiers used in the function below.
+getIsObjUri Triple_Type featOkTst jcasType casFeat_isObjUri jcas throwFeatMissing ll_cas ll_getBooleanValue addr casFeatCode_isObjUri
+##########
+Please find the identifiers used in the function below.
+getPermissions permissions cs principals entries currentPolicy get policyHolderEntries phe selectPermissions
+##########
+Please find the identifiers used in the function below.
+getFileType type dmLabel kftype MFSN MFSF subType equals
+##########
+Please find the identifiers used in the function below.
+instantiate expected property defaultClassName className getProperty clazz loadClass e result newInstance isAssignableFrom getClassLoader
+##########
+Please find the identifiers used in the function below.
+end ec name inError appender start o peekObject addWarn getName popObject
+##########
+Please find the identifiers used in the function below.
+Cli O createCliUsingInstance options InvalidOptionSpecificationException
+##########
+Please find the identifiers used in the function below.
+getEntity name ch theEntities get intValue
+##########
+Please find the identifiers used in the function below.
+findEditor typeName ClassNotFoundException type Classes getPrimitiveTypeForName loader Thread currentThread getContextClassLoader loadClass PropertyEditorManager
+##########
+Please find the identifiers used in the function below.
+shiftOrigin origin InvalidRangeException VLEN first last name stride
+##########
+Please find the identifiers used in the function below.
+section ranges InvalidRangeException size rank ii r get Range VLEN first shape last reducedRank length newindex Index factory offset newDim stride computeSize fastIterator precalc
+##########
+Please find the identifiers used in the function below.
+getLevelDescription gr cust result getLevelType1 getLevelName
+##########
+Please find the identifiers used in the function below.
+cc ccs ArraysUtil join valueOrEmptyArray _this
+##########
+Please find the identifiers used in the function below.
+getAppropriateMethod context source target propertyName methodName methods args actualArgs result typeClass getClass isInstance argClasses getArgClasses mm findBestMethod mMethod mParameterTypes System arraycopy length j type report conversionNeeded isPrimitive getConvertedType getConvertedMethodAndArgs
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setMonatsmiete monatsmiete
+##########
+Please find the identifiers used in the function below.
+subset sub begin end n number match size add set
+##########
+Please find the identifiers used in the function below.
+getVariables vocab result variables vs getVocabulary equals getVariableList addAll
+##########
+Please find the identifiers used in the function below.
+print level message throwable isEnabled msg append slf getElapsedTime getCallerClass System out println toString printStackTrace
+##########
+Please find the identifiers used in the function below.
+openFeatureDataset access task IOException ds getDataset result getFeatureType errLog format fatalError
+##########
+Please find the identifiers used in the function below.
+matches onPojo conditions value get condition SuppressWarnings cond matchesValue matchesPojo
+##########
+Please find the identifiers used in the function below.
+ofy getTransaction isActive ObjectifyService
+##########
+Please find the identifiers used in the function below.
+changeUpperLevelFinalLength shiftMap addedFullName increasedLength parts split fname i length append sname toString get setFinalLength getFinalLength
+##########
+Please find the identifiers used in the function below.
+makeC s a b nz getSize sIndex getIndex c fac1 denom1 Math sinh denom2 tanh i sz getDouble set term1 term2
+##########
+Please find the identifiers used in the function below.
+Override login username password getHttpServletRequest e log debug
+##########
+Please find the identifiers used in the function below.
+encodePort port encoding encodeUriComponent URIPart PORT
+##########
+Please find the identifiers used in the function below.
+reset maxSteps machineToTrain inputExamples inputProperties outputProperties inputPropertiesSet outputPropertiesSet
+##########
+Please find the identifiers used in the function below.
+makeNode successor SearchNotExhaustiveException node heuristic computeH
+##########
+Please find the identifiers used in the function below.
+isTypeOf typeMirror integerKinds contains getKind integerObjects toString
+##########
+Please find the identifiers used in the function below.
+updateFlow flowParam serviceTicket setServiceTicket postJson WS Path Flow Version1 flowUpdate
+##########
+Please find the identifiers used in the function below.
+pixelsWidth displayMetrics dip scale density alpha
+##########
+Please find the identifiers used in the function below.
+fromByte b depth isBe from24BE from24LE from16BE from16LE
+##########
+Please find the identifiers used in the function below.
+addEdge e getFrom outgoingEdges add getTo incomingEdges
+##########
+Please find the identifiers used in the function below.
+copy src dest IOException isDirectory copyDir copyFileToDir copyFile
+##########
+Please find the identifiers used in the function below.
+setCountIntervalValues dto builder builderSc SimpleScheduleBuilder simpleSchedule getRepeatCount withRepeatCount getRepeatInterval withIntervalInMilliseconds withSchedule
+##########
+Please find the identifiers used in the function below.
+delete question getCaption ConfirmDialog show getUI cd isConfirmed onDelete close ex onError getErrorHandler error
+##########
+Please find the identifiers used in the function below.
+put dateRootExt map getPath treeSet add
+##########
+Please find the identifiers used in the function below.
+setData bitmap format IOException
+##########
+Please find the identifiers used in the function below.
+cc ccAddress toTerm RecipientType CC concat
+##########
+Please find the identifiers used in the function below.
+setStartEndTime dto builder getStartTime startAt startNow getEndTime endAt
+##########
+Please find the identifiers used in the function below.
+getPrimitiveAnalysis cls IIOPLogger ROOT_LOGGER cannotAnalyzeNullClass Void TYPE voidAnalysis Boolean booleanAnalysis Character charAnalysis Byte byteAnalysis Short shortAnalysis Integer intAnalysis Long longAnalysis Float floatAnalysis Double doubleAnalysis notAPrimitive getName
+##########
+Please find the identifiers used in the function below.
+getFullName parent name length
+##########
+Please find the identifiers used in the function below.
+getExactDirectSuperTypes type clazz getRawType isArray getArrayExactDirectSuperTypes superInterfaces getGenericInterfaces superClass getGenericSuperclass length isInterface result resultIndex mapTypeParameters superInterface tv getBounds getUpperBounds
+##########
+Please find the identifiers used in the function below.
+getParameterizedType type result peek instantiate put generate
+##########
+Please find the identifiers used in the function below.
+dispatchOnFxThread action Platform isFxApplicationThread actionStream push runLater
+##########
+Please find the identifiers used in the function below.
+writeCDL f strict parentname isString getEnumType format NetcdfFile makeValidCDLName getShortName i getLength val getStringValue encodeString en econst ecint lookupEnumInt number getNumericValue dataType isUnsigned DataType widenNumber FLOAT SHORT USHORT BYTE UBYTE LONG ULONG
+##########
+Please find the identifiers used in the function below.
+asComponents getUriTemplateComponents Collections emptyMap emptyList
+##########
+Please find the identifiers used in the function below.
+getDefaultValue schema getConfig avroNullableFields avroDefaultNullable NullNode getInstance defaultValuesForTypes containsKey getType get
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings copyCellSetValue sourceCell newCell checkLock newCellStyle getCellStyle name getCellTypeEnum toString e Enum valueOf setCellValue
+##########
+Please find the identifiers used in the function below.
+validateColor color validated startsWith colorPattern matcher matches toUpperCase
+##########
+Please find the identifiers used in the function below.
+waitForLoader time done await TimeUnit MILLISECONDS e Log TAG
+##########
+Please find the identifiers used in the function below.
+init context vars paramTemplates paramTemplate
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings emStack threadLocalFallback Http Context safeCurrent map context emsObject args get CURRENT_ENTITY_MANAGER ems put orElseGet
+##########
+Please find the identifiers used in the function below.
+addConstantMemberReference tag owner name descriptor hashCode hash entry get equals value next constantPool put122 addConstantClass index addConstantNameAndType put constantPoolCount
+##########
+Please find the identifiers used in the function below.
+snapshot streams counters forEach counterId typeId keyBuffer label PUBLISHER_LIMIT_TYPE_ID RECEIVER_POS_TYPE_ID SENDER_LIMIT_TYPE_ID PER_IMAGE_TYPE_ID PUBLISHER_POS_TYPE_ID key getInt SESSION_ID_OFFSET STREAM_ID_OFFSET getStringAscii CHANNEL_OFFSET streamBacklog computeIfAbsent ignore registrationId getLong REGISTRATION_ID_OFFSET value getCounterValue PublisherLimit createPublisherIfAbsent limit PublisherPos position SenderPos SENDER_POSITION_TYPE_ID createSenderIfAbsent SenderLimit ReceiverHwm RECEIVER_HWM_TYPE_ID createReceiverIfAbsent highWaterMark ReceiverPos SubscriberPos SUBSCRIBER_POSITION_TYPE_ID subscriberBacklogs put
+##########
+Please find the identifiers used in the function below.
+logError message thr getDefault getLog log error
+##########
+Please find the identifiers used in the function below.
+gradientNoise3D fx fy fz ix iy iz seed vectorIndex X_NOISE_GEN Y_NOISE_GEN Z_NOISE_GEN SEED_NOISE_GEN SHIFT_NOISE_GEN xvGradient Utils RANDOM_VECTORS yvGradient zvGradient xvPoint yvPoint zvPoint
+##########
+Please find the identifiers used in the function below.
+getInBoundsX x itemWidth dividerSize values length
+##########
+Please find the identifiers used in the function below.
+saveResultSet rs resultSets add
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings extends Annotation getAnnotation annotations annotationType anno if isAssignableFrom getClass return
+##########
+Please find the identifiers used in the function below.
+parse inFileName FileNotFoundException JasperException IOException isTagFile ctxt directiveOnly doParse getTagFileJarUrl
+##########
+Please find the identifiers used in the function below.
+leastNode node index lval getLeft
+##########
+Please find the identifiers used in the function below.
+deliver message setThread threadID listener listeners processMessage
+##########
+Please find the identifiers used in the function below.
+replaceDataVars sm m getMembers org cols get getName rank getRank orgDims getDimensions n getShape length dims subList result getShortName getDescription getUnitsString getDataType att getAttributes add put
+##########
+Please find the identifiers used in the function below.
+substituteVariables template patternString variables pattern Pattern compile matcher buffer find containsKey group replacement get appendReplacement Matcher quoteReplacement appendTail toString
+##########
+Please find the identifiers used in the function below.
+Override containsValue value checkValue lookupValid VALUE getCurrentThreadId
+##########
+Please find the identifiers used in the function below.
+getOrCreateTempDirectory deleteOnExit ExtractException TEMP_DIRECTORY exists baseDir Paths get System getProperty tempDirectory resolve UUID randomUUID toString Files createDirectories tempDirectoryAsFile toFile e
+##########
+Please find the identifiers used in the function below.
+write os IOException Assert isTrue inputRead hasInputStream bytesRead totalBytesRead buffer bufferPool getBuffer contentLength getContentLength is read Math min length Policy bind putBuffer
+##########
+Please find the identifiers used in the function below.
+addElement str type one two interval isDefault NotationException elements add ValidationMethod decideWhichMonomerNotationInGroup
+##########
+Please find the identifiers used in the function below.
+getStringValue attributeClass finalized lookupValue value label lookupValueList get
+##########
+Please find the identifiers used in the function below.
+findMatchingMethod targetMethod getTargetMethod arguments getArguments argCount length candidates ReflectionUtils getAllDeclaredMethods getTargetClass minTypeDiffWeight Integer MAX_VALUE matchingMethod candidate getName equals paramTypes getParameterTypes typeDiffWeight getTypeDifferenceWeight
+##########
+Please find the identifiers used in the function below.
+raUnconfigure InvalidStateException doTraceLogs logger trace state ResourceAdaptorObjectState INACTIVE UNCONFIGURED object
+##########
+Please find the identifiers used in the function below.
+deserialize bytes ois readObject ex
+##########
+Please find the identifiers used in the function below.
+negativeLogLikelihood labels alpha mu sigma labelsMinusMu diffsquared mul sum phitimesalphasum phi muli result Transforms log negi
+##########
+Please find the identifiers used in the function below.
+register type typeJsonSerializer map put cache clear
+##########
+Please find the identifiers used in the function below.
+addItem item i getItemCount equals getItemAt setSelectedIndex removeItemAt insertItemAt
+##########
+Please find the identifiers used in the function below.
+lookupGzipBundleFile file IOException path getPath ZipUtil GZIP_EXT gzipFile exists log isDebugEnabled debug gzip
+##########
+Please find the identifiers used in the function below.
+loadConfig input res findDSLResource dslConfigName dslConf exists stream getContents readConfig valid e getMessage closeStream
+##########
+Please find the identifiers used in the function below.
+systemJarInWebinf path indexOf useMyFaces ctxt getServletContext getAttribute jar systemJsfJars systemJars
+##########
+Please find the identifiers used in the function below.
+readAttributeDouble v attname defValue att findAttributeIgnoreCase isString Double parseDouble getStringValue getNumericValue doubleValue
+##########
+Please find the identifiers used in the function below.
+NonNull Collection T collectionOf typeToken omittedValues PrivateGenerate manyAsListOf
+##########
+Please find the identifiers used in the function below.
+removeDocumentation type iter docs iterator hasNext doc next dtype getType equalsIgnoreCase remove
+##########
+Please find the identifiers used in the function below.
+setAnnotation str annotation isAnnotationHere
+##########
+Please find the identifiers used in the function below.
+shutdown reason write OtpExternal versionTag tuple write_any send
+##########
+Please find the identifiers used in the function below.
+setPort p_port MalformedURIException m_host n_port
+##########
+Please find the identifiers used in the function below.
+page startPos pageSize Override bind readers
+##########
+Please find the identifiers used in the function below.
+set pos value StringUtils trimToNull values put containsKey remove
+##########
+Please find the identifiers used in the function below.
+addParameters tbl IOException is getInputStream content readContents lines split result line tline trim length startsWith words indices idx lengths substring add aResult p makeParameter getName contains templateParamMap put paramMap
+##########
+Please find the identifiers used in the function below.
+Override ignorableWhitespace ch start length isOutsideDocElem s append m_doc createTextNode
+##########
+Please find the identifiers used in the function below.
+U Observable scalarXMap value mapper RxJavaPlugins onAssembly
+##########
+Please find the identifiers used in the function below.
+V queryValue Class classOfV instream reader queryForStream Charsets UTF_8 array parse getAsJsonObject get getAsJsonArray size JsonToObject gson close
+##########
+Please find the identifiers used in the function below.
+checkConnectionProvider connection connectionProvider getConnection databaseMetaData getMetaData name getDatabaseProductName version getDatabaseProductVersion log isInfoEnabled info sex error closeConnection
+##########
+Please find the identifiers used in the function below.
+get key entry entryMap isCurrent now refresh destroy remove value getValue
+##########
+Please find the identifiers used in the function below.
+U clearMap map consumer observable keySet listener get accept clear
+##########
+Please find the identifiers used in the function below.
+getResultAtIndex results index belief size idx b
+##########
+Please find the identifiers used in the function below.
+getErrors parsingErrors isEmpty result s
+##########
+Please find the identifiers used in the function below.
+partitionVariable arr chunk count ret size sublist subList add lists remove
+##########
+Please find the identifiers used in the function below.
+scanForChildren debug System out printf dir count ds Files newDirectoryStream p attr readAttributes isDirectory children add topCollectionName suffix e printStackTrace childrenConstructed
+##########
+Please find the identifiers used in the function below.
+getPoiCellFromSheet rowIndex colIndex sheet1 getRow getCell
+##########
+Please find the identifiers used in the function below.
+containsPropertyIncludeValue property arrayContains inputAnnotation readOnly hidden include
+##########
+Please find the identifiers used in the function below.
+isDateTime value check match Pattern CASE_INSENSITIVE
+##########
+Please find the identifiers used in the function below.
+remove logger appenderName removeAppender CaptureAppender getAppenderNameFor
+##########
+Please find the identifiers used in the function below.
+getExistingFileOrCache fileLocation f exists neverUseCache fc makeCachePath
+##########
+Please find the identifiers used in the function below.
+createDraftPipelineFragment fragmentId description stageInstances ApiException postBody postBinaryBody path replaceAll apiClient escapeString toString queryParams headerParams formParams addAll parameterToPairs accepts accept selectHeaderAccept contentTypes contentType selectHeaderContentType authNames returnType invokeAPI
+##########
+Please find the identifiers used in the function below.
+font style size color isBlank pointsize fill
+##########
+Please find the identifiers used in the function below.
+newUrl spec exception
+##########
+Please find the identifiers used in the function below.
+load modules newBuilder delegate Scala varargs
+##########
+Please find the identifiers used in the function below.
+remove InvalidStateException state isInactive name object raUnconfigure isFaultTolerant unsetFaultTolerantResourceAdaptorContext ftResourceAdaptorContext shutdown unsetResourceAdaptorContext sleeContainer getTraceManagement deregisterNotificationSource getNotificationSource
+##########
+Please find the identifiers used in the function below.
+sqrt x compareTo BigDecimal ZERO toString root
+##########
+Please find the identifiers used in the function below.
+identifyDuplicateGroupNames groups LOG debug groupNames group contains getName add
+##########
+Please find the identifiers used in the function below.
+extractValues values map time ZonedDateTime parse get ExpectedLabels temp safeInt pressure humidity voc light noise noisedba battery shake safeBoolean cable vocResistance voc_resistance rssi
+##########
+Please find the identifiers used in the function below.
+availables app langs injector instanceOf availableLangs Scala asJava stream map Lang collect toList
+##########
+Please find the identifiers used in the function below.
+finish cancelTask IOException datasetManager scan cacheDirty makeDatasets buildNetcdfDataset
+##########
+Please find the identifiers used in the function below.
+AOption T fromNullable nullable some none
+##########
+Please find the identifiers used in the function below.
+getLastFile FileNotFoundException files directory listFiles filter length
+##########
+Please find the identifiers used in the function below.
+getIndexedTypes indexed type indexLocationQueryOrder isIndexed add
+##########
+Please find the identifiers used in the function below.
+resolveComponentType declared componentType getter getGetter getGetterRawComponentType fieldDescriptor getFieldDescriptor getRawComponentType
+##########
+Please find the identifiers used in the function below.
+getNamedEntityTypes QueryConcept_Type featOkTst jcasType casFeat_namedEntityTypes jcas throwFeatMissing ll_cas ll_getFSForRef ll_getRefValue addr casFeatCode_namedEntityTypes
+##########
+Please find the identifiers used in the function below.
+restoreTaxonomy ElkInconsistentOntologyException ElkException ruleAndConclusionStats reset restoreConsistencyCheck consistencyCheckingState isInconsistent complete stageManager classTaxonomyComputationStage classTaxonomyState getTaxonomy
+##########
+Please find the identifiers used in the function below.
+addClass cls RMIIIOPViolationException IRConstructionException isPrimitive isArray addArray isInterface RmiIdlUtil isAbstractValueType ia InterfaceAnalysis getInterfaceAnalysis addInterface va ValueAnalysis getValueAnalysis addValue isAssignableFrom ea ExceptionAnalysis getExceptionAnalysis addException
+##########
+Please find the identifiers used in the function below.
+Callable T transferRequest callable wrap
+##########
+Please find the identifiers used in the function below.
+Ref T create value key Key
+##########
+Please find the identifiers used in the function below.
+PageData T page sql params pageSize sortColumnName ascending target buildOrderSql from pageSql buildPageSql dbsql query setMaxRows setFetchSize setMap list close countSql buildCountSql count executeCount
+##########
+Please find the identifiers used in the function below.
+shouldStart serverSocket getServerSocketFactory createServerSocket getPort getBacklog getInetAddress listener createServerListener runner createServerRunner getContext getScheduledExecutorService setContext ex addError CloseUtil closeQuietly
+##########
+Please find the identifiers used in the function below.
+processEvents enable key watcher take x dir keys get System err println event pollEvents kind OVERFLOW ev cast name context child resolve out format recursive ENTRY_CREATE Files isDirectory NOFOLLOW_LINKS registerAll valid reset remove isEmpty
+##########
+Please find the identifiers used in the function below.
+Override fromMap map clazz get cls Reflection loadClass
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings Expression E pickExpression Preconditions checkState expression result
+##########
+Please find the identifiers used in the function below.
+dispatchCheckValue type value AttributeBadValueException BYTE checkByte INT16 checkShort UINT16 checkUShort INT32 checkInt UINT32 checkUInt FLOAT32 checkFloat FLOAT64 checkDouble
+##########
+Please find the identifiers used in the function below.
+populateAttributes component fcell defaultControlMap inputAttrs getInputAttrs cname findComponentNameFromClass defaultMap get put entry entrySet setObjectProperty getKey getValue attr propertyName getType propertyValue containsKey defaultValue getObjectPropertyValue
+##########
+Please find the identifiers used in the function below.
+Collection T collectIterator iterator targetCollection hasNext add next
+##########
+Please find the identifiers used in the function below.
+Override write b inBufferPos count filledBufferSum currentBuffer length needNewBuffer
+##########
+Please find the identifiers used in the function below.
+parseType signature startOffset signatureVisitor offset currentChar charAt visitBaseType visitArrayType endOffset indexOf visitTypeVariable substring start visited inner name visitInnerClassType visitClassType visitEnd visitTypeArgument
+##########
+Please find the identifiers used in the function below.
+fill iLength iFiller assureSpaceFor Arrays buffer position
+##########
+Please find the identifiers used in the function below.
+copy input output encoding IOException out flush
+##########
+Please find the identifiers used in the function below.
+writeName uri localName qName isElement SAXException prefix doPrefix equals write i indexOf substring length
+##########
+Please find the identifiers used in the function below.
+getBoundingBox zoomLevel boundingBox tileMatrix getTileMatrix tileGrid queryForTileGrid matrixSetBoundingBox TileBoundingBoxUtils
+##########
+Please find the identifiers used in the function below.
+getPoolForServer serverName jmx InstanceNotFoundException pool PoolManager find poolFactory createFactory objectName append toString host getAttribute length lookupNetworkHost findJmxPort objectNames searchObjectNames isEmpty portObjectName iterator next port System out println addServer intValue create e getMessage
+##########
+Please find the identifiers used in the function below.
+Generated value date comments getROW row
+##########
+Please find the identifiers used in the function below.
+playSound filename IOException LineUnavailableException demuxer Demuxer make open numStreams getNumStreams audioStreamId audioDecoder i stream getStream decoder getDecoder getCodecType MediaDescriptor Type MEDIA_AUDIO samples MediaAudio getFrameSize getSampleRate getChannels getChannelLayout getSampleFormat converter MediaAudioConverterFactory createConverter DEFAULT_JAVA_AUDIO audioFrame AudioFrame getJavaFormat rawAudio packet MediaPacket read getStreamIndex offset bytesRead decode isComplete toJavaAudio play getSize close dispose
+##########
+Please find the identifiers used in the function below.
+calculateLength len i index array length
+##########
+Please find the identifiers used in the function below.
+addParam parameterName parameterValues spec param
+##########
+Please find the identifiers used in the function below.
+setPixelValue image x y pixelValue getRasters setFirstPixelSample
+##########
+Please find the identifiers used in the function below.
+getForecastTimeIntervalSizeInHours pds pdsIntv timeUnitOrg getTimeUnit range ti getTimeIntervals timeRangeUnit timeIncrementUnit timeIncrement logger warn timeRangeLength timeUnitPeriod Grib2Utils getCalendarPeriod convertTimeUnit GribNumbers UNDEFINEDD equals CalendarPeriod Hour fac getField Field Month Year getConvertFactor
+##########
+Please find the identifiers used in the function below.
+getGroupScope DapException gscope searchScope DapSort GROUP DATASET
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings T unmarshal src Class clazz result avm JAXBContext newInstance createUnmarshaller e Throwables propagate
+##########
+Please find the identifiers used in the function below.
+invoke actionRequest executorService servletRequest getHttpServletRequest log debug asyncContext startAsync submit ex error ExceptionUtil unwrapThrowable complete
+##########
+Please find the identifiers used in the function below.
+fireEvent event mTaskQueue offer Task obtainTask CODE_FIRE_EVENT mQueueProcessed processTaskQueue
+##########
+Please find the identifiers used in the function below.
+hasStringField value1 name clz getClass classHasStringField
+##########
+Please find the identifiers used in the function below.
+countView viewName cls getMetadata getImmutableSchemaSnapshot getView countClass
+##########
+Please find the identifiers used in the function below.
+isLocatorCurrentInTokenDiscoveryLayer loc entry insertedLocators getIfPresent toString isTokenDiscoveryCurrent
+##########
+Please find the identifiers used in the function below.
+makeFileSubType key findKey GempakStation SLAT latType type dateKey DATE equals ROW subType CLIMATE STANDARD SHIP
+##########
+Please find the identifiers used in the function below.
+containedPlane T_v0 output u v w0 uu uv vv wu wv D dot minus s t
+##########
+Please find the identifiers used in the function below.
+extractPhrases tokens filterSpam includeHashtags seq OpenKoreanTextProcessor toJavaList
+##########
+Please find the identifiers used in the function below.
+addMethodInjectionPoint mip methods ArraysUtil append
+##########
+Please find the identifiers used in the function below.
+setNamedEntityTypes v QueryConcept_Type featOkTst jcasType casFeat_namedEntityTypes jcas throwFeatMissing ll_cas ll_setRefValue addr casFeatCode_namedEntityTypes ll_getFSRef
+##########
+Please find the identifiers used in the function below.
+V isBlack node index
+##########
+Please find the identifiers used in the function below.
+deleteAttachment attachmentParam serviceTicket setServiceTicket postJson WS Path Attachment Version1 attachmentDelete
+##########
+Please find the identifiers used in the function below.
+deleteMapping mappingDao featureId geometryType deleteByBaseId
+##########
+Please find the identifiers used in the function below.
+setReferenceDate refDate cdUnit CalendarDateUnit of dateUnit getCalendar getCalendarField
+##########
+Please find the identifiers used in the function below.
+lookupProvider pu persistenceProviderDeploymentHolder deploymentUnit DeploymentUnitProcessingException providerMap getProviders containsKey getPersistenceProviderClassName ROOT_LOGGER tracef getName get configuredPersistenceProviderModule getProperties getProperty Configuration PROVIDER_MODULE persistenceProviderClassName PROVIDER_CLASS_DEFAULT providers PROVIDER_MODULE_APPLICATION_SUPPLIED equals classLoader getAttachment Attachments MODULE getClassLoader provider PersistenceProviderLoader loadProviderFromDeployment add PersistenceProviderDeploymentHolder savePersistenceProviderInDeploymentUnit e JpaLogger cannotDeployApp loadProviderModuleByName getProviderByName cannotLoadPersistenceProviderModule providerNameDerivedFromClassName getProviderModuleNameFromProviderClassName persistenceProviderNotFound
+##########
+Please find the identifiers used in the function below.
+getUniqueID authority getAuthority getID
+##########
+Please find the identifiers used in the function below.
+setVersion record iVersion rec
+##########
+Please find the identifiers used in the function below.
+onEvent type remoteAddr conn processorList processors get processor
+##########
+Please find the identifiers used in the function below.
+json callbackName Flow of map ByteString fromString Json stringify via flow
+##########
+Please find the identifiers used in the function below.
+Override initialize input tag doctype text textLen parsingTime
+##########
+Please find the identifiers used in the function below.
+assembleRowsListFromRowsMapping all current list addAll row contains add
+##########
+Please find the identifiers used in the function below.
+encodeURN publicId urn PublicId normalize stringReplace
+##########
+Please find the identifiers used in the function below.
+createCommentAnchor newCell factory anchor createClientAnchor setCol1 getColumnIndex setCol2 setRow1 getRowIndex setRow2
+##########
+Please find the identifiers used in the function below.
+launchButtonActionPerformed evt runStatus APP_NOT_RUNNING System setSecurityManager NakamuraMain main savedArgs statusLabel setText JOptionPane showMessageDialog INFORMATION_MESSAGE APP_RUNNING isStartupFinished e getMessage WARNING_MESSAGE
+##########
+Please find the identifiers used in the function below.
+setSearchId v Search_Type featOkTst jcasType casFeat_searchId jcas throwFeatMissing ll_cas ll_setStringValue addr casFeatCode_searchId
+##########
+Please find the identifiers used in the function below.
+arrayForcedSet bp array index value componentType getClass getComponentType ensureArraySize convertType Array set
+##########
+Please find the identifiers used in the function below.
+readFilterConfigParameters filterConfig target parameters parameter value getInitParameter BeanUtil declared setProperty
+##########
+Please find the identifiers used in the function below.
+collectAttributePrototypes attributePrototypes addAttributes firstAttribute firstCodeAttribute
+##########
+Please find the identifiers used in the function below.
+getFormDefinitionIdAndTitle LOCAL_MAPPING isEmpty returnVal System currentTimeMillis timeToUpdateAgain clear preparedStatement resultSet syntax SyntaxFactory getInstance getSyntaxFor getSQLTypeFromConnection ISyntax ProcedureMapping FormDefinition GetFormDefinitions getConnection prepareStatement getPreparedStatement executeQuery next id getLong title getString put TimeUnit MINUTES toMillis sqlError closeStatement
+##########
+Please find the identifiers used in the function below.
+initXSSFAnchorsMap wb charsData anchortMap getChartAnchorsMap positionMap getChartPositionMap clear i getNumberOfSheets initXSSFAnchorsMapForSheet getSheetAt
+##########
+Please find the identifiers used in the function below.
+getOverwrite overwriteString get OVERWRITE equalsIgnoreCase
+##########
+Please find the identifiers used in the function below.
+addToNetcdfFile ncfile g dontUseVertical getRootGroup dims verticalName hcs isLatLon nlevs levels size v setDataType DataType DOUBLE addAttribute lookup getLevelDescription record getLevelUnit positive units axisType SimpleUnit isCompatible AxisType Pressure Height GeoZ Integer toString getLevelType1 _Coordinate Axes Transforms getGridName data i d get doubleValue dataArray Array factory setDimensions setCachedData addVariable findCoordinateTransform
+##########
+Please find the identifiers used in the function below.
+createMuteEvent source Optional empty muteRequest of e
+##########
+Please find the identifiers used in the function below.
+match path tail treeMap tailMap isEmpty after firstKey startsWith get key keySet StringUtil2
+##########
+Please find the identifiers used in the function below.
+setEntity httpRequest json entity setContentType
+##########
+Please find the identifiers used in the function below.
+getTimeout timeoutString get TIMEOUT equalsIgnoreCase DEPTH_INFINITY regionMatches Integer parseInt substring
+##########
+Please find the identifiers used in the function below.
+getElement id makeActive rec toString iae doc getRecord schemaClass ODocumentInternal getImmutableSchemaClass isEdgeType getEdge getVertexInstance
+##########
+Please find the identifiers used in the function below.
+setResultImage consumer result animate decorateResult setImage createDrawable getBitmap reset
+##########
+Please find the identifiers used in the function below.
+doPrepare context loader urlPatternToClassNameMap jbwmd metadata jbwsMetadata origClassLoader WildFlySecurityManager getCurrentContextClassLoaderPrivileged unit setCurrentContextClassLoaderPrivileged ClassLoaderProvider getDefaultProvider getServerIntegrationClassLoader WSDeploymentBuilder getInstance build
+##########
+Please find the identifiers used in the function below.
+versionsMatch expectedVersions versions expectedSet Sets newHashSet split symmetricDifference isEmpty
+##########
+Please find the identifiers used in the function below.
+lastCheckExpired expiry lastCleanupTime isExpired getMilliseconds now clock currentTimeMillis timeDiff
+##########
+Please find the identifiers used in the function below.
+push element i els size elements length System arraycopy
+##########
+Please find the identifiers used in the function below.
+checkScope scope n err JasperException equals jspError
+##########
+Please find the identifiers used in the function below.
+addDoubleOption shortForm longForm addOption
+##########
+Please find the identifiers used in the function below.
+getDefaultDatePattern defaultDatePattern formatter DateFormat getDateInstance SHORT Locale getDefault toLocalizedPattern
+##########
+Please find the identifiers used in the function below.
+convert barray dataType nelems byteOrder DataType BYTE CHAR IospHelper convertByteToChar bbuff ByteBuffer wrap order ucar unidata io RandomAccessFile LITTLE_ENDIAN ByteOrder BIG_ENDIAN SHORT tbuff asShortBuffer pa get INT asIntBuffer FLOAT asFloatBuffer DOUBLE asDoubleBuffer
+##########
+Please find the identifiers used in the function below.
+neg num c realComponent doubleValue imaginaryComponent negate Nd4j createDouble getReal getImaginary
+##########
+Please find the identifiers used in the function below.
+createCluster className clusterName currentDB ODatabaseRecordThreadLocal instance getIfDefined sysdb openSystemDatabase existsCluster schema getMetadata getSchema cls getClass addCluster OLogManager error close set remove
+##########
+Please find the identifiers used in the function below.
+generatePostamble page out popIndent printil pushIndent genCommonPostamble
+##########
+Please find the identifiers used in the function below.
+decodeProtocolCode in readableBytes protocolCodeLength protocolCodeBytes readBytes ProtocolCode fromBytes
+##########
+Please find the identifiers used in the function below.
+uniqueBaseIds querySingleColumnTypedResults CoreSQLUtils quoteWrap UserMappingTable COLUMN_BASE_ID getTableName
+##########
+Please find the identifiers used in the function below.
+getCachedAdviceClassReader advice adviceClassReaderCache TypeCache createDefault adviceReader get createAdviceClassReader put
+##########
+Please find the identifiers used in the function below.
+findFirstEqual source index match i length equalsOne charAt
+##########
+Please find the identifiers used in the function below.
+get id metadata selection GeoPackageMetadata COLUMN_ID selectionArgs String valueOf cursor db query TABLE_NAME COLUMNS moveToNext createGeoPackageMetadata close
+##########
+Please find the identifiers used in the function below.
+to implementation underlying asJava
+##########
+Please find the identifiers used in the function below.
+Key V getKeyForNewValue key checkNotNull checkConfiguration bindingSelection isInitialized entrySetBinder getEntrySetBinder valueKey get getValueType getSetName MAPBINDER getKeyType toString addBinding toProvider
+##########
+Please find the identifiers used in the function below.
+validateSocketBufferLengths ctx probe DatagramChannel open defaultSoSndBuf getOption StandardSocketOptions SO_SNDBUF setOption Integer MAX_VALUE maxSoSndBuf socketSndbufLength System err format SOCKET_SNDBUF_LENGTH_PROP_NAME SO_RCVBUF maxSoRcvBuf socketRcvbufLength SOCKET_RCVBUF_LENGTH_PROP_NAME soSndBuf mtuLength String initialWindowLength Configuration INITIAL_WINDOW_LENGTH_PROP_NAME ex toString
+##########
+Please find the identifiers used in the function below.
+Override clear IOException rollback atomicOperation startAtomicOperation lock FILE_LOCK_MANAGER acquireExclusiveLock fileId subTreesToDelete cacheEntry loadPageForWrite rootBucketPointer getPageIndex rootBucket getPageOffset keySerializer valueSerializer addChildrenToQueue shrink setTreeSize releasePageFromWrite recycleSubTrees unlock e endAtomicOperation
+##########
+Please find the identifiers used in the function below.
+stopBackgroundLoadingExcept exemptionURL sp exemptionURLString toString e cacheLoadsInProgress elements inProgress hasMoreElements nextElement getUrlString equals stopLoading Tools log
+##########
+Please find the identifiers used in the function below.
+getPartForElement modelElement DroolsEclipsePlugin log getClass getName
+##########
+Please find the identifiers used in the function below.
+peekAndConsume kind nextToken tokenSource peek consumeToken e
+##########
+Please find the identifiers used in the function below.
+buildSheet sheet sheetConfigMap cellAttributesMap getLastRowNum getRow checkAndRepairLastRow sheetRightCol WebSheetUtility getSheetRightCol commandList buildCommandListFromSheetComment hasEachCommand hasEachCommandInTheList formList buildSheetConfigMapFromFormCommand matchParentCommand matchSheetConfigForm initTemplateForCommand
+##########
+Please find the identifiers used in the function below.
+closeConnection LOGGER debug connectionToRemove threadLocalConnection get jdbcUtil closeQuietly connectionsToCloseDuringDestroy remove set
+##########
+Please find the identifiers used in the function below.
+adjustGoogleBounds standardWgs84Box ProjectionConstants WGS84_HALF_WORLD_LON_WIDTH WEB_MERCATOR_MIN_LAT_RANGE WEB_MERCATOR_MAX_LAT_RANGE wgs84ToWebMercatorTransform ProjectionFactory getProjection EPSG_WORLD_GEODETIC_SYSTEM getTransformation EPSG_WEB_MERCATOR tileGridBoundingBox transform
+##########
+Please find the identifiers used in the function below.
+of n1 u1 n2 u2
+##########
+Please find the identifiers used in the function below.
+countOpenParens s pos p java util regex Pattern compile m matcher subSequence numParens find isInsideCharClass start isEscapedChar isNoncapturingParen
+##########
+Please find the identifiers used in the function below.
+scala collection immutable Seq T toSeq list JavaConverters asScalaBufferConverter asScala toList
+##########
+Please find the identifiers used in the function below.
+getByte path value get byteValue ObjectConverter convertObjectTo
+##########
+Please find the identifiers used in the function below.
+writeEscUTF16 s start length isAttVal SAXException subString substring write StringEscapeUtils escapeHtml4
+##########
+Please find the identifiers used in the function below.
+evictIfNeeded list size evictSize killList sortAndReturnPurgeList cacheEntry map remove key
+##########
+Please find the identifiers used in the function below.
+inputButton type value IOException write toString quote
+##########
+Please find the identifiers used in the function below.
+Before addToContextLineAndMethod joinPoint sourceLocation getSourceLocation targetLogBuilder getTarget addContext String valueOf getLine getFileName getWithinType
+##########
+Please find the identifiers used in the function below.
+compareToWithIdentityHash k1 k2 Integer compare System identityHashCode
+##########
+Please find the identifiers used in the function below.
+getTransaction txId IOException wavesJsonMapper convertValue send
+##########
+Please find the identifiers used in the function below.
+readStreamHeader in IOException streamHeader DecoderUtil STREAM_HEADER_SIZE readFully
+##########
+Please find the identifiers used in the function below.
+rollbackAllResources wasForced status STATUS_ROLLING_BACK lastException it resources iterator hasNext resource next rollbackTransaction ex remove txManager removeTransaction STATUS_ROLLEDBACK STATUS_UNKNOWN rollbackCause
+##########
+Please find the identifiers used in the function below.
+close IOException closed dmr8 sendDXR mode RequestMode DMR chunk position verifystate state State DATA flags DapUtil CHUNK_END writeChunk END output flush saveoutput write toByteArray
+##########
+Please find the identifiers used in the function below.
+VisibleForTesting updateRecordForHDFS record roll avroSchema location getHeader setAttribute HDFS_HEADER_ROLL HDFS_HEADER_AVROSCHEMA HDFS_HEADER_TARGET_DIRECTORY LOG trace getSourceId
+##########
+Please find the identifiers used in the function below.
+setTimerState state thread TimerState IN_TIMEOUT RETRY_TIMEOUT timerState executingThread
+##########
+Please find the identifiers used in the function below.
+timeOfLastReset statusList sm getCopyOfStatusList len size i s get CoreConstants RESET_MSG_PREFIX equals getMessage getDate
+##########
+Please find the identifiers used in the function below.
+getStandardDate text value udunitString trim stoker firstToke nextToken Double parseDouble substring length e du makeDate
+##########
+Please find the identifiers used in the function below.
+granularityFromPointsLessThanEqual requestedDuration points assumedIntervalMillis gran granularityFromPointsLinear milliseconds coarser e
+##########
+Please find the identifiers used in the function below.
+getNonNull schema getType equals Schema Type UNION schemas getTypes size get NULL
+##########
+Please find the identifiers used in the function below.
+Override addTags metric tags checkArgument isValidTagMap e Observable error dataAccess insertIntoMetricsTagsIndex concatWith toList map l
+##########
+Please find the identifiers used in the function below.
+createWavHeader format samples w getChannels getSampleRate getSampleSizeInBits calcDataSize
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings preload i PROTOCOLS length url log trace e warn
+##########
+Please find the identifiers used in the function below.
+validateAllServicesAvailable missingServices stage stageList service getServices serviceMap containsKey getService add Utils format getName isEmpty StringUtils join unsupportedServices serviceDefinition serviceList ServiceRuntime supports getProvides toString
+##########
+Please find the identifiers used in the function below.
+getTypeIDLName cls RMIIIOPViolationException isPrimitive PrimitiveAnalysis getPrimitiveAnalysis getIDLName isArray componentClass sequence getComponentType idlName idx lastIndexOf idlModule substring baseName isInterface isAssignableFrom ia InterfaceAnalysis getInterfaceAnalysis getIDLModuleName ea ExceptionAnalysis getExceptionAnalysis va ValueAnalysis getValueAnalysis
+##########
+Please find the identifiers used in the function below.
+Override reallyRead client cancelTask IOException result hasCachedData orgVar read convert
+##########
+Please find the identifiers used in the function below.
+getBestResponsesGroup maxCoherentResponses bestGroupSoFar i responseGroups size currentGroupSize get
+##########
+Please find the identifiers used in the function below.
+Override getActionInputParameter name ret requestParams get pathVariables annotatedParameter getInputParameters pd getPropertyDescriptorForPropertyPath getParameterType getWriteMethod callValue getValue propertyValue beanWrapper PropertyAccessorFactory forBeanPropertyAccess getPropertyValue
+##########
+Please find the identifiers used in the function below.
+detectNewPartition partitionValues pCache location StageException partitionInfoDiff put getDiff isEmpty
+##########
+Please find the identifiers used in the function below.
+Callable T justCallable value
+##########
+Please find the identifiers used in the function below.
+status content ByteString fromArray Optional empty
+##########
+Please find the identifiers used in the function below.
+readIntLittleEndian in offset IOException ch4 get ch3 ch2 ch1
+##########
+Please find the identifiers used in the function below.
+exec functionName debugMode sameDiffFunctionInstances get enableDebugMode
+##########
+Please find the identifiers used in the function below.
+sendBody outputStream pending IOException BUFFER_SIZE buff sendEverything bytesToRead Math min read data write e close
+##########
+Please find the identifiers used in the function below.
+restore db ctx suffix importFromCsv
+##########
+Please find the identifiers used in the function below.
+insertAfter newChild refChild siblingIndex getSiblingIndex parentNode getChildNodesCount addChild insertChild
+##########
+Please find the identifiers used in the function below.
+Override toByteArray o arr startIndex availableSize out resetForReUse writeTarget setBase writeObject e FSTUtil rethrow written getWritten
+##########
+Please find the identifiers used in the function below.
+getParameter name Params notNullOrEmpty parameters get
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings preprocessMarkdownFiles inputDirectory MojoExecutionException getLog debug exists info baseDepth StringUtils countMatches getAbsolutePath File separator markdownFiles getFilesAsArray FileUtils iterateFiles getInputFileExtensions recursiveInput file getName getPath dto markdownFile folderDepth alwaysUseDefaultTitle title defaultTitle raw readLines getInputEncoding getTitle applyFiltering line isVariableLine key replaceAll value substitutes put inputFileExtension FilenameUtils getExtension htmlFile outputDirectory getParentFile substring length markdownDTOs add e getMessage
+##########
+Please find the identifiers used in the function below.
+fromJson json venmoConfiguration mAccessToken Json optString ACCESS_TOKEN_KEY mEnvironment ENVIRONMENT_KEY mMerchantId MERCHANT_ID_KEY
+##########
+Please find the identifiers used in the function below.
+Override writeNull repetitionLevel definitionLevel DEBUG log statistics incrementNumNulls valueCount
+##########
+Please find the identifiers used in the function below.
+registerChangeListeners wroConfiguration registerCacheUpdatePeriodChangeListener propertyChange event headersConfigurer newResponseHeadersConfigurer wroManagerFactory onCachePeriodChanged valueAsLong getNewValue registerModelUpdatePeriodChangeListener onModelPeriodChanged LOG debug
+##########
+Please find the identifiers used in the function below.
+getScalarStructure index m getDataType DataType STRUCTURE ca memberArray memberIndex SEQUENCE as getStructureData
+##########
+Please find the identifiers used in the function below.
+getContextParams jbossWebMD contextParamsMD setContextParams
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setHandelTyp handelTyp
+##########
+Please find the identifiers used in the function below.
+sectionArrayStructure child innerData m IOException InvalidRangeException membersw getStructureMembers result section getShape count iter getIterator v hasNext recno next sd getStructureData setStructureData
+##########
+Please find the identifiers used in the function below.
+getStateToBind orig name ctx env NamingException CorbaUtils remoteToCorba _orb e IIOPLogger ROOT_LOGGER unavailableRMIPackages
+##########
+Please find the identifiers used in the function below.
+Override invoke req res IOException entry getTarget notificationId getId favoriteNotices getFavoriteNotices contains remove add setFavoriteNotices
+##########
+Please find the identifiers used in the function below.
+createCellComment cell newComment finalCommentMap put
+##########
+Please find the identifiers used in the function below.
+register compression tempInstance newInstance name compressions containsKey compressionClasses put e OLogManager instance error
+##########
+Please find the identifiers used in the function below.
+setSize newSize size firePropertyChange SIZE_PROP
+##########
+Please find the identifiers used in the function below.
+allocateBuffer size RECYCLE_BUFFER spentBuffer recycleChannel poll ByteBuffer allocateDirect clear
+##########
+Please find the identifiers used in the function below.
+Deprecated session key value put
+##########
+Please find the identifiers used in the function below.
+of cal msecs base Calendar getChronology dt
+##########
+Please find the identifiers used in the function below.
+getTableStyles featureTable styles id contentsId getId
+##########
+Please find the identifiers used in the function below.
+endsWithChar s c length charAt
+##########
+Please find the identifiers used in the function below.
+attributeReadName name startsWith substring IIOPLogger ROOT_LOGGER notAnAccessor
+##########
+Please find the identifiers used in the function below.
+getFiles dir files listFiles Override accept file pointFile getName startsWith extension FilenameUtils getExtension fileExtensions contains isDirectory
+##########
+Please find the identifiers used in the function below.
+getContainingIds minLongitude minLatitude maxLongitude maxLatitude ids forCellsIn cell isEmpty addAll retainAll
+##########
+Please find the identifiers used in the function below.
+process_array e type callback componentType TypeUtils getComponentType array make_local loopvar Type INT_TYPE loopbody make_label checkloop store_local push goTo mark load_local array_load processElement iinc arraylength if_icmp LT
+##########
+Please find the identifiers used in the function below.
+getCallerClass exception stackTrace getStackTrace stackTraceElement className getClassName equals getName shortenClassName getMethodName getLineNumber
+##########
+Please find the identifiers used in the function below.
+mergeMap addMap map getRowsMap entry entrySet entryRowList getValue isEmpty row addRow getKey getRow
+##########
+Please find the identifiers used in the function below.
+isInconsistent ElkException restoreConsistencyCheck consistencyCheckingState incompleteness_ log getIncompletenessMonitorForClassification
+##########
+Please find the identifiers used in the function below.
+findRecord ens time level hasEnsemble recordTracker ntimes nlevels
+##########
+Please find the identifiers used in the function below.
+post destination method HttpMethod POST set
+##########
+Please find the identifiers used in the function below.
+poll timeout unit InterruptedException lock lockInterruptibly nanos toNanos count extract getElement notEmpty awaitNanos ie signal unlock
+##########
+Please find the identifiers used in the function below.
+shutdown lock logger debug poolid hasMessage notify
+##########
+Please find the identifiers used in the function below.
+save catListBox prefs fileChooser catgenFileChooser putInt HDIVIDER split getDividerLocation
+##########
+Please find the identifiers used in the function below.
+positionalPostfixWalker visitor positionalTraverser setContextChangeVisitor setPositionalTraverser
+##########
+Please find the identifiers used in the function below.
+stripLastWord prefix equals charAt length c toCharArray start i Character isWhitespace substring
+##########
+Please find the identifiers used in the function below.
+makeNested subKey n row replicationCountSize subCounters subCounter get nrows put rc
+##########
+Please find the identifiers used in the function below.
+createExecutionArray totalInterceptors actionRuntime getInterceptors length totalFilters getFilters executionArray index System arraycopy actionRequest actionResult invoke ActionRequest madvocController render invokeActionMethod
+##########
+Please find the identifiers used in the function below.
+tryMerge otherValue iMergeSingleItemsOfMultiValueFields isEmbedded thisTree delegate otherTree getCollectionPointer equals mergeChanges uuid iter rawIterator hasNext value next localIter found v add
+##########
+Please find the identifiers used in the function below.
+Override projToLatLon world result fromX getX falseEasting fromY getY falseNorthing toLat_r earthRadius toLon_r Misc nearlyEquals Math abs PI_OVER_2 toRadians centMeridian cos INVALID PI setLatitude toDegrees setLongitude
+##########
+Please find the identifiers used in the function below.
+extends BucketPoint List T toList Map Long pointMap buckets BiFunction emptyBucketFactory result getCount index from getBucketStart bucketPoint get to getStep apply add
+##########
+Please find the identifiers used in the function below.
+getProperty name defaultValue AccessController doPrivileged run System
+##########
+Please find the identifiers used in the function below.
+readArrays variables IOException result variable add read
+##########
+Please find the identifiers used in the function below.
+createNew version location chunker IOException
+##########
+Please find the identifiers used in the function below.
+encoderConfig notNull logConfig decoderConfig sessionConfig objectMapperConfig jsonConfig xmlConfig headerConfig asyncConfig multiPartConfig mockMvcConfig paramConfig matcherConfig
+##########
+Please find the identifiers used in the function below.
+parse spec NoSuchUnitException SpecificationException UnitDBException PrefixDBException UnitSystemException MUTEX UnitDBManager instance
+##########
+Please find the identifiers used in the function below.
+getPrefix string set iter iterator hasNext prefix next comp compareTo
+##########
+Please find the identifiers used in the function below.
+addDelegate entry pos partial getEntryArg local localDelegate elements hasMoreElements dpe nextElement dp equals length size addElement insertElementAt
+##########
+Please find the identifiers used in the function below.
+getScalarByte m data getArray getByte Index scalarIndexImmutable
+##########
+Please find the identifiers used in the function below.
+or n condition dimension op arr Nd4j getExecutioner exec result length i getDouble
+##########
+Please find the identifiers used in the function below.
+resourceControlOk req res reqPath TdsPathUtils extractPath rc match dataRootManager findDataRootMatch dataRoot getRestrict datasetTracker findResourceControl resourceAuthorized
+##########
+Please find the identifiers used in the function below.
+getBool key defaultValue Boolean parseBoolean System getProperty
+##########
+Please find the identifiers used in the function below.
+readMetadataContentFromURL dataset uri elem readContentFromURL contentObject readMetadataContent debugMetadataRead System out println getClass getName
+##########
+Please find the identifiers used in the function below.
+create className factoryClass getName Module forClass getIdentifier
+##########
+Please find the identifiers used in the function below.
+Override parse o field isValid formatAnn getAnnotation getName pattern Locale getDefault toString e
+##########
+Please find the identifiers used in the function below.
+setOnce upstream next subscriber ObjectHelper requireNonNull compareAndSet cancel get SubscriptionHelper CANCELLED reportDoubleSubscription
+##########
+Please find the identifiers used in the function below.
+pushOrPopEm em threadLocalFallback ems emStack push isEmpty pop
+##########
+Please find the identifiers used in the function below.
+setResolution resolution theTimer cancel resolutionTimer scheduleAtFixedRate
+##########
+Please find the identifiers used in the function below.
+getUninstallActions uActions uninstallActions add diURL toString sleeContainerDeployer getDeploymentMBean preUninstallActions values isEmpty componentId keySet addAll get
+##########
+Please find the identifiers used in the function below.
+printCompoundInstance datav DapException dstruct getTemplate getBaseType getScheme STRUCTURE RECORD dfields getFields f size field get fieldslices ce getConstrainedSlices fdata readField printVariable SEQUENCE dseq count getRecordCount r dr readRecord printer marginPrint eol indent outdent
+##########
+Please find the identifiers used in the function below.
+getConstructor c params NoSuchMethodException System getSecurityManager result AccessController doPrivileged run e
+##########
+Please find the identifiers used in the function below.
+createSSLSocket host port connectionTimeout trustAll verifyHttpsHost IOException socketFactory getSocketFactory proxy socket createSocket Sockets connect sslSocket getDefaultSSLSocketFactory secureEnabledProtocols values StringUtil splitc trimAll setEnabledProtocols sslParams setEndpointIdentificationAlgorithm setSSLParameters
+##########
+Please find the identifiers used in the function below.
+getChildStateForOperator op newState clone e updateWithOperator
+##########
+Please find the identifiers used in the function below.
+Override evaluateRecord iRecord iCurrentResult iCondition iLeft iRight iContext serializer toString indexOf
+##########
+Please find the identifiers used in the function below.
+poll controlSessionId correlationId relevantId templateId errorMessage pollComplete subscription controlledPoll fragmentAssembler fragmentLimit
+##########
+Please find the identifiers used in the function below.
+parseTagFileDirectives pc name path tagLibInfo JasperException err getCompiler getErrorDispatcher page e jspError tagFileVisitor visit postCheck getTagInfo
+##########
+Please find the identifiers used in the function below.
+executeAlterTableAddPartitionQuery qualifiedTableName partitionNameValueMap partitionTypeMap partitionPath StageException sql buildPartitionAdditionQuery execute
+##########
+Please find the identifiers used in the function below.
+values
+##########
+Please find the identifiers used in the function below.
+printDeclarations classTaxonomy objectFactory writer IOException classes getNodes size classNode clazz getIri equals PredefinedElkIris OWL_THING OWL_NOTHING add Collections sort CLASS_COMPARATOR decl getDeclarationAxiom OwlFunctionalStylePrinter append
+##########
+Please find the identifiers used in the function below.
+getDroolsBreakpoint source iterator getBreakpoints hasNext element next getDialectName equals l matchLine getLineNumber matchSource getRuleName getFileRuleMappings containsKey e logError
+##########
+Please find the identifiers used in the function below.
+T lastOf List list Sort sorts size Sorting sort get
+##########
+Please find the identifiers used in the function below.
+getServiceSpecial path ss startsWith
+##########
+Please find the identifiers used in the function below.
+getBounds stretchedPt x anchorPt y Math abs
+##########
+Please find the identifiers used in the function below.
+setTarget target assertTargetIsNotDefined targetInputStream ClassLoaderUtil getClassAsStream getName targetClass targetClassName ioex StreamUtil close _this
+##########
+Please find the identifiers used in the function below.
+replaceContentWith newContentFile IOException acquireWriteLock close Files copy osFile StandardCopyOption REPLACE_EXISTING open releaseWriteLock
+##########
+Please find the identifiers used in the function below.
+distanceSq pt indexX indexY countX countY MAX_DOUBLE gtest gridArray used rect objectBB dx getX getWidth dy getY getHeight
+##########
+Please find the identifiers used in the function below.
+validateAgaintIPAdressV4Format input hitDots data toCharArray i length c b
+##########
+Please find the identifiers used in the function below.
+addHeader name value valuesList getAll isEmpty add remove addAll
+##########
+Please find the identifiers used in the function below.
+isSun currentDate getSun getNeverRise getNeverSet timeWithinPeriod
+##########
+Please find the identifiers used in the function below.
+getFilter mods matches d getModifiers containsAll
+##########
+Please find the identifiers used in the function below.
+_read section IOException InvalidRangeException computeSize getSize isCaching cache data setCachedData debugCaching System out println getFullName sectionNoReduce getRanges copy proxyReader reallyRead
+##########
+Please find the identifiers used in the function below.
+getOptionalChildContent element tagName Exception getElementContent getOptionalChild
+##########
+Please find the identifiers used in the function below.
+generateClass FileNotFoundException JasperException Exception t1 log isLoggable Level FINE System currentTimeMillis javaFileName ctxt getServletJavaFileName setJavaCompilerOptions javacErrors javaCompiler compile getFullClassName pageNodes doJavaFile severe errDispatcher javacError t2 fine keepGenerated isPrototypeMode options isSmapSuppressed smapUtil installSmap jsw getServletClassLastModifiedTime setServletClassLastModifiedTime getClassLastModified getSaveBytecode saveClassFile getClassFileName getRuntimeContext adjustBytecodeTime jspModTime
+##########
+Please find the identifiers used in the function below.
+isGzipEligible request requestParameterName length forceGzipString getParameter Converter get toBooleanValue uri getRequestURI toLowerCase result matches extensions extension FileNameUtil getExtension StringUtil equalsOne wildcards Wildcard matchPathOne match contains excludes exclude
+##########
+Please find the identifiers used in the function below.
+get index originalSize original size pageSize result subList
+##########
+Please find the identifiers used in the function below.
+parseStringContent quote startNdx ndx c input textLen growEmpty System arraycopy text str parseUnicode looseMode syntaxError growAndCopy
+##########
+Please find the identifiers used in the function below.
+makeTargets actionTarget methodParams target length action value i methodParam paramType type paramTarget annotationType newScopeData scopeData inspector inspectClassScopesWithCache Target ofValue createActionMethodArgument ofMethodParam
+##########
+Please find the identifiers used in the function below.
+decoratePreProcessor processor criteria decorated Override process resource reader writer callbackRegistry onBeforePreProcess onAfterPreProcess injector inject
+##########
+Please find the identifiers used in the function below.
+deleteById entity result query dbOom entities autoClose executeUpdate type getClass ded entityManager lookupType setEntityId
+##########
+Please find the identifiers used in the function below.
+xunescapeString in escape spaceplus utf8 getBytes utf8Charset escape8 out length index8 i b plus blank fromHex e
+##########
+Please find the identifiers used in the function below.
+getPixelValues imageBytes reader validateImageType pixels imgInfo cols rows rowNumber hasMoreRows row readRowInt rowValues getScanline System arraycopy length close
+##########
+Please find the identifiers used in the function below.
+throttleQueries timeLastQuerySent difference System currentTimeMillis minDelayBetweenQueries
+##########
+Please find the identifiers used in the function below.
+saveRecord iRecord iClusterName iMode iForceCreate iRecordCreatedCallback iRecordUpdatedCallback database saveAll e rid getIdentity isValid getLocalCache freeRecord OException wrapException
+##########
+Please find the identifiers used in the function below.
+queryParam name value encode StringUtils isNotEmpty URLEncoder e params add
+##########
+Please find the identifiers used in the function below.
+lookupLink name NamingException
+##########
+Please find the identifiers used in the function below.
+checkAndResolveToFixity candidate fixities SourceCodeException result fixity getPossibleOperators get Arrays toString getSourceCodePosition
+##########
+Please find the identifiers used in the function below.
+load_arg index load_local state argumentTypes localOffset skipArgs
+##########
+Please find the identifiers used in the function below.
+getOrCreate geoPackage metadata get setName create
+##########
+Please find the identifiers used in the function below.
+getHeader headerB append Format tab toString
+##########
+Please find the identifiers used in the function below.
+getCfLocations needsReRun locationMap clear pathSep System getProperty classpath st file hasMoreTokens path nextToken include
+##########
+Please find the identifiers used in the function below.
+extends Aggregate List Batch U getBatches list partitionSize partitions Lists partition split add
+##########
+Please find the identifiers used in the function below.
+retrieveUserToken url username password response loginJson put ClientBuilder newClient target register request post Entity json getStatus Response Status OK getStatusCode Utils format readEntity close getHeaderString SSOConstants X_USER_AUTH_TOKEN
+##########
+Please find the identifiers used in the function below.
+profileExists profileName result component getProfileEntityFramework findProfile getProfileTableName logger isDebugEnabled debug
+##########
+Please find the identifiers used in the function below.
+signalOnSizeThresholdCrossing oldSize newSize signalable lowWaterSizeThreshold signalAll highWaterSizeThreshold signal
+##########
+Please find the identifiers used in the function below.
+start reset running System currentTimeMillis
+##########
+Please find the identifiers used in the function below.
+generateSubjectAccessReview namespace verb resource objectNode objectMapper createObjectNode put KIND toString
+##########
+Please find the identifiers used in the function below.
+map2bean map targetType target className get classMetadataName checkClassName jsonParser classnameWhitelist ClassLoaderUtil loadClass cnfex newObjectInstance cd ClassIntrospector lookup getClass targetIsMap key keySet keyName toString equals pd getPropertyDescriptor declared value propertyType getType componentType resolveComponentType generifyList ClassUtil isTypeOf keyType resolveKeyType generifyMap put setValue ignore printStackTrace
+##########
+Please find the identifiers used in the function below.
+Override findXYindexFromLatLonBounded lat lon result dataProjection getProjection pp latLonToProj findXYindexFromCoordBounded getX getY
+##########
+Please find the identifiers used in the function below.
+of k1 v1 builder put build
+##########
+Please find the identifiers used in the function below.
+escapeSpecialCharsWithinTagAttributes text tokens tokenizeHTML newText token value getText isTag replaceAll CHAR_PROTECTOR encode append
+##########
+Please find the identifiers used in the function below.
+printXMLAttributes node ce flags IOException PERLINE printer indent name getShortName NONAME printXMLAttribute getSort DATASET dataset getDapVersion getDMRVersion DIMENSION orig isShared actual getRedefDim size getSize Long toString ENUMERATION getBaseType getTypeName VARIABLE var basetype isEnumType ATTRIBUTE attr testing printReserved outdent
+##########
+Please find the identifiers used in the function below.
+keySet
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings userEncountered descriptors add CommonEvents Descriptors NOT_INTERRUPT known fireUnknownIfNotPresent present firstPresent strict strictPresent lastSeen until LocalDateTime now ChronoUnit SECONDS presenceEvent IdentificationManagerM getInstance getIdentification flatMap id PresenceEvent createPresenceEvent map event addEventLifeCycleListener EventLifeCycle APPROVED lifeCycle isPresent error fire get
+##########
+Please find the identifiers used in the function below.
+shutdown memcachedClient isShutdown eParam getMessage
+##########
+Please find the identifiers used in the function below.
+setParam field value Condition EQ
+##########
+Please find the identifiers used in the function below.
+parseCommentToMap cellKey newComment sheetCommentMap normalComment trim isEmpty commentKey TieConstants NORMAL_COMMENT_KEY_IN_MAP substring indexOf EL_START_BRACKET map get put
+##########
+Please find the identifiers used in the function below.
+search initSearch startStates maxSteps searchSteps SearchNotExhaustiveException bound startBound maxBound numStepsSoFar getStepsTaken resetEnqueuedOnceFlag node e useEpsilon epsilon getMinBeyondBound
+##########
+Please find the identifiers used in the function below.
+deleteFlow flowParam serviceTicket setServiceTicket postJson WS Path Flow Version1 flowDelete
+##########
+Please find the identifiers used in the function below.
+toPostProcessors preProcessorsMap map entry entrySet put getKey getValue
+##########
+Please find the identifiers used in the function below.
+isValidFile raf order RandomAccessFile LITTLE_ENDIAN seek data readShort ioe System out println toString
+##########
+Please find the identifiers used in the function below.
+getCharsetFromBOM byteData bomIn bom getBOM getCharsetName e
+##########
+Please find the identifiers used in the function below.
+prepareTemplate prototype domainObject contentInfo template add MODEL_VARIABLE CONTENT_VARIABLE
+##########
+Please find the identifiers used in the function below.
+list path ret res deploymentResourceManager getResource child add p startsWith substring overlays overlay getChild exists vfsResource getPhysicalFile c e
+##########
+Please find the identifiers used in the function below.
+generateDataURI bytes out mimeType IOException buffer append DATA_URI_PREFIX Base64 encodeBytes write toString
+##########
+Please find the identifiers used in the function below.
+setOriginalText v AtomicQueryConcept_Type featOkTst jcasType casFeat_originalText jcas throwFeatMissing ll_cas ll_setStringValue addr casFeatCode_originalText
+##########
+Please find the identifiers used in the function below.
+commonSubmitterQueue p common r ThreadLocalRandomHelper getProbe ws m workQueues length SQMASK
+##########
+Please find the identifiers used in the function below.
+Override findXYindexFromCoordBounded x_coord y_coord result horizXaxis horizYaxis findCoordElementBounded g2d result2 findCoordElement
+##########
+Please find the identifiers used in the function below.
+clearChildren children child setParent clear nodeOrLeaf Type Leaf
+##########
+Please find the identifiers used in the function below.
+getStationKeyNames keys stationKeys isEmpty key add name
+##########
+Please find the identifiers used in the function below.
+putPrivateData type data privateData put
+##########
+Please find the identifiers used in the function below.
+readIntData index v2 IOException var read get1DJavaArray getDataType data getTotalNelems hasNext chunk next System arraycopy getSrcPos getDestElem getNelems Array factory
+##########
+Please find the identifiers used in the function below.
+fromFlatProperties properties props e iLength getI add i lLength getL l dLength getD d getA Nd4j createFromFlatArray a
+##########
+Please find the identifiers used in the function below.
+getProperties url IOException is openStream properties close
+##########
+Please find the identifiers used in the function below.
+changeIndexNumberInHiddenColumn configBuildRef startRowIndex fullName changeMap steps searchName substring lastIndexOf sheet getSheet i getLastRowNum row getRow fname getFullNameFromRow indexOf sindex snum length sufindex suffix increaseNum Integer parseInt realFullName changeName replace get put setFullNameInHiddenColumn
+##########
+Please find the identifiers used in the function below.
+buildWatchListForCell wbWrapper sheetIndex cell watchList lastStaticRow formula getCellFormula ptgs FormulaParser parse FormulaType CELL k length ptg areaInt ShiftFormulaUtility getFirstSupportedRowNumFromPtg addToWatchList setCellType CellType STRING setCellValue TieConstants USER_FORMULA_PREFIX USER_FORMULA_SUFFIX
+##########
+Please find the identifiers used in the function below.
+Override sub other result dup subi
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setLager lager
+##########
+Please find the identifiers used in the function below.
+CheckReturnValue NonNull SchedulerSupport NONE Maybe T fromSingle singleSource ObjectHelper requireNonNull RxJavaPlugins onAssembly
+##########
+Please find the identifiers used in the function below.
+sign requestHandler QSException callBack signed onSignature getStringToSignature QSStringUtil isEmpty setSignature onAccessKey correctTime onCorrectTime trim length getBuilder setHeader QSConstant HEADER_PARAM_KEY_DATE
+##########
+Please find the identifiers used in the function below.
+put cls attr val map values containsKey get
+##########
+Please find the identifiers used in the function below.
+setList rowList list size jtable setRowSelectionInterval clearSelection model sort revalidate
+##########
+Please find the identifiers used in the function below.
+dumpClassInDebugFolder bytes debugFolder proxetta getDebugFolder exists isDirectory log warn fileName proxyClassName System currentTimeMillis file FileUtil writeBytes ioex
+##########
+Please find the identifiers used in the function below.
+write os IOException requestBodyWriter inputRead is reset writeRequestBody
+##########
+Please find the identifiers used in the function below.
+of classLoader clazz getClassLoader urls urlClassLoader getURLs url classModuleUrl add getParent toArray
+##########
+Please find the identifiers used in the function below.
+T copyOf original Arrays length
+##########
+Please find the identifiers used in the function below.
+on string enabled sb prefix append suffix toString
+##########
+Please find the identifiers used in the function below.
+onRequestResult serverExchange connection allowed connectionPools get getIoThread release context removeAttachment AUTH_CONTEXT_KEY apiLatency update getClientResponseTime NANOSECONDS authLatency getLatency dispatch containerHandler endExchange FORBIDDEN
+##########
+Please find the identifiers used in the function below.
+deleteTemporaryFiles dir getTmpDir filter accept name endsWith HUMBLE_TEMP_EXTENSION markers listFiles marker markerName getName libName substring length lib getParentFile exists delete
+##########
+Please find the identifiers used in the function below.
+searchForward match maxBytes IOException start getFilePointer last length Math min needToScan bytesAvailable dataEnd filePosition seek bufStart bufferStart scanBytes pos indexOf buffer matchLen getMatchLength readBuffer
+##########
+Please find the identifiers used in the function below.
+CheckReturnValue NonNull UnicastSubject T create bufferSize
+##########
+Please find the identifiers used in the function below.
+dirDepth path stringPath getPath length replaceAll
+##########
+Please find the identifiers used in the function below.
+getCtorDescriptor args ctors ctorDescriptor allCtors arg getParameters length j
+##########
+Please find the identifiers used in the function below.
+createCommandResource provider command capabilities context commandResource verifyCommand getLogger error Optional empty verifyCapabilities of
+##########
+Please find the identifiers used in the function below.
+rotateImage src degree matrix postRotate bmp Bitmap createBitmap getWidth getHeight
+##########
+Please find the identifiers used in the function below.
+computeNewImageLocation cssUri imageUrl LOG debug cleanImageUrl idxLastSeparator lastIndexOf ServletContextUriLocator PREFIX ClasspathUriLocator isValid length cssUriFolder substring processedImageUrl startsWith computedImageLocation cleanPath
+##########
+Please find the identifiers used in the function below.
+withApiKey api_key api_secret
+##########
+Please find the identifiers used in the function below.
+memCacheImage url bitmap debug Log d TAG memCache putElement
+##########
+Please find the identifiers used in the function below.
+getAllCookies request cookieName cookies getCookies list length cookie getName equals add isEmpty toArray
+##########
+Please find the identifiers used in the function below.
+closeAll closeDatabases openDatabases mm debug System out println collectionName close myEnv logger info dbe error
+##########
+Please find the identifiers used in the function below.
+verifyCapabilities command capabilities PLAY hasPlayPauseControl PAUSE SELECT_TRACK isAbleToSelectTrack NEXT hasNextPrevious PREVIOUS JUMP isAbleToJump CHANGE_PLAYBACK isPlaybackChangeable CHANGE_VOLUME canChangeVolume STOP
+##########
+Please find the identifiers used in the function below.
+getPageScope info names pageContext getAttributeNamesInScope PageContext PAGE_SCOPE hasMoreElements name nextElement value getAttribute put toStringValue toHTMLTable
+##########
+Please find the identifiers used in the function below.
+getErrorMessage e messageBuilder current append getMessage getCause toString
+##########
+Please find the identifiers used in the function below.
+push obj isFull size objects length grow
+##########
+Please find the identifiers used in the function below.
+timestamp time aLDT PDTFactory getCurrentLocalDateTime aOld createLocalDateTime toLocalTime toString Duration between
+##########
+Please find the identifiers used in the function below.
+setDataTablePage first parent getWebFormClientId d FacesContext getCurrentInstance getViewRoot findComponent setFirst
+##########
+Please find the identifiers used in the function below.
+importResource resourceModel resource getResource data length get lengthDescriptor knownPosition knownPositionDescriptor knownTimestamp knownMillisTimeStampDescriptor Optional of e empty
+##########
+Please find the identifiers used in the function below.
+remove isUninstall SLEEException logger isTraceEnabled trace profileTableName profileID getProfiles removeProfile getProfileName getDefaultProfileEntity commitAction execute traceMBeanImpl sleeContainer getTraceManagement deregisterNotificationSource closeUncommittedProfileMBeans getTransactionManager getTransactionContext getAfterCommitActions add getSleeState SleeState RUNNING endActivity unregisterUsageMBean profileManagement getObjectPoolManagement removeObjectPool
+##########
+Please find the identifiers used in the function below.
+consume line index inComment endComment startComment substring
+##########
+Please find the identifiers used in the function below.
+isChildOf that parent
+##########
+Please find the identifiers used in the function below.
+restoreValues ob values NoSuchFieldException obClass getClass propName keySet nextValue get paramValue paramType multiValue setterTypes ReflectionUtils findMatchingSetters TypeConverter bestMatchingConversion convert setterMethod upperPropertyName Character toUpperCase charAt substring getMethod params invoke e
+##########
+Please find the identifiers used in the function below.
+getTypes Concept_Type featOkTst jcasType casFeat_types jcas throwFeatMissing ll_cas ll_getFSForRef ll_getRefValue addr casFeatCode_types
+##########
+Please find the identifiers used in the function below.
+logDetails isValid LOG warn name unparseablePaths isEmpty path versionCollisions entry entrySet getKey StringUtils join getValue keySet versionEntry dependency getSourceName
+##########
+Please find the identifiers used in the function below.
+getCustomLocation metadataRecord HiveStageCheckedException get SEP VERSION getValueAsInteger DEFAULT_CUSTOM_LOCATION has CUSTOM_LOCATION getValueAsBoolean Errors HIVE_17
+##########
+Please find the identifiers used in the function below.
+findAlias varName aliases alias get
+##########
+Please find the identifiers used in the function below.
+Override read inputStream type IOException json parse e getMessage
+##########
+Please find the identifiers used in the function below.
+createEndedEvent source stopRequest Optional of e empty
+##########
+Please find the identifiers used in the function below.
+getImageDescriptor id retVal getDefault getImageRegistry getDescriptor loadImageDescriptor put
+##########
+Please find the identifiers used in the function below.
+addDateField fldName label defValue fld storeData addField
+##########
+Please find the identifiers used in the function below.
+setStyleDefault featureRow style setStyle getTable getTableName getId
+##########
+Please find the identifiers used in the function below.
+save pojo ctx translator Path root get ex
+##########
+Please find the identifiers used in the function below.
+passReserved map node ParseException attr entry entrySet event getValue key getKey value isReserved addXMLAttribute de
+##########
+Please find the identifiers used in the function below.
+le name value Operator LESS_OR_EQUALS_THAN
+##########
+Please find the identifiers used in the function below.
+verify password hash h Arrays copyOf HASH_LENGTH SALT_LENGTH n r p N N_MIN R R_MIN P P_MIN salt System arraycopy expected result i length
+##########
+Please find the identifiers used in the function below.
+Override put key singleValue getCollatingValue words splitIntoWords toString word acquireSharedLock apiVersion doPutV0 doPutV1 releaseSharedLock
+##########
+Please find the identifiers used in the function below.
+secured securedMatcher and Matchers hasProperty
+##########
+Please find the identifiers used in the function below.
+scan current IOException scanInternal ex ThreadUtil sleep
+##########
+Please find the identifiers used in the function below.
+runInTheSql database sql getDatabaseJdbcTemplate update
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings convertToCollection value destinationType componentType typeConverterManager
+##########
+Please find the identifiers used in the function below.
+convexHull points hull array size i get andrew process length
+##########
+Please find the identifiers used in the function below.
+verify eventModel player containsDescriptor StopMusic ID SelectorResource isTarget orElse
+##########
+Please find the identifiers used in the function below.
+reloadCacheWithNewValue newValue newValueAsPrimitive getCacheUpdatePeriod LOG debug cacheUpdatePeriodListeners size listener event propertyChange
+##########
+Please find the identifiers used in the function below.
+Nullable get d resource DisposableHelper DISPOSED Disposables disposed
+##########
+Please find the identifiers used in the function below.
+addJarsToJob conf allowMultiple jarPatterns loader getClassLoader String format getCanonicalName getClass urlClassLoader getURLs
+##########
+Please find the identifiers used in the function below.
+createClass className interfaces Exception clazz classPool makeClass length setInterfaces get
+##########
+Please find the identifiers used in the function below.
+parseArgs properties args i length AppUtilities addParam
+##########
+Please find the identifiers used in the function below.
+Override onClientError request statusCode message onBadRequest onForbidden onNotFound onOtherClientError
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings Override extends void createKeyIndex key elementClass indexParameters makeActive ExceptionFactory classForElementCannotBeNull executeOutsideTx call g indexType OClass INDEX_TYPE NOTUNIQUE name keyType OType STRING className collate metadata ancestorClassName getClassName p getKey equals getValue toString toUpperCase Locale ENGLISH valueOf startsWith field substring length db getRawGraph schema getMetadata getSchema cls getOrCreateClass getClass property getProperty getType indexDefinition setCollate getIndexManager createIndex getPolymorphicClusterIds getSimpleName
+##########
+Please find the identifiers used in the function below.
+countBits total_nbits total_nbytesCDM dd subKeys f bitWidth getByteWidthCDM replication
+##########
+Please find the identifiers used in the function below.
+addClassChecks target list cache get newList cd ClassIntrospector lookup allProperties getAllPropertyDescriptors propertyDescriptor collectPropertyAnnotationChecks addAll
+##########
+Please find the identifiers used in the function below.
+builder Override build properties
+##########
+Please find the identifiers used in the function below.
+poll timeout unit StageException queue e LOG error Errors MYSQL_001 getMessage toString Thread currentThread interrupt
+##########
+Please find the identifiers used in the function below.
+getObject index obj list get Objects deref
+##########
+Please find the identifiers used in the function below.
+fromString content charset ByteString Optional of
+##########
+Please find the identifiers used in the function below.
+getBrowserBillingAgreementConfig recipe mBillingAgreementRecipesInDecreasingPriorityOrder getTarget RequestTarget browser
+##########
+Please find the identifiers used in the function below.
+Override upgradeFromPreviousVersion doc setDocumentVersion KyeroVersion V3 removeCustomElements getDocument ex LOGGER error getLocalizedMessage upgradeNewBuildElements upgradeTypeElements upgradeCurrencyElements upgradeUrlElements
+##########
+Please find the identifiers used in the function below.
+findByName name empty id manager accessCall KEY_STORAGE channels mapToId findById
+##########
+Please find the identifiers used in the function below.
+cookie type name parameter apply cookies context request getCookies getName equals getValue map key startsWith put isEmpty values
+##########
+Please find the identifiers used in the function below.
+addLockEntry lockentry addChild root childNames locktype appendChild result e Assert isTrue Policy bind
+##########
+Please find the identifiers used in the function below.
+isInTransaction tsr getTransactionSynchronizationRegistry inTx getTransactionStatus Status STATUS_ACTIVE
+##########
+Please find the identifiers used in the function below.
+shutdown shutdownFlag compareAndSet LogManager getLogManager ignore
+##########
+Please find the identifiers used in the function below.
+given name value
+##########
+Please find the identifiers used in the function below.
+getPositionsFromEmbeddedCollection bytes serializerVersion retList numberOfElements OVarIntSerializer readAsInteger readByte i dataType readOType fieldStart offset fieldInfo fieldStartOffset fieldType deserializeValue fieldLength add
+##########
+Please find the identifiers used in the function below.
+fadeDown duration mContainer clearAnimation anim mMinWidth Override applyTransformation width overlapViews setDuration startAnimation
+##########
+Please find the identifiers used in the function below.
+getTimeStepsPerFile filename chsubs ch contains subString numTimes startTimeIndex timeStepsPerFile
+##########
+Please find the identifiers used in the function below.
+addSessionId channel sessionId channelUri ChannelUri parse put CommonContext SESSION_ID_PARAM_NAME Integer toString
+##########
+Please find the identifiers used in the function below.
+containsAxis axisName ca coordAxes getFullName equals
+##########
+Please find the identifiers used in the function below.
+output content console filename IOException equals info outgoing create write getBytes StandardCharsets UTF_8 close
+##########
+Please find the identifiers used in the function below.
+Generated value date comments setBlick blick
+##########
+Please find the identifiers used in the function below.
+readFileToByteArray filename IOException fin in readContentsToByteArray
+##########
+Please find the identifiers used in the function below.
+synchronizeAllWithDb documents getAllFromDesk dd synchronizeWithDb
+##########
+Please find the identifiers used in the function below.
+Override getId rawElement vOut getIdentity vIn setCurrentGraphInThreadLocal
+##########
+Please find the identifiers used in the function below.
+resolveSchemaAccess requestedSchema fileSchema configuration getBoolean PARQUET_COLUMN_INDEX_ACCESS listColumns getColumns get IOConstants COLUMNS requestedTypes t getFields index indexOf getName add getType
+##########
+Please find the identifiers used in the function below.
+appendBytes dest data off len IOException outBytes
+##########
+Please find the identifiers used in the function below.
+getAllUniqueInterfaces c uniqueIfaces ifaces getInterfaces n length add getSuperclass toArray size
+##########
+Please find the identifiers used in the function below.
+setQuery v Search_Type featOkTst jcasType casFeat_query jcas throwFeatMissing ll_cas ll_setStringValue addr casFeatCode_query
+##########
+Please find the identifiers used in the function below.
+processFrameIsFin webSocketImpl frame InvalidDataException currentContinuousFrame log trace CloseFrame PROTOCOL_ERROR addToBufferList getPayloadData checkBufferLimit getOpcode Opcode TEXT setPayload getPayloadFromByteBufferList isValid getWebSocketListener onWebsocketMessage Charsetfunctions stringUtf8 e logRuntimeException BINARY clearBufferList
+##########
+Please find the identifiers used in the function below.
+geColorFromSpPr index ctSpPr themeTable isLineColor colorFill getLn getSolidFill ex LOG log Level FINE xcolor findAutomaticFillColor getXColorWithAutomaticFill
+##########
+Please find the identifiers used in the function below.
+getPublicId otp length OTP_MIN_LEN len substring toLowerCase
+##########
+Please find the identifiers used in the function below.
+filter7bits s bo length count i c charAt
+##########
+Please find the identifiers used in the function below.
+ticksWithSecondsSetTo ticks seconds oldSeconds ticksToSeconds MILLIS_PER_SECOND
+##########
+Please find the identifiers used in the function below.
+visitAnnotation descriptor visible cv
+##########
+Please find the identifiers used in the function below.
+getMd5 text md MessageDigest getInstance utf8Bytes getBytes UTF_8_NAME update length md5hash digest radix result append toString zeroBeginLen zeroBegin Arrays fill Character forDigit insert e
+##########
+Please find the identifiers used in the function below.
+detachSbbEntity sbbEntityId detached cacheData acReferencesHandler isEnding sbbeReferenceRemoved logger isTraceEnabled trace getActivityContextHandle
+##########
+Please find the identifiers used in the function below.
+setContentIdFromNameIfMissing contentId name FileNameUtil getName NO_NAME
+##########
+Please find the identifiers used in the function below.
+writeDecoratedPage out decoratorContent pageContent decoraTags IOException ndx decoraTag decoratorLen getStartIndex write getEndIndex regionLen getRegionLength hasDefaultValue getDefaultValueStart getDefaultValueLength writeRegion length
+##########
+Please find the identifiers used in the function below.
+getTagHandlerClassName path err JasperException className begin index lastIndexOf jspError indexOf WEB_INF_TAGS length META_INF_TAGS makeJavaPackage substring
+##########
+Please find the identifiers used in the function below.
+tombstoneEntry leadershipTermId entryIndex index i size entries entry get ENTRY_TYPE_TERM type indexByLeadershipTermIdMap remove buffer putInt NULL_VALUE LITTLE_ENDIAN byteBuffer limit SIZE_OF_INT position filePosition ENTRY_LENGTH ENTRY_TYPE_OFFSET fileChannel write ex LangUtil rethrowUnchecked
+##########
+Please find the identifiers used in the function below.
+setIconDefault featureRow icon setIcon getTable getTableName getId
+##########
+Please find the identifiers used in the function below.
+isMethodLevel methodIntf method defaultMethodIntf classMethod resolveRealMethod methodParams MethodInfoHelper getCanonicalParameterTypes methodName getName className getDeclaringClass methodParamsKey attr get perViewStyle3 perViewStyle2 perViewStyle1 style3 style2 style1
+##########
+Please find the identifiers used in the function below.
+createErrorResponse call errorFactory e isSuccessful
+##########
+Please find the identifiers used in the function below.
+decreaseProperty entityType id name delta query dbOom entities increaseColumn autoClose executeUpdate
+##########
+Please find the identifiers used in the function below.
+acquireLoginManager loginType configs IOException LoginException loginManager CACHED_INSTANCES get put acquire
+##########
+Please find the identifiers used in the function below.
+and f f1 f2 matches d
+##########
+Please find the identifiers used in the function below.
+setIcons featureTable featureId icons deleteIcons getDefault setIconDefault icon getIcons entrySet setIcon getKey getValue
+##########
+Please find the identifiers used in the function below.
+newDeployment unit WSLogger ROOT_LOGGER tracef deploymentRoot getAttachment Attachments DEPLOYMENT_ROOT root getRoot classLoader module MODULE CLASSLOADER_KEY classLoaderResolutionFailed getClassLoader parentDep getParent parentModule getName uvf dep addAttachment
+##########
+Please find the identifiers used in the function below.
+getRegisterSASLMechanisms answer mechanismsPreference mechanismsPreferences add implementedMechanisms get
+##########
+Please find the identifiers used in the function below.
+setOfflinePresences packetUnavailable user presenceMap keySet resources get resource Presence Type unavailable setFrom presencePacketListener processPacket
+##########
+Please find the identifiers used in the function below.
+stop timeout InterruptedException isclosed compareAndSet socketsToClose connections ws close CloseFrame GOING_AWAY wsf selectorthread selector wakeup join
+##########
+Please find the identifiers used in the function below.
+extends Exception throwIfInstance t excClass E isAssignableFrom getClass cast
+##########
+Please find the identifiers used in the function below.
+createJsonConfiguration prettyPrint shareReferences
+##########
+Please find the identifiers used in the function below.
+addModelTransformer modelTransformer modelTransformers add
+##########
+Please find the identifiers used in the function below.
+getChartType ctChart plotArea getPlotArea chartType ChartType values isThisType
+##########
+Please find the identifiers used in the function below.
+getCountryName country language StringUtils trimToNull iso2Code LocaleUtils getCountryISO2 name getDisplayCountry
+##########
+Please find the identifiers used in the function below.
+gru baseName configuration outputVariables
+##########
+Please find the identifiers used in the function below.
+getOffsetInBeginSection Passage_Type featOkTst jcasType casFeat_offsetInBeginSection jcas throwFeatMissing ll_cas ll_getIntValue addr casFeatCode_offsetInBeginSection
+##########
+Please find the identifiers used in the function below.
+insertValue any type insert_wstring value Util insertAnyPrimitive
+##########
+Please find the identifiers used in the function below.
+col2im col sy sx ph pw h w rank output Nd4j create size col2Im Col2Im builder inputArrays outputs conv2DConfig Conv2DConfig dw dh kh kw build getExecutioner exec outputArguments
+##########
+Please find the identifiers used in the function below.
+write in IOException readCount inBufferPos count filledBufferSum n read currentBuffer length needNewBuffer
+##########
+Please find the identifiers used in the function below.
+DM_RPKG isword nword decimalScale IOException data ipktyp DM_RINT iiword lendat MDGNON DM_RFLT iiw irw MDGDIF MDGRB2 iarray rarray unpackGrib2Data nbits misflg miss kxky kx ref scale difmin unpackData
+##########
+Please find the identifiers used in the function below.
+V reverse source target i keySet iterator hasNext key next value get put
+##########
+Please find the identifiers used in the function below.
+enabledCipherSuites supportedCipherSuites defaultCipherSuites OptionHelper isEmpty getIncludedCipherSuites getExcludedCipherSuites Arrays copyOf length includedStrings cipherSuite addInfo
+##########
+Please find the identifiers used in the function below.
+replaceWithMappedTypeForPath target mappings newType altPath path getAltPath equals get
+##########
+Please find the identifiers used in the function below.
+roll newDataWindowEndTimeMillis Utils checkState started stopped dataProvider
+##########
+Please find the identifiers used in the function below.
+getEffectiveLevel result level effLevel it iterator s hasNext next
+##########
+Please find the identifiers used in the function below.
+login authToken loginViaBasicAuth servletRequest loginViaRequestParams log warn JsonResult of HttpStatus error401 unauthorized info userSession userAuth tokenValue start servletResponse tokenAsJson
+##########
+Please find the identifiers used in the function below.
+maxZoom mBitmapDisplayed getBitmap fw getWidth mThisWidth fh getHeight mThisHeight max Math
+##########
+Please find the identifiers used in the function below.
+fadeUp duration mContainer clearAnimation anim mMaxWidth Override applyTransformation width overlapViews setDuration startAnimation
+##########
+Please find the identifiers used in the function below.
+executeBeforeCommitActions beforeCommitActions trace logger executeActions
+##########
+Please find the identifiers used in the function below.
+dumprarcs a s pos sb outchain dumparc append
+##########
+Please find the identifiers used in the function below.
+SuppressWarnings extends ActionFilter filter actionFilterClass filtersManager resolve
+##########
+Please find the identifiers used in the function below.
+set index length rank prefixrank hasvlen System arraycopy current
+##########
+Please find the identifiers used in the function below.
+makeStaticInitBlock wd adviceClinits mv dest visitMethod AsmUtil ACC_STATIC CLINIT DESC_VOID visitCode name visitMethodInsn INVOKESTATIC thisReference visitInsn RETURN visitMaxs visitEnd
+##########
+Please find the identifiers used in the function below.
+main args Exception length System err println getName exit module Class forName newInstance injector Guice createInjector manage out Thread sleep Long MAX_VALUE
+##########
+Please find the identifiers used in the function below.
+getPropertyAsLong propName prop getProperty Long valueOf
+##########
+Please find the identifiers used in the function below.
+nextPacket packet done queue poll wait ie
+##########
+Please find the identifiers used in the function below.
+orderedCopy srcPos data destPos length segmentSize log2OfSegmentSize remainingBytesInSegment bitmask dataPosition segment segments bytesToCopyFromSegment Math min
+##########
+Please find the identifiers used in the function below.
+selectNodes path node
+##########
+Please find the identifiers used in the function below.
+verifyConfigProperties newProperties InvalidConfigurationException doTraceLogs logger trace configProperty configProperties getProperties getProperty getName addProperty entityProperty getValue object raVerifyConfiguration
+##########
+Please find the identifiers used in the function below.
+setStationInfo stnIdVName stnDescVName stationVar ncfile findVariable stationIdType getDataType
+##########
+Please find the identifiers used in the function below.
+createGetSbbActivityContextInterfaceMethod activityContextInterface concreteActivityContextInterfaceClass DeploymentException methodToAdd getName methodTest CtNewMethod make sbbConcreteClass addMethod logger isTraceEnabled trace e getMessage
+##########
+Please find the identifiers used in the function below.
+writeColumnChunk descriptor valueCount compressionCodecName dictionaryPage bytes uncompressedTotalPageSize compressedTotalPageSize totalStats columnIndexBuilder offsetIndexBuilder rlEncodings dlEncodings dataEncodings IOException startColumn state write writeDictionaryPage LOG debug out getPos headersSize size uncompressedLength compressedLength firstPageOffset writeAllTo encodingStatsBuilder addDataEncodings isEmpty withV2Pages currentEncodings addAll currentStatistics endColumn
+##########
+Please find the identifiers used in the function below.
+reset agentTypes goalTypes planTypes agents beliefbase eventHandlers
+##########
+Please find the identifiers used in the function below.
+of cal year monthOfYear dayOfMonth hourOfDay minuteOfHour secondOfMinute base Calendar getChronology dt isDefaultChronology withChronology withZone DateTimeZone UTC
+##########
+Please find the identifiers used in the function below.
+returnString contents res IOException out getOutputStream IO copy getBytes CDM utf8Charset e log error sendError HttpServletResponse SC_NOT_FOUND getMessage
+##########
+Please find the identifiers used in the function below.
+addViewInterceptor interceptorFactory priority method proxyFactory getCachedMethods
+##########
+Please find the identifiers used in the function below.
+getCandidateAnswers i SearchResult_Type featOkTst jcasType casFeat_candidateAnswers jcas throwFeatMissing checkArrayBounds ll_cas ll_getRefValue addr casFeatCode_candidateAnswers ll_getFSForRef ll_getRefArrayValue
+##########
+Please find the identifiers used in the function below.
+validatePageSize pageSize PAGE_MIN_SIZE PAGE_MAX_SIZE BitUtil isPowerOfTwo
+##########
+Please find the identifiers used in the function below.
+run toRemove idle removeInactiveAgents addActiveAgents i activeAgents agent GlobalState agents get agentExecutionStack getExecutionStack isStackValid add node size managePlan manageGoal nextActiveStack removeFinishedAgents waitOnExternalMessage shutdown logger debug poolid
+##########
+Please find the identifiers used in the function below.
+isRadialCoordSys parseInfo cs getAzimuthAxis getRadialAxis getElevationAxis
+##########
+Please find the identifiers used in the function below.
+findPoint lat1 lon1 az dist result defaultEarth
+##########
+Please find the identifiers used in the function below.
+consumeData mat dataStream runFold ByteString empty concat
+##########
+Please find the identifiers used in the function below.
+onStorageUnregistered iStorage storageURL getURL lock poolToClose e pools entrySet pos getKey indexOf dbName substring equals add pool remove unlock
+##########
+Please find the identifiers used in the function below.
+section r1 r2 InvalidRangeException add
+##########
+Please find the identifiers used in the function below.
+sendDispositionHeader out IOException DEBUG Log v TAG write CONTENT_DISPOSITION_BYTES QUOTE_BYTES EncodingUtils getAsciiBytes getName
+##########
+Please find the identifiers used in the function below.
+initialize LearningFailureException inputExamples isEmpty outputPropertiesSet addGoalProperty inputPropertiesSet example iterator next allProperties getComponentType getAllPropertyNames inputProperties removeAll outputProperties properties errorMessage inputProperty contains outputProperty equals
+##########
+Please find the identifiers used in the function below.
+writeDouble pa start n IOException i
+##########
+Please find the identifiers used in the function below.
+createFileObserver path FileObserver CREATE DELETE MOVED_FROM MOVED_TO Override onEvent event debug activity getActivity runOnUiThread run refreshDirectory
+##########
+Please find the identifiers used in the function below.
+putByte byteValue currentLength length data enlarge
+##########
+Please find the identifiers used in the function below.
+getNextDevice threadId device CudaEnvironment getInstance getConfiguration isForcedSingleGPU getNumberOfDevices getAvailableDevices get devPtr getAndIncrement size set logger debug
+##########
+Please find the identifiers used in the function below.
+addGrantedAuthorityCollection result value add getClass getName
+##########
+Please find the identifiers used in the function below.
+findCoordNameByType ds atype coordAxis findCoordByType getFullName
+##########
+Please find the identifiers used in the function below.
+getValue uu Double NaN offset getScale
+##########
+Please find the identifiers used in the function below.
+stringReplace str oldStr newStr result pos indexOf substring
+##########
+Please find the identifiers used in the function below.
+KeyRange T allocate incompleteKey num allocations Arrays fill typedKeys datastore allocateId stream map Key create collect Collectors toList
+##########
+Please find the identifiers used in the function below.
+isDriverActive directory driverTimeoutMs logger cncFile CncFileDescriptor CNC_FILE exists length accept cncByteBuffer IoUtil mapExistingFile unmap
+##########
+Please find the identifiers used in the function below.
+getFilenames result file fileMap values add getPath Collections sort
+##########
+Please find the identifiers used in the function below.
+safeCopy reader writer IOException IOUtils copy closeQuietly
+##########
+Please find the identifiers used in the function below.
+lexstart RegexException prefixes v cflags Flags REG_QUOTE REG_ADVANCED REG_EXPANDED REG_NEWLINE intocon L_Q REG_EXTENDED L_ERE REG_ADVF L_BRE nexttype Compiler EMPTY next
+##########
+Please find the identifiers used in the function below.
+validate sld SldException parseSldI e
+##########
+Please find the identifiers used in the function below.
+info message t log System out
+##########
+Please find the identifiers used in the function below.
+getPropertyValue propertyId XPOS_PROP equals Integer toString location x YPOS_PROP y HEIGHT_PROP size height WIDTH_PROP width
+##########
+Please find the identifiers used in the function below.
+createFieldParagraphTextPlain routeFieldParam serviceTicket setServiceTicket setTypeAsEnum Field Type ParagraphText setTypeMetaData FieldMetaData PLAIN putJson Version1 routeFieldCreate
+##########
+Please find the identifiers used in the function below.
+getPixelValue imageBytes x y tiffImage TiffReader readTiff directory getFileDirectory validateImageType rasters readRasters pixelValue getFirstPixelSample floatValue
+##########
+Please find the identifiers used in the function below.
+findVertexByData data compare match v verticies values getData
+##########
+Please find the identifiers used in the function below.
+cookies cookie additionalCookies AssertParameter notNull cookieList add Collections addAll
+##########
+Please find the identifiers used in the function below.
+mean points x y z p size
+##########
+Please find the identifiers used in the function below.
+connectionLost reconnecting readerThread isConnected shutdown component connect host port subdomain disconnect start e manager getLog error Thread sleep e1
+##########
+Please find the identifiers used in the function below.
+setOffsetInEndSection v Passage_Type featOkTst jcasType casFeat_offsetInEndSection jcas throwFeatMissing ll_cas ll_setIntValue addr casFeatCode_offsetInEndSection
+##########
+Please find the identifiers used in the function below.
+getSbbIDs componentRepository result buildSbbTree descriptor getRootSbbID
+##########
+Please find the identifiers used in the function below.
+RequestMapping value method RequestMethod GET displayAdminPage RequestParam contactId contact contactManager getById Long valueOf acl aclService readAclById model put
+##########
+Please find the identifiers used in the function below.
+main arg length System out println Localizer getMessage jspc setArgs helpNeeded execute je err getDieLevel NO_DIE_LEVEL exit
+##########
+Please find the identifiers used in the function below.
+asyncDatastore enableGlobalCache entityMemcache registrar isCacheEnabled
+##########
+Please find the identifiers used in the function below.
+getSelected list size sel jtable getSelectedRow get
+##########
+Please find the identifiers used in the function below.
+getCommonDir dir1 dir2 IOException parts1 getParentDirs parts2 matched maxCommonSize Math min size i get equals
+##########
+Please find the identifiers used in the function below.
+cleanupBefore pathname trackerNumber tnum oldDatabaseFile datasetName exists delete catalogInitLog info getAbsolutePath error
+##########
+Please find the identifiers used in the function below.
+restore propertyName propertyNames restoreProperties containsKey System setProperty get clearProperty
+##########
+Please find the identifiers used in the function below.
+isAcceptValid headers accept get HttpHeaders Names ACCEPT Strings isNullOrEmpty contains ACCEPT_ALL toLowerCase MEDIA_TYPE_APPLICATION_JSON
+##########

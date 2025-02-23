@@ -1,0 +1,469 @@
+_id,Summary
+67299dbda23f7e5639814e0e,"The method ""testInternalHttpRequest()"" is a test case for the internal HTTP request handling mechanism of a Java application. It uses various mocking libraries and frameworks, such as Mockito and HttpClient, to simulate the execution of an HTTP request and verify that the expected request is sent to the server. The method also uses the ""ArgumentCaptor"" class from Mockito to capture the actual request being sent to the server and compare it with the expected request. The method is annotated with ""@SuppressWarnings(""unchecked"")"" because the type of the ""requestArgumentCaptor"" variable is not explicitly specified in the code, which causes a warning during compilation."
+67299dbda23f7e5639814e0f,"This method is called when an exception occurs while performing the operation and it tracks the failure by calling ""trackFailure"" with the provided exception object. Finally, it notifies the caller about the occurrence of a failure through ""responseListener.onFailure(this.exception)""."
+67299dbda23f7e5639814e10,This method adds an exception to the list of suppressed exceptions of the current exception object and assigns it as the new value for the exception object variable.
+67299dbda23f7e5639814e11," The method ""restClientSettings()"", in the class, is overriding the settings for the REST client, by adding a basic authentication header with the username ""admin"" and password ""changeme""."
+67299dbda23f7e5639814e12,"This is a Java function called run() with one parameter, ""script"". It takes that string input and returns a result."
+67299dbda23f7e5639814e13, This method runs a container using the provided Distribution and returns an Installation object representing the running container.
+67299dbda23f7e5639814e14,"This method runs a container for the specified distribution by creating and executing a DockerRun object. Then, it waits for Elasticsearch to start before returning an Installation object."
+67299dbda23f7e5639814e15,"The method ""createParameters"" creates an iterable of object arrays to hold various input parameters."
+67299dbda23f7e5639814e16,"This function starts initializing the shards and reroutes them in a given cluster state using an allocation service, which is provided as an argument to the function. It does this by first identifying all of the shards that are currently in an initializing state within the routing node and then passing them to the startShardsAndReroute function, which will start those shards and reroute them accordingly based on the allocation service's recommendations."
+67299dbda23f7e5639814e17,"This is the Java method that connects to a node in the TransportService."
+67299dbda23f7e5639814e18,The public synchronized method stops a randomly selected data node and returns true if successful or false otherwise.
+67299dbda23f7e5639814e19,"This method sets up an instance of TransportService by creating a mock TransportService class with thread pool executor."
+67299dbda23f7e5639814e1a,"This function is responsible for creating a QueryBuilder object that can be used to execute search queries in Elasticsearch. It takes two parameters: queryBuilder, which is the original query builder object, and shardRewriteContext, which represents the current search execution context. The function first calls the rewriteAndFetch method on the queryBuilder object to generate a new query builder object that can be used for searching. This new query builder object is then passed through an assertSerialization method to ensure that it is serializable, and finally returned as the result of the function. Overall, this function serves to ensure that search queries are executed correctly on each shard in the Elasticsearch cluster."
+67299dbda23f7e5639814e1b,"
+The ""assertBusy"" method asserts whether a certain block of code runs for more than 10 seconds, with the possibility that an exception may be thrown in the course of it."
+67299dbda23f7e5639814e1c,"
+The `getPortRange()` method returns a string representation of the port range used by the worker, where the first port is obtained from the `getWorkerBasePort()` method and the last port is computed as the sum of the first port and the number of ports per worker minus one. The method also includes an assertion to ensure that the returned port range falls within a valid private port range."
+67299dbda23f7e5639814e1d, This method returns a FIPS-compliant version of the secure random number generator by creating a SecureRandom object and setting it to generate FIPS-compliant numbers.
+67299dbda23f7e5639814e1e,The function `createIndex` creates an index in Elasticsearch with a given name and returns an instance of `IndexService`.
+67299dbda23f7e5639814e1f,The method adds an unresponsiveness rule to each of the addresses extracted from a transport service.
+67299dbda23f7e5639814e20,"The method ensures the health of the internal test cluster by checking that there are no active disruptions and that the node count is as expected, and also ensuring that the cluster is fully connected. "
+67299dbda23f7e5639814e21,The method is called `waitForPendingTasks` and it awaits until pending tasks are finished. 
+67299dbda23f7e5639814e22," This method checks whether the feature `RestTestLegacyFeatures.FEATURE_STATE_RESET_SUPPORTED` is supported by the cluster and whether ML is enabled or disabled, and returns a boolean indicating whether resetting the feature states is supported or not."
+67299dbda23f7e5639814e23,This is an example method that returns a copy of the REST client's settings.
+67299dbda23f7e5639814e24,"
+The public static method updates cluster settings by passing client() and settings as arguments to another private static method that handles the IO exception."
+67299dbda23f7e5639814e25,"This function is an internal implementation of the dispatching method for a REST request in a Java application. It creates a new instance of a ""FakeRestChannel"" object and then uses it to call the ""controller"" object's ""dispatchRequest"" method, passing in the ""request"" parameter and the ""channel"" parameter. The function also creates a new instance of a ""ThreadContext"" class and stores the current thread context before calling the ""dispatchRequest"" method. It then restores the previous thread context after the call is complete and closes the ""channel"" object."
+67299dbda23f7e5639814e26," The function `lookupBinary` takes three parameters: a class `classA`, a class `classB`, and a string `name`. It returns a method handle that corresponds to the given operator name, but it also checks if the types are compatible before returning the handle."
+67299dbda23f7e5639814e27,"  This method takes in a Class instance representing the class of an object and returns a MethodHandle that performs index normalization on that object. The method first checks if the class is an array, and if so, it uses an ArrayIndexNormalizeHelper to perform index normalization. If the class is not an array, it then checks if it is assignable from Map or List, and if so, it returns a MAP_INDEX_NORMALIZE or LIST_INDEX_NORMALIZE MethodHandle. Otherwise, it throws an IllegalArgumentException because the object cannot be indexed in the way that the method expects."
+67299dbda23f7e5639814e28,"The findResult() method takes a collection of T objects and a function that maps each T object to an U object. It returns the result of applying the function to the first element of the receiver collection, or null if the collection is empty."
+67299dbda23f7e5639814e29,"This function checks the type of an expression node and throws an error if it doesn't match the expected type. The summary of this Javadoc comment would be ""Checks the type of an expression node and throws an error if it doesn't match the expected type."""
+67299dbda23f7e5639814e2a,"
+This method takes three parameters: a map of additional fields, a property object that represents the key of the field to be added, and a string value that represents the value of the field. The method checks if the properties contains the given property and whether the string value is not empty. If both conditions are met, it adds the field to the map with the property name in lowercase and the given value."
+67299dbda23f7e5639814e2b, This method sets the value of the 'ignoreUnmapped' property on the object and also sets the same value to any nested InnerHitBuilder objects that may exist.
+67299dbda23f7e5639814e2c,"The testDecodeEncode function tests that the encoding of a floating-point value matches its original value after decoding it using a scaling factor. The randomValueOtherThanMany method is used to generate a random scaling factor between -2^53 and 2^53, while the ESTestCase::randomDouble method is used to generate a random long between -2^53 and 2^53. The assertThat function checks that the encoded value matches the original value after decoding it using the same scaling factor."
+67299dbda23f7e5639814e2d,"This method synchronizes access to the object instance and logs a message before stopping it, setting its instance to null after doing so."
+67299dbda23f7e5639814e2e,"
+The Javadoc comment for the method ""void deleteWithRetry(Path path) throws IOException"" would have included a summary statement that describes the purpose of the method and its expected behavior. The summary part of this comment would explain how the method attempts to delete a file at a specified location, but handles any InterruptedExceptions that may occur during this process by wrapping them in an IOException."
+67299dbda23f7e5639814e2f, The function `syncWithLinks` synchronizes the file system paths by creating a hard link between them if it is possible.
+67299dbda23f7e5639814e30," This function is annotated with the @BeforeClass annotation and it serves as a setup method for the test class. It randomly generates a client ID, secret, and redirect URI for use in testing the authorization server's OAuth 2.0 implicit flow implementation. The generated client ID and secret are formatted according to the JSON schema defined by OpenID Connect and stored in variables for use in other tests."
+67299dbda23f7e5639814e31,"This function pauses execution of the watch by calling the triggerService's pauseExecution method and then invoking the executionService's pause() method. The reason for pausing is also provided as an input argument. When the pause() method is called, it returns the number of queued tasks that were cancelled due to the pause. The logger is used to log a message indicating the reason for the pause and the number of queued tasks that were cancelled."
+67299dbda23f7e5639814e32,"The method clears the allocation ID cache and returns true if there were previous IDs in the cache, indicating that some allocations occurred, or false otherwise."
+67299dbda23f7e5639814e33,"This method is an override for the postIndex method of the Engine interface, and it logs a debug message if adding a watch document fails due to an exception. The message includes the watch ID and the exception that was thrown."
+67299dbda23f7e5639814e34,"This method overrides the preDelete method of the Engine class and checks whether a document to be deleted belongs to an index that has been marked for watch. If it does, it logs a message and removes the corresponding watch via the triggerService. "
+67299dbda23f7e5639814e35,The function filterSettableSettings takes in a settings object and builds a new settings object with only the allowed setting keys (ALLOWED_SETTING_KEYS) from the input settings.
+67299dbda23f7e5639814e36," This function attempts to add the execution given by the ID and the ExecutionService.WatchExecution object as a key-value pair in a concurrent map, currentExecutions, if it is not already present. If an attempt is made to register an additional execution while the map has been sealed (i.e., the value of the seal field is not null), this method will throw an illegalState exception with the provided message and ID as its argument."
+67299dbda23f7e5639814e37,This method allows an object to be passed as a parameter to call when the current thread is not running anymore and it sets the paused attribute of the thread to true and returns the result of calling the clearExecutionsAndQueue method passing in the stopped listener as a parameter.
+67299dbda23f7e5639814e38,"
+This function is used to drain the execution queue of an executor and clear all running executions, then it notifies the given listener when they are finished."
+67299dbda23f7e5639814e39,"The summary of the Javadoc comment for this method is:
+
+This method creates triggered watches and execution contexts for the provided list of trigger events based on the job names in the event data. The returned tuple contains a list of triggered watches and a list of triggered execution contexts."
+67299dbda23f7e5639814e3a,The `clearExecutions` method sets the new executions and clears old ones. 
+67299dbda23f7e5639814e3b," This function gets the concrete index for a given alias, taking into account the possibility of an alias pointing to multiple indices and not having a designated write index. If the alias does not point to any concrete indices, it returns null. Otherwise, it returns the metadata object for the concrete index."
+67299dbda23f7e5639814e3c,"The method ""public long check(long time)"" checks the time parameter and returns -1 if it is earlier than the previously scheduled time."
+67299dbda23f7e5639814e3d," This method removes an element with a specified key from a Map<String, Object> and returns it as a specific type (T) if the element exists in the map. If the element does not exist or its class is not assignable to the specified type, an ElasticsearchStatusException will be thrown with a ""BAD_REQUEST"" status."
+67299dbda23f7e5639814e3e,"
+This function takes two `Map` parameters, `taskSettings` and `serviceSettings`, as input. It checks if the `serviceSettings` map contains a key for the `model ID`. If it does not, it removes an old model ID field (called `OLD_MODEL_ID_FIELD`) from the `taskSettings` map and puts its value in the `serviceSettings` map using the `model ID` key. If there is no old model ID field or if its value is null, it simply removes the `model ID` field from the `taskSettings` map and puts its value in the `serviceSettings` map using the same `model ID` key."
+67299dbda23f7e5639814e3f,"
+This method takes an XContentParser object, a string representing the name of the desired field to be found in the parser, and a string template for the error message that will be thrown if the field is not found. It iterates through the tokens in the parser until it finds the desired field, at which point it returns control to the calling method. If the field is not found before reaching the end of the document, an IllegalStateException with a formatted error message based on the provided template is thrown."
+67299dbda23f7e5639814e40,"The function ""timeToReserve"" computes the amount of time to wait before reserving a number of tokens and returns an object of type ""TimeValue"" that contains the value in microseconds and the unit as TimeUnit.MICROSECONDS"
+67299dbda23f7e5639814e41,This method reserves microseconds.
+67299dbda23f7e5639814e42,This method is a test case that starts two master-only nodes and then uses the putNodeShutdown() function to mark one of them as shut down. It then checks that the status of the shut down node has been set to complete.
+67299dbda23f7e5639814e43,"
+This function synchronously renews a retention lease on the leader shard of a remote cluster, returning an `Optional` containing a `RetentionLeaseNotFoundException` if the lease was not found or an empty `Optional` if it was successfully renewed."
+67299dbda23f7e5639814e44, The function validateSettings() checks if the leaderIndexSettings and followerIndexSettings are equal.
+67299dbda23f7e5639814e45,"This function takes a list of elements as input and returns a view of the list that has been limited to a certain number of elements. The limit is specified by two parameters: `total` which is the total number of elements in the original list, and `offset`, which is the starting index of the returned view. The function also takes into account whether the list should be reversed before returning the view."
+67299dbda23f7e5639814e46,The method checks if there are candidates available for the specified stage. 
+67299dbda23f7e5639814e47," This method is used to extract a portion of a String between two delimiters. The method takes four parameters: the input String, the left delimiter, the right delimiter, and two boolean flags that control the behavior of the method. If the first flag is true, the method will return the longest possible substring; if it is false, the method will return the shortest possible substring between the delimiters. The second flag controls whether or not the comparison should be case-insensitive.
+"
+67299dbda23f7e5639814e48,This method is used to log an error when the policy for an index cannot be retrieved. The method logs a debug message using the logger and records the exception in step info for this index.
+67299dbda23f7e5639814e49,"The summary part of the Javadoc comment for this function is:
+
+Queue an ILM history item to be indexed in a background thread."
+67299dbda23f7e5639814e4a,"This function ""findBestJobs()"" takes two parameters: AggregationBuilder source and a Set of RollupJobCaps. It returns a set of RollupJobCaps. "
+67299dbda23f7e5639814e4b,"The method ""freeze()"" on class ""ClockMock"" is declared to be both synchronized and returns a reference to the instance of the class."
+67299dbda23f7e5639814e4c,This method unfreezes the clock.
+67299dbda23f7e5639814e4d,This method calls the fastForward method with a time value in seconds.
+67299dbda23f7e5639814e4e,This method rewinds the current playback position of the media by a specified number of seconds.
+67299dbda23f7e5639814e4f,This method returns whether or not an object's current state is active. 
+67299dbda23f7e5639814e50,This function checks whether the given XPackLicenseState allows the user to start tracking and then starts tracking if allowed.
+67299dbda23f7e5639814e51,This method returns true or false depending on whether the user's license is allowed or not.
+67299dbda23f7e5639814e52,"This method takes a boolean value and ZonedDateTime as parameters, it sets the lastChecked variable to the value of timestamp parameter if the metCondition is true and sets the lastMetCondition variable to the same value. If the metCondition is false, then this function will reset the acknowledgement status for all actions in the actions map using the resetAckStatus method of the ActionStatus class by passing the timestamp as a parameter."
+67299dbda23f7e5639814e53,This method prepares and returns a rounding instance using the provided interval string and time zone.
+67299dbda23f7e5639814e54,"This method checks the validity of a math expression. It does this by trying to validate the expression with the ""validate"" method and returning true if it is successful, or false otherwise. If an illegal argument exception occurs while doing so, the method returns false."
+67299dbda23f7e5639814e55,"The createResponse method takes the ID of a document and the headers as parameters, constructs an IndexRequest object with those params, calls the indexResponse method with that IndexRequest object as a parameter, then passes in the ActionListener for DocWriteResponse."
+67299dbda23f7e5639814e56,This method returns the response from an asynchronous execution by using the AsyncExecutionId as input and returning a result to the client.
+67299dbda23f7e5639814e57,"This Javadoc comment would summarize the behavior of the ""setInternalUser"" method and explain how it sets an InternalUser authentication for a given TransportVersion. 
+The code sets an internal user's authentication information using the setAuthentication( ) method by constructing a new Authentication object using the nodeName parameter for the InternalUser and TransportVersion parameters."
+67299dbda23f7e5639814e58,"  The function checks if the specified action is allowed for at least one of the groups passed to it, by iterating over the groups and returning true if any group allows the action or, if the action is a mapping update and the group has a privilege that grants mapping updates for BWC."
+67299dbda23f7e5639814e59,This method validates whether the given application name is correct or not.
+67299dbda23f7e5639814e5a,"This Java method is responsible for verifying the integrity of the given input data by comparing it with a pre-computed hash value. It first resolves the hash algorithm to use based on the provided hash value and then calls the `verify` method on the resolved hasher, passing in both the data to be verified as well as the pre-computed hash value. The function returns a boolean indicating whether or not the verification was successful."
+67299dbda23f7e5639814e5b,"The function ""writeToContext"" allows an Authentication object and a ThreadContext object as input parameters. It first checks whether the context already contains an Authentication object using the ensureContextDoesNotContainAuthentication method. If there is no existing authentication object in the context, it encodes the input Authentication object into a header string and adds this header to the context using the putHeader method. Finally, it puts the authenticated user into the transient space of the ThreadContext using the putTransient method."
+67299dbda23f7e5639814e5c,This method generates a salt using the given number of iterations (in the log2 space) and a random number generator.
+67299dbda23f7e5639814e5d,"
+This function returns the result of calling the gensalt() method with the value GENSALT_DEFAULT_LOG2_ROUNDS. "
+67299dbda23f7e5639814e5e,This method determines whether or not to enable checkpoint alignment. 
+67299dbda23f7e5639814e5f, The method creates a BitSet that indicates which fields in the input rows are short enough according to the value of longFieldThreshold.
+67299dbda23f7e5639814e60,"This method compares two rows of strings field-wise using the Levenshtein distance. It first finds the largest size between the two rows and creates a BitSet with that many bits set to true. Then it calls the levenshteinFieldwiseCompareRows method with these two rows and the BitSet as arguments, returning its value. "
+67299dbda23f7e5639814e61,"
+The `calculateMatchWeights()` function iterates over a list of `matches`, where each match is an object with a `timestampFormat` property. The function then checks whether the format of each match can be merged with any of the formats in a list called `matchedFormats`. If it can, the function adds a weight to the corresponding index in an array called `weights`.
+
+The function also keeps track of the number of remaining matches and breaks out of the loop if the difference between the two highest weights in the `weights` array is greater than the number of remaining matches. This prevents one format from overtaking another, even if it has a higher weight."
+67299dbda23f7e5639814e62,"This function is an override of the canCreateFromSample method in a class, which checks if a sample can be used to create a text file. It takes three parameters: a list to store the explanation, a string representing the sample, and a double representing the allowed fraction of bad lines. The function first checks whether the sample contains any newlines, if not, it adds an explanation that the sample is not text because it has no newlines and returns false. If there are fewer than two non-blank lines in the sample, it also returns false with an explanation that the sample has fewer than two non-blank lines. Otherwise, it returns true with an explanation that it has decided the sample is text."
+67299dbda23f7e5639814e63," The function ""replace"" takes four parameters: pattern, target, originalExpressions, and replacer. It replaces all occurrences of the elements in the list of expressions represented by pattern with those from the list represented by target, as long as they are semantically equal to each other. The function returns a boolean value indicating whether any changes were made to the list or not."
+67299dbda23f7e5639814e64,"This function is responsible for combining multiple query builders into a single query builder. The summary of the Javadoc comment would be: ""Combines multiple QueryBuilders into a single QueryBuilder using the provided clause and boolQuery method."""
+67299dbda23f7e5639814e65,"This function converts a long value to an instance of the java.lang.Number class. It does so by first checking if the input value is less than 0 and converting it to a positive twos complement representation using the twosComplement() method if necessary, before adding it to LONG_MAX_PLUS_ONE_AS_BIGINTEGER (which represents the maximum value of a long plus one), resulting in an instance of BigInteger."
+67299dbda23f7e5639814e66,"This function counts the number of times a Coordinate is repeated from the end of an array. The Coordinate is compared with previous Coordinates in the array using equalAsInts2d() method, and if they are equal, the counter ""repeatCoords"" is incremented. When a Coordinate differs from the previous one, the loop is terminated. The function returns the value of repeatCoords as an integer."
+67299dbda23f7e5639814e67,"The function adjusts the circuit breaker by adding an estimated value of bytes to it and potentially trips the circuit if necessary, based on a positive delta value."
+67299dbda23f7e5639814e68,This function returns the middle value of an integer array based on a given starting value and count.
+67299dbda23f7e5639814e69,  The `roundingIsOk` method determines whether a given rounding strategy can produce the desired values within the specified range.
+67299dbda23f7e5639814e6a," This function takes an IntBlock object as a parameter and returns the maximum value in each position of the block. If the number of values in any position is zero, it appends null to the result block."
+67299dbda23f7e5639814e6b,"
+The Javadoc comment for the function ""scheduleSnapshotJobs"" describes how the method schedules snapshot jobs using a ClusterState object, which contains information about the cluster's state. The method first retrieves custom metadata from the cluster state, then iterates through the values in the map of snapshot configurations and invokes the maybeScheduleSnapshot method for each one."
+67299dbda23f7e5639814e6c,"The function `randomRanges` takes a long value as an argument and returns a sorted set of byte ranges where each range is a random pair of long values. The method first creates an empty sorted set to store the generated ranges, and then generates a sequence of random long values within the specified length limit. For each random value, it calculates the start and end points of the range using `randomLongBetween`, adds the range to the set, and then updates the current index value by adding 1 to the ending point of the range and a random number of additional elements between the ending point and the specified length limit."
+67299dbda23f7e5639814e6d,"The Javadoc comment for the finish function states that if the number of read bytes is greater than the maximum available permits, it will throw an exception."
+67299dbda23f7e5639814e6e,"
+The function checks whether a given node can be safely shut down using its ID and the current state of the cluster."
+67299dbda23f7e5639814e6f,"The function flushes the WriteRequest.RefreshPolicy.IMMEDIATE policy and sets interrupt status to false if an InterruptedException is caught while finishing reporting of datafeed timing stats, otherwise flushes with policy immediate."
+67299dbda23f7e5639814e70,"The method ""vacateNode"" takes a string reason as an argument and marks the data feed locally as aborted before isolating the data feed."
+67299dbda23f7e5639814e71,"This function takes in an input byte array, offset, and length as parameters, and uses them to compute the common prefix of the bytes. It then checks if the first non-zero byte is equal to zero, breaks the loop, and returns an empty OptionalInt. The reason for this is because the common prefix should be a string that can be compared lexicographically, so it should not contain any null characters. Finally, if the first non-zero byte is not equal to zero, it computes the position of the next byte in the input stream and checks if it is equal to the corresponding label, and if it does not match, it returns an empty OptionalInt."
+67299dbda23f7e5639814e72,The method returns the top transaction IDs.
+67299dbda23f7e5639814e73,This method gets an array of item IDs.
+67299dbda23f7e5639814e74,This function calculates the natural logarithm of the probability that a binomial distribution with numberOfTrials trials and a given probabilityOfSuccess will have x successes. 
+67299dbda23f7e5639814e75,"The Javadoc comment for the `logBinomialProbability` method describes how to compute the log probability of a binomial distribution given its parameters `n`, `p`, and `q`. The method first checks if the input values are valid, then it computes the log probability using a combination of Stirling's approximation and the deviance part."
+67299dbda23f7e5639814e76,"
+The function checks whether the instance has been recently refreshed by comparing its last update time with the current time and returning true if it is within the staleness duration, which is a parameter set in the constructor of the class that this method belongs to. The `isMaster` flag indicates whether the instance is currently being used as the master instance, and `getStalenessDuration()` returns the amount of time that has passed since the last update was made."
+67299dbda23f7e5639814e77,This method retrieves the memory requirement of a anomaly detector task with the specified ID using the MlTasks enum object in the Java library.
+67299dbda23f7e5639814e78,The function gets the memory requirement of a data frame analytics job by returning the memory requirement of the task with the given name and ID.
+67299dbda23f7e5639814e79,This function takes two parameters: PersistentTaskCustomMetadata and ActionListener. It also has a void return type. The method is named refresh and has no visibility modifier.
+67299dbda23f7e5639814e7a," The function ""waitForFlushAcknowledgement"" waits for a specified amount of time for a flush to be acknowledged and returns the acknowledgement if received within the time limit, or null otherwise."
+67299dbda23f7e5639814e7b,"
+This code defines a function named ""build()"" that creates an object of type ""TimeRange"" with the start and end values that are passed into it."
+67299dbda23f7e5639814e7c,"The public void method deletes all annotations by calling its private method deleteAnnotations with null values for the annotation class, annotation source, and annotation type parameters."
+67299dbda23f7e5639814e7d," This function synchronizes the given Bucket object and persists it to Elasticsearch. If the supplied Bucket has any records, a copy of the Bucket with those records removed is created and used for persistence. The function logs a trace message indicating that an ES API call is being made, then calls the indexResult() method on the bucketWithoutRecords object with the ID and the type ""bucket"". Additionally, it also calls the persistBucketInfluencersStandalone() method with the jobId and BucketInfluencers objects."
+67299dbda23f7e5639814e7e,"The ""JobDataDeleter"" class deletes interim results for a specific job using the given ID."
+67299dbda23f7e5639814e7f,"
+The method flush() takes an ActionListener instance as a parameter and sends the response null after closing if there is an error."
+67299dbda23f7e5639814e80,"
+This method tests the inflation of an H3 cell with a hexagon ID ""8001fffffffffff"" at different precisions by comparing it with the expected latlon coordinates using assertH3CellInflation() method."
+67299dbda23f7e5639814e81," The setValue method sets a GeoShapeCellValues docValues at position (xTile, yTile) with the precision specified. "
+67299dbda23f7e5639814e82," This method compares the given bounding box (represented by its lower left and upper right coordinates) to a query bounding box (also represented by its lower left and upper right coordinates), returning true if there is an intersection."
+67299dbda23f7e5639814e83," This function takes two doubles as input: x and y. It checks whether the input point is disjoint from all the boxes in the dataset using boxesAreDisjoint. If it returns true, then the function returns QUERY_DISJOINT. Otherwise, it calculates the relationship between the input point and the dataset points (represented by xs and ys) using H3CartesianUtil.relatePoint."
+67299dbda23f7e5639814e84,"This function is used to get the highest commit generation number among a list of index files. It skips over old segment files, and returns the highest generation number found in the remaining files."
+67299dbda23f7e5639814e85,This method skips over the final output of a DataInput stream.
+67299dbda23f7e5639814e86,This method returns a randomly generated string of the specified length with only alphabetic characters and is guaranteed to be a valid instance name by checking if it is a valid instance name.
+67299dbda23f7e5639814e87,This Java code creates a new user with the run-as role using the createUserWithRunAsRole() method and authenticates the request using the basicAuthHeaderValue() method.
+67299dbda23f7e5639814e88,"This function takes a `realmName` as input and returns an instance of `TokenInvalidation`. The function formats the `realmName` into a JSON string using `String.format()` method, and then passes the formatted string to the `invalidateTokens()` method which is responsible for invalidating tokens based on the realm name."
+67299dbda23f7e5639814e89,"
+The getPartNumberForPosition(long position) method returns the integer value of the part number for a given position in a file."
+67299dbda23f7e5639814e8a,The method public void removeFromCache(CacheKey cacheKey) removes an item from a cache using a key.
+67299dbda23f7e5639814e8b, This method fails the current task with an exception and a message.
+67299dbda23f7e5639814e8c,This method resolves the expression as root attributes and returns a set of expressions representing the result.
+67299dbda23f7e5639814e8d,"  The `keyword` method in this code returns a `FieldAttribute` object. It does this by first calling the `field` method with two arguments: `name`, and a `KeywordEsField` instance. The `KeywordEsField` class is a type of Elasticsearch field that is used to index keywords or other fields that contain text data that should be searchable as a single unit, but not analyzed further."
+67299dbda23f7e5639814e8e,"
+Increases the value of translateMetric by 1."
+67299dbda23f7e5639814e8f,"The function takes a date format as input and returns a ZonedDateTime object. The separatorIdx is used to determine the position of the time separator in the string, which is either ""T"" or a whitespace character. If the separator is ""T"", the LocalDate is parsed using ISO_LOCAL_DATE_OPTIONAL_TIME_FORMATTER_T_LITERAL and atStartOfDay(UTC) method is called to convert it to ZonedDateTime object. On the other hand, if the separator is whitespace character, the LocalDate is parsed using ISO_LOCAL_DATE_OPTIONAL_TIME_FORMATTER_WHITESPACE and atStartOfDay(UTC) method is called to convert it to ZonedDateTime object."
+67299dbda23f7e5639814e90,"The method print() is declared as public final and takes two arguments, Verbosity and String. It calls the method print with those same two parameters, as well as some additional default values for certain boolean variables. "
+67299dbda23f7e5639814e91,"
+The function ijkToGeo takes the input of face (an integer), res (an integer), and a boolean value of substrate. It performs some calculations by subtracting exact values of the variables this.i, this.j, and this.k, and then returns the output of the Vec2d.hex2dToGeo function. The function is designed to convert a set of hex coordinates with a specific resolution into geographical coordinates."
+67299dbda23f7e5639814e92,"
+The method ijkNormalize normalizes the values of three variables i, j, and k to their smallest value by subtracting the smallest value from all three variables."
+67299dbda23f7e5639814e93,"This method adds a unit vector to the current position in the grid, with the given digit value representing the direction. If the digit is within the range of valid directions (i.e., greater than the center digit and less than the total number of digits), it updates the current position by adding the corresponding unit vector to its coordinates and normalizing them."
+67299dbda23f7e5639814e94,This method will convert a point in the IJK coordinate system of a face to a LatLng object by using the ijkToGeo method from the Coord class.
+67299dbda23f7e5639814e95,"The summary of this Java function is:
+Given an address (string) and a desired resolution, it returns the size of all its children. "
+67299dbda23f7e5639814e96,"This method takes an address represented by a String as an argument. It then converts this string to an H3 cell using the ""StringToH3"" function and returns its size, using the h3ToNotIntersectingChildrenSize function on the result."
+67299dbda23f7e5639814e97," The provided Java method returns the H3 index of the northernmost point at a given resolution ""res""."
+67299dbda23f7e5639814e98,This Java method returns an H3 value representing the cell at the south pole of a particular resolution.
+67299dbda23f7e5639814e99,This function returns the maximum latitude in a great circle (a line of latitude on the Earth's surface that passes through two points) given two LatLng instances.
+67299dbda23f7e5639814e9a,"This method uses the ""great circle"" algorithm to find the minimum latitude of two given LatLngs."
+67299dbda23f7e5639814e9b,"
+This code converts a hex coordinate to its geographic (latitude and longitude) equivalent using the face, resolution, and substrate arguments, which are then returned as a LatLng object."
+67299dbda23f7e5639814e9c,This function rotates the hexagon 60 degrees counterclockwise around its center and returns a new H3 index with the rotated coordinates. 
+67299dbda23f7e5639814e9d,"This method receives two doubles (x and y), and then it calls another method (consume) with a pre-made object of class Point. The name of the method is consume()."
+67299dbda23f7e5639814e9e,"This function returns longEncode(hash, hash.length())."
+67299dbda23f7e5639814e9f,The Javadoc comment for this function would summarize its functionality as follows: This method encodes the given longitude and latitude into a single string representation that is suitable for storing in a database or transmitting over a network.
+67299dbda23f7e5639814ea0,"
+The summary for this function is:
+Encodes a double-precision floating point latitude and longitude into a geohash."
+67299dbda23f7e5639814ea1,"The summary part of the Javadoc comment that would have been written by a developer for the ""testResourcesParentNonPkgName()"" function is: ""Test the parent path of a non-package resource."""
+67299dbda23f7e5639814ea2,"The function `checkManifest` checks the version of Java required to run a JAR file based on its manifest file, throwing an error if the version is not met."
+67299dbda23f7e5639814ea3," This function checks the ordering of a set of elements in an array. It asserts that the first element is less than or equal to the second element, and so on until the end of the array. If the ordering is not correct, it throws an AssertionError with a message indicating which element violates the ordering rule. The function also checks the values of the elements in the array using the checkValues method."
+67299dbda23f7e5639814ea4,The purpose of the method is to sort an array of double based on its first value and another list of arrays representing the values 
+67299dbda23f7e5639814ea5,"This method overrides a parent method. It uses the method ""mergeNewValues()"" to combine new values with the parent's compression value, ""publicCompression."""
+67299dbda23f7e5639814ea6,"This method attempts to locate and return the path of a JAR file that contains a user-defined agent for use with a Java virtual machine. It uses the ""user.dir"" system property to determine the current working directory, which is then passed as an argument to the findAgentJar() method. This method throws several exceptions, including IOException and UserException, if it encounters any issues while locating the JAR file."
+67299dbda23f7e5639814ea7,"This method forcibly kills the JVM process and waits for it to complete, throwing an IOException if an error occurs while doing so."
+67299dbda23f7e5639814ea8,This function returns a list of versions compatible with an index.
+67299dbda23f7e5639814ea9,"This function is used to check that the number of unassigned tasks in the current cluster state equals a certain value. It does this by calling another function called assertPersistentTasks with two parameters: the desired number of unassigned tasks and the current cluster state. The purpose of this function is to check if there are any persistent tasks in the current state that match a specific condition, in this case, checking whether or not they have been assigned."
+67299dbda23f7e5639814eaa,The function creates a new instance of PersistentTasksClusterService using the given clusterService and assignment function.
+67299dbda23f7e5639814eab,"
+This method unwrapCausesAndSuppressed() in this Java code is used to wrap the throwable instance with an optional type. It takes a cause and a predicate that checks whether a given throwable is an error, which could be an error of any type, checked or runtime. "
+67299dbda23f7e5639814eac,This method collects the paths related to shards.
+67299dbda23f7e5639814ead,"This is a method in the IndexShard class that initializes an empty IndexShard with metadata from indexMetadata and returns a Builder object to further configure and build the shard. The Reason for unassignment set by UnassignedInfo is INDEX_CREATED, which indicates that the index was just created, and null is used as the additional parameter in UnassignedInfo's constructor."
+67299dbda23f7e5639814eae,The method cancels a relocation request for the provided shard and returns the updated ShardRouting object with the new status.
+67299dbda23f7e5639814eaf," This method calls another method called ""resolveExpressions"" to return a set of strings using the given cluster state and expressions as parameters."
+67299dbda23f7e5639814eb0,This function checks whether the input Collection of Strings represents all indices in the system by verifying that it contains at least one alias or index.
+67299dbda23f7e5639814eb1,"The function is attempting to shut down a resource that requires 30 seconds for closure, it's caught InterruptedException and interrupts the current thread."
+67299dbda23f7e5639814eb2,"This method returns a list of TaskGroups. If the groups variable is null, it calls the buildTaskGroups() method before returning the groups."
+67299dbda23f7e5639814eb3,"This method returns a double result based on the condition that the isSampled() function evaluates to true. If so, it multiplies the input value by its own probability. If not, it simply returns the same input value"
+67299dbda23f7e5639814eb4,"The ""scaleUp"" function returns the input parameter divided by the probability if it is sampled, otherwise it will return the same input."
+67299dbda23f7e5639814eb5,"The Javadoc comment for the ""stringEncode"" method would explain that this function takes a long value representing an identifier, parses it to get its three parts (x, y, and z), verifies the validity of those parts, and then returns them as a string in the format ""x/y/z""."
+67299dbda23f7e5639814eb6,"This method adds a range aggregator with an unbounded ""from"" field and the specified ""to"" field to the builder and returns itself."
+67299dbda23f7e5639814eb7,This method adds a range aggregator to the builder with an unbounded lower bound and specified upper bound.
+67299dbda23f7e5639814eb8,"The method retrieves a LeafBucketCollector for the given LeafReaderContext and adds it to the internal queue if the size is less than or equal to the maximum size, then checks if there is a competitiveBoundsChangedListener present and if the queue is full."
+67299dbda23f7e5639814eb9,This method submits a task to the given ClusterService instance with the specified source and adds the current instance as a listener.
+67299dbda23f7e5639814eba,This method takes in a string parameter `path` and returns an array of bytes.
+67299dbda23f7e5639814ebb,"
+This Java method retrieves all the retention leases of the current device using the ""getRetentionLeases"" method with the parameter set to false. The purpose is to retrieve all the retention leases of the device, not just those that have been renewed recently."
+67299dbda23f7e5639814ebc,"
+This method returns an instance of the `RetentionLeases` class. The specifics of how this method works are not described in the provided Javadoc comment."
+67299dbda23f7e5639814ebd," This method is a wrapper for the overloaded version of the ""hasLength()"" method that takes a CharSequence object as an argument."
+67299dbda23f7e5639814ebe,The preserveContext function creates an instance of Runnable.
+67299dbda23f7e5639814ebf,"This method returns true if and only if it is able to set the countdown to zero, which is determined by asserting that the validity of the current countdown value is greater than zero."
+67299dbda23f7e5639814ec0,This method tests a string against a given pattern to see if it contains the same characters as the pattern without considering upper and lower case differences. 
+67299dbda23f7e5639814ec1,"The method ""updateDynamicSettings"" updates the settings of a specific type by applying the specified Settings.Builder object to the original Settings object and returns a boolean value indicating whether the operation was successful or not."
+67299dbda23f7e5639814ec2,  This method formats an InetAddress into a string representation of the hostname and port.
+67299dbda23f7e5639814ec3,"The static method ""closeChannel"" takes a single parameter C and returns nothing. It passes its parameter to another method called ""closeChannel"" along with a boolean value of false. "
+67299dbda23f7e5639814ec4, This function takes a String representing JSON data and returns an instance of CompressedXContent.
+67299dbda23f7e5639814ec5,"The ""calculateOutNetBufSize"" function calculates the required output network buffer size (in bytes) based on the input plaintext byte size and number of buffers. It assumes a maximum of one frame per component in each composite buffer."
+67299dbda23f7e5639814ec6,"
+This method calculates the required output buffer space needed for encrypting a given input. The input is the number of plaintext bytes and the number of buffers. The output is the calculated amount of output buffer space that can be used to encrypt the input."
+67299dbda23f7e5639814ec7,This method takes in an array of bytes as an argument and returns a string representation of the IP address that the bytes represent.
+67299dbda23f7e5639814ec8,"
+The `subSequence` method in the `AsciiString` class returns a new instance of an `AsciiString`, representing the subsequence of the original string, starting from the specified `start` index to the specified `end` index."
+67299dbda23f7e5639814ec9," The `regionMatches` method compares a specified region of this string with the contents of another CharSequence. It takes several parameters including ignoreCase, thisStart, string, start, and length. "
+67299dbda23f7e5639814eca,"The function returns the next-highest power of two for a given input integer if it is positive, or 1 if the input is zero or negative."
+67299dbda23f7e5639814ecb,"
+This method returns a random number within the specified range of least to greatest."
+67299dbda23f7e5639814ecc,"The Java method ""format()"" takes a String as its first parameter and an Object as its second parameter. It then returns a new FormattingTuple object with the specified message pattern and argument."
+67299dbda23f7e5639814ecd," The Java developer would write the following Javadoc comment for this function: ""Creates a new ByteBuf by copying an array of integers."""
+67299dbda23f7e5639814ece,"The ""calculateChecksum"" method takes a ByteBuf object as an argument and returns its checksum value for the bytes that are readable from the reader index to the end of the buffer."
+67299dbda23f7e5639814ecf,This method writes a unary representation of the given integer value to the specified ByteBuf.
+67299dbda23f7e5639814ed0,"
+The method finishes encoding and flushes all buffers before closing the channel handler context in its ChannelPipeline."
+67299dbda23f7e5639814ed1,"This method will repeatedly call updateCRC on a specific integer value for the number of times specified by an int variable named ""count"". "
+67299dbda23f7e5639814ed2,"The `validateValidHeaderValue` function validates the passed in header value and returns -1 if it is empty, 0 if it is a valid ASCII string or 1 if it is a general CharSequence."
+67299dbda23f7e5639814ed3,"This method skips over white space characters in a byte array, starting at the specified index and continuing for the specified number of characters. It returns the index of the first non-white space character or the end of the string if all characters are white space."
+67299dbda23f7e5639814ed4,This method checks whether an object is present in the system or not and returns a boolean value indicating its presence.
+67299dbda23f7e5639814ed5,The function determines whether the currentWriter is stale based on the specified flush interval.
+67299dbda23f7e5639814ed6,This method returns a collection of plugin input settings by combining the input settings and the common input settings.
+67299dbda23f7e5639814ed7,The purpose of this method is to verify whether the expression has been parsed correctly and to print an error message if it has not. 
+67299dbda23f7e5639814ed8,"
+This method is an internal implementation detail of the class `CorsConfiguration`. It takes two arguments, a configuration object and a string representing the origin of the request. The method returns the result of calling the `checkOrigin` method on the configuration object, passing in the origin as an argument."
+67299dbda23f7e5639814ed9,"The encode method takes two parameters: the string to be encoded and a charset. It returns a new string representing the encoded version of the input string, encoding it using the given charset. The type of encoding used is hierarchical URI components with a type of URI."
+67299dbda23f7e5639814eda,"This method will accept an HttpServletRequest object and a string argument of the URI to be decoded. The function then removes semicolon content from the original URI by calling the removeSemicolonContent method on it. Next, the decodeRequestString method is used to decode the URI into its original form. After that, getSanitizedPath is called to ensure any additional security measures are in place for the resulting string. Finally, a return value of the processed URI string will be returned by this function."
+67299dbda23f7e5639814edb," The getFallbackTimeZone() method, an override of the abstract method in the TimeZoneAwareLocaleContext interface, returns a fallback Time Zone if JSTL is present on the page and the TimeZone object cannot be found."
+67299dbda23f7e5639814edc,"This function determines whether or not to proxy a target class when creating a new instance of the bean. It first checks if the bean factory used by the auto-proxy creator is an instance of ConfigurableListableBeanFactory, and if so, it then calls the AutoProxyUtils#shouldProxyTargetClass method on this factory with the name of the bean being created as an argument. The function returns true if shouldProxyTargetClass returns true, indicating that the target class should be proxied."
+67299dbda23f7e5639814edd,"The Javadoc comment for the ""setArgumentNames"" function would describe its purpose, which is to set the names of arguments based on a comma-delimited list."
+67299dbda23f7e5639814ede,This method sets the text of this message to the specified string.
+67299dbda23f7e5639814edf,"This method overrides the getConnection() method from a class and allows you to set credentials for the connection based on the current thread-bound credentials if they are available. If not, it uses the username and password of the object itself to create a new connection with the specified catalog and schema. "
+67299dbda23f7e5639814ee0,"This function skips over end-of-line characters in a ByteBuffer, repeatedly calling the tryConsumeEndOfLine method until it returns false."
+67299dbda23f7e5639814ee1,"The method ""connectAsync"" returns a CompletableFuture object that completes asynchronously with a StompSession object."
+67299dbda23f7e5639814ee2, The purpose of this function is to return the time zone used in the application based on the locale context.
+67299dbda23f7e5639814ee3,"The function retrieves a JTA UserTransaction instance to be used for the current transaction if available, and returns it as an Object."
+67299dbda23f7e5639814ee4,The method checks for leaks in the code using the Duration parameter.
+67299dbda23f7e5639814ee5,"The method ""indent()"" is responsible for increasing the level of indentation and then returning an object that will be used to write the indented text. "
+67299dbda23f7e5639814ee6,This function returns whether an array of Enum objects includes a given string as one of its elements.
+67299dbda23f7e5639814ee7,"This function is used to return the token representing a comment start in the specified string. It takes one String parameter ""line"" and returns an integer representing the comment start."
+67299dbda23f7e5639814ee8,"
+This function takes a string representing a language as input and returns the best matching Locale object for that language."
+67299dbda23f7e5639814ee9,"The method cancels a previously scheduled conversation notification by its ID. If the device's version is greater than or equal to the minimum required version for conversations, it calls the cancelWithConversationSupport method, which cancels the notification with conversation support enabled. If the device's version is lower than the minimum required version, the method cancels the notification using the legacy method and returns true."
+67299dbda23f7e5639814eea," This function returns the yaw of the gimbal in radians, calculated using the atan2 method."
+67299dbda23f7e5639814eeb,"
+The JavaDoc comment for this method would explain that it takes in a Vector3 representing the axis around which to calculate the angle and then uses its members x, y, and z to call a function called getAngleAroundRad."
+67299dbda23f7e5639814eec,"
+This method sets a new rotation and scaling for the affine transformation based on the given translation vector (trn), rotation angle in degrees (degrees), and scaling vector (scale)."
+67299dbda23f7e5639814eed,"
+The summary part of this Javadoc comment is ""Scales the Vector2 object by using the provided x and y coordinates as a scale factor."""
+67299dbda23f7e5639814eee,This method calculates the quality of a triangle by comparing the length of its sides to the circumradius.
+67299dbda23f7e5639814eef,"The function ""intersectSegments"" determines whether two lines defined by four Vector2 points intersect. It returns a boolean value indicating whether the lines intersect."
+67299dbda23f7e5639814ef0,"This method calculates the angle of a point (x,y) in degrees. It first checks if the value of x and y are both infinite (or not a number), if so it sets n to 1f or -1.0f respectively. Next, if the value of x is infinite, it checks if y is infinitely larger than x, and if that's the case, it returns an angle plus/minus 180 degrees. If x is not infinite and y is also not infinite, it calculates the angle using atanUncheckedDeg method and returns it.
+This method uses a conditional operator to check for infinite values in x and y and set n to the appropriate value. It then checks if x is positive or negative and based on that, it calls either atanUncheckedDeg method with the correct angle. Finally, this method returns 0 if either x or y are NaN, otherwise it returns the result of the atanUncheckedDeg method."
+67299dbda23f7e5639814ef1,This function calculates the arc tangent of a point in degrees with a range of 0 to 360.
+67299dbda23f7e5639814ef2,  This method cancels touch focus on all views except for the ones passed as parameters.
+67299dbda23f7e5639814ef3,"
+This method would allow the user to activate or deactivate debugging information on objects in a table by receiving a Boolean value and setting it as either ""all"" or ""none""."
+67299dbda23f7e5639814ef4, This method returns whether it has successfully removed an actor from the system.
+67299dbda23f7e5639814ef5,"The method ""public void clear (boolean unfocus)"" will erase all of this component's children from memory and possibly focus on a new one if the boolean value is true."
+67299dbda23f7e5639814ef6, This sets the background image for a UI element.
+67299dbda23f7e5639814ef7," This method resizes the internal table to a specified maximum capacity, or clears it entirely if the specified size is less than or equal to the current size."
+67299dbda23f7e5639814ef8,"
+The function `countRunAndMakeAscending` takes an array of type `T`, two integers `lo` and `hi`, a comparator of type `Comparator<? super T>`, and returns the number of elements in the run starting at index `lo` and ending at index `runHi - 1`. If the values are descending, the function reverses the range. The function asserts that `lo` is less than `hi`."
+67299dbda23f7e5639814ef9,This method schedules tasks and returns an object of the Task class.
+67299dbda23f7e5639814efa,"This method scales the size of an object with the specified scaling factor. If the scale parameter is equal to 1f, then the method returns immediately without taking any action."
+67299dbda23f7e5639814efb,  This method rotates an object's transformation matrix by a quaternion.
+67299dbda23f7e5639814efc,"The method obtains an instance of the animation class, animates it with a specified offset and duration, and calls the animate() method on the obtained instance using the transition time."
+67299dbda23f7e5639814efd,"The summary of the Javadoc comment for the ""queue"" method is:
+
+Queues an animation with a specified duration, offset, and loop count."
+67299dbda23f7e5639814efe,This method creates a new directory based on the name passed as an argument and returns it in the form of a file. 
+67299dbda23f7e5639814eff,"
+This method takes an entity object and persists it to the database. It then returns the ID of the entity, which can be used for further processing."
+67299dbda23f7e5639814f00,"
+This method creates a string based on the RunningService object passed to it. It does this by calling another overloaded version of the method that takes two parameters. The second parameter is set to null and the return type is also specified as a string."
+67299dbda23f7e5639814f01,The purpose of this method is to generate an URL for the provided running service and database. 
+67299dbda23f7e5639814f02,The optDouble() method gets an optional double value from the JSON object with the given key name and returns the default value of NaN if the key is not present or is not a number.
+67299dbda23f7e5639814f03,The method optInt gets an integer value from the JSON object or returns the default value (0).
+67299dbda23f7e5639814f04,"The method ""optLong"" is used to retrieve an optional long value from a JSON object. The method returns the default value (0L) if the named attribute does not exist or cannot be converted to a long value."
+67299dbda23f7e5639814f05,"
+This method returns the result of invoking optString with a default value if the value is null."
+67299dbda23f7e5639814f06,The method creates a new folder with the given name and ownership.
+67299dbda23f7e5639814f07,This method writes files to disk with specific permissions using the specified name and content as parameters.
+67299dbda23f7e5639814f08,  This method stops the leader lifecycle and unregisters the listener from the overlord leader selector.
+67299dbda23f7e5639814f09,This function returns a list of parameters from a TableFunction parameter.
+67299dbda23f7e5639814f0a,"The method ""isNonTrivialStringConcat"" returns true if the argument passed in is a string concatenation RexNode and it has at least one bit, indicating that there are at least two input strings to be concatenated. The method is considered non-trivial because the input strings are not necessarily identical."
+67299dbda23f7e5639814f0b,"Submit the MSQ task successfully with the expected status code of ""HttpResponseStatus.Accepted""."
+67299dbda23f7e5639814f0c,"The method ceilingPowerOfTwo is a public static long function that returns the smallest power of two value greater than or equal to the input long value, according to its documentation"
+67299dbda23f7e5639814f0d," The ""hashSingleValue"" method is a Java function that returns a long variable. "
+67299dbda23f7e5639814f0e,"The function ""default int hashSingleValueToInt(long value)"" returns an integer that is produced by hashing a single long value."
+67299dbda23f7e5639814f0f," This Javadoc comment would have been written by a developer to describe the behavior of the `openAllNeoStores()` function.
+ 
+The summary sentence for this function states that it returns the value returned by invoking openNeoStores(StoreType.STORE_TYPES)."
+67299dbda23f7e5639814f10,The decode method decodes the value blocks of a given property block into its corresponding text value.
+67299dbda23f7e5639814f11,"This method allows the developer to add an arbitrary number of BooleanSuppliers to the list of end conditions for a Race instance, by calling it repeatedly with different parameters each time."
+67299dbda23f7e5639814f12,"The Javadoc comment for the function ""nextValidCodePoint"" describes a method that generates a random integer between the minimum and maximum code points of the configuration, excluding any characters that are unassigned, private use, or surrogates. The type of these characters is determined using the Character class's getType() method, which returns one of several predefined constants representing different character types."
+67299dbda23f7e5639814f13,  This Java method unlocks an exclusive lock and takes a write lock by using two other methods: initiateExclusiveLockRelease and unconditionallySetState.
+67299dbda23f7e5639814f14,"This Java code defines a method called ""getRefCount"" that returns an integer representing the reference count of a header state."
+67299dbda23f7e5639814f15,The `evictPage` function evicts a page from the memory mapped file by replacing it with the unmapped page ID (UNMAPPED_TTE) and resetting the page's last modified transaction ID if necessary.
+67299dbda23f7e5639814f16,"The summary part of the Javadoc comment that would have been written by a developer for the function ""private void clearChangedChunks(boolean denseNodes)"" is: 
+This method clears the changed chunks in the chunkChangedArray."
+67299dbda23f7e5639814f17, This method creates a log channel for an existing version. 
+67299dbda23f7e5639814f18, The function calculates the total waiting time in nanoseconds for a transaction based on its executing query.
+67299dbda23f7e5639814f19,This method stops an IndexPopulation and checks if it is empty. 
+67299dbda23f7e5639814f1a, This method logs a channel to a specific file.
+67299dbda23f7e5639814f1b," The method is named ""releaseWrite()"" and it's a public method."
+67299dbda23f7e5639814f1c,"
+The summary part of the Javadoc comment would have been written by a developer as follows: 
+""Checks whether the current position is within bounds and the seeker is not closed, raising an exception if it's out of bounds or the seeker has already been closed."""
+67299dbda23f7e5639814f1d," This static method writes to a page using the specified PageCursor, generation and pointer."
+67299dbda23f7e5639814f1e,The function bumps the unstable generation number by one.
+67299dbda23f7e5639814f1f,"This method is used to normalize a DurationValue object by adjusting the number of days and seconds according to the number of nanoseconds. It does this by first checking if the number of nanoseconds is less than the number of nanoseconds in a second, and if so, returning the current instance. If the number of nanoseconds is greater than or equal to the number of nanoseconds in a second, it adds the extra seconds to the number of seconds and removes them from the number of nanoseconds. It then checks if the number of seconds is greater than or equal to the number of seconds in a day, and if so, adds the extra days to the number of days and removes them from the number of seconds. Finally, it returns a new DurationValue object with the adjusted values for months, days, seconds, and nanoseconds."
+67299dbda23f7e5639814f20,"This method parses and validates command-line arguments passed in an array of strings called ""args"" using the ArgumentParser library and returns an object representing the parsed arguments as a Namespace. The preValidateArguments function is used to validate the arguments before parsing."
+67299dbda23f7e5639814f21," This method prints out the string parameter ""text"" only if the format is PLAIN, which is set by the getFormat() method."
+67299dbda23f7e5639814f22,"The method ""inQuote"" takes a string parameter as input and returns true if the string is not null, and false if it is null. Additionally, the method returns true if the string is not part of a comment line and false otherwise. "
+67299dbda23f7e5639814f23,"This function modifies the key of a FibonacciHeapNode and checks if it is less than its parent's key, if so then it cuts the node from the tree."
+67299dbda23f7e5639814f24,"
+This function cuts the node ""x"" from its parent node's child list and moves it to the root list, while also updating the parent node's degree."
+67299dbda23f7e5639814f25,"
+The summary part of the Javadoc comment for this function would have been written as: ""Atomically swaps the release sentinel onto the stack, giving back all waiters if any."""
+67299dbda23f7e5639814f26," This method apply() is an instance of a class that performs execution of some work in Java and handles exceptions that occur during the process by throwing the ExecutionException. It does so by enqueuing the work on the stack, and then grabbing a lock to do all the work until the work unit has been completed, which is done by checking if the work unit is done using the isDone() method of the WorkUnit class. If any failures occur during the process, they are checked for by invoking the checkFailure() method."
+67299dbda23f7e5639814f27,This function returns a string containing the name of the storage engine and the version number in a specific format.
+67299dbda23f7e5639814f28,"
+This method returns the sum of degrees across all types in this instance."
+67299dbda23f7e5639814f29,This method takes an array of Command instances as its parameter and sets the probability factor to zero for each element in the array.
+67299dbda23f7e5639814f2a,The method allows you to specify the maximum time a single iteration should last.
+67299dbda23f7e5639814f2b,"
+This method runs the specified number of iterations with a specified timeout for each iteration and throws an exception if any error occurs during the iteration process. "
+67299dbda23f7e5639814f2c,"The function creates indexes on token, node and relationship properties in the specified graph database service."
+67299dbda23f7e5639814f2d,"
+This method deletes all relationships and nodes in a given graph database service by using the batchedDelete method."
+67299dbda23f7e5639814f2e,"The ""negotiate"" function in this context is used to negotiate a Bolt protocol version with the server. The method sends the current protocol version over the connection and checks if the response received from the server indicates that it has negotiated the same protocol version as the one being sent by the client, using the ""assertThat"" method of the BoltConnectionAssertions class. "
+67299dbda23f7e5639814f2f,"The summary of the Javadoc comment written by a developer for the function ""public AnyValue readPrimitiveValue(long limit) throws PackstreamReaderException {"" would be: This method reads a primitive value from the buffer, where the type of the primitive is determined by peeking at the first byte in the buffer."
+67299dbda23f7e5639814f30," The function ""centerPointFor()"" takes two arguments: derivedValue and level. The method returns a double array of coordinates for the given value and level parameters using the normalizedCoordinateFor() method to generate normalized coordinates and getDoubleCoord() to convert them into an array of doubles."
+67299dbda23f7e5639814f31,"The ""getTilesIntersectingEnvelope"" method returns a list of LongRange objects that intersect with the Envelope referenced by the parameter, referenceEnvelope."
+67299dbda23f7e5639814f32,This function takes in a `normalizedCoord` which is an array of longs and a level and returns the coordinates of the normalized coordinate after it has been transformed to a set of pixel coordinates.
+67299dbda23f7e5639814f33,The propagate function adds the length of the data graph to the source node and then propagates it to the forward node.
+67299dbda23f7e5639814f34,The summary of the Javadoc comment for the insert function is that it inserts a new element into the heap and returns true if successful.
+67299dbda23f7e5639814f35, This method sorts the array using a heap sort algorithm.
+67299dbda23f7e5639814f36,"This method performs a ""heapify"" operation on the internal array of this heap. It starts at the root node (index `(size >>> 1) - 1`) and calls the `siftDown` method to move the values in the array down the tree, ensuring that the tree remains in a valid heap structure."
+67299dbda23f7e5639814f37,"
+The function sifts down the element at position 0 in the heap, using the given value x and the size of the heap as parameters for the recursive method call."
+67299dbda23f7e5639814f38," This method sets the values of a given number of bits in an array of longs, starting from a specified position. It takes four parameters: an array of longs to be modified, the starting index of the first bit to be set, the total number of slots (i.e., bits) to be set, and the slot number where the first long begins."
+67299dbda23f7e5639814f39,"The method subpath takes an integer beginIndex and an integer endIndex, returning a PathRepresentation object containing the substring of the string path between the specified indices."
+67299dbda23f7e5639814f3a,"This function takes in a file operation, file system abstraction, and two database layouts as inputs. It performs the specified operation on all the files associated with the given database files using the provided file system abstraction. The function allows for skipping non-existent files if necessary, and includes an id file in the list of files to be processed. It also takes in an existing target strategy as input, which determines how to handle existing targets during the operation.
+
+The function iterates over each database file in the provided `Iterable` object and performs the specified operation on all the files associated with that database file using the provided file system abstraction. The `allowSkipNonExistentFiles` parameter determines whether non-existent files should be skipped or not, while the `includeIdFile` parameter determines whether an id file should be included in the list of files to be processed. Finally, the function takes in an existing target strategy as input, which determines how to handle existing targets during the operation."
+67299dbda23f7e5639814f3b,"This function takes two sorted arrays of integers, ""left"" and ""right,"" as input, and returns a new array containing the symmetric difference between the two inputs. The symmetric difference is defined as the elements that are in either the left or right array but not both. If the two arrays have no elements in common, an empty array is returned."
+67299dbda23f7e5639814f3c, The method counts the number of unique elements in two sorted arrays and returns an array containing the number of unique elements in both arrays.
+67299dbda23f7e5639814f3d,This method compares two iterators by checking whether they have the same elements in the same order.
+67299dbda23f7e5639814f3e,This method returns the number of items in an Iterator<T> using a default Predicate for filtering.
+67299dbda23f7e5639814f3f,"The method ""addLazyBinding"" in the class adds a lazy binding to the list of bindings, by taking a supplier of the component and its type as input."
+67299dbda23f7e5639814f40,"This function is responsible for obtaining a read channel from a file system abstraction object and validating the kernel version before returning it as a readable and position-aware channel. The function takes in a file system abstraction object (fs), a path, a kernel version, and returns a readable and position-aware channel after validation."
+67299dbda23f7e5639814f41,"This method returns a sorted iterator for the values of a given field in the search results. It first checks if there are any hits and if not it returns an empty iterator. If there are hits it uses the getTopDocsByRelevance() method to retrieve the top documents based on relevance and then creates a new TopDocsValuesIterator instance using the retrieved top docs, leaf reader contexts, and field name."
+67299dbda23f7e5639814f42,"The method ""ensureValidDisi()"" checks that the document iterator is valid by returning false if it has reached the end of the collection and true otherwise."
+67299dbda23f7e5639814f43,This method adds a document to an external system.
+67299dbda23f7e5639814f44,"The function takes a Term and a Document as inputs. If the Document is not null, it updates the document using updateDocument(), otherwise deletes all documents that match the term from the index using deleteDocuments()."
+67299dbda23f7e5639814f45,This function clears the cache for all URLs in the current instance by opening a connection to each URL and clearing the cache for any JAR connections.
+67299dbda23f7e5639814f46,"This method takes in a request builder, the class of an exception that is expected to be thrown when executing the builder's execute() method, and the expected RestStatus of the response. It then asserts that the future returned by the builder's execute() method throws the specified exception with the expected status."
+67299dbda23f7e5639814f47,"The function ""getColumnValue"" gets the value of a column in a Result Set as an Object using the provided index and type."
+67299dbda23f7e5639814f48,This method allows a Java developer to modify the Jackson2ObjectMapperBuilder modules by providing a Consumer implementation for the List of Modules and returning the builder instance.
+67299dbda23f7e5639814f49,This method returns the child Element of a given name or null if it does not exist in the list of children.
+67299dbda23f7e5639814f4a,"The purpose of this Java code is to test that the ScoreSortBuilder constructor correctly handles a null value for the `order` parameter by throwing a NullPointerException with the expected message ""sort order cannot be null."" The test method, testIllegalOrder, creates a ScoreSortBuilder object and sets its order property to null. It then uses the `expectThrows()` method from JUnit to assert that the constructor throws a NullPointerException when it is called with null for the order parameter. Finally, the code asserts that the exception message matches the expected value of ""sort order cannot be null."""
+67299dbda23f7e5639814f4b," The protected boolean method ""isMatch"" compares strings using the pattern matching utilities in Spring's ""PatternMatchUtils""."
+67299dbda23f7e5639814f4c,This method tests the resolver's ability to handle wrong settings by attempting to resolve a non-existent hostname.
+67299dbda23f7e5639814f4d,"The method overrides the ""onResize"" method of its superclass to check the size of its widget when it is resized."
+67299dbda23f7e5639814f4e,This method creates a new AggregateDoubleMetricFieldType object with the specified field name and adds two subfields to it for each of the Metric enum values (min and max). The fields are named by concatenating the parent field name with the metric value.
+67299dbda23f7e5639814f4f,"Sets the x-coordinate of this circle's center.
+The method sets the x-coordinate of this circle to the parameter x minus half of its width."
+67299dbda23f7e5639814f50,"
+This method creates an ElasticsearchSecurityException with the message ""token expired,"" and sets its RestStatus to UNAUTHORIZED. It also adds a header named ""WWW-Authenticate"" with the value EXPIRED_TOKEN_WWW_AUTH_VALUE."
+67299dbda23f7e5639814f51,"The function takes in two parameters: a Project object and a SourceSet object. It returns an instance of the Provider interface, which represents a potentially expensive computation that will provide a RestIntegTestTask instance when executed. The function uses the SourceSet's name to determine the name of the test task. "
+67299dbda23f7e5639814f52,"
+This method checks if the specified element is indexed in the list of elements stored in a class field named 'elements' by determining if its type is indexed."
+67299dbda23f7e5639814f53," The Javadoc comment written by a developer for the `getForField` method would likely summarize its purpose and explain how it works. Here is an example of what that summary might look like:
+ 
+ ""Retrieves an instance of `IFD`, which represents data associated with a particular field, for use in fielddata operations. This method uses the `fieldDataContext` object to create the appropriate instance of `IFD`. The `IFD` type parameter is used to specify the type of data that will be accessed.""
+ 
+ In this example, the summary highlights the primary function of the method, which is to retrieve an instance of a fielddata class for use in fielddata operations. It also explains how the method works by using the `fieldDataContext` object to create the appropriate instance of `IFD`. Finally, it mentions the type parameter used to specify the type of data that will be accessed."
+67299dbda23f7e5639814f54,"The sum() method calculates the total sum of non-negative numbers in an array. If the array is empty, it returns zero."
+67299dbda23f7e5639814f55,This function searchForEntry searches for a specific entry in an LDAP directory.
+67299dbda23f7e5639814f56,"The uncheckedDeleteWithRetry method, which attempts to delete a file located at the specified path and is designed to handle any exceptions that may be thrown during deletion. "
+67299dbda23f7e5639814f57," The function writes data to a file using an InputStream as input and sets the append parameter to true or false, depending on whether it should be appended to or overwritten by default. "
+67299dbda23f7e5639814f58,"This method computes the memory limit (in bytes) for inlining subquery results for a given LookupExtractorFactoryContainerProvider, maximum available memory in JVM, and number of concurrent queries."
+67299dbda23f7e5639814f59,This method checks if the input expression is a valid mathematical expression.
+67299dbda23f7e5639814f5a," This method returns an Optional<NamedDatabaseId> by calling another method called getByName (with a new normalized Database Name object), which takes a String parameter. "
+67299dbda23f7e5639814f5b,"
+This method determines whether it is possible to append a specified number of bytes to the ByteBuffer without exceeding its capacity. It does this by comparing the sum of the buffer's current length and the number of bytes to be added, with the total capacity of the buffer, and returning true if they are less than or equal to each other, otherwise it returns false. "
+67299dbda23f7e5639814f5c,"This method compares two strings (tier1 and tier2) that represent the different tiers of a system. It first checks if the strings are equal to ""DATA_CONTENT"" and, if so, sets them both to ""DATA_HOT"". Then it gets the index position of the tiers in the ORDERED_FROZEN_TO_HOT_TIERS array and compares them. If they have the same position, then it returns 0. Otherwise, it returns -1 if tier1 is less than tier2 or 1 if tier1 is greater than tier2."
+67299dbda23f7e5639814f5d,"
+This method parses a float value from the specified XContentParser and returns it."
+67299dbda23f7e5639814f5e," This is a wrapper function for the PathExpander class that accepts two parameters: 
+1. source : A path expander object and
+2. pred: a BiFunction object with two arguments- (Path, BranchState)
+The function returns a PathExpander object with the printingWrapper() method."
+67299dbda23f7e5639814f5f," This method removes a key from the hash table if it exists. It first calls the locateKey() method to find the index of the key in the hash table, and then iterates through the rest of the elements in the hash table starting from the next element after the found index. If the distance between the current element and the found index is less than or equal to the distance between the next element and the found index, the current element is swapped with the found index. After the iteration is completed, the null value is assigned to the found index in the hash table, indicating that the key has been removed."
+67299dbda23f7e5639814f60,This function overrides the getDouble method in the ResultSet interface and returns the double value at the specified column index of this ResultSet object. It also throws an InvalidResultSetAccessException if there is an SQL exception.
+67299dbda23f7e5639814f61,"The Javadoc comment for this method indicates that it attempts to release the semaphore in a thread-safe manner by setting the state of the semaphore to the given final state and returning ""true"" if successful."
+67299dbda23f7e5639814f62,"This function retrieves the list of exception types that are declared in the signature of a given method. It does this by iterating over the parameter types of the method and adding any types that extend Throwable to a list, which is then returned. If no such types are found, an IllegalStateException is thrown."
+67299dbda23f7e5639814f63,"
+CoordinatesBuilder coordinate(longitude, latitude) is used to create a new Coordinate object with the given latitude and longitude values and returns a reference to that object."
+67299dbda23f7e5639814f64,This is an override function that loads the application context for AOT processing.
+67299dbda23f7e5639814f65,The setMisfireInstructionName method sets the name of a constant in the constants map and verifies that it is a misfire instruction constant using an Assert statement.
+67299dbda23f7e5639814f66,"The ""getIds"" method takes an Iterable of TOKENs and a KernelTransaction as input and returns an array of IDs for the given tokens in the kernel."
+67299dbda23f7e5639814f67,This method returns a boolean indicating whether the given AnnotatedElement has any meta annotations of the specified type.
+67299dbda23f7e5639814f68, The function of() takes in a string array called managedClassNames and returns a PersistenceManagedType object with a List of managed class names.
+67299dbda23f7e5639814f69,The toString() method is overridden in this class to provide a customized string representation of the object that includes the URI path and query parameters.
+67299dbda23f7e5639814f6a,"  The Javadoc comment for this method describes the behavior of the `waitForState` function, which allows a developer to wait for the cluster to reach a certain state using a predicate and a listener. It explains that if the initial state matches the predicate, the listener will be immediately notified with the current state. Otherwise, it creates a new observer object and calls the `waitForNextChange` method of this object, passing in the listener and state predicate as arguments. This method allows the caller to wait for the next change in the cluster state that meets the specified predicate."
+67299dbda23f7e5639814f6b,"
+The function getPositionCount() returns an integer value of the number of positions in a block of data. "
+67299dbda23f7e5639814f6c," This function takes a string and returns a set of strings where each element in the set is separated by commas, "
+67299dbda23f7e5639814f6d,"The ""unwatch"" method unschedules a task to be run by a thread by checking the thread and task objects for nullity using ObjectUtil.checkNotNull()."
+67299dbda23f7e5639814f6e,"This function takes three parameters: an IngestDocument object, a String representing the path to be set (or updated), and a String value that will replace the existing value at the given path in the document's source. It first checks if the field exists by using the getSourceAndMetadata() method of the IngestDocument object, then updates or creates it accordingly, setting the new value for the specified path."
+67299dbda23f7e5639814f6f, This method translates an SQLException using an ExceptionTranslator and returns it as a DataAccessException.
+67299dbda23f7e5639814f70,"
+This function gets a list of message converters from the HTTP request. If the message converters are null, then it creates a new instance of ArrayList and adds default HttpMessageConverters to it using the addDefaultHttpMessageConverters method. After that, it calls the extendMessageConverters method with the message converters parameter to allow for additional extensions. Finally, it returns the message converters list.
+
+In summary, this function gets a list of message converters from the HTTP request or creates one and adds default HttpMessageConverters if necessary, then allows for additional extensions using the extendMessageConverters method before returning the message converters list."
+67299dbda23f7e5639814f71,"This method calculates the exponential back-off time using the provided pastAttemptCount and maxBackoff values. If pastAttemptCount is less than one, an IllegalArgumentException is thrown. The boundedAttempt value is calculated by taking the minimum of the pastAttemptCount and 30. The exponentialBackoff value is calculated as a power of two multiplied by 1000. The actualBackoff value is then calculated by taking the minimum of the exponentialBackoff value and the maxBackoff value. Finally, the method returns a long value representing the calculated back-off time with jitter added to it."
+67299dbda23f7e5639814f72,"The method `toLowerCase` takes an integer `word`, applies a bitwise right-shift operator to it, and then returns the result of applying a bitwise OR operator to the original `word`."
+67299dbda23f7e5639814f73,"The purpose of the function is to find the smallest power of two that is greater than or equal to a given positive integer value, and return it as an integer."
+67299dbda23f7e5639814f74,This method adds a new bulk request to the current builder. It takes the bytes of the data as an argument and returns the updated bulk request builder.
+67299dbda23f7e5639814f75,This method allows you to set a timeout value for the search request.
+67299dbda23f7e5639814f76, The function error is used to log an error message with the Throwable cause and a Supplier<? extends CharSequence> messageSupplier parameter.
+67299dbda23f7e5639814f77,"
+The Javadoc comment would have been written to provide information about the method's behavior, including any exceptions that may be thrown and a description of its purpose. It is likely that the developer would have provided a summary statement that describes what the function does, such as ""Adds an unbounded range to the aggregation with the specified key and maximum value."""
+67299dbda23f7e5639814f78," This method overrides the getInt() function from a ResultSet object to return an integer value of the specified column, and it throws an InvalidResultSetAccessException if there is an SQLException."
+67299dbda23f7e5639814f79,This function sets the scope annotation type for the current bean definition.
+67299dbda23f7e5639814f7a,  This method returns the maximum number of indices the Buffer can hold.
+67299dbda23f7e5639814f7b,"The function ""triggerBeforeCommit"" triggers a callback for each transaction synchronization in the current transaction, passing read-only information as an argument."
+67299dbda23f7e5639814f7c,This method is overridden to filter the input tuple domain of columns based on whether they are partition keys in Hive tables.
+67299dbda23f7e5639814f7d,"
+This method handles an error by trying to emit a ""empty"" signal and then propagating the error to the receive publisher, send processor, and closing status sink."
+67299dbda23f7e5639814f7e,"This method determines if a given PropertyDescriptor has a unique write method or not. If the input property descriptor is an instance of GenericTypeAwarePropertyDescriptor, then the method checks for the presence of a unique write method using gpd.hasUniqueWriteMethod(). If the input property descriptor does not implement the GenericTypeAwarePropertyDescriptor interface, then the method only considers the presence of a write method and returns true if there is at least one write method."
+67299dbda23f7e5639814f7f,"
+This method checks the size of a queue and starts a background fetch if it is less than half of the max number of records per poll multiplied by two, or if the size of the buffer is less than half of the size of the recordBufferSize."
+67299dbda23f7e5639814f80,This method creates a new SSL handler using the given ByteBufAllocator and Executor.
+67299dbda23f7e5639814f81,"  The function flushes the Base64 encoder or decoder, writing any remaining data to the output stream."
+67299dbda23f7e5639814f82,"This function returns the element type of an array expression, or the original type if it is not an array."
+67299dbda23f7e5639814f83,The method cancels the index population operations by calling the cancel method on each IndexPopulation object in the populations collection. 
+67299dbda23f7e5639814f84,This method increases the width and height of a rectangle by a specified amount.
+67299dbda23f7e5639814f85," The method returns the value associated with a given key. If the key is not found, the default value is returned instead."
+67299dbda23f7e5639814f86,"
+The function `findKey` takes an object `value`, a boolean `identity`, and an integer `notFound`. It returns the index of the first matching key in the array if found, otherwise it returns the value of `notFound`. If `value` is null, the method checks for a zero value. The method iterates through the `valueTable` array backwards using a for loop and compares each element to `value` or `zeroValue`. If an equal object is found, the index is returned. Otherwise, it returns `notFound`."
+67299dbda23f7e5639814f87,"
+This method processes a field's value in the current request context. If a RequestDataValueProcessor is available, it invokes its processFormFieldValue() method to modify the value based on the specified name and type, then returns the modified value."
+67299dbda23f7e5639814f88,This method sets the prefix for comments in a Java source file and asserts that it is non-null and non-empty. 
+67299dbda23f7e5639814f89,"This method ensures that the file is open before attempting to access it. It does this by invoking the ensureOpen() method on the fileAccess object, passing in an exception supplier function as a parameter."

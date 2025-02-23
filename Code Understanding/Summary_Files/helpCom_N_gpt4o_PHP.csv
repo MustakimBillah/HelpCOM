@@ -1,0 +1,51 @@
+_id,HelpComSummary
+6799bf4ccad5602c8cffd24e,"Prints a formatted list of issues, detailing the number of unique issues and the tests that triggered them, with an optional stack trace."
+6799bf4ccad5602c8cffd24f,"Returns an array of merged PSR-0 prefixes if available, otherwise returns an empty array."
+6799bf4ccad5602c8cffd250,"Generates a method code template based on the method's characteristics, including handling of static methods, return types, and deprecation notices."
+6799bf4ccad5602c8cffd251,"Creates a version requirement object from a given version requirement string, handling both constraint and comparison formats."
+6799bf4ccad5602c8cffd252,"Saves the current contents to the specified path with a specified signature algorithm, ensuring the file is correctly signed."
+6799bf4ccad5602c8cffd253,"Resolves and reorders a list of tests based on their dependencies, ensuring that all required dependencies are provided before a test is executed."
+6799bf4ccad5602c8cffd254,Returns the number of constraints associated with the current instance.
+6799bf4ccad5602c8cffd255,"Converts a relative file path to an absolute path based on the given filename and path, handling both Unix and Windows path formats."
+6799bf4ccad5602c8cffd256,"Processes an array of file paths, excluding certain files based on predefined conditions, and returns a string of PHP require statements for the remaining files."
+6799bf4ccad5602c8cffd257,Fail the test with a detailed failure message and optional comparison failure information.
+6799bf4ccad5602c8cffd258,"Runs a test case, configuring the environment based on whether the entire class or a single method should be executed, and preserving global state if specified."
+6799bf4ccad5602c8cffd259,"Parses a PHPT file into sections, validates them, and checks for unsupported sections."
+6799bf4ccad5602c8cffd25a,"Returns an array of hook methods for a given class name, categorizing them based on their metadata annotations such as before, after, pre-condition, and post-condition."
+6799bf4ccad5602c8cffd25b,"Maps the given XML configuration file and test suite collections to a `TestSuiteObject`, including or excluding specified test suites based on their names."
+6799bf4ccad5602c8cffd25c,"Sets the allowed methods for the class, ensuring they exist, and updates the internal state accordingly."
+6799bf4ccad5602c8cffd25d,"""Evaluates a given value against a specified constraint, incrementing the assertion count accordingly."""
+6799bf4ccad5602c8cffd25e,"Returns an array of available version numbers from the schema directory, sorted in descending order."
+6799bf4ccad5602c8cffd25f,"Generates the class declaration string for a test double, considering whether it is a mock object or a stub, if it is an interface, and whether it should be readonly, while also incorporating additional interfaces."
+6799bf4ccad5602c8cffd260,"Maps test events with associated issues to structured elements, summarizing the number of tests with issues and the total number of issues."
+6799bf4ccad5602c8cffd261,"Writes the provided `Baseline` data to an XML file, organizing issues by file and line number, and including metadata such as file paths and issue hashes."
+6799bf4ccad5602c8cffd262,"Invokes methods annotated with ""beforeClass"" hooks for a test class, handling any exceptions or skipped tests, and emits relevant events."
+6799bf4ccad5602c8cffd263,Get a location hint from a diff message by identifying the relevant line of difference and using it to find the corresponding section.
+6799bf4ccad5602c8cffd264,Merges CLI and XML configurations into a unified Configuration object.
+6799bf4ccad5602c8cffd265,"Colorizes and formats a message and its diff from a given buffer, applying specific styles to lines based on their content."
+6799bf4ccad5602c8cffd266,"Loads and returns the classes declared in a specified suite class file, caching the results for future requests."
+6799bf4ccad5602c8cffd267,"Returns an array of execution order dependencies for a specified class and method, based on metadata indicating class or method dependencies."
+6799bf4ccad5602c8cffd268,Counts the number of constraints in the current instance.
+6799bf4ccad5602c8cffd269,"Checks if the given input is considered empty, supporting EmptyIterator, Countable, and general emptiness checks."
+6799bf4ccad5602c8cffd26a,Checks if there are any tests that require a PHP extension.
+6799bf4ccad5602c8cffd26b,"Sets up the return values for a stubbed method call, allowing for consecutive calls with different return values."
+6799bf4ccad5602c8cffd26c,"Verifies the parameters of a method invocation against expected constraints, ensuring that the invocation matches the expected parameter count and values, and throws an exception if any expectations are not met."
+6799bf4ccad5602c8cffd26d,Determines the location of a specified string within given sections and returns an array with file path and line number hints.
+6799bf4ccad5602c8cffd26e,"Converts the current object state, including description, stack trace, and any previous exceptions, into a string representation."
+6799bf4ccad5602c8cffd26f,"Generates a class name with a specified prefix, ensuring uniqueness, and returns an array containing the class name, original class name, full class name, and namespace name."
+6799bf4ccad5602c8cffd270,"Adds a test method to the test suite, handling potential invalid data providers and setting dependencies and groups for the test."
+6799bf4ccad5602c8cffd271,Initializes the object with a stack array and sets the number of configured return values based on the stack's count.
+6799bf4ccad5602c8cffd272,"Invokes a series of hook methods in order of priority, emitting events for each method called, errored, or completed, and handles any exceptions that occur during invocation."
+6799bf4ccad5602c8cffd273,Checks if the `dependencyInput` property is not empty and returns a boolean indicating its presence.
+6799bf4ccad5602c8cffd274,Counts the total number of test events across all tests in the collection.
+6799bf4ccad5602c8cffd275,Checks if there are any tests using the current instance.
+6799bf4ccad5602c8cffd276,"Creates an instance of the class from a given `ReflectionMethod`, extracting method visibility, static status, return reference, and deprecation details."
+6799bf4ccad5602c8cffd277,Checks if there are any tests covering the current instance.
+6799bf4ccad5602c8cffd278,"Reads a baseline file, validates its existence and version, and parses its contents to construct and return a `Baseline` object."
+6799bf4ccad5602c8cffd279,"Creates a test double for the intersection of multiple interfaces, ensuring that at least two interfaces are specified, all interfaces exist, and no methods are duplicated across interfaces."
+6799bf4ccad5602c8cffd27a,Provides test cases with combinations of a generator and an empty array.
+6799bf4ccad5602c8cffd27b,Calculates and returns the SHA-1 hash of a specific line from a given file.
+6799bf4ccad5602c8cffd27c,"Processes the result of a test executed in a child process, handling errors and deserializing the output."
+6799bf4ccad5602c8cffd27d,"Returns the count of elements in a countable or traversable object, or null if the input is not countable or traversable."
+6799bf4ccad5602c8cffd27e,"Generates a test double class, either returning a cached version or creating a new one based on the specified parameters."
+6799bf4ccad5602c8cffd27f,Counts the total number of elements across all constraints.

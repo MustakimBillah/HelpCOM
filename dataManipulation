@@ -1,0 +1,117 @@
+
+from pymongo import MongoClient
+
+
+
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+
+db = client.sample_mflix
+
+javaTestWithComments = db.javaTestWithComments
+
+avgBleu = 0
+avgRouge = 0
+highBleu = 0
+highRouge = 0
+
+avgBleuAsap = 0
+avgRougeAsap = 0
+highBleuAsap= 0
+highRougeAsap = 0
+
+avgBleucodet5 = 0
+avgRougecodet5 = 0
+highBleucodet5= 0
+highRougecodet5 = 0
+
+
+def read_functions_from_file(file_path):
+    functions = []
+    with open(file_path, 'r') as file:
+        for line in file:
+            line = line.strip()
+            if line:
+                index, description = line.split('\t', 1)
+                functions.append(description.strip())
+    return functions
+
+file_path = '/student/mjr175/commentGeneration/ASAP_DATASET/Java_result/Java_result/final_1_codet5.output'  # Specify the path to your text file
+# functions = read_functions_from_file(file_path)
+
+# Example usage:
+
+
+cnt = 0
+winBlue = 0
+winRouge = 0
+winBlueT5 = 0
+winRouget5 = 0
+
+
+repo = set()
+
+for item in javaTestWithComments.find():
+    
+    bleu = item.get('bleu')
+    avgBleu += bleu
+    rouge = item.get('rougeL')
+    avgRouge += rouge
+    highBleu = max(highBleu,bleu)
+    highRouge = max(highRouge, rouge)
+    bleuAsap = item.get('bleuAsap')
+    avgBleuAsap += bleuAsap
+    rougeAsap = item.get('rougeLAsap')
+    avgRougeAsap += rougeAsap
+    highBleuAsap = max(highBleuAsap,bleuAsap)
+    highRougeAsap = max(highRougeAsap, rougeAsap)
+    bleucodet5 = item.get('bleucodet5')
+    avgBleucodet5 += bleucodet5
+    rougecodet5 = item.get('rougeLcodet5')
+    avgRougecodet5 += rougecodet5
+    highBleucodet5 = max(highBleucodet5,bleucodet5)
+    highRougecodet5 = max(highRougecodet5, rougecodet5)
+    # codet5 = functions[cnt]
+    # javaTestWithComments.update_one(
+    #     {'_id': item['_id']},
+    #     {'$set': {'codet5': codet5}}
+    # )
+
+    if(bleu>bleuAsap):
+        winBlue+=1
+    if(rouge>rougeAsap):
+        winRouge+=1
+    
+    if(bleu>bleucodet5):
+        winBlueT5+=1
+    if(rouge>rougecodet5):
+        winRouget5+=1
+
+
+    cnt+=1
+    if(cnt==250) :
+        break
+
+    
+
+print("avgBleu : ", avgBleu/250)
+print("avgRouge : ", avgRouge/250)
+print("highBleu : ", highBleu)
+print("highRouge : ", highRouge)
+
+print("avgBleuAsap : ", avgBleuAsap/250)
+print("avgRougeAsap : ", avgRougeAsap/250)
+print("highBleuAsap : ", highBleuAsap)
+print("highRougeAsap : ", highRougeAsap)
+
+
+
+print("avgBleucodet5 : ", avgBleucodet5/250)
+print("avgRougecodet5 : ", avgRougecodet5/250)
+print("highBleucodet5 : ", highBleucodet5)
+print("highRougecodet5 : ", highRougecodet5)
+
+print("winRouge : ", winRouge)
+print ("winBleu : ", winBlue)
+
+print("winRougeT5 : ", winRouget5)
+print ("winBleuT5 : ", winBlueT5)

@@ -1,0 +1,8 @@
+We categorized the identifiers into different classes. Please find the information below.
+Function name: HTMLLayoutBase.getEffectiveConverterMap
+Identifier to be returned: ['effectiveMap']
+Method Invocation: ['getDefaultConverterMap', 'effectiveMap', 'putAll', 'getContext', 'context', 'getObject']
+Method Arguments: ['defaultMap', 'contextMap']
+Variable declaration: ['effectiveMap', 'defaultMap', 'context', 'contextMap']
+Identifier to access field/array: ['CoreConstants', 'PATTERN_RULE_REGISTRY']
+##########

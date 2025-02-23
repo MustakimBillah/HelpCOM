@@ -1,0 +1,867 @@
+_id,Summary
+6799b7809cd06e9ec13c14bb,"def find_module(module, path=None, imp=None):
+    """"""Version of :func:`imp.find_module` supporting dots.""""""
+    if imp is None:
+        imp = import_module
+    with cwd_in_path():
+        try:
+            return imp(module)
+        except ImportError:
+            # Raise a more specific error if the problem is that one of the
+            # dot-separated segments of the module name is not a package.
+            if '.' in module:
+                parts = module.split('.')
+                for i, part in enumerate(parts[:-1]):
+                    package = '.'.join(parts[:i + 1])
+                    try:
+                        mpart = imp(package)
+                    except ImportError:
+                        # Break out and re-raise the original ImportError
+                        # instead.
+                        break
+                    try:
+                        mpart.__path__
+                    except AttributeError:
+                        raise NotAPackage(package)
+            raise"
+6799b7809cd06e9ec13c14bc,"def run_then_revoke():
+    """"""Runs the workflow and lets the waiting task run for a while.
+    Then, the waiting task is revoked by its stamped header.
+
+    The expected outcome is that the canvas will be calculated to the end,
+    but the waiting task will be revoked and terminated *during its run*.
+
+    See worker logs for more details.
+    """"""
+    canvas = prepare_workflow()
+    result = canvas.delay()
+    print('Wait 5 seconds, then revoke the last task by its stamped header: ""mystamp"": ""I am a stamp!""')
+    sleep(5)
+    print('Revoking the last task...')
+    revoke_by_headers(result, terminate=True)"
+6799b7809cd06e9ec13c14bd,"def synloop(obj, connection, consumer, blueprint, hub, qos,
+            heartbeat, clock, hbrate=2.0, **kwargs):
+    """"""Fallback blocking event loop for transports that doesn't support AIO.""""""
+    RUN = bootsteps.RUN
+    on_task_received = obj.create_task_handler()
+    perform_pending_operations = obj.perform_pending_operations
+    heartbeat_error = [None]
+    if getattr(obj.pool, 'is_green', False):
+        heartbeat_error = _enable_amqheartbeats(obj.timer, connection, rate=hbrate)
+    consumer.on_message = on_task_received
+    consumer.consume()
+
+    obj.on_ready()
+
+    def _loop_cycle():
+        """"""
+        Perform one iteration of the blocking event loop.
+        """"""
+        if heartbeat_error[0] is not None:
+            raise heartbeat_error[0]
+        if qos.prev != qos.value:
+            qos.update()
+        try:
+            perform_pending_operations()
+            connection.drain_events(timeout=2.0)
+        except socket.timeout:
+            pass
+        except OSError:
+            if blueprint.state == RUN:
+                raise
+
+    while blueprint.state == RUN and obj.connection:
+        try:
+            state.maybe_shutdown()
+        finally:
+            _loop_cycle()"
+6799b7809cd06e9ec13c14be,"def publish(self, type, fields, producer,
+                blind=False, Event=Event, **kwargs):
+        """"""Publish event using custom :class:`~kombu.Producer`.
+
+        Arguments:
+            type (str): Event type name, with group separated by dash (`-`).
+                fields: Dictionary of event fields, must be json serializable.
+            producer (kombu.Producer): Producer instance to use:
+                only the ``publish`` method will be called.
+            retry (bool): Retry in the event of connection failure.
+            retry_policy (Mapping): Map of custom retry policy options.
+                See :meth:`~kombu.Connection.ensure`.
+            blind (bool): Don't set logical clock value (also don't forward
+                the internal logical clock).
+            Event (Callable): Event type used to create event.
+                Defaults to :func:`Event`.
+            utcoffset (Callable): Function returning the current
+                utc offset in hours.
+        """"""
+        clock = None if blind else self.clock.forward()
+        event = Event(type, hostname=self.hostname, utcoffset=utcoffset(),
+                      pid=self.pid, clock=clock, **fields)
+        with self.mutex:
+            return self._publish(event, producer,
+                                 routing_key=type.replace('-', '.'), **kwargs)"
+6799b7809cd06e9ec13c14bf,"def kill_worker(
+        self,
+        worker: CeleryTestWorker,
+        method: WorkerKill.Method,
+    ) -> None:
+        """"""Kill a Celery worker.
+
+        Args:
+            worker (CeleryTestWorker): Worker to kill.
+            method (WorkerKill.Method): The method to kill the worker.
+        """"""
+        if method == WorkerKill.Method.DOCKER_KILL:
+            worker.kill()
+
+            assert worker.container.status == ""exited"", (
+                f""Worker container should be in 'exited' state after kill, ""
+                f""but is in '{worker.container.status}' state instead.""
+            )
+
+        if method == WorkerKill.Method.CONTROL_SHUTDOWN:
+            control: Control = worker.app.control
+            control.shutdown(destination=[worker.hostname()])
+            worker.container.reload()
+
+        if method == WorkerKill.Method.SIGTERM:
+            worker.kill(signal=""SIGTERM"")
+
+        if method == WorkerKill.Method.SIGQUIT:
+            worker.kill(signal=""SIGQUIT"")"
+6799b7809cd06e9ec13c14c0,"def terminate(self, in_sighandler=False):
+        """"""Not so graceful shutdown of the worker server (Cold shutdown).""""""
+        if self.blueprint.state != TERMINATE:
+            self.signal_consumer_close()
+            if not in_sighandler or self.pool.signal_safe:
+                self._shutdown(warm=False)"
+6799b7809cd06e9ec13c14c1,"def get_key_for_task(self, task_id, key=''):
+        """"""Get the cache key for a task by id.""""""
+        if not task_id:
+            raise ValueError(f'task_id must not be empty. Got {task_id} instead.')
+        return self._get_key_for(self.task_keyprefix, task_id, key)"
+6799b7809cd06e9ec13c14c2,"def flatten_links(self):
+        """"""Return a recursive list of dependencies.
+
+        ""unchain"" if you will, but with links intact.
+        """"""
+        return list(itertools.chain.from_iterable(itertools.chain(
+            [[self]],
+            (link.flatten_links()
+             for link in maybe_list(self.options.get('link')) or [])
+        )))"
+6799b7809cd06e9ec13c14c3,"def release(self, *args):
+        """"""Release lock.""""""
+        self.remove()"
+6799b7809cd06e9ec13c14c4,"def registered(self, *taskinfoitems):
+        """"""Return all registered tasks per worker.
+
+        >>> app.control.inspect().registered()
+        {'celery@node1': ['task1', 'task1']}
+        >>> app.control.inspect().registered('serializer', 'max_retries')
+        {'celery@node1': ['task_foo [serializer=json max_retries=3]', 'tasb_bar [serializer=json max_retries=3]']}
+
+        Arguments:
+            taskinfoitems (Sequence[str]): List of :class:`~celery.app.task.Task`
+                                           attributes to include.
+
+        Returns:
+            Dict: Dictionary ``{HOSTNAME: [TASK1_INFO, ...]}``.
+        """"""
+        return self._request('registered', taskinfoitems=taskinfoitems)"
+6799b7809cd06e9ec13c14c5,"def process_destructor(pid, exitcode):
+    """"""Pool child process destructor.
+
+    Dispatch the :signal:`worker_process_shutdown` signal.
+    """"""
+    signals.worker_process_shutdown.send(
+        sender=None, pid=pid, exitcode=exitcode,
+    )"
+6799b7809cd06e9ec13c14c6,"def _forget(self, task_id):
+        """"""Forget about result.""""""
+        session = self.ResultSession()
+        with session_cleanup(session):
+            session.query(self.task_cls).filter(self.task_cls.task_id == task_id).delete()
+            session.commit()"
+6799b7809cd06e9ec13c14c7,"def _store_result(self, task_id, result, state,
+                      traceback=None, request=None, **kwargs):
+        """"""Store return value and state of an executed task.""""""
+        self._get_connection(write=True)
+
+        self._session.execute(self._write_stmt, (
+            task_id,
+            state,
+            buf_t(self.encode(result)),
+            self.app.now(),
+            buf_t(self.encode(traceback)),
+            buf_t(self.encode(self.current_task_children(request)))
+        ))"
+6799b7809cd06e9ec13c14c8,"def revoked(self):
+        """"""Return list of revoked tasks.
+
+        >>> app.control.inspect().revoked()
+        {'celery@node1': ['16f527de-1c72-47a6-b477-c472b92fef7a']}
+
+        Returns:
+            Dict: Dictionary ``{HOSTNAME: [TASK_ID, ...]}``.
+        """"""
+        return self._request('revoked')"
+6799b7809cd06e9ec13c14c9,"def TaskMessage(
+    name,  # type: str
+    id=None,  # type: str
+    args=(),  # type: Sequence
+    kwargs=None,  # type: Mapping
+    callbacks=None,  # type: Sequence[Signature]
+    errbacks=None,  # type: Sequence[Signature]
+    chain=None,  # type: Sequence[Signature]
+    shadow=None,  # type: str
+    utc=None,  # type: bool
+    **options  # type: Any
+):
+    # type: (...) -> Any
+    """"""Create task message in protocol 2 format.""""""
+    kwargs = {} if not kwargs else kwargs
+    from kombu.serialization import dumps
+
+    from celery import uuid
+    id = id or uuid()
+    message = Mock(name=f'TaskMessage-{id}')
+    message.headers = {
+        'id': id,
+        'task': name,
+        'shadow': shadow,
+    }
+    embed = {'callbacks': callbacks, 'errbacks': errbacks, 'chain': chain}
+    message.headers.update(options)
+    message.content_type, message.content_encoding, message.body = dumps(
+        (args, kwargs, embed), serializer='json',
+    )
+    message.payload = (args, kwargs, embed)
+    return message"
+6799b7809cd06e9ec13c14ca,"def test_linking_stamped_sig(self, manager):
+        """"""Test that linking a callback after stamping will stamp the callback correctly""""""
+
+        assertion_result = False
+
+        @task_received.connect
+        def task_received_handler(sender=None, request=None, signal=None, **kwargs):
+            nonlocal assertion_result
+            link = request._Request__payload[2][""callbacks""][0]
+            assertion_result = all(
+                [stamped_header in link[""options""] for stamped_header in link[""options""][""stamped_headers""]]
+            )
+
+        class FixedMonitoringIdStampingVisitor(StampingVisitor):
+            def __init__(self, msg_id):
+                self.msg_id = msg_id
+
+            def on_signature(self, sig, **headers):
+                mtask_id = self.msg_id
+                return {""mtask_id"": mtask_id}
+
+        link_sig = identity.si(""link_sig"")
+        stamped_pass_sig = identity.si(""passing sig"")
+        stamped_pass_sig.stamp(visitor=FixedMonitoringIdStampingVisitor(str(uuid.uuid4())))
+        stamped_pass_sig.link(link_sig)
+        stamped_pass_sig.stamp(visitor=FixedMonitoringIdStampingVisitor(""1234""))
+        stamped_pass_sig.apply_async().get(timeout=2)
+        assert assertion_result"
+6799b7809cd06e9ec13c14cb,"def test_task_with_pydantic_with_pydantic_not_installed(self):
+        """"""Test configuring a task with Pydantic when pydantic is not installed.""""""
+
+        with self.Celery() as app:
+            @app.task(pydantic=True)
+            def task():
+                return
+
+            # mock function will raise ModuleNotFoundError only if pydantic is imported
+            def import_module(name, *args, **kwargs):
+                if name == 'pydantic':
+                    raise ModuleNotFoundError('Module not found.')
+                return DEFAULT
+
+            msg = r'^You need to install pydantic to use pydantic model serialization\.$'
+            with patch(
+                'celery.app.base.importlib.import_module',
+                side_effect=import_module,
+                wraps=importlib.import_module
+            ):
+                with pytest.raises(ImproperlyConfigured, match=msg):
+                    task()"
+6799b7809cd06e9ec13c14cc,"def bootsteps(ctx):
+    """"""Display bootsteps graph.""""""
+    worker = ctx.obj.app.WorkController()
+    include = {arg.lower() for arg in ctx.args or ['worker', 'consumer']}
+    if 'worker' in include:
+        worker_graph = worker.blueprint.graph
+        if 'consumer' in include:
+            worker.blueprint.connect_with(worker.consumer.blueprint)
+    else:
+        worker_graph = worker.consumer.blueprint.graph
+    worker_graph.to_dot(sys.stdout)"
+6799b7809cd06e9ec13c14cd,"def test_on_worker_process_init_called(self):
+        """"""Upon the initialization of a new solo worker pool a worker_process_init
+        signal should be emitted""""""
+        on_worker_process_init = Mock()
+        signals.worker_process_init.connect(on_worker_process_init)
+        solo.TaskPool()
+        assert on_worker_process_init.call_count == 1"
+6799b7809cd06e9ec13c14ce,"def hfloat(f, p=5):
+    """"""Convert float to value suitable for humans.
+
+    Arguments:
+        f (float): The floating point number.
+        p (int): Floating point precision (default is 5).
+    """"""
+    i = int(f)
+    return i if i == f else '{0:.{p}}'.format(f, p=p)"
+6799b7809cd06e9ec13c14cf,"def result(ctx, task_id, task, traceback):
+    """"""Print the return value for a given task id.""""""
+    app = ctx.obj.app
+
+    result_cls = app.tasks[task].AsyncResult if task else app.AsyncResult
+    task_result = result_cls(task_id)
+    value = task_result.traceback if traceback else task_result.get()
+
+    # TODO: Prettify result
+    ctx.obj.echo(value)"
+6799b7809cd06e9ec13c14d0,"def _with_list_option(self, key):
+        """"""Gets the value at the given self.options[key] as a list.
+
+        If the value is not a list, it will be converted to one and saved in self.options.
+        If the key does not exist, an empty list will be set and returned instead.
+
+        Arguments:
+            key (str): The key to get the value for.
+
+        Returns:
+            List: The value at the given key as a list or an empty list if the key does not exist.
+        """"""
+        items = self.options.setdefault(key, [])
+        if not isinstance(items, MutableSequence):
+            items = self.options[key] = [items]
+        return items"
+6799b7809cd06e9ec13c14d1,"def get_by_parts(self, *parts):
+        """"""Return the current value for setting specified as a path.
+
+        Example:
+            >>> from proj.celery import app
+            >>> app.conf.get_by_parts('worker', 'disable_rate_limits')
+            False
+        """"""
+        return self['_'.join(part for part in parts if part)]"
+6799b7809cd06e9ec13c14d2,"def destroy_queues(self, queues, proc):
+        """"""Destroy queues that can no longer be used.
+
+        This way they can be replaced by new usable sockets.
+        """"""
+        assert not proc._is_alive()
+        self._waiting_to_start.discard(proc)
+        removed = 1
+        try:
+            self._queues.pop(queues)
+        except KeyError:
+            removed = 0
+        try:
+            self.on_inqueue_close(queues[0]._writer.fileno(), proc)
+        except OSError:
+            pass
+        for queue in queues:
+            if queue:
+                for sock in (queue._reader, queue._writer):
+                    if not sock.closed:
+                        self.hub_remove(sock)
+                        try:
+                            sock.close()
+                        except OSError:
+                            pass
+        return removed"
+6799b7809cd06e9ec13c14d3,"def test_task_with_pydantic_with_no_args(self):
+        """"""Test a pydantic task with no arguments or return value.""""""
+        with self.Celery() as app:
+            check = Mock()
+
+            @app.task(pydantic=True)
+            def foo():
+                check()
+
+            assert foo() is None
+            check.assert_called_once()"
+6799b7809cd06e9ec13c14d4,"def delay_on_commit(self, *args, **kwargs) -> None:
+        """"""Call :meth:`~celery.app.task.Task.delay` with Django's ``on_commit()``.""""""
+        transaction.on_commit(functools.partial(self.delay, *args, **kwargs))"
+6799b7809cd06e9ec13c14d5,"def test_start_worker_with_exception(self):
+        """"""Make sure that start_worker does not hang on exception""""""
+
+        with pytest.raises(NotImplementedError):
+            with start_worker(app=self.app, loglevel=0):
+                result = self.error_task.apply_async()
+                result.get(timeout=5)"
+6799b7809cd06e9ec13c14d6,"def autodiscover_tasks(self, packages=None,
+                           related_name='tasks', force=False):
+        """"""Auto-discover task modules.
+
+        Searches a list of packages for a ""tasks.py"" module (or use
+        related_name argument).
+
+        If the name is empty, this will be delegated to fix-ups (e.g., Django).
+
+        For example if you have a directory layout like this:
+
+        .. code-block:: text
+
+            foo/__init__.py
+               tasks.py
+               models.py
+
+            bar/__init__.py
+                tasks.py
+                models.py
+
+            baz/__init__.py
+                models.py
+
+        Then calling ``app.autodiscover_tasks(['foo', 'bar', 'baz'])`` will
+        result in the modules ``foo.tasks`` and ``bar.tasks`` being imported.
+
+        Arguments:
+            packages (List[str]): List of packages to search.
+                This argument may also be a callable, in which case the
+                value returned is used (for lazy evaluation).
+            related_name (Optional[str]): The name of the module to find.  Defaults
+                to ""tasks"": meaning ""look for 'module.tasks' for every
+                module in ``packages``."".  If ``None`` will only try to import
+                the package, i.e. ""look for 'module'"".
+            force (bool): By default this call is lazy so that the actual
+                auto-discovery won't happen until an application imports
+                the default modules.  Forcing will cause the auto-discovery
+                to happen immediately.
+        """"""
+        if force:
+            return self._autodiscover_tasks(packages, related_name)
+        signals.import_modules.connect(starpromise(
+            self._autodiscover_tasks, packages, related_name,
+        ), weak=False, sender=self)"
+6799b7809cd06e9ec13c14d7,"def move(predicate, connection=None, exchange=None, routing_key=None,
+         source=None, app=None, callback=None, limit=None, transform=None,
+         **kwargs):
+    """"""Find tasks by filtering them and move the tasks to a new queue.
+
+    Arguments:
+        predicate (Callable): Filter function used to decide the messages
+            to move.  Must accept the standard signature of ``(body, message)``
+            used by Kombu consumer callbacks.  If the predicate wants the
+            message to be moved it must return either:
+
+                1) a tuple of ``(exchange, routing_key)``, or
+
+                2) a :class:`~kombu.entity.Queue` instance, or
+
+                3) any other true value means the specified
+                    ``exchange`` and ``routing_key`` arguments will be used.
+        connection (kombu.Connection): Custom connection to use.
+        source: List[Union[str, kombu.Queue]]: Optional list of source
+            queues to use instead of the default (queues
+            in :setting:`task_queues`).  This list can also contain
+            :class:`~kombu.entity.Queue` instances.
+        exchange (str, kombu.Exchange): Default destination exchange.
+        routing_key (str): Default destination routing key.
+        limit (int): Limit number of messages to filter.
+        callback (Callable): Callback called after message moved,
+            with signature ``(state, body, message)``.
+        transform (Callable): Optional function to transform the return
+            value (destination) of the filter function.
+
+    Also supports the same keyword arguments as :func:`start_filter`.
+
+    To demonstrate, the :func:`move_task_by_id` operation can be implemented
+    like this:
+
+    .. code-block:: python
+
+        def is_wanted_task(body, message):
+            if body['id'] == wanted_id:
+                return Queue('foo', exchange=Exchange('foo'),
+                             routing_key='foo')
+
+        move(is_wanted_task)
+
+    or with a transform:
+
+    .. code-block:: python
+
+        def transform(value):
+            if isinstance(value, str):
+                return Queue(value, Exchange(value), value)
+            return value
+
+        move(is_wanted_task, transform=transform)
+
+    Note:
+        The predicate may also return a tuple of ``(exchange, routing_key)``
+        to specify the destination to where the task should be moved,
+        or a :class:`~kombu.entity.Queue` instance.
+        Any other true value means that the task will be moved to the
+        default exchange/routing_key.
+    """"""
+    app = app_or_default(app)
+    queues = [_maybe_queue(app, queue) for queue in source or []] or None
+    with app.connection_or_acquire(connection, pool=False) as conn:
+        producer = app.amqp.Producer(conn)
+        state = State()
+
+        def on_task(body, message):
+            ret = predicate(body, message)
+            if ret:
+                if transform:
+                    ret = transform(ret)
+                if isinstance(ret, Queue):
+                    maybe_declare(ret, conn.default_channel)
+                    ex, rk = ret.exchange.name, ret.routing_key
+                else:
+                    ex, rk = expand_dest(ret, exchange, routing_key)
+                republish(producer, message,
+                          exchange=ex, routing_key=rk)
+                message.ack()
+
+                state.filtered += 1
+                if callback:
+                    callback(state, body, message)
+                if limit and state.filtered >= limit:
+                    raise StopFiltering()
+
+        return start_filter(app, conn, on_task, consume_from=queues, **kwargs)"
+6799b7809cd06e9ec13c14d8,"def traceback(self):
+        """"""Get the traceback of a failed task.""""""
+        return self._get_task_meta().get('traceback')"
+6799b7809cd06e9ec13c14d9,"def _start_worker_process(app,
+                          concurrency=1,
+                          pool='solo',
+                          loglevel=WORKER_LOGLEVEL,
+                          logfile=None,
+                          **kwargs):
+    # type (Celery, int, str, Union[int, str], str, **Any) -> Iterable
+    """"""Start worker in separate process.
+
+    Yields:
+        celery.app.worker.Worker: worker instance.
+    """"""
+    from celery.apps.multi import Cluster, Node
+
+    app.set_current()
+    cluster = Cluster([Node('testworker1@%h')])
+    cluster.start()
+    try:
+        yield
+    finally:
+        cluster.stopwait()"
+6799b7809cd06e9ec13c14da,"def query_task(state, ids, **kwargs):
+    """"""Query for task information by id.""""""
+    return {
+        req.id: (_state_of_task(req), req.info())
+        for req in _find_requests_by_id(maybe_list(ids))
+    }"
+6799b7809cd06e9ec13c14db,"def connect_on_app_finalize(callback):
+    """"""Connect callback to be called when any app is finalized.""""""
+    _on_app_finalizers.add(callback)
+    return callback"
+6799b7809cd06e9ec13c14dc,"def replace(self, args=None, kwargs=None, options=None):
+        """"""Replace the args, kwargs or options set for this signature.
+
+        These are only replaced if the argument for the section is
+        not :const:`None`.
+        """"""
+        signature = self.clone()
+        if args is not None:
+            signature.args = args
+        if kwargs is not None:
+            signature.kwargs = kwargs
+        if options is not None:
+            signature.options = options
+        return signature"
+6799b7809cd06e9ec13c14dd,"def test_expired(self, manager):
+        """"""Testing expiration of task.""""""
+        # Fill the queue with tasks which took > 1 sec to process
+        for _ in range(4):
+            sleeping.delay(2)
+        # Execute task with expiration = 1 sec
+        result = add.apply_async((1, 1), expires=1)
+        with pytest.raises(celery.exceptions.TaskRevokedError):
+            result.get()
+        assert result.status == 'REVOKED'
+        assert result.ready() is True
+        assert result.failed() is False
+        assert result.successful() is False
+
+        # Fill the queue with tasks which took > 1 sec to process
+        for _ in range(4):
+            sleeping.delay(2)
+        # Execute task with expiration at now + 1 sec
+        result = add.apply_async((1, 1), expires=datetime.now(timezone.utc) + timedelta(seconds=1))
+        with pytest.raises(celery.exceptions.TaskRevokedError):
+            result.get()
+        assert result.status == 'REVOKED'
+        assert result.ready() is True
+        assert result.failed() is False
+        assert result.successful() is False"
+6799b7809cd06e9ec13c14de,"def humanize(self, with_defaults=False, censored=True):
+        """"""Return a human readable text showing configuration changes.""""""
+        return '\n'.join(
+            f'{key}: {pretty(value, width=50)}'
+            for key, value in self.table(with_defaults, censored).items())"
+6799b7809cd06e9ec13c14df,"def scheduled(self, safe=None):
+        """"""Return list of scheduled tasks with details.
+
+        Returns:
+            Dict: Dictionary ``{HOSTNAME: [TASK_SCHEDULED_INFO,...]}``.
+
+        Here is the list of ``TASK_SCHEDULED_INFO`` fields:
+
+        * ``eta`` - scheduled time for task execution as string in ISO 8601 format
+        * ``priority`` - priority of the task
+        * ``request`` - field containing ``TASK_INFO`` value.
+
+        See Also:
+            For more details about ``TASK_INFO``  see :func:`query_task` return value.
+        """"""
+        return self._request('scheduled')"
+6799b7809cd06e9ec13c14e0,"def create_task_cls(self):
+        """"""Create a base task class bound to this app.""""""
+        return self.subclass_with_self(
+            self.task_cls, name='Task', attribute='_app',
+            keep_reduce=True, abstract=True,
+        )"
+6799b7809cd06e9ec13c14e1,"def detached(logfile=None, pidfile=None, uid=None, gid=None, umask=0,
+             workdir=None, fake=False, **opts):
+    """"""Detach the current process in the background (daemonize).
+
+    Arguments:
+        logfile (str): Optional log file.
+            The ability to write to this file
+            will be verified before the process is detached.
+        pidfile (str): Optional pid file.
+            The pidfile won't be created,
+            as this is the responsibility of the child.  But the process will
+            exit if the pid lock exists and the pid written is still running.
+        uid (int, str): Optional user id or user name to change
+            effective privileges to.
+        gid (int, str): Optional group id or group name to change
+            effective privileges to.
+        umask (str, int): Optional umask that'll be effective in
+            the child process.
+        workdir (str): Optional new working directory.
+        fake (bool): Don't actually detach, intended for debugging purposes.
+        **opts (Any): Ignored.
+
+    Example:
+        >>> from celery.platforms import detached, create_pidlock
+        >>> with detached(
+        ...           logfile='/var/log/app.log',
+        ...           pidfile='/var/run/app.pid',
+        ...           uid='nobody'):
+        ... # Now in detached child process with effective user set to nobody,
+        ... # and we know that our logfile can be written to, and that
+        ... # the pidfile isn't locked.
+        ... pidlock = create_pidlock('/var/run/app.pid')
+        ...
+        ... # Run the program
+        ... program.run(logfile='/var/log/app.log')
+    """"""
+    if not resource:
+        raise RuntimeError('This platform does not support detach.')
+    workdir = os.getcwd() if workdir is None else workdir
+
+    signals.reset('SIGCLD')  # Make sure SIGCLD is using the default handler.
+    maybe_drop_privileges(uid=uid, gid=gid)
+
+    def after_chdir_do():
+        # Since without stderr any errors will be silently suppressed,
+        # we need to know that we have access to the logfile.
+        logfile and open(logfile, 'a').close()
+        # Doesn't actually create the pidfile, but makes sure it's not stale.
+        if pidfile:
+            _create_pidlock(pidfile).release()
+
+    return DaemonContext(
+        umask=umask, workdir=workdir, fake=fake, after_chdir=after_chdir_do,
+    )"
+6799b7809cd06e9ec13c14e2,"def release_local(local):
+    """"""Release the contents of the local for the current context.
+
+    This makes it possible to use locals without a manager.
+
+    With this function one can release :class:`Local` objects as well as
+    :class:`StackLocal` objects.  However it's not possible to
+    release data held by proxies that way, one always has to retain
+    a reference to the underlying local object in order to be able
+    to release it.
+
+    Example:
+        >>> loc = Local()
+        >>> loc.foo = 42
+        >>> release_local(loc)
+        >>> hasattr(loc, 'foo')
+        False
+    """"""
+    local.__release_local__()"
+6799b7809cd06e9ec13c14e3,"def setup_task_loggers(self, loglevel=None, logfile=None, format=None,
+                           colorize=None, propagate=False, **kwargs):
+        """"""Setup the task logger.
+
+        If `logfile` is not specified, then `sys.stderr` is used.
+
+        Will return the base task logger object.
+        """"""
+        loglevel = mlevel(loglevel or self.loglevel)
+        format = format or self.task_format
+        colorize = self.supports_color(colorize, logfile)
+
+        logger = self.setup_handlers(
+            get_logger('celery.task'),
+            logfile, format, colorize,
+            formatter=TaskFormatter, **kwargs
+        )
+        logger.setLevel(loglevel)
+        # this is an int for some reason, better to not question why.
+        logger.propagate = int(propagate)
+        signals.after_setup_task_logger.send(
+            sender=None, logger=logger,
+            loglevel=loglevel, logfile=logfile,
+            format=format, colorize=colorize,
+        )
+        return logger"
+6799b7809cd06e9ec13c14e4,"def connect(self):
+        """"""Establish the broker connection used for consuming tasks.
+
+        Retries establishing the connection if the
+        :setting:`broker_connection_retry` setting is enabled
+        """"""
+        conn = self.connection_for_read(heartbeat=self.amqheartbeat)
+        if self.hub:
+            conn.transport.register_with_event_loop(conn.connection, self.hub)
+        return conn"
+6799b7809cd06e9ec13c14e5,"def find_value_for_key(self, name, namespace='celery'):
+        """"""Shortcut to ``get_by_parts(*find_option(name)[:-1])``.""""""
+        return self.get_by_parts(*self.find_option(name, namespace)[:-1])"
+6799b7809cd06e9ec13c14e6,"def pool_shrink(self, n=1, destination=None, **kwargs):
+        """"""Tell all (or specific) workers to shrink the pool by ``n``.
+
+        See Also:
+            Supports the same arguments as :meth:`broadcast`.
+        """"""
+        return self.broadcast(
+            'pool_shrink', arguments={'n': n},
+            destination=destination, **kwargs)"
+6799b7809cd06e9ec13c14e7,"def Beat(self, **kwargs):
+        """""":program:`celery beat` scheduler application.
+
+        See Also:
+            :class:`~@Beat`.
+        """"""
+        return self.subclass_with_self('celery.apps.beat:Beat')"
+6799b7809cd06e9ec13c14e8,"def shell(ctx, ipython=False, bpython=False,
+          python=False, without_tasks=False, eventlet=False,
+          gevent=False, **kwargs):
+    """"""Start shell session with convenient access to celery symbols.
+
+    The following symbols will be added to the main globals:
+    - ``celery``:  the current application.
+    - ``chord``, ``group``, ``chain``, ``chunks``,
+      ``xmap``, ``xstarmap`` ``subtask``, ``Task``
+    - all registered tasks.
+    """"""
+    sys.path.insert(0, os.getcwd())
+    if eventlet:
+        import_module('celery.concurrency.eventlet')
+    if gevent:
+        import_module('celery.concurrency.gevent')
+    import celery
+    app = ctx.obj.app
+    app.loader.import_default_modules()
+
+    # pylint: disable=attribute-defined-outside-init
+    locals = {
+        'app': app,
+        'celery': app,
+        'Task': celery.Task,
+        'chord': celery.chord,
+        'group': celery.group,
+        'chain': celery.chain,
+        'chunks': celery.chunks,
+        'xmap': celery.xmap,
+        'xstarmap': celery.xstarmap,
+        'subtask': celery.subtask,
+        'signature': celery.signature,
+    }
+
+    if not without_tasks:
+        locals.update({
+            task.__name__: task for task in app.tasks.values()
+            if not task.name.startswith('celery.')
+        })
+
+    if python:
+        _invoke_fallback_shell(locals)
+    elif bpython:
+        try:
+            _invoke_bpython_shell(locals)
+        except ImportError:
+            ctx.obj.echo(f'{ctx.obj.ERROR}: bpython is not installed')
+    elif ipython:
+        try:
+            _invoke_ipython_shell(locals)
+        except ImportError as e:
+            ctx.obj.echo(f'{ctx.obj.ERROR}: {e}')
+    _invoke_default_shell(locals)"
+6799b7809cd06e9ec13c14e9,"def send_event(self, type_, retry=True, retry_policy=None, **fields):
+        """"""Send monitoring event message.
+
+        This can be used to add custom event types in :pypi:`Flower`
+        and other monitors.
+
+        Arguments:
+            type_ (str):  Type of event, e.g. ``""task-failed""``.
+
+        Keyword Arguments:
+            retry (bool):  Retry sending the message
+                if the connection is lost.  Default is taken from the
+                :setting:`task_publish_retry` setting.
+            retry_policy (Mapping): Retry settings.  Default is taken
+                from the :setting:`task_publish_retry_policy` setting.
+            **fields (Any): Map containing information about the event.
+                Must be JSON serializable.
+        """"""
+        req = self.request
+        if retry_policy is None:
+            retry_policy = self.app.conf.task_publish_retry_policy
+        with self.app.events.default_dispatcher(hostname=req.hostname) as d:
+            return d.send(
+                type_,
+                uuid=req.id, retry=retry, retry_policy=retry_policy, **fields)"
+6799b7809cd06e9ec13c14ea,"def depends_on_current_app(celery_app):
+    """"""Fixture that sets app as current.""""""
+    celery_app.set_current()"
+6799b7809cd06e9ec13c14eb,"def test_task_with_pydantic_with_non_strict_validation(self):
+        """"""Test a pydantic task with where Pydantic has to apply non-strict validation.""""""
+
+        class Model(BaseModel):
+            value: timedelta
+
+        with self.Celery() as app:
+            check = Mock()
+
+            @app.task(pydantic=True)
+            def foo(arg: Model) -> Model:
+                check(arg)
+                return Model(value=timedelta(days=arg.value.days * 2))
+
+            assert foo({'value': timedelta(days=1)}) == {'value': 'P2D'}
+            check.assert_called_once_with(Model(value=timedelta(days=1)))
+            check.reset_mock()
+
+            # Pass a serialized value to the task
+            assert foo({'value': 'P3D'}) == {'value': 'P6D'}
+            check.assert_called_once_with(Model(value=timedelta(days=3)))"
+6799b7809cd06e9ec13c14ec,"def report(state):
+    """"""Information about Celery installation for bug reports.""""""
+    return ok(state.app.bugreport())"

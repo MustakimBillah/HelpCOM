@@ -1,0 +1,2059 @@
+-----------------------------------------------------------------
+< 67299dbda23f7e5639814e0e >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e0f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 1
+--------
+< 67299dbda23f7e5639814e10 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e11 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e12 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e13 >
+Comment 1: 3 - This comment is concise and somewhat accurately describes the function of the code, but it lacks detail and doesn't mention the parameters or return value.
+
+Comment 2: 2 - This comment is not formatted correctly and is difficult to read. It does mention the parameters and return value, but it doesn't explain what the function does with them.
+
+Comment 3: 5 - This comment is concise, accurately describes the function of the code, and mentions both the parameters and what the function does with them. It would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e14 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e15 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 3.5
+--------
+< 67299dbda23f7e5639814e16 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e17 >
+Comment 1: 4.5
+Comment 2: 2.5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e18 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e19 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e1a >
+Comment 1: 2 - The comment is vague and does not accurately describe the function of the code. It only mentions that the method can be overridden by subclasses, but it does not explain what the method does.
+
+Comment 2: 2 - This comment is very brief and does not provide enough information about the function of the code. It only mentions that the method rewrites a query, but it does not explain how or why.
+
+Comment 3: 5 - This comment accurately and concisely summarizes the function of the code. It explains that the method rewrites a given query using a provided context and ensures that the rewritten query is serializable, which helps developers understand the code quickly.
+--------
+< 67299dbda23f7e5639814e1b >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e1c >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e1d >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e1e >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e1f >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e20 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e21 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e22 >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e23 >
+Comment 1: 1 - This comment is not accurate and does not summarize the function of the code. It seems to be a fragment of code rather than a comment.
+
+Comment 2: 4 - This comment is accurate and concise, but it could provide a bit more context about what the settings are for.
+
+Comment 3: 5 - This comment is accurate, concise, and provides enough context to understand the function of the code quickly.
+--------
+< 67299dbda23f7e5639814e24 >
+Comment 1: 3 - This comment is concise and accurate, but it could provide more detail about what the function does, such as what settings it updates.
+
+Comment 2: 4 - This comment is more detailed and includes information about the parameters and exceptions, which is helpful. However, it could be formatted better for readability.
+
+Comment 3: 5 - This comment is clear, concise, and provides a good summary of what the function does. It also explains what the settings object is used for, which is helpful for understanding the code.
+--------
+< 67299dbda23f7e5639814e25 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e26 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e27 >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814e28 >
+Comment 1: 2 - This comment is too vague and does not provide enough information about what the function does.
+
+Comment 2: 4 - This comment provides a good amount of detail about the function, including its parameters and return value. However, it could be more concise and the formatting could be improved.
+
+Comment 3: 5 - This comment is concise, clear, and accurately describes what the function does.
+--------
+< 67299dbda23f7e5639814e29 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e2a >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e2b >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e2c >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e2d >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e2e >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814e2f >
+Comment 1: 4.5
+Comment 2: 3
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814e30 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e31 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e32 >
+Comment 1: 1 - This comment is incorrect and does not accurately describe the function of the code. It also seems to be a piece of code rather than a comment.
+
+Comment 2: 3 - This comment is partially correct. It does describe the function of clearing the allocation ids, but it does not mention the return value of the function.
+
+Comment 3: 5 - This comment accurately describes the function of the code, including the clearing of the allocation ids and the return value. It is concise and easy to understand.
+--------
+< 67299dbda23f7e5639814e33 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e34 >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814e35 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814e36 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e37 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e38 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e39 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e3a >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e3b >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e3c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e3d >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e3e >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e3f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e40 >
+Comment 1: 2 - This comment is not accurate. The function does not reserve tokens, but calculates the time to reserve them.
+Comment 2: 4 - This comment is mostly accurate and concise. However, it could be more specific about what it means by 'wait'.
+Comment 3: 5 - This comment accurately and concisely describes what the function does. It helps the developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e41 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e42 >
+Comment 1: 2 - The comment is not accurate. The code does not check for all shards being shut down and there being no other nodes. It actually starts a master node, shuts it down, and checks its status.
+Comment 2: 3 - The comment is partially accurate. It does check if the shard status is complete but does not throw any exception. However, it does not provide any context about the node shutdown.
+Comment 3: 4 - This comment is mostly accurate. It correctly states that the code is testing the shard status when a node is shut down. However, it could be more specific about the node being a master node.
+--------
+< 67299dbda23f7e5639814e43 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e44 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e45 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e46 >
+Comment 1: 3 - The comment is somewhat accurate but it does not clearly explain what "following any of the candidates" means in the context of the code.
+
+Comment 2: 4 - This comment is more detailed and provides a good explanation of what the function does. However, it could be more concise.
+
+Comment 3: 4 - This comment is concise and accurately describes the function of the code. However, it could provide a bit more detail for complete understanding.
+--------
+< 67299dbda23f7e5639814e47 >
+Comment 1: 4 - This comment is concise and gives a basic understanding of what the function does, but it doesn't mention the parameters "greedy" and "caseInsensitive".
+
+Comment 2: 2 - This comment seems to be trying to describe the function and its parameters, but it's not formatted correctly and is difficult to understand as a result.
+
+Comment 3: 5 - This comment is detailed and accurately describes what the function does, including the behavior controlled by the "greedy" and "caseInsensitive" parameters.
+--------
+< 67299dbda23f7e5639814e48 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e49 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e4a >
+Comment 1: 3.5 - The comment is concise and gives a general idea of what the function does, but it could provide more detail about the parameters and return value.
+
+Comment 2: 4 - This comment is more detailed than the first one, including information about the parameters and return value. However, it's not formatted correctly for a Javadoc comment (missing asterisks and tags), and it doesn't mention the potential for optimization that is discussed in the code's TODO comment.
+
+Comment 3: 5 - This comment is the most detailed and accurately summarizes the function of the code. It also includes the information from the TODO comment in the code, which is important for understanding the current limitations and potential improvements of the function.
+--------
+< 67299dbda23f7e5639814e4b >
+Comment 1: 3 - This comment is concise and somewhat accurate, but it does not provide enough detail about what "freezing" means in this context.
+
+Comment 2: 2 - This comment is not accurate. The method does not "free" the clock, it "freezes" it. Also, it lacks detail about what the method does.
+
+Comment 3: 5 - This comment accurately and concisely describes the function of the method. It explains that the method "freezes" the clock at the current time, which helps the developer understand what the method does.
+--------
+< 67299dbda23f7e5639814e4c >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e4d >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e4e >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e4f >
+Comment 1: 2 - This comment is too vague and does not provide enough information about what the function does.
+
+Comment 2: 3 - This comment is more descriptive than the first one, but it's not clear what "channel" refers to. It might be misleading if the code does not relate to a "channel".
+
+Comment 3: 4 - This comment provides a clear explanation of what the function does, but it assumes that the status being checked is for a license, which may not be accurate if the function is used in a different context.
+--------
+< 67299dbda23f7e5639814e50 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e51 >
+Comment 1: 4 - This comment is concise and gives a general idea of what the function does, but it could provide a bit more detail about what "without tracking" means.
+
+Comment 2: 2 - This comment is misleading. The function does not return true if the license is allowed to track tracking. It returns true if the license is allowed without tracking.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes what the function does. It also provides a bit more detail about the function's parameters and what "without tracking" means.
+--------
+< 67299dbda23f7e5639814e52 >
+Comment 1: 1 - This comment is too vague and does not provide any useful information about the function of the code.
+
+Comment 2: 2 - This comment provides a bit more information by mentioning the parameters, but it still does not explain what the function does.
+
+Comment 3: 5 - This comment accurately summarizes the function of the code, is expressed concisely, and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e53 >
+Comment 1: 4 - This comment is concise and accurate, but it could provide a bit more context or detail.
+Comment 2: 2 - This comment is somewhat confusing and does not provide clear information about the function of the code. The use of "rounded rounding" is unclear.
+Comment 3: 5 - This comment is clear, concise, and provides context about the function of the code. It helps the developer understand the purpose of the method.
+--------
+< 67299dbda23f7e5639814e54 >
+Comment 1: 4 - It's clear and concise, but it doesn't specify what kind of expression is being validated.
+Comment 2: 2 - It's not clear and seems to be a mix of a comment and a Javadoc comment. It's also missing spaces between words which makes it hard to read.
+Comment 3: 5 - It's clear, concise, and specifies that the expression being validated is a cron expression.
+--------
+< 67299dbda23f7e5639814e55 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e56 >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e57 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e58 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e59 >
+Comment 1: 3.5 - This comment is concise and accurate, but it could provide more detail about what it means to "validate" the application name.
+
+Comment 2: 4.5 - This comment is detailed and helpful, providing information about the parameter and potential exception. However, it could be formatted better for readability.
+
+Comment 3: 4 - This comment is slightly more detailed than the first one, specifying that the method validates a "given" application name. However, it could still provide more information about the validation process.
+--------
+< 67299dbda23f7e5639814e5a >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e5b >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e5c >
+Comment 1: 2 - The comment is not accurate. The function does not generate a string of a specific length, but a salt string using a specific number of log_rounds.
+
+Comment 2: 3 - The comment is somewhat accurate, but it's not very clear. It does mention that it generates a salt and takes log_rounds as a parameter, but it doesn't explain what log_rounds is used for.
+
+Comment 3: 5 - This comment is accurate, clear, and provides useful information about the function's purpose and how it should be used. It also explains what log_rounds is used for.
+--------
+< 67299dbda23f7e5639814e5d >
+Comment 1: 2 The comment is not accurate. The gensalt() function is not used to generate a random URL, but rather a salt for hashing.
+
+Comment 2: 1 The comment is not clear or helpful. It simply repeats the function name without explaining what it does.
+
+Comment 3: 5 This comment accurately describes the function's purpose, which is to generate a salt for use with the BCrypt hash function. It is concise and easy to understand.
+--------
+< 67299dbda23f7e5639814e5e >
+Comment 1: 4.5
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e5f >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e60 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e61 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e62 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e63 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e64 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e65 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e66 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e67 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e68 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e69 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e6a >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e6b >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e6c >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e6d >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e6e >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e6f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e70 >
+Comment 1: 2 - The comment is not accurate. The code does not mark the node as partially aborted, it marks the task as locally aborted.
+Comment 2: 1 - The comment is misleading. The code does not remove any node, it isolates the datafeed and marks the task as locally aborted.
+Comment 3: 4 - The comment is somewhat accurate. It correctly states that the node is vacated, but it does not mention the isolation of the datafeed or the marking of the task as locally aborted.
+--------
+< 67299dbda23f7e5639814e71 >
+Comment 1: 3 - The comment is somewhat accurate but it doesn't mention anything about the 'len' parameter or what happens if a leaf is found.
+
+Comment 2: 2 - This comment is too vague and doesn't mention the role of the 'offset' and 'len' parameters or the process of finding a common prefix.
+
+Comment 3: 4.5 - This comment is quite accurate and provides a good summary of the function. It could be improved by mentioning the 'len' parameter and explaining more about what it means for a leaf to be found.
+--------
+< 67299dbda23f7e5639814e72 >
+Comment 1: 1 - This comment is incomplete and does not accurately summarize the function of the code.
+
+Comment 2: 4 - This comment is concise and somewhat accurately summarizes the function of the code, but it could provide a bit more detail to help the developer understand the code quickly.
+
+Comment 3: 5 - This comment is concise, accurately summarizes the function of the code, and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e73 >
+Comment 1: 4 - It is concise and accurately summarizes the function of the code, but it could provide a bit more context.
+Comment 2: 3 - It is repetitive and doesn't provide any additional information compared to the first comment.
+Comment 3: 5 - It is concise, accurately summarizes the function of the code, and provides additional context that can help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e74 >
+Comment 1: 2 - The comment is somewhat vague and does not accurately describe the function of the code. The term "index" is not relevant to the code.
+
+Comment 2: 3 - The comment is concise and mentions the input parameter, but it does not fully explain what the function does or what it returns.
+
+Comment 3: 5 - This comment accurately describes the function of the code, explaining that it computes the logarithm of the probability mass function for a binomial distribution. It is concise and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e75 >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e76 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 2
+--------
+< 67299dbda23f7e5639814e77 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e78 >
+Comment 1: 5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e79 >
+Comment 1: 4 - This comment is concise and gives a general idea of what the function does, but it could provide a bit more detail.
+
+Comment 2: 2 - This comment attempts to describe the function and its parameters, but it's not formatted correctly and is difficult to understand as a result.
+
+Comment 3: 1 - This comment is misleading as it mentions memory tracking, which is not mentioned or implied in the code.
+--------
+< 67299dbda23f7e5639814e7a >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e7b >
+Comment 1: 4.5
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e7c >
+Comment 1: 4 - This comment is concise and accurately summarizes the function of the code. However, it could provide a bit more detail, such as mentioning the listener parameter.
+
+Comment 2: 3 - This comment is accurate and mentions the listener parameter, but the syntax and grammar are a bit off, which could potentially confuse the developer.
+
+Comment 3: 2 - This comment is misleading because it adds information ("for all jobs") that is not supported by the code. The code does not specify that it's deleting annotations for all jobs.
+--------
+< 67299dbda23f7e5639814e7d >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e7e >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e7f >
+Comment 1: 3 - The comment is concise and somewhat accurate, but it doesn't provide enough detail about what the function does, especially regarding the role of the listener.
+
+Comment 2: 2 - This comment is not well-formed. It seems like it's trying to include a parameter description (@param) but it's not formatted correctly and doesn't provide any additional information about what the listener does.
+
+Comment 3: 4 - This comment provides a more detailed description of what the function does, including the role of the listener. However, it could still be improved by explaining what it means to "flush the bulk".
+--------
+< 67299dbda23f7e5639814e80 >
+Comment 1: 3 - While it does mention the purpose of the test, it does not provide enough detail about what the code is doing. It doesn't mention the H3 cell or the precision.
+
+Comment 2: 2 - This comment is too vague and doesn't provide enough information about what the code is doing. It doesn't mention the test, the H3 cell, or the precision.
+
+Comment 3: 5 - This comment accurately summarizes the function of the code, mentioning the test, the H3 cell, and the precision. It is expressed naturally and concisely, and it would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814e81 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e82 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e83 >
+Comment 1: 4 - The comment is concise and gives a general idea of what the function does, but it could be more specific about what kind of "relation" it returns.
+
+Comment 2: 1 - This comment is not clear and does not provide a useful summary of the function. It seems to be a mix of parameter descriptions and a return statement, but it's not properly formatted or explained.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes the function's purpose. It explains that the function relates a point to a GeoHex grid and returns a GeoRelation, which is exactly what the function does.
+--------
+< 67299dbda23f7e5639814e84 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814e85 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814e86 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e87 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e88 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814e89 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e8a >
+Comment 1: 5
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e8b >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 3.5
+--------
+< 67299dbda23f7e5639814e8c >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e8d >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e8e >
+Comment 1: 1 - This comment is incorrect and does not accurately describe the function of the code. It seems to be a piece of code rather than a comment.
+
+Comment 2: 4 - This comment is accurate and concise, but it could be more specific about what "translation count" refers to.
+
+Comment 3: 5 - This comment is accurate, concise, and specific. It clearly describes the function of the code.
+--------
+< 67299dbda23f7e5639814e8f >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e90 >
+Comment 1: 4.5 - This comment is concise and accurately describes the function of the code. However, it could be improved by specifying that the message is printed to the 'outWriter' specifically, not just any output writer.
+
+Comment 2: 2 - This comment is not very clear or well-structured. It does not provide a clear description of the function of the code and the parameters are not properly formatted or explained.
+
+Comment 3: 4 - This comment is clear and concise, and it accurately describes the function of the code. However, it could be improved by specifying that the message is printed to the 'outWriter', not just any terminal.
+--------
+< 67299dbda23f7e5639814e91 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e92 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e93 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e94 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e95 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e96 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814e97 >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e98 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e99 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e9a >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e9b >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e9c >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e9d >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e9e >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814e9f >
+Comment 1: 4.5
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ea0 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814ea1 >
+Comment 1: 1 - This comment is incorrect. It seems to be describing a different function signature and does not accurately summarize the function of the code.
+
+Comment 2: 2 - This comment is partially correct. It does mention that the function is a test and that it throws an exception, but it does not provide any details about what is being tested or why.
+
+Comment 3: 5 - This comment accurately and concisely describes the function of the code. It explains that the function is a test for loading resources from a parent classloader with a non-package name.
+--------
+< 67299dbda23f7e5639814ea2 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814ea3 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ea4 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ea5 >
+Comment 1: 1 - This comment does not match the function of the code at all. It seems to be describing a different method entirely.
+
+Comment 2: 4 - This comment accurately describes the function of the code but could be more specific about what "new values" are being merged.
+
+Comment 3: 2 - This comment is somewhat related to the function of the code, but it does not accurately describe the specific action being taken. The code is merging new values, not compressing current data in a buffer.
+--------
+< 67299dbda23f7e5639814ea6 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ea7 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ea8 >
+Comment 1: 1 - This comment is incorrect and does not describe the function of the code. It seems to be a piece of code rather than a comment.
+
+Comment 2: 3 - This comment is accurate but lacks clarity and conciseness. It repeats the same information twice which is unnecessary.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes the function of the code. It provides a good summary of what the method does.
+--------
+< 67299dbda23f7e5639814ea9 >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eaa >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eab >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eac >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ead >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eae >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eaf >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eb0 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814eb1 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814eb2 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eb3 >
+Comment 1: 4 - The comment is concise and gives a general idea of what the code does, but it doesn't mention the role of the probability variable.
+
+Comment 2: 2 - This comment is not very helpful. It repeats the function name without explaining the conditions under which the scaling occurs. It also uses the '@param' and '@return' tags incorrectly, as these are meant for JavaDoc comments, not inline comments.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes what the function does, including the role of the 'isSampled' check and the 'probability' variable.
+--------
+< 67299dbda23f7e5639814eb4 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814eb5 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eb6 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eb7 >
+Comment 1: 4.5
+Comment 2: 3.5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814eb8 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eb9 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eba >
+Comment 1: 4.5
+Comment 2: 3
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814ebb >
+Comment 1: 4 - This comment is concise and accurate, but it could provide a little more detail about what the retention leases are or why they might be needed.
+
+Comment 2: 3 - This comment is also accurate and concise, but the syntax is a bit awkward. The '@return' tag is typically used in Javadoc comments, not in-line comments.
+
+Comment 3: 5 - This comment is clear, concise, and provides a bit more context than the other two comments. It accurately summarizes the function of the code.
+--------
+< 67299dbda23f7e5639814ebc >
+Comment 1: 4 - This comment is concise and accurate, but it could provide a bit more detail about what the function does.
+
+Comment 2: 3 - This comment is accurate and concise, but it could be more naturally expressed. The '@return' tag is typically used in JavaDoc comments above the method, not inline.
+
+Comment 3: 5 - This comment is concise, naturally expressed, and provides a good summary of what the function does. It also provides additional context about the optional refreshing of the leases, which is helpful for understanding the function.
+--------
+< 67299dbda23f7e5639814ebd >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814ebe >
+Comment 1: 4 - The comment is concise and accurately summarizes the function of the code, but it could be more specific about what "context" means in this case.
+
+Comment 2: 2 - This comment is not very clear or concise. It seems to be a mix of a method description and an incomplete Javadoc comment. It doesn't provide a clear explanation of what the method does.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes the function of the code. It provides a good level of detail about what the method does (preserving the current thread context).
+--------
+< 67299dbda23f7e5639814ebf >
+Comment 1: 2 - This comment is vague and does not accurately describe what the method does.
+
+Comment 2: 3 - This comment is more accurate but it is not expressed naturally. The use of 'iff' (if and only if) might be confusing to some developers.
+
+Comment 3: 5 - This comment accurately summarizes the function of the code, is expressed naturally and concisely, and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814ec0 >
+Comment 1: 4 - The comment is concise and gives a general idea of what the function does, but it doesn't mention the case insensitivity option.
+
+Comment 2: 2 - The comment is informative and includes parameter descriptions, but it's not well-written. It repeats "the given pattern matches the given pattern" which is confusing and incorrect. It should be "the given string matches the given pattern".
+
+Comment 3: 5 - This comment is concise, accurate, and mentions the case insensitivity option, which makes it easy for a developer to understand the function quickly.
+--------
+< 67299dbda23f7e5639814ec1 >
+Comment 1: 3 This comment is concise and somewhat accurate, but it doesn't provide enough information about what the function does or what the parameters are for.
+
+Comment 2: 2 This comment attempts to describe the parameters but does so in a confusing way. It lacks natural language and readability.
+
+Comment 3: 4 This comment is concise, uses natural language, and provides a bit more information about the function's purpose. However, it still lacks information about the parameters.
+--------
+< 67299dbda23f7e5639814ec2 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ec3 >
+Comment 1: 4 - The comment is concise and accurately summarizes the function of the code, but it doesn't mention that it won't throw any exceptions.
+Comment 2: 3 - This comment is accurate and includes parameter information, but it's not very concise and the '@param' tag is not used correctly.
+Comment 3: 5 - This comment is concise, accurate, and provides additional information about the exception handling behavior of the method.
+--------
+< 67299dbda23f7e5639814ec4 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814ec5 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ec6 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ec7 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814ec8 >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ec9 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814eca >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ecb >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ecc >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ecd >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814ece >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ecf >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814ed0 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814ed1 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ed2 >
+Comment 1: 4 - The comment is concise and accurately describes the function of the code. However, it does not mention the return value or the specific conditions under which the validation occurs.
+
+Comment 2: 3 - This comment is detailed and includes information about the parameter and return value. However, it is misleading because it states that -1 is returned if the header value is valid, while the code returns -1 if the length of the value is 0.
+
+Comment 3: 2 - This comment is concise but lacks detail. It does not provide any information about the conditions under which the validation occurs or the return value.
+--------
+< 67299dbda23f7e5639814ed3 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ed4 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ed5 >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ed6 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 2
+--------
+< 67299dbda23f7e5639814ed7 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ed8 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ed9 >
+Comment 1: 4.5
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814eda >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814edb >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814edc >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814edd >
+Comment 1: 3 - This comment is accurate and concise, but it doesn't provide any information about the format of the argument or what the method does with it.
+
+Comment 2: 2 - This comment seems to be incomplete and a bit confusing. It starts to provide information about the parameter, but doesn't finish the thought. It also doesn't explain what the method does with the argument names.
+
+Comment 3: 4 - This comment is the most informative of the three. It explains what the method does (sets the argument names) and provides some information about the format of the input (a string). However, it could be improved by explaining what the method does with the string (splits it into an array of argument names).
+--------
+< 67299dbda23f7e5639814ede >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814edf >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ee0 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ee1 >
+Comment 1: 2 This comment is repetitive and does not provide any additional information about the parameters or the return value of the method.
+
+Comment 2: 3 This comment is concise and mentions the parameter and return value, but it doesn't explain what the handler does or what the future represents.
+
+Comment 3: 5 This comment is clear, concise, and provides a good summary of the method's function, including the role of the handler and the meaning of the return value.
+--------
+< 67299dbda23f7e5639814ee2 >
+Comment 1: 1 - This comment is not accurate. It seems to be a piece of code rather than a comment. It does not provide any useful information about what the function does.
+
+Comment 2: 4 - This comment is quite accurate and concise, but it could provide a bit more context. For example, it could mention that the time zone is taken from the current LocaleContext.
+
+Comment 3: 5 - This comment is accurate, concise, and provides enough context to understand what the function does. It mentions that the time zone is taken from the current LocaleContext, which is very helpful.
+--------
+< 67299dbda23f7e5639814ee3 >
+Comment 1: 3 - The comment is somewhat accurate but it doesn't fully explain what the method does. It doesn't mention that the method throws an exception if the UserTransaction is null or that it looks up the UserTransaction if cacheUserTransaction is false.
+
+Comment 2: 4 - This comment is more accurate and concise. It explains that the method returns a UserTransaction, but it doesn't mention the conditions under which this happens.
+
+Comment 3: 2 - This comment is misleading. The code does not support programmatic lookup if the UserTransaction is null, it throws an exception in this case. The comment also doesn't mention the condition under which the lookup occurs.
+--------
+< 67299dbda23f7e5639814ee4 >
+Comment 1: 3 - This comment is concise and somewhat accurate, but it doesn't provide enough detail about what the function does.
+
+Comment 2: 2 - This comment is misleading. It suggests that the function is looking for "missing leaks," which doesn't make sense in this context.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes what the function does. It provides enough detail to help a developer understand the purpose of the function quickly.
+--------
+< 67299dbda23f7e5639814ee5 >
+Comment 1: 1 - This comment is not only incorrect (the function does not throw IOException and does not check if level is less than 0), but it also does not accurately describe what the function does.
+
+Comment 2: 3 - This comment is somewhat accurate but it is not very clear. It does not explain what "this indentation" refers to and does not mention the refresh of the indent writer.
+
+Comment 3: 5 - This comment accurately and concisely describes what the function does: it increases the indentation level and refreshes the indent writer.
+--------
+< 67299dbda23f7e5639814ee6 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814ee7 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ee8 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ee9 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eea >
+Comment 1: 4
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eeb >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eec >
+Comment 1: 3 - This comment is somewhat accurate but it does not mention the translation part of the function, only rotation and scale.
+
+Comment 2: 2 - This comment is confusing and does not accurately represent the function. It mentions 'trn rotation' which is not clear, and does not mention scaling. The part about returning a reference for chaining is useful, but overall the comment is not very helpful.
+
+Comment 3: 5 - This comment accurately and concisely describes the function of the code. It mentions all three operations (translation, rotation, and scaling) that the function performs.
+--------
+< 67299dbda23f7e5639814eed >
+Comment 1: 4.5
+Comment 2: 2.5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814eee >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eef >
+Comment 1: 2 - The comment is not clear and does not accurately describe the function of the code. It only mentions one line segment and does not mention the intersection point.
+
+Comment 2: 2 - The comment is concise but not accurate. The code is not checking for intersection of points, but line segments. It also doesn't mention the intersection point.
+
+Comment 3: 5 - This comment accurately and concisely describes the function of the code. It mentions that the code checks for intersection of two line segments and returns the intersection point if they do intersect.
+--------
+< 67299dbda23f7e5639814ef0 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ef1 >
+Comment 1: 1 - This comment is not accurate. The code does not convert radians to degrees. It calculates the angle between two points in degrees.
+
+Comment 2: 2 - This comment is partially accurate. The code does calculate an angle, but it does not specify that it's between two points on a plane, and it doesn't mention that the result is in degrees.
+
+Comment 3: 5 - This comment is accurate, detailed, and comprehensive. It correctly describes the function of the code, including the direction of the angle, the range of the result, and the units of the result.
+--------
+< 67299dbda23f7e5639814ef2 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ef3 >
+Comment 1: 2 - This comment is misleading. The function does not debug the mouse, it sets the debug state for the table under the mouse.
+
+Comment 2: 2 - This comment is not clear and does not provide enough information about what the function does. It also has a grammatical error.
+
+Comment 3: 5 - This comment accurately describes the function of the code, is concise, and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814ef4 >
+Comment 1: 3 - The comment is concise and accurate, but it does not provide enough detail about the function's parameters or return value.
+
+Comment 2: 4 - This comment provides more detail about the function's parameters and return value, but it does not explain what happens if the actor is not found or if the actor is a group.
+
+Comment 3: 5 - This comment is detailed and provides a comprehensive explanation of the function's behavior, including what happens if the actor is not found, if the actor is a group, and a note about performance considerations.
+--------
+< 67299dbda23f7e5639814ef5 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ef6 >
+Comment 1: 4.5 - This comment is concise and accurately describes the function of the code. However, it could be slightly more specific about what item's background is being set.
+
+Comment 2: 2 - This comment is not expressed naturally and is confusing. It seems like it's trying to explain the parameter but it's not clear.
+
+Comment 3: 4 - This comment is concise and generally describes the function of the code, but it could be more specific about what container's background is being set.
+--------
+< 67299dbda23f7e5639814ef7 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814ef8 >
+Comment 1: 4.5 - This comment is accurate and concise, but it could be clearer about what "making the run ascending" means in this context.
+
+Comment 2: 2 - This comment is not very helpful. It does not explain what the function does, and the @param and @return tags are not used correctly.
+
+Comment 3: 4 - This comment accurately describes the function's behavior, but it could be more concise and clear. It could also mention that the function returns the number of elements in the run.
+--------
+< 67299dbda23f7e5639814ef9 >
+Comment 1: 4 - This comment is concise and gives a general idea of what the function does, but it doesn't provide details about the parameters or the return value.
+
+Comment 2: 2 - This comment attempts to describe the function and its parameters, but it's not formatted correctly and is difficult to understand.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes what the function does. It also provides useful information about when the task will be executed.
+--------
+< 67299dbda23f7e5639814efa >
+Comment 1: 4 - The comment is concise and accurately describes the function of the code, but it does not specify what is being scaled.
+
+Comment 2: 5 - This comment is clear, concise, and accurately describes the function of the code. It also includes a description of the parameter, which is helpful for understanding the code.
+
+Comment 3: 3 - This comment is clear and concise, but it may not accurately describe the function of the code. The code does not specify that it is scaling a particle emitter, so this comment could be misleading.
+--------
+< 67299dbda23f7e5639814efb >
+Comment 1: 4 - This comment is concise and accurately summarizes the function of the code, but it could provide a bit more detail, such as mentioning the use of a quaternion for the rotation.
+
+Comment 2: 2 - This comment seems to be a mix of a method description and a parameter description. It's not very clear and it's not properly formatted. The '@param' tag is used in JavaDoc to document a method's parameters, but here it's used in a confusing way.
+
+Comment 3: 3 - This comment is more detailed than the first one and it accurately describes the function of the code. However, it's not entirely clear because it mentions a 'particle controller', which is not mentioned in the code. It might be confusing for a developer who is not familiar with the context.
+--------
+< 67299dbda23f7e5639814efc >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814efd >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814efe >
+Comment 1: 2
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814eff >
+Comment 1: 5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f00 >
+Comment 1: 4 - This comment is concise and gives a general idea of what the function does. However, it could be more specific about what "final string" means in this context.
+
+Comment 2: 2 - This comment seems to be a mix of a method description and a parameter description, which makes it confusing. It also doesn't provide any information about what the method actually does.
+
+Comment 3: 3 - This comment is specific about what the function does, but it may not be accurate if the function doesn't actually build a JDBC URL. If it does, this comment is good. If it doesn't, this comment is misleading.
+--------
+< 67299dbda23f7e5639814f01 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f02 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f03 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f04 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f05 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f06 >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f07 >
+Comment 1: 2 - This comment is too vague and does not provide enough information about what the function does.
+
+Comment 2: 4 - This comment provides a good summary of the function and its parameters, but it could be more concise and natural in its wording.
+
+Comment 3: 5 - This comment is concise, clear, and accurately summarizes the function of the code.
+--------
+< 67299dbda23f7e5639814f08 >
+Comment 1: 3 - The comment is accurate but lacks detail about what the method does.
+Comment 2: 2 - This comment is too vague and doesn't provide enough information about what the method does.
+Comment 3: 5 - This comment is detailed and accurately describes what the method does. It provides enough information for a developer to understand the function of the code.
+--------
+< 67299dbda23f7e5639814f09 >
+Comment 1: 4.5
+Comment 2: 2.5
+Comment 3: 3.5
+--------
+< 67299dbda23f7e5639814f0a >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f0b >
+Comment 1: 3 The comment is concise and somewhat accurate, but it doesn't specify what the expected status code is or what the parameters are for.
+
+Comment 2: 2 This comment is not accurate because it doesn't mention that the function is specifically for submitting a "msq" task, not just any SQL query. It also doesn't specify what the expected status code is.
+
+Comment 3: 4 This comment is accurate and concise, and it specifies what the function does and what the parameters are for. However, it could be improved by mentioning the expected status code.
+--------
+< 67299dbda23f7e5639814f0c >
+Comment 1: 5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f0d >
+Comment 1: 1 - This comment is simply repeating the function signature and does not provide any additional information about what the code does.
+
+Comment 2: 3 - This comment is concise and gives a basic idea of what the function does, but it could provide more detail about how the function works.
+
+Comment 3: 5 - This comment is clear, concise, and provides a good summary of what the function does. It also provides some information about how the function works, which can be helpful for understanding the code.
+--------
+< 67299dbda23f7e5639814f0e >
+Comment 1: 1 - This comment is not relevant to the code. It seems to be a part of some code rather than a comment.
+
+Comment 2: 4 - This comment is concise and accurately summarizes the function of the code. However, it could be more detailed.
+
+Comment 3: 5 - This comment is concise, clear, and accurately describes the function of the code. It helps the developer understand what the code does quickly.
+--------
+< 67299dbda23f7e5639814f0f >
+Comment 1: 1 - This comment is not accurate, it seems to be a piece of code rather than a comment. It does not summarize the function of the code and it's not expressed naturally.
+
+Comment 2: 3 - This comment is accurate and concise, but it could provide more information about what the function does, such as what it means to open all NeoStores.
+
+Comment 3: 4 - This comment is accurate, concise, and provides more information about what the function does. However, it could be improved by explaining what the default store types are.
+--------
+< 67299dbda23f7e5639814f10 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f11 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f12 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f13 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f14 >
+Comment 1: 1 - This comment does not accurately describe the function of the code. It seems to be a piece of code itself rather than a comment.
+
+Comment 2: 5 - This comment accurately summarizes the function of the code. It is concise and helps the developer understand the code quickly.
+
+Comment 3: 4 - This comment is accurate and concise, but it may not be as clear as Comment 2 because it introduces the term "paged file" which is not mentioned in the code.
+--------
+< 67299dbda23f7e5639814f15 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f16 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f17 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f18 >
+Comment 1: 2 - This comment is confusing and does not accurately describe the function of the code. It seems to be incomplete.
+
+Comment 2: 4 - This comment is clear and concise, but it does not mention the part about adding the waiting time of the current executing query, if there is one.
+
+Comment 3: 3 - This comment is concise and somewhat accurate, but it does not mention the part about adding the waiting time of the current executing query, if there is one.
+--------
+< 67299dbda23f7e5639814f19 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f1a >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f1b >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f1c >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f1d >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f1e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f1f >
+Comment 1: 1 - The comment is not accurate. It mentions a range of 1 - 1200, but the code does not reflect this range. 
+
+Comment 2: 2 - The comment is too vague and does not provide enough information about what the function does. 
+
+Comment 3: 4 - This comment accurately describes the function of the code, but it could be more specific about what the "standard representation" is.
+--------
+< 67299dbda23f7e5639814f20 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f21 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814f22 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814f23 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f24 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f25 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f26 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f27 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f28 >
+Comment 1: 1 - This comment is not helpful at all. It seems to be a piece of code rather than a comment explaining the function of the code.
+
+Comment 2: 4 - This comment is concise and gives a general idea of what the function does, but it could provide a bit more detail.
+
+Comment 3: 5 - This comment is clear, concise, and provides a detailed explanation of the function's purpose. It would be very helpful for a developer trying to understand this code.
+--------
+< 67299dbda23f7e5639814f29 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f2a >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f2b >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f2c >
+Comment 1: 4
+Comment 2: 4.5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f2d >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f2e >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f2f >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f30 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f31 >
+Comment 1: 1 - This comment is not useful. It seems to be just a repetition of the method signature, which doesn't provide any additional information about the function of the code.
+
+Comment 2: 2 - This comment is somewhat useful as it provides a brief description of the method's functionality. However, it lacks clarity and proper formatting. It should clearly state the purpose of the parameter and what is being returned.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes what the method does. It provides a good summary of the function of the code, which would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f32 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f33 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f34 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f35 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f36 >
+Comment 1: 2 - The comment is not accurate. The heapify process does not reverse the heap, it organizes it according to the heap property.
+Comment 2: 3 - The comment is accurate but not very informative. It just repeats the name of the function without explaining what it does.
+Comment 3: 5 - The comment is accurate and informative. It explains what the function does and how it does it, which will help developers understand the code quickly.
+--------
+< 67299dbda23f7e5639814f37 >
+Comment 1: 2 - The comment is not accurate. The code does not insert an element at the tail of a list, nor does it shift an element at index x. It sifts down an element in a heap or priority queue.
+
+Comment 2: 3 - The comment is somewhat accurate but lacks specificity. It does not specify what "sifting" means in this context, which is important for understanding the function of the code.
+
+Comment 3: 4 - This comment is accurate and concise. It correctly describes the function of the code, which is to sift down an element at a given index. However, it could be improved by explaining what "sifting down" means in this context.
+--------
+< 67299dbda23f7e5639814f38 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f39 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f3a >
+Comment 1: 3 - It's a bit too vague and doesn't provide enough information about the function's parameters and their roles.
+
+Comment 2: 2 - Although it includes all the parameters, it's not well-formatted and some descriptions are incorrect or confusing (e.g., 'the database layout' is repeated twice for different parameters).
+
+Comment 3: 4 - It's concise and provides a good summary of what the function does, but it could be improved by mentioning what the 'file operation' could be and what the 'existing target strategy' means.
+--------
+< 67299dbda23f7e5639814f3b >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f3c >
+Comment 1: 4
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f3d >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f3e >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 2
+--------
+< 67299dbda23f7e5639814f3f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f40 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f41 >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f42 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f43 >
+Comment 1: 3 - This comment is concise and natural, but it doesn't accurately summarize the function of the code. It doesn't mention the null check that the function performs.
+
+Comment 2: 2 - This comment is not expressed naturally and concisely. It seems to be a mix of a method description and a JavaDoc comment. It also doesn't mention the null check.
+
+Comment 3: 5 - This comment accurately summarizes the function of the code, is expressed naturally and concisely, and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f44 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f45 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f46 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f47 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f48 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f49 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f4a >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f4b >
+Comment 1: 5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f4c >
+Comment 1: 2 - The comment is too vague and does not provide any specific information about what the test is for.
+
+Comment 2: 3 - The comment is more specific than the first one, but it still lacks detail about what exactly is being tested.
+
+Comment 3: 5 - This comment is clear, concise, and provides a detailed explanation of what the test is for. It would be very helpful for a developer trying to understand the code.
+--------
+< 67299dbda23f7e5639814f4d >
+Comment 1: 1 - This comment is not accurate or helpful. It seems to be a part of the code rather than a comment explaining the function of the code.
+
+Comment 2: 2 - This comment is somewhat helpful but it is not clear. It does not accurately summarize the function of the code. It seems to be a part of a Javadoc comment but it's missing the rest of the information.
+
+Comment 3: 5 - This comment is clear, concise, and accurately summarizes the function of the code. It would help a developer understand what the code does quickly.
+--------
+< 67299dbda23f7e5639814f4e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f4f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f50 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f51 >
+Comment 1: 2
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f52 >
+Comment 1: 1 - This comment is not accurate and seems to be cut off. It does not provide a clear summary of the function of the code.
+
+Comment 2: 4 - This comment is accurate and provides a good summary of the function of the code. However, it could be more concise.
+
+Comment 3: 5 - This comment is accurate, concise, and provides a clear summary of the function of the code. It would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f53 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f54 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f55 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f56 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f57 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f58 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 2
+--------
+< 67299dbda23f7e5639814f59 >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 2.5
+--------
+< 67299dbda23f7e5639814f5a >
+Comment 1: 1 - This comment is not clear and does not accurately represent the function of the code. It seems to be a part of the code rather than a comment.
+
+Comment 2: 2 - This comment is concise but lacks clarity. It does not fully explain what the function does and is missing the proper syntax for a Javadoc comment.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes the function of the code. It would help a developer understand what the function does quickly.
+--------
+< 67299dbda23f7e5639814f5b >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f5c >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f5d >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f5e >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f5f >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f60 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f61 >
+Comment 1: 3
+Comment 2: 1
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f62 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f63 >
+Comment 1: 4 - This comment is concise and gives a basic understanding of what the method does, but it could provide a bit more detail.
+
+Comment 2: 2 - This comment is not very clear and lacks proper formatting. It does not provide a clear explanation of what the method does.
+
+Comment 3: 5 - This comment is clear, concise, and accurately describes what the method does. It provides a good understanding of the method's function.
+--------
+< 67299dbda23f7e5639814f64 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f65 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f66 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f67 >
+Comment 1: 5
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f68 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f69 >
+Comment 1: 1 - The comment does not accurately describe the function of the code. It seems to be a piece of code rather than a comment.
+
+Comment 2: 4 - The comment is concise and gives a general idea of what the function does, but it could be more specific about what is being returned (i.e., the URI builder).
+
+Comment 3: 5 - This comment accurately and concisely describes the function of the code, making it easy for a developer to understand what the function does.
+--------
+< 67299dbda23f7e5639814f6a >
+Comment 1: 3
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f6b >
+Comment 1: 1 - This comment is incorrect and does not accurately describe the function of the code. It seems to be a piece of code rather than a comment.
+
+Comment 2: 4 - This comment is accurate and concise, but it could be more descriptive about what the "position count" is.
+
+Comment 3: 5 - This comment is accurate, concise, and provides a good description of what the "position count" is, making it easier for developers to understand the code.
+--------
+< 67299dbda23f7e5639814f6c >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f6d >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f6e >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f6f >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f70 >
+Comment 1: 3.5 - The comment is accurate and concise, but it doesn't provide much detail about the function of the code.
+
+Comment 2: 2 - The comment is not expressed naturally and it's a bit redundant. The '@return' annotation is typically used in JavaDoc comments, not in-line comments.
+
+Comment 3: 4.5 - This comment is accurate, concise, and provides a bit more detail about the function of the code. It could be improved by explaining what an HttpMessageConverter is or why they are being configured.
+--------
+< 67299dbda23f7e5639814f71 >
+Comment 1: 3 - The comment is somewhat accurate but it doesn't mention the jitter or the fact that the backoff time is calculated based on past attempts.
+
+Comment 2: 4 - This comment is more accurate than the first one as it mentions that the backoff is based on the number of past attempts. However, it still doesn't mention the jitter.
+
+Comment 3: 5 - This comment accurately summarizes the function of the code, mentioning both the exponential backoff and the jitter. It's expressed concisely and would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f72 >
+Comment 1: 3 - While it does summarize the function of the code, it is not entirely accurate. The code doesn't return a word as a lowercase integer, it converts an integer representation of a word to lowercase.
+
+Comment 2: 1 - This comment is incorrect. The code converts a word to lowercase, not uppercase. Also, the comment is not formatted correctly for a JavaDoc comment.
+
+Comment 3: 5 - This comment accurately describes the function of the code and provides additional context about the algorithm used (SWAR), which could be helpful for understanding the code.
+--------
+< 67299dbda23f7e5639814f73 >
+Comment 1: 5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f74 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f75 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814f76 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f77 >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f78 >
+Comment 1: 4 - The comment is accurate but could be more concise and clear. It could also mention that it throws an exception if there's an SQL error.
+Comment 2: 2 - This comment is too vague and doesn't provide enough information about what the function does.
+Comment 3: 5 - This comment is clear, concise, and accurately describes the function of the code.
+--------
+< 67299dbda23f7e5639814f79 >
+Comment 1: 4.5
+Comment 2: 4
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814f7a >
+Comment 1: 1 - This comment is not related to the function of the code at all. It seems to be a part of some other code.
+
+Comment 2: 4 - This comment accurately describes the function of the code but it is a bit redundant. It could be more concise.
+
+Comment 3: 5 - This comment is concise, accurate, and helps the developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f7b >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f7c >
+Comment 1: 2
+Comment 2: 1
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f7d >
+Comment 1: 2
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f7e >
+Comment 1: 4
+Comment 2: 5
+Comment 3: 3
+--------
+< 67299dbda23f7e5639814f7f >
+Comment 1: 2 - The comment is misleading. The code does not check if the queue is full or too large, but rather if it's below a certain threshold.
+Comment 2: 2 - This comment is too vague and does not provide enough information about the conditions under which the background fetch is started.
+Comment 3: 5 - This comment accurately and concisely describes the function of the code. It would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f80 >
+Comment 1: 3
+Comment 2: 3
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f81 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f82 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f83 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f84 >
+Comment 1: 2 - The comment is not accurate. The code does not change the size of a map, it changes the width and height of an object.
+
+Comment 2: 4 - The comment accurately describes what the code does, but it lacks proper formatting and punctuation for the @param tags.
+
+Comment 3: 5 - This comment accurately and concisely describes what the code does. It uses clear, natural language that would help a developer understand the code quickly.
+--------
+< 67299dbda23f7e5639814f85 >
+Comment 1: 3
+Comment 2: 5
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f86 >
+Comment 1: 4.5
+Comment 2: 2
+Comment 3: 4.5
+--------
+< 67299dbda23f7e5639814f87 >
+Comment 1: 4
+Comment 2: 2
+Comment 3: 4
+--------
+< 67299dbda23f7e5639814f88 >
+Comment 1: 3
+Comment 2: 4
+Comment 3: 5
+--------
+< 67299dbda23f7e5639814f89 >
+Comment 1: 4
+Comment 2: 3
+Comment 3: 5
+--------

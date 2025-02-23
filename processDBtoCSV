@@ -1,0 +1,33 @@
+from pymongo import MongoClient
+import csv
+
+# Connect to MongoDB
+client = MongoClient('mongodb+srv://mbillahmim:dmY5XMETcLbLSmF6@cluster0.h3plcij.mongodb.net/')
+db = client.sample_mflix
+
+# Access the collection
+javaTestDataset = db.javaTestDataset
+
+# Open a CSV file in write mode
+with open('helpersSimplified.csv', 'w', newline='') as csvfile:
+    # Define the CSV writer
+    writer = csv.DictWriter(csvfile, fieldnames=['id', 'repo', 'method', 'docstring', 'path', 'helpers'])
+
+    # Write the header (field names)
+    writer.writeheader()
+
+    # Iterate over documents in the collection
+    for item in javaTestDataset.find():
+        # Process each document
+        id = item.get('_id')
+        repo = item.get('repo')
+        method = item.get('code')
+        docstring_tokens = item.get("docstring_tokens")
+        docstring = ' '.join(docstring_tokens)
+        path = item.get('path')
+        
+        # Filter out empty MethodBody elements from helpers list
+        helpers = [helper for helper in item.get('helpers', []) if helper.get('MethodBody')]
+
+        # Write data to CSV
+        writer.writerow({'id': id, 'repo': repo, 'method': method, 'docstring': docstring, 'path': path, 'helpers': helpers})
